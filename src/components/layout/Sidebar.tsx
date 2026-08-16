@@ -2,71 +2,89 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { motion } from 'framer-motion'
 import {
-  LayoutDashboard,
-  BookOpen,
-  FileText,
-  Headphones,
-  Mic,
-  Trophy,
-  GraduationCap,
-  Settings,
-  Flame,
+  LayoutDashboard, BookOpen, FileText, Headphones,
+  Mic, Trophy, GraduationCap, Settings, Flame, Library,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { useDashboard } from '@/hooks/useDashboard'
 
-const navItems = [
-  { href: '/learn', icon: LayoutDashboard, label: 'Dashboard', exact: true },
-  { href: '/learn/flashcards', icon: BookOpen, label: 'Flashcard' },
-  { href: '/learn/grammar', icon: FileText, label: 'Ngữ pháp' },
-  { href: '/learn/listening', icon: Headphones, label: 'Nghe' },
-  { href: '/learn/speaking', icon: Mic, label: 'Nói' },
-  { href: '/courses', icon: GraduationCap, label: 'Khóa học' },
-  { href: '/topik', icon: Trophy, label: 'TOPIK' },
+const NAV = [
+  { href: '/learn',           icon: LayoutDashboard, label: 'Dashboard',  exact: true },
+  { href: '/learn/flashcards',icon: BookOpen,         label: 'Flashcard' },
+  { href: '/vocab',           icon: Library,          label: 'Từ vựng'   },
+  { href: '/learn/grammar',   icon: FileText,         label: 'Ngữ pháp'  },
+  { href: '/learn/listening', icon: Headphones,       label: 'Nghe'      },
+  { href: '/learn/speaking',  icon: Mic,              label: 'Nói'       },
+  { href: '/courses',         icon: GraduationCap,    label: 'Khóa học'  },
+  { href: '/topik',           icon: Trophy,           label: 'TOPIK'     },
 ]
 
-interface SidebarProps {
-  streakDays?: number
-}
+const DAILY_GOAL_XP = 100
 
-export function Sidebar({ streakDays = 0 }: SidebarProps) {
+export function Sidebar() {
   const pathname = usePathname()
+  const d = useDashboard()
 
   const isActive = (href: string, exact = false) =>
     exact ? pathname === href : pathname.startsWith(href)
 
+  const goalProgress = Math.min(100, (d.xpToday / DAILY_GOAL_XP) * 100)
+
   return (
-    <aside className="w-[240px] shrink-0 border-r border-[rgba(255,255,255,0.06)] bg-bg-base flex flex-col h-full">
+    <aside className="hidden md:flex w-[240px] shrink-0 border-r border-[rgba(255,255,255,0.06)] bg-bg-base flex-col h-full">
       {/* Logo */}
       <div className="h-16 px-5 flex items-center border-b border-[rgba(255,255,255,0.06)]">
-        <Link href="/" className="flex items-center gap-2 group">
-          <span className="font-serif text-xl text-text-primary group-hover:text-accent-coral transition-colors">
-            한
-          </span>
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <span lang="ko" className="font-korean font-bold text-xl text-text-primary group-hover:text-accent-coral transition-colors">한</span>
           <span className="text-sm font-semibold text-text-primary">Hàn Ngữ</span>
         </Link>
       </div>
 
-      {/* Streak */}
-      <div className="px-5 py-3.5 border-b border-[rgba(255,255,255,0.06)]">
+      {/* Streak + level */}
+      <div className="px-5 py-4 border-b border-[rgba(255,255,255,0.06)] space-y-3">
+        {/* Streak */}
         <div className="flex items-center gap-2">
-          <Flame
-            className={cn('w-4 h-4', streakDays > 0 ? 'text-accent-coral' : 'text-text-tertiary')}
-          />
+          <motion.div
+            animate={d.streakDays > 0 ? { scale: [1, 1.2, 1] } : {}}
+            transition={{ duration: 0.4, repeat: Infinity, repeatDelay: 3 }}
+          >
+            <Flame className={cn('w-4 h-4', d.streakDays > 0 ? 'text-accent-amber' : 'text-text-tertiary')} />
+          </motion.div>
           <span className="text-sm font-medium text-text-primary">
-            {streakDays > 0 ? `${streakDays} ngày streak` : 'Bắt đầu streak hôm nay'}
+            {d.streakDays > 0 ? `${d.streakDays} ngày streak` : 'Bắt đầu streak hôm nay'}
           </span>
+          {d.streakDays >= 7 && (
+            <span className="text-[10px] bg-accent-amber/15 text-accent-amber px-1.5 py-0.5 rounded-full font-medium">×1.5</span>
+          )}
+        </div>
+
+        {/* Daily XP goal */}
+        <div>
+          <div className="flex items-center justify-between mb-1.5">
+            <span className="text-[11px] text-text-tertiary">Mục tiêu hôm nay</span>
+            <span className="text-[11px] text-text-tertiary">{d.xpToday}/{DAILY_GOAL_XP} XP</span>
+          </div>
+          <div className="h-1 bg-bg-elevated rounded-full overflow-hidden">
+            <motion.div
+              className="h-full bg-accent-coral rounded-full"
+              initial={{ width: 0 }}
+              animate={{ width: `${goalProgress}%` }}
+              transition={{ duration: 0.6, ease: 'easeOut' }}
+            />
+          </div>
         </div>
       </div>
 
       {/* Nav */}
       <nav className="flex-1 px-3 py-4 space-y-0.5 overflow-y-auto" aria-label="App navigation">
-        {navItems.map((item) => {
-          const active = isActive(item.href, item.exact)
+        {NAV.map(({ href, icon: Icon, label, exact }) => {
+          const active = isActive(href, exact)
           return (
             <Link
-              key={item.href}
-              href={item.href}
+              key={href}
+              href={href}
               className={cn(
                 'flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all duration-150',
                 active
@@ -74,21 +92,32 @@ export function Sidebar({ streakDays = 0 }: SidebarProps) {
                   : 'text-text-secondary hover:text-text-primary hover:bg-bg-elevated'
               )}
             >
-              <item.icon className="w-4 h-4 shrink-0" />
-              {item.label}
+              <Icon className="w-4 h-4 shrink-0" />
+              {label}
+              {href === '/learn/flashcards' && d.dueCount > 0 && (
+                <span className="ml-auto text-[10px] bg-accent-coral text-white px-1.5 py-0.5 rounded-full font-medium min-w-[18px] text-center">
+                  {d.dueCount}
+                </span>
+              )}
             </Link>
           )
         })}
       </nav>
 
-      {/* Bottom */}
-      <div className="px-3 py-4 border-t border-[rgba(255,255,255,0.06)]">
+      {/* Bottom: level + settings */}
+      <div className="px-3 py-4 border-t border-[rgba(255,255,255,0.06)] space-y-0.5">
+        <div className="px-3 py-2 flex items-center gap-3">
+          <div className="w-7 h-7 rounded-full bg-accent-coral/20 flex items-center justify-center shrink-0">
+            <span className="text-xs font-bold text-accent-coral">{d.level}</span>
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="text-xs font-medium text-text-primary truncate">Lv.{d.level}</p>
+            <p className="text-[10px] text-text-tertiary">{d.xp} XP tổng</p>
+          </div>
+        </div>
         <Link
           href="/settings"
-          className={cn(
-            'flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all duration-150',
-            'text-text-secondary hover:text-text-primary hover:bg-bg-elevated'
-          )}
+          className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all duration-150"
         >
           <Settings className="w-4 h-4" />
           Cài đặt

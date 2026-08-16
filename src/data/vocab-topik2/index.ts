@@ -1,0 +1,123 @@
+import type { VocabCard } from '@/types'
+
+import { vocabTopik2Day01 } from './day-01'
+import { vocabTopik2Day02 } from './day-02'
+import { vocabTopik2Day03 } from './day-03'
+import { vocabTopik2Day04 } from './day-04'
+import { vocabTopik2Day05 } from './day-05'
+import { vocabTopik2Day06 } from './day-06'
+import { vocabTopik2Day07 } from './day-07'
+import { vocabTopik2Day08 } from './day-08'
+import { vocabTopik2Day09 } from './day-09'
+import { vocabTopik2Day10 } from './day-10'
+import { vocabTopik2Day11 } from './day-11'
+import { vocabTopik2Day12 } from './day-12'
+import { vocabTopik2Day13 } from './day-13'
+import { vocabTopik2Day14 } from './day-14'
+import { vocabTopik2Day15 } from './day-15'
+import { vocabTopik2Day16 } from './day-16'
+import { vocabTopik2Day17 } from './day-17'
+import { vocabTopik2Day18 } from './day-18'
+import { vocabTopik2Day20 } from './day-20'
+import { vocabTopik2Day21 } from './day-21'
+import { vocabTopik2Day22 } from './day-22'
+import { vocabTopik2Day23 } from './day-23'
+import { vocabTopik2Day24 } from './day-24'
+import { vocabTopik2Day25 } from './day-25'
+import { vocabTopik2Day27 } from './day-27'
+import { vocabTopik2Day28 } from './day-28'
+import { vocabTopik2Day29 } from './day-29'
+import { vocabTopik2Day30 } from './day-30'
+import { vocabTopik2Day32 } from './day-32'
+import { vocabTopik2Day33 } from './day-33'
+import { vocabTopik2Day34 } from './day-34'
+import { vocabTopik2Day35 } from './day-35'
+import { vocabTopik2Day36 } from './day-36'
+import { vocabTopik2Day37 } from './day-37'
+import { vocabTopik2Day38 } from './day-38'
+import { vocabTopik2Day39 } from './day-39'
+import { vocabTopik2Day40 } from './day-40'
+import { vocabTopik2Day41 } from './day-41'
+import { vocabTopik2Day42 } from './day-42'
+import { vocabTopik2Day43 } from './day-43'
+import { vocabTopik2Day44 } from './day-44'
+import { vocabTopik2Day45 } from './day-45'
+import { vocabTopik2Day46 } from './day-46'
+import { vocabTopik2Day47 } from './day-47'
+import { vocabTopik2Day48 } from './day-48'
+import { vocabTopik2Day49 } from './day-49'
+import { vocabTopik2Day50 } from './day-50'
+import { vocabTopik2Day51 } from './day-51'
+import { vocabTopik2Day52 } from './day-52'
+import { vocabTopik2Day53 } from './day-53'
+import { vocabTopik2Day54 } from './day-54'
+import { vocabTopik2Day55 } from './day-55'
+import { vocabTopik2Day56 } from './day-56'
+import { vocabTopik2Day57 } from './day-57'
+import { vocabTopik2Day58 } from './day-58'
+import { vocabTopik2Day59 } from './day-59'
+import { vocabTopik2Day60 } from './day-60'
+
+export type VocabTopik2Day = { day: number; words: VocabCard[] }
+
+export const vocabTopik2Days: VocabTopik2Day[] = [
+  { day: 1, words: vocabTopik2Day01 },
+  { day: 2, words: vocabTopik2Day02 },
+  { day: 3, words: vocabTopik2Day03 },
+  { day: 4, words: vocabTopik2Day04 },
+  { day: 5, words: vocabTopik2Day05 },
+  { day: 6, words: vocabTopik2Day06 },
+  { day: 7, words: vocabTopik2Day07 },
+  { day: 8, words: vocabTopik2Day08 },
+  { day: 9, words: vocabTopik2Day09 },
+  { day: 10, words: vocabTopik2Day10 },
+  { day: 11, words: vocabTopik2Day11 },
+  { day: 12, words: vocabTopik2Day12 },
+  { day: 13, words: vocabTopik2Day13 },
+  { day: 14, words: vocabTopik2Day14 },
+  { day: 15, words: vocabTopik2Day15 },
+  { day: 16, words: vocabTopik2Day16 },
+  { day: 17, words: vocabTopik2Day17 },
+  { day: 18, words: vocabTopik2Day18 },
+  { day: 20, words: vocabTopik2Day20 },
+  { day: 21, words: vocabTopik2Day21 },
+  { day: 22, words: vocabTopik2Day22 },
+  { day: 23, words: vocabTopik2Day23 },
+  { day: 24, words: vocabTopik2Day24 },
+  { day: 25, words: vocabTopik2Day25 },
+  { day: 27, words: vocabTopik2Day27 },
+  { day: 28, words: vocabTopik2Day28 },
+  { day: 29, words: vocabTopik2Day29 },
+  { day: 30, words: vocabTopik2Day30 },
+  { day: 32, words: vocabTopik2Day32 },
+  { day: 33, words: vocabTopik2Day33 },
+  { day: 34, words: vocabTopik2Day34 },
+  { day: 35, words: vocabTopik2Day35 },
+  { day: 36, words: vocabTopik2Day36 },
+  { day: 37, words: vocabTopik2Day37 },
+  { day: 38, words: vocabTopik2Day38 },
+  { day: 39, words: vocabTopik2Day39 },
+  { day: 40, words: vocabTopik2Day40 },
+  { day: 41, words: vocabTopik2Day41 },
+  { day: 42, words: vocabTopik2Day42 },
+  { day: 43, words: vocabTopik2Day43 },
+  { day: 44, words: vocabTopik2Day44 },
+  { day: 45, words: vocabTopik2Day45 },
+  { day: 46, words: vocabTopik2Day46 },
+  { day: 47, words: vocabTopik2Day47 },
+  { day: 48, words: vocabTopik2Day48 },
+  { day: 49, words: vocabTopik2Day49 },
+  { day: 50, words: vocabTopik2Day50 },
+  { day: 51, words: vocabTopik2Day51 },
+  { day: 52, words: vocabTopik2Day52 },
+  { day: 53, words: vocabTopik2Day53 },
+  { day: 54, words: vocabTopik2Day54 },
+  { day: 55, words: vocabTopik2Day55 },
+  { day: 56, words: vocabTopik2Day56 },
+  { day: 57, words: vocabTopik2Day57 },
+  { day: 58, words: vocabTopik2Day58 },
+  { day: 59, words: vocabTopik2Day59 },
+  { day: 60, words: vocabTopik2Day60 },
+]
+
+export const vocabTopik2All: VocabCard[] = vocabTopik2Days.flatMap(d => d.words)

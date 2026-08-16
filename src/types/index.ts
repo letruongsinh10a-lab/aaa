@@ -10,6 +10,7 @@ export type PartOfSpeech =
   | 'particle'
   | 'expression'
   | 'counter'
+  | 'determiner'
 
 export type CutGroup = 'premium-grill' | 'special-cuts' | 'soup-braised'
 
@@ -27,12 +28,23 @@ export interface VocabCard {
   meaningVi: string
   meaningEn?: string
   pos: PartOfSpeech
-  topikLevel: TOPIKLevel
+  topikLevel?: TOPIKLevel
   frequencyRank: number
   examples: ExampleSentence[]
   audioUrl?: string
   imageUrl?: string
   tags: string[]
+  // Ngày học (bộ "Từ mới TOPIK II", chia theo 60 ngày)
+  day?: number
+  dayOrder?: number
+  pronunciationIrregular?: string
+  conjugation?: string[]
+  relatedPhrases?: string[]
+  structure?: string[]
+  synonyms?: string[]
+  antonyms?: string[]
+  relatedWords?: string[]
+  extraNotes?: { label: string; text: string }[]
 }
 
 export interface GrammarPattern {

@@ -25,3 +25,13 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# personal files not part of the web app (Anki decks, unrelated scripts/images,
+# raw vocab source txt already parsed into src/data/vocab-topik2/, and 4711
+# unused Quizlet mp3s with no id->word mapping — see plan notes)
+*.apkg
+Hình ảnh.png
+make_report.py
+make_report2.py
+Tổng hợp từ vựng dịch (Ngày 1-60)/
+public/audio/quizlet-*.mp3
