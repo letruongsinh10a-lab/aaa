@@ -41,23 +41,18 @@ All read/write goes through `src/lib/srs/store.ts`. The SM-2 algorithm is in `sr
 A review session is a separate in-memory state machine from the SRS store — understanding a session requires reading three files together:
 
 - `src/lib/srs/session.ts` — pure functions over `SessionState` (`createSession`, `recordRating`, `pauseSession`/`resumeSession`, `completeSession`, `getSessionProgress`). Lapsed cards (`again`) are re-inserted 3–5 positions ahead in the queue, not reviewed immediately.
-- `src/hooks/useFlashcardSession.ts` — wraps `session.ts` in React state, and on each rating calls both `calculateNextReview()` (sm2.ts, persisted per-card SRS entry) and `reviewCard()` (store.ts, XP/streak side effects). The session queue and the persisted SRS entries are updated independently — the queue only orders what's shown *this session*.
+- `src/hooks/useFlashcardSession.ts` — wraps `session.ts` in React state. On each rating it calls `store.ts`'s `reviewCard()`, which internally runs `calculateNextReview()` (sm2.ts) and persists the updated SRS entry + XP/streak side effects. The hook also calls `sm2.ts`'s `createNewEntry()`/`isMature()` directly, before writing, to snapshot whether the card was new/mature for session stats. The session queue and the persisted SRS entries are updated independently — the queue only orders what's shown *this session*.
 - `src/app/(focus)/learn/flashcards/page.tsx` — consumes the hook; owns flip state and keyboard shortcuts.
 
 ### Vocab / Grammar Data
 
-Vocab and grammar are static TypeScript arrays — no DB query needed. Each TOPIK level is its own file; an `index.ts` re-exports all levels for convenience, but existing pages import per-level files directly (so per-page bundles don't pull in all ~66k lines at once):
+Static TypeScript arrays — no DB query needed. Vocab and grammar are **not symmetric**:
 
-```ts
-import { vocabTopik1 } from '@/data/vocab/topik1'      // per-level (used by vocab/grammar pages)
-import { vocabTopik1 } from '@/data/vocab'              // barrel (used by flashcards/dashboard)
-```
+- **Vocab** — only one dataset exists: `src/data/vocab-topik2/day-{01..60}.ts` (TOPIK II, ~1,710 words, split by study day rather than by TOPIK level). Day numbers have gaps (19, 26, 31 are missing). The barrel `src/data/vocab-topik2/index.ts` exports `vocabTopik2Days: { day, words }[]` and `vocabTopik2All: VocabCard[]`. There is **no** `src/data/vocab-topik1.ts` or topik3/4/5/6 — `/vocab`, the flashcard page, and `useDashboard.ts` all import from `@/data/vocab-topik2` exclusively. Don't assume a per-level vocab barrel exists; check before importing `@/data/vocab`.
+- **Grammar** — the one place that *is* organized per TOPIK level: `src/data/grammar/{topik1..topik6}.ts`, all 6 populated, re-exported by `src/data/grammar/index.ts`. `src/app/(app)/learn/grammar/page.tsx` imports all six level files directly (not the barrel).
+- `src/data/courses.ts` — static course metadata for `/courses` (no `lessons` populated yet).
 
-- `src/data/vocab/{topik1..topik5}.ts` — TOPIK 6 vocab does not exist yet
-- `src/data/grammar/{topik1..topik6}.ts` — all 6 levels exist
-- `src/data/courses.ts` — course metadata for `/courses`
-
-When adding a new page that needs one or two levels, prefer importing the specific level file(s) directly over the barrel, matching existing pages.
+When adding vocab content for a new TOPIK level, there's no existing pattern to copy from `vocab-topik2/` other than its day-file + barrel shape — you're establishing the topik1/3/4/5/6 convention, not following one.
 
 ### Type Naming — camelCase, not snake_case
 
@@ -84,14 +79,15 @@ card.meaning_vi  card.topik_level  card.frequency_rank
 | `src/lib/motion.ts` | Shared Framer Motion variants — `fadeUp`, `stagger()`, `viewportOnce`, `spring.*` |
 | `src/lib/fonts.ts` | `next/font` instances — `instrumentSerif`, `plusJakartaSans`, `notoSansKR` |
 | `src/types/index.ts` | All shared TypeScript types — never redefine inline |
-| `src/data/vocab/`, `src/data/grammar/` | Per-TOPIK-level static data, plus `index.ts` barrels |
+| `src/data/vocab-topik2/` | Day-based (01–60) vocab static data + barrel — the only vocab dataset that exists |
+| `src/data/grammar/` | Per-TOPIK-level (1–6) static data, plus `index.ts` barrel |
 
 ### What's Actually Built
 
 - **SRS engine** — fully functional, localStorage-backed, SM-2 with XP + streak
 - **Flashcard session** `/learn/flashcards` — 3D flip, keyboard shortcuts (Space/1–4), haptic feedback, session end screen
 - **Dashboard** `/learn` — live stats from localStorage, due card count, activity heatmap
-- **Vocab page** `/vocab` — search/filter across TOPIK 1–5, TOPIK 6 not yet
+- **Vocab page** `/vocab` — search/filter over the TOPIK II 60-day deck only (no TOPIK level filter — see Vocab/Grammar Data above)
 - **Grammar page** `/learn/grammar` — all 6 TOPIK levels, pattern + examples + common mistakes
 - **Landing page** — all 7 sections complete
 - **Courses / TOPIK pages** — UI scaffolded, static data
