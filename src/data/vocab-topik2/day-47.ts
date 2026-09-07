@@ -22,6 +22,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d47-01-native.mp3",
+    "relatedPhrases": [
+      "어쩌면 이렇게 (sao lại có thể... như thế)",
+      "어쩌면 사실일지도 모르다 (biết đâu là sự thật)"
+    ],
     "synonyms": [
       "아마"
     ]
@@ -47,6 +51,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d47-02-native.mp3",
+    "relatedPhrases": [
+      "어쩐지 이상하다 (thảo nào thấy kỳ lạ)",
+      "어쩐지 낯이 익다 (thảo nào thấy quen mặt)"
+    ],
     "synonyms": [
       "왠지"
     ]
@@ -75,6 +83,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "structure": [
       "어찌나 V-는지",
       "어찌나 A-ㄴ지"
+    ],
+    "relatedPhrases": [
+      "어찌나 많은지 (nhiều đến mức nào không biết)",
+      "어찌나 맛있는지 (ngon đến mức nào không biết)"
     ]
   },
   {
@@ -98,6 +110,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d47-04-native.mp3",
+    "relatedPhrases": [
+      "어차피 할 거면 (nếu đằng nào cũng phải làm thì)",
+      "어차피 마찬가지다 (dù sao cũng như nhau)"
+    ],
     "synonyms": [
       "이왕",
       "기왕"
@@ -125,10 +141,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d47-05-native.mp3",
     "relatedPhrases": [
-      "억양이 있다",
-      "억양이 없다",
-      "억양이 세다",
-      "억양이 어색하다"
+      "억양이 있다 (có giọng, có ngữ điệu đặc trưng)",
+      "억양이 어색하다 (ngữ điệu nghe gượng gạo)"
     ],
     "synonyms": [
       "말투"
@@ -161,6 +175,10 @@ export const vocabTopik2Day47: VocabCard[] = [
       "억울하면",
       "억울합니다"
     ],
+    "relatedPhrases": [
+      "억울한 누명을 쓰다 (mang tiếng oan, chịu oan)",
+      "억울해서 눈물이 나다 (ấm ức đến phát khóc)"
+    ],
     "synonyms": [
       "원통하다"
     ]
@@ -186,6 +204,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d47-07-native.mp3",
+    "relatedPhrases": [
+      "억지로 웃다 (cười gượng)",
+      "억지로 시키다 (ép buộc, bắt làm)"
+    ],
     "synonyms": [
       "마지못해",
       "강제로"
@@ -213,10 +235,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d47-08-native.mp3",
     "relatedPhrases": [
-      "언급(을) 하다",
-      "언급(이) 되다",
-      "언급을 피하다",
-      "언급을 자제하다"
+      "언급(을) 하다 (đề cập đến)",
+      "언급을 피하다 (tránh đề cập)"
     ]
   },
   {
@@ -242,12 +262,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d47-09-native.mp3",
     "pronunciationIrregular": "얼론",
     "relatedPhrases": [
-      "언론사",
-      "언론인",
-      "언론을 통제하다",
-      "언론을 탄압하다",
-      "언론에 공개하다",
-      "언론에 보도되다"
+      "언론에 보도되다 (được báo chí đưa tin)",
+      "언론의 자유 (tự do ngôn luận)"
     ]
   },
   {
@@ -271,6 +287,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d47-10-native.mp3",
+    "relatedPhrases": [
+      "언젠가 꼭 (nhất định sẽ có lúc nào đó)",
+      "언젠가 한 번 (có lúc nào đó, một lần nào đó)"
+    ],
     "extraNotes": [
       {
         "label": "So sánh",
@@ -310,6 +330,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     ],
     "relatedWords": [
       "sự động từ của '얼다'"
+    ],
+    "relatedPhrases": [
+      "물을 얼리다 (làm đông nước, đông đá)",
+      "얼려서 보관하다 (bảo quản đông lạnh)"
     ]
   },
   {
@@ -341,10 +365,8 @@ export const vocabTopik2Day47: VocabCard[] = [
       "엄격합니다"
     ],
     "relatedPhrases": [
-      "태도가 엄격하다",
-      "규칙이 엄격하다",
-      "관리가 엄격하다",
-      "통제가 엄격하다"
+      "규칙이 엄격하다 (quy tắc nghiêm ngặt)",
+      "통제가 엄격하다 (kiểm soát nghiêm ngặt)"
     ],
     "synonyms": [
       "엄하다",
@@ -384,9 +406,8 @@ export const vocabTopik2Day47: VocabCard[] = [
       "엄숙합니다"
     ],
     "relatedPhrases": [
-      "분위기가 엄숙하다",
-      "표정이 엄숙하다",
-      "행사가 엄숙하다"
+      "분위기가 엄숙하다 (không khí trang nghiêm)",
+      "표정이 엄숙하다 (biểu cảm nghiêm trang)"
     ],
     "synonyms": [
       "정숙하다"
@@ -423,10 +444,8 @@ export const vocabTopik2Day47: VocabCard[] = [
       "엄청납니다"
     ],
     "relatedPhrases": [
-      "규모가 엄청나다",
-      "피해가 엄청나다",
-      "비용이 엄청나다",
-      "양이 엄청나다"
+      "규모가 엄청나다 (quy mô khủng khiếp)",
+      "피해가 엄청나다 (thiệt hại to lớn)"
     ],
     "synonyms": [
       "굉장하다",
@@ -457,10 +476,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d47-15-native.mp3",
     "pronunciationIrregular": "업쩍",
     "relatedPhrases": [
-      "업적을 쌓다",
-      "업적을 남기다",
-      "업적을 평가하다",
-      "업적을 이루다"
+      "업적을 남기다 (để lại thành tựu)",
+      "업적을 쌓다 (tích lũy thành tích)"
     ],
     "synonyms": [
       "공적"
@@ -494,10 +511,8 @@ export const vocabTopik2Day47: VocabCard[] = [
       "엉뚱합니다"
     ],
     "relatedPhrases": [
-      "모습이 엉뚱하다",
-      "성격이 엉뚱하다",
-      "행동이 엉뚱하다",
-      "생각이 엉뚱하다"
+      "성격이 엉뚱하다 (tính cách lố lăng, khác người)",
+      "행동이 엉뚱하다 (hành động khác thường)"
     ]
   },
   {
@@ -522,10 +537,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d47-17-native.mp3",
     "relatedPhrases": [
-      "엉망이 되다",
-      "엉망으로 하다",
-      "엉망으로 만들다",
-      "엉망으로 취하다"
+      "엉망이 되다 (trở nên lộn xộn, hỏng bét)",
+      "엉망으로 만들다 (làm cho lộn xộn, làm hỏng)"
     ],
     "synonyms": [
       "엉망진창",
@@ -554,9 +567,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d47-18-native.mp3",
     "relatedPhrases": [
-      "엉터리로 하다",
-      "엉터리로 만들다",
-      "엉터리로 말하다"
+      "엉터리로 만들다 (làm ẩu, làm dối)",
+      "엉터리로 말하다 (nói nhảm nhí)"
     ],
     "synonyms": [
       "거짓",
@@ -594,6 +606,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "structure": [
       "N1이/가 N2에 엎드리다"
     ],
+    "relatedPhrases": [
+      "바닥에 엎드리다 (nằm sấp xuống sàn)",
+      "책상에 엎드리다 (gục xuống bàn)"
+    ],
     "extraNotes": [
       {
         "label": "Tục ngữ",
@@ -625,6 +641,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "structure": [
       "여간 + biểu đạt phủ định (아니다",
       "않다...)"
+    ],
+    "relatedPhrases": [
+      "여간 어렵지 않다 (không dễ dàng chút nào)",
+      "여간내기가 아니다 (không phải dạng vừa)"
     ]
   },
   {
@@ -650,10 +670,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d47-21-native.mp3",
     "pronunciationIrregular": "여껀",
     "relatedPhrases": [
-      "여건이 좋다",
-      "여건이 나쁘다",
-      "여건을 갖추다",
-      "여건을 마련하다"
+      "여건이 좋다 (điều kiện tốt)",
+      "여건을 갖추다 (có đủ điều kiện)"
     ]
   },
   {
@@ -678,12 +696,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d47-22-native.mp3",
     "relatedPhrases": [
-      "사실 여부",
-      "참석 여부",
-      "생사 여부",
-      "성공 여부",
-      "합격 여부",
-      "결혼 여부"
+      "사실 여부 (có đúng sự thật hay không)",
+      "참석 여부 (có tham dự hay không)"
     ]
   },
   {
@@ -707,6 +721,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d47-23-native.mp3",
+    "relatedPhrases": [
+      "여전히 그대로다 (vẫn y như cũ)",
+      "여전히 변함없다 (vẫn không thay đổi)"
+    ],
     "synonyms": [
       "변함없이",
       "아직"
@@ -733,6 +751,10 @@ export const vocabTopik2Day47: VocabCard[] = [
     "day": 47,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d47-24-native.mp3",
+    "relatedPhrases": [
+      "연간 소득 (thu nhập hàng năm)",
+      "연간 계획 (kế hoạch hàng năm)"
+    ],
     "extraNotes": [
       {
         "label": "So sánh",
@@ -762,10 +784,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d47-25-native.mp3",
     "relatedPhrases": [
-      "연관이 있다",
-      "연관이 없다",
-      "연관이 되다",
-      "연관이 깊다"
+      "연관이 있다 (có liên quan)",
+      "연관이 깊다 (liên quan sâu sắc)"
     ],
     "synonyms": [
       "관련"
@@ -793,11 +813,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d47-26-native.mp3",
     "relatedPhrases": [
-      "연봉이 높다",
-      "연봉이 많다",
-      "연봉을 주다",
-      "연봉을 받다",
-      "연봉을 올리다"
+      "연봉이 높다 (lương năm cao)",
+      "연봉을 받다 (nhận lương năm)"
     ],
     "extraNotes": [
       {
@@ -828,9 +845,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d47-27-native.mp3",
     "relatedPhrases": [
-      "연설(을) 하다",
-      "연설을 듣다",
-      "연설이 끝나다"
+      "연설(을) 하다 (phát biểu, diễn thuyết)",
+      "연설을 듣다 (nghe bài diễn thuyết)"
     ]
   },
   {
@@ -855,10 +871,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d47-28-native.mp3",
     "relatedPhrases": [
-      "연속으로 + V",
-      "연속해서 + V",
-      "연속으로 우승하다",
-      "연속해서 우승하다"
+      "연속으로 발생하다 (xảy ra liên tiếp)",
+      "연속으로 우승하다 (vô địch liên tiếp)"
     ],
     "synonyms": [
       "계속",
@@ -894,8 +908,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d47-29-native.mp3",
     "relatedPhrases": [
-      "연체(를) 하다",
-      "연체(가) 되다"
+      "연체(를) 하다 (trì hoãn thanh toán, để quá hạn)",
+      "연체(가) 되다 (bị quá hạn)"
     ],
     "relatedWords": [
       "연체료",
@@ -924,10 +938,8 @@ export const vocabTopik2Day47: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d47-30-native.mp3",
     "relatedPhrases": [
-      "연출(을) 하다",
-      "연출(이) 되다",
-      "연출을 맡다",
-      "연출을 맡기다"
+      "연출(을) 하다 (đạo diễn, dàn dựng)",
+      "연출을 맡다 (đảm nhận việc đạo diễn)"
     ],
     "relatedWords": [
       "연출가",

@@ -29,8 +29,8 @@ export const vocabTopik2Day56: VocabCard[] = [
       "처합니다"
     ],
     "relatedPhrases": [
-      "아이가 위험에 처하다",
-      "동물이 어려움에 처하다"
+      "아이가 위험에 처하다 (đứa trẻ rơi vào nguy hiểm)",
+      "동물이 어려움에 처하다 (động vật rơi vào hoàn cảnh khó khăn)"
     ],
     "structure": [
       "N1이/가 N2에 처하다"
@@ -62,8 +62,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d56-02-native.mp3",
     "relatedPhrases": [
-      "철(이) 들다",
-      "철이 없다"
+      "철(이) 들다 (trở nên chững chạc, hiểu chuyện)",
+      "철이 없다 (không hiểu chuyện, trẻ con)"
     ],
     "synonyms": [
       "분별"
@@ -92,10 +92,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d56-03-native.mp3",
     "pronunciationIrregular": "철쩌히",
     "relatedPhrases": [
-      "철저히 조사하다",
-      "철저히 단속하다",
-      "철저히 점검하다",
-      "철저히 대비하다"
+      "철저히 조사하다 (điều tra triệt để)",
+      "철저히 대비하다 (chuẩn bị kỹ lưỡng, triệt để)"
     ],
     "synonyms": [
       "빈틈없이"
@@ -126,9 +124,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d56-04-native.mp3",
     "relatedPhrases": [
-      "첨부(를) 하다",
-      "첨부(가) 되다",
-      "첨부를 요구하다"
+      "첨부(를) 하다 (đính kèm)",
+      "첨부를 요구하다 (yêu cầu đính kèm)"
     ]
   },
   {
@@ -159,10 +156,8 @@ export const vocabTopik2Day56: VocabCard[] = [
       "청합니다"
     ],
     "relatedPhrases": [
-      "도움을 청하다",
-      "악수를 청하다",
-      "화해를 청하다",
-      "잠을 청하다"
+      "도움을 청하다 (nhờ giúp đỡ)",
+      "잠을 청하다 (cố gắng đi ngủ)"
     ]
   },
   {
@@ -187,7 +182,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d56-06-native.mp3",
     "relatedPhrases": [
-      "체계가 있다"
+      "체계가 있다 (có hệ thống, có trật tự)",
+      "체계를 갖추다 (xây dựng/thiết lập hệ thống)"
     ],
     "synonyms": [
       "시스템"
@@ -218,10 +214,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d56-07-native.mp3",
     "relatedPhrases": [
-      "체면이 없다",
-      "체면을 차리다",
-      "체면을 세우다",
-      "체면을 지키다"
+      "체면을 차리다 (giữ thể diện)",
+      "체면이 없다 (mất thể diện, mất mặt)"
     ],
     "synonyms": [
       "면목"
@@ -249,10 +243,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d56-08-native.mp3",
     "relatedPhrases": [
-      "체온이 높다",
-      "체온이 낮다",
-      "체온을 재다",
-      "체온이 떨어지다"
+      "체온을 재다 (đo thân nhiệt)",
+      "체온이 떨어지다 (thân nhiệt giảm xuống)"
     ],
     "relatedWords": [
       "체온계"
@@ -280,11 +272,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d56-09-native.mp3",
     "relatedPhrases": [
-      "체중을 재다",
-      "체중이 늘다",
-      "체중이 줄다",
-      "체중이 나가다",
-      "체중을 조절하다"
+      "체중이 늘다 (tăng cân)",
+      "체중이 줄다 (giảm cân)"
     ],
     "synonyms": [
       "몸무게"
@@ -311,6 +300,10 @@ export const vocabTopik2Day56: VocabCard[] = [
     "day": 56,
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d56-10-native.mp3",
+    "relatedPhrases": [
+      "초보 티가 나다 (lộ rõ vẻ còn non, mới vào nghề)",
+      "초보 딱지를 떼다 (thoát mác người mới bắt đầu)"
+    ],
     "relatedWords": [
       "초보자",
       "초보 운전",
@@ -346,8 +339,8 @@ export const vocabTopik2Day56: VocabCard[] = [
       "초조합니다"
     ],
     "relatedPhrases": [
-      "마음이 초조하다",
-      "기분이 초조하다"
+      "마음이 초조하다 (trong lòng lo lắng, bồn chồn)",
+      "기분이 초조하다 (cảm giác lo lắng, hồi hộp)"
     ],
     "synonyms": [
       "안절부절못하다",
@@ -376,10 +369,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d56-12-native.mp3",
     "relatedPhrases": [
-      "초청(을) 하다",
-      "초청(이) 되다",
-      "초청을 받다",
-      "초청을 수락하다"
+      "초청을 받다 (nhận được lời mời)",
+      "초청(을) 하다 (mời)"
     ],
     "synonyms": [
       "초대"
@@ -412,10 +403,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d56-13-native.mp3",
     "relatedPhrases": [
-      "최대한 노력하다",
-      "최대한 협조하다",
-      "최대한 활용하다",
-      "최대한 누리다"
+      "최대한 노력하다 (nỗ lực tối đa)",
+      "최대한 활용하다 (tận dụng tối đa)"
     ],
     "antonyms": [
       "최소한"
@@ -442,6 +431,10 @@ export const vocabTopik2Day56: VocabCard[] = [
     "day": 56,
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d56-14-native.mp3",
+    "relatedPhrases": [
+      "최신 유행을 따르다 (theo kịp xu hướng mới nhất)",
+      "최신 정보를 얻다 (có được thông tin mới nhất)"
+    ],
     "relatedWords": [
       "최신 정보",
       "최신 기술",
@@ -470,6 +463,10 @@ export const vocabTopik2Day56: VocabCard[] = [
     "day": 56,
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d56-15-native.mp3",
+    "relatedPhrases": [
+      "최종 결정을 내리다 (đưa ra quyết định cuối cùng)",
+      "최종 합격하다 (trúng tuyển ở vòng cuối cùng)"
+    ],
     "antonyms": [
       "최초"
     ],
@@ -502,6 +499,10 @@ export const vocabTopik2Day56: VocabCard[] = [
     "day": 56,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d56-16-native.mp3",
+    "relatedPhrases": [
+      "최초로 시도하다 (lần đầu tiên thử nghiệm)",
+      "최초로 발견되다 (được phát hiện lần đầu tiên)"
+    ],
     "antonyms": [
       "최종"
     ]
@@ -528,10 +529,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d56-17-native.mp3",
     "relatedPhrases": [
-      "추가(를) 하다",
-      "추가(가) 되다",
-      "추가로 공급하다",
-      "추가로 배치하다"
+      "추가(를) 하다 (thêm vào, bổ sung)",
+      "추가로 공급하다 (cung cấp thêm)"
     ],
     "antonyms": [
       "삭제"
@@ -558,6 +557,10 @@ export const vocabTopik2Day56: VocabCard[] = [
     "day": 56,
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d56-18-native.mp3",
+    "relatedPhrases": [
+      "추위를 타다 (sợ lạnh, dễ bị lạnh)",
+      "추위에 떨다 (run rẩy vì lạnh)"
+    ],
     "antonyms": [
       "더위"
     ]
@@ -584,11 +587,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d56-19-native.mp3",
     "relatedPhrases": [
-      "추진(을) 하다",
-      "추진(이) 되다",
-      "사업을 추진하다",
-      "계획을 추진하다",
-      "업무를 추진하다"
+      "사업을 추진하다 (xúc tiến dự án kinh doanh)",
+      "계획을 추진하다 (xúc tiến kế hoạch)"
     ],
     "synonyms": [
       "진행"
@@ -626,10 +626,8 @@ export const vocabTopik2Day56: VocabCard[] = [
       "축소합니다"
     ],
     "relatedPhrases": [
-      "사업을 축소하다",
-      "예산을 축소하다",
-      "조직을 축소하다",
-      "사건을 축소하다"
+      "사업을 축소하다 (thu hẹp quy mô kinh doanh)",
+      "예산을 축소하다 (cắt giảm ngân sách)"
     ],
     "antonyms": [
       "확대하다"
@@ -657,6 +655,10 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d56-21-native.mp3",
     "pronunciationIrregular": "출씬",
+    "relatedPhrases": [
+      "지방 출신이다 (xuất thân từ địa phương)",
+      "명문대 출신이다 (xuất thân từ trường đại học danh tiếng)"
+    ],
     "structure": [
       "N(thân phận",
       "nghề nghiệp",
@@ -686,12 +688,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d56-22-native.mp3",
     "relatedPhrases": [
-      "출연(을) 하다",
-      "출연(이) 되다",
-      "출연을 결심하다",
-      "방송에 출연하다",
-      "드라마에 출연하다",
-      "라디오에 출연하다"
+      "드라마에 출연하다 (tham gia đóng phim truyền hình)",
+      "출연을 결심하다 (quyết định tham gia diễn xuất)"
     ]
   },
   {
@@ -716,8 +714,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d56-23-native.mp3",
     "relatedPhrases": [
-      "출판(을) 하다",
-      "출판(이) 되다"
+      "출판(을) 하다 (xuất bản)",
+      "출판(이) 되다 (được xuất bản)"
     ],
     "synonyms": [
       "출간",
@@ -750,8 +748,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d56-24-native.mp3",
     "relatedPhrases": [
-      "충격을 받다",
-      "충격을 주다"
+      "충격을 받다 (bị sốc, chịu tác động)",
+      "충격을 주다 (gây sốc, gây tác động)"
     ]
   },
   {
@@ -776,10 +774,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d56-25-native.mp3",
     "relatedPhrases": [
-      "충고(를) 하다",
-      "충고를 듣다",
-      "충고를 받아들이다",
-      "충고에 따르다"
+      "충고를 듣다 (nghe lời khuyên)",
+      "충고를 받아들이다 (tiếp nhận lời khuyên)"
     ],
     "synonyms": [
       "조언"
@@ -807,10 +803,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d56-26-native.mp3",
     "relatedPhrases": [
-      "충돌(을) 하다",
-      "충돌(이) 되다",
-      "충돌을 일으키다",
-      "충돌을 피하다"
+      "충돌을 일으키다 (gây ra xung đột/va chạm)",
+      "충돌을 피하다 (tránh xung đột)"
     ],
     "synonyms": [
       "마찰",
@@ -839,10 +833,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d56-27-native.mp3",
     "relatedPhrases": [
-      "취재(를) 하다",
-      "취재(가) 되다",
-      "취재에 나서다",
-      "취재에 응하다"
+      "취재에 나서다 (bắt tay vào lấy tin)",
+      "취재에 응하다 (đồng ý trả lời phỏng vấn)"
     ]
   },
   {
@@ -867,10 +859,8 @@ export const vocabTopik2Day56: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d56-28-native.mp3",
     "relatedPhrases": [
-      "침묵(을) 하다",
-      "침묵이 흐르다",
-      "침묵을 깨다",
-      "침묵에 빠지다"
+      "침묵이 흐르다 (sự im lặng bao trùm)",
+      "침묵을 깨다 (phá vỡ sự im lặng)"
     ]
   },
   {
@@ -902,9 +892,8 @@ export const vocabTopik2Day56: VocabCard[] = [
       "커다랗습니다"
     ],
     "relatedPhrases": [
-      "커다랗다↔작다랗다",
-      "기다랗다↔짤따랗다",
-      "널따랗다↔좁다랗다"
+      "커다란 덩치 (thân hình to lớn)",
+      "커다란 기쁨 (niềm vui lớn lao)"
     ],
     "synonyms": [
       "크다"
@@ -942,9 +931,8 @@ export const vocabTopik2Day56: VocabCard[] = [
       "쾌적합니다"
     ],
     "relatedPhrases": [
-      "환경이 쾌적하다",
-      "기분이 쾌적하다",
-      "기후가 쾌적하다"
+      "환경이 쾌적하다 (môi trường thoải mái, dễ chịu)",
+      "기후가 쾌적하다 (khí hậu dễ chịu)"
     ],
     "synonyms": [
       "상쾌하다"

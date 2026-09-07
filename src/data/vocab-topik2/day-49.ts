@@ -22,6 +22,10 @@ export const vocabTopik2Day49: VocabCard[] = [
     "day": 49,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d49-01-native.mp3",
+    "relatedPhrases": [
+      "우연의 일치 (sự trùng hợp ngẫu nhiên)",
+      "우연이 아니다 (không phải là ngẫu nhiên)"
+    ],
     "antonyms": [
       "필연"
     ],
@@ -59,10 +63,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "운영합니다"
     ],
     "relatedPhrases": [
-      "기업을 운영하다",
-      "회사를 운영하다",
-      "식당을 운영하다",
-      "단체를 운영하다"
+      "회사를 운영하다 (điều hành công ty)",
+      "식당을 운영하다 (kinh doanh nhà hàng)"
     ],
     "synonyms": [
       "경영하다",
@@ -91,10 +93,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d49-03-native.mp3",
     "relatedPhrases": [
-      "운행(을) 하다",
-      "운행(이) 되다",
-      "운행이 중단되다",
-      "운행을 통제하다"
+      "운행이 중단되다 (việc vận hành bị gián đoạn)",
+      "운행을 통제하다 (kiểm soát việc vận hành)"
     ]
   },
   {
@@ -128,6 +128,10 @@ export const vocabTopik2Day49: VocabCard[] = [
     "structure": [
       "N1이/가 N2을/를 웃기다 (là sự động từ của '웃다')"
     ],
+    "relatedPhrases": [
+      "사람들을 웃기다 (chọc cười mọi người)",
+      "웃기는 이야기 (câu chuyện buồn cười)"
+    ],
     "antonyms": [
       "울리다"
     ]
@@ -153,6 +157,10 @@ export const vocabTopik2Day49: VocabCard[] = [
     "day": 49,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d49-05-native.mp3",
+    "relatedPhrases": [
+      "워낙 바쁘다 (vốn dĩ quá bận)",
+      "워낙 말이 없다 (vốn dĩ ít nói)"
+    ],
     "synonyms": [
       "① 아주",
       "매우 ② 본래",
@@ -182,10 +190,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d49-06-native.mp3",
     "pronunciationIrregular": "월리",
     "relatedPhrases": [
-      "원리가 있다",
-      "원리를 발견하다",
-      "원리를 파악하다",
-      "원리를 이해하다"
+      "원리를 파악하다 (nắm bắt nguyên lý)",
+      "원리를 이해하다 (hiểu rõ nguyên lý)"
     ],
     "synonyms": [
       "원칙"
@@ -219,8 +225,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "원만합니다"
     ],
     "relatedPhrases": [
-      "성격이 원만하다",
-      "관계가 원만하다"
+      "성격이 원만하다 (tính cách hòa nhã)",
+      "관계가 원만하다 (mối quan hệ êm đẹp)"
     ],
     "synonyms": [
       "둥글둥글하다"
@@ -251,10 +257,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d49-08-native.mp3",
     "relatedPhrases": [
-      "원칙이 있다",
-      "원칙을 세우다",
-      "원칙을 따르다",
-      "원칙에 어긋나다"
+      "원칙을 세우다 (đặt ra nguyên tắc)",
+      "원칙에 어긋나다 (trái với nguyên tắc)"
     ],
     "synonyms": [
       "법칙",
@@ -288,7 +292,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d49-09-native.mp3",
     "relatedPhrases": [
-      "웬일"
+      "웬일 (chuyện gì thế, sao vậy)",
+      "웬 남자 (một người đàn ông lạ nào đó)"
     ]
   },
   {
@@ -318,6 +323,10 @@ export const vocabTopik2Day49: VocabCard[] = [
       "웬만하면",
       "웬만합니다"
     ],
+    "relatedPhrases": [
+      "웬만한 일 (việc ở mức vừa phải)",
+      "웬만하면 참다 (nếu có thể thì ráng chịu đựng)"
+    ],
     "synonyms": [
       "어지간하다"
     ]
@@ -344,10 +353,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d49-11-native.mp3",
     "relatedPhrases": [
-      "위기를 극복하다",
-      "위기를 넘기다",
-      "위기에 빠지다",
-      "위기에 처하다"
+      "위기를 극복하다 (vượt qua khủng hoảng)",
+      "위기에 처하다 (rơi vào tình trạng nguy cấp)"
     ]
   },
   {
@@ -378,9 +385,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "위대합니다"
     ],
     "relatedPhrases": [
-      "업적이 위대하다",
-      "힘이 위대하다",
-      "인물이 위대하다"
+      "업적이 위대하다 (thành tựu vĩ đại)",
+      "인물이 위대하다 (nhân vật vĩ đại)"
     ],
     "synonyms": [
       "훌륭하다",
@@ -409,9 +415,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d49-13-native.mp3",
     "relatedPhrases": [
-      "위로(를) 하다",
-      "위로(가) 되다",
-      "위로를 받다"
+      "위로를 받다 (nhận được sự an ủi)",
+      "위로가 되다 (trở thành nguồn an ủi)"
     ],
     "synonyms": [
       "위안"
@@ -439,11 +444,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d49-14-native.mp3",
     "relatedPhrases": [
-      "위반(을) 하다",
-      "위반(이) 되다",
-      "법을 위반하다",
-      "신호를 위반하다",
-      "속도를 위반하다"
+      "법을 위반하다 (vi phạm pháp luật)",
+      "신호를 위반하다 (vi phạm tín hiệu giao thông)"
     ]
   },
   {
@@ -468,11 +470,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d49-15-native.mp3",
     "relatedPhrases": [
-      "위협(을) 하다",
-      "위협(이) 되다",
-      "위협을 받다",
-      "위협을 당하다",
-      "위협을 느끼다"
+      "위협을 느끼다 (cảm thấy bị đe dọa)",
+      "위협을 받다 (bị đe dọa)"
     ],
     "relatedWords": [
       "위협적",
@@ -500,6 +499,10 @@ export const vocabTopik2Day49: VocabCard[] = [
     "day": 49,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d49-16-native.mp3",
+    "relatedPhrases": [
+      "유난히 춥다 (lạnh khác thường)",
+      "유난히 많다 (nhiều khác thường)"
+    ],
     "relatedWords": [
       "유난하다",
       "유난스럽다 (tính từ)"
@@ -531,6 +534,10 @@ export const vocabTopik2Day49: VocabCard[] = [
       "유능해서",
       "유능하면",
       "유능합니다"
+    ],
+    "relatedPhrases": [
+      "유능한 인재 (nhân tài có năng lực)",
+      "유능한 지도자 (nhà lãnh đạo tài giỏi)"
     ],
     "antonyms": [
       "무능하다"
@@ -566,6 +573,10 @@ export const vocabTopik2Day49: VocabCard[] = [
     "structure": [
       "N1이/가 N2에/에게 유리하다"
     ],
+    "relatedPhrases": [
+      "유리한 조건 (điều kiện có lợi)",
+      "농사에 유리하다 (có lợi cho việc trồng trọt)"
+    ],
     "antonyms": [
       "불리하다"
     ]
@@ -592,10 +603,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d49-19-native.mp3",
     "relatedPhrases": [
-      "유산을 남기다",
-      "유산을 물려주다",
-      "유산을 받다",
-      "유산을 물려받다"
+      "유산을 남기다 (để lại di sản)",
+      "유산을 물려받다 (thừa hưởng di sản)"
     ],
     "relatedWords": [
       "문화유산"
@@ -629,9 +638,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "유지합니다"
     ],
     "relatedPhrases": [
-      "질서를 유지하다",
-      "관계를 유지하다",
-      "평화를 유지하다"
+      "질서를 유지하다 (duy trì trật tự)",
+      "관계를 유지하다 (duy trì mối quan hệ)"
     ]
   },
   {
@@ -662,9 +670,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "유창합니다"
     ],
     "relatedPhrases": [
-      "외국어가 유창하다",
-      "말솜씨가 유창하다",
-      "언변이 유창하다"
+      "외국어가 유창하다 (ngoại ngữ lưu loát)",
+      "말솜씨가 유창하다 (tài ăn nói trôi chảy)"
     ],
     "synonyms": [
       "막힘없다",
@@ -699,10 +706,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "유치합니다"
     ],
     "relatedPhrases": [
-      "생각이 유치하다",
-      "행동이 유치하다",
-      "장난이 유치하다",
-      "내용이 유치하다"
+      "행동이 유치하다 (hành động trẻ con)",
+      "생각이 유치하다 (suy nghĩ ấu trĩ)"
     ],
     "antonyms": [
       "성숙하다"
@@ -736,9 +741,8 @@ export const vocabTopik2Day49: VocabCard[] = [
       "유쾌합니다"
     ],
     "relatedPhrases": [
-      "기분이 유쾌하다",
-      "웃음이 유쾌하다",
-      "모임이 유쾌하다"
+      "기분이 유쾌하다 (tâm trạng vui vẻ)",
+      "모임이 유쾌하다 (buổi họp mặt vui vẻ)"
     ],
     "antonyms": [
       "불쾌하다"
@@ -766,9 +770,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d49-24-native.mp3",
     "relatedPhrases": [
-      "유형으로 나누다",
-      "유형으로 분류하다",
-      "유형으로 구분하다"
+      "유형으로 분류하다 (phân loại theo kiểu)",
+      "유형으로 나누다 (chia theo loại hình)"
     ],
     "synonyms": [
       "종류"
@@ -796,11 +799,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d49-25-native.mp3",
     "relatedPhrases": [
-      "유혹(을) 하다",
-      "유혹(이) 되다",
-      "유혹에 빠지다",
-      "유혹에 넘어가다",
-      "유혹을 뿌리치다"
+      "유혹에 빠지다 (sa vào cám dỗ)",
+      "유혹을 뿌리치다 (cưỡng lại cám dỗ)"
     ]
   },
   {
@@ -825,10 +825,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d49-26-native.mp3",
     "relatedPhrases": [
-      "은혜를 입다",
-      "은혜를 갚다",
-      "은혜에 보답하다",
-      "은혜를 베풀다"
+      "은혜를 입다 (chịu ơn)",
+      "은혜를 갚다 (báo đáp ơn nghĩa)"
     ],
     "extraNotes": [
       {
@@ -859,10 +857,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d49-27-native.mp3",
     "relatedPhrases": [
-      "의도(를) 하다",
-      "의도가 있다",
-      "의도가 좋다",
-      "의도를 파악하다"
+      "의도가 있다 (có ý đồ)",
+      "의도를 파악하다 (nắm bắt ý đồ)"
     ],
     "synonyms": [
       "생각",
@@ -896,10 +892,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d49-28-native.mp3",
     "relatedPhrases": [
-      "의무가 있다",
-      "의무를 지다",
-      "의무를 다하다",
-      "의무를 이행하다"
+      "의무를 다하다 (làm tròn nghĩa vụ)",
+      "의무가 있다 (có nghĩa vụ)"
     ],
     "synonyms": [
       "책임"
@@ -934,10 +928,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d49-29-native.mp3",
     "relatedPhrases": [
-      "의사가 있다",
-      "의사를 밝히다",
-      "의사를 전달하다",
-      "의사를 결정하다"
+      "의사를 밝히다 (bày tỏ ý định)",
+      "의사를 전달하다 (truyền đạt ý định)"
     ],
     "synonyms": [
       "생각",
@@ -970,12 +962,8 @@ export const vocabTopik2Day49: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d49-30-native.mp3",
     "relatedPhrases": [
-      "의식(을) 하다",
-      "의식(이) 되다",
-      "의식이 있다",
-      "의식을 잃다",
-      "의식이 돌아오다",
-      "의식이 뚜렷하다"
+      "의식을 잃다 (mất ý thức)",
+      "의식이 돌아오다 (tỉnh lại, hồi tỉnh)"
     ],
     "synonyms": [
       "정신",

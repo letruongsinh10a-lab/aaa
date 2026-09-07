@@ -21,7 +21,11 @@ export const vocabTopik2Day22: VocabCard[] = [
     "tags": [],
     "day": 22,
     "dayOrder": 1,
-    "audioUrl": "/audio/word-t2-d22-01-native.mp3"
+    "audioUrl": "/audio/word-t2-d22-01-native.mp3",
+    "relatedPhrases": [
+      "문화의 중심지 (trung tâm văn hóa)",
+      "중심지 역할을 하다 (đóng vai trò trung tâm)"
+    ]
   },
   {
     "id": "t2-d22-02",
@@ -45,6 +49,10 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d22-02-native.mp3",
     "pronunciationIrregular": "즉씨",
+    "relatedPhrases": [
+      "즉시 연락하다 (liên lạc ngay lập tức)",
+      "즉시 처리하다 (xử lý ngay lập tức)"
+    ],
     "synonyms": [
       "곧",
       "곧바로",
@@ -72,6 +80,10 @@ export const vocabTopik2Day22: VocabCard[] = [
     "day": 22,
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d22-03-native.mp3",
+    "relatedPhrases": [
+      "인구가 증가하다 (dân số tăng lên)",
+      "수출이 증가하다 (xuất khẩu tăng lên)"
+    ],
     "structure": [
       "N1에서 N2(으)로 N3이/가 증가하다"
     ],
@@ -83,12 +95,6 @@ export const vocabTopik2Day22: VocabCard[] = [
       "감소하다",
       "줄다",
       "줄어들다"
-    ],
-    "extraNotes": [
-      {
-        "label": "Ví dụ cụm",
-        "text": "인구가 증가하다, 수출이 증가하다, 1억에서 3억으로 2억이 증가하다"
-      }
     ]
   },
   {
@@ -113,9 +119,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d22-04-native.mp3",
     "relatedPhrases": [
-      "증상이 심하다",
-      "증상이 나타나다",
-      "증상을 보이다"
+      "증상이 나타나다 (xuất hiện triệu chứng)",
+      "증상이 심하다 (triệu chứng trở nặng)"
     ],
     "synonyms": [
       "증세"
@@ -142,6 +147,10 @@ export const vocabTopik2Day22: VocabCard[] = [
     "day": 22,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d22-05-native.mp3",
+    "relatedPhrases": [
+      "운동을 지나치게 하다 (tập thể dục quá mức)",
+      "지나친 행동 (hành động thái quá)"
+    ],
     "synonyms": [
       "심하다"
     ],
@@ -172,9 +181,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d22-06-native.mp3",
     "relatedPhrases": [
-      "해가 지다",
-      "낙엽이 지다",
-      "꽃이 지다"
+      "해가 지다 (mặt trời lặn)",
+      "낙엽이 지다 (lá rụng)"
     ]
   },
   {
@@ -199,9 +207,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d22-07-native.mp3",
     "relatedPhrases": [
-      "지원자",
-      "지원 동기",
-      "지원(을) 하다"
+      "지원 동기 (động cơ ứng tuyển)",
+      "지원(을) 하다 (nộp đơn ứng tuyển)"
     ]
   },
   {
@@ -225,6 +232,10 @@ export const vocabTopik2Day22: VocabCard[] = [
     "day": 22,
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d22-08-native.mp3",
+    "relatedPhrases": [
+      "방이 지저분하다 (phòng bừa bộn)",
+      "거리가 지저분하다 (đường phố bẩn thỉu)"
+    ],
     "antonyms": [
       "깨끗하다"
     ]
@@ -249,7 +260,11 @@ export const vocabTopik2Day22: VocabCard[] = [
     "tags": [],
     "day": 22,
     "dayOrder": 9,
-    "audioUrl": "/audio/word-t2-d22-09-native.mp3"
+    "audioUrl": "/audio/word-t2-d22-09-native.mp3",
+    "relatedPhrases": [
+      "진심으로 축하하다 (chân thành chúc mừng)",
+      "진심을 다하다 (dốc hết lòng chân thành)"
+    ]
   },
   {
     "id": "t2-d22-10",
@@ -273,8 +288,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d22-10-native.mp3",
     "relatedPhrases": [
-      "진찰(을) 하다",
-      "진찰을 받다"
+      "진찰(을) 하다 (khám bệnh)",
+      "진찰을 받다 (được khám bệnh)"
     ],
     "synonyms": [
       "진료"
@@ -300,7 +315,11 @@ export const vocabTopik2Day22: VocabCard[] = [
     "tags": [],
     "day": 22,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d22-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d22-11-native.mp3",
+    "relatedPhrases": [
+      "진통제를 먹다 (uống thuốc giảm đau)",
+      "진통제를 맞다 (tiêm thuốc giảm đau)"
+    ]
   },
   {
     "id": "t2-d22-12",
@@ -324,8 +343,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d22-12-native.mp3",
     "relatedPhrases": [
-      "진학(을) 하다",
-      "진학을 시키다"
+      "진학(을) 하다 (học lên bậc cao)",
+      "진학을 시키다 (cho học lên bậc cao)"
     ]
   },
   {
@@ -350,9 +369,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d22-13-native.mp3",
     "relatedPhrases": [
-      "진행(을) 하다",
-      "진행(이) 되다",
-      "진행(을) 시키다"
+      "진행(을) 하다 (tiến hành)",
+      "진행(이) 되다 (được tiến hành, đang diễn ra)"
     ]
   },
   {
@@ -377,10 +395,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d22-14-native.mp3",
     "relatedPhrases": [
-      "질이 좋다",
-      "질이 나쁘다",
-      "질이 떨어지다",
-      "질을 높이다"
+      "질이 좋다 (chất lượng tốt)",
+      "질을 높이다 (nâng cao chất lượng)"
     ],
     "synonyms": [
       "품질"
@@ -409,8 +425,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d22-15-native.mp3",
     "pronunciationIrregular": "집따",
     "relatedPhrases": [
-      "젓가락으로 반찬을 집다",
-      "손가락으로 동전을 집다"
+      "젓가락으로 반찬을 집다 (gắp thức ăn bằng đũa)",
+      "손가락으로 동전을 집다 (nhặt đồng xu bằng ngón tay)"
     ],
     "structure": [
       "N1(으)로 N2을/를 집다"
@@ -439,10 +455,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d22-16-native.mp3",
     "pronunciationIrregular": "집쭝",
     "relatedPhrases": [
-      "집중력",
-      "집중적",
-      "집중(을) 하다",
-      "집중(이) 되다"
+      "집중력 (khả năng tập trung)",
+      "집중(이) 되다 (tập trung được)"
     ],
     "antonyms": [
       "분산 (phân tán)"
@@ -470,9 +484,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d22-17-native.mp3",
     "relatedPhrases": [
-      "계획을 짜다",
-      "일정을 짜다",
-      "시간표를 짜다"
+      "스웨터를 짜다 (đan áo len)",
+      "목도리를 짜다 (đan khăn quàng cổ)"
     ]
   },
   {
@@ -498,8 +511,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d22-18-native.mp3",
     "pronunciationIrregular": "찓따",
     "relatedPhrases": [
-      "종이를 찢다",
-      "옷을 찢다"
+      "종이를 찢다 (xé giấy)",
+      "옷을 찢다 (xé rách quần áo)"
     ]
   },
   {
@@ -523,6 +536,10 @@ export const vocabTopik2Day22: VocabCard[] = [
     "day": 22,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d22-19-native.mp3",
+    "relatedPhrases": [
+      "차량이 늘어나다 (số lượng xe tăng lên)",
+      "차량 통행금지 (cấm xe cộ đi lại)"
+    ],
     "synonyms": [
       "차"
     ]
@@ -549,10 +566,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d22-20-native.mp3",
     "relatedPhrases": [
-      "저녁을 차리다",
-      "상을 차리다",
-      "정신을 차리다",
-      "예의를 차리다"
+      "저녁을 차리다 (chuẩn bị bữa tối)",
+      "상을 차리다 (bày mâm cơm)"
     ]
   },
   {
@@ -577,12 +592,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d22-21-native.mp3",
     "relatedPhrases": [
-      "차이점",
-      "차이가 있다",
-      "차이가 없다",
-      "차이가 크다",
-      "차이가 나다",
-      "차이를 느끼다"
+      "차이가 있다 (có sự khác biệt)",
+      "차이가 나다 (có sự chênh lệch, khác biệt)"
     ]
   },
   {
@@ -607,8 +618,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d22-22-native.mp3",
     "relatedPhrases": [
-      "찬성(을) 하다",
-      "찬성을 얻다"
+      "찬성(을) 하다 (đồng ý, tán thành)",
+      "찬성을 얻다 (nhận được sự đồng ý)"
     ],
     "synonyms": [
       "동의"
@@ -639,8 +650,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d22-23-native.mp3",
     "relatedPhrases": [
-      "행사에 참가하다",
-      "대회에 참가하다"
+      "행사에 참가하다 (tham gia sự kiện)",
+      "대회에 참가하다 (tham gia cuộc thi)"
     ],
     "structure": [
       "N에 참가하다"
@@ -675,8 +686,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d22-24-native.mp3",
     "relatedPhrases": [
-      "참고(를) 하다",
-      "참고(가) 되다"
+      "참고(를) 하다 (tham khảo)",
+      "참고(가) 되다 (được dùng làm tham khảo)"
     ]
   },
   {
@@ -701,8 +712,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d22-25-native.mp3",
     "relatedPhrases": [
-      "회의에 참석하다",
-      "모임에 참석하다"
+      "회의에 참석하다 (tham dự cuộc họp)",
+      "모임에 참석하다 (tham dự buổi họp mặt)"
     ],
     "structure": [
       "N에 참석하다"
@@ -736,6 +747,10 @@ export const vocabTopik2Day22: VocabCard[] = [
     "day": 22,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d22-26-native.mp3",
+    "relatedPhrases": [
+      "창피를 당하다 (bị bẽ mặt)",
+      "창피해서 죽겠다 (xấu hổ muốn chết)"
+    ],
     "synonyms": [
       "부끄럽다"
     ]
@@ -762,8 +777,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d22-27-native.mp3",
     "relatedPhrases": [
-      "냉장고를 음식으로 채우다",
-      "냉장고에 음식을 채우다"
+      "냉장고를 음식으로 채우다 (lấp đầy tủ lạnh bằng thức ăn)",
+      "냉장고에 음식을 채우다 (cho thức ăn vào đầy tủ lạnh)"
     ],
     "structure": [
       "N1을/를 N2(으)로 채우다",
@@ -793,7 +808,11 @@ export const vocabTopik2Day22: VocabCard[] = [
     "tags": [],
     "day": 22,
     "dayOrder": 28,
-    "audioUrl": "/audio/word-t2-d22-28-native.mp3"
+    "audioUrl": "/audio/word-t2-d22-28-native.mp3",
+    "relatedPhrases": [
+      "짐을 챙기다 (thu xếp hành lý)",
+      "동생을 챙기다 (chăm sóc em)"
+    ]
   },
   {
     "id": "t2-d22-29",
@@ -817,10 +836,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d22-29-native.mp3",
     "relatedPhrases": [
-      "처방전",
-      "처방(을) 하다",
-      "처방을 받다",
-      "처방을 내리다"
+      "처방전 (đơn thuốc)",
+      "처방을 받다 (được kê đơn thuốc)"
     ]
   },
   {
@@ -846,8 +863,8 @@ export const vocabTopik2Day22: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d22-30-native.mp3",
     "pronunciationIrregular": "천눈",
     "relatedPhrases": [
-      "첫눈에 반하다",
-      "첫눈에 알아보다"
+      "첫눈에 반하다 (phải lòng ngay từ cái nhìn đầu tiên)",
+      "첫눈에 알아보다 (nhận ra ngay từ cái nhìn đầu tiên)"
     ]
   }
 ]

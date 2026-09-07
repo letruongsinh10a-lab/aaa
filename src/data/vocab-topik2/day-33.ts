@@ -21,7 +21,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 1,
-    "audioUrl": "/audio/word-t2-d33-01-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-01-native.mp3",
+    "relatedPhrases": [
+      "한계에 달하다 (đạt đến giới hạn)",
+      "정점에 달하다 (đạt đến đỉnh điểm)"
+    ]
   },
   {
     "id": "t2-d33-02",
@@ -44,7 +48,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "day": 33,
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d33-02-native.mp3",
-    "pronunciationIrregular": "달타"
+    "pronunciationIrregular": "달타",
+    "relatedPhrases": [
+      "신발이 닳다 (giày bị mòn)",
+      "구두 굽이 닳다 (gót giày tây bị mòn)"
+    ]
   },
   {
     "id": "t2-d33-03",
@@ -66,7 +74,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d33-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-03-native.mp3",
+    "relatedPhrases": [
+      "담당 부서 (bộ phận phụ trách)",
+      "담당자를 만나다 (gặp người phụ trách)"
+    ]
   },
   {
     "id": "t2-d33-04",
@@ -89,7 +101,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "day": 33,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d33-04-native.mp3",
-    "pronunciationIrregular": "담배카다"
+    "pronunciationIrregular": "담배카다",
+    "relatedPhrases": [
+      "맛이 담백하다 (vị thanh đạm)",
+      "성격이 담백하다 (tính cách đơn giản, không cầu kỳ)"
+    ]
   },
   {
     "id": "t2-d33-05",
@@ -111,7 +127,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 5,
-    "audioUrl": "/audio/word-t2-d33-05-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-05-native.mp3",
+    "relatedPhrases": [
+      "답변을 하다 (đưa ra câu trả lời)",
+      "답변을 받다 (nhận được câu trả lời)"
+    ]
   },
   {
     "id": "t2-d33-06",
@@ -133,7 +153,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 6,
-    "audioUrl": "/audio/word-t2-d33-06-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-06-native.mp3",
+    "relatedPhrases": [
+      "의자를 당기다 (kéo ghế lại gần)",
+      "손잡이를 당기다 (kéo tay nắm)"
+    ]
   },
   {
     "id": "t2-d33-07",
@@ -155,7 +179,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 7,
-    "audioUrl": "/audio/word-t2-d33-07-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-07-native.mp3",
+    "relatedPhrases": [
+      "당당하게 말하다 (nói một cách tự tin)",
+      "태도가 당당하다 (thái độ đường hoàng)"
+    ]
   },
   {
     "id": "t2-d33-08",
@@ -177,7 +205,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 8,
-    "audioUrl": "/audio/word-t2-d33-08-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-08-native.mp3",
+    "relatedPhrases": [
+      "당분간 계속되다 (tạm thời tiếp diễn)",
+      "당분간 쉬다 (tạm thời nghỉ ngơi)"
+    ]
   },
   {
     "id": "t2-d33-09",
@@ -199,7 +231,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 9,
-    "audioUrl": "/audio/word-t2-d33-09-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-09-native.mp3",
+    "relatedPhrases": [
+      "당시 상황 (tình huống lúc đó)",
+      "그 당시에는 (vào thời điểm đó)"
+    ]
   },
   {
     "id": "t2-d33-10",
@@ -221,7 +257,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 10,
-    "audioUrl": "/audio/word-t2-d33-10-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-10-native.mp3",
+    "relatedPhrases": [
+      "복권에 당첨되다 (trúng số)",
+      "당첨 번호 (số trúng thưởng)"
+    ]
   },
   {
     "id": "t2-d33-11",
@@ -243,7 +283,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d33-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-11-native.mp3",
+    "relatedPhrases": [
+      "사기를 당하다 (bị lừa đảo)",
+      "피해를 당하다 (bị chịu thiệt hại)"
+    ]
   },
   {
     "id": "t2-d33-12",
@@ -265,7 +309,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 12,
-    "audioUrl": "/audio/word-t2-d33-12-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-12-native.mp3",
+    "relatedPhrases": [
+      "대개의 경우 (trong đa số trường hợp)",
+      "대개 그렇듯이 (thường là như vậy)"
+    ]
   },
   {
     "id": "t2-d33-13",
@@ -287,7 +335,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 13,
-    "audioUrl": "/audio/word-t2-d33-13-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-13-native.mp3",
+    "relatedPhrases": [
+      "대기 오염 (ô nhiễm không khí)",
+      "대기가 맑다 (không khí trong lành)"
+    ]
   },
   {
     "id": "t2-d33-14",
@@ -309,7 +361,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 14,
-    "audioUrl": "/audio/word-t2-d33-14-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-14-native.mp3",
+    "relatedPhrases": [
+      "대다수의 사람들 (đại đa số mọi người)",
+      "국민의 대다수 (đại đa số người dân)"
+    ]
   },
   {
     "id": "t2-d33-15",
@@ -331,7 +387,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 15,
-    "audioUrl": "/audio/word-t2-d33-15-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-15-native.mp3",
+    "relatedPhrases": [
+      "대략 짐작하다 (phỏng đoán đại khái)",
+      "대략 백 명 (khoảng chừng 100 người)"
+    ]
   },
   {
     "id": "t2-d33-16",
@@ -353,7 +413,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 16,
-    "audioUrl": "/audio/word-t2-d33-16-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-16-native.mp3",
+    "relatedPhrases": [
+      "노후 대비 (chuẩn bị cho tuổi già)",
+      "대비를 하다 (chuẩn bị, đề phòng)"
+    ]
   },
   {
     "id": "t2-d33-17",
@@ -375,7 +439,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 17,
-    "audioUrl": "/audio/word-t2-d33-17-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-17-native.mp3",
+    "relatedPhrases": [
+      "합격 대상자 (người trúng tuyển)",
+      "지원 대상자 (đối tượng được hỗ trợ)"
+    ]
   },
   {
     "id": "t2-d33-18",
@@ -397,7 +465,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 18,
-    "audioUrl": "/audio/word-t2-d33-18-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-18-native.mp3",
+    "relatedPhrases": [
+      "신속한 대응 (sự ứng phó nhanh chóng)",
+      "대응을 하다 (tiến hành ứng phó)"
+    ]
   },
   {
     "id": "t2-d33-19",
@@ -419,7 +491,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 19,
-    "audioUrl": "/audio/word-t2-d33-19-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-19-native.mp3",
+    "relatedPhrases": [
+      "손님을 대접하다 (tiếp đón khách)",
+      "대접을 받다 (được đối đãi/tiếp đón)"
+    ]
   },
   {
     "id": "t2-d33-20",
@@ -441,7 +517,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 20,
-    "audioUrl": "/audio/word-t2-d33-20-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-20-native.mp3",
+    "relatedPhrases": [
+      "대조를 이루다 (tạo nên sự đối lập)",
+      "자료를 대조하다 (đối chiếu tài liệu)"
+    ]
   },
   {
     "id": "t2-d33-21",
@@ -463,7 +543,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 21,
-    "audioUrl": "/audio/word-t2-d33-21-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-21-native.mp3",
+    "relatedPhrases": [
+      "대중문화를 즐기다 (thưởng thức văn hóa đại chúng)",
+      "대중문화의 확산 (sự lan tỏa của văn hóa đại chúng)"
+    ]
   },
   {
     "id": "t2-d33-22",
@@ -485,7 +569,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 22,
-    "audioUrl": "/audio/word-t2-d33-22-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-22-native.mp3",
+    "relatedPhrases": [
+      "대책을 마련하다 (chuẩn bị biện pháp)",
+      "대책을 세우다 (đề ra biện pháp)"
+    ]
   },
   {
     "id": "t2-d33-23",
@@ -507,7 +595,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 23,
-    "audioUrl": "/audio/word-t2-d33-23-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-23-native.mp3",
+    "relatedPhrases": [
+      "신속한 대처 (sự xử lý nhanh chóng)",
+      "대처 방안 (phương án đối phó)"
+    ]
   },
   {
     "id": "t2-d33-24",
@@ -529,7 +621,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 24,
-    "audioUrl": "/audio/word-t2-d33-24-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-24-native.mp3",
+    "relatedPhrases": [
+      "대충 넘어가다 (bỏ qua qua loa)",
+      "대충 끝내다 (kết thúc sơ sài)"
+    ]
   },
   {
     "id": "t2-d33-25",
@@ -551,7 +647,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 25,
-    "audioUrl": "/audio/word-t2-d33-25-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-25-native.mp3",
+    "relatedPhrases": [
+      "더구나 시간도 없다 (hơn nữa cũng không có thời gian)",
+      "더구나 몸까지 아프다 (hơn nữa cơ thể còn bị đau nữa)"
+    ]
   },
   {
     "id": "t2-d33-26",
@@ -574,7 +674,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "day": 33,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d33-26-native.mp3",
-    "pronunciationIrregular": "더러피다"
+    "pronunciationIrregular": "더러피다",
+    "relatedPhrases": [
+      "환경을 더럽히다 (làm ô nhiễm/làm bẩn môi trường)",
+      "이름을 더럽히다 (bôi nhọ tên tuổi, làm ô danh)"
+    ]
   },
   {
     "id": "t2-d33-27",
@@ -596,7 +700,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 27,
-    "audioUrl": "/audio/word-t2-d33-27-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-27-native.mp3",
+    "relatedPhrases": [
+      "자연과 더불어 살다 (sống cùng với tự nhiên)",
+      "가족과 더불어 (cùng với gia đình)"
+    ]
   },
   {
     "id": "t2-d33-28",
@@ -618,7 +726,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 28,
-    "audioUrl": "/audio/word-t2-d33-28-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-28-native.mp3",
+    "relatedPhrases": [
+      "더위를 타다 (dễ bị/sợ nóng)",
+      "더위를 식히다 (làm dịu cái nóng)"
+    ]
   },
   {
     "id": "t2-d33-29",
@@ -641,7 +753,11 @@ export const vocabTopik2Day33: VocabCard[] = [
     "day": 33,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d33-29-native.mp3",
-    "pronunciationIrregular": "던부치다"
+    "pronunciationIrregular": "던부치다",
+    "relatedPhrases": [
+      "말을 덧붙이다 (nói thêm)",
+      "설명을 덧붙이다 (bổ sung thêm lời giải thích)"
+    ]
   },
   {
     "id": "t2-d33-30",
@@ -663,6 +779,10 @@ export const vocabTopik2Day33: VocabCard[] = [
     "tags": [],
     "day": 33,
     "dayOrder": 30,
-    "audioUrl": "/audio/word-t2-d33-30-native.mp3"
+    "audioUrl": "/audio/word-t2-d33-30-native.mp3",
+    "relatedPhrases": [
+      "음식을 데우다 (hâm nóng thức ăn)",
+      "물을 데우다 (làm nóng nước)"
+    ]
   }
 ]

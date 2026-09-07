@@ -23,10 +23,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d07-01-native.mp3",
     "relatedPhrases": [
-      "도시락을 싸다",
-      "도시락을 먹다",
-      "도시락을 챙기다",
-      "도시락을 가져오다"
+      "도시락을 싸다 (chuẩn bị cơm hộp)",
+      "도시락을 먹다 (ăn cơm hộp)"
     ]
   },
   {
@@ -50,6 +48,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d07-02-native.mp3",
+    "relatedPhrases": [
+      "도심 지역 (khu vực nội thành)",
+      "도심을 벗어나다 (rời khỏi trung tâm thành phố)"
+    ],
     "synonyms": [
       "도심지"
     ]
@@ -75,6 +77,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d07-03-native.mp3",
+    "relatedPhrases": [
+      "도중에 그만두다 (bỏ dở giữa chừng)",
+      "수업 도중에 (giữa lúc đang học)"
+    ],
     "synonyms": [
       "중간"
     ]
@@ -102,8 +108,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d07-04-native.mp3",
     "pronunciationIrregular": "독깜",
     "relatedPhrases": [
-      "독감에 걸리다",
-      "독감을 앓다"
+      "독감에 걸리다 (bị cúm)",
+      "독감을 앓다 (mắc bệnh cúm)"
     ]
   },
   {
@@ -129,8 +135,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d07-05-native.mp3",
     "pronunciationIrregular": "돌려받따",
     "relatedPhrases": [
-      "은행에서 돈을 돌려받다",
-      "친구에게서 책을 돌려받다"
+      "은행에서 돈을 돌려받다 (nhận lại tiền từ ngân hàng)",
+      "친구에게서 책을 돌려받다 (nhận lại sách từ bạn)"
     ],
     "structure": [
       "N1에서/에게서 N2을/를 돌려받다"
@@ -157,6 +163,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d07-06-native.mp3",
+    "relatedPhrases": [
+      "아이를 돌보다 (chăm sóc trẻ con)",
+      "환자를 돌보다 (chăm sóc bệnh nhân)"
+    ],
     "synonyms": [
       "보살피다"
     ]
@@ -181,7 +191,11 @@ export const vocabTopik2Day07: VocabCard[] = [
     "tags": [],
     "day": 7,
     "dayOrder": 7,
-    "audioUrl": "/audio/word-t2-d07-07-native.mp3"
+    "audioUrl": "/audio/word-t2-d07-07-native.mp3",
+    "relatedPhrases": [
+      "이곳저곳을 돌아다니다 (đi lang thang khắp nơi)",
+      "동네를 돌아다니다 (đi lang thang khắp xóm)"
+    ]
   },
   {
     "id": "t2-d07-08",
@@ -205,6 +219,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d07-08-native.mp3",
     "pronunciationIrregular": "동그라타",
+    "relatedPhrases": [
+      "동그란 얼굴 (khuôn mặt tròn)",
+      "동그란 눈 (đôi mắt tròn)"
+    ],
     "synonyms": [
       "둥그렇다",
       "둥글다"
@@ -233,7 +251,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d07-09-native.mp3",
     "pronunciationIrregular": "동뇨",
     "relatedPhrases": [
-      "직장 동료"
+      "직장 동료 (đồng nghiệp ở chỗ làm)",
+      "동료와 친하다 (thân thiết với đồng nghiệp)"
     ]
   },
   {
@@ -257,6 +276,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d07-10-native.mp3",
+    "relatedPhrases": [
+      "동양 문화 (văn hóa phương Đông)",
+      "동양 사람 (người phương Đông)"
+    ],
     "antonyms": [
       "서양 (phương Tây)"
     ]
@@ -283,9 +306,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d07-11-native.mp3",
     "relatedPhrases": [
-      "동작(을) 하다",
-      "동작이 느리다",
-      "동작이 빠르다"
+      "동작이 느리다 (động tác chậm chạp)",
+      "동작이 빠르다 (động tác nhanh nhẹn)"
     ]
   },
   {
@@ -309,6 +331,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d07-12-native.mp3",
+    "relatedPhrases": [
+      "동창 모임 (buổi họp mặt bạn cùng khóa)",
+      "동창을 만나다 (gặp lại bạn học cũ)"
+    ],
     "synonyms": [
       "동창생",
       "동문"
@@ -336,8 +362,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d07-13-native.mp3",
     "relatedPhrases": [
-      "동호회에 가입하다",
-      "동호회에서 탈퇴하다"
+      "동호회에 가입하다 (tham gia câu lạc bộ)",
+      "동호회에서 탈퇴하다 (rút khỏi câu lạc bộ)"
     ]
   },
   {
@@ -362,9 +388,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d07-14-native.mp3",
     "relatedPhrases": [
-      "학교로 되돌아오다",
-      "학교에 되돌아오다",
-      "나에게 되돌아오다"
+      "학교로 되돌아오다 (quay trở lại trường)",
+      "나에게 되돌아오다 (quay trở lại với tôi)"
     ],
     "structure": [
       "N(으)로/에 되돌아오다",
@@ -394,9 +419,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d07-15-native.mp3",
     "pronunciationIrregular": "되찯따",
     "relatedPhrases": [
-      "기억을 되찾다",
-      "자신감을 되찾다",
-      "활기를 되찾다"
+      "기억을 되찾다 (lấy lại trí nhớ)",
+      "자신감을 되찾다 (lấy lại sự tự tin)"
     ]
   },
   {
@@ -421,10 +445,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d07-16-native.mp3",
     "relatedPhrases": [
-      "두께가 있다",
-      "두께가 두껍다",
-      "두께가 얇다",
-      "두께를 재다"
+      "두께가 두껍다 (độ dày lớn)",
+      "두께가 얇다 (độ dày mỏng)"
     ],
     "extraNotes": [
       {
@@ -454,6 +476,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d07-17-native.mp3",
+    "relatedPhrases": [
+      "둥근 달 (vầng trăng tròn)",
+      "얼굴이 둥글다 (khuôn mặt tròn)"
+    ],
     "synonyms": [
       "둥그렇다",
       "동그랗다"
@@ -481,10 +507,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d07-18-native.mp3",
     "relatedPhrases": [
-      "등록금",
-      "등록증",
-      "등록(을) 하다",
-      "등록(이) 되다"
+      "등록금 (học phí, lệ phí đăng ký)",
+      "등록(을) 하다 (đăng ký)"
     ]
   },
   {
@@ -509,9 +533,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d07-19-native.mp3",
     "relatedPhrases": [
-      "면허증을 따다",
-      "자격증을 따다",
-      "금메달을 따다"
+      "자격증을 따다 (lấy chứng chỉ)",
+      "금메달을 따다 (giành huy chương vàng)"
     ],
     "extraNotes": [
       {
@@ -541,6 +564,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d07-20-native.mp3",
+    "relatedPhrases": [
+      "길을 따라가다 (đi dọc theo con đường)",
+      "주인을 따라가다 (đi theo chủ)"
+    ],
     "synonyms": [
       "쫓아가다"
     ]
@@ -566,6 +593,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d07-21-native.mp3",
+    "relatedPhrases": [
+      "따라서 조심해야 하다 (do đó phải cẩn thận)",
+      "따라서 미리 준비하다 (do đó phải chuẩn bị trước)"
+    ],
     "synonyms": [
       "그러므로",
       "그래서"
@@ -592,6 +623,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "day": 7,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d07-22-native.mp3",
+    "relatedPhrases": [
+      "따로따로 살다 (sống riêng biệt)",
+      "따로따로 버리다 (vứt riêng biệt)"
+    ],
     "synonyms": [
       "따로",
       "각각"
@@ -619,9 +654,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d07-23-native.mp3",
     "relatedPhrases": [
-      "따라가다",
-      "따라오다",
-      "따라 하다"
+      "따라가다 (đi theo, theo sau)",
+      "따라 하다 (làm theo, bắt chước)"
     ]
   },
   {
@@ -646,8 +680,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d07-24-native.mp3",
     "relatedPhrases": [
-      "딱 맞다",
-      "딱 좋다"
+      "딱 맞다 (vừa khít, vừa vặn)",
+      "딱 좋다 (vừa đủ tốt, vừa hay)"
     ],
     "synonyms": [
       "꼭"
@@ -675,6 +709,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d07-25-native.mp3",
     "pronunciationIrregular": "딱따카다",
+    "relatedPhrases": [
+      "의자가 딱딱하다 (ghế cứng)",
+      "빵이 딱딱하다 (bánh mì cứng)"
+    ],
     "synonyms": [
       "단단하다"
     ]
@@ -703,6 +741,10 @@ export const vocabTopik2Day07: VocabCard[] = [
     "synonyms": [
       "가끔",
       "이따금"
+    ],
+    "relatedPhrases": [
+      "때때로 생각나다 (thỉnh thoảng nhớ đến)",
+      "때때로 그립다 (thỉnh thoảng nhớ nhung)"
     ],
     "antonyms": [
       "자주"
@@ -736,9 +778,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d07-27-native.mp3",
     "relatedPhrases": [
-      "해가 떠오르다",
-      "생각이 떠오르다",
-      "미소가 떠오르다"
+      "해가 떠오르다 (mặt trời mọc)",
+      "생각이 떠오르다 (nảy ra ý nghĩ)"
     ],
     "structure": [
       "N이/가 떠오르다"
@@ -766,8 +807,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d07-28-native.mp3",
     "relatedPhrases": [
-      "생각을 떠올리다",
-      "미소를 떠올리다"
+      "생각을 떠올리다 (gợi nhớ lại ý nghĩ)",
+      "미소를 떠올리다 (mỉm cười khi nhớ lại)"
     ]
   },
   {
@@ -792,10 +833,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d07-29-native.mp3",
     "relatedPhrases": [
-      "몸을 떨다",
-      "목소리를 떨다",
-      "다리를 떨다",
-      "손을 떨다"
+      "몸을 떨다 (run cả người)",
+      "목소리를 떨다 (giọng nói run rẩy)"
     ]
   },
   {
@@ -820,10 +859,8 @@ export const vocabTopik2Day07: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d07-30-native.mp3",
     "relatedPhrases": [
-      "몸이 떨리다",
-      "목소리가 떨리다",
-      "다리가 떨리다",
-      "가슴이 떨리다"
+      "몸이 떨리다 (cơ thể run lên)",
+      "목소리가 떨리다 (giọng nói run rẩy)"
     ]
   }
 ]

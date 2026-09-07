@@ -23,8 +23,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d10-01-native.mp3",
     "relatedPhrases": [
-      "미소를 띠다",
-      "미소를 짓다"
+      "미소를 띠다 (nở nụ cười)",
+      "미소를 짓다 (mỉm cười)"
     ]
   },
   {
@@ -49,9 +49,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d10-02-native.mp3",
     "relatedPhrases": [
-      "차가 밀리다",
-      "일이 밀리다",
-      "주문이 밀리다"
+      "차가 밀리다 (xe bị kẹt)",
+      "일이 밀리다 (công việc bị tồn đọng)"
     ]
   },
   {
@@ -76,6 +75,10 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d10-03-native.mp3",
     "pronunciationIrregular": "밉따",
+    "relatedPhrases": [
+      "미운 사람 (người đáng ghét)",
+      "미워 죽겠다 (ghét không chịu được)"
+    ],
     "extraNotes": [
       {
         "label": "Tục ngữ",
@@ -105,8 +108,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d10-04-native.mp3",
     "relatedPhrases": [
-      "바탕이 되다",
-      "바탕을 두다"
+      "바탕이 되다 (trở thành nền tảng)",
+      "바탕을 두다 (dựa trên, lấy làm nền tảng)"
     ]
   },
   {
@@ -131,8 +134,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d10-05-native.mp3",
     "relatedPhrases": [
-      "반납(을) 하다",
-      "반납(이) 되다"
+      "반납(을) 하다 (trả lại)",
+      "반납(이) 되다 (được trả lại)"
     ]
   },
   {
@@ -156,6 +159,10 @@ export const vocabTopik2Day10: VocabCard[] = [
     "day": 10,
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d10-06-native.mp3",
+    "relatedPhrases": [
+      "많은 반면(에) (nhiều, nhưng mặt khác thì)",
+      "적은 반면(에) (ít, nhưng mặt khác thì)"
+    ],
     "structure": [
       "A-ㄴ 반면(에)",
       "V-는 반면(에)"
@@ -183,8 +190,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d10-07-native.mp3",
     "relatedPhrases": [
-      "반복(을) 하다",
-      "반복(이) 되다"
+      "반복(을) 하다 (lặp lại)",
+      "반복(이) 되다 (được lặp lại)"
     ],
     "synonyms": [
       "되풀이"
@@ -212,9 +219,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d10-08-native.mp3",
     "relatedPhrases": [
-      "첫눈에 반하다",
-      "외모에 반하다",
-      "그녀에게 반하다"
+      "첫눈에 반하다 (phải lòng ngay từ cái nhìn đầu tiên)",
+      "외모에 반하다 (phải lòng vì ngoại hình)"
     ],
     "structure": [
       "N에/에게 반하다"
@@ -245,9 +251,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d10-09-native.mp3",
     "relatedPhrases": [
-      "발급(을) 하다",
-      "발급(이) 되다",
-      "발급을 받다"
+      "발급(을) 하다 (cấp, phát hành)",
+      "발급을 받다 (được cấp, xin cấp)"
     ]
   },
   {
@@ -272,9 +277,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d10-10-native.mp3",
     "relatedPhrases": [
-      "발달(을) 하다",
-      "발달(이) 되다",
-      "발달(을) 시키다"
+      "발달(을) 하다 (phát triển)",
+      "발달(이) 되다 (được phát triển)"
     ]
   },
   {
@@ -299,8 +303,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d10-11-native.mp3",
     "relatedPhrases": [
-      "발명(을) 하다",
-      "발명(이) 되다"
+      "발명(을) 하다 (phát minh ra)",
+      "발명(이) 되다 (được phát minh)"
     ],
     "relatedWords": [
       "발명가",
@@ -330,9 +334,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d10-12-native.mp3",
     "pronunciationIrregular": "발쩐",
     "relatedPhrases": [
-      "발전(을) 하다",
-      "발전(이) 되다",
-      "발전(을) 시키다"
+      "발전(을) 하다 (phát triển)",
+      "발전(이) 되다 (được phát triển)"
     ]
   },
   {
@@ -357,8 +360,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d10-13-native.mp3",
     "relatedPhrases": [
-      "발행(을) 하다",
-      "발행(이) 되다"
+      "발행(을) 하다 (phát hành)",
+      "발행(이) 되다 (được phát hành)"
     ],
     "synonyms": [
       "출판"
@@ -387,8 +390,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d10-14-native.mp3",
     "pronunciationIrregular": "발키다",
     "relatedPhrases": [
-      "원인을 밝히다",
-      "이유를 밝히다"
+      "원인을 밝히다 (làm rõ nguyên nhân)",
+      "이유를 밝히다 (làm rõ lý do)"
     ]
   },
   {
@@ -412,7 +415,11 @@ export const vocabTopik2Day10: VocabCard[] = [
     "day": 10,
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d10-15-native.mp3",
-    "pronunciationIrregular": "밥따"
+    "pronunciationIrregular": "밥따",
+    "relatedPhrases": [
+      "발을 밟다 (giẫm chân)",
+      "브레이크를 밟다 (đạp phanh)"
+    ]
   },
   {
     "id": "t2-d10-16",
@@ -435,7 +442,11 @@ export const vocabTopik2Day10: VocabCard[] = [
     "day": 10,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d10-16-native.mp3",
-    "pronunciationIrregular": "밤쌔"
+    "pronunciationIrregular": "밤쌔",
+    "relatedPhrases": [
+      "밤새 일하다 (làm việc thâu đêm)",
+      "밤새 뒤척이다 (trằn trọc suốt đêm)"
+    ]
   },
   {
     "id": "t2-d10-17",
@@ -458,6 +469,10 @@ export const vocabTopik2Day10: VocabCard[] = [
     "day": 10,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d10-17-native.mp3",
+    "relatedPhrases": [
+      "방식을 바꾸다 (thay đổi cách thức)",
+      "생활 방식 (lối sống, phương thức sinh hoạt)"
+    ],
     "synonyms": [
       "방법",
       "법"
@@ -485,9 +500,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d10-18-native.mp3",
     "relatedPhrases": [
-      "방해(를) 하다",
-      "방해(가) 되다",
-      "방해를 받다"
+      "방해(를) 하다 (gây cản trở, làm phiền)",
+      "방해가 되다 (trở thành sự cản trở)"
     ]
   },
   {
@@ -511,6 +525,10 @@ export const vocabTopik2Day10: VocabCard[] = [
     "day": 10,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d10-19-native.mp3",
+    "relatedPhrases": [
+      "공항까지 배웅하다 (tiễn ra tận sân bay)",
+      "손님을 배웅하다 (tiễn khách)"
+    ],
     "antonyms": [
       "마중하다 (đón)"
     ]
@@ -537,8 +555,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d10-20-native.mp3",
     "relatedPhrases": [
-      "배치(를) 하다",
-      "배치(가) 되다"
+      "배치(를) 하다 (sắp xếp, bố trí)",
+      "배치(가) 되다 (được sắp xếp, bố trí)"
     ]
   },
   {
@@ -563,8 +581,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d10-21-native.mp3",
     "relatedPhrases": [
-      "번역(을) 하다",
-      "번역(이) 되다"
+      "번역(을) 하다 (dịch)",
+      "번역(이) 되다 (được dịch)"
     ],
     "relatedWords": [
       "번역가",
@@ -593,9 +611,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d10-22-native.mp3",
     "relatedPhrases": [
-      "벌(을) 주다",
-      "벌(을) 내리다",
-      "벌을 받다"
+      "벌(을) 주다 (trừng phạt)",
+      "벌을 받다 (bị phạt, chịu phạt)"
     ],
     "antonyms": [
       "상 (thưởng)"
@@ -623,9 +640,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d10-23-native.mp3",
     "relatedPhrases": [
-      "벌금을 내다",
-      "벌금을 물다",
-      "벌금을 받다"
+      "벌금을 내다 (nộp phạt)",
+      "벌금을 물다 (chịu nộp phạt)"
     ]
   },
   {
@@ -650,8 +666,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d10-24-native.mp3",
     "relatedPhrases": [
-      "범죄를 저지르다",
-      "범죄가 발생하다"
+      "범죄를 저지르다 (phạm tội)",
+      "범죄가 발생하다 (tội phạm xảy ra)"
     ],
     "synonyms": [
       "죄"
@@ -679,9 +695,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d10-25-native.mp3",
     "relatedPhrases": [
-      "법을 지키다",
-      "법을 어기다",
-      "법을 제정하다"
+      "법을 지키다 (tuân thủ pháp luật)",
+      "법을 어기다 (vi phạm pháp luật)"
     ],
     "synonyms": [
       "법률"
@@ -709,6 +724,10 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d10-26-native.mp3",
     "pronunciationIrregular": "벋끼다",
+    "relatedPhrases": [
+      "옷을 벗기다 (cởi đồ cho ai đó)",
+      "껍질을 벗기다 (lột vỏ)"
+    ],
     "structure": [
       "N1이/가 N2의 N3을/를 벗기다"
     ]
@@ -735,8 +754,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d10-27-native.mp3",
     "relatedPhrases": [
-      "변경(을) 하다",
-      "변경(이) 되다"
+      "변경(을) 하다 (thay đổi)",
+      "변경(이) 되다 (được thay đổi)"
     ]
   },
   {
@@ -761,9 +780,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d10-28-native.mp3",
     "relatedPhrases": [
-      "변화(를) 하다",
-      "변화(가) 되다",
-      "변화(를) 시키다"
+      "변화(를) 하다 (thay đổi)",
+      "변화(를) 시키다 (làm cho thay đổi)"
     ]
   },
   {
@@ -788,9 +806,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d10-29-native.mp3",
     "relatedPhrases": [
-      "별명을 짓다",
-      "별명을 얻다",
-      "별명을 부르다"
+      "별명을 짓다 (đặt biệt danh)",
+      "별명을 얻다 (có được biệt danh)"
     ]
   },
   {
@@ -816,8 +833,8 @@ export const vocabTopik2Day10: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d10-30-native.mp3",
     "pronunciationIrregular": "별릴",
     "relatedPhrases": [
-      "별일이 없다",
-      "별일이 아니다"
+      "별일이 없다 (không có gì đặc biệt/bất thường)",
+      "별일이 아니다 (không phải chuyện gì to tát)"
     ]
   }
 ]

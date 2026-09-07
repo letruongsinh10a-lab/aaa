@@ -30,6 +30,10 @@ export const vocabTopik2Day52: VocabCard[] = [
     ],
     "structure": [
       "N1이/가 N2에 잠기다"
+    ],
+    "relatedPhrases": [
+      "마을이 물에 잠기다 (làng chìm trong nước)",
+      "길이 물에 잠기다 (con đường chìm trong nước)"
     ]
   },
   {
@@ -60,9 +64,8 @@ export const vocabTopik2Day52: VocabCard[] = [
       "잡아당깁니다"
     ],
     "relatedPhrases": [
-      "줄을 잡아당기다",
-      "문을 잡아당기다",
-      "손을 잡아당기다"
+      "줄을 잡아당기다 (kéo dây)",
+      "손을 잡아당기다 (kéo tay)"
     ],
     "synonyms": [
       "끌어당기다"
@@ -90,9 +93,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d52-03-native.mp3",
     "relatedPhrases": [
-      "장난(을) 하다",
-      "장난을 치다",
-      "장난이 심하다"
+      "장난을 치다 (nghịch ngợm, đùa giỡn)",
+      "장난이 심하다 (nghịch quá mức)"
     ],
     "relatedWords": [
       "장난감",
@@ -121,9 +123,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d52-04-native.mp3",
     "relatedPhrases": [
-      "장사(를) 하다",
-      "장사가 잘되다",
-      "장사가 안되다"
+      "장사가 잘되다 (buôn bán phát đạt)",
+      "장사가 안되다 (buôn bán ế ẩm)"
     ]
   },
   {
@@ -148,10 +149,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d52-05-native.mp3",
     "relatedPhrases": [
-      "장애(가) 되다",
-      "장애를 일으키다",
-      "장애에 시달리다",
-      "장애를 극복하다"
+      "장애가 되다 (trở thành trở ngại)",
+      "장애를 극복하다 (vượt qua trở ngại)"
     ],
     "synonyms": [
       "방해"
@@ -183,10 +182,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d52-06-native.mp3",
     "relatedPhrases": [
-      "재능이 있다",
-      "재능이 뛰어나다",
-      "재능을 발휘하다",
-      "재능을 떨치다"
+      "재능이 뛰어나다 (tài năng xuất chúng)",
+      "재능을 발휘하다 (phát huy tài năng)"
     ],
     "synonyms": [
       "능력",
@@ -215,11 +212,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d52-07-native.mp3",
     "relatedPhrases": [
-      "재산이 많다",
-      "재산이 적다",
-      "재산을 모으다",
-      "재산을 늘리다",
-      "재산을 물려주다"
+      "재산을 모으다 (tích lũy tài sản)",
+      "재산을 물려주다 (để lại tài sản)"
     ],
     "synonyms": [
       "재물"
@@ -254,6 +248,10 @@ export const vocabTopik2Day52: VocabCard[] = [
     ],
     "structure": [
       "sự động từ của '자다'; N1이/가 N2을/를 재우다"
+    ],
+    "relatedPhrases": [
+      "아이를 재우다 (ru con ngủ)",
+      "일찍 재우다 (cho đi ngủ sớm)"
     ]
   },
   {
@@ -278,11 +276,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d52-09-native.mp3",
     "relatedPhrases": [
-      "재주가 있다",
-      "재주가 뛰어나다",
-      "재주를 가지다",
-      "재주를 보이다",
-      "재주를 부리다"
+      "재주가 뛰어나다 (tài năng xuất sắc)",
+      "재주를 부리다 (thể hiện tài lẻ, khôn khéo)"
     ],
     "synonyms": [
       "재능",
@@ -317,10 +312,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d52-10-native.mp3",
     "relatedPhrases": [
-      "재판(을) 하다",
-      "재판(이) 되다",
-      "재판을 받다",
-      "재판이 열리다"
+      "재판을 받다 (bị xét xử, ra tòa)",
+      "재판이 열리다 (phiên tòa diễn ra)"
     ],
     "relatedWords": [
       "재판관",
@@ -349,7 +342,11 @@ export const vocabTopik2Day52: VocabCard[] = [
     "tags": [],
     "day": 52,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d52-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d52-11-native.mp3",
+    "relatedPhrases": [
+      "재활용품을 수거하다 (thu gom đồ tái chế)",
+      "재활용품으로 만들다 (làm từ vật liệu tái chế)"
+    ]
   },
   {
     "id": "t2-d52-12",
@@ -373,8 +370,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d52-12-native.mp3",
     "relatedPhrases": [
-      "저장(을) 하다",
-      "저장(이) 되다"
+      "저장(을) 하다 (thực hiện lưu trữ)",
+      "저장(이) 되다 (được lưu trữ)"
     ]
   },
   {
@@ -398,6 +395,10 @@ export const vocabTopik2Day52: VocabCard[] = [
     "day": 52,
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d52-13-native.mp3",
+    "relatedPhrases": [
+      "저절로 해결되다 (tự nhiên được giải quyết)",
+      "저절로 외워지다 (tự nhiên thuộc lòng)"
+    ],
     "synonyms": [
       "절로",
       "자연히"
@@ -431,10 +432,8 @@ export const vocabTopik2Day52: VocabCard[] = [
       "저지릅니다"
     ],
     "relatedPhrases": [
-      "실수를 저지르다",
-      "잘못을 저지르다",
-      "사건을 저지르다",
-      "범죄를 저지르다"
+      "잘못을 저지르다 (phạm lỗi)",
+      "범죄를 저지르다 (phạm tội)"
     ]
   },
   {
@@ -460,9 +459,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d52-15-native.mp3",
     "pronunciationIrregular": "적썽",
     "relatedPhrases": [
-      "적성에 맞다",
-      "적성을 살리다",
-      "적성을 고려하다"
+      "적성에 맞다 (phù hợp với năng khiếu)",
+      "적성을 살리다 (phát huy năng khiếu)"
     ]
   },
   {
@@ -487,9 +485,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d52-16-native.mp3",
     "relatedPhrases": [
-      "적용(을) 하다",
-      "적용(이) 되다",
-      "적용을 받다"
+      "적용이 되다 (được áp dụng)",
+      "적용을 받다 (chịu sự áp dụng)"
     ]
   },
   {
@@ -515,10 +512,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d52-17-native.mp3",
     "pronunciationIrregular": "적짜",
     "relatedPhrases": [
-      "적자가 나다",
-      "적자를 보다",
-      "적자가 생기다",
-      "적자가 발생하다"
+      "적자를 보다(bị thua lỗ)",
+      "적자가 나다 (phát sinh thua lỗ)"
     ],
     "antonyms": [
       "흑자"
@@ -552,6 +547,10 @@ export const vocabTopik2Day52: VocabCard[] = [
       "적절하면",
       "적절합니다"
     ],
+    "relatedPhrases": [
+      "적절한 방법 (phương pháp phù hợp)",
+      "적절한 시기 (thời điểm thích hợp)"
+    ],
     "synonyms": [
       "알맞다",
       "적당하다",
@@ -583,9 +582,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d52-19-native.mp3",
     "relatedPhrases": [
-      "발단-전개-위기-절정-결말",
-      "전개(를) 하다",
-      "전개(가) 되다"
+      "이야기의 전개 (diễn biến câu chuyện)",
+      "전개가 빠르다 (diễn biến nhanh)"
     ]
   },
   {
@@ -610,13 +608,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d52-20-native.mp3",
     "relatedPhrases": [
-      "절망(을) 하다",
-      "절망이 되다",
-      "절망을 주다",
-      "절망을 느끼다",
-      "절망에 빠지다",
-      "절망에 싸이다",
-      "절망에 잠기다"
+      "절망에 빠지다 (rơi vào tuyệt vọng)",
+      "절망을 느끼다 (cảm thấy tuyệt vọng)"
     ],
     "synonyms": [
       "낙망",
@@ -654,10 +647,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d52-21-native.mp3",
     "relatedPhrases": [
-      "절차를 밟다",
-      "절차를 거치다",
-      "절차를 따르다",
-      "절차가 복잡하다"
+      "절차를 밟다 (làm theo thủ tục)",
+      "절차가 복잡하다 (thủ tục phức tạp)"
     ],
     "synonyms": [
       "순서"
@@ -685,9 +676,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d52-22-native.mp3",
     "relatedPhrases": [
-      "점검(을) 하다",
-      "점검(이) 되다",
-      "점검을 받다"
+      "점검을 하다 (tiến hành kiểm tra)",
+      "점검을 받다 (được kiểm tra)"
     ],
     "synonyms": [
       "검사"
@@ -722,9 +712,8 @@ export const vocabTopik2Day52: VocabCard[] = [
       "점잖습니다"
     ],
     "relatedPhrases": [
-      "성격이 점잖다",
-      "행동이 점잖다",
-      "말이 점잖다"
+      "성격이 점잖다 (tính cách đứng đắn)",
+      "행동이 점잖다 (hành động đàng hoàng)"
     ]
   },
   {
@@ -750,10 +739,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d52-24-native.mp3",
     "pronunciationIrregular": "접끈",
     "relatedPhrases": [
-      "접근(을) 하다",
-      "접근(이) 되다",
-      "접근을 막다",
-      "접근을 금지하다"
+      "접근을 막다 (ngăn chặn tiếp cận)",
+      "접근을 금지하다 (cấm tiếp cận)"
     ]
   },
   {
@@ -779,11 +766,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d52-25-native.mp3",
     "pronunciationIrregular": "접쏙",
     "relatedPhrases": [
-      "접속(을) 하다",
-      "접속(이) 되다",
-      "인터넷에 접속하다",
-      "컴퓨터에 접속하다",
-      "통신망에 접속하다"
+      "인터넷에 접속하다 (kết nối internet)",
+      "접속이 되다 (được kết nối)"
     ]
   },
   {
@@ -815,8 +799,8 @@ export const vocabTopik2Day52: VocabCard[] = [
       "접어듭니다"
     ],
     "relatedPhrases": [
-      "아이가 사춘기에 접어들다",
-      "버스가 고속도로로 접어들다"
+      "사춘기에 접어들다 (bước vào tuổi dậy thì)",
+      "고속도로로 접어들다 (rẽ vào đường cao tốc)"
     ],
     "structure": [
       "N1이/가 N2에/(으)로 접어들다"
@@ -848,10 +832,8 @@ export const vocabTopik2Day52: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d52-27-native.mp3",
     "relatedPhrases": [
-      "접촉(을) 하다",
-      "접촉(이) 되다",
-      "접촉을 피하다",
-      "접촉을 꺼리다"
+      "접촉을 피하다 (tránh tiếp xúc)",
+      "밀접 접촉 (tiếp xúc gần)"
     ],
     "relatedWords": [
       "접촉자",
@@ -888,10 +870,8 @@ export const vocabTopik2Day52: VocabCard[] = [
       "접합니다"
     ],
     "relatedPhrases": [
-      "소식을 접하다",
-      "문화를 접하다",
-      "바다를 접하다",
-      "사람을 접하다"
+      "소식을 접하다 (đón nhận tin tức)",
+      "문화를 접하다 (tiếp xúc với văn hóa)"
     ]
   },
   {
@@ -915,6 +895,10 @@ export const vocabTopik2Day52: VocabCard[] = [
     "day": 52,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d52-29-native.mp3",
+    "relatedPhrases": [
+      "정기 검진 (khám định kỳ)",
+      "정기 휴일 (ngày nghỉ định kỳ)"
+    ],
     "antonyms": [
       "임시"
     ],
@@ -945,6 +929,10 @@ export const vocabTopik2Day52: VocabCard[] = [
     "day": 52,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d52-30-native.mp3",
+    "relatedPhrases": [
+      "정면을 바라보다 (nhìn thẳng về phía trước)",
+      "무대 정면 (ngay phía trước sân khấu)"
+    ],
     "antonyms": [
       "후면"
     ]

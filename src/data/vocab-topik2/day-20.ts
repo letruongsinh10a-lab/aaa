@@ -21,7 +21,11 @@ export const vocabTopik2Day20: VocabCard[] = [
     "tags": [],
     "day": 20,
     "dayOrder": 1,
-    "audioUrl": "/audio/word-t2-d20-01-native.mp3"
+    "audioUrl": "/audio/word-t2-d20-01-native.mp3",
+    "relatedPhrases": [
+      "인상적인 장면 (cảnh tượng ấn tượng)",
+      "장면을 촬영하다 (quay cảnh)"
+    ]
   },
   {
     "id": "t2-d20-02",
@@ -45,8 +49,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d20-02-native.mp3",
     "relatedPhrases": [
-      "장수(를) 하다",
-      "장수를 누리다"
+      "장수(를) 하다 (sống thọ, trường thọ)",
+      "장수를 누리다 (hưởng tuổi thọ, sống lâu)"
     ]
   },
   {
@@ -71,8 +75,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d20-03-native.mp3",
     "relatedPhrases": [
-      "장식(을) 하다",
-      "장식(이) 되다"
+      "장식(을) 하다 (trang trí)",
+      "장식(이) 되다 (được trang trí)"
     ]
   },
   {
@@ -97,6 +101,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d20-04-native.mp3",
     "pronunciationIrregular": "장쩜",
+    "relatedPhrases": [
+      "장점을 살리다 (phát huy ưu điểm)",
+      "장점과 단점 (ưu điểm và khuyết điểm)"
+    ],
     "synonyms": [
       "강점"
     ],
@@ -125,6 +133,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "day": 20,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d20-05-native.mp3",
+    "relatedPhrases": [
+      "몸무게를 재다 (cân trọng lượng cơ thể)",
+      "길이를 재다 (đo chiều dài)"
+    ],
     "synonyms": [
       "측정하다"
     ]
@@ -152,8 +164,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d20-06-native.mp3",
     "pronunciationIrregular": "재화룡",
     "relatedPhrases": [
-      "재활용(을) 하다",
-      "재활용(이) 되다"
+      "재활용(을) 하다 (tái chế)",
+      "재활용(이) 되다 (được tái chế)"
     ]
   },
   {
@@ -177,6 +189,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "day": 20,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d20-07-native.mp3",
+    "relatedPhrases": [
+      "가격이 저렴하다 (giá cả phải chăng)",
+      "저렴하게 사다 (mua với giá rẻ)"
+    ],
     "synonyms": [
       "싸다"
     ],
@@ -206,6 +222,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d20-08-native.mp3",
     "pronunciationIrregular": "저거도",
+    "relatedPhrases": [
+      "적어도 한 시간 (ít nhất một tiếng)",
+      "적어도 내일까지 (chậm nhất là đến ngày mai)"
+    ],
     "synonyms": [
       "최소한"
     ],
@@ -235,10 +255,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d20-09-native.mp3",
     "relatedPhrases": [
-      "적응(을) 하다",
-      "적응(이) 되다",
-      "적응이 빠르다",
-      "적응을 잘하다"
+      "적응(을) 하다 (thích ứng, thích nghi)",
+      "적응이 빠르다 (thích nghi nhanh)"
     ]
   },
   {
@@ -264,8 +282,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d20-10-native.mp3",
     "pronunciationIrregular": "저키다",
     "relatedPhrases": [
-      "게시판에 연락처가 적히다",
-      "종이에 이름이 적히다"
+      "게시판에 연락처가 적히다 (số liên lạc được ghi trên bảng thông báo)",
+      "종이에 이름이 적히다 (tên được ghi trên giấy)"
     ]
   },
   {
@@ -289,6 +307,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "day": 20,
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d20-11-native.mp3",
+    "relatedPhrases": [
+      "전국 각지 (khắp mọi miền đất nước)",
+      "전국을 돌다 (đi khắp cả nước, lưu diễn toàn quốc)"
+    ],
     "relatedWords": [
       "전국적"
     ]
@@ -315,9 +337,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d20-12-native.mp3",
     "relatedPhrases": [
-      "전달(을) 하다",
-      "전달(이) 되다",
-      "전달을 받다"
+      "전달(을) 하다 (chuyển, truyền đạt)",
+      "전달을 받다 (nhận được, được chuyển giao)"
     ]
   },
   {
@@ -342,11 +363,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d20-13-native.mp3",
     "relatedPhrases": [
-      "전망대",
-      "전망(을) 하다",
-      "전망(이) 되다",
-      "전망이 밝다",
-      "전망이 어둡다"
+      "전망대 (đài quan sát, đài vọng cảnh)",
+      "전망이 밝다 (triển vọng sáng sủa)"
     ],
     "synonyms": [
       "조망"
@@ -374,9 +392,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d20-14-native.mp3",
     "relatedPhrases": [
-      "전문가",
-      "전문점",
-      "전문적"
+      "전문가 (chuyên gia)",
+      "전문점 (cửa hàng chuyên doanh)"
     ]
   },
   {
@@ -401,9 +418,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d20-15-native.mp3",
     "relatedPhrases": [
-      "전설이 있다",
-      "전설이 내려오다",
-      "전설이 전해지다"
+      "전설이 있다 (có truyền thuyết)",
+      "전설이 내려오다 (truyền thuyết được lưu truyền)"
     ]
   },
   {
@@ -428,11 +444,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d20-16-native.mp3",
     "relatedPhrases": [
-      "전시회",
-      "전시물",
-      "전시장",
-      "전시(를) 하다",
-      "전시(가) 되다"
+      "전시회 (cuộc triển lãm)",
+      "전시(를) 하다 (tổ chức triển lãm)"
     ]
   },
   {
@@ -455,7 +468,11 @@ export const vocabTopik2Day20: VocabCard[] = [
     "tags": [],
     "day": 20,
     "dayOrder": 17,
-    "audioUrl": "/audio/word-t2-d20-17-native.mp3"
+    "audioUrl": "/audio/word-t2-d20-17-native.mp3",
+    "relatedPhrases": [
+      "전용 주차장 (bãi đỗ xe chuyên dụng, riêng)",
+      "전용 엘리베이터 (thang máy chuyên dụng, riêng)"
+    ]
   },
   {
     "id": "t2-d20-18",
@@ -479,10 +496,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d20-18-native.mp3",
     "relatedPhrases": [
-      "전원을 켜다",
-      "전원을 끄다",
-      "전원이 나가다",
-      "전원이 들어오다"
+      "전원을 끄다 (tắt nguồn điện)",
+      "전원이 나가다 (nguồn điện bị ngắt đột ngột)"
     ]
   },
   {
@@ -505,7 +520,11 @@ export const vocabTopik2Day20: VocabCard[] = [
     "tags": [],
     "day": 20,
     "dayOrder": 19,
-    "audioUrl": "/audio/word-t2-d20-19-native.mp3"
+    "audioUrl": "/audio/word-t2-d20-19-native.mp3",
+    "relatedPhrases": [
+      "직원 전원 (toàn bộ nhân viên)",
+      "학생 전원 (toàn bộ học sinh)"
+    ]
   },
   {
     "id": "t2-d20-20",
@@ -529,9 +548,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d20-20-native.mp3",
     "relatedPhrases": [
-      "전쟁(을) 하다",
-      "전쟁이 나다",
-      "전쟁이 일어나다"
+      "전쟁(을) 하다 (tiến hành chiến tranh)",
+      "전쟁이 일어나다 (chiến tranh nổ ra)"
     ]
   },
   {
@@ -556,11 +574,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d20-21-native.mp3",
     "relatedPhrases": [
-      "전통적",
-      "전통문화",
-      "전통 음식",
-      "전통 의상",
-      "전통 음악"
+      "전통문화 (văn hóa truyền thống)",
+      "전통 결혼식 (đám cưới truyền thống)"
     ]
   },
   {
@@ -585,6 +600,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d20-22-native.mp3",
     "pronunciationIrregular": "절때로",
+    "relatedPhrases": [
+      "절대로 안 되다 (tuyệt đối không được phép)",
+      "절대로 연락하지 않다 (tuyệt đối không liên lạc)"
+    ],
     "synonyms": [
       "결코",
       "절대"
@@ -613,8 +632,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d20-23-native.mp3",
     "pronunciationIrregular": "저략",
     "relatedPhrases": [
-      "절약(을) 하다",
-      "절약(이) 되다"
+      "절약(을) 하다 (tiết kiệm)",
+      "절약(이) 되다 (được tiết kiệm)"
     ],
     "antonyms": [
       "낭비 (lãng phí)"
@@ -641,6 +660,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "day": 20,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d20-24-native.mp3",
+    "relatedPhrases": [
+      "점차 확산되다 (dần dần lan rộng)",
+      "점차 뜨거워지다 (dần dần trở nên sôi động)"
+    ],
     "synonyms": [
       "점점",
       "차차"
@@ -669,13 +692,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d20-25-native.mp3",
     "pronunciationIrregular": "접쑤",
     "relatedPhrases": [
-      "접수처",
-      "접수 기간",
-      "접수 마감",
-      "접수(를) 하다",
-      "접수(가) 되다",
-      "접수를 받다",
-      "접수가 끝나다"
+      "접수(를) 하다 (làm thủ tục tiếp nhận, nộp hồ sơ)",
+      "접수 기간 (thời gian tiếp nhận)"
     ]
   },
   {
@@ -701,8 +719,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d20-26-native.mp3",
     "pronunciationIrregular": "젇따",
     "relatedPhrases": [
-      "고개를 젓다",
-      "손을 젓다"
+      "고개를 젓다 (lắc đầu)",
+      "손을 젓다 (vẫy tay, xua tay)"
     ]
   },
   {
@@ -727,10 +745,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d20-27-native.mp3",
     "relatedPhrases": [
-      "정(이) 들다",
-      "정이 있다",
-      "정이 없다",
-      "정이 많다"
+      "정(이) 들다 (nảy sinh tình cảm, gắn bó)",
+      "정이 많다 (giàu tình cảm)"
     ],
     "extraNotes": [
       {
@@ -761,9 +777,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d20-28-native.mp3",
     "relatedPhrases": [
-      "정답이 맞다",
-      "정답이 틀리다",
-      "정답을 맞히다"
+      "정답을 맞히다 (trả lời đúng, đoán trúng đáp án)",
+      "정답이 맞다 (đáp án chính xác)"
     ]
   },
   {
@@ -787,6 +802,10 @@ export const vocabTopik2Day20: VocabCard[] = [
     "day": 20,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d20-29-native.mp3",
+    "relatedPhrases": [
+      "정말로 사랑하다 (thật sự yêu)",
+      "정말로 반갑다 (thật sự vui vì được gặp)"
+    ],
     "synonyms": [
       "정말",
       "참말로",
@@ -816,10 +835,8 @@ export const vocabTopik2Day20: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d20-30-native.mp3",
     "relatedPhrases": [
-      "정보를 찾다",
-      "정보를 검색하다",
-      "정보를 얻다",
-      "정보를 알아보다"
+      "정보를 찾다 (tìm thông tin)",
+      "정보를 얻다 (có được thông tin)"
     ]
   }
 ]

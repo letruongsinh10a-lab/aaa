@@ -24,9 +24,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-01-native.mp3",
     "pronunciationIrregular": "면허쯩",
     "relatedPhrases": [
-      "면허증을 따다",
-      "면허증을 취득하다",
-      "면허증을 분실하다"
+      "면허증을 따다 (lấy bằng lái)",
+      "면허증을 분실하다 (làm mất bằng lái)"
     ]
   },
   {
@@ -51,8 +50,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d09-02-native.mp3",
     "relatedPhrases": [
-      "모범이 되다",
-      "모범을 보이다"
+      "모범이 되다 (trở thành tấm gương)",
+      "모범을 보이다 (làm gương)"
     ],
     "relatedWords": [
       "모범적",
@@ -81,8 +80,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d09-03-native.mp3",
     "relatedPhrases": [
-      "모집(을) 하다",
-      "모집(이) 되다"
+      "모집(을) 하다 (tuyển dụng, tuyển mộ)",
+      "모집(이) 되다 (được tuyển dụng)"
     ]
   },
   {
@@ -108,8 +107,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-04-native.mp3",
     "pronunciationIrregular": "몽녹",
     "relatedPhrases": [
-      "목록을 만들다",
-      "목록을 작성하다"
+      "목록을 만들다 (lập danh sách)",
+      "목록을 작성하다 (viết danh sách)"
     ]
   },
   {
@@ -135,9 +134,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-05-native.mp3",
     "pronunciationIrregular": "목쩍찌",
     "relatedPhrases": [
-      "목적지로 향하다",
-      "목적지에 도착하다",
-      "목적지에 이르다"
+      "목적지에 도착하다 (đến điểm đến)",
+      "목적지로 향하다 (hướng đến điểm đến)"
     ]
   },
   {
@@ -162,9 +160,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d09-06-native.mp3",
     "relatedPhrases": [
-      "목표를 세우다",
-      "목표를 정하다",
-      "목표를 달성하다"
+      "목표를 세우다 (lập mục tiêu)",
+      "목표를 달성하다 (đạt được mục tiêu)"
     ]
   },
   {
@@ -188,6 +185,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "day": 9,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d09-07-native.mp3",
+    "relatedPhrases": [
+      "몰래 훔쳐보다 (lén nhìn trộm)",
+      "몰래 도망가다 (lén trốn đi)"
+    ],
     "synonyms": [
       "남몰래"
     ],
@@ -218,9 +219,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d09-08-native.mp3",
     "relatedPhrases": [
-      "몸무게를 재다",
-      "몸무게가 늘다",
-      "몸무게가 줄다"
+      "몸무게가 늘다 (tăng cân)",
+      "몸무게가 줄다 (giảm cân)"
     ]
   },
   {
@@ -245,9 +245,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d09-09-native.mp3",
     "relatedPhrases": [
-      "몸살(이) 나다",
-      "몸살이 걸리다",
-      "몸살을 앓다"
+      "몸살(이) 나다 (bị đau nhức toàn thân)",
+      "몸살이 걸리다 (mắc chứng đau ê ẩm người)"
     ]
   },
   {
@@ -272,6 +271,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d09-10-native.mp3",
     "pronunciationIrregular": "몸찓",
+    "relatedPhrases": [
+      "몸짓으로 표현하다 (diễn đạt bằng cử chỉ)",
+      "몸짓과 표정 (cử chỉ và nét mặt)"
+    ],
     "synonyms": [
       "동작"
     ]
@@ -298,8 +301,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d09-11-native.mp3",
     "relatedPhrases": [
-      "묘사(를) 하다",
-      "묘사(가) 되다"
+      "묘사(를) 하다 (mô tả)",
+      "묘사(가) 되다 (được mô tả)"
     ]
   },
   {
@@ -325,13 +328,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-12-native.mp3",
     "pronunciationIrregular": "무니",
     "relatedPhrases": [
-      "줄무늬",
-      "물방울무늬",
-      "체크무늬",
-      "무늬가 있다",
-      "무늬가 없다",
-      "무늬가 단순하다",
-      "무늬가 복잡하다"
+      "무늬가 있다 (có hoa văn)",
+      "무늬가 없다 (không có hoa văn, trơn)"
     ]
   },
   {
@@ -356,8 +354,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d09-13-native.mp3",
     "relatedPhrases": [
-      "무대에 오르다",
-      "무대에 서다"
+      "무대에 오르다 (lên sân khấu)",
+      "무대에 서다 (đứng trên sân khấu)"
     ]
   },
   {
@@ -382,9 +380,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d09-14-native.mp3",
     "relatedPhrases": [
-      "무더위가 시작되다",
-      "무더위가 기승을 부리다",
-      "무더위를 피하다"
+      "무더위가 시작되다 (nắng nóng bắt đầu)",
+      "무더위를 피하다 (tránh nóng)"
     ],
     "synonyms": [
       "폭염"
@@ -415,8 +412,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d09-15-native.mp3",
     "relatedPhrases": [
-      "무덤에 묻히다",
-      "무덤을 파다"
+      "무덤에 묻히다 (được chôn cất trong mộ)",
+      "무덤을 파다 (đào mộ)"
     ],
     "synonyms": [
       "묘",
@@ -443,7 +440,11 @@ export const vocabTopik2Day09: VocabCard[] = [
     "tags": [],
     "day": 9,
     "dayOrder": 16,
-    "audioUrl": "/audio/word-t2-d09-16-native.mp3"
+    "audioUrl": "/audio/word-t2-d09-16-native.mp3",
+    "relatedPhrases": [
+      "무역이 발달하다 (thương mại phát triển)",
+      "무역 회사 (công ty thương mại)"
+    ]
   },
   {
     "id": "t2-d09-17",
@@ -467,6 +468,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d09-17-native.mp3",
     "pronunciationIrregular": "무조껀",
+    "relatedPhrases": [
+      "무조건 따르다 (tuân theo vô điều kiện)",
+      "무조건 화를 내다 (nổi giận vô cớ)"
+    ],
     "synonyms": [
       "무작정"
     ]
@@ -493,6 +498,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d09-18-native.mp3",
     "pronunciationIrregular": "묵따",
+    "relatedPhrases": [
+      "호텔에서 묵다 (ở khách sạn)",
+      "친구 집에서 묵다 (ở nhà bạn)"
+    ],
     "synonyms": [
       "머무르다"
     ]
@@ -519,6 +528,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d09-19-native.mp3",
     "pronunciationIrregular": "묵따",
+    "relatedPhrases": [
+      "끈을 묶다 (buộc dây)",
+      "머리를 묶다 (buộc tóc)"
+    ],
     "synonyms": [
       "매다"
     ],
@@ -548,9 +561,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d09-20-native.mp3",
     "relatedPhrases": [
-      "인간문화재",
-      "무형 문화재",
-      "유형 문화재"
+      "무형 문화재 (di sản văn hóa phi vật thể)",
+      "유형 문화재 (di sản văn hóa vật thể)"
     ]
   },
   {
@@ -576,7 +588,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-21-native.mp3",
     "pronunciationIrregular": "묻따",
     "relatedPhrases": [
-      "먼지가 옷에 묻다"
+      "먼지가 옷에 묻다 (bụi dính trên áo)",
+      "머리카락에 묻다 (dính trên tóc)"
     ],
     "structure": [
       "N1이/가 N2에 묻다"
@@ -605,12 +618,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-22-native.mp3",
     "pronunciationIrregular": "물까",
     "relatedPhrases": [
-      "물가 인상",
-      "물가 인하",
-      "물가가 오르다",
-      "물가가 내리다",
-      "물가가 비싸다",
-      "물가가 뛰다"
+      "물가가 오르다 (vật giá tăng)",
+      "물가가 비싸다 (vật giá đắt đỏ)"
     ]
   },
   {
@@ -634,6 +643,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "day": 9,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d09-23-native.mp3",
+    "relatedPhrases": [
+      "사람을 물다 (cắn người)",
+      "손을 물다 (cắn tay)"
+    ],
     "synonyms": [
       "깨물다"
     ]
@@ -660,8 +673,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d09-24-native.mp3",
     "relatedPhrases": [
-      "자리에서 물러나다",
-      "사장직에서 물러나다"
+      "자리에서 물러나다 (rút lui khỏi vị trí)",
+      "사장직에서 물러나다 (từ chức giám đốc)"
     ],
     "synonyms": [
       "물러서다"
@@ -694,6 +707,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d09-25-native.mp3",
     "structure": [
       "N1이/가 N2에게 N3을/를 물리다"
+    ],
+    "relatedPhrases": [
+      "강아지에게 물리다 (bị chó cắn)",
+      "모기한테 물리다 (bị muỗi đốt)"
     ]
   },
   {
@@ -718,8 +735,8 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d09-26-native.mp3",
     "relatedPhrases": [
-      "물음을 던지다",
-      "물음에 답하다"
+      "물음을 던지다 (đặt câu hỏi)",
+      "물음에 답하다 (trả lời câu hỏi)"
     ],
     "synonyms": [
       "질문"
@@ -750,6 +767,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d09-27-native.mp3",
     "pronunciationIrregular": "미끄럽따",
+    "relatedPhrases": [
+      "길이 미끄럽다 (đường trơn trượt)",
+      "바닥이 미끄럽다 (sàn nhà trơn)"
+    ],
     "synonyms": [
       "미끌미끌하다"
     ]
@@ -778,6 +799,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "structure": [
       "N1을/를 N2(으)로 미루다"
     ],
+    "relatedPhrases": [
+      "내일로 미루다 (hoãn sang ngày mai)",
+      "날짜를 미루다 (hoãn ngày)"
+    ],
     "antonyms": [
       "앞당기다",
       "당기다"
@@ -804,6 +829,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "day": 9,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d09-29-native.mp3",
+    "relatedPhrases": [
+      "10명 미만 (dưới 10 người)",
+      "20세 미만 (dưới 20 tuổi)"
+    ],
     "antonyms": [
       "초과 (vượt quá)"
     ],
@@ -834,6 +863,10 @@ export const vocabTopik2Day09: VocabCard[] = [
     "tags": [],
     "day": 9,
     "dayOrder": 30,
-    "audioUrl": "/audio/word-t2-d09-30-native.mp3"
+    "audioUrl": "/audio/word-t2-d09-30-native.mp3",
+    "relatedPhrases": [
+      "미성년자 관람 불가 (cấm trẻ vị thành niên xem)",
+      "미성년자를 보호하다 (bảo vệ trẻ vị thành niên)"
+    ]
   }
 ]

@@ -23,9 +23,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d17-01-native.mp3",
     "relatedPhrases": [
-      "영상을 보다",
-      "영상을 찍다",
-      "영상을 제작하다"
+      "영상을 보다 (xem video)",
+      "영상을 찍다 (quay video)"
     ]
   },
   {
@@ -50,12 +49,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d17-02-native.mp3",
     "relatedPhrases": [
-      "영양제",
-      "영양분",
-      "영양이 있다",
-      "영양이 없다",
-      "영양이 풍부하다",
-      "영양이 부족하다"
+      "영양이 풍부하다 (giàu dinh dưỡng)",
+      "영양이 부족하다 (thiếu dinh dưỡng)"
     ]
   },
   {
@@ -78,7 +73,11 @@ export const vocabTopik2Day17: VocabCard[] = [
     "tags": [],
     "day": 17,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d17-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d17-03-native.mp3",
+    "relatedPhrases": [
+      "국민적 영웅 (anh hùng dân tộc)",
+      "영웅이 되다 (trở thành anh hùng)"
+    ]
   },
   {
     "id": "t2-d17-04",
@@ -101,6 +100,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "day": 17,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d17-04-native.mp3",
+    "relatedPhrases": [
+      "영원히 남다 (mãi mãi lưu lại)",
+      "영원히 잊지 못하다 (mãi mãi không quên)"
+    ],
     "synonyms": [
       "영영"
     ],
@@ -130,10 +133,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d17-05-native.mp3",
     "relatedPhrases": [
-      "영향을 주다",
-      "영향을 받다",
-      "영향을 끼치다",
-      "영향을 미치다"
+      "영향을 주다 (gây ảnh hưởng)",
+      "영향을 받다 (chịu ảnh hưởng)"
     ]
   },
   {
@@ -158,8 +159,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d17-06-native.mp3",
     "relatedPhrases": [
-      "예방(을) 하다",
-      "예방(이) 되다"
+      "예방(을) 하다 (phòng ngừa)",
+      "예방(이) 되다 (được phòng ngừa)"
     ]
   },
   {
@@ -184,11 +185,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d17-07-native.mp3",
     "relatedPhrases": [
-      "일기 예보",
-      "기상 예보",
-      "예보(를) 하다",
-      "예보(가) 되다",
-      "예보를 듣다"
+      "일기 예보 (dự báo thời tiết)",
+      "예보를 듣다 (nghe dự báo)"
     ]
   },
   {
@@ -213,11 +211,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d17-08-native.mp3",
     "relatedPhrases": [
-      "예상 문제",
-      "예상 시간",
-      "예상(을) 하다",
-      "예상(이) 되다",
-      "예상이 맞다"
+      "예상(을) 하다 (dự đoán, dự tính)",
+      "예상이 맞다 (dự đoán đúng)"
     ]
   },
   {
@@ -242,12 +237,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d17-09-native.mp3",
     "relatedPhrases": [
-      "예의가 있다",
-      "예의가 없다",
-      "예의가 바르다",
-      "예의를 차리다",
-      "예의를 지키다",
-      "예의에 어긋나다"
+      "예의가 바르다 (lễ phép)",
+      "예의를 지키다 (giữ phép lịch sự)"
     ]
   },
   {
@@ -272,8 +263,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d17-10-native.mp3",
     "relatedPhrases": [
-      "예측(을) 하다",
-      "예측(이) 되다"
+      "예측(을) 하다 (dự đoán)",
+      "예측(이) 되다 (được dự đoán)"
     ]
   },
   {
@@ -297,6 +288,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "day": 17,
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d17-11-native.mp3",
+    "relatedPhrases": [
+      "예컨대 김치나 된장 (chẳng hạn như kim chi hay tương đậu)",
+      "예컨대 공원이나 카페 (chẳng hạn như công viên hay quán cà phê)"
+    ],
     "synonyms": [
       "예를 들(자)면",
       "예를 들어서"
@@ -324,11 +319,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d17-12-native.mp3",
     "relatedPhrases": [
-      "오해(를) 하다",
-      "오해가 생기다",
-      "오해를 사다",
-      "오해를 받다",
-      "오해를 풀다"
+      "오해가 생기다 (nảy sinh hiểu lầm)",
+      "오해를 풀다 (giải tỏa hiểu lầm)"
     ],
     "antonyms": [
       "이해 (hiểu)"
@@ -356,7 +348,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d17-13-native.mp3",
     "relatedPhrases": [
-      "온 + N"
+      "온 + N (toàn bộ + danh từ)",
+      "온 가족 (cả gia đình)"
     ]
   },
   {
@@ -381,6 +374,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d17-14-native.mp3",
     "pronunciationIrregular": "올려노타",
+    "relatedPhrases": [
+      "짐을 올려놓다 (đặt hành lý lên)",
+      "가방을 올려놓다 (đặt cặp lên)"
+    ],
     "structure": [
       "N1을/를 N2에 올려놓다"
     ],
@@ -410,10 +407,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d17-15-native.mp3",
     "relatedPhrases": [
-      "생각이 올바르다",
-      "생활이 올바르다",
-      "사용이 올바르다",
-      "교육이 올바르다"
+      "생각이 올바르다 (suy nghĩ đúng đắn)",
+      "생활이 올바르다 (lối sống đúng đắn)"
     ],
     "synonyms": [
       "옳다",
@@ -443,9 +438,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d17-16-native.mp3",
     "pronunciationIrregular": "옴기다",
     "relatedPhrases": [
-      "물건을 옮기다",
-      "감기를 옮기다",
-      "말을 옮기다"
+      "물건을 옮기다 (di chuyển đồ đạc)",
+      "감기를 옮기다 (lây cảm cúm)"
     ]
   },
   {
@@ -471,7 +465,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d17-17-native.mp3",
     "pronunciationIrregular": "옫차림",
     "relatedPhrases": [
-      "옷차림(을) 하다"
+      "옷차림(을) 하다 (ăn mặc theo kiểu nào đó)",
+      "가벼운 옷차림 (cách ăn mặc nhẹ nhàng)"
     ],
     "synonyms": [
       "복장"
@@ -499,9 +494,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d17-18-native.mp3",
     "relatedPhrases": [
-      "완성(을) 하다",
-      "완성(이) 되다",
-      "완성(을) 시키다"
+      "완성(을) 하다 (hoàn thành)",
+      "완성(이) 되다 (được hoàn thành)"
     ],
     "antonyms": [
       "미완성 (chưa hoàn thành)"
@@ -529,8 +523,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d17-19-native.mp3",
     "relatedPhrases": [
-      "왕복(을) 하다",
-      "왕복이 되다"
+      "왕복(을) 하다 (đi khứ hồi)",
+      "왕복이 되다 (được tính khứ hồi)"
     ],
     "antonyms": [
       "편도 (một chiều)"
@@ -558,8 +552,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d17-20-native.mp3",
     "relatedPhrases": [
-      "외교(를) 하다",
-      "외교를 맺다"
+      "외교(를) 하다 (làm ngoại giao)",
+      "외교 관계를 맺다 (thiết lập quan hệ ngoại giao)"
     ]
   },
   {
@@ -583,6 +577,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "day": 17,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d17-21-native.mp3",
+    "relatedPhrases": [
+      "외모에 신경을 쓰다 (chú trọng vẻ ngoài)",
+      "외모가 뛰어나다 (ngoại hình nổi bật)"
+    ],
     "synonyms": [
       "겉모습",
       "겉모양"
@@ -610,9 +608,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d17-22-native.mp3",
     "relatedPhrases": [
-      "외박(을) 하다",
-      "외박이 되다",
-      "외박을 나가다"
+      "외박(을) 하다 (ngủ qua đêm bên ngoài)",
+      "외박을 나가다 (đi ngủ qua đêm bên ngoài)"
     ]
   },
   {
@@ -636,6 +633,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "day": 17,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d17-23-native.mp3",
+    "relatedPhrases": [
+      "외부 공사 (thi công bên ngoài)",
+      "외부에 위치하다 (nằm ở bên ngoài)"
+    ],
     "synonyms": [
       "바깥",
       "밖"
@@ -667,8 +668,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d17-24-native.mp3",
     "relatedPhrases": [
-      "외식(을) 하다",
-      "외식을 나가다"
+      "외식(을) 하다 (đi ăn ngoài)",
+      "외식을 나가다 (ra ngoài ăn)"
     ]
   },
   {
@@ -693,11 +694,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d17-25-native.mp3",
     "relatedPhrases": [
-      "용기가 있다",
-      "용기가 없다",
-      "용기가 나다",
-      "용기를 내다",
-      "용기를 가지다"
+      "용기가 나다 (có can đảm)",
+      "용기를 내다 (lấy hết can đảm)"
     ]
   },
   {
@@ -723,10 +721,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d17-26-native.mp3",
     "pronunciationIrregular": "용똔",
     "relatedPhrases": [
-      "용돈을 타다",
-      "용돈을 받다",
-      "용돈을 주다",
-      "용돈을 모으다"
+      "용돈을 받다 (nhận tiền tiêu vặt)",
+      "용돈을 모으다 (tiết kiệm tiền tiêu vặt)"
     ]
   },
   {
@@ -751,9 +747,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d17-27-native.mp3",
     "relatedPhrases": [
-      "사무용품",
-      "생활용품",
-      "일회용품"
+      "생활용품 (đồ dùng sinh hoạt)",
+      "일회용품 (đồ dùng một lần)"
     ]
   },
   {
@@ -777,6 +772,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "day": 17,
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d17-28-native.mp3",
+    "relatedPhrases": [
+      "우선순위 (thứ tự ưu tiên)",
+      "우선 처리하다 (xử lý trước tiên)"
+    ],
     "synonyms": [
       "먼저"
     ]
@@ -803,9 +802,8 @@ export const vocabTopik2Day17: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d17-29-native.mp3",
     "relatedPhrases": [
-      "우수상",
-      "우수성",
-      "우수하다"
+      "우수상 (giải thưởng xuất sắc)",
+      "우수하다 (xuất sắc, ưu tú)"
     ]
   },
   {
@@ -829,6 +827,10 @@ export const vocabTopik2Day17: VocabCard[] = [
     "day": 17,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d17-30-native.mp3",
+    "relatedPhrases": [
+      "우연히 만나다 (tình cờ gặp)",
+      "우연히 발견하다 (tình cờ phát hiện ra)"
+    ],
     "synonyms": [
       "어쩌다가",
       "뜻밖에"

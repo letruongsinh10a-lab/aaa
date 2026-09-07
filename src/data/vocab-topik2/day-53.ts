@@ -22,6 +22,10 @@ export const vocabTopik2Day53: VocabCard[] = [
     "day": 53,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d53-01-native.mp3",
+    "relatedPhrases": [
+      "정상 운행되다 (vận hành bình thường)",
+      "정상으로 돌아가다 (trở lại bình thường)"
+    ],
     "antonyms": [
       "비정상"
     ],
@@ -52,11 +56,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d53-02-native.mp3",
     "relatedPhrases": [
-      "정성스럽다",
-      "정성을 다하다",
-      "정성을 들이다",
-      "정성을 모으다",
-      "정성이 담기다"
+      "정성을 다하다 (hết lòng, dốc hết tâm sức)",
+      "정성이 담기다 (chứa đựng tấm lòng)"
     ],
     "relatedWords": [
       "정성껏"
@@ -84,9 +85,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d53-03-native.mp3",
     "relatedPhrases": [
-      "정의(를) 하다",
-      "정의(가) 되다",
-      "정의를 내리다"
+      "정의(를) 하다 (đưa ra định nghĩa)",
+      "정의를 내리다 (đưa ra định nghĩa)"
     ],
     "synonyms": [
       "뜻"
@@ -114,10 +114,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d53-04-native.mp3",
     "relatedPhrases": [
-      "정지(를) 하다",
-      "정지(가) 되다",
-      "정지(를) 시키다",
-      "정지를 당하다"
+      "정지(가) 되다 (bị dừng lại, ngừng lại)",
+      "정지를 당하다 (bị đình chỉ, bị dừng)"
     ]
   },
   {
@@ -141,6 +139,10 @@ export const vocabTopik2Day53: VocabCard[] = [
     "day": 53,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d53-05-native.mp3",
+    "relatedPhrases": [
+      "정직하게 살다 (sống trung thực)",
+      "정직을 강조하다 (nhấn mạnh tính trung thực)"
+    ],
     "synonyms": [
       "솔직"
     ],
@@ -171,8 +173,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d53-06-native.mp3",
     "relatedPhrases": [
-      "정착(을) 하다",
-      "정착(이) 되다"
+      "정착(을) 하다 (định cư, an cư)",
+      "정착(이) 되다 (được định cư, ổn định)"
     ],
     "relatedWords": [
       "정착지",
@@ -201,10 +203,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d53-07-native.mp3",
     "relatedPhrases": [
-      "정책을 세우다",
-      "정책을 펴다",
-      "정책을 펼치다",
-      "정책을 시행하다"
+      "정책을 세우다 (đề ra chính sách)",
+      "정책을 시행하다 (thi hành chính sách)"
     ]
   },
   {
@@ -229,8 +229,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d53-08-native.mp3",
     "relatedPhrases": [
-      "제거(를) 하다",
-      "제거(가) 되다"
+      "제거(를) 하다 (loại bỏ, khử)",
+      "제거(가) 되다 (được loại bỏ, được khử)"
     ]
   },
   {
@@ -255,9 +255,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d53-09-native.mp3",
     "relatedPhrases": [
-      "제도를 개선하다",
-      "제도를 도입하다",
-      "제도를 시행하다"
+      "제도를 도입하다 (áp dụng, du nhập chế độ)",
+      "제도를 시행하다 (thi hành chế độ)"
     ],
     "relatedWords": [
       "국가 제도",
@@ -287,6 +286,10 @@ export const vocabTopik2Day53: VocabCard[] = [
     "day": 53,
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d53-10-native.mp3",
+    "relatedPhrases": [
+      "제법 잘하다 (làm khá tốt)",
+      "제법 쌀쌀하다 (khá se lạnh)"
+    ],
     "synonyms": [
       "꽤",
       "매우",
@@ -321,10 +324,8 @@ export const vocabTopik2Day53: VocabCard[] = [
       "제시합니다"
     ],
     "relatedPhrases": [
-      "대책을 제시하다",
-      "대안을 제시하다",
-      "방향을 제시하다",
-      "증거를 제시하다"
+      "대안을 제시하다 (đưa ra phương án thay thế)",
+      "증거를 제시하다 (đưa ra bằng chứng)"
     ]
   },
   {
@@ -353,6 +354,10 @@ export const vocabTopik2Day53: VocabCard[] = [
       "제외해서",
       "제외하면",
       "제외합니다"
+    ],
+    "relatedPhrases": [
+      "명단에서 제외하다 (loại khỏi danh sách)",
+      "세금을 제외하고 (sau khi trừ thuế)"
     ],
     "synonyms": [
       "빼다",
@@ -384,10 +389,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d53-13-native.mp3",
     "relatedPhrases": [
-      "제자리로 가다",
-      "제자리를 지키다",
-      "제자리를 찾다",
-      "제자리에 머물다"
+      "제자리를 찾다 (tìm lại vị trí/trạng thái ban đầu)",
+      "제자리를 지키다 (giữ đúng vị trí, giữ vững lập trường)"
     ],
     "relatedWords": [
       "제자리걸음",
@@ -416,11 +419,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d53-14-native.mp3",
     "relatedPhrases": [
-      "제작(을) 하다",
-      "제작(이) 되다",
-      "영화를 제작하다",
-      "음반을 제작하다",
-      "작품을 제작하다"
+      "영화를 제작하다 (sản xuất phim)",
+      "제작(이) 되다 (được sản xuất, được chế tác)"
     ]
   },
   {
@@ -445,10 +445,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d53-15-native.mp3",
     "relatedPhrases": [
-      "제한(을) 하다",
-      "제한(이) 되다",
-      "제한이 있다",
-      "제한을 두다"
+      "제한이 있다 (có giới hạn)",
+      "제한을 두다 (đặt ra giới hạn, hạn chế)"
     ],
     "relatedWords": [
       "제한적"
@@ -482,7 +480,8 @@ export const vocabTopik2Day53: VocabCard[] = [
       "조릅니다"
     ],
     "relatedPhrases": [
-      "아이가 부모에게 과자를 사 달라고 조르다"
+      "아이가 부모에게 과자를 사 달라고 조르다 (đứa trẻ nài nỉ bố mẹ mua bánh kẹo)",
+      "돈을 달라고 조르다 (nài nỉ đòi tiền)"
     ],
     "structure": [
       "N1이/가 N2에게 V-아/어 달라고 조르다"
@@ -510,11 +509,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d53-17-native.mp3",
     "relatedPhrases": [
-      "조명이 밝다",
-      "조명을 켜다",
-      "조명이 꺼지다",
-      "조명을 비추다",
-      "조명을 받다"
+      "조명을 켜다 (bật đèn)",
+      "조명을 받다 (được chiếu sáng; được chú ý)"
     ]
   },
   {
@@ -539,11 +535,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d53-18-native.mp3",
     "relatedPhrases": [
-      "조작(을) 하다",
-      "조작(이) 되다",
-      "사건을 조작하다",
-      "의견을 조작하다",
-      "주가를 조작하다"
+      "사건을 조작하다 (dàn dựng/ngụy tạo vụ việc)",
+      "조작(이) 되다 (bị làm giả, bị thao túng)"
     ]
   },
   {
@@ -568,12 +561,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d53-19-native.mp3",
     "relatedPhrases": [
-      "조절(을) 하다",
-      "조절(이) 되다",
-      "온도를 조절하다",
-      "속도를 조절하다",
-      "체중을 조절하다",
-      "감정을 조절하다"
+      "온도를 조절하다 (điều chỉnh nhiệt độ)",
+      "감정을 조절하다 (kiểm soát cảm xúc)"
     ]
   },
   {
@@ -598,12 +587,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d53-20-native.mp3",
     "relatedPhrases": [
-      "조정(을) 하다",
-      "조정(이) 되다",
-      "요금을 조정하다",
-      "임금을 조정하다",
-      "노선을 조정하다",
-      "구역을 조정하다"
+      "요금을 조정하다 (điều chỉnh mức phí)",
+      "조정(이) 되다 (được điều chỉnh)"
     ]
   },
   {
@@ -628,10 +613,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d53-21-native.mp3",
     "relatedPhrases": [
-      "조화롭다",
-      "조화(가) 되다",
-      "조화를 이루다",
-      "조화가 깨지다"
+      "조화를 이루다 (tạo nên sự hài hòa)",
+      "조화가 깨지다 (sự hài hòa bị phá vỡ)"
     ],
     "antonyms": [
       "부조화"
@@ -659,8 +642,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d53-22-native.mp3",
     "relatedPhrases": [
-      "존재(를) 하다",
-      "존재가 되다"
+      "존재(를) 하다 (tồn tại)",
+      "존재가 되다 (trở thành một sự tồn tại/thực thể)"
     ],
     "relatedWords": [
       "존재감"
@@ -688,8 +671,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d53-23-native.mp3",
     "relatedPhrases": [
-      "존중(을) 하다",
-      "존중(이) 되다"
+      "존중(을) 하다 (tôn trọng)",
+      "존중(이) 되다 (được tôn trọng)"
     ]
   },
   {
@@ -713,6 +696,10 @@ export const vocabTopik2Day53: VocabCard[] = [
     "day": 53,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d53-24-native.mp3",
+    "relatedPhrases": [
+      "좀처럼 보기 힘들다 (hiếm khi thấy được)",
+      "좀처럼 화를 내지 않다 (hiếm khi nổi giận)"
+    ],
     "structure": [
       "좀처럼 + biểu hiện phủ định (없다",
       "않다",
@@ -748,9 +735,8 @@ export const vocabTopik2Day53: VocabCard[] = [
       "좁힙니다"
     ],
     "relatedPhrases": [
-      "거리를 좁히다",
-      "간격을 좁히다",
-      "차이를 좁히다"
+      "거리를 좁히다 (thu hẹp khoảng cách)",
+      "차이를 좁히다 (thu hẹp sự khác biệt)"
     ],
     "structure": [
       "sự động từ của '좁다'"
@@ -780,6 +766,10 @@ export const vocabTopik2Day53: VocabCard[] = [
     "day": 53,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d53-26-native.mp3",
+    "relatedPhrases": [
+      "종종 술을 마시다 (thỉnh thoảng uống rượu)",
+      "종종 생각나다 (thỉnh thoảng lại nhớ đến)"
+    ],
     "synonyms": [
       "가끔",
       "이따금",
@@ -808,11 +798,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d53-27-native.mp3",
     "relatedPhrases": [
-      "주장(을) 하다",
-      "주장(이) 되다",
-      "주장을 펼치다",
-      "주장을 내세우다",
-      "주장을 굽히지 않다"
+      "주장을 내세우다 (khăng khăng đưa ra ý kiến/chủ trương)",
+      "주장을 굽히지 않다 (không lùi bước trước ý kiến của mình)"
     ]
   },
   {
@@ -844,8 +831,8 @@ export const vocabTopik2Day53: VocabCard[] = [
       "주저앉습니다"
     ],
     "relatedPhrases": [
-      "건물이 주저앉다",
-      "아이가 땅바닥에 주저앉다"
+      "건물이 주저앉다 (tòa nhà sụp đổ)",
+      "아이가 땅바닥에 주저앉다 (đứa trẻ ngồi sụp xuống đất)"
     ],
     "structure": [
       "N이/가 주저앉다",
@@ -874,9 +861,8 @@ export const vocabTopik2Day53: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d53-29-native.mp3",
     "relatedPhrases": [
-      "줄거리를 요약하다",
-      "줄거리를 소개하다",
-      "줄거리를 이해하다"
+      "줄거리를 요약하다 (tóm tắt cốt truyện)",
+      "줄거리를 소개하다 (giới thiệu cốt truyện)"
     ]
   },
   {
@@ -900,6 +886,10 @@ export const vocabTopik2Day53: VocabCard[] = [
     "day": 53,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d53-30-native.mp3",
+    "relatedPhrases": [
+      "줄곧 1위를 차지하다 (liên tục đứng vị trí số 1)",
+      "줄곧 기다리다 (luôn chờ đợi không ngừng)"
+    ],
     "synonyms": [
       "내내",
       "계속"

@@ -23,14 +23,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d06-01-native.mp3",
     "relatedPhrases": [
-      "단체 생활",
-      "단체 사진",
-      "단체 여행",
-      "단체 행동",
-      "단체를 만들다",
-      "단체에 들어가다",
-      "단체에 가입하다",
-      "단체를 탈퇴하다"
+      "단체에 가입하다 (gia nhập tổ chức, đoàn thể)",
+      "단체 사진 (ảnh chụp tập thể)"
     ]
   },
   {
@@ -55,6 +49,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d06-02-native.mp3",
     "pronunciationIrregular": "다치다",
+    "relatedPhrases": [
+      "창문이 닫히다 (cửa sổ đóng lại)",
+      "문이 닫히다 (cửa đóng lại)"
+    ],
     "antonyms": [
       "열리다"
     ]
@@ -81,9 +79,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d06-03-native.mp3",
     "relatedPhrases": [
-      "단추를 달다",
-      "국기를 달다",
-      "꽃을 달다"
+      "단추를 달다 (đính cúc áo)",
+      "국기를 달다 (treo cờ)"
     ],
     "antonyms": [
       "떼다"
@@ -110,6 +107,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d06-04-native.mp3",
+    "relatedPhrases": [
+      "달콤한 맛 (vị ngọt ngào)",
+      "달콤한 사랑 (tình yêu ngọt ngào)"
+    ],
     "extraNotes": [
       {
         "label": "So sánh",
@@ -139,8 +140,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d06-05-native.mp3",
     "relatedPhrases": [
-      "김치를 담그다",
-      "된장을 담그다"
+      "김치를 담그다 (muối kim chi)",
+      "된장을 담그다 (làm tương đậu)"
     ]
   },
   {
@@ -165,7 +166,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d06-06-native.mp3",
     "relatedPhrases": [
-      "그릇에 음식이 담기다"
+      "그릇에 음식이 담기다 (thức ăn được đựng trong bát)",
+      "상자에 사과가 담기다 (táo được đựng trong hộp)"
     ],
     "structure": [
       "N1에 N2이/가 담기다"
@@ -194,7 +196,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d06-07-native.mp3",
     "pronunciationIrregular": "담따",
     "relatedPhrases": [
-      "상자에 사과를 담다"
+      "상자에 사과를 담다 (đựng táo vào hộp)",
+      "그릇에 밥을 담다 (xới cơm vào bát)"
     ],
     "structure": [
       "N1에 N2을/를 담다"
@@ -221,6 +224,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d06-08-native.mp3",
+    "relatedPhrases": [
+      "당연한 결과 (kết quả đương nhiên)",
+      "당연한 일이다 (chuyện đương nhiên)"
+    ],
     "synonyms": [
       "마땅하다"
     ]
@@ -246,6 +253,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d06-09-native.mp3",
+    "relatedPhrases": [
+      "지금 당장 (ngay bây giờ)",
+      "당장 떠나다 (rời đi ngay lập tức)"
+    ],
     "synonyms": [
       "즉각",
       "즉시"
@@ -271,7 +282,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "tags": [],
     "day": 6,
     "dayOrder": 10,
-    "audioUrl": "/audio/word-t2-d06-10-native.mp3"
+    "audioUrl": "/audio/word-t2-d06-10-native.mp3",
+    "relatedPhrases": [
+      "질문에 당황하다 (bối rối trước câu hỏi)",
+      "당황한 표정을 짓다 (tỏ vẻ mặt hoảng hốt)"
+    ]
   },
   {
     "id": "t2-d06-11",
@@ -297,6 +312,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "pronunciationIrregular": "다타",
     "structure": [
       "N1이/가 N2에/에게 닿다"
+    ],
+    "relatedPhrases": [
+      "손에 닿다 (chạm tới tay)",
+      "마음이 닿다 (chạm đến trái tim)"
     ]
   },
   {
@@ -319,7 +338,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "tags": [],
     "day": 6,
     "dayOrder": 12,
-    "audioUrl": "/audio/word-t2-d06-12-native.mp3"
+    "audioUrl": "/audio/word-t2-d06-12-native.mp3",
+    "relatedPhrases": [
+      "귀에 대다 (áp vào tai)",
+      "카드를 대다 (chạm/quẹt thẻ)"
+    ]
   },
   {
     "id": "t2-d06-13",
@@ -342,6 +365,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d06-13-native.mp3",
+    "relatedPhrases": [
+      "실력이 대단하다 (năng lực đáng nể)",
+      "인기가 대단하다 (nổi tiếng ghê gớm)"
+    ],
     "synonyms": [
       "굉장하다"
     ]
@@ -369,6 +396,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d06-14-native.mp3",
     "structure": [
       "N1 대신(에) N2"
+    ],
+    "relatedPhrases": [
+      "고기 대신 채소를 먹다 (ăn rau thay cho thịt)",
+      "버스 대신 지하철을 타다 (đi tàu điện ngầm thay vì xe buýt)"
     ]
   },
   {
@@ -393,9 +424,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d06-15-native.mp3",
     "relatedPhrases": [
-      "대중문화",
-      "대중가요",
-      "대중교통"
+      "대중교통 (giao thông công cộng)",
+      "대중문화 (văn hóa đại chúng)"
     ]
   },
   {
@@ -419,6 +449,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d06-16-native.mp3",
+    "relatedPhrases": [
+      "날씨가 대체로 맑다 (thời tiết nhìn chung quang đãng)",
+      "대체로 만족하다 (nhìn chung là hài lòng)"
+    ],
     "synonyms": [
       "대개"
     ]
@@ -444,6 +478,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d06-17-native.mp3",
+    "relatedPhrases": [
+      "대표를 뽑다 (bầu chọn người đại diện)",
+      "대표 음식 (món ăn tiêu biểu)"
+    ],
     "relatedWords": [
       "대표적"
     ]
@@ -470,8 +508,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d06-18-native.mp3",
     "relatedPhrases": [
-      "점원이 손님을 대하다",
-      "친구와 얼굴을 대하다"
+      "점원이 손님을 대하다 (nhân viên đối xử với khách hàng)",
+      "친구와 얼굴을 대하다 (đối diện mặt với bạn bè)"
     ],
     "structure": [
       "N1이/가 N2을/를 대하다",
@@ -499,6 +537,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d06-19-native.mp3",
+    "relatedPhrases": [
+      "대형 아파트 (căn hộ cỡ lớn)",
+      "대형 마트 (siêu thị lớn)"
+    ],
     "antonyms": [
       "소형"
     ],
@@ -533,6 +575,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "structure": [
       "N1에 N2을/를 더하다"
     ],
+    "relatedPhrases": [
+      "재미를 더하다 (làm tăng thêm phần thú vị)",
+      "힘을 더하다 (tiếp thêm sức mạnh)"
+    ],
     "synonyms": [
       "합하다"
     ],
@@ -561,6 +607,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d06-21-native.mp3",
+    "relatedPhrases": [
+      "덜 춥다 (bớt lạnh)",
+      "덜 힘들다 (đỡ vất vả hơn)"
+    ],
     "antonyms": [
       "더 (nhiều hơn)"
     ]
@@ -585,7 +635,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "tags": [],
     "day": 6,
     "dayOrder": 22,
-    "audioUrl": "/audio/word-t2-d06-22-native.mp3"
+    "audioUrl": "/audio/word-t2-d06-22-native.mp3",
+    "relatedPhrases": [
+      "밥을 덜다 (xới bớt cơm ra)",
+      "부담을 덜다 (giảm bớt gánh nặng)"
+    ]
   },
   {
     "id": "t2-d06-23",
@@ -608,7 +662,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d06-23-native.mp3",
-    "pronunciationIrregular": "덥따"
+    "pronunciationIrregular": "덥따",
+    "relatedPhrases": [
+      "이불을 덮다 (đắp chăn)",
+      "책을 덮다 (gấp sách lại)"
+    ]
   },
   {
     "id": "t2-d06-24",
@@ -630,7 +688,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "tags": [],
     "day": 6,
     "dayOrder": 24,
-    "audioUrl": "/audio/word-t2-d06-24-native.mp3"
+    "audioUrl": "/audio/word-t2-d06-24-native.mp3",
+    "relatedPhrases": [
+      "손을 데다 (bị bỏng tay)",
+      "뜨거운 물에 데다 (bị bỏng vì nước nóng)"
+    ]
   },
   {
     "id": "t2-d06-25",
@@ -654,8 +716,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d06-25-native.mp3",
     "relatedPhrases": [
-      "데리고 가다/오다/다니다/살다/놀다",
-      "데리러 가다/오다/다니다"
+      "데리고 가다/오다/다니다 (dẫn theo đi/về/khắp nơi)",
+      "데리러 가다/오다 (đi/đến đón)"
     ],
     "structure": [
       "데리고 + V",
@@ -682,7 +744,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "tags": [],
     "day": 6,
     "dayOrder": 26,
-    "audioUrl": "/audio/word-t2-d06-26-native.mp3"
+    "audioUrl": "/audio/word-t2-d06-26-native.mp3",
+    "relatedPhrases": [
+      "채소를 데치다 (trụng rau)",
+      "오징어를 데치다 (trụng mực)"
+    ]
   },
   {
     "id": "t2-d06-27",
@@ -704,7 +770,11 @@ export const vocabTopik2Day06: VocabCard[] = [
     "tags": [],
     "day": 6,
     "dayOrder": 27,
-    "audioUrl": "/audio/word-t2-d06-27-native.mp3"
+    "audioUrl": "/audio/word-t2-d06-27-native.mp3",
+    "relatedPhrases": [
+      "도구를 이용하다 (sử dụng công cụ)",
+      "요리 도구 (dụng cụ nấu ăn)"
+    ]
   },
   {
     "id": "t2-d06-28",
@@ -728,9 +798,8 @@ export const vocabTopik2Day06: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d06-28-native.mp3",
     "relatedPhrases": [
-      "도둑이 들다",
-      "도둑을 잡다",
-      "도둑이 도망가다"
+      "도둑이 들다 (kẻ trộm đột nhập)",
+      "도둑을 잡다 (bắt tên trộm)"
     ]
   },
   {
@@ -754,6 +823,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d06-29-native.mp3",
+    "relatedPhrases": [
+      "재빨리 도망가다 (nhanh chóng chạy trốn)",
+      "멀리 도망가다 (chạy trốn thật xa)"
+    ],
     "synonyms": [
       "도망치다",
       "달아나다"
@@ -780,6 +853,10 @@ export const vocabTopik2Day06: VocabCard[] = [
     "day": 6,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d06-30-native.mp3",
+    "relatedPhrases": [
+      "도서 목록 (danh mục sách)",
+      "도서를 대출하다 (mượn sách)"
+    ],
     "synonyms": [
       "책",
       "서적"

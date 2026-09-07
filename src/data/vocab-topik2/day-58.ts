@@ -23,9 +23,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d58-01-native.mp3",
     "relatedPhrases": [
-      "평생을 같이하다",
-      "평생을 두다",
-      "평생을 걸치다"
+      "평생을 같이하다 (cùng nhau sống suốt đời)",
+      "평생 동안 (trong suốt cuộc đời)"
     ],
     "synonyms": [
       "일생"
@@ -53,10 +52,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d58-02-native.mp3",
     "relatedPhrases": [
-      "평화롭다",
-      "평화를 지키다",
-      "평화를 이루다",
-      "평화를 깨뜨리다"
+      "평화를 지키다 (gìn giữ hòa bình)",
+      "평화를 이루다 (đạt được hòa bình)"
     ],
     "relatedWords": [
       "평화적",
@@ -85,11 +82,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d58-03-native.mp3",
     "relatedPhrases": [
-      "폐지(를) 하다",
-      "폐지(가) 되다",
-      "제도를 폐지하다",
-      "정책을 폐지하다",
-      "법을 폐지하다"
+      "폐지(가) 되다 (bị bãi bỏ)",
+      "제도를 폐지하다 (bãi bỏ chế độ/quy định)"
     ]
   },
   {
@@ -120,9 +114,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "포근합니다"
     ],
     "relatedPhrases": [
-      "날씨가 포근하다",
-      "마음이 포근하다",
-      "엄마 품이 포근하다"
+      "날씨가 포근하다 (thời tiết ấm áp)",
+      "마음이 포근하다 (lòng cảm thấy ấm áp)"
     ],
     "synonyms": [
       "푸근하다"
@@ -157,9 +150,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "폭넓습니다"
     ],
     "relatedPhrases": [
-      "마음이 폭넓다",
-      "활동이 폭넓다",
-      "시야가 폭넓다"
+      "활동이 폭넓다 (hoạt động rộng rãi)",
+      "시야가 폭넓다 (tầm nhìn rộng)"
     ]
   },
   {
@@ -185,10 +177,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d58-06-native.mp3",
     "pronunciationIrregular": "퐁녁",
     "relatedPhrases": [
-      "폭력을 쓰다",
-      "폭력을 가하다",
-      "폭력을 휘두르다",
-      "폭력을 당하다"
+      "폭력을 당하다 (bị bạo hành)",
+      "폭력을 휘두르다 (ra tay bạo lực)"
     ],
     "relatedWords": [
       "폭력적",
@@ -222,8 +212,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d58-07-native.mp3",
     "pronunciationIrregular": "폭빨",
     "relatedPhrases": [
-      "폭발(을) 하다",
-      "폭발(이) 되다"
+      "폭발(을) 하다 (bùng nổ, phát nổ)",
+      "폭발(이) 되다 (bị/được kích nổ)"
     ],
     "relatedWords": [
       "폭발적",
@@ -254,8 +244,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d58-08-native.mp3",
     "pronunciationIrregular": "폭썰",
     "relatedPhrases": [
-      "폭설이 내리다",
-      "폭설이 쏟아지다"
+      "폭설이 내리다 (bão tuyết rơi xuống)",
+      "폭설이 쏟아지다 (bão tuyết đổ ập xuống)"
     ],
     "relatedWords": [
       "폭설-폭우-폭풍"
@@ -283,9 +273,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d58-09-native.mp3",
     "relatedPhrases": [
-      "표면으로 나타나다",
-      "표면에 드러나다",
-      "표면에 떠오르다"
+      "표면에 드러나다 (lộ ra bề mặt/bề ngoài)",
+      "표면으로 나타나다 (hiện ra bề mặt)"
     ],
     "synonyms": [
       "바깥쪽",
@@ -318,8 +307,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d58-10-native.mp3",
     "relatedPhrases": [
-      "표준어를 사용하다",
-      "표준어를 구사하다"
+      "표준어를 사용하다 (sử dụng tiếng chuẩn)",
+      "표준어를 구사하다 (nói thành thạo tiếng chuẩn)"
     ],
     "synonyms": [
       "표준말"
@@ -357,10 +346,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "풉니다"
     ],
     "relatedPhrases": [
-      "밥을 푸다",
-      "국을 푸다",
-      "흙을 푸다",
-      "물을 푸다"
+      "밥을 푸다 (xới cơm)",
+      "물을 푸다 (múc nước)"
     ]
   },
   {
@@ -391,9 +378,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "풀어집니다"
     ],
     "relatedPhrases": [
-      "끈이 풀어지다",
-      "붕대가 풀어지다",
-      "감정이 풀어지다"
+      "끈이 풀어지다 (dây bị tuột ra)",
+      "감정이 풀어지다 (cảm xúc được giải tỏa)"
     ],
     "synonyms": [
       "풀리다"
@@ -427,10 +413,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "품습니다"
     ],
     "relatedPhrases": [
-      "불만을 품다",
-      "앙심을 품다",
-      "애정을 품다",
-      "호기심을 품다"
+      "호기심을 품다 (nuôi dưỡng sự tò mò)",
+      "애정을 품다 (nuôi dưỡng tình cảm)"
     ],
     "extraNotes": [
       {
@@ -467,10 +451,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "풍깁니다"
     ],
     "relatedPhrases": [
-      "악취가 풍기다",
-      "인간미가 풍기다",
-      "인간미를 풍기다",
-      "분위기를 풍기다"
+      "악취가 풍기다 (mùi hôi bốc ra)",
+      "분위기를 풍기다 (toát lên phong thái, không khí)"
     ],
     "structure": [
       "N이/가 풍기다",
@@ -505,10 +487,8 @@ export const vocabTopik2Day58: VocabCard[] = [
       "풍부합니다"
     ],
     "relatedPhrases": [
-      "자원이 풍부하다",
-      "지식이 풍부하다",
-      "경험이 풍부하다",
-      "내용이 풍부하다"
+      "자원이 풍부하다 (tài nguyên phong phú)",
+      "경험이 풍부하다 (kinh nghiệm phong phú)"
     ],
     "synonyms": [
       "넉넉하다",
@@ -539,6 +519,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "day": 58,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d58-16-native.mp3",
+    "relatedPhrases": [
+      "풍속이 변화하다 (phong tục thay đổi)",
+      "전통 풍속을 따르다 (tuân theo phong tục truyền thống)"
+    ],
     "synonyms": [
       "풍습"
     ]
@@ -565,6 +549,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d58-17-native.mp3",
     "pronunciationIrregular": "필쑤",
+    "relatedPhrases": [
+      "필수로 여기다 (xem là điều cần thiết)",
+      "필수 조건을 갖추다 (đáp ứng điều kiện thiết yếu)"
+    ],
     "relatedWords": [
       "필수적",
       "필수품",
@@ -595,9 +583,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d58-18-native.mp3",
     "relatedPhrases": [
-      "핑계가 있다",
-      "핑계가 되다",
-      "핑계를 대다"
+      "핑계를 대다 (viện cớ, lấy lý do)",
+      "핑계가 되다 (trở thành cái cớ)"
     ],
     "synonyms": [
       "변명"
@@ -633,6 +620,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "structure": [
       "하도 + V/A-아/어서"
     ],
+    "relatedPhrases": [
+      "하도 답답해서 (vì quá ngột ngạt nên)",
+      "하도 오랜만이라 (vì đã lâu quá rồi)"
+    ],
     "synonyms": [
       "너무"
     ]
@@ -660,9 +651,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d58-20-native.mp3",
     "pronunciationIrregular": "항녁",
     "relatedPhrases": [
-      "학력이 높다",
-      "학력이 낮다",
-      "학력을 제한하다"
+      "학력이 높다 (trình độ học vấn cao)",
+      "학력을 제한하다 (giới hạn trình độ học vấn)"
     ],
     "relatedWords": [
       "고학력",
@@ -694,9 +684,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d58-21-native.mp3",
     "pronunciationIrregular": "항문",
     "relatedPhrases": [
-      "학문에 힘쓰다",
-      "학문을 닦다",
-      "학문에 몰두하다"
+      "학문을 닦다 (trau dồi học vấn)",
+      "학문에 몰두하다 (chuyên tâm vào học vấn)"
     ],
     "relatedWords": [
       "학문적"
@@ -723,6 +712,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "day": 58,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d58-22-native.mp3",
+    "relatedPhrases": [
+      "한결 나아지다 (khá hơn hẳn)",
+      "한결 편안해지다 (trở nên thoải mái hơn hẳn)"
+    ],
     "synonyms": [
       "한층",
       "훨씬",
@@ -751,11 +744,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d58-23-native.mp3",
     "relatedPhrases": [
-      "한계에 이르다",
-      "한계에 다다르다",
-      "한계가 드러나다",
-      "한계를 극복하다",
-      "한계를 넘다"
+      "한계를 극복하다 (vượt qua giới hạn)",
+      "한계에 이르다 (đạt đến giới hạn)"
     ],
     "synonyms": [
       "제한",
@@ -783,6 +773,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "day": 58,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d58-24-native.mp3",
+    "relatedPhrases": [
+      "한꺼번에 몰리다 (đổ dồn cùng lúc)",
+      "한꺼번에 처리하다 (xử lý cùng một lúc)"
+    ],
     "synonyms": [
       "동시에"
     ]
@@ -809,9 +803,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d58-25-native.mp3",
     "relatedPhrases": [
-      "한눈에 반하다",
-      "한눈에 알아보다",
-      "한눈에 들어오다"
+      "한눈에 알아보다 (nhận ra ngay từ cái nhìn đầu tiên)",
+      "한눈에 들어오다 (lọt vào mắt ngay, thấy rõ ngay)"
     ],
     "extraNotes": [
       {
@@ -840,7 +833,11 @@ export const vocabTopik2Day58: VocabCard[] = [
     "tags": [],
     "day": 58,
     "dayOrder": 26,
-    "audioUrl": "/audio/word-t2-d58-26-native.mp3"
+    "audioUrl": "/audio/word-t2-d58-26-native.mp3",
+    "relatedPhrases": [
+      "한순간에 벌어지다 (xảy ra chỉ trong khoảnh khắc)",
+      "한순간도 눈을 떼지 않다 (không rời mắt dù chỉ một khoảnh khắc)"
+    ]
   },
   {
     "id": "t2-d58-27",
@@ -863,6 +860,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "day": 58,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d58-27-native.mp3",
+    "relatedPhrases": [
+      "한창 바쁘다 (đang trong lúc bận rộn nhất)",
+      "축제가 한창이다 (lễ hội đang ở cao trào)"
+    ],
     "synonyms": [
       "한창때"
     ]
@@ -889,9 +890,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d58-28-native.mp3",
     "relatedPhrases": [
-      "할부(를) 하다",
-      "할부가 되다",
-      "할부로 사다"
+      "할부로 사다 (mua trả góp)",
+      "할부가 되다 (có thể trả góp được)"
     ],
     "antonyms": [
       "일시불"
@@ -919,9 +919,8 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d58-29-native.mp3",
     "relatedPhrases": [
-      "함부로 대하다",
-      "함부로 행동하다",
-      "함부로 다루다"
+      "함부로 대하다 (đối xử tùy tiện)",
+      "함부로 행동하다 (hành động tùy tiện)"
     ],
     "synonyms": [
       "막",
@@ -950,6 +949,10 @@ export const vocabTopik2Day58: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d58-30-native.mp3",
     "pronunciationIrregular": "함니적",
+    "relatedPhrases": [
+      "합리적 소비 (tiêu dùng hợp lý)",
+      "합리적으로 판단하다 (phán đoán một cách hợp lý)"
+    ],
     "synonyms": [
       "이성적"
     ],

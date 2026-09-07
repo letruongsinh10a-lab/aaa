@@ -23,10 +23,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d32-01-native.mp3",
     "relatedPhrases": [
-      "논쟁을 하다",
-      "논쟁이 되다",
-      "논쟁을 벌이다",
-      "논쟁이 치열하다"
+      "논쟁을 벌이다 (mở, gây ra cuộc tranh luận)",
+      "논쟁이 치열하다 (tranh luận gay gắt)"
     ]
   },
   {
@@ -49,7 +47,11 @@ export const vocabTopik2Day32: VocabCard[] = [
     "tags": [],
     "day": 32,
     "dayOrder": 2,
-    "audioUrl": "/audio/word-t2-d32-02-native.mp3"
+    "audioUrl": "/audio/word-t2-d32-02-native.mp3",
+    "relatedPhrases": [
+      "친구를 놀리다 (trêu chọc bạn bè)",
+      "장난으로 놀리다 (trêu đùa cho vui)"
+    ]
   },
   {
     "id": "t2-d32-03",
@@ -71,7 +73,11 @@ export const vocabTopik2Day32: VocabCard[] = [
     "tags": [],
     "day": 32,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d32-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d32-03-native.mp3",
+    "relatedPhrases": [
+      "농업에 종사하다 (làm việc trong ngành nông nghiệp)",
+      "농업을 발전시키다 (phát triển nông nghiệp)"
+    ]
   },
   {
     "id": "t2-d32-04",
@@ -95,13 +101,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d32-04-native.mp3",
     "relatedPhrases": [
-      "눈길을 끌다",
-      "눈길을 모으다",
-      "눈길을 보내다",
-      "눈길을 돌리다",
-      "눈길을 피하다",
-      "눈길이 마주치다",
-      "눈길이 쏠리다"
+      "눈길을 피하다 (tránh ánh mắt)",
+      "눈길을 끌다 (thu hút ánh nhìn)"
     ],
     "synonyms": [
       "시선"
@@ -129,11 +130,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d32-05-native.mp3",
     "relatedPhrases": [
-      "눈치가 있다",
-      "눈치가 없다",
-      "눈치가 빠르다",
-      "눈치를 채다",
-      "눈치를 보다"
+      "눈치를 채다 (nhận ra, để ý thấy)",
+      "눈치가 없다 (thiếu tinh ý, vô tâm)"
     ]
   },
   {
@@ -157,6 +155,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d32-06-native.mp3",
+    "relatedPhrases": [
+      "아이를 눕히다 (đặt trẻ nằm xuống)",
+      "침대에 눕히다 (đặt nằm xuống giường)"
+    ],
     "structure": [
       "N1을/를 N2에 눕히다"
     ],
@@ -185,6 +187,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d32-07-native.mp3",
+    "relatedPhrases": [
+      "성격이 느긋하다 (tính cách thong thả, điềm tĩnh)",
+      "마음이 느긋하다 (tâm trạng thoải mái, thong thả)"
+    ],
     "antonyms": [
       "급하다",
       "조급하다",
@@ -213,10 +219,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d32-08-native.mp3",
     "relatedPhrases": [
-      "속이 느끼하다",
-      "음식이 느끼하다",
-      "말투가 느끼하다",
-      "표정이 느끼하다"
+      "음식이 느끼하다 (đồ ăn ngấy)",
+      "속이 느끼하다 (bụng dạ khó chịu, ngấy)"
     ]
   },
   {
@@ -242,9 +246,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d32-09-native.mp3",
     "pronunciationIrregular": "느러노타",
     "relatedPhrases": [
-      "물건을 늘어놓다",
-      "일을 늘어놓다",
-      "말을 늘어놓다"
+      "말을 늘어놓다 (nói lể dài dòng)",
+      "물건을 늘어놓다 (bày biện đồ vật ngổn ngang)"
     ]
   },
   {
@@ -269,9 +272,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d32-10-native.mp3",
     "relatedPhrases": [
-      "길이를 늘이다",
-      "고무줄을 늘이다",
-      "선을 늘이다"
+      "길이를 늘이다 (kéo dài độ dài ra)",
+      "고무줄을 늘이다 (kéo dãn dây thun)"
     ],
     "antonyms": [
       "줄이다"
@@ -299,9 +301,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d32-11-native.mp3",
     "relatedPhrases": [
-      "시간이 늦어지다",
-      "속도가 늦어지다",
-      "일정이 늦어지다"
+      "일정이 늦어지다 (lịch trình bị trễ)",
+      "시간이 늦어지다 (thời gian bị muộn)"
     ]
   },
   {
@@ -326,10 +327,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d32-12-native.mp3",
     "relatedPhrases": [
-      "기한을 늦추다",
-      "시간을 늦추다",
-      "속력을 늦추다",
-      "경계를 늦추다"
+      "시간을 늦추다 (dời thời gian lại, trì hoãn)",
+      "기한을 늦추다 (gia hạn thời hạn)"
     ],
     "synonyms": [
       "연기하다"
@@ -362,6 +361,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d32-13-native.mp3",
+    "relatedPhrases": [
+      "창가로 다가가다 (đến gần cửa sổ)",
+      "사람들에게 다가가다 (tiếp cận mọi người)"
+    ],
     "structure": [
       "N1이/가 N2에/에게/(으)로 다가가다"
     ],
@@ -390,6 +393,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d32-14-native.mp3",
+    "relatedPhrases": [
+      "가까이 다가서다 (tiến lại gần)",
+      "바짝 다가서다 (tiến sát lại gần)"
+    ],
     "structure": [
       "N1이/가 N2에/에게/(으)로 다가서다"
     ]
@@ -417,10 +424,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d32-15-native.mp3",
     "pronunciationIrregular": "다듬따",
     "relatedPhrases": [
-      "머리를 다듬다",
-      "손톱을 다듬다",
-      "야채를 다듬다",
-      "글을 다듬다"
+      "머리를 다듬다 (tỉa tóc)",
+      "야채를 다듬다 (sơ chế rau củ)"
     ]
   },
   {
@@ -445,11 +450,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d32-16-native.mp3",
     "relatedPhrases": [
-      "업무를 다루다",
-      "문제를 다루다",
-      "악기를 다루다",
-      "기계를 다루다",
-      "사건을 다루다"
+      "업무를 다루다 (xử lý công việc)",
+      "기계를 다루다 (sử dụng, vận hành máy móc)"
     ],
     "synonyms": [
       "처리하다 (nghĩa 1)",
@@ -477,6 +479,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d32-17-native.mp3",
+    "relatedPhrases": [
+      "예전과 다름없다 (không khác gì trước đây)",
+      "형제나 다름없다 (chẳng khác nào anh em)"
+    ],
     "structure": [
       "N1이/가 N2와/과 다름없다"
     ],
@@ -510,8 +516,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d32-18-native.mp3",
     "relatedPhrases": [
-      "입을 다물다",
-      "입술을 다물다"
+      "입을 다물다 (ngậm miệng lại, im lặng)",
+      "입술을 다물다 (mím môi lại)"
     ],
     "antonyms": [
       "벌리다"
@@ -539,8 +545,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d32-19-native.mp3",
     "relatedPhrases": [
-      "다짐을 하다",
-      "다짐을 받다"
+      "다짐을 하다 (hứa hẹn, quyết tâm)",
+      "다짐을 받다 (nhận được lời hứa, cam kết)"
     ],
     "synonyms": [
       "각오",
@@ -569,8 +575,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d32-20-native.mp3",
     "relatedPhrases": [
-      "아이가 친구와 다투다",
-      "친구와 실력을 다투다"
+      "아이가 친구와 다투다 (đứa trẻ cãi nhau với bạn)",
+      "친구와 실력을 다투다 (ganh đua thực lực với bạn bè)"
     ],
     "structure": [
       "N1이/가 N2와/과 다투다"
@@ -600,6 +606,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d32-21-native.mp3",
+    "relatedPhrases": [
+      "다행스러운 일 (chuyện may mắn)",
+      "다행스럽게 생각하다 (cảm thấy may mắn)"
+    ],
     "synonyms": [
       "다행하다"
     ],
@@ -629,8 +639,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d32-22-native.mp3",
     "relatedPhrases": [
-      "단골손님",
-      "단골집"
+      "단골손님 (khách quen)",
+      "단골집 (quán quen, cửa hàng quen)"
     ]
   },
   {
@@ -654,6 +664,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d32-23-native.mp3",
+    "relatedPhrases": [
+      "단독으로 결정하다 (tự mình quyết định, quyết định đơn phương)",
+      "단독으로 도전하다 (thử thách một mình, độc lập)"
+    ],
     "synonyms": [
       "혼자"
     ],
@@ -684,11 +698,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d32-24-native.mp3",
     "relatedPhrases": [
-      "단속을 하다",
-      "단속이 되다",
-      "단속을 벌이다",
-      "단속에 걸리다",
-      "단속을 피하다"
+      "단속에 걸리다 (bị dính vào đợt kiểm tra, bị phạt)",
+      "단속을 벌이다 (tiến hành kiểm soát, truy quét)"
     ]
   },
   {
@@ -712,6 +723,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d32-25-native.mp3",
+    "relatedPhrases": [
+      "아이를 달래다 (dỗ dành trẻ con)",
+      "슬픔을 달래다 (an ủi, xoa dịu nỗi buồn)"
+    ],
     "synonyms": [
       "타이르다"
     ]
@@ -737,6 +752,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d32-26-native.mp3",
+    "relatedPhrases": [
+      "결승점을 향해 달려가다 (chạy về phía vạch đích)",
+      "아버지에게 달려가다 (chạy đến chỗ bố)"
+    ],
     "structure": [
       "N1이/가 N2에/에게/(으)로 달려가다"
     ],
@@ -770,6 +789,10 @@ export const vocabTopik2Day32: VocabCard[] = [
     "day": 32,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d32-27-native.mp3",
+    "relatedPhrases": [
+      "먹이에 달려들다 (lao vào ăn mồi)",
+      "차 앞으로 달려들다 (lao ra trước đầu xe)"
+    ],
     "structure": [
       "N1이/가 N2에/에게/(으)로 달려들다"
     ]
@@ -796,11 +819,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d32-28-native.mp3",
     "relatedPhrases": [
-      "제목이 달리다",
-      "설명이 달리다",
-      "열매가 나무에 달리다",
-      "성공이 마음에 달려 있다",
-      "성공이 너에게 달려 있다"
+      "열매가 나무에 달리다 (quả mọc trên cây)",
+      "성공이 너에게 달려 있다 (thành công tùy thuộc vào bạn)"
     ],
     "structure": [
       "N1이/가 N2에/에게 달려 있다"
@@ -832,11 +852,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d32-29-native.mp3",
     "relatedPhrases": [
-      "달성을 하다",
-      "달성이 되다",
-      "목표를 달성하다",
-      "수출액을 달성하다",
-      "판매량을 달성하다"
+      "목표를 달성하다 (đạt được mục tiêu)",
+      "판매량을 달성하다 (đạt được sản lượng bán hàng)"
     ],
     "synonyms": [
       "성취"
@@ -867,9 +884,8 @@ export const vocabTopik2Day32: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d32-30-native.mp3",
     "relatedPhrases": [
-      "입맛이 달아나다",
-      "기회가 달아나다",
-      "재산이 달아나다"
+      "기회가 달아나다 (cơ hội biến mất, tuột mất)",
+      "입맛이 달아나다 (mất cảm giác thèm ăn, chán ăn)"
     ],
     "synonyms": [
       "도망하다",

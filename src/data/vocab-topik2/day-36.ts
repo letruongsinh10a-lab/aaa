@@ -23,11 +23,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d36-01-native.mp3",
     "relatedPhrases": [
-      "마주 서다",
-      "마주 보다",
-      "마주 오다",
-      "마주 잡다",
-      "마주 향하다"
+      "마주 보다 (nhìn đối diện nhau)",
+      "마주 오다 (đi ngược chiều tới)"
     ]
   },
   {
@@ -51,11 +48,12 @@ export const vocabTopik2Day36: VocabCard[] = [
     "day": 36,
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d36-02-native.mp3",
-    "relatedPhrases": [
-      "친구와 눈이 마주치다"
-    ],
     "structure": [
       "N1와/과 N2이/가 마주치다"
+    ],
+    "relatedPhrases": [
+      "친구와 눈이 마주치다 (ánh mắt chạm nhau với bạn)",
+      "길에서 마주치다 (tình cờ gặp nhau trên đường)"
     ]
   },
   {
@@ -83,6 +81,10 @@ export const vocabTopik2Day36: VocabCard[] = [
       "N와/과 마찬가지이다",
       "N(이)나 마찬가지이다",
       "N와/과 마찬가지로 + V/A"
+    ],
+    "relatedPhrases": [
+      "예나 지금이나 마찬가지이다 (xưa nay vẫn như vậy)",
+      "어제와 마찬가지로 (giống như hôm qua)"
     ],
     "synonyms": [
       "같다",
@@ -112,6 +114,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-04-native.mp3",
     "structure": [
       "마치 N처럼 + V/A"
+    ],
+    "relatedPhrases": [
+      "마치 꿈처럼 (cứ như một giấc mơ)",
+      "마치 천사처럼 (cứ như thiên thần)"
     ]
   },
   {
@@ -135,6 +141,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "day": 36,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d36-05-native.mp3",
+    "relatedPhrases": [
+      "마침내 성공하다 (cuối cùng đã thành công)",
+      "마침내 완성하다 (cuối cùng đã hoàn thành)"
+    ],
     "synonyms": [
       "드디어",
       "결국",
@@ -163,6 +173,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d36-06-native.mp3",
     "pronunciationIrregular": "막쌍",
+    "relatedPhrases": [
+      "막상 해 보다 (thực sự bắt tay vào làm thử)",
+      "막상 닥치다 (khi thực sự đối mặt, ập đến)"
+    ],
     "synonyms": [
       "실제로"
     ]
@@ -189,6 +203,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d36-07-native.mp3",
     "pronunciationIrregular": "마견하다",
+    "relatedPhrases": [
+      "막연한 두려움 (nỗi sợ mơ hồ)",
+      "막연하게 느끼다 (cảm thấy một cách mơ hồ)"
+    ],
     "synonyms": [
       "막막하다"
     ],
@@ -219,8 +237,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d36-08-native.mp3",
     "relatedPhrases": [
-      "가격이 만만하다",
-      "사람이 만만하다"
+      "가격이 만만하다 (giá cả dễ chịu, không đắt)",
+      "사람이 만만하다 (người dễ bị coi thường, dễ đối phó)"
     ],
     "antonyms": [
       "만만찮다"
@@ -248,9 +266,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d36-09-native.mp3",
     "relatedPhrases": [
-      "싸움을 말리다",
-      "사람을 말리다",
-      "행동을 말리다"
+      "싸움을 말리다 (can ngăn cuộc cãi vã)",
+      "사람을 말리다 (ngăn cản người khác)"
     ]
   },
   {
@@ -275,9 +292,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d36-10-native.mp3",
     "relatedPhrases": [
-      "말투가 부드럽다",
-      "말투가 거칠다",
-      "말투가 특이하다"
+      "말투가 부드럽다 (giọng nói nhẹ nhàng)",
+      "말투가 거칠다 (giọng nói thô lỗ, gay gắt)"
     ],
     "synonyms": [
       "말버릇",
@@ -304,7 +320,11 @@ export const vocabTopik2Day36: VocabCard[] = [
     "tags": [],
     "day": 36,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d36-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d36-11-native.mp3",
+    "relatedPhrases": [
+      "자전거가 망가지다 (xe đạp bị hỏng)",
+      "몸이 망가지다 (cơ thể suy yếu, hư hại)"
+    ]
   },
   {
     "id": "t2-d36-12",
@@ -329,6 +349,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-12-native.mp3",
     "structure": [
       "V-ㄹ까 말까 망설이다"
+    ],
+    "relatedPhrases": [
+      "고백을 할지 망설이다 (do dự có nên tỏ tình hay không)",
+      "말할까 말까 망설이다 (phân vân có nên nói hay không)"
     ],
     "synonyms": [
       "주저하다",
@@ -357,10 +381,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d36-13-native.mp3",
     "relatedPhrases": [
-      "일을 망치다",
-      "기분을 망치다",
-      "집안을 망치다",
-      "나라를 망치다"
+      "일을 망치다 (làm hỏng việc)",
+      "기분을 망치다 (làm hỏng tâm trạng)"
     ]
   },
   {
@@ -385,10 +407,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d36-14-native.mp3",
     "relatedPhrases": [
-      "사업이 망하다",
-      "나라가 망하다",
-      "회사가 망하다",
-      "집안이 망하다"
+      "사업이 망하다 (kinh doanh thất bại, phá sản)",
+      "회사가 망하다 (công ty phá sản)"
     ],
     "antonyms": [
       "흥하다 (thịnh vượng)"
@@ -417,9 +437,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-15-native.mp3",
     "pronunciationIrregular": "마치다",
     "relatedPhrases": [
-      "정답을 맞히다",
-      "답을 맞히다",
-      "문제를 맞히다"
+      "정답을 맞히다 (đoán đúng đáp án)",
+      "문제를 맞히다 (giải/đoán đúng câu hỏi)"
     ]
   },
   {
@@ -443,12 +462,12 @@ export const vocabTopik2Day36: VocabCard[] = [
     "day": 36,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d36-16-native.mp3",
-    "relatedPhrases": [
-      "아이가 철봉에 매달리다",
-      "아이가 아빠에게 매달리다"
-    ],
     "structure": [
       "N1이/가 N2에/에게 매달리다"
+    ],
+    "relatedPhrases": [
+      "아이가 철봉에 매달리다 (đứa trẻ đu bám vào xà ngang)",
+      "아이가 아빠에게 매달리다 (đứa trẻ bám lấy bố nài nỉ)"
     ]
   },
   {
@@ -473,11 +492,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d36-17-native.mp3",
     "relatedPhrases": [
-      "매력적",
-      "매력이 있다",
-      "매력이 없다",
-      "매력을 느끼다",
-      "매력에 빠지다"
+      "매력이 있다 (có sức hấp dẫn)",
+      "매력을 느끼다 (cảm thấy bị cuốn hút)"
     ]
   },
   {
@@ -502,10 +518,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d36-18-native.mp3",
     "relatedPhrases": [
-      "대중 매체",
-      "영상 매체",
-      "방송 매체",
-      "인터넷 매체"
+      "대중 매체 (phương tiện truyền thông đại chúng)",
+      "영상 매체 (phương tiện truyền thông hình ảnh)"
     ]
   },
   {
@@ -530,8 +544,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d36-19-native.mp3",
     "relatedPhrases": [
-      "친구가 고향에 머무르다",
-      "우리 팀이 하위권에 머무르다"
+      "친구가 고향에 머무르다 (bạn ở lại quê nhà)",
+      "우리 팀이 하위권에 머무르다 (đội chúng tôi vẫn ở nhóm cuối bảng)"
     ],
     "synonyms": [
       "묵다"
@@ -561,6 +575,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "day": 36,
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d36-20-native.mp3",
+    "relatedPhrases": [
+      "대답을 머뭇거리다 (ngập ngừng khi trả lời)",
+      "결정을 머뭇거리다 (do dự khi quyết định)"
+    ],
     "synonyms": [
       "주저하다",
       "망설이다"
@@ -587,11 +605,12 @@ export const vocabTopik2Day36: VocabCard[] = [
     "day": 36,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d36-21-native.mp3",
-    "relatedPhrases": [
-      "엄마가 아기에게 밥을 먹이다"
-    ],
     "structure": [
       "N1이/가 N2에게 N3을/를 먹이다"
+    ],
+    "relatedPhrases": [
+      "엄마가 아기에게 밥을 먹이다 (mẹ cho em bé ăn cơm)",
+      "아이에게 약을 먹이다 (cho trẻ uống thuốc)"
     ]
   },
   {
@@ -616,12 +635,12 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d36-22-native.mp3",
     "pronunciationIrregular": "머키다",
-    "relatedPhrases": [
-      "쥐가 고양이에게 먹히다",
-      "토끼가 뱀에게 먹히다"
-    ],
     "structure": [
       "N1이/가 N2에게 먹히다"
+    ],
+    "relatedPhrases": [
+      "쥐가 고양이에게 먹히다 (chuột bị mèo ăn thịt)",
+      "토끼가 뱀에게 먹히다 (thỏ bị rắn ăn thịt)"
     ]
   },
   {
@@ -646,9 +665,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d36-23-native.mp3",
     "relatedPhrases": [
-      "사람이 멀쩡하다",
-      "얼굴이 멀쩡하다",
-      "정신이 멀쩡하다"
+      "정신이 멀쩡하다 (đầu óc tỉnh táo)",
+      "사람이 멀쩡하다 (người vẫn khỏe mạnh, ổn)"
     ],
     "synonyms": [
       "성하다"
@@ -677,11 +695,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-24-native.mp3",
     "pronunciationIrregular": "먿따",
     "relatedPhrases": [
-      "심장이 멎다",
-      "숨이 멎다",
-      "기침이 멎다",
-      "바람이 멎다",
-      "비가 멎다"
+      "심장이 멎다 (tim ngừng đập)",
+      "비가 멎다 (mưa tạnh)"
     ],
     "synonyms": [
       "멈추다"
@@ -709,10 +724,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d36-25-native.mp3",
     "relatedPhrases": [
-      "면담(을) 하다",
-      "면담을 받다",
-      "면담을 요청하다",
-      "면담을 거절하다"
+      "면담(을) 하다 (tiến hành gặp trực tiếp)",
+      "면담을 요청하다 (yêu cầu buổi gặp/tư vấn)"
     ],
     "synonyms": [
       "상담"
@@ -740,9 +753,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d36-26-native.mp3",
     "relatedPhrases": [
-      "사고를 면하다",
-      "처벌을 면하다",
-      "책임을 면하다"
+      "사고를 면하다 (tránh được tai nạn)",
+      "책임을 면하다 (được miễn trách nhiệm)"
     ],
     "synonyms": [
       "피하다"
@@ -774,11 +786,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-27-native.mp3",
     "pronunciationIrregular": "명녕",
     "relatedPhrases": [
-      "명령(을) 하다",
-      "명령을 받다",
-      "명령을 듣다",
-      "명령을 내리다",
-      "명령을 따르다"
+      "명령을 내리다 (ra lệnh)",
+      "명령을 따르다 (tuân theo mệnh lệnh)"
     ]
   },
   {
@@ -803,12 +812,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d36-28-native.mp3",
     "relatedPhrases": [
-      "명예롭다",
-      "명예스럽다",
-      "명예를 얻다",
-      "명예를 지키다",
-      "명예를 높이다",
-      "명예를 더럽히다"
+      "명예를 지키다 (giữ gìn danh dự)",
+      "명예를 얻다 (đạt được danh dự)"
     ],
     "synonyms": [
       "명성"
@@ -840,10 +845,8 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-29-native.mp3",
     "pronunciationIrregular": "명화카다",
     "relatedPhrases": [
-      "내용이 명확하다",
-      "태도가 명확하다",
-      "입장이 명확하다",
-      "목표가 명확하다"
+      "내용이 명확하다 (nội dung rõ ràng)",
+      "목표가 명확하다 (mục tiêu rõ ràng)"
     ],
     "synonyms": [
       "확실하다",
@@ -876,6 +879,10 @@ export const vocabTopik2Day36: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d36-30-native.mp3",
     "structure": [
       "N1이/가 N2에/(으)로 모여들다"
+    ],
+    "relatedPhrases": [
+      "사람들이 모여들다 (mọi người tụ tập lại)",
+      "관중이 모여들다 (khán giả tụ tập đông đảo)"
     ]
   }
 ]

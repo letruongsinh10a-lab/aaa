@@ -24,9 +24,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d25-01-native.mp3",
     "pronunciationIrregular": "해뼏",
     "relatedPhrases": [
-      "햇볕이 들다",
-      "햇볕을 쬐다",
-      "햇볕을 받다"
+      "햇볕이 들다 (nắng chiếu vào)",
+      "햇볕을 쬐다 (phơi nắng, tắm nắng)"
     ],
     "synonyms": [
       "햇살",
@@ -53,7 +52,11 @@ export const vocabTopik2Day25: VocabCard[] = [
     "tags": [],
     "day": 25,
     "dayOrder": 2,
-    "audioUrl": "/audio/word-t2-d25-02-native.mp3"
+    "audioUrl": "/audio/word-t2-d25-02-native.mp3",
+    "relatedPhrases": [
+      "행사장을 사용하다 (sử dụng địa điểm tổ chức sự kiện)",
+      "행사장을 가득 채우다 (lấp đầy địa điểm tổ chức sự kiện)"
+    ]
   },
   {
     "id": "t2-d25-03",
@@ -76,6 +79,10 @@ export const vocabTopik2Day25: VocabCard[] = [
     "day": 25,
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d25-03-native.mp3",
+    "relatedPhrases": [
+      "행운을 가져다주다 (mang lại may mắn)",
+      "행운을 빌다 (chúc may mắn)"
+    ],
     "antonyms": [
       "불운"
     ]
@@ -100,7 +107,11 @@ export const vocabTopik2Day25: VocabCard[] = [
     "tags": [],
     "day": 25,
     "dayOrder": 4,
-    "audioUrl": "/audio/word-t2-d25-04-native.mp3"
+    "audioUrl": "/audio/word-t2-d25-04-native.mp3",
+    "relatedPhrases": [
+      "강 쪽을 향하다 (hướng ra phía sông)",
+      "소리 나는 쪽을 향하다 (hướng về phía có tiếng động)"
+    ]
   },
   {
     "id": "t2-d25-05",
@@ -124,11 +135,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d25-05-native.mp3",
     "relatedPhrases": [
-      "허락(을) 하다",
-      "허락(이) 되다",
-      "허락을 구하다",
-      "허락을 받다",
-      "허락을 맡다"
+      "허락을 받다 (được cho phép)",
+      "허락(을) 하다 (cho phép)"
     ],
     "synonyms": [
       "승낙"
@@ -155,6 +163,10 @@ export const vocabTopik2Day25: VocabCard[] = [
     "day": 25,
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d25-06-native.mp3",
+    "relatedPhrases": [
+      "현대 사회 (xã hội hiện đại)",
+      "현대 문명 (văn minh hiện đại)"
+    ],
     "synonyms": [
       "현시대"
     ],
@@ -183,6 +195,10 @@ export const vocabTopik2Day25: VocabCard[] = [
     "day": 25,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d25-07-native.mp3",
+    "relatedPhrases": [
+      "형태가 다양하다 (hình thức đa dạng)",
+      "형태를 갖추다 (mang hình dạng, có hình thức)"
+    ],
     "synonyms": [
       "모양"
     ]
@@ -208,6 +224,10 @@ export const vocabTopik2Day25: VocabCard[] = [
     "day": 25,
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d25-08-native.mp3",
+    "relatedPhrases": [
+      "미국 혹은 영국 (Mỹ hoặc Anh)",
+      "행운 혹은 행복 (may mắn hoặc hạnh phúc)"
+    ],
     "synonyms": [
       "또는"
     ]
@@ -233,6 +253,10 @@ export const vocabTopik2Day25: VocabCard[] = [
     "day": 25,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d25-09-native.mp3",
+    "relatedPhrases": [
+      "부모님께 혼나다 (bị bố mẹ mắng)",
+      "선생님께 혼나다 (bị thầy cô mắng)"
+    ],
     "structure": [
       "N1이/가 N2에게 혼나다"
     ],
@@ -264,7 +288,11 @@ export const vocabTopik2Day25: VocabCard[] = [
     "tags": [],
     "day": 25,
     "dayOrder": 10,
-    "audioUrl": "/audio/word-t2-d25-10-native.mp3"
+    "audioUrl": "/audio/word-t2-d25-10-native.mp3",
+    "relatedPhrases": [
+      "화면이 넓다 (màn hình rộng)",
+      "화면이 선명하다 (màn hình sắc nét)"
+    ]
   },
   {
     "id": "t2-d25-11",
@@ -288,9 +316,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d25-11-native.mp3",
     "relatedPhrases": [
-      "화재가 나다",
-      "화재가 일어나다",
-      "화재가 발생하다"
+      "화재가 발생하다 (xảy ra hỏa hoạn)",
+      "화재가 나다 (bị cháy)"
     ]
   },
   {
@@ -313,7 +340,11 @@ export const vocabTopik2Day25: VocabCard[] = [
     "tags": [],
     "day": 25,
     "dayOrder": 12,
-    "audioUrl": "/audio/word-t2-d25-12-native.mp3"
+    "audioUrl": "/audio/word-t2-d25-12-native.mp3",
+    "relatedPhrases": [
+      "화폐와 교환하다 (đổi lấy tiền tệ)",
+      "화폐의 가치 (giá trị đồng tiền)"
+    ]
   },
   {
     "id": "t2-d25-13",
@@ -337,10 +368,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d25-13-native.mp3",
     "relatedPhrases": [
-      "화해(를) 하다",
-      "화해(가) 되다",
-      "화해(를) 시키다",
-      "화해를 청하다"
+      "화해(를) 하다 (làm hòa)",
+      "화해를 청하다 (xin làm hòa)"
     ]
   },
   {
@@ -365,9 +394,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d25-14-native.mp3",
     "relatedPhrases": [
-      "확인(을) 하다",
-      "확인(이) 되다",
-      "확인을 받다"
+      "확인(을) 하다 (kiểm tra)",
+      "확인(이) 되다 (được xác nhận)"
     ]
   },
   {
@@ -392,9 +420,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d25-15-native.mp3",
     "relatedPhrases": [
-      "환불(을) 하다",
-      "환불이 되다",
-      "환불을 받다"
+      "환불(을) 하다 (hoàn tiền)",
+      "환불을 받다 (nhận tiền hoàn lại)"
     ]
   },
   {
@@ -417,7 +444,11 @@ export const vocabTopik2Day25: VocabCard[] = [
     "tags": [],
     "day": 25,
     "dayOrder": 16,
-    "audioUrl": "/audio/word-t2-d25-16-native.mp3"
+    "audioUrl": "/audio/word-t2-d25-16-native.mp3",
+    "relatedPhrases": [
+      "환상적으로 아름답다 (đẹp đến mê hồn)",
+      "환상적인 콘서트 (buổi hòa nhạc tuyệt vời)"
+    ]
   },
   {
     "id": "t2-d25-17",
@@ -442,8 +473,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d25-17-native.mp3",
     "pronunciationIrregular": "화눌",
     "relatedPhrases": [
-      "환율이 오르다",
-      "환율이 내리다"
+      "환율이 오르다 (tỷ giá tăng)",
+      "환율이 내리다 (tỷ giá giảm)"
     ]
   },
   {
@@ -468,9 +499,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d25-18-native.mp3",
     "relatedPhrases": [
-      "미소가 환하다",
-      "표정이 환하다",
-      "얼굴이 환하다"
+      "얼굴이 환하다 (khuôn mặt rạng rỡ)",
+      "미소가 환하다 (nụ cười rạng rỡ)"
     ],
     "synonyms": [
       "밝다"
@@ -499,10 +529,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d25-19-native.mp3",
     "pronunciationIrregular": "활똥",
     "relatedPhrases": [
-      "활동적",
-      "활동가",
-      "활동(을) 하다",
-      "활동을 시작하다"
+      "활동(을) 하다 (hoạt động)",
+      "활동적 (năng động, hoạt bát)"
     ]
   },
   {
@@ -525,7 +553,11 @@ export const vocabTopik2Day25: VocabCard[] = [
     "tags": [],
     "day": 25,
     "dayOrder": 20,
-    "audioUrl": "/audio/word-t2-d25-20-native.mp3"
+    "audioUrl": "/audio/word-t2-d25-20-native.mp3",
+    "relatedPhrases": [
+      "성격이 활발하다 (tính cách hoạt bát)",
+      "활발하게 활동하다 (hoạt động sôi nổi)"
+    ]
   },
   {
     "id": "t2-d25-21",
@@ -549,11 +581,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d25-21-native.mp3",
     "relatedPhrases": [
-      "활짝 열다",
-      "활짝 피다",
-      "활짝 웃다",
-      "활짝 펴다",
-      "활짝 벌리다"
+      "활짝 열다 (mở toang)",
+      "활짝 피다 (nở rộ)"
     ]
   },
   {
@@ -579,9 +608,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d25-22-native.mp3",
     "pronunciationIrregular": "회쑤",
     "relatedPhrases": [
-      "횟수가 많다",
-      "횟수가 늘다",
-      "횟수가 줄다"
+      "횟수가 많다 (số lần nhiều)",
+      "횟수가 늘다 (số lần tăng)"
     ]
   },
   {
@@ -607,10 +635,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d25-23-native.mp3",
     "pronunciationIrregular": "효꽈",
     "relatedPhrases": [
-      "효과가 있다",
-      "효과가 없다",
-      "효과가 좋다",
-      "효과가 나타나다"
+      "효과가 좋다 (hiệu quả tốt)",
+      "효과가 없다 (không có hiệu quả)"
     ]
   },
   {
@@ -634,6 +660,10 @@ export const vocabTopik2Day25: VocabCard[] = [
     "day": 25,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d25-24-native.mp3",
+    "relatedPhrases": [
+      "경기 후반 (nửa sau trận đấu)",
+      "20대 후반 (cuối những năm 20 tuổi)"
+    ],
     "antonyms": [
       "초반 (đầu)"
     ],
@@ -666,8 +696,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d25-25-native.mp3",
     "relatedPhrases": [
-      "후회(를) 하다",
-      "후회(가) 되다"
+      "후회(를) 하다 (hối hận)",
+      "후회(가) 되다 (cảm thấy hối hận)"
     ]
   },
   {
@@ -692,11 +722,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d25-26-native.mp3",
     "relatedPhrases": [
-      "휴대폰",
-      "휴대 전화",
-      "휴대 용품",
-      "휴대(를) 하다",
-      "휴대가 되다"
+      "휴대 전화 (điện thoại di động)",
+      "휴대(를) 하다 (mang theo, cầm tay)"
     ]
   },
   {
@@ -721,8 +748,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d25-27-native.mp3",
     "relatedPhrases": [
-      "휴식(을) 하다",
-      "휴식을 취하다"
+      "휴식(을) 하다 (nghỉ ngơi)",
+      "휴식을 취하다 (nghỉ ngơi)"
     ]
   },
   {
@@ -747,8 +774,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d25-28-native.mp3",
     "relatedPhrases": [
-      "휴학(을) 하다",
-      "휴학이 되다"
+      "휴학(을) 하다 (nghỉ học)",
+      "휴학이 되다 (được cho nghỉ học)"
     ]
   },
   {
@@ -773,9 +800,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d25-29-native.mp3",
     "relatedPhrases": [
-      "시간이 흘러가다",
-      "세월이 흘러가다",
-      "강물이 흘러가다"
+      "강물이 흘러가다 (dòng sông chảy)",
+      "시간이 흘러가다 (thời gian trôi qua)"
     ]
   },
   {
@@ -800,8 +826,8 @@ export const vocabTopik2Day25: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d25-30-native.mp3",
     "relatedPhrases": [
-      "희생(을) 하다",
-      "희생(이) 되다"
+      "희생(을) 하다 (hy sinh)",
+      "희생(이) 되다 (trở thành sự hy sinh)"
     ]
   }
 ]

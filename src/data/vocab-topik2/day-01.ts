@@ -30,7 +30,6 @@ export const vocabTopik2Day01: VocabCard[] = [
     ],
     "relatedPhrases": [
       "꽃을 가꾸다 (chăm sóc hoa)",
-      "나무를 가꾸다 (chăm sóc cây)",
       "몸매를 가꾸다 (chăm sóc vóc dáng)"
     ]
   },
@@ -60,6 +59,10 @@ export const vocabTopik2Day01: VocabCard[] = [
       "가난해서",
       "가난하면",
       "가난합니다"
+    ],
+    "relatedPhrases": [
+      "가난한 나라 (đất nước nghèo)",
+      "가난한 사람 (người nghèo)"
     ]
   },
   {
@@ -91,6 +94,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     ],
     "antonyms": [
       "불가능하다 (không thể)"
+    ],
+    "relatedPhrases": [
+      "예약이 가능하다 (có thể đặt trước)",
+      "이용이 가능하다 (có thể sử dụng)"
     ]
   },
   {
@@ -131,11 +138,9 @@ export const vocabTopik2Day01: VocabCard[] = [
     "antonyms": [
       "부족하다 (thiếu)"
     ],
-    "extraNotes": [
-      {
-        "label": "Ví dụ cụm",
-        "text": "버스에 사람이 가득하다, 버스가 사람으로 가득하다"
-      }
+    "relatedPhrases": [
+      "버스에 사람이 가득하다 (xe buýt đông người)",
+      "버스가 사람으로 가득하다 (xe buýt đầy người)"
     ]
   },
   {
@@ -161,9 +166,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d01-05-native.mp3",
     "pronunciationIrregular": "가드키",
     "relatedPhrases": [
-      "가득히 들어 있다",
-      "가득히 차 있다",
-      "가득히 담아 놓다"
+      "가득히 들어 있다 (chứa đầy bên trong)",
+      "가득히 차 있다 (đầy ắp, tràn đầy)"
     ],
     "synonyms": [
       "가득"
@@ -196,6 +200,10 @@ export const vocabTopik2Day01: VocabCard[] = [
       "가려워서",
       "가려우면",
       "가렵습니다"
+    ],
+    "relatedPhrases": [
+      "몸이 가렵다 (người bị ngứa)",
+      "피부가 가렵다 (da bị ngứa)"
     ]
   },
   {
@@ -227,6 +235,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     ],
     "structure": [
       "N1(으)로 N2을/를 가리다"
+    ],
+    "relatedPhrases": [
+      "손으로 얼굴을 가리다 (lấy tay che mặt)",
+      "커튼으로 창문을 가리다 (dùng rèm che cửa sổ)"
     ]
   },
   {
@@ -250,7 +262,11 @@ export const vocabTopik2Day01: VocabCard[] = [
     "day": 1,
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d01-08-native.mp3",
-    "pronunciationIrregular": "가습끼"
+    "pronunciationIrregular": "가습끼",
+    "relatedPhrases": [
+      "가습기를 켜다 (bật máy tạo độ ẩm)",
+      "가습기를 끄다 (tắt máy tạo độ ẩm)"
+    ]
   },
   {
     "id": "t2-d01-09",
@@ -281,11 +297,9 @@ export const vocabTopik2Day01: VocabCard[] = [
       "탈퇴 (rút khỏi",
       "rời khỏi)"
     ],
-    "extraNotes": [
-      {
-        "label": "Ví dụ cụm",
-        "text": "보험에 가입하다 (tham gia bảo hiểm), 동아리에 가입하다 (gia nhập câu lạc bộ), 동호회에 가입되다 (được kết nạp vào hội)"
-      }
+    "relatedPhrases": [
+      "보험에 가입하다 (tham gia bảo hiểm)",
+      "동아리에 가입하다 (gia nhập câu lạc bộ)"
     ]
   },
   {
@@ -308,7 +322,11 @@ export const vocabTopik2Day01: VocabCard[] = [
     "tags": [],
     "day": 1,
     "dayOrder": 10,
-    "audioUrl": "/audio/word-t2-d01-10-native.mp3"
+    "audioUrl": "/audio/word-t2-d01-10-native.mp3",
+    "relatedPhrases": [
+      "가전제품을 구입하다 (mua đồ điện gia dụng)",
+      "가전제품을 판매하다 (bán đồ điện gia dụng)"
+    ]
   },
   {
     "id": "t2-d01-11",
@@ -331,6 +349,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     "day": 1,
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d01-11-native.mp3",
+    "relatedPhrases": [
+      "가정을 이루다 (lập gia đình)",
+      "가정을 꾸리다 (xây dựng gia đình)"
+    ],
     "synonyms": [
       "집안"
     ]
@@ -355,7 +377,11 @@ export const vocabTopik2Day01: VocabCard[] = [
     "tags": [],
     "day": 1,
     "dayOrder": 12,
-    "audioUrl": "/audio/word-t2-d01-12-native.mp3"
+    "audioUrl": "/audio/word-t2-d01-12-native.mp3",
+    "relatedPhrases": [
+      "각 지역 (từng khu vực)",
+      "각 분야 (từng lĩnh vực)"
+    ]
   },
   {
     "id": "t2-d01-13",
@@ -379,6 +405,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d01-13-native.mp3",
     "pronunciationIrregular": "각짜",
+    "relatedPhrases": [
+      "각자 준비하다 (mỗi người tự chuẩn bị)",
+      "각자 부담하다 (mỗi người tự chi trả)"
+    ],
     "synonyms": [
       "각각"
     ]
@@ -406,7 +436,6 @@ export const vocabTopik2Day01: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d01-14-native.mp3",
     "relatedPhrases": [
       "간을 보다 (nếm thử)",
-      "간이 맞다 (vừa miệng)",
       "간을 맞추다 (nêm nếm)"
     ]
   },
@@ -432,8 +461,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d01-15-native.mp3",
     "relatedPhrases": [
-      "간판을 달다",
-      "간판을 걸다"
+      "간판을 달다 (lắp bảng hiệu)",
+      "간판을 걸다 (treo bảng hiệu)"
     ]
   },
   {
@@ -458,8 +487,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d01-16-native.mp3",
     "relatedPhrases": [
-      "간호(를) 하다",
-      "간호를 받다"
+      "간호(를) 하다 (chăm sóc, điều dưỡng)",
+      "간호를 받다 (được chăm sóc, được điều dưỡng)"
     ],
     "relatedWords": [
       "간호사 (y tá)"
@@ -495,6 +524,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     "structure": [
       "N1을/를 N2(으)로 갈다"
     ],
+    "relatedPhrases": [
+      "전구를 갈다 (thay bóng đèn)",
+      "타이어를 갈다 (thay lốp xe)"
+    ],
     "synonyms": [
       "바꾸다",
       "교체하다"
@@ -527,8 +560,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d01-18-native.mp3",
     "pronunciationIrregular": "갈쯩",
     "relatedPhrases": [
-      "갈증이 나다",
-      "갈증을 느끼다"
+      "갈증이 나다 (thấy khát nước)",
+      "갈증을 느끼다 (cảm thấy khát nước)"
     ]
   },
   {
@@ -553,9 +586,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d01-19-native.mp3",
     "relatedPhrases": [
-      "감각이 있다",
-      "감각이 없다",
-      "감각을 잃다"
+      "감각이 있다 (có cảm giác, có khiếu)",
+      "감각이 없다 (mất cảm giác, không có khiếu)"
     ],
     "synonyms": [
       "느낌"
@@ -596,11 +628,9 @@ export const vocabTopik2Day01: VocabCard[] = [
     "antonyms": [
       "풀다 (tháo ra)"
     ],
-    "extraNotes": [
-      {
-        "label": "Ví dụ cụm",
-        "text": "팔을 붕대로 감다, 팔에 붕대를 감다"
-      }
+    "relatedPhrases": [
+      "팔을 붕대로 감다 (quấn băng vào cánh tay)",
+      "팔에 붕대를 감다 (băng bó cánh tay)"
     ]
   },
   {
@@ -625,8 +655,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d01-21-native.mp3",
     "relatedPhrases": [
-      "감독(을) 하다",
-      "감독을 맡다"
+      "감독(을) 하다 (giám sát, chỉ đạo)",
+      "감독을 맡다 (đảm nhận việc giám sát)"
     ]
   },
   {
@@ -651,10 +681,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d01-22-native.mp3",
     "relatedPhrases": [
-      "감동(을) 하다",
-      "감동을 주다",
-      "감동을 받다",
-      "감동을 느끼다"
+      "감동을 주다 (đem lại sự cảm động)",
+      "감동을 받다 (cảm động, được cảm động)"
     ],
     "relatedWords": [
       "감동적 (mang tính cảm động)"
@@ -682,7 +710,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d01-23-native.mp3",
     "relatedPhrases": [
-      "감상(을) 하다"
+      "감상(을) 하다 (thưởng thức, cảm thụ)",
+      "음악 감상 (thưởng thức âm nhạc)"
     ],
     "relatedWords": [
       "감상적",
@@ -711,8 +740,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d01-24-native.mp3",
     "relatedPhrases": [
-      "감정을 느끼다",
-      "감정을 표현하다"
+      "감정을 느끼다 (cảm nhận cảm xúc)",
+      "감정을 표현하다 (thể hiện cảm xúc)"
     ],
     "relatedWords": [
       "감정적"
@@ -746,8 +775,8 @@ export const vocabTopik2Day01: VocabCard[] = [
       "갭니다"
     ],
     "relatedPhrases": [
-      "날씨가 개다",
-      "하늘이 개다"
+      "날씨가 개다 (thời tiết quang đãng)",
+      "하늘이 개다 (bầu trời quang đãng)"
     ],
     "synonyms": [
       "맑아지다"
@@ -774,6 +803,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     "day": 1,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d01-26-native.mp3",
+    "relatedPhrases": [
+      "개인 정보 (thông tin cá nhân)",
+      "개인 시간 (thời gian cá nhân)"
+    ],
     "synonyms": [
       "개개인"
     ],
@@ -805,6 +838,10 @@ export const vocabTopik2Day01: VocabCard[] = [
     "day": 1,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d01-27-native.mp3",
+    "relatedPhrases": [
+      "옷을 거꾸로 입다 (mặc quần áo ngược)",
+      "거꾸로 매달리다 (treo ngược, treo lộn đầu)"
+    ],
     "synonyms": [
       "반대로"
     ],
@@ -841,8 +878,8 @@ export const vocabTopik2Day01: VocabCard[] = [
       "건조합니다"
     ],
     "relatedPhrases": [
-      "피부가 건조하다",
-      "날씨가 건조하다"
+      "피부가 건조하다 (da khô)",
+      "날씨가 건조하다 (thời tiết khô)"
     ],
     "antonyms": [
       "습하다 (ẩm ướt)"
@@ -870,9 +907,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d01-29-native.mp3",
     "relatedPhrases": [
-      "검색(을) 하다",
-      "검색이 되다",
-      "검색이 가능하다"
+      "검색(을) 하다 (tìm kiếm, tra cứu)",
+      "검색이 가능하다 (có thể tra cứu được)"
     ]
   },
   {
@@ -897,8 +933,8 @@ export const vocabTopik2Day01: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d01-30-native.mp3",
     "relatedPhrases": [
-      "검토(를) 하다",
-      "검토(가) 되다"
+      "검토(를) 하다 (xem xét, rà soát)",
+      "검토(가) 되다 (được xem xét)"
     ]
   }
 ]

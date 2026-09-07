@@ -24,8 +24,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d23-01-native.mp3",
     "pronunciationIrregular": "처딘상",
     "relatedPhrases": [
-      "첫인상이 좋다",
-      "첫인상이 나쁘다"
+      "첫인상이 좋다 (ấn tượng đầu tốt)",
+      "첫인상이 나쁘다 (ấn tượng đầu xấu)"
     ]
   },
   {
@@ -50,10 +50,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d23-02-native.mp3",
     "relatedPhrases": [
-      "체력이 좋다",
-      "체력이 나쁘다",
-      "체력을 키우다",
-      "체력을 단련하다"
+      "체력이 좋다 (thể lực tốt)",
+      "체력을 키우다 (tăng cường thể lực)"
     ],
     "synonyms": [
       "힘"
@@ -79,7 +77,11 @@ export const vocabTopik2Day23: VocabCard[] = [
     "tags": [],
     "day": 23,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d23-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d23-03-native.mp3",
+    "relatedPhrases": [
+      "체한 것 같다 (có vẻ như bị đầy bụng)",
+      "급하게 먹어서 체하다 (ăn vội nên bị đầy bụng)"
+    ]
   },
   {
     "id": "t2-d23-04",
@@ -103,9 +105,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d23-04-native.mp3",
     "relatedPhrases": [
-      "체험(을) 하다",
-      "체험이 되다",
-      "체험을 쌓다"
+      "체험(을) 하다 (trải nghiệm)",
+      "체험을 쌓다 (tích lũy trải nghiệm)"
     ]
   },
   {
@@ -130,6 +131,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d23-05-native.mp3",
     "pronunciationIrregular": "촌쓰럽따",
+    "relatedPhrases": [
+      "촌스러운 옷차림 (cách ăn mặc quê mùa)",
+      "촌스러운 이름 (cái tên quê mùa)"
+    ],
     "antonyms": [
       "세련되다"
     ]
@@ -156,8 +161,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d23-06-native.mp3",
     "relatedPhrases": [
-      "촬영(을) 하다",
-      "촬영(이) 되다"
+      "촬영(을) 하다 (quay phim, chụp ảnh)",
+      "촬영(이) 되다 (được quay, được chụp)"
     ]
   },
   {
@@ -180,7 +185,11 @@ export const vocabTopik2Day23: VocabCard[] = [
     "tags": [],
     "day": 23,
     "dayOrder": 7,
-    "audioUrl": "/audio/word-t2-d23-07-native.mp3"
+    "audioUrl": "/audio/word-t2-d23-07-native.mp3",
+    "relatedPhrases": [
+      "최고급 호텔 (khách sạn cao cấp nhất)",
+      "최고급 승용차 (xe hơi hạng sang nhất)"
+    ]
   },
   {
     "id": "t2-d23-08",
@@ -204,7 +213,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d23-08-native.mp3",
     "relatedPhrases": [
-      "최선을 다하다"
+      "최선을 다하다 (nỗ lực hết mình)",
+      "최선의 선택 (lựa chọn tốt nhất)"
     ],
     "antonyms": [
       "최악"
@@ -231,6 +241,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "day": 23,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d23-09-native.mp3",
+    "relatedPhrases": [
+      "최저 임금 (lương tối thiểu)",
+      "최저 기온 (nhiệt độ thấp nhất)"
+    ],
     "antonyms": [
       "최고 (cao nhất)"
     ]
@@ -257,13 +271,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d23-10-native.mp3",
     "relatedPhrases": [
-      "추억(을) 하다",
-      "추억(이) 되다",
-      "추억을 남기다",
-      "추억이 생기다",
-      "추억을 쌓다",
-      "추억을 간직하다",
-      "추억을 떠올리다"
+      "추억을 쌓다 (tích lũy kỷ niệm)",
+      "추억을 떠올리다 (nhớ lại kỷ niệm)"
     ],
     "synonyms": [
       "기억"
@@ -291,9 +300,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d23-11-native.mp3",
     "relatedPhrases": [
-      "추천(을) 하다",
-      "추천(이) 되다",
-      "추천을 받다"
+      "추천(을) 하다 (giới thiệu, đề xuất)",
+      "추천을 받다 (được giới thiệu, đề cử)"
     ]
   },
   {
@@ -318,9 +326,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d23-12-native.mp3",
     "relatedPhrases": [
-      "추측(을) 하다",
-      "추측(이) 되다",
-      "추측이 맞다"
+      "추측(을) 하다 (đoán, phỏng đoán)",
+      "추측이 맞다 (đoán đúng)"
     ],
     "synonyms": [
       "짐작",
@@ -349,9 +356,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d23-13-native.mp3",
     "relatedPhrases": [
-      "출국(을) 하다",
-      "출국이 되다",
-      "출국을 연기하다"
+      "출국(을) 하다 (xuất cảnh)",
+      "출국을 연기하다 (hoãn xuất cảnh)"
     ],
     "antonyms": [
       "입국",
@@ -379,6 +385,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "day": 23,
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d23-14-native.mp3",
+    "relatedPhrases": [
+      "충분히 쉬다 (nghỉ ngơi đầy đủ)",
+      "충분히 생각하다 (suy nghĩ kỹ càng)"
+    ],
     "synonyms": [
       "넉넉히",
       "마음껏",
@@ -407,10 +417,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d23-15-native.mp3",
     "relatedPhrases": [
-      "술에 취하다",
-      "잠에 취하다",
-      "약에 취하다",
-      "분위기에 취하다"
+      "술에 취하다 (say rượu)",
+      "약에 취하다 (say thuốc)"
     ]
   },
   {
@@ -435,8 +443,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d23-16-native.mp3",
     "relatedPhrases": [
-      "취향에 맞추다",
-      "취향을 고려하다"
+      "취향에 맞추다 (phù hợp với sở thích)",
+      "취향을 고려하다 (cân nhắc theo sở thích)"
     ]
   },
   {
@@ -461,7 +469,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d23-17-native.mp3",
     "relatedPhrases": [
-      "물건을 다른 곳으로 치우다"
+      "물건을 다른 곳으로 치우다 (dọn đồ vật sang chỗ khác)",
+      "그릇을 치우다 (dọn bát đĩa)"
     ],
     "structure": [
       "N1을/를 N2(으)로 치우다"
@@ -494,12 +503,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d23-18-native.mp3",
     "pronunciationIrregular": "탑씅",
     "relatedPhrases": [
-      "탑승구",
-      "탑승객",
-      "탑승료",
-      "탑승(을) 하다",
-      "탑승이 되다",
-      "탑승이 끝나다"
+      "탑승(을) 하다 (lên máy bay, tàu xe)",
+      "탑승이 끝나다 (kết thúc việc lên máy bay)"
     ]
   },
   {
@@ -523,6 +528,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "day": 23,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d23-19-native.mp3",
+    "relatedPhrases": [
+      "승객을 태우다 (chở hành khách)",
+      "아이를 태우다 (đặt trẻ em lên xe)"
+    ],
     "structure": [
       "N1을/를 N2에 태우다"
     ]
@@ -549,9 +558,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d23-20-native.mp3",
     "relatedPhrases": [
-      "풍선을 터뜨리다",
-      "울음을 터뜨리다",
-      "웃음을 터뜨리다"
+      "풍선을 터뜨리다 (làm nổ bóng bay)",
+      "웃음을 터뜨리다 (bật cười to)"
     ],
     "synonyms": [
       "터트리다"
@@ -578,6 +586,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "day": 23,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d23-21-native.mp3",
+    "relatedPhrases": [
+      "먼지를 털다 (phủi bụi)",
+      "이불을 털다 (giũ chăn)"
+    ],
     "extraNotes": [
       {
         "label": "Tục ngữ",
@@ -607,10 +619,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d23-22-native.mp3",
     "relatedPhrases": [
-      "토론(을) 하다",
-      "토론(이) 되다",
-      "토론을 시작하다",
-      "토론을 벌이다"
+      "토론(을) 하다 (tranh luận)",
+      "토론을 벌이다 (tổ chức tranh luận)"
     ],
     "synonyms": [
       "토의",
@@ -639,12 +649,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d23-23-native.mp3",
     "relatedPhrases": [
-      "통역사",
-      "통역료",
-      "통역관",
-      "통역(을) 하다",
-      "통역이 되다",
-      "통역을 맡다"
+      "통역사 (thông dịch viên)",
+      "통역을 맡다 (đảm nhận việc thông dịch)"
     ]
   },
   {
@@ -669,9 +675,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d23-24-native.mp3",
     "relatedPhrases": [
-      "통일(을) 하다",
-      "통일(이) 되다",
-      "통일을 이루다"
+      "통일(이) 되다 (được thống nhất)",
+      "통일을 이루다 (đạt được thống nhất)"
     ]
   },
   {
@@ -695,6 +700,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "day": 23,
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d23-25-native.mp3",
+    "relatedPhrases": [
+      "통통하게 살찌다 (mũm mĩm béo lên)",
+      "통통한 사람 (người tròn trịa)"
+    ],
     "antonyms": [
       "날씬하다"
     ],
@@ -727,9 +736,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d23-26-native.mp3",
     "relatedPhrases": [
-      "공기가 통하다",
-      "말이 통하다",
-      "마음이 통하다"
+      "공기가 통하다 (không khí lưu thông, thoáng gió)",
+      "피가 통하다 (máu lưu thông)"
     ]
   },
   {
@@ -755,9 +763,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d23-27-native.mp3",
     "pronunciationIrregular": "특끼",
     "relatedPhrases": [
-      "특기가 있다",
-      "특기를 가지다",
-      "특기를 살리다"
+      "특기가 있다 (có sở trường)",
+      "특기를 살리다 (phát huy sở trường)"
     ]
   },
   {
@@ -783,9 +790,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d23-28-native.mp3",
     "pronunciationIrregular": "특썽",
     "relatedPhrases": [
-      "특성이 있다",
-      "특성을 지니다",
-      "특성을 살리다"
+      "특성을 지니다 (mang đặc tính)",
+      "특성을 살리다 (phát huy đặc tính)"
     ],
     "synonyms": [
       "특징",
@@ -815,9 +821,8 @@ export const vocabTopik2Day23: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d23-29-native.mp3",
     "pronunciationIrregular": "특찡",
     "relatedPhrases": [
-      "특징이 있다",
-      "특징을 보이다",
-      "특징을 찾다"
+      "특징이 있다 (có đặc trưng)",
+      "특징을 보이다 (thể hiện đặc trưng)"
     ],
     "synonyms": [
       "특성"
@@ -845,6 +850,10 @@ export const vocabTopik2Day23: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d23-30-native.mp3",
     "pronunciationIrregular": "틀리멉씨",
+    "relatedPhrases": [
+      "틀림없이 도착하다 (chắc chắn sẽ đến)",
+      "틀림없이 성공하다 (chắc chắn sẽ thành công)"
+    ],
     "synonyms": [
       "확실히",
       "당연히",

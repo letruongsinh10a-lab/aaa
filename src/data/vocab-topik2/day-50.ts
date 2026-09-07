@@ -23,13 +23,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d50-01-native.mp3",
     "relatedPhrases": [
-      "의심스럽다",
-      "의심(이) 되다",
-      "의심이 많다",
-      "의심이 생기다",
-      "의심을 사다",
-      "의심을 받다",
-      "의심이 풀리다"
+      "의심을 사다 (gây nghi ngờ)",
+      "의심이 많다 (hay nghi ngờ, đa nghi)"
     ],
     "antonyms": [
       "믿음",
@@ -58,8 +53,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d50-02-native.mp3",
     "relatedPhrases": [
-      "의외의 결과",
-      "의외로 잘하다"
+      "의외의 결과 (kết quả không ngờ tới)",
+      "의외로 잘하다 (làm tốt một cách bất ngờ)"
     ],
     "structure": [
       "의외의 + N",
@@ -91,11 +86,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d50-03-native.mp3",
     "relatedPhrases": [
-      "의욕이 있다",
-      "의욕이 없다",
-      "의욕이 넘치다",
-      "의욕을 잃다",
-      "의욕이 떨어지다"
+      "의욕이 넘치다 (tràn đầy nhiệt huyết)",
+      "의욕을 잃다 (mất động lực, mất nhiệt huyết)"
     ],
     "synonyms": [
       "의지"
@@ -131,6 +123,10 @@ export const vocabTopik2Day50: VocabCard[] = [
       "의존하면",
       "의존합니다"
     ],
+    "relatedPhrases": [
+      "수입에 의존하다 (phụ thuộc vào nhập khẩu)",
+      "부모에게 의존하다 (phụ thuộc vào bố mẹ)"
+    ],
     "synonyms": [
       "의지하다",
       "기대다"
@@ -158,10 +154,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d50-05-native.mp3",
     "relatedPhrases": [
-      "의지(를) 하다",
-      "의지가 되다",
-      "종교에 의지하다",
-      "친구에게 의지하다"
+      "의지가 되다 (trở thành chỗ dựa)",
+      "친구에게 의지하다 (dựa vào bạn bè)"
     ],
     "structure": [
       "N에/에게 의지하다"
@@ -192,10 +186,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d50-06-native.mp3",
     "relatedPhrases": [
-      "의지가 있다",
-      "의지가 없다",
-      "의지가 강하다",
-      "의지를 보이다"
+      "의지가 강하다 (ý chí mạnh mẽ)",
+      "의지를 보이다 (thể hiện ý chí)"
     ],
     "synonyms": [
       "결심"
@@ -222,6 +214,10 @@ export const vocabTopik2Day50: VocabCard[] = [
     "day": 50,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d50-07-native.mp3",
+    "relatedPhrases": [
+      "이기적인 사람 (người ích kỷ)",
+      "이기적으로 행동하다 (hành động ích kỷ)"
+    ],
     "antonyms": [
       "이타적"
     ]
@@ -248,8 +244,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d50-08-native.mp3",
     "relatedPhrases": [
-      "한 시간 이내",
-      "열 명 이내"
+      "한 시간 이내 (trong vòng một giờ)",
+      "열 명 이내 (trong phạm vi mười người)"
     ],
     "structure": [
       "N(số lượng) 이내"
@@ -277,9 +273,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d50-09-native.mp3",
     "relatedPhrases": [
-      "이념을 가지다",
-      "이념을 확립하다",
-      "이념에 부합하다"
+      "이념을 가지다 (mang hệ tư tưởng)",
+      "이념을 확립하다 (xác lập hệ tư tưởng)"
     ],
     "synonyms": [
       "생각",
@@ -311,10 +306,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d50-10-native.mp3",
     "relatedPhrases": [
-      "이론을 익히다",
-      "이론을 제기하다",
-      "이론을 세우다",
-      "이론을 전개하다"
+      "이론을 세우다 (xây dựng lý thuyết)",
+      "이론을 익히다 (học lý thuyết)"
     ],
     "antonyms": [
       "실기",
@@ -353,8 +346,8 @@ export const vocabTopik2Day50: VocabCard[] = [
       "이롭습니다"
     ],
     "relatedPhrases": [
-      "웃음이 건강에 이롭다",
-      "웃음이 우리에게 이롭다"
+      "몸에 이롭다 (có lợi cho sức khỏe)",
+      "남에게 이롭다 (có lợi cho người khác)"
     ],
     "structure": [
       "N1이/가 N2에/에게 이롭다"
@@ -395,9 +388,8 @@ export const vocabTopik2Day50: VocabCard[] = [
       "이릅니다"
     ],
     "relatedPhrases": [
-      "목적지에 이르다",
-      "절정에 이르다",
-      "단계에 이르다"
+      "절정에 이르다 (lên đến đỉnh điểm)",
+      "단계에 이르다 (đạt đến giai đoạn nhất định)"
     ],
     "structure": [
       "N1이/가 N2에 이르다"
@@ -429,10 +421,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d50-13-native.mp3",
     "relatedPhrases": [
-      "이민(을) 하다",
-      "이민을 가다",
-      "이민을 오다",
-      "이민을 떠나다"
+      "이민을 가다 (đi di cư)",
+      "이민을 떠나다 (rời đi di cư)"
     ],
     "relatedWords": [
       "이민자",
@@ -461,10 +451,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d50-14-native.mp3",
     "relatedPhrases": [
-      "이별(을) 하다",
-      "이별을 전하다",
-      "이별을 통보하다",
-      "이별을 선언하다"
+      "이별을 통보하다 (thông báo chia tay)",
+      "이별을 선언하다 (tuyên bố chia tay)"
     ],
     "synonyms": [
       "작별",
@@ -503,6 +491,10 @@ export const vocabTopik2Day50: VocabCard[] = [
     "day": 50,
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d50-15-native.mp3",
+    "relatedPhrases": [
+      "이상적인 방법 (phương pháp lý tưởng)",
+      "이상적인 남성상 (hình mẫu đàn ông lý tưởng)"
+    ],
     "antonyms": [
       "현실적"
     ]
@@ -529,10 +521,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d50-16-native.mp3",
     "relatedPhrases": [
-      "이성이 있다",
-      "이성을 지니다",
-      "이성을 잃다",
-      "이성이 흔들리다"
+      "이성을 잃다 (mất lý trí)",
+      "이성을 지니다 (giữ được lý trí)"
     ],
     "antonyms": [
       "감성"
@@ -562,6 +552,10 @@ export const vocabTopik2Day50: VocabCard[] = [
     "day": 50,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d50-17-native.mp3",
+    "relatedPhrases": [
+      "이왕 이렇게 된 일 (sự việc đã ra như vậy rồi)",
+      "이왕이면 (đã vậy thì, nếu được thì)"
+    ],
     "synonyms": [
       "기왕",
       "여차피"
@@ -589,12 +583,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d50-18-native.mp3",
     "relatedPhrases": [
-      "이익이 되다",
-      "이익을 얻다",
-      "이익을 주다",
-      "이익을 내다",
-      "이익을 보다",
-      "이익이 크다"
+      "이익을 얻다 (thu được lợi ích)",
+      "이익을 내다 (tạo ra lợi nhuận)"
     ],
     "antonyms": [
       "손실",
@@ -630,8 +620,8 @@ export const vocabTopik2Day50: VocabCard[] = [
       "익습니다"
     ],
     "relatedPhrases": [
-      "낯이 익다",
-      "일이 손에 익다"
+      "낯이 익다 (quen mặt)",
+      "손에 익다 (quen tay, thành thạo)"
     ],
     "structure": [
       "N1이/가 N2에 익다"
@@ -679,9 +669,8 @@ export const vocabTopik2Day50: VocabCard[] = [
       "익힙니다"
     ],
     "relatedPhrases": [
-      "고기를 익히다",
-      "과일을 익히다",
-      "김치를 익히다"
+      "고기를 익히다 (làm chín thịt)",
+      "김치를 익히다 (ủ chín kim chi)"
     ],
     "structure": [
       "là sự động từ của '익다'"
@@ -710,10 +699,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d50-21-native.mp3",
     "pronunciationIrregular": "인간썽",
     "relatedPhrases": [
-      "인간성이 좋다",
-      "인간성이 나쁘다",
-      "인간성을 상실하다",
-      "인간성을 회복하다"
+      "인간성이 좋다 (nhân cách tốt)",
+      "인간성을 상실하다 (đánh mất nhân tính)"
     ],
     "synonyms": [
       "인성"
@@ -742,10 +729,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d50-22-native.mp3",
     "pronunciationIrregular": "인껵",
     "relatedPhrases": [
-      "인격이 좋다",
-      "인격이 훌륭하다",
-      "인격을 존중하다",
-      "인격을 형성하다"
+      "인격을 존중하다 (tôn trọng nhân cách)",
+      "인격이 훌륭하다 (nhân cách tuyệt vời)"
     ],
     "synonyms": [
       "인품",
@@ -775,10 +760,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d50-23-native.mp3",
     "pronunciationIrregular": "일력",
     "relatedPhrases": [
-      "인력이 있다",
-      "인력이 부족하다",
-      "인력을 양성하다",
-      "인력을 동원하다"
+      "인력이 부족하다 (thiếu nhân lực)",
+      "인력을 양성하다 (đào tạo nhân lực)"
     ],
     "relatedWords": [
       "인력난"
@@ -806,9 +789,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d50-24-native.mp3",
     "relatedPhrases": [
-      "인상(을) 하다",
-      "인상(이) 되다",
-      "인상(을) 시키다"
+      "요금 인상 (tăng phí)",
+      "물가 인상 (tăng giá cả)"
     ],
     "antonyms": [
       "인하"
@@ -836,10 +818,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d50-25-native.mp3",
     "relatedPhrases": [
-      "인식(을) 하다",
-      "인식(이) 되다",
-      "인식이 생기다",
-      "인식을 가지다"
+      "인식이 생기다 (hình thành nhận thức)",
+      "인식을 가지다 (có nhận thức)"
     ]
   },
   {
@@ -865,11 +845,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d50-26-native.mp3",
     "pronunciationIrregular": "이년",
     "relatedPhrases": [
-      "인연이 있다",
-      "인연이 없다",
-      "인연이 깊다",
-      "인연을 맺다",
-      "인연을 끊다"
+      "인연을 맺다 (kết duyên)",
+      "인연이 깊다 (duyên phận sâu đậm)"
     ]
   },
   {
@@ -894,10 +871,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d50-27-native.mp3",
     "relatedPhrases": [
-      "인재를 기르다",
-      "인재를 양성하다",
-      "인재를 육성하다",
-      "인재를 발굴하다"
+      "인재를 양성하다 (đào tạo nhân tài)",
+      "인재를 발굴하다 (phát hiện nhân tài)"
     ]
   },
   {
@@ -922,12 +897,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d50-28-native.mp3",
     "relatedPhrases": [
-      "인정(을) 하다",
-      "인정(이) 되다",
-      "인정(을) 받다",
-      "잘못을 인정하다",
-      "능력을 인정하다",
-      "사실을 인정하다"
+      "잘못을 인정하다 (thừa nhận lỗi lầm)",
+      "인정을 받다 (được công nhận)"
     ],
     "antonyms": [
       "부인"
@@ -955,10 +926,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d50-29-native.mp3",
     "relatedPhrases": [
-      "인하(를) 하다",
-      "인하(가) 되다",
-      "요금을 인하하다",
-      "가격을 인하하다"
+      "요금을 인하하다 (giảm phí)",
+      "가격을 인하하다 (giảm giá)"
     ],
     "antonyms": [
       "인상"
@@ -986,9 +955,8 @@ export const vocabTopik2Day50: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d50-30-native.mp3",
     "relatedPhrases": [
-      "일교차가 크다",
-      "일교차가 심하다",
-      "일교차가 뚜렷하다"
+      "일교차가 크다 (chênh lệch nhiệt độ lớn)",
+      "일교차가 심하다 (chênh lệch nhiệt độ nghiêm trọng)"
     ]
   }
 ]

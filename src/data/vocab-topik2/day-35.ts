@@ -27,14 +27,12 @@ export const vocabTopik2Day35: VocabCard[] = [
       "N을/를 드나들다",
       "N(으)로 드나들다"
     ],
+    "relatedPhrases": [
+      "술집에 드나들다 (ra vào quán rượu)",
+      "골목으로 드나들다 (ra vào qua con hẻm)"
+    ],
     "synonyms": [
       "들락거리다"
-    ],
-    "extraNotes": [
-      {
-        "label": "Ví dụ cụm",
-        "text": "술집에 드나들다, 술집을 드나들다, 골목으로 드나들다"
-      }
     ]
   },
   {
@@ -59,9 +57,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d35-02-native.mp3",
     "relatedPhrases": [
-      "속마음을 드러내다",
-      "감정을 드러내다",
-      "모습을 드러내다"
+      "속마음을 드러내다 (bộc lộ nỗi lòng, tâm tư)",
+      "감정을 드러내다 (bộc lộ cảm xúc)"
     ],
     "synonyms": [
       "나타내다",
@@ -90,8 +87,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d35-03-native.mp3",
     "relatedPhrases": [
-      "인적이 드물다",
-      "차량 통행이 드물다"
+      "인적이 드물다 (hiếm bóng người qua lại)",
+      "차량 통행이 드물다 (xe cộ qua lại thưa thớt)"
     ],
     "synonyms": [
       "적다"
@@ -123,8 +120,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d35-04-native.mp3",
     "relatedPhrases": [
-      "마음이 든든하다",
-      "속이 든든하다"
+      "마음이 든든하다 (lòng cảm thấy vững tâm)",
+      "속이 든든하다 (bụng cảm thấy chắc dạ, no)"
     ],
     "synonyms": [
       "믿음직하다",
@@ -152,6 +149,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d35-05-native.mp3",
+    "relatedPhrases": [
+      "방 안을 들여다보다 (nhìn vào trong phòng)",
+      "거울을 들여다보다 (soi kỹ gương)"
+    ],
     "antonyms": [
       "내다보다"
     ]
@@ -180,6 +181,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "structure": [
       "N1이/가 N2에게 들키다"
     ],
+    "relatedPhrases": [
+      "선생님에게 들키다 (bị thầy/cô phát hiện)",
+      "거짓말이 들키다 (lời nói dối bị bại lộ)"
+    ],
     "synonyms": [
       "걸리다",
       "발각되다"
@@ -206,6 +211,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d35-07-native.mp3",
+    "relatedPhrases": [
+      "친구를 따라다니다 (đi theo bạn)",
+      "선배를 따라다니다 (đi theo đàn anh/chị)"
+    ],
     "synonyms": [
       "쫓아다니다"
     ]
@@ -232,8 +241,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d35-08-native.mp3",
     "relatedPhrases": [
-      "컵에 물을 따르다",
-      "잔에 술을 따르다"
+      "컵에 물을 따르다 (rót nước vào cốc)",
+      "잔에 술을 따르다 (rót rượu vào ly)"
     ],
     "synonyms": [
       "붓다"
@@ -261,10 +270,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d35-09-native.mp3",
     "relatedPhrases": [
-      "잘못을 따지다",
-      "원인을 따지다",
-      "이치를 따지다",
-      "시비를 따지다"
+      "잘못을 따지다 (làm rõ đúng sai, lỗi lầm)",
+      "원인을 따지다 (truy xét nguyên nhân)"
     ]
   },
   {
@@ -289,11 +296,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d35-10-native.mp3",
     "relatedPhrases": [
-      "때가 타다",
-      "때가 묻다",
-      "때가 끼다",
-      "때를 씻다",
-      "때를 벗기다"
+      "때가 타다 (dễ bám bẩn)",
+      "때를 벗기다 (kỳ cọ, tẩy sạch vết bẩn)"
     ]
   },
   {
@@ -317,6 +321,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d35-11-native.mp3",
+    "relatedPhrases": [
+      "뺨을 때리다 (tát vào má)",
+      "매를 때리다 (đánh roi, phạt roi)"
+    ],
     "antonyms": [
       "맞다"
     ]
@@ -342,13 +350,13 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d35-12-native.mp3",
-    "relatedPhrases": [
-      "고향을 떠나오다",
-      "고향에서 떠나오다"
-    ],
     "structure": [
       "N을/를 떠나오다",
       "N에서 떠나오다"
+    ],
+    "relatedPhrases": [
+      "고향을 떠나오다 (rời quê hương)",
+      "고향에서 떠나오다 (rời khỏi quê hương)"
     ]
   },
   {
@@ -373,10 +381,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d35-13-native.mp3",
     "relatedPhrases": [
-      "벽보를 떼다",
-      "상표를 떼다",
-      "눈을 떼다",
-      "정을 떼다"
+      "벽보를 떼다 (gỡ tờ áp phích dán tường)",
+      "상표를 떼다 (bóc tem mác)"
     ],
     "synonyms": [
       "뜯다"
@@ -408,9 +414,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d35-14-native.mp3",
     "pronunciationIrregular": "뚜려타다",
     "relatedPhrases": [
-      "모습이 뚜렷하다",
-      "특징이 뚜렷하다",
-      "의견이 뚜렷하다"
+      "모습이 뚜렷하다 (hình dáng rõ ràng)",
+      "특징이 뚜렷하다 (đặc điểm rõ ràng)"
     ],
     "synonyms": [
       "명백하다",
@@ -446,10 +451,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d35-15-native.mp3",
     "pronunciationIrregular": "뚤리다",
     "relatedPhrases": [
-      "구멍이 뚫리다",
-      "하수구가 뚫리다",
-      "변기가 뚫리다",
-      "길이 뚫리다"
+      "구멍이 뚫리다 (bị đục lỗ, có lỗ thủng)",
+      "길이 뚫리다 (đường thông, mở thông đường)"
     ],
     "antonyms": [
       "막히다"
@@ -476,11 +479,12 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d35-16-native.mp3",
-    "relatedPhrases": [
-      "학생이 교실에서 운동장으로 뛰어나오다"
-    ],
     "structure": [
       "N1이/가 N2에서 N3(으)로 뛰어나오다"
+    ],
+    "relatedPhrases": [
+      "학생이 교실에서 운동장으로 뛰어나오다 (học sinh chạy ùa từ lớp học ra sân trường)",
+      "강아지가 뛰어나오다 (chú chó chạy ùa ra)"
     ]
   },
   {
@@ -504,11 +508,12 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d35-17-native.mp3",
-    "relatedPhrases": [
-      "아이가 놀이터에서 뛰어놀다"
-    ],
     "structure": [
       "N1이/가 N2에서 뛰어놀다"
+    ],
+    "relatedPhrases": [
+      "아이가 놀이터에서 뛰어놀다 (trẻ con chạy chơi ở sân chơi)",
+      "마당에서 뛰어놀다 (chạy chơi ở sân)"
     ],
     "synonyms": [
       "뛰놀다"
@@ -535,11 +540,12 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d35-18-native.mp3",
-    "relatedPhrases": [
-      "학생이 운동장에서 뛰어다니다"
-    ],
     "structure": [
       "N1이/가 N2에서 뛰어다니다"
+    ],
+    "relatedPhrases": [
+      "학생이 운동장에서 뛰어다니다 (học sinh chạy nhảy khắp sân trường)",
+      "아이들이 이리저리 뛰어다니다 (bọn trẻ chạy nhảy khắp nơi)"
     ]
   },
   {
@@ -563,11 +569,12 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d35-19-native.mp3",
-    "relatedPhrases": [
-      "아이가 강에/아빠에게/강으로 뛰어들다"
-    ],
     "structure": [
       "N1이/가 N2에/에게/(으)로 뛰어들다"
+    ],
+    "relatedPhrases": [
+      "바다에 뛰어들다 (nhảy xuống biển)",
+      "일에 뛰어들다 (dấn thân, lao vào công việc)"
     ]
   },
   {
@@ -592,10 +599,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d35-20-native.mp3",
     "relatedPhrases": [
-      "간장을 뜨다",
-      "국을 뜨다",
-      "한술 뜨다",
-      "회를 뜨다"
+      "국을 뜨다 (múc canh)",
+      "한술 뜨다 (múc một muỗng, ăn một miếng cơm)"
     ]
   },
   {
@@ -621,9 +626,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d35-21-native.mp3",
     "pronunciationIrregular": "뜯따",
     "relatedPhrases": [
-      "바닥을 뜯다",
-      "기계를 뜯다",
-      "나물을 뜯다"
+      "바닥을 뜯다 (tháo dỡ sàn nhà)",
+      "나물을 뜯다 (hái rau dại, rau rừng)"
     ],
     "synonyms": [
       "뜯어내다"
@@ -652,7 +656,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d35-22-native.mp3",
     "pronunciationIrregular": "뜯빡",
     "relatedPhrases": [
-      "뜻밖에"
+      "뜻밖에 (một cách bất ngờ, ngoài dự đoán)",
+      "뜻밖의 선물 (món quà bất ngờ)"
     ],
     "synonyms": [
       "의외"
@@ -679,6 +684,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d35-23-native.mp3",
+    "relatedPhrases": [
+      "색상이 눈에 띄다 (màu sắc nổi bật, đập vào mắt)",
+      "눈에 띄게 좋아지다 (tốt lên rõ rệt, thấy rõ)"
+    ],
     "extraNotes": [
       {
         "label": "Thành ngữ",
@@ -707,6 +716,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d35-24-native.mp3",
+    "relatedPhrases": [
+      "마구 뛰어다니다 (chạy nhảy loạn xạ, dữ dội)",
+      "마구 화를 내다 (nổi giận dữ dội, dồn dập)"
+    ],
     "synonyms": [
       "함부로"
     ]
@@ -732,6 +745,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d35-25-native.mp3",
+    "relatedPhrases": [
+      "마냥 좋다 (thấy thích/vui mãi không thôi)",
+      "마냥 기다리다 (cứ thế chờ đợi mãi)"
+    ],
     "synonyms": [
       "계속",
       "내내"
@@ -758,6 +775,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d35-26-native.mp3",
+    "relatedPhrases": [
+      "마땅한 일자리 (công việc phù hợp)",
+      "마땅히 해야 할 일 (việc đương nhiên phải làm)"
+    ],
     "synonyms": [
       "적합하다",
       "어울리다",
@@ -793,13 +814,13 @@ export const vocabTopik2Day35: VocabCard[] = [
     "day": 35,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d35-27-native.mp3",
-    "relatedPhrases": [
-      "성공하기 마련이다",
-      "성공하게 마련이다"
-    ],
     "structure": [
       "V/A-기 마련이다",
       "V/A-게 마련이다"
+    ],
+    "relatedPhrases": [
+      "성공하기 마련이다 (tất yếu sẽ thành công)",
+      "성공하게 마련이다 (đương nhiên sẽ thành công)"
     ],
     "synonyms": [
       "준비"
@@ -827,9 +848,8 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d35-28-native.mp3",
     "relatedPhrases": [
-      "마무리(를) 하다",
-      "마무리(가) 되다",
-      "마무리를 짓다"
+      "마무리(를) 하다 (hoàn thành, kết thúc)",
+      "마무리를 짓다 (hoàn tất, chốt lại)"
     ],
     "synonyms": [
       "마감"
@@ -860,6 +880,10 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d35-29-native.mp3",
     "pronunciationIrregular": "마음껃",
+    "relatedPhrases": [
+      "마음껏 먹다 (ăn thỏa thích)",
+      "마음껏 뛰어놀다 (chạy chơi thỏa thích)"
+    ],
     "synonyms": [
       "실컷",
       "충분히"
@@ -887,13 +911,13 @@ export const vocabTopik2Day35: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d35-30-native.mp3",
     "pronunciationIrregular": "마음먹따",
-    "relatedPhrases": [
-      "운동하기로 마음먹다",
-      "운동하겠다고 마음먹다"
-    ],
     "structure": [
       "V-기로 마음먹다",
       "V-겠다고 마음먹다"
+    ],
+    "relatedPhrases": [
+      "운동하기로 마음먹다 (quyết tâm sẽ tập thể dục)",
+      "운동하겠다고 마음먹다 (quyết tâm rằng sẽ tập thể dục)"
     ],
     "synonyms": [
       "결심하다",

@@ -23,8 +23,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d45-01-native.mp3",
     "relatedPhrases": [
-      "신비를 느끼다",
-      "신비하다"
+      "신비를 느끼다 (cảm nhận sự huyền bí)",
+      "신비하다 (huyền bí, kỳ bí)"
     ]
   },
   {
@@ -49,8 +49,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d45-02-native.mp3",
     "relatedPhrases": [
-      "신세를 한탄하다",
-      "신세를 망치다"
+      "신세를 한탄하다 (than thân trách phận)",
+      "신세를 망치다 (làm hỏng cuộc đời/số phận mình)"
     ],
     "synonyms": [
       "처지"
@@ -78,8 +78,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d45-03-native.mp3",
     "relatedPhrases": [
-      "신제품을 출시하다",
-      "신제품을 선보이다"
+      "신제품을 출시하다 (ra mắt sản phẩm mới)",
+      "신제품을 선보이다 (giới thiệu sản phẩm mới)"
     ],
     "synonyms": [
       "신품"
@@ -107,8 +107,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d45-04-native.mp3",
     "relatedPhrases": [
-      "신중을 기하다",
-      "신중을 요하다"
+      "신중을 기하다 (hết sức thận trọng)",
+      "신중을 요하다 (cần sự thận trọng)"
     ],
     "antonyms": [
       "경솔"
@@ -134,7 +134,11 @@ export const vocabTopik2Day45: VocabCard[] = [
     "tags": [],
     "day": 45,
     "dayOrder": 5,
-    "audioUrl": "/audio/word-t2-d45-05-native.mp3"
+    "audioUrl": "/audio/word-t2-d45-05-native.mp3",
+    "relatedPhrases": [
+      "그리스 신화 (thần thoại Hy Lạp)",
+      "신화가 되다 (trở thành huyền thoại)"
+    ]
   },
   {
     "id": "t2-d45-06",
@@ -158,8 +162,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d45-06-native.mp3",
     "relatedPhrases": [
-      "실감이 나다",
-      "실감이 되다"
+      "실감이 나다 (cảm thấy chân thực, cảm nhận rõ)",
+      "실감이 되다 (cảm nhận được là thật)"
     ]
   },
   {
@@ -185,8 +189,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d45-07-native.mp3",
     "pronunciationIrregular": "실씁",
     "relatedPhrases": [
-      "실습을 하다",
-      "실습을 나가다"
+      "실습을 하다 (đi thực tập)",
+      "실습을 나가다 (đi ra ngoài thực tập)"
     ]
   },
   {
@@ -218,8 +222,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "실시합니다"
     ],
     "relatedPhrases": [
-      "정책을 실시하다",
-      "제도를 실시하다"
+      "정책을 실시하다 (thực thi chính sách)",
+      "제도를 실시하다 (thực thi chế độ, quy định)"
     ]
   },
   {
@@ -244,8 +248,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d45-09-native.mp3",
     "relatedPhrases": [
-      "실업이 증가하다",
-      "실업률"
+      "실업이 증가하다 (tình trạng thất nghiệp gia tăng)",
+      "실업률 (tỷ lệ thất nghiệp)"
     ],
     "antonyms": [
       "취업"
@@ -271,7 +275,11 @@ export const vocabTopik2Day45: VocabCard[] = [
     "tags": [],
     "day": 45,
     "dayOrder": 10,
-    "audioUrl": "/audio/word-t2-d45-10-native.mp3"
+    "audioUrl": "/audio/word-t2-d45-10-native.mp3",
+    "relatedPhrases": [
+      "실용적인 선물 (món quà thiết thực)",
+      "실용적인 방법 (phương pháp thiết thực)"
+    ]
   },
   {
     "id": "t2-d45-11",
@@ -296,8 +304,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d45-11-native.mp3",
     "pronunciationIrregular": "실쩨",
     "relatedPhrases": [
-      "실제로",
-      "실제 상황"
+      "실제로 (thực sự, trên thực tế)",
+      "실제 상황 (tình huống thực tế)"
     ],
     "antonyms": [
       "허구"
@@ -325,8 +333,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d45-12-native.mp3",
     "relatedPhrases": [
-      "실천을 하다",
-      "실천에 옮기다"
+      "실천을 하다 (thực hành, thực hiện)",
+      "실천에 옮기다 (đưa vào hành động thực tế)"
     ],
     "synonyms": [
       "실행"
@@ -357,8 +365,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d45-13-native.mp3",
     "relatedPhrases": [
-      "실험을 하다",
-      "실험이 되다"
+      "실험을 하다 (làm, tiến hành thí nghiệm)",
+      "실험이 되다 (trở thành một cuộc thử nghiệm)"
     ]
   },
   {
@@ -383,8 +391,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d45-14-native.mp3",
     "relatedPhrases": [
-      "실현을 하다",
-      "실현이 되다"
+      "실현을 하다 (thực hiện, hiện thực hóa)",
+      "실현이 되다 (trở thành hiện thực)"
     ],
     "synonyms": [
       "달성",
@@ -413,6 +421,10 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d45-15-native.mp3",
     "pronunciationIrregular": "심니적",
+    "relatedPhrases": [
+      "심리적 부담 (gánh nặng, áp lực tâm lý)",
+      "심리적으로 안정되다 (ổn định về mặt tâm lý)"
+    ],
     "synonyms": [
       "심적",
       "내적"
@@ -440,8 +452,8 @@ export const vocabTopik2Day45: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d45-16-native.mp3",
     "relatedPhrases": [
-      "심정이 괴롭다",
-      "심정을 털어놓다"
+      "심정이 괴롭다 (tâm trạng đau khổ, nặng trĩu)",
+      "심정을 털어놓다 (bộc bạch nỗi lòng)"
     ],
     "synonyms": [
       "마음",
@@ -468,7 +480,11 @@ export const vocabTopik2Day45: VocabCard[] = [
     "tags": [],
     "day": 45,
     "dayOrder": 17,
-    "audioUrl": "/audio/word-t2-d45-17-native.mp3"
+    "audioUrl": "/audio/word-t2-d45-17-native.mp3",
+    "relatedPhrases": [
+      "심지어는 (thậm chí là)",
+      "심지어 ~까지 (thậm chí đến cả...)"
+    ]
   },
   {
     "id": "t2-d45-18",
@@ -494,6 +510,10 @@ export const vocabTopik2Day45: VocabCard[] = [
     "pronunciationIrregular": "십쌍",
     "structure": [
       "V-기 십상이다"
+    ],
+    "relatedPhrases": [
+      "늦기 십상이다 (rất dễ bị trễ)",
+      "실수하기 십상이다 (rất dễ mắc lỗi)"
     ]
   },
   {
@@ -524,7 +544,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "썰렁합니다"
     ],
     "relatedPhrases": [
-      "분위기가 썰렁하다"
+      "분위기가 썰렁하다 (không khí lạnh lẽo, nhạt nhẽo)",
+      "방 안이 썰렁하다 (bên trong phòng lạnh lẽo, trống trải)"
     ]
   },
   {
@@ -555,8 +576,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쏩니다"
     ],
     "relatedPhrases": [
-      "총을 쏘다",
-      "활을 쏘다"
+      "총을 쏘다 (bắn súng)",
+      "활을 쏘다 (bắn cung)"
     ]
   },
   {
@@ -587,8 +608,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쐽니다"
     ],
     "relatedPhrases": [
-      "바람을 쐬다",
-      "햇볕을 쐬다"
+      "바람을 쐬다 (hóng gió, hóng mát)",
+      "햇볕을 쐬다 (phơi nắng, sưởi nắng)"
     ],
     "synonyms": [
       "쏘이다"
@@ -622,8 +643,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쑤십니다"
     ],
     "relatedPhrases": [
-      "허리가 쑤시다",
-      "다리가 쑤시다"
+      "허리가 쑤시다 (đau nhức lưng)",
+      "다리가 쑤시다 (đau nhức chân)"
     ],
     "synonyms": [
       "아프다"
@@ -656,6 +677,10 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쑥스러워서",
       "쑥스러우면",
       "쑥스럽습니다"
+    ],
+    "relatedPhrases": [
+      "쑥스럽게 웃다 (cười một cách ngượng ngùng)",
+      "쑥스러워하다 (tỏ ra ngượng ngùng)"
     ],
     "synonyms": [
       "부끄럽다"
@@ -690,8 +715,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쓰다듬습니다"
     ],
     "relatedPhrases": [
-      "머리를 쓰다듬다",
-      "등을 쓰다듬다"
+      "머리를 쓰다듬다 (xoa đầu, vuốt tóc)",
+      "등을 쓰다듬다 (vỗ về lưng, xoa lưng)"
     ],
     "synonyms": [
       "어루만지다"
@@ -725,8 +750,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쓰러집니다"
     ],
     "relatedPhrases": [
-      "나무가 쓰러지다",
-      "건물이 쓰러지다"
+      "나무가 쓰러지다 (cây đổ)",
+      "건물이 쓰러지다 (tòa nhà đổ sập)"
     ]
   },
   {
@@ -756,6 +781,10 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쓸데없어서",
       "쓸데없으면",
       "쓸데없습니다"
+    ],
+    "relatedPhrases": [
+      "쓸데없는 걱정 (sự lo lắng không cần thiết)",
+      "쓸데없는 소리 (lời nói vô nghĩa, nhảm nhí)"
     ],
     "synonyms": [
       "소용없다",
@@ -788,6 +817,10 @@ export const vocabTopik2Day45: VocabCard[] = [
       "쓸쓸해서",
       "쓸쓸하면",
       "쓸쓸합니다"
+    ],
+    "relatedPhrases": [
+      "쓸쓸한 마음 (tấm lòng cô đơn, hiu quạnh)",
+      "쓸쓸해 보이다 (trông có vẻ cô đơn)"
     ],
     "synonyms": [
       "외롭다",
@@ -824,6 +857,10 @@ export const vocabTopik2Day45: VocabCard[] = [
     ],
     "structure": [
       "N1에게 N2을/를 씌우다"
+    ],
+    "relatedPhrases": [
+      "모자를 씌우다 (đội mũ cho ai đó)",
+      "누명을 씌우다 (đổ oan, gán tội cho ai đó)"
     ]
   },
   {
@@ -856,6 +893,10 @@ export const vocabTopik2Day45: VocabCard[] = [
     ],
     "structure": [
       "N1이/가 N2을/를 씻기다"
+    ],
+    "relatedPhrases": [
+      "아기를 씻기다 (tắm cho em bé)",
+      "강아지를 씻기다 (tắm cho chú chó)"
     ]
   },
   {
@@ -887,8 +928,8 @@ export const vocabTopik2Day45: VocabCard[] = [
       "아깝습니다"
     ],
     "relatedPhrases": [
-      "돈이 아깝다",
-      "시간이 아깝다"
+      "돈이 아깝다 (tiếc tiền)",
+      "시간이 아깝다 (tiếc thời gian)"
     ]
   }
 ]

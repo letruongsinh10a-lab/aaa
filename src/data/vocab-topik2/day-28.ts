@@ -23,14 +23,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d28-01-native.mp3",
     "relatedPhrases": [
-      "고집쟁이",
-      "고집불통",
-      "고집하다",
-      "고집이 세다",
-      "고집을 부리다",
-      "고집을 피우다",
-      "고집을 세우다",
-      "고집을 꺾다"
+      "고집을 부리다 (cố chấp, bướng bỉnh)",
+      "고집이 세다 (rất cứng đầu, bướng bỉnh)"
     ]
   },
   {
@@ -55,7 +49,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d28-02-native.mp3",
     "relatedPhrases": [
-      "코를 골다"
+      "코를 골다 (ngáy)",
+      "코를 골며 자다 (ngủ ngáy)"
     ]
   },
   {
@@ -80,12 +75,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d28-03-native.mp3",
     "relatedPhrases": [
-      "공감대",
-      "공감 능력",
-      "공감(을) 하다",
-      "공감이 되다",
-      "공감이 가다",
-      "공감을 얻다"
+      "공감이 가다 (cảm thấy đồng cảm)",
+      "공감을 얻다 (nhận được sự đồng cảm)"
     ]
   },
   {
@@ -110,10 +101,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d28-04-native.mp3",
     "relatedPhrases": [
-      "공개적",
-      "공개(를) 하다",
-      "공개(가) 되다",
-      "공개를 요구하다"
+      "공개(를) 하다 (công khai)",
+      "공개를 요구하다 (yêu cầu công khai)"
     ],
     "antonyms": [
       "비공개"
@@ -141,12 +130,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d28-05-native.mp3",
     "relatedPhrases": [
-      "공격적",
-      "공격력",
-      "공격(을) 하다",
-      "공격을 받다",
-      "공격을 당하다",
-      "공격을 막다"
+      "공격(을) 하다 (tấn công)",
+      "공격을 받다 (bị tấn công)"
     ],
     "antonyms": [
       "방어",
@@ -175,12 +160,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d28-06-native.mp3",
     "relatedPhrases": [
-      "공급자",
-      "공급량",
-      "공급(을) 하다",
-      "공급(이) 되다",
-      "공급을 받다",
-      "공급을 끊다"
+      "공급(을) 하다 (cung cấp)",
+      "공급을 받다 (được cung cấp)"
     ],
     "antonyms": [
       "수요"
@@ -208,11 +189,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d28-07-native.mp3",
     "relatedPhrases": [
-      "가족 공동체",
-      "사회 공동체",
-      "지역 공동체",
-      "생활 공동체",
-      "운명 공동체"
+      "지역 공동체 (cộng đồng địa phương)",
+      "운명 공동체 (cộng đồng chung vận mệnh)"
     ]
   },
   {
@@ -237,8 +215,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d28-08-native.mp3",
     "relatedPhrases": [
-      "태도가 공손하다",
-      "말이 공손하다"
+      "태도가 공손하다 (thái độ lịch sự, lễ phép)",
+      "말이 공손하다 (lời nói lịch sự, lễ phép)"
     ],
     "antonyms": [
       "불손하다",
@@ -266,6 +244,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "day": 28,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d28-09-native.mp3",
+    "relatedPhrases": [
+      "공적인 업무 (công việc công)",
+      "공적으로 만나다 (gặp nhau vì việc công)"
+    ],
     "antonyms": [
       "사적"
     ]
@@ -292,12 +274,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d28-10-native.mp3",
     "relatedPhrases": [
-      "공지문",
-      "공지 사항",
-      "공지(를) 하다",
-      "공지(가) 되다",
-      "공지를 보다",
-      "공지를 올리다"
+      "공지 사항 (nội dung thông báo)",
+      "공지를 올리다 (đăng thông báo)"
     ],
     "synonyms": [
       "공고"
@@ -325,9 +303,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d28-11-native.mp3",
     "relatedPhrases": [
-      "산업공해",
-      "소음 공해",
-      "환경 공해"
+      "소음 공해 (ô nhiễm tiếng ồn)",
+      "환경 공해 (ô nhiễm môi trường)"
     ]
   },
   {
@@ -352,9 +329,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d28-12-native.mp3",
     "relatedPhrases": [
-      "과소비(를) 하다",
-      "과소비가 심하다",
-      "과소비를 부추기다"
+      "과소비(를) 하다 (chi tiêu quá mức)",
+      "과소비를 부추기다 (kích thích chi tiêu quá mức)"
     ]
   },
   {
@@ -379,8 +355,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d28-13-native.mp3",
     "relatedPhrases": [
-      "과속(을) 하다",
-      "과속으로 달리다"
+      "과속(을) 하다 (chạy quá tốc độ)",
+      "과속으로 달리다 (chạy với tốc độ quá nhanh)"
     ]
   },
   {
@@ -404,6 +380,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "day": 28,
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d28-14-native.mp3",
+    "relatedPhrases": [
+      "과연 그럴까 (liệu có đúng vậy không)",
+      "과연 대단하다 (quả thực tuyệt vời)"
+    ],
     "synonyms": [
       "정말로",
       "참말로"
@@ -431,6 +411,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d28-15-native.mp3",
     "pronunciationIrregular": "관쩜",
+    "relatedPhrases": [
+      "관점에서 보다 (nhìn nhận theo quan điểm)",
+      "관점을 바꾸다 (thay đổi quan điểm)"
+    ],
     "synonyms": [
       "시각"
     ]
@@ -456,6 +440,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "day": 28,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d28-16-native.mp3",
+    "relatedPhrases": [
+      "괜히 걱정하다 (lo lắng vô cớ)",
+      "괜히 화를 내다 (nổi giận vô cớ)"
+    ],
     "synonyms": [
       "쓸데없이",
       "공연히"
@@ -483,6 +471,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d28-17-native.mp3",
     "pronunciationIrregular": "괴롭따",
+    "relatedPhrases": [
+      "마음이 괴롭다 (lòng đau khổ, phiền muộn)",
+      "괴로운 나날을 보내다 (trải qua những ngày đau khổ)"
+    ],
     "antonyms": [
       "즐겁다",
       "기쁘다"
@@ -512,6 +504,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "day": 28,
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d28-18-native.mp3",
+    "relatedPhrases": [
+      "친구를 괴롭히다 (bắt nạt bạn bè)",
+      "동생을 괴롭히다 (bắt nạt em)"
+    ],
     "relatedWords": [
       "là sai khiến từ (사동사) của '괴롭다'"
     ]
@@ -537,6 +533,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "day": 28,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d28-19-native.mp3",
+    "relatedPhrases": [
+      "굉장한 용기 (lòng can đảm to lớn)",
+      "굉장한 인기를 끌다 (thu hút sự nổi tiếng to lớn)"
+    ],
     "synonyms": [
       "상당하다",
       "대단하다",
@@ -566,7 +566,11 @@ export const vocabTopik2Day28: VocabCard[] = [
     "tags": [],
     "day": 28,
     "dayOrder": 20,
-    "audioUrl": "/audio/word-t2-d28-20-native.mp3"
+    "audioUrl": "/audio/word-t2-d28-20-native.mp3",
+    "relatedPhrases": [
+      "교대로 일하다 (làm việc theo ca, thay phiên làm việc)",
+      "교대(를) 하다 (đổi ca, thay phiên)"
+    ]
   },
   {
     "id": "t2-d28-21",
@@ -590,10 +594,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d28-21-native.mp3",
     "relatedPhrases": [
-      "교류(를) 하다",
-      "교류(가) 되다",
-      "교류를 가지다",
-      "교류를 이루다"
+      "교류(를) 하다 (giao lưu)",
+      "교류를 가지다 (có sự giao lưu)"
     ]
   },
   {
@@ -618,11 +620,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d28-22-native.mp3",
     "relatedPhrases": [
-      "교양이 있다",
-      "교양이 없다",
-      "교양이 높다",
-      "교양을 쌓다",
-      "교양을 갖추다"
+      "교양이 있다 (có giáo dưỡng, có học thức)",
+      "교양을 쌓다 (trau dồi tu dưỡng bản thân)"
     ]
   },
   {
@@ -647,9 +646,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d28-23-native.mp3",
     "relatedPhrases": [
-      "교체(를) 하다",
-      "교체(가) 되다",
-      "교체를 이루다"
+      "교체(를) 하다 (thay thế)",
+      "교체(가) 되다 (được thay thế)"
     ]
   },
   {
@@ -674,10 +672,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d28-24-native.mp3",
     "relatedPhrases": [
-      "교훈이 되다",
-      "교훈을 얻다",
-      "교훈으로 여기다",
-      "교훈으로 삼다"
+      "교훈을 얻다 (rút ra bài học)",
+      "교훈으로 삼다 (lấy làm bài học)"
     ],
     "synonyms": [
       "가르침"
@@ -706,6 +702,10 @@ export const vocabTopik2Day28: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d28-25-native.mp3",
     "structure": [
       "N이/가 구르다"
+    ],
+    "relatedPhrases": [
+      "공이 구르다 (quả bóng lăn)",
+      "발을 헛디뎌 구르다 (trượt chân ngã lăn)"
     ],
     "extraNotes": [
       {
@@ -736,10 +736,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d28-26-native.mp3",
     "relatedPhrases": [
-      "구매자",
-      "구매력",
-      "구매(를) 하다",
-      "구매(가) 되다"
+      "구매(를) 하다 (mua hàng)",
+      "구매(가) 되다 (được mua)"
     ],
     "synonyms": [
       "구입"
@@ -770,8 +768,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d28-27-native.mp3",
     "relatedPhrases": [
-      "구별(을) 하다",
-      "구별(이) 되다"
+      "구별(을) 하다 (phân biệt)",
+      "구별(이) 되다 (được phân biệt)"
     ],
     "synonyms": [
       "구분"
@@ -799,8 +797,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d28-28-native.mp3",
     "relatedPhrases": [
-      "구분(을) 하다",
-      "구분(이) 되다"
+      "구분(을) 하다 (phân loại)",
+      "구분(이) 되다 (được phân loại)"
     ],
     "synonyms": [
       "구별"
@@ -826,7 +824,11 @@ export const vocabTopik2Day28: VocabCard[] = [
     "tags": [],
     "day": 28,
     "dayOrder": 29,
-    "audioUrl": "/audio/word-t2-d28-29-native.mp3"
+    "audioUrl": "/audio/word-t2-d28-29-native.mp3",
+    "relatedPhrases": [
+      "구석에 밀어 놓다 (dồn vào góc)",
+      "구석 자리 (chỗ ngồi ở góc)"
+    ]
   },
   {
     "id": "t2-d28-30",
@@ -850,9 +852,8 @@ export const vocabTopik2Day28: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d28-30-native.mp3",
     "relatedPhrases": [
-      "구성(을) 하다",
-      "구성(이) 되다",
-      "구성이 좋다"
+      "구성(이) 되다 (được cấu thành)",
+      "구성이 좋다 (bố cục/kết cấu tốt)"
     ],
     "synonyms": [
       "조직"

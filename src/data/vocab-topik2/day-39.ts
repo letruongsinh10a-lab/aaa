@@ -22,6 +22,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "day": 39,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d39-01-native.mp3",
+    "relatedPhrases": [
+      "번갈아 운전하다 (thay phiên nhau lái xe)",
+      "번갈아 가며 일하다 (thay phiên nhau làm việc)"
+    ],
     "structure": [
       "번갈아 (가며) + V"
     ],
@@ -53,10 +57,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d39-02-native.mp3",
     "pronunciationIrregular": "번거롭따",
     "relatedPhrases": [
-      "절차가 번거롭다",
-      "일이 번거롭다",
-      "가기가 번거롭다",
-      "사용하기가 번거롭다"
+      "절차가 번거롭다 (thủ tục phức tạp)",
+      "사용하기가 번거롭다 (sử dụng phiền phức)"
     ],
     "synonyms": [
       "복잡하다",
@@ -85,9 +87,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d39-03-native.mp3",
     "relatedPhrases": [
-      "거리가 번화하다",
-      "도시가 번화하다",
-      "시내가 번화하다"
+      "거리가 번화하다 (phố xá sầm uất)",
+      "도시가 번화하다 (thành phố sầm uất)"
     ],
     "synonyms": [
       "화려하다"
@@ -115,8 +116,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d39-04-native.mp3",
     "relatedPhrases": [
-      "벌떡 일어나다",
-      "벌떡 일어서다"
+      "벌떡 일어나다 (bật dậy)",
+      "벌떡 일어서다 (đứng phắt dậy)"
     ]
   },
   {
@@ -141,11 +142,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d39-05-native.mp3",
     "relatedPhrases": [
-      "입을 벌리다",
-      "손을 벌리다",
-      "팔을 벌리다",
-      "다리를 벌리다",
-      "간격을 벌리다"
+      "팔을 벌리다 (dang tay)",
+      "다리를 벌리다 (dạng chân)"
     ]
   },
   {
@@ -171,9 +169,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d39-06-native.mp3",
     "pronunciationIrregular": "버리다",
     "relatedPhrases": [
-      "사업을 벌이다",
-      "술판을 벌이다",
-      "논쟁을 벌이다"
+      "사업을 벌이다 (mở/triển khai việc kinh doanh)",
+      "논쟁을 벌이다 (gây ra tranh luận)"
     ]
   },
   {
@@ -199,11 +196,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d39-07-native.mp3",
     "pronunciationIrregular": "버위",
     "relatedPhrases": [
-      "범위가 넓다",
-      "범위가 좁다",
-      "범위가 많다",
-      "범위가 적다",
-      "범위가 제한되다"
+      "범위가 넓다 (phạm vi rộng)",
+      "범위가 좁다 (phạm vi hẹp)"
     ],
     "synonyms": [
       "영역"
@@ -231,9 +225,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d39-08-native.mp3",
     "relatedPhrases": [
-      "시험에서 벗어나다",
-      "무리로부터 벗어나다",
-      "시내를 벗어나다"
+      "무리로부터 벗어나다 (thoát khỏi đám đông)",
+      "시내를 벗어나다 (ra khỏi trung tâm thành phố)"
     ],
     "structure": [
       "N에서/(으)로부터/을/를 벗어나다"
@@ -265,9 +258,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d39-09-native.mp3",
     "pronunciationIrregular": "변덕쓰럽따",
     "relatedPhrases": [
-      "날씨가 변덕스럽다",
-      "성격이 변덕스럽다",
-      "태도가 변덕스럽다"
+      "날씨가 변덕스럽다 (thời tiết thất thường)",
+      "성격이 변덕스럽다 (tính cách thất thường)"
     ],
     "synonyms": [
       "변화무쌍하다"
@@ -295,12 +287,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d39-10-native.mp3",
     "relatedPhrases": [
-      "변동(을) 하다",
-      "변동(이) 되다",
-      "변동이 생기다",
-      "환율이 변동되다",
-      "가격이 변동되다",
-      "계획이 변동되다"
+      "변동이 생기다 (xuất hiện sự thay đổi)",
+      "가격이 변동되다 (giá cả thay đổi)"
     ],
     "synonyms": [
       "변화",
@@ -329,10 +317,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d39-11-native.mp3",
     "relatedPhrases": [
-      "변명(을) 하다",
-      "변명(이) 되다",
-      "변명을 대다",
-      "변명을 늘어놓다"
+      "변명을 늘어놓다 (bao biện dài dòng)",
+      "변명을 대다 (đưa ra lời biện hộ)"
     ],
     "synonyms": [
       "핑계"
@@ -359,6 +345,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "day": 39,
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d39-12-native.mp3",
+    "relatedPhrases": [
+      "별다른 문제가 없다 (không có vấn đề gì đặc biệt)",
+      "별다른 변화가 없다 (không có thay đổi gì đặc biệt)"
+    ],
     "structure": [
       "별다르다 + biểu đạt phủ định (없다",
       "않다",
@@ -393,9 +383,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d39-13-native.mp3",
     "pronunciationIrregular": "별또",
     "relatedPhrases": [
-      "별도로 마련되다",
-      "별도로 조사하다",
-      "별도로 생각하다"
+      "별도로 마련되다 (được chuẩn bị riêng)",
+      "별도로 조사하다 (điều tra riêng)"
     ],
     "structure": [
       "별도로 + V"
@@ -426,10 +415,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d39-14-native.mp3",
     "relatedPhrases": [
-      "몸이 병들다",
-      "마음이 병들다",
-      "나무가 병들다",
-      "사회가 병들다"
+      "몸이 병들다 (cơ thể sinh bệnh)",
+      "마음이 병들다 (tâm hồn tổn thương)"
     ],
     "synonyms": [
       "병나다"
@@ -457,12 +444,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d39-15-native.mp3",
     "relatedPhrases": [
-      "보급(을) 하다",
-      "보급(이) 되다",
-      "보급을 시키다",
-      "기술을 보급하다",
-      "생필품을 보급하다",
-      "문물을 보급하다"
+      "기술을 보급하다 (phổ cập công nghệ)",
+      "생필품을 보급하다 (cung cấp nhu yếu phẩm)"
     ],
     "synonyms": [
       "확산"
@@ -490,9 +473,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d39-16-native.mp3",
     "relatedPhrases": [
-      "아이를 보살피다",
-      "부모님을 보살피다",
-      "환자를 보살피다"
+      "아이를 보살피다 (chăm sóc trẻ nhỏ)",
+      "환자를 보살피다 (chăm sóc bệnh nhân)"
     ],
     "synonyms": [
       "돌보다"
@@ -520,10 +502,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d39-17-native.mp3",
     "relatedPhrases": [
-      "보상(을) 하다",
-      "보상(이) 되다",
-      "보상을 받다",
-      "보상을 바라다"
+      "보상을 받다 (nhận đền bù)",
+      "보상을 바라다 (mong đợi đền đáp)"
     ]
   },
   {
@@ -548,10 +528,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d39-18-native.mp3",
     "relatedPhrases": [
-      "보수를 주다",
-      "보수를 지급하다",
-      "보수를 받다",
-      "보수를 요구하다"
+      "보수를 받다 (nhận thù lao)",
+      "보수를 요구하다 (yêu cầu thù lao)"
     ],
     "synonyms": [
       "대가"
@@ -579,10 +557,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d39-19-native.mp3",
     "relatedPhrases": [
-      "보안(을) 하다",
-      "보안이 되다",
-      "보안이 철저하다",
-      "보안을 유지하다"
+      "보안이 철저하다 (bảo mật chặt chẽ)",
+      "보안을 유지하다 (duy trì bảo mật)"
     ]
   },
   {
@@ -607,12 +583,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d39-20-native.mp3",
     "relatedPhrases": [
-      "보완(을) 하다",
-      "보완이 되다",
-      "보완을 시키다",
-      "문제점을 보완하다",
-      "단점을 보완하다",
-      "약점을 보완하다"
+      "문제점을 보완하다 (khắc phục điểm thiếu sót)",
+      "단점을 보완하다 (khắc phục nhược điểm)"
     ]
   },
   {
@@ -637,10 +609,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d39-21-native.mp3",
     "relatedPhrases": [
-      "비밀을 보장하다",
-      "인권을 보장하다",
-      "신분을 보장하다",
-      "이익을 보장하다"
+      "비밀을 보장하다 (đảm bảo bí mật)",
+      "이익을 보장하다 (đảm bảo lợi ích)"
     ]
   },
   {
@@ -665,8 +635,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d39-22-native.mp3",
     "relatedPhrases": [
-      "보조(를) 하다",
-      "보조를 받다"
+      "보조(를) 하다 (hỗ trợ, trợ giúp)",
+      "보조를 받다 (nhận hỗ trợ)"
     ]
   },
   {
@@ -691,11 +661,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d39-23-native.mp3",
     "relatedPhrases": [
-      "보존(을) 하다",
-      "보존(이) 되다",
-      "환경을 보존하다",
-      "문화재를 보존하다",
-      "사건 현장을 보존하다"
+      "환경을 보존하다 (bảo tồn môi trường)",
+      "문화재를 보존하다 (bảo tồn di sản văn hóa)"
     ],
     "synonyms": [
       "보전"
@@ -727,8 +694,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d39-24-native.mp3",
     "relatedPhrases": [
-      "보충(을) 하다",
-      "보충(이) 되다"
+      "보충(을) 하다 (bổ sung)",
+      "보충(이) 되다 (được bổ sung)"
     ]
   },
   {
@@ -753,6 +720,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d39-25-native.mp3",
     "pronunciationIrregular": "본래",
+    "relatedPhrases": [
+      "본래의 모습 (dáng vẻ vốn có)",
+      "본래의 의미 (ý nghĩa vốn có)"
+    ],
     "synonyms": [
       "원래"
     ]
@@ -778,6 +749,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "day": 39,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d39-26-native.mp3",
+    "relatedPhrases": [
+      "기차역 부근 (gần nhà ga xe lửa)",
+      "다리 부근 (gần cây cầu)"
+    ],
     "synonyms": [
       "근처",
       "주변",
@@ -807,6 +782,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d39-27-native.mp3",
     "pronunciationIrregular": "부딛치다",
+    "relatedPhrases": [
+      "지나가는 사람과 부딪치다 (va vào người đi qua)",
+      "상대 선수와 부딪치다 (va chạm với cầu thủ đối phương)"
+    ],
     "structure": [
       "N1이/가 N2와/과 부딪치다"
     ]
@@ -833,6 +812,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d39-28-native.mp3",
     "pronunciationIrregular": "부디치다",
+    "relatedPhrases": [
+      "자동차에 부딪히다 (bị ô tô tông phải)",
+      "문제에 부딪히다 (gặp phải vấn đề)"
+    ],
     "structure": [
       "N1이/가 N2에 부딪히다"
     ],
@@ -861,6 +844,10 @@ export const vocabTopik2Day39: VocabCard[] = [
     "day": 39,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d39-29-native.mp3",
+    "relatedPhrases": [
+      "경제 부문 (lĩnh vực kinh tế)",
+      "소설 부문에서 수상하다 (đoạt giải ở hạng mục tiểu thuyết)"
+    ],
     "synonyms": [
       "분야"
     ]
@@ -887,11 +874,8 @@ export const vocabTopik2Day39: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d39-30-native.mp3",
     "relatedPhrases": [
-      "부상자",
-      "부상이 있다",
-      "부상이 없다",
-      "부상을 입다",
-      "부상을 당하다"
+      "부상을 입다 (bị thương)",
+      "부상을 당하다 (bị thương, gặp chấn thương)"
     ]
   }
 ]

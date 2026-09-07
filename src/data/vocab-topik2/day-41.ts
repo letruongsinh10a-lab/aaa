@@ -23,8 +23,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d41-01-native.mp3",
     "relatedPhrases": [
-      "비명을 지르다",
-      "비명을 듣다"
+      "비명을 지르다 (hét lên)",
+      "비명을 듣다 (nghe tiếng thét)"
     ]
   },
   {
@@ -50,8 +50,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d41-02-native.mp3",
     "pronunciationIrregular": "비뻡",
     "relatedPhrases": [
-      "비법을 전수하다",
-      "비법을 알아내다"
+      "비법을 전수하다 (truyền lại bí quyết)",
+      "비법을 알아내다 (tìm ra bí quyết)"
     ],
     "synonyms": [
       "비결",
@@ -86,8 +86,8 @@ export const vocabTopik2Day41: VocabCard[] = [
       "비웁니다"
     ],
     "relatedPhrases": [
-      "자리를 비우다",
-      "마음을 비우다"
+      "자리를 비우다 (rời khỏi chỗ, vắng mặt)",
+      "마음을 비우다 (buông bỏ tâm tư)"
     ]
   },
   {
@@ -118,6 +118,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "비웃으면",
       "비웃습니다"
     ],
+    "relatedPhrases": [
+      "아이디어를 비웃다 (chê cười ý tưởng)",
+      "친구를 비웃다 (chế giễu bạn bè)"
+    ],
     "synonyms": [
       "조롱하다",
       "조소하다"
@@ -145,8 +149,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d41-05-native.mp3",
     "relatedPhrases": [
-      "비유를 들다",
-      "비유가 적절하다"
+      "비유를 들다 (đưa ra phép ví von)",
+      "비유가 적절하다 (phép ví von phù hợp)"
     ]
   },
   {
@@ -171,8 +175,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d41-06-native.mp3",
     "relatedPhrases": [
-      "비율이 높다",
-      "비율을 차지하다"
+      "비율이 높다 (tỉ lệ cao)",
+      "비율을 차지하다 (chiếm tỉ lệ)"
     ]
   },
   {
@@ -197,8 +201,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d41-07-native.mp3",
     "relatedPhrases": [
-      "비중이 크다",
-      "비중을 두다"
+      "비중이 크다 (tỉ trọng lớn)",
+      "비중을 두다 (coi trọng, đặt trọng tâm)"
     ]
   },
   {
@@ -227,6 +231,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "비추어서(비춰서)",
       "비추면",
       "비춥니다"
+    ],
+    "relatedPhrases": [
+      "골목길을 비추다 (chiếu sáng con hẻm)",
+      "손전등으로 비추다 (soi bằng đèn pin)"
     ],
     "structure": [
       "N1이/가 N2에 N3을/를 비추다"
@@ -259,6 +267,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "비치면",
       "비칩니다"
     ],
+    "relatedPhrases": [
+      "햇살이 비치다 (ánh nắng chiếu vào)",
+      "그림자가 비치다 (bóng phản chiếu)"
+    ],
     "structure": [
       "N1이/가 N2에 비치다"
     ]
@@ -290,6 +302,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "비틀거리면",
       "비틀거립니다"
     ],
+    "relatedPhrases": [
+      "비틀거리며 걷다 (đi loạng choạng)",
+      "술에 취해 비틀거리다 (say rượu loạng choạng)"
+    ],
     "synonyms": [
       "비틀대다",
       "비틀비틀하다"
@@ -317,8 +333,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d41-11-native.mp3",
     "relatedPhrases": [
-      "비판을 받다",
-      "비판이 쏟아지다"
+      "비판을 받다 (bị phê phán)",
+      "비판이 쏟아지다 (bị chỉ trích dồn dập)"
     ],
     "synonyms": [
       "비평"
@@ -347,8 +363,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d41-12-native.mp3",
     "pronunciationIrregular": "빋",
     "relatedPhrases": [
-      "빚을 지다",
-      "빚을 갚다"
+      "빚을 지다 (mắc nợ)",
+      "빚을 갚다 (trả nợ)"
     ]
   },
   {
@@ -380,8 +396,8 @@ export const vocabTopik2Day41: VocabCard[] = [
       "빛납니다"
     ],
     "relatedPhrases": [
-      "별이 빛나다",
-      "눈빛이 빛나다"
+      "별이 빛나다 (ngôi sao tỏa sáng)",
+      "눈빛이 빛나다 (ánh mắt lấp lánh)"
     ]
   },
   {
@@ -412,8 +428,8 @@ export const vocabTopik2Day41: VocabCard[] = [
       "빠뜨립니다"
     ],
     "relatedPhrases": [
-      "지갑을 빠뜨리다",
-      "위험에 빠뜨리다"
+      "지갑을 빠뜨리다 (bỏ quên/làm rơi ví tiền)",
+      "위험에 빠뜨리다 (đẩy vào nguy hiểm)"
     ],
     "synonyms": [
       "빠트리다"
@@ -446,6 +462,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "빠져나가면",
       "빠져나갑니다"
     ],
+    "relatedPhrases": [
+      "경기장을 빠져나가다 (thoát khỏi sân vận động)",
+      "틈으로 빠져나가다 (luồn qua khe hở)"
+    ],
     "structure": [
       "N1이/가 N2에서 빠져나가다"
     ]
@@ -472,6 +492,10 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d41-16-native.mp3",
     "pronunciationIrregular": "빠지멉씨",
+    "relatedPhrases": [
+      "빠짐없이 메모하다 (ghi chép không sót)",
+      "빠짐없이 챙기다 (chuẩn bị đầy đủ không sót)"
+    ],
     "synonyms": [
       "다",
       "모두"
@@ -504,6 +528,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "빼놓아서",
       "빼놓으면",
       "빼놓습니다"
+    ],
+    "relatedPhrases": [
+      "내용을 빼놓다 (bỏ sót nội dung)",
+      "빼놓지 않다 (không bỏ sót, luôn mang theo)"
     ],
     "synonyms": [
       "빠뜨리다",
@@ -538,6 +566,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "빼앗으면",
       "빼앗습니다"
     ],
+    "relatedPhrases": [
+      "가방을 빼앗다 (giật lấy túi xách)",
+      "마음의 평화를 빼앗다 (cướp đi sự bình yên trong lòng)"
+    ],
     "structure": [
       "N1이/가 N2에게서 N3을/를 빼앗다"
     ]
@@ -570,6 +602,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "뽑히면",
       "뽑힙니다"
     ],
+    "relatedPhrases": [
+      "나무가 뽑히다 (cây bị bật gốc)",
+      "최우수상으로 뽑히다 (được chọn nhận giải xuất sắc nhất)"
+    ],
     "structure": [
       "N1이/가 N2에서 N3(으)로 뽑히다"
     ]
@@ -596,8 +632,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d41-20-native.mp3",
     "relatedPhrases": [
-      "사고방식이 다르다",
-      "사고방식을 바꾸다"
+      "사고방식이 다르다 (lối suy nghĩ khác nhau)",
+      "사고방식을 바꾸다 (thay đổi lối suy nghĩ)"
     ]
   },
   {
@@ -622,8 +658,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d41-21-native.mp3",
     "relatedPhrases": [
-      "사기를 치다",
-      "사기를 당하다"
+      "사기를 치다 (giở trò lừa đảo)",
+      "사기를 당하다 (bị lừa)"
     ]
   },
   {
@@ -655,8 +691,8 @@ export const vocabTopik2Day41: VocabCard[] = [
       "사로잡습니다"
     ],
     "relatedPhrases": [
-      "마음을 사로잡다",
-      "시선을 사로잡다"
+      "마음을 사로잡다 (chinh phục trái tim)",
+      "시선을 사로잡다 (thu hút ánh nhìn)"
     ]
   },
   {
@@ -679,7 +715,11 @@ export const vocabTopik2Day41: VocabCard[] = [
     "tags": [],
     "day": 41,
     "dayOrder": 23,
-    "audioUrl": "/audio/word-t2-d41-23-native.mp3"
+    "audioUrl": "/audio/word-t2-d41-23-native.mp3",
+    "relatedPhrases": [
+      "사막을 여행하다 (đi du lịch sa mạc)",
+      "사막 지역 (khu vực sa mạc)"
+    ]
   },
   {
     "id": "t2-d41-24",
@@ -703,8 +743,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d41-24-native.mp3",
     "relatedPhrases": [
-      "사망 원인",
-      "사망에 이르다"
+      "사망 원인 (nguyên nhân tử vong)",
+      "사망에 이르다 (dẫn đến tử vong)"
     ],
     "antonyms": [
       "출생"
@@ -731,6 +771,10 @@ export const vocabTopik2Day41: VocabCard[] = [
     "day": 41,
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d41-25-native.mp3",
+    "relatedPhrases": [
+      "사방이 조용하다 (xung quanh yên tĩnh)",
+      "사방을 둘러보다 (nhìn quanh bốn phía)"
+    ],
     "synonyms": [
       "동서남북",
       "사방팔방"
@@ -758,8 +802,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d41-26-native.mp3",
     "relatedPhrases": [
-      "사상 최초",
-      "사상 최대"
+      "사상 최초 (lần đầu tiên trong lịch sử)",
+      "사상 최대 (lớn nhất từ trước đến nay)"
     ],
     "synonyms": [
       "역사상"
@@ -787,8 +831,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d41-27-native.mp3",
     "relatedPhrases": [
-      "사설을 쓰다",
-      "사설을 읽다"
+      "사설을 쓰다 (viết bài xã luận)",
+      "사설을 읽다 (đọc bài xã luận)"
     ],
     "synonyms": [
       "논설"
@@ -821,6 +865,10 @@ export const vocabTopik2Day41: VocabCard[] = [
       "사소하면",
       "사소합니다"
     ],
+    "relatedPhrases": [
+      "사소한 일 (chuyện nhỏ nhặt)",
+      "사소한 습관 (thói quen nhỏ nhặt)"
+    ],
     "synonyms": [
       "작다",
       "하찮다"
@@ -851,8 +899,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d41-29-native.mp3",
     "relatedPhrases": [
-      "사정이 있다",
-      "사정을 봐주다"
+      "사정이 있다 (có hoàn cảnh riêng)",
+      "사정을 봐주다 (thông cảm, du di hoàn cảnh)"
     ],
     "synonyms": [
       "일",
@@ -881,8 +929,8 @@ export const vocabTopik2Day41: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d41-30-native.mp3",
     "relatedPhrases": [
-      "사태가 발생하다",
-      "사태를 수습하다"
+      "사태가 발생하다 (tình huống xảy ra)",
+      "사태를 수습하다 (giải quyết ổn thỏa tình huống)"
     ]
   }
 ]

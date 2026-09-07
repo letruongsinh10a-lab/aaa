@@ -23,10 +23,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d30-01-native.mp3",
     "relatedPhrases": [
-      "기적이 있다",
-      "기적을 바라다",
-      "기적이 생기다",
-      "기적이 일어나다"
+      "기적이 일어나다 (phép màu xảy ra)",
+      "기적을 바라다 (mong cầu phép màu)"
     ]
   },
   {
@@ -49,7 +47,11 @@ export const vocabTopik2Day30: VocabCard[] = [
     "tags": [],
     "day": 30,
     "dayOrder": 2,
-    "audioUrl": "/audio/word-t2-d30-02-native.mp3"
+    "audioUrl": "/audio/word-t2-d30-02-native.mp3",
+    "relatedPhrases": [
+      "기존 제품 (sản phẩm hiện có, sản phẩm cũ)",
+      "기존 방식 (cách thức hiện có, vốn có)"
+    ]
   },
   {
     "id": "t2-d30-03",
@@ -72,6 +74,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d30-03-native.mp3",
+    "relatedPhrases": [
+      "기혼 여성 (phụ nữ đã kết hôn)",
+      "기혼 남성 (nam giới đã kết hôn)"
+    ],
     "antonyms": [
       "미혼"
     ],
@@ -101,9 +107,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d30-04-native.mp3",
     "relatedPhrases": [
-      "기후가 좋다",
-      "기후가 나쁘다",
-      "기후가 따뜻하다"
+      "기후가 따뜻하다 (khí hậu ấm áp)",
+      "기후가 좋다 (khí hậu tốt)"
     ]
   },
   {
@@ -128,11 +133,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d30-05-native.mp3",
     "relatedPhrases": [
-      "깊이가 있다",
-      "깊이가 없다",
-      "깊이가 깊다",
-      "깊이가 얕다",
-      "깊이를 재다"
+      "깊이가 얕다 (độ sâu nông)",
+      "깊이를 재다 (đo độ sâu)"
     ],
     "relatedWords": [
       "크기(kích thước) - 길이(chiều dài) - 높이(chiều cao) - 넓이(chiều rộng) - 두께(độ dày) - 깊이(chiều sâu)"
@@ -160,10 +162,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d30-06-native.mp3",
     "relatedPhrases": [
-      "성격이 까다롭다",
-      "입맛이 까다롭다",
-      "조건이 까다롭다",
-      "절차가 까다롭다"
+      "성격이 까다롭다 (tính cách khó tính)",
+      "조건이 까다롭다 (điều kiện khắt khe)"
     ],
     "synonyms": [
       "깐깐하다"
@@ -190,6 +190,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d30-07-native.mp3",
+    "relatedPhrases": [
+      "까닭을 모르다 (không biết lý do)",
+      "까닭 없이 (vô cớ, không có lý do)"
+    ],
     "synonyms": [
       "이유",
       "원인"
@@ -217,10 +221,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d30-08-native.mp3",
     "relatedPhrases": [
-      "이불을 깔다",
-      "담요를 깔다",
-      "돗자리를 깔다",
-      "방석을 깔다"
+      "방석을 깔다 (trải đệm ngồi)",
+      "돗자리를 깔다 (trải chiếu)"
     ],
     "synonyms": [
       "펴다"
@@ -247,6 +249,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d30-09-native.mp3",
+    "relatedPhrases": [
+      "깜깜한 곳 (nơi tối đen)",
+      "앞이 깜깜하다 (tương lai mờ mịt, mù mịt)"
+    ],
     "synonyms": [
       "캄캄하다",
       "어둡다"
@@ -278,8 +284,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d30-10-native.mp3",
     "relatedPhrases": [
-      "깜박 졸다",
-      "깜박 잊어버리다"
+      "깜박 졸다 (thiếp đi chốc lát, ngủ gật)",
+      "깜박 잊어버리다 (quên khuấy mất)"
     ],
     "synonyms": [
       "잊어버리다",
@@ -309,10 +315,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d30-11-native.mp3",
     "relatedPhrases": [
-      "유리를 깨다",
-      "그릇을 깨다",
-      "약속을 깨다",
-      "분위기를 깨다"
+      "그릇을 깨다 (làm vỡ bát)",
+      "분위기를 깨다 (làm mất không khí, làm mất hứng)"
     ],
     "synonyms": [
       "깨뜨리다",
@@ -341,10 +345,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d30-12-native.mp3",
     "relatedPhrases": [
-      "잘못을 깨닫다",
-      "실수를 깨닫다",
-      "이치를 깨닫다",
-      "지혜를 깨닫다"
+      "잘못을 깨닫다 (nhận ra lỗi lầm)",
+      "이치를 깨닫다 (hiểu ra đạo lý, lẽ phải)"
     ],
     "synonyms": [
       "알다",
@@ -374,9 +376,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d30-13-native.mp3",
     "relatedPhrases": [
-      "유리를 깨뜨리다",
-      "약속을 깨뜨리다",
-      "분위기를 깨뜨리다"
+      "유리를 깨뜨리다 (làm vỡ kính)",
+      "분위기를 깨뜨리다 (làm mất không khí, làm mất hứng)"
     ],
     "synonyms": [
       "깨다",
@@ -406,8 +407,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d30-14-native.mp3",
     "relatedPhrases": [
-      "잠을 깨우다",
-      "사람을 깨우다"
+      "잠을 깨우다 (đánh thức khỏi giấc ngủ)",
+      "사람을 깨우다 (đánh thức người khác dậy)"
     ],
     "antonyms": [
       "재우다"
@@ -438,10 +439,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d30-15-native.mp3",
     "relatedPhrases": [
-      "꽃을 꺾다",
-      "나무를 꺾다",
-      "팔을 꺾다",
-      "고집을 꺾다"
+      "나무를 꺾다 (bẻ cây)",
+      "고집을 꺾다 (khuất phục tính cố chấp)"
     ]
   },
   {
@@ -465,6 +464,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d30-16-native.mp3",
+    "relatedPhrases": [
+      "꼼꼼하게 기록하다 (ghi chép một cách tỉ mỉ)",
+      "성격이 꼼꼼하다 (tính cách tỉ mỉ, cẩn thận)"
+    ],
     "synonyms": [
       "빈틈없다"
     ]
@@ -491,8 +494,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d30-17-native.mp3",
     "relatedPhrases": [
-      "다섯 손가락 안에 꼽히다",
-      "실력자로 꼽히다"
+      "다섯 손가락 안에 꼽히다 (được liệt vào top 5)",
+      "실력자로 꼽히다 (được đánh giá là người có thực lực)"
     ],
     "structure": [
       "N1이/가 N2에/(으)로 꼽히다"
@@ -527,9 +530,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d30-18-native.mp3",
     "relatedPhrases": [
-      "책이 책장에 꽂히다",
-      "시선이 얼굴에 꽂히다",
-      "시선이 그에게 꽂히다"
+      "책이 책장에 꽂히다 (sách được cắm, xếp trên giá)",
+      "시선이 그에게 꽂히다 (ánh mắt bị thu hút vào anh ta)"
     ],
     "structure": [
       "N1이/가 N2에/에게 꽂히다"
@@ -560,7 +562,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d30-19-native.mp3",
     "relatedPhrases": [
-      "돈을 꾸다"
+      "돈을 꾸다 (vay tiền, mượn tiền)",
+      "돈을 꿔 주다 (cho vay tiền)"
     ],
     "synonyms": [
       "빌리다"
@@ -597,9 +600,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d30-20-native.mp3",
     "relatedPhrases": [
-      "이삿짐을 꾸리다",
-      "살림을 꾸리다",
-      "가정을 꾸리다"
+      "이삿짐을 꾸리다 (thu dọn đồ đạc chuyển nhà)",
+      "가정을 꾸리다 (xây dựng, lo liệu gia đình)"
     ]
   },
   {
@@ -624,10 +626,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d30-21-native.mp3",
     "relatedPhrases": [
-      "외모를 꾸미다",
-      "집을 꾸미다",
-      "이야기를 꾸미다",
-      "거짓말을 꾸미다"
+      "집을 꾸미다 (trang trí nhà cửa)",
+      "외모를 꾸미다 (chăm chút ngoại hình, làm đẹp)"
     ]
   },
   {
@@ -651,6 +651,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d30-22-native.mp3",
+    "relatedPhrases": [
+      "꾸준한 노력 (nỗ lực bền bỉ, đều đặn)",
+      "꾸준히 노력하다 (nỗ lực một cách bền bỉ)"
+    ],
     "synonyms": [
       "끊임없이",
       "부단하다"
@@ -681,8 +685,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d30-23-native.mp3",
     "relatedPhrases": [
-      "꾸중을 하다",
-      "꾸중을 듣다"
+      "꾸중을 하다 (la mắng, quở trách)",
+      "꾸중을 듣다 (bị mắng, nghe mắng)"
     ],
     "synonyms": [
       "꾸지람",
@@ -715,7 +719,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d30-24-native.mp3",
     "pronunciationIrregular": "꿀타",
     "relatedPhrases": [
-      "무릎을 꿇다"
+      "무릎을 꿇다 (quỳ gối xuống)",
+      "무릎을 꿇고 빌다 (quỳ xuống van xin, cầu xin)"
     ]
   },
   {
@@ -740,8 +745,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d30-25-native.mp3",
     "relatedPhrases": [
-      "고개를 끄덕이다",
-      "머리를 끄덕이다"
+      "고개를 끄덕이다 (gật đầu)",
+      "머리를 끄덕이다 (gật đầu, gật gù đồng ý)"
     ],
     "antonyms": [
       "젓다 (lắc)"
@@ -769,6 +774,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d30-26-native.mp3",
     "pronunciationIrregular": "끄니멉따",
+    "relatedPhrases": [
+      "끊임없는 노력 (nỗ lực không ngừng)",
+      "끊임없이 변화하다 (biến đổi không ngừng)"
+    ],
     "synonyms": [
       "꾸준하다",
       "부단하다"
@@ -799,8 +808,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d30-27-native.mp3",
     "relatedPhrases": [
-      "옷이 바닥에 끌리다",
-      "마음이 그에게 끌리다"
+      "옷이 바닥에 끌리다 (quần áo bị kéo lê dưới sàn)",
+      "마음이 그에게 끌리다 (trái tim bị thu hút bởi người đó)"
     ],
     "structure": [
       "N1이/가 N2에/에게 끌리다"
@@ -830,6 +839,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d30-28-native.mp3",
+    "relatedPhrases": [
+      "문틈에 끼다 (bị kẹt vào khe cửa)",
+      "사람들 사이에 끼다 (chen vào giữa đám đông)"
+    ],
     "structure": [
       "N1이/가 N2에 끼다"
     ],
@@ -862,7 +875,8 @@ export const vocabTopik2Day30: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d30-29-native.mp3",
     "relatedPhrases": [
-      "버스가 중간에 끼어들다"
+      "버스가 중간에 끼어들다 (xe buýt chen ngang vào giữa)",
+      "남의 일에 끼어들다 (xen vào việc của người khác)"
     ],
     "structure": [
       "N1이/가 N2에/(으)로 끼어들다"
@@ -893,6 +907,10 @@ export const vocabTopik2Day30: VocabCard[] = [
     "day": 30,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d30-30-native.mp3",
+    "relatedPhrases": [
+      "책 사이에 끼우다 (kẹp vào giữa sách)",
+      "종이를 끼우다 (chèn giấy vào)"
+    ],
     "synonyms": [
       "꽂다"
     ],

@@ -23,8 +23,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d03-01-native.mp3",
     "relatedPhrases": [
-      "과정을 겪다",
-      "과정을 거치다"
+      "과정을 겪다 (trải qua quá trình)",
+      "과정을 거치다 (trải qua, đi qua quá trình)"
     ]
   },
   {
@@ -64,6 +64,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     ],
     "antonyms": [
       "관계있다"
+    ],
+    "relatedPhrases": [
+      "전공과 관계없다 (không liên quan đến chuyên ngành)",
+      "나이에 관계없이 (không phân biệt tuổi tác)"
     ]
   },
   {
@@ -89,7 +93,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d03-03-native.mp3",
     "pronunciationIrregular": "괄람",
     "relatedPhrases": [
-      "관람(을) 하다"
+      "관람(을) 하다 (xem, tham quan)",
+      "경기 관람 (xem trận đấu)"
     ],
     "relatedWords": [
       "관람객 (khán giả)",
@@ -120,11 +125,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d03-04-native.mp3",
     "pronunciationIrregular": "괄련",
     "relatedPhrases": [
-      "관련(을) 하다",
-      "관련(이) 되다",
-      "관련이 있다",
-      "관련이 없다",
-      "관련을 맺다"
+      "관련이 있다 (có liên quan)",
+      "관련이 없다 (không liên quan)"
     ],
     "relatedWords": [
       "관련성",
@@ -155,8 +157,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d03-05-native.mp3",
     "pronunciationIrregular": "괄리",
     "relatedPhrases": [
-      "관리(를) 하다",
-      "관리(가) 되다"
+      "관리(를) 하다 (quản lý, chăm sóc)",
+      "관리(가) 되다 (được quản lý)"
     ]
   },
   {
@@ -181,8 +183,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d03-06-native.mp3",
     "relatedPhrases": [
-      "관찰(을) 하다",
-      "관찰(이) 되다"
+      "관찰(을) 하다 (quan sát)",
+      "관찰(이) 되다 (được quan sát)"
     ]
   },
   {
@@ -206,6 +208,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "day": 3,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d03-07-native.mp3",
+    "relatedPhrases": [
+      "광경을 보다 (chứng kiến quang cảnh)",
+      "잊을 수 없는 광경 (quang cảnh khó quên)"
+    ],
     "synonyms": [
       "장면",
       "모습"
@@ -232,6 +238,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "day": 3,
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d03-08-native.mp3",
+    "relatedPhrases": [
+      "굉장히 빠르다 (vô cùng nhanh)",
+      "굉장히 힘들다 (vô cùng vất vả)"
+    ],
     "synonyms": [
       "매우",
       "무척"
@@ -259,6 +269,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d03-09-native.mp3",
     "pronunciationIrregular": "구경꺼리",
+    "relatedPhrases": [
+      "구경거리가 많다 (có nhiều thứ hay để xem)",
+      "구경거리가 생기다 (xuất hiện thứ đáng xem)"
+    ],
     "synonyms": [
       "볼거리"
     ]
@@ -285,9 +299,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d03-10-native.mp3",
     "relatedPhrases": [
-      "구멍이 나다",
-      "구멍을 내다",
-      "구멍을 뚫다"
+      "구멍이 나다 (bị thủng lỗ)",
+      "구멍을 뚫다 (khoan/đục lỗ)"
     ],
     "extraNotes": [
       {
@@ -324,8 +337,8 @@ export const vocabTopik2Day03: VocabCard[] = [
       "구수합니다"
     ],
     "relatedPhrases": [
-      "냄새가 구수하다",
-      "맛이 구수하다"
+      "냄새가 구수하다 (mùi thơm ngon, thơm béo)",
+      "맛이 구수하다 (vị thơm ngon, đậm đà)"
     ]
   },
   {
@@ -348,7 +361,11 @@ export const vocabTopik2Day03: VocabCard[] = [
     "tags": [],
     "day": 3,
     "dayOrder": 12,
-    "audioUrl": "/audio/word-t2-d03-12-native.mp3"
+    "audioUrl": "/audio/word-t2-d03-12-native.mp3",
+    "relatedPhrases": [
+      "금연 구역 (khu vực cấm hút thuốc)",
+      "보호 구역 (khu vực bảo vệ)"
+    ]
   },
   {
     "id": "t2-d03-13",
@@ -385,6 +402,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "antonyms": [
       "판매하다",
       "팔다"
+    ],
+    "relatedPhrases": [
+      "할부로 구입하다 (mua trả góp)",
+      "물건을 구입하다 (mua đồ)"
     ]
   },
   {
@@ -407,7 +428,11 @@ export const vocabTopik2Day03: VocabCard[] = [
     "tags": [],
     "day": 3,
     "dayOrder": 14,
-    "audioUrl": "/audio/word-t2-d03-14-native.mp3"
+    "audioUrl": "/audio/word-t2-d03-14-native.mp3",
+    "relatedPhrases": [
+      "문장 구조 (cấu trúc câu)",
+      "구조를 이해하다 (hiểu cấu tạo, kết cấu)"
+    ]
   },
   {
     "id": "t2-d03-15",
@@ -432,6 +457,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d03-15-native.mp3",
     "antonyms": [
       "추상적 (trừu tượng)"
+    ],
+    "relatedPhrases": [
+      "구체적으로 제시하다 (đề xuất một cách cụ thể)",
+      "구체적인 예 (ví dụ cụ thể)"
     ]
   },
   {
@@ -458,6 +487,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "pronunciationIrregular": "궁닙",
     "antonyms": [
       "사립 (tư lập)"
+    ],
+    "relatedPhrases": [
+      "국립 도서관 (thư viện quốc lập)",
+      "국립 대학교 (đại học công lập)"
     ]
   },
   {
@@ -487,6 +520,10 @@ export const vocabTopik2Day03: VocabCard[] = [
       "굶어서",
       "굶으면",
       "굶습니다"
+    ],
+    "relatedPhrases": [
+      "굶어서 살을 빼다 (nhịn ăn để giảm cân)",
+      "밥을 굶다 (nhịn đói, bỏ bữa)"
     ]
   },
   {
@@ -517,9 +554,8 @@ export const vocabTopik2Day03: VocabCard[] = [
       "권합니다"
     ],
     "relatedPhrases": [
-      "술을 권하다",
-      "담배를 권하다",
-      "음식을 권하다"
+      "술을 권하다 (mời rượu)",
+      "음식을 권하다 (mời đồ ăn)"
     ]
   },
   {
@@ -546,6 +582,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "pronunciationIrregular": "규칙쩍",
     "antonyms": [
       "불규칙적"
+    ],
+    "relatedPhrases": [
+      "규칙적인 식사 (bữa ăn điều độ)",
+      "규칙적인 생활 (cuộc sống có kỷ luật, điều độ)"
     ]
   },
   {
@@ -577,6 +617,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     ],
     "antonyms": [
       "계속하다"
+    ],
+    "relatedPhrases": [
+      "일을 그만하다 (dừng công việc lại)",
+      "그만하고 쉬다 (dừng lại nghỉ ngơi)"
     ]
   },
   {
@@ -600,6 +644,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "day": 3,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d03-21-native.mp3",
+    "relatedPhrases": [
+      "그저 웃다 (chỉ cười thôi)",
+      "그저 그렇다 (bình thường, tàm tạm)"
+    ],
     "synonyms": [
       "그냥"
     ]
@@ -626,7 +674,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d03-22-native.mp3",
     "relatedPhrases": [
-      "근무(를) 하다"
+      "근무(를) 하다 (làm việc)",
+      "근무 시간 (giờ làm việc)"
     ]
   },
   {
@@ -652,7 +701,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d03-23-native.mp3",
     "pronunciationIrregular": "그면",
     "relatedPhrases": [
-      "금연(을) 하다"
+      "금연(을) 하다 (cai thuốc, bỏ thuốc)",
+      "금연 구역 (khu vực cấm hút thuốc)"
     ]
   },
   {
@@ -684,9 +734,8 @@ export const vocabTopik2Day03: VocabCard[] = [
       "긋습니다"
     ],
     "relatedPhrases": [
-      "선을 긋다",
-      "밑줄을 긋다",
-      "줄을 긋다"
+      "선을 긋다 (vẽ/kẻ đường thẳng)",
+      "밑줄을 긋다 (gạch chân)"
     ]
   },
   {
@@ -712,6 +761,10 @@ export const vocabTopik2Day03: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d03-25-native.mp3",
     "antonyms": [
       "부정적 (tiêu cực)"
+    ],
+    "relatedPhrases": [
+      "긍정적으로 받아들이다 (tiếp nhận một cách tích cực)",
+      "긍정적인 사고방식 (lối suy nghĩ tích cực)"
     ]
   },
   {
@@ -736,9 +789,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d03-26-native.mp3",
     "relatedPhrases": [
-      "기계를 돌리다",
-      "기계가 작동하다",
-      "기계가 돌아가다"
+      "기계를 돌리다 (vận hành máy móc)",
+      "기계가 돌아가다 (máy móc hoạt động)"
     ]
   },
   {
@@ -763,9 +815,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d03-27-native.mp3",
     "relatedPhrases": [
-      "공공 기관",
-      "정부 기관",
-      "금융 기관"
+      "공공 기관 (cơ quan công cộng)",
+      "정부 기관 (cơ quan chính phủ)"
     ]
   },
   {
@@ -790,10 +841,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d03-28-native.mp3",
     "relatedPhrases": [
-      "운동 기구",
-      "요리 기구",
-      "실험 기구",
-      "의료 기구"
+      "운동 기구 (dụng cụ tập thể dục)",
+      "의료 기구 (thiết bị y tế)"
     ]
   },
   {
@@ -818,8 +867,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d03-29-native.mp3",
     "relatedPhrases": [
-      "기념(을) 하다",
-      "기념(이) 되다"
+      "기념(을) 하다 (kỷ niệm, đánh dấu)",
+      "기념(이) 되다 (trở thành kỷ niệm)"
     ],
     "relatedWords": [
       "기념일",
@@ -849,10 +898,8 @@ export const vocabTopik2Day03: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d03-30-native.mp3",
     "relatedPhrases": [
-      "기능이 있다",
-      "기능이 없다",
-      "기능이 좋다",
-      "기능이 많다"
+      "기능이 있다 (có chức năng)",
+      "기능이 많다 (có nhiều chức năng)"
     ],
     "synonyms": [
       "성능"

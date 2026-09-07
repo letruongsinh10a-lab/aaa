@@ -22,6 +22,10 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d38-01-native.mp3",
+    "relatedPhrases": [
+      "미처 몰랐다 (chưa hề biết, không ngờ tới)",
+      "미처 생각하지 못하다 (chưa nghĩ đến, không lường trước được)"
+    ],
     "structure": [
       "미처 + biểu đạt phủ định (없다",
       "않다",
@@ -50,8 +54,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d38-02-native.mp3",
     "relatedPhrases": [
-      "결과가 기대에 미치다",
-      "성적이 합격에 영향을 미치다"
+      "결과가 기대에 미치다 (kết quả đạt đến mức mong đợi)",
+      "성적이 합격에 영향을 미치다 (điểm số ảnh hưởng đến việc đậu)"
     ],
     "synonyms": [
       "이르다",
@@ -80,8 +84,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d38-03-native.mp3",
     "relatedPhrases": [
-      "배가 파도에 밀리다",
-      "아이가 사람들에게 밀리다"
+      "배가 파도에 밀리다 (thuyền bị sóng đẩy trôi)",
+      "아이가 사람들에게 밀리다 (đứa trẻ bị người ta chen đẩy)"
     ],
     "structure": [
       "N1이/가 N2에/에게 밀리다"
@@ -108,7 +112,11 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d38-04-native.mp3",
-    "pronunciationIrregular": "바람지카다"
+    "pronunciationIrregular": "바람지카다",
+    "relatedPhrases": [
+      "바람직한 사회 (xã hội lý tưởng)",
+      "바람직한 방향 (hướng đi đúng đắn)"
+    ]
   },
   {
     "id": "t2-d38-05",
@@ -131,6 +139,10 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d38-05-native.mp3",
+    "relatedPhrases": [
+      "집까지 바래다주다 (tiễn về đến tận nhà)",
+      "친구를 바래다주다 (tiễn bạn)"
+    ],
     "synonyms": [
       "배웅하다"
     ]
@@ -158,9 +170,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-06-native.mp3",
     "pronunciationIrregular": "바로잡따",
     "relatedPhrases": [
-      "사회를 바로잡다",
-      "질서를 바로잡다",
-      "기강을 바로잡다"
+      "사회를 바로잡다 (chấn chỉnh xã hội)",
+      "질서를 바로잡다 (chấn chỉnh trật tự)"
     ]
   },
   {
@@ -186,9 +197,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-07-native.mp3",
     "pronunciationIrregular": "박따",
     "relatedPhrases": [
-      "못을 박다",
-      "뿌리를 박다",
-      "명함을 박다"
+      "못을 박다 (đóng đinh)",
+      "명함을 박다 (in danh thiếp)"
     ],
     "antonyms": [
       "빼다",
@@ -224,7 +234,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-08-native.mp3",
     "pronunciationIrregular": "바키다",
     "relatedPhrases": [
-      "사고방식이 틀에 박히다"
+      "사고방식이 틀에 박히다 (tư duy bị đóng khung, rập khuôn)",
+      "벽에 못이 박히다 (đinh bị đóng, cắm vào tường)"
     ],
     "structure": [
       "N1이/가 N2에 박히다"
@@ -258,10 +269,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d38-09-native.mp3",
     "relatedPhrases": [
-      "반발(을) 하다",
-      "반발이 생기다",
-      "반발을 사다",
-      "반발에 부딪치다"
+      "반발에 부딪치다 (vấp phải sự phản đối)",
+      "반발을 사다 (chuốc lấy sự phản đối)"
     ],
     "synonyms": [
       "저항"
@@ -289,9 +298,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d38-10-native.mp3",
     "relatedPhrases": [
-      "반성문",
-      "반성(을) 하다",
-      "반성(이) 되다"
+      "반성(을) 하다 (tự kiểm điểm, suy ngẫm lại bản thân)",
+      "반성문을 쓰다 (viết bản kiểm điểm)"
     ]
   },
   {
@@ -317,6 +325,10 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-11-native.mp3",
     "structure": [
       "N1을/를 N2에 반영하다"
+    ],
+    "relatedPhrases": [
+      "의견을 반영하다 (phản ánh ý kiến)",
+      "결과를 반영하다 (phản ánh kết quả)"
     ]
   },
   {
@@ -342,10 +354,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-12-native.mp3",
     "pronunciationIrregular": "바능",
     "relatedPhrases": [
-      "반응(을) 하다",
-      "반응을 보이다",
-      "반응이 좋다",
-      "반응을 얻다"
+      "반응을 보이다 (thể hiện phản ứng)",
+      "반응이 좋다 (phản ứng tốt, được đón nhận tốt)"
     ]
   },
   {
@@ -369,17 +379,13 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d38-13-native.mp3",
-    "relatedPhrases": [
-      "별이 반짝이다",
-      "보석이 반짝이다",
-      "아이디어가 반짝이다",
-      "눈이 반짝이다",
-      "눈을 반짝이다",
-      "눈동자를 반짝이다"
-    ],
     "structure": [
       "N이/가 반짝이다",
       "N을/를 반짝이다"
+    ],
+    "relatedPhrases": [
+      "별이 반짝이다 (ngôi sao lấp lánh)",
+      "눈을 반짝이다 (mắt sáng lấp lánh, hào hứng)"
     ],
     "synonyms": [
       "빛내다",
@@ -408,9 +414,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d38-14-native.mp3",
     "relatedPhrases": [
-      "반품(을) 하다",
-      "반품(이) 되다",
-      "반품을 요청하다"
+      "반품(을) 하다 (trả hàng)",
+      "반품을 요청하다 (yêu cầu trả hàng)"
     ]
   },
   {
@@ -435,9 +440,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d38-15-native.mp3",
     "relatedPhrases": [
-      "요청을 받아들이다",
-      "요구를 받아들이다",
-      "제안을 받아들이다"
+      "요청을 받아들이다 (tiếp nhận yêu cầu)",
+      "제안을 받아들이다 (chấp nhận đề xuất)"
     ],
     "synonyms": [
       "수용하다"
@@ -465,12 +469,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d38-16-native.mp3",
     "relatedPhrases": [
-      "발견(을) 하다",
-      "발견(이) 되다",
-      "유적을 발견하다",
-      "단점을 발견하다",
-      "암을 발견하다",
-      "사실을 발견하다"
+      "발견(을) 하다 (phát hiện ra)",
+      "사실을 발견하다 (phát hiện ra sự thật)"
     ]
   },
   {
@@ -496,9 +496,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-17-native.mp3",
     "pronunciationIrregular": "발낄",
     "relatedPhrases": [
-      "발길을 끊다",
-      "발길을 멈추다",
-      "발길을 돌리다"
+      "발길을 돌리다 (quay bước, đổi hướng đi)",
+      "발길을 끊다 (dứt bước, không lui tới nữa)"
     ],
     "extraNotes": [
       {
@@ -534,10 +533,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d38-18-native.mp3",
     "pronunciationIrregular": "발쌩하다",
     "relatedPhrases": [
-      "사건이 발생하다",
-      "화재가 발생하다",
-      "지진이 발생하다",
-      "문제가 발생하다"
+      "사건이 발생하다 (vụ việc xảy ra)",
+      "문제가 발생하다 (vấn đề phát sinh)"
     ],
     "synonyms": [
       "일어나다",
@@ -567,9 +564,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d38-19-native.mp3",
     "relatedPhrases": [
-      "진실을 밝혀내다",
-      "원인을 밝혀내다",
-      "범인을 밝혀내다"
+      "진실을 밝혀내다 (làm sáng tỏ sự thật)",
+      "원인을 밝혀내다 (tìm ra nguyên nhân)"
     ]
   },
   {
@@ -593,12 +589,12 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d38-20-native.mp3",
-    "relatedPhrases": [
-      "그 말이 사실로 밝혀지다",
-      "그 사람이 범인으로 밝혀지다"
-    ],
     "structure": [
       "N1이/가 N2(으)로 밝혀지다"
+    ],
+    "relatedPhrases": [
+      "그 말이 사실로 밝혀지다 (lời nói đó được chứng minh là sự thật)",
+      "그 사람이 범인으로 밝혀지다 (người đó được xác định là thủ phạm)"
     ]
   },
   {
@@ -623,13 +619,13 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d38-21-native.mp3",
     "pronunciationIrregular": "발피다",
-    "relatedPhrases": [
-      "과자가 발에 밟히다",
-      "옆 사람에게 발을 밟히다"
-    ],
     "structure": [
       "N1이/가 N2에/에게 밟히다",
       "N1에게 N2을/를 밟히다"
+    ],
+    "relatedPhrases": [
+      "과자가 발에 밟히다 (bánh snack bị giẫm dưới chân)",
+      "옆 사람에게 발을 밟히다 (bị người bên cạnh giẫm phải chân)"
     ],
     "extraNotes": [
       {
@@ -659,6 +655,10 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d38-22-native.mp3",
+    "relatedPhrases": [
+      "밤새서 일하다 (thức trắng đêm làm việc)",
+      "밤새도록 놀다 (chơi thâu đêm)"
+    ],
     "synonyms": [
       "밤새우다"
     ]
@@ -684,6 +684,10 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d38-23-native.mp3",
+    "relatedPhrases": [
+      "서울 방면 (hướng Seoul)",
+      "이 방면의 전문가 (chuyên gia trong lĩnh vực này)"
+    ],
     "synonyms": [
       "분야",
       "부분"
@@ -711,10 +715,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d38-24-native.mp3",
     "relatedPhrases": [
-      "방안을 마련하다",
-      "방안을 모색하다",
-      "방안을 검토하다",
-      "방안을 제시하다"
+      "방안을 마련하다 (chuẩn bị phương án)",
+      "방안을 모색하다 (tìm kiếm phương án)"
     ],
     "synonyms": [
       "방법",
@@ -743,8 +745,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d38-25-native.mp3",
     "relatedPhrases": [
-      "방지(를) 하다",
-      "방지(가) 되다"
+      "방지(를) 하다 (tiến hành phòng ngừa)",
+      "방지(가) 되다 (được phòng ngừa)"
     ],
     "synonyms": [
       "예방"
@@ -772,9 +774,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d38-26-native.mp3",
     "relatedPhrases": [
-      "시대적 배경",
-      "공간적 배경",
-      "역사적 배경"
+      "시대적 배경 (bối cảnh thời đại)",
+      "역사적 배경 (bối cảnh lịch sử)"
     ]
   },
   {
@@ -799,11 +800,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d38-27-native.mp3",
     "relatedPhrases": [
-      "배려심",
-      "배려(를) 하다",
-      "배려(가) 되다",
-      "배려를 받다",
-      "배려를 아끼지 않다"
+      "배려(를) 하다 (thể hiện sự quan tâm)",
+      "배려를 받다 (được quan tâm, chăm sóc)"
     ]
   },
   {
@@ -828,13 +826,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d38-28-native.mp3",
     "relatedPhrases": [
-      "배송물",
-      "배송비",
-      "배송지",
-      "배송(을) 하다",
-      "배송(이) 되다",
-      "배송을 받다",
-      "배송이 끝나다"
+      "배송비 (phí vận chuyển)",
+      "배송(을) 하다 (tiến hành vận chuyển, giao hàng)"
     ],
     "synonyms": [
       "운송",
@@ -863,9 +856,8 @@ export const vocabTopik2Day38: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d38-29-native.mp3",
     "relatedPhrases": [
-      "배우자를 만나다",
-      "배우자를 찾다",
-      "배우자를 선택하다"
+      "배우자를 만나다 (gặp được người bạn đời)",
+      "배우자를 선택하다 (chọn bạn đời)"
     ],
     "synonyms": [
       "반려자",
@@ -893,6 +885,10 @@ export const vocabTopik2Day38: VocabCard[] = [
     "day": 38,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d38-30-native.mp3",
+    "relatedPhrases": [
+      "끝까지 버티다 (chịu đựng đến cùng)",
+      "버티고 서다 (đứng chắn, đứng vững)"
+    ],
     "synonyms": [
       "견디다"
     ]

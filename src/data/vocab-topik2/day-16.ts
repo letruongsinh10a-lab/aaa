@@ -23,9 +23,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d16-01-native.mp3",
     "relatedPhrases": [
-      "암에 걸리다",
-      "암을 앓다",
-      "암을 치료하다"
+      "암에 걸리다 (bị ung thư)",
+      "암을 치료하다 (điều trị ung thư)"
     ]
   },
   {
@@ -50,6 +49,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d16-02-native.mp3",
     "pronunciationIrregular": "암날",
+    "relatedPhrases": [
+      "앞날이 밝다 (tương lai tươi sáng)",
+      "앞날을 걱정하다 (lo lắng cho tương lai)"
+    ],
     "synonyms": [
       "앞길",
       "미래"
@@ -75,7 +78,11 @@ export const vocabTopik2Day16: VocabCard[] = [
     "tags": [],
     "day": 16,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d16-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d16-03-native.mp3",
+    "relatedPhrases": [
+      "애완동물을 기르다 (nuôi thú cưng)",
+      "애완동물을 입양하다 (nhận nuôi thú cưng)"
+    ]
   },
   {
     "id": "t2-d16-04",
@@ -98,6 +105,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d16-04-native.mp3",
+    "relatedPhrases": [
+      "야경이 아름답다 (cảnh đêm đẹp)",
+      "야경을 구경하다 (ngắm cảnh đêm)"
+    ],
     "synonyms": [
       "밤경치"
     ]
@@ -124,8 +135,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d16-05-native.mp3",
     "relatedPhrases": [
-      "야근(을) 하다",
-      "야근이 끝나다"
+      "야근(을) 하다 (làm thêm giờ, tăng ca)",
+      "야근이 끝나다 (kết thúc ca làm thêm)"
     ]
   },
   {
@@ -148,7 +159,11 @@ export const vocabTopik2Day16: VocabCard[] = [
     "tags": [],
     "day": 16,
     "dayOrder": 6,
-    "audioUrl": "/audio/word-t2-d16-06-native.mp3"
+    "audioUrl": "/audio/word-t2-d16-06-native.mp3",
+    "relatedPhrases": [
+      "야외 활동 (hoạt động ngoài trời)",
+      "야외에서 시간을 보내다 (dành thời gian ở ngoài trời)"
+    ]
   },
   {
     "id": "t2-d16-07",
@@ -171,6 +186,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d16-07-native.mp3",
+    "relatedPhrases": [
+      "비상 약품 (thuốc dự phòng)",
+      "약품을 보관하다 (bảo quản thuốc)"
+    ],
     "synonyms": [
       "약"
     ]
@@ -197,9 +216,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d16-08-native.mp3",
     "relatedPhrases": [
-      "양념(을) 하다",
-      "양념이 되다",
-      "양념을 만들다"
+      "양념(을) 하다 (nêm/ướp gia vị)",
+      "양념을 만들다 (làm/pha gia vị)"
     ]
   },
   {
@@ -224,8 +242,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d16-09-native.mp3",
     "relatedPhrases": [
-      "양보(를) 하다",
-      "양보를 받다"
+      "양보(를) 하다 (nhường, nhượng bộ)",
+      "양보를 받다 (được nhường)"
     ]
   },
   {
@@ -250,9 +268,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d16-10-native.mp3",
     "relatedPhrases": [
-      "양식에 맞다",
-      "양식에 맞추다",
-      "양식에 따르다"
+      "양식에 맞다 (đúng mẫu quy định)",
+      "양식에 맞추다 (làm theo mẫu)"
     ],
     "synonyms": [
       "형식"
@@ -280,9 +297,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d16-11-native.mp3",
     "relatedPhrases": [
-      "약속을 어기다",
-      "규칙을 어기다",
-      "법을 어기다"
+      "약속을 어기다 (thất hứa)",
+      "규칙을 어기다 (vi phạm quy tắc)"
     ],
     "synonyms": [
       "위반하다"
@@ -309,6 +325,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d16-12-native.mp3",
+    "relatedPhrases": [
+      "어느새 시간이 지나가다 (thời gian trôi qua lúc nào không hay)",
+      "어느새 다 컸다 (đã lớn lên tự lúc nào không hay)"
+    ],
     "synonyms": [
       "어느덧"
     ]
@@ -336,9 +356,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d16-13-native.mp3",
     "pronunciationIrregular": "어지럽따",
     "relatedPhrases": [
-      "마음이 어지럽다",
-      "사회가 어지럽다",
-      "세상이 어지럽다"
+      "마음이 어지럽다 (tâm trí rối bời)",
+      "세상이 어지럽다 (thế giới hỗn loạn)"
     ]
   },
   {
@@ -363,10 +382,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d16-14-native.mp3",
     "relatedPhrases": [
-      "얼룩이 생기다",
-      "얼룩이 지다",
-      "얼룩이 묻다",
-      "얼룩을 지우다"
+      "얼룩이 지다 (bị lấm vết ố)",
+      "얼룩을 지우다 (tẩy vết ố)"
     ]
   },
   {
@@ -390,6 +407,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d16-15-native.mp3",
+    "relatedPhrases": [
+      "얼른 오다 (đến ngay, mau lên)",
+      "얼른 대답하다 (trả lời ngay)"
+    ],
     "synonyms": [
       "빨리"
     ],
@@ -418,7 +439,11 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d16-16-native.mp3",
-    "pronunciationIrregular": "업따"
+    "pronunciationIrregular": "업따",
+    "relatedPhrases": [
+      "아이를 업다 (cõng con)",
+      "등에 업다 (cõng trên lưng)"
+    ]
   },
   {
     "id": "t2-d16-17",
@@ -443,10 +468,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d16-17-native.mp3",
     "pronunciationIrregular": "엄무",
     "relatedPhrases": [
-      "업무(를) 하다",
-      "업무를 처리하다",
-      "업무를 담당하다",
-      "업무를 맡다"
+      "업무를 처리하다 (xử lý công việc)",
+      "업무를 맡다 (đảm nhận công việc)"
     ],
     "synonyms": [
       "일",
@@ -474,7 +497,11 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d16-18-native.mp3",
-    "pronunciationIrregular": "업쌔다"
+    "pronunciationIrregular": "업쌔다",
+    "relatedPhrases": [
+      "차별을 없애다 (xóa bỏ sự phân biệt đối xử)",
+      "스트레스를 없애다 (giải tỏa căng thẳng)"
+    ]
   },
   {
     "id": "t2-d16-19",
@@ -499,8 +526,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d16-19-native.mp3",
     "pronunciationIrregular": "업써지다",
     "relatedPhrases": [
-      "지갑에서 돈이 없어지다",
-      "방에서 지갑이 없어지다"
+      "지갑에서 돈이 없어지다 (tiền biến mất khỏi ví)",
+      "방에서 지갑이 없어지다 (ví biến mất khỏi phòng)"
     ],
     "structure": [
       "N1에서 N2이/가 없어지다"
@@ -528,11 +555,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d16-20-native.mp3",
     "relatedPhrases": [
-      "여가 시간",
-      "여가 활동",
-      "여가 생활",
-      "여가를 보내다",
-      "여가를 즐기다"
+      "여가 시간 (thời gian rảnh rỗi)",
+      "여가를 즐기다 (tận hưởng thời gian rảnh)"
     ]
   },
   {
@@ -557,9 +581,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d16-21-native.mp3",
     "relatedPhrases": [
-      "착하다고 여기다",
-      "잘한다고 여기다",
-      "천재라고 여기다"
+      "잘한다고 여기다 (cho rằng làm tốt)",
+      "천재라고 여기다 (coi là thiên tài)"
     ],
     "structure": [
       "A-다고 여기다",
@@ -591,7 +614,11 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d16-22-native.mp3",
-    "pronunciationIrregular": "여유롭따"
+    "pronunciationIrregular": "여유롭따",
+    "relatedPhrases": [
+      "여유로운 생활 (cuộc sống thong thả)",
+      "마음이 여유롭다 (tâm trạng thư thái)"
+    ]
   },
   {
     "id": "t2-d16-23",
@@ -616,9 +643,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d16-23-native.mp3",
     "pronunciationIrregular": "여칼",
     "relatedPhrases": [
-      "역할을 맡다",
-      "역할을 다하다",
-      "역할을 나누다"
+      "역할을 맡다 (đảm nhận vai trò)",
+      "역할을 다하다 (hoàn thành vai trò)"
     ]
   },
   {
@@ -643,8 +669,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d16-24-native.mp3",
     "relatedPhrases": [
-      "연구(를) 하다",
-      "연구(가) 되다"
+      "연구(를) 하다 (tiến hành nghiên cứu)",
+      "연구(가) 되다 (được nghiên cứu)"
     ]
   },
   {
@@ -669,9 +695,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d16-25-native.mp3",
     "relatedPhrases": [
-      "연기(를) 하다",
-      "연기가 뛰어나다",
-      "연기가 자연스럽다"
+      "연기(를) 하다 (diễn xuất)",
+      "연기가 뛰어나다 (diễn xuất xuất sắc)"
     ]
   },
   {
@@ -695,6 +720,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d16-26-native.mp3",
+    "relatedPhrases": [
+      "약속을 연기하다 (hoãn cuộc hẹn)",
+      "날짜를 연기하다 (dời ngày, hoãn ngày)"
+    ],
     "structure": [
       "N1을/를 N2(으)로 연기하다"
     ],
@@ -724,8 +753,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d16-27-native.mp3",
     "relatedPhrases": [
-      "연장(을) 하다",
-      "연장(이) 되다"
+      "연장(을) 하다 (gia hạn, kéo dài)",
+      "연장(이) 되다 (được gia hạn)"
     ],
     "antonyms": [
       "단축 (rút ngắn)"
@@ -753,8 +782,8 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d16-28-native.mp3",
     "relatedPhrases": [
-      "색깔이 연하다",
-      "화장이 연하다"
+      "색깔이 연하다 (màu nhạt)",
+      "화장이 연하다 (trang điểm nhẹ nhàng)"
     ],
     "synonyms": [
       "부드럽다"
@@ -784,6 +813,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "day": 16,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d16-29-native.mp3",
+    "relatedPhrases": [
+      "문이 열리다 (cửa mở ra)",
+      "창문이 열리다 (cửa sổ mở ra)"
+    ],
     "antonyms": [
       "닫히다"
     ]
@@ -810,6 +843,10 @@ export const vocabTopik2Day16: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d16-30-native.mp3",
     "pronunciationIrregular": "영니하다",
+    "relatedPhrases": [
+      "영리한 아이 (đứa trẻ thông minh)",
+      "영리한 강아지 (chú chó thông minh)"
+    ],
     "synonyms": [
       "똑똑하다"
     ]

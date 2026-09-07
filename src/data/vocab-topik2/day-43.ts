@@ -28,6 +28,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "선호하면",
       "선호합니다"
     ],
+    "relatedPhrases": [
+      "재택근무를 선호하다 (ưa chuộng làm việc tại nhà)",
+      "담백한 음식을 선호하다 (thích món ăn thanh đạm hơn)"
+    ],
     "synonyms": [
       "좋아하다"
     ]
@@ -55,8 +59,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d43-02-native.mp3",
     "pronunciationIrregular": "설뜩",
     "relatedPhrases": [
-      "설득을 하다",
-      "설득을 당하다"
+      "설득을 하다 (thuyết phục)",
+      "설득을 당하다 (bị thuyết phục)"
     ]
   },
   {
@@ -86,6 +90,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "설레면",
       "설렙니다"
     ],
+    "relatedPhrases": [
+      "마음이 설레다 (lòng náo nức xao xuyến)",
+      "가슴이 설레다 (con tim hồi hộp xao xuyến)"
+    ],
     "synonyms": [
       "두근거리다"
     ]
@@ -112,8 +120,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d43-04-native.mp3",
     "relatedPhrases": [
-      "설립을 하다",
-      "회사 설립"
+      "설립을 하다 (thành lập)",
+      "회사 설립 (việc thành lập công ty)"
     ]
   },
   {
@@ -137,6 +145,10 @@ export const vocabTopik2Day43: VocabCard[] = [
     "day": 43,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d43-05-native.mp3",
+    "relatedPhrases": [
+      "설마 그럴 리가 없다 (chẳng lẽ lại như vậy được)",
+      "설마 아니겠지 (chẳng lẽ lại không phải chứ)"
+    ],
     "structure": [
       "설마 + phỏng đoán phủ định (A/V-겠어요?",
       "A/V-ㄹ 리가 없다)"
@@ -165,8 +177,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d43-06-native.mp3",
     "pronunciationIrregular": "설쩡",
     "relatedPhrases": [
-      "설정을 하다",
-      "목표를 설정하다"
+      "설정을 하다 (thiết lập, cài đặt)",
+      "목표를 설정하다 (thiết lập mục tiêu)"
     ]
   },
   {
@@ -191,8 +203,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d43-07-native.mp3",
     "relatedPhrases": [
-      "설치를 하다",
-      "시설을 설치하다"
+      "설치를 하다 (lắp đặt)",
+      "시설을 설치하다 (lắp đặt thiết bị/cơ sở vật chất)"
     ]
   },
   {
@@ -218,8 +230,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d43-08-native.mp3",
     "pronunciationIrregular": "성꽈",
     "relatedPhrases": [
-      "성과를 내다",
-      "성과를 거두다"
+      "성과를 내다 (tạo ra thành quả)",
+      "성과를 거두다 (đạt được thành quả)"
     ],
     "synonyms": [
       "결과",
@@ -253,6 +265,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "성숙해서",
       "성숙하면",
       "성숙합니다"
+    ],
+    "relatedPhrases": [
+      "성숙해지다 (trở nên trưởng thành)",
+      "성숙한 모습 (dáng vẻ chín chắn)"
     ]
   },
   {
@@ -277,8 +293,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d43-10-native.mp3",
     "relatedPhrases": [
-      "성장을 이루다",
-      "성장을 돕다"
+      "성장을 이루다 (đạt được sự phát triển)",
+      "성장을 돕다 (giúp đỡ sự phát triển)"
     ]
   },
   {
@@ -303,8 +319,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d43-11-native.mp3",
     "relatedPhrases": [
-      "성질이 급하다",
-      "성질을 부리다"
+      "성질이 급하다 (tính khí nóng vội)",
+      "성질을 부리다 (nổi nóng, giở tính)"
     ]
   },
   {
@@ -329,8 +345,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d43-12-native.mp3",
     "relatedPhrases": [
-      "세금을 내다",
-      "세금을 부과하다"
+      "세금을 내다 (nộp thuế)",
+      "세금을 부과하다 (đánh thuế)"
     ]
   },
   {
@@ -355,8 +371,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d43-13-native.mp3",
     "relatedPhrases": [
-      "신세대",
-      "기성세대"
+      "신세대 (thế hệ mới)",
+      "기성세대 (thế hệ đi trước)"
     ]
   },
   {
@@ -381,8 +397,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d43-14-native.mp3",
     "relatedPhrases": [
-      "소득이 높다",
-      "소득이 줄다"
+      "소득이 높다 (thu nhập cao)",
+      "소득이 줄다 (thu nhập giảm)"
     ]
   },
   {
@@ -407,8 +423,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d43-15-native.mp3",
     "relatedPhrases": [
-      "소비가 늘다",
-      "소비를 줄이다"
+      "소비가 늘다 (tiêu dùng tăng)",
+      "소비를 줄이다 (giảm tiêu dùng)"
     ],
     "antonyms": [
       "생산"
@@ -435,6 +451,10 @@ export const vocabTopik2Day43: VocabCard[] = [
     "day": 43,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d43-16-native.mp3",
+    "relatedPhrases": [
+      "소수의 의견 (ý kiến của số ít người)",
+      "소수 민족 (dân tộc thiểu số)"
+    ],
     "antonyms": [
       "다수"
     ]
@@ -467,6 +487,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "소용없으면",
       "소용없습니다"
     ],
+    "relatedPhrases": [
+      "설명해도 소용없다 (giải thích cũng vô ích)",
+      "후회해도 소용없다 (hối hận cũng vô ích)"
+    ],
     "synonyms": [
       "쓸데없다",
       "쓸모없다"
@@ -494,8 +518,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d43-18-native.mp3",
     "relatedPhrases": [
-      "소유를 하다",
-      "개인 소유"
+      "소유를 하다 (sở hữu)",
+      "개인 소유 (sở hữu cá nhân)"
     ]
   },
   {
@@ -520,8 +544,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d43-19-native.mp3",
     "relatedPhrases": [
-      "소음이 심하다",
-      "소음 공해"
+      "소음이 심하다 (tiếng ồn nghiêm trọng)",
+      "소음 공해 (ô nhiễm tiếng ồn)"
     ]
   },
   {
@@ -546,7 +570,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d43-20-native.mp3",
     "relatedPhrases": [
-      "소재로 삼다"
+      "소재로 삼다 (lấy làm đề tài, chất liệu)",
+      "가벼운 소재 (chất liệu nhẹ)"
     ]
   },
   {
@@ -571,8 +596,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d43-21-native.mp3",
     "relatedPhrases": [
-      "소중히 여기다",
-      "소중히 다루다"
+      "소중히 여기다 (trân trọng, coi trọng)",
+      "소중히 다루다 (nâng niu, đối xử cẩn trọng)"
     ]
   },
   {
@@ -597,8 +622,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d43-22-native.mp3",
     "relatedPhrases": [
-      "소지품을 챙기다",
-      "소지품을 보관하다"
+      "소지품을 챙기다 (chuẩn bị/mang theo đồ tùy thân)",
+      "소지품을 보관하다 (bảo quản đồ tùy thân)"
     ]
   },
   {
@@ -627,6 +652,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "소홀해서",
       "소홀하면",
       "소홀합니다"
+    ],
+    "relatedPhrases": [
+      "건강 관리에 소홀하다 (lơ là việc chăm sóc sức khỏe)",
+      "관심이 소홀하다 (sự quan tâm bị lơ là)"
     ],
     "synonyms": [
       "등한시하다"
@@ -658,6 +687,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "속여서",
       "속이면",
       "속입니다"
+    ],
+    "relatedPhrases": [
+      "나이를 속이다 (khai gian tuổi)",
+      "친구를 속이다 (lừa dối bạn bè)"
     ],
     "structure": [
       "N1을/를 N2라고 속이다"
@@ -691,6 +724,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "속하면",
       "속합니다"
     ],
+    "relatedPhrases": [
+      "포유류에 속하다 (thuộc loài động vật có vú)",
+      "부서에 속하다 (thuộc phòng ban)"
+    ],
     "structure": [
       "N1이/가 N2에 속하다"
     ]
@@ -718,8 +755,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d43-26-native.mp3",
     "pronunciationIrregular": "손낄",
     "relatedPhrases": [
-      "손길을 내밀다",
-      "손길을 베풀다"
+      "손길을 내밀다 (chìa tay giúp đỡ)",
+      "손길을 베풀다 (ban bàn tay giúp đỡ)"
     ]
   },
   {
@@ -750,6 +787,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "손잡으면",
       "손잡습니다"
     ],
+    "relatedPhrases": [
+      "엄마와 손잡다 (nắm tay mẹ)",
+      "회사와 손잡다 (hợp tác với công ty)"
+    ],
     "synonyms": [
       "협력하다"
     ]
@@ -776,8 +817,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d43-28-native.mp3",
     "relatedPhrases": [
-      "손질을 하다",
-      "머리 손질"
+      "손질을 하다 (chăm chút, sửa sang)",
+      "머리 손질 (chăm sóc/làm tóc)"
     ]
   },
   {
@@ -802,8 +843,8 @@ export const vocabTopik2Day43: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d43-29-native.mp3",
     "relatedPhrases": [
-      "손해를 보다",
-      "손해를 입다"
+      "손해를 보다 (chịu thiệt)",
+      "손해를 입다 (bị tổn thất)"
     ],
     "antonyms": [
       "이익"
@@ -836,6 +877,10 @@ export const vocabTopik2Day43: VocabCard[] = [
       "솔직해서",
       "솔직하면",
       "솔직합니다"
+    ],
+    "relatedPhrases": [
+      "솔직하게 인정하다 (thẳng thắn thừa nhận)",
+      "솔직한 대화 (cuộc trò chuyện thẳng thắn)"
     ],
     "synonyms": [
       "정직하다",

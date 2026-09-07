@@ -23,10 +23,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d60-01-native.mp3",
     "relatedPhrases": [
-      "호흡(을) 하다",
-      "호흡이 가쁘다",
-      "호흡을 가다듬다",
-      "호흡이 멎다"
+      "호흡이 가쁘다 (thở gấp, hụt hơi)",
+      "호흡을 가다듬다 (điều hòa hơi thở)"
     ],
     "synonyms": [
       "숨쉬기"
@@ -69,6 +67,10 @@ export const vocabTopik2Day60: VocabCard[] = [
       "혼내면",
       "혼냅니다"
     ],
+    "relatedPhrases": [
+      "아이를 혼내다 (mắng đứa trẻ)",
+      "심하게 혼내다 (mắng nặng nề)"
+    ],
     "synonyms": [
       "야단치다",
       "꾸중하다",
@@ -100,8 +102,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d60-03-native.mp3",
     "relatedPhrases": [
-      "홍보(를) 하다",
-      "홍보(가) 되다"
+      "홍보(를) 하다 (quảng bá, quảng cáo)",
+      "홍보(가) 되다 (được quảng bá)"
     ],
     "synonyms": [
       "광고"
@@ -134,8 +136,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d60-04-native.mp3",
     "relatedPhrases": [
-      "홍수가 나다",
-      "홍수를 막다"
+      "홍수가 나다 (xảy ra lũ lụt)",
+      "홍수를 막다 (ngăn chặn lũ lụt)"
     ],
     "antonyms": [
       "가뭄"
@@ -163,11 +165,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d60-05-native.mp3",
     "relatedPhrases": [
-      "화제가 되다",
-      "화제로 삼다",
-      "화제에 오르다",
-      "화제를 바꾸다",
-      "화제를 돌리다"
+      "화제가 되다 (trở thành chủ đề bàn tán)",
+      "화제로 삼다 (lấy làm chủ đề)"
     ],
     "synonyms": [
       "이야깃거리",
@@ -201,6 +200,10 @@ export const vocabTopik2Day60: VocabCard[] = [
       "화창하면",
       "화창합니다"
     ],
+    "relatedPhrases": [
+      "날씨가 화창하다 (thời tiết trong lành, nắng đẹp)",
+      "하늘이 화창하다 (bầu trời quang đãng)"
+    ],
     "synonyms": [
       "맑다",
       "청명하다"
@@ -229,11 +232,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-07-native.mp3",
     "pronunciationIrregular": "확때",
     "relatedPhrases": [
-      "확대(를) 하다",
-      "확대(가) 되다",
-      "크기를 확대하다",
-      "공급을 확대하다",
-      "수출을 확대하다"
+      "크기를 확대하다 (phóng to kích thước)",
+      "확대(를) 하다 (mở rộng, phóng to)"
     ],
     "antonyms": [
       "축소"
@@ -262,11 +262,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-08-native.mp3",
     "pronunciationIrregular": "확뽀",
     "relatedPhrases": [
-      "확보(를) 하다",
-      "확보(가) 되다",
-      "고객을 확보하다",
-      "예산을 확보하다",
-      "공간을 확보하다"
+      "확보(를) 하다 (đảm bảo)",
+      "예산을 확보하다 (đảm bảo ngân sách)"
     ],
     "antonyms": [
       "미확보"
@@ -295,11 +292,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-09-native.mp3",
     "pronunciationIrregular": "확싼",
     "relatedPhrases": [
-      "확산(을) 하다",
-      "확산(이) 되다",
-      "전염병이 확산되다",
-      "피해가 확산되다",
-      "분위기가 확산되다"
+      "전염병이 확산되다 (dịch bệnh lan rộng)",
+      "확산(이) 되다 (bị/được lan rộng)"
     ]
   },
   {
@@ -325,11 +319,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-10-native.mp3",
     "pronunciationIrregular": "확씬",
     "relatedPhrases": [
-      "확신(을) 하다",
-      "확신이 서다",
-      "확신이 들다",
-      "확신을 가지다",
-      "확신이 없다"
+      "확신을 가지다 (có sự tin chắc)",
+      "확신이 들다 (cảm thấy tin chắc)"
     ],
     "antonyms": [
       "불신"
@@ -362,6 +353,10 @@ export const vocabTopik2Day60: VocabCard[] = [
       "확실해서",
       "확실하면",
       "확실합니다"
+    ],
+    "relatedPhrases": [
+      "증거가 확실하다 (bằng chứng chắc chắn)",
+      "효과가 확실하다 (hiệu quả rõ rệt)"
     ],
     "synonyms": [
       "명확하다",
@@ -398,10 +393,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-12-native.mp3",
     "pronunciationIrregular": "확짱",
     "relatedPhrases": [
-      "확장(을) 하다",
-      "확장(이) 되다",
-      "규모를 확장하다",
-      "가게를 확장하다"
+      "규모를 확장하다 (mở rộng quy mô)",
+      "확장(을) 하다 (mở rộng)"
     ],
     "antonyms": [
       "축소"
@@ -429,10 +422,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d60-13-native.mp3",
     "relatedPhrases": [
-      "환상이 있다",
-      "환상을 가지다",
-      "환상에 빠지다",
-      "환상이 깨지다"
+      "환상을 가지다 (có ảo tưởng)",
+      "환상이 깨지다 (ảo tưởng tan vỡ)"
     ],
     "relatedWords": [
       "환상적"
@@ -460,10 +451,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d60-14-native.mp3",
     "relatedPhrases": [
-      "활기가 넘치다",
-      "활기를 띠다",
-      "활기(에) 차다",
-      "활기를 찾다"
+      "활기를 띠다 (mang sinh khí, tràn đầy sức sống)",
+      "활기가 넘치다 (tràn đầy sinh khí)"
     ],
     "synonyms": [
       "활력"
@@ -491,12 +480,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d60-15-native.mp3",
     "relatedPhrases": [
-      "활용(을) 하다",
-      "활용(이) 되다",
-      "시간을 활용하다",
-      "공간을 활용하다",
-      "자원을 활용하다",
-      "정보를 활용하다"
+      "공간을 활용하다 (tận dụng không gian)",
+      "시간을 활용하다 (tận dụng thời gian)"
     ],
     "relatedWords": [
       "재활용",
@@ -525,11 +510,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d60-16-native.mp3",
     "relatedPhrases": [
-      "회복(을) 하다",
-      "회복(이) 되다",
-      "건강을 회복하다",
-      "경제를 회복하다",
-      "명예를 회복하다"
+      "건강을 회복하다 (hồi phục sức khỏe)",
+      "회복(이) 되다 (được hồi phục)"
     ]
   },
   {
@@ -552,7 +534,11 @@ export const vocabTopik2Day60: VocabCard[] = [
     "tags": [],
     "day": 60,
     "dayOrder": 17,
-    "audioUrl": "/audio/word-t2-d60-17-native.mp3"
+    "audioUrl": "/audio/word-t2-d60-17-native.mp3",
+    "relatedPhrases": [
+      "효과적인 방법 (phương pháp hiệu quả)",
+      "효과적으로 외우다 (học thuộc một cách hiệu quả)"
+    ]
   },
   {
     "id": "t2-d60-18",
@@ -576,8 +562,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d60-18-native.mp3",
     "relatedPhrases": [
-      "효도(를) 하다",
-      "효도를 받다"
+      "효도(를) 하다 (hiếu thảo, làm tròn đạo hiếu)",
+      "효도를 받다 (nhận được sự hiếu thảo)"
     ],
     "synonyms": [
       "효"
@@ -609,7 +595,11 @@ export const vocabTopik2Day60: VocabCard[] = [
     "day": 60,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d60-19-native.mp3",
-    "pronunciationIrregular": "효율쩍"
+    "pronunciationIrregular": "효율쩍",
+    "relatedPhrases": [
+      "효율적으로 일하다 (làm việc hiệu quả)",
+      "효율적인 방식 (cách thức hiệu quả)"
+    ]
   },
   {
     "id": "t2-d60-20",
@@ -640,9 +630,8 @@ export const vocabTopik2Day60: VocabCard[] = [
       "후회스럽습니다"
     ],
     "relatedPhrases": [
-      "과거가 후회스럽다",
-      "삶이 후회스럽다",
-      "행동이 후회스럽다"
+      "과거가 후회스럽다 (quá khứ đáng hối hận)",
+      "행동이 후회스럽다 (hành động đáng hối hận)"
     ],
     "relatedWords": [
       "후회하다 (động từ)"
@@ -671,10 +660,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-21-native.mp3",
     "pronunciationIrregular": "훌련",
     "relatedPhrases": [
-      "훈련(을) 하다",
-      "훈련(이) 되다",
-      "훈련을 받다",
-      "훈련을 실시하다"
+      "훈련을 받다 (được huấn luyện)",
+      "훈련을 실시하다 (tiến hành huấn luyện)"
     ]
   },
   {
@@ -705,9 +692,8 @@ export const vocabTopik2Day60: VocabCard[] = [
       "훔칩니다"
     ],
     "relatedPhrases": [
-      "물건을 훔치다",
-      "돈을 훔치다",
-      "정보를 훔치다"
+      "물건을 훔치다 (trộm đồ)",
+      "돈을 훔치다 (trộm tiền)"
     ],
     "synonyms": [
       "도둑질하다",
@@ -736,7 +722,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d60-23-native.mp3",
     "relatedPhrases": [
-      "흉내를 내다"
+      "흉내를 내다 (bắt chước)",
+      "말투를 흉내 내다 (bắt chước giọng điệu, cách nói)"
     ],
     "synonyms": [
       "시늉"
@@ -770,10 +757,8 @@ export const vocabTopik2Day60: VocabCard[] = [
       "흔들립니다"
     ],
     "relatedPhrases": [
-      "나무가 흔들리다",
-      "건물이 흔들리다",
-      "마음이 흔들리다",
-      "결심이 흔들리다"
+      "나무가 흔들리다 (cây đung đưa)",
+      "건물이 흔들리다 (tòa nhà rung lắc)"
     ],
     "structure": [
       "bị động từ của '흔들다'"
@@ -807,8 +792,8 @@ export const vocabTopik2Day60: VocabCard[] = [
       "흔합니다"
     ],
     "relatedPhrases": [
-      "이름이 흔하다",
-      "물건이 흔하다"
+      "이름이 흔하다 (tên thường gặp, phổ biến)",
+      "물건이 흔하다 (đồ vật phổ biến, dễ thấy)"
     ],
     "synonyms": [
       "많다"
@@ -849,9 +834,8 @@ export const vocabTopik2Day60: VocabCard[] = [
       "흘러나옵니다"
     ],
     "relatedPhrases": [
-      "불빛이 흘러나오다",
-      "소리가 흘러나오다",
-      "커피가 흘러나오다"
+      "소리가 흘러나오다 (âm thanh phát ra, vọng ra)",
+      "불빛이 흘러나오다 (ánh đèn tỏa ra)"
     ]
   },
   {
@@ -876,12 +860,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d60-27-native.mp3",
     "relatedPhrases": [
-      "흥미롭다",
-      "흥미진진하다",
-      "흥미가 나다",
-      "흥미를 가지다",
-      "흥미를 붙이다",
-      "흥미를 느끼다"
+      "흥미를 느끼다 (cảm thấy hứng thú)",
+      "흥미를 붙이다 (trở nên hứng thú, gắn bó hứng thú)"
     ]
   },
   {
@@ -906,10 +886,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d60-28-native.mp3",
     "relatedPhrases": [
-      "흥분(을) 하다",
-      "흥분(이) 되다",
-      "흥분에 빠지다",
-      "흥분을 가라앉히다"
+      "흥분(이) 되다 (cảm thấy phấn khích)",
+      "흥분을 가라앉히다 (kiềm chế phấn khích, bình tĩnh lại)"
     ]
   },
   {
@@ -940,8 +918,8 @@ export const vocabTopik2Day60: VocabCard[] = [
       "흩어집니다"
     ],
     "relatedPhrases": [
-      "가족이 흩어지다",
-      "사람들이 흩어지다"
+      "가족이 흩어지다 (gia đình ly tán)",
+      "사람들이 흩어지다 (mọi người tản ra)"
     ]
   },
   {
@@ -967,10 +945,8 @@ export const vocabTopik2Day60: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d60-30-native.mp3",
     "pronunciationIrregular": "힘껃",
     "relatedPhrases": [
-      "힘껏 당기다",
-      "힘껏 던지다",
-      "힘껏 때리다",
-      "힘껏 차다"
+      "힘껏 던지다 (ném hết sức)",
+      "힘껏 당기다 (kéo hết sức)"
     ]
   }
 ]

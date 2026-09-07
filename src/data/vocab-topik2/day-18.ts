@@ -21,7 +21,11 @@ export const vocabTopik2Day18: VocabCard[] = [
     "tags": [],
     "day": 18,
     "dayOrder": 1,
-    "audioUrl": "/audio/word-t2-d18-01-native.mp3"
+    "audioUrl": "/audio/word-t2-d18-01-native.mp3",
+    "relatedPhrases": [
+      "기분이 우울하다 (tâm trạng u sầu)",
+      "우울한 표정 (vẻ mặt u sầu)"
+    ]
   },
   {
     "id": "t2-d18-02",
@@ -45,10 +49,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d18-02-native.mp3",
     "relatedPhrases": [
-      "우정을 맺다",
-      "우정을 나누다",
-      "우정을 지키다",
-      "우정을 쌓다"
+      "우정을 나누다 (chia sẻ, vun đắp tình bạn)",
+      "우정을 쌓다 (xây dựng tình bạn)"
     ]
   },
   {
@@ -71,7 +73,11 @@ export const vocabTopik2Day18: VocabCard[] = [
     "tags": [],
     "day": 18,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d18-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d18-03-native.mp3",
+    "relatedPhrases": [
+      "우주 여행 (du hành vũ trụ)",
+      "우주 비행사 (phi hành gia vũ trụ)"
+    ]
   },
   {
     "id": "t2-d18-04",
@@ -94,6 +100,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d18-04-native.mp3",
+    "relatedPhrases": [
+      "운명을 받아들이다 (chấp nhận số phận)",
+      "운명적인 만남 (cuộc gặp gỡ định mệnh)"
+    ],
     "synonyms": [
       "숙명"
     ]
@@ -120,9 +130,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d18-05-native.mp3",
     "relatedPhrases": [
-      "종이 울리다",
-      "경보음이 울리다",
-      "소리가 울리다"
+      "종이 울리다 (chuông reo)",
+      "경보음이 울리다 (còi báo động reo)"
     ],
     "structure": [
       "N이/가 울리다"
@@ -150,7 +159,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d18-06-native.mp3",
     "relatedPhrases": [
-      "언니가 동생을 울리다"
+      "언니가 동생을 울리다 (chị làm em khóc)",
+      "아이를 울리다 (làm đứa trẻ khóc)"
     ],
     "structure": [
       "N1이/가 N2을/를 울리다"
@@ -178,6 +188,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d18-07-native.mp3",
     "pronunciationIrregular": "원래",
+    "relatedPhrases": [
+      "원래 성격 (tính cách vốn có)",
+      "원래대로 (như ban đầu, như vốn dĩ)"
+    ],
     "synonyms": [
       "본래"
     ]
@@ -204,9 +218,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d18-08-native.mp3",
     "relatedPhrases": [
-      "원인을 조사하다",
-      "원인을 찾다",
-      "원인을 밝히다"
+      "원인을 조사하다 (điều tra nguyên nhân)",
+      "원인을 찾다 (tìm nguyên nhân)"
     ]
   },
   {
@@ -230,7 +243,11 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d18-09-native.mp3",
-    "pronunciationIrregular": "웬닐"
+    "pronunciationIrregular": "웬닐",
+    "relatedPhrases": [
+      "웬일로 (không hiểu sao lại, bất ngờ thay)",
+      "웬일이에요? (có chuyện gì vậy?)"
+    ]
   },
   {
     "id": "t2-d18-10",
@@ -254,8 +271,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d18-10-native.mp3",
     "relatedPhrases": [
-      "자식을 위하여",
-      "성공하기 위하여"
+      "자식을 위하여 (vì con cái)",
+      "성공하기 위하여 (để thành công)"
     ],
     "structure": [
       "N을/를 위하여/위해서",
@@ -283,6 +300,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d18-11-native.mp3",
+    "relatedPhrases": [
+      "유료 주차장 (bãi đỗ xe có thu phí)",
+      "유료로 전환되다 (chuyển sang có tính phí)"
+    ],
     "antonyms": [
       "무료",
       "공짜 (miễn phí)"
@@ -310,8 +331,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d18-12-native.mp3",
     "relatedPhrases": [
-      "유물을 발견하다",
-      "유물을 보존하다"
+      "유물을 발견하다 (phát hiện di vật)",
+      "유물을 보존하다 (bảo tồn di vật)"
     ]
   },
   {
@@ -336,7 +357,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d18-13-native.mp3",
     "relatedPhrases": [
-      "유적지"
+      "유적지 (địa điểm di tích)",
+      "유적을 발굴하다 (khai quật di tích)"
     ]
   },
   {
@@ -361,7 +383,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d18-14-native.mp3",
     "relatedPhrases": [
-      "음주(를) 하다"
+      "음주(를) 하다 (uống rượu)",
+      "음주 운전 (lái xe sau khi uống rượu)"
     ]
   },
   {
@@ -385,7 +408,11 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d18-15-native.mp3",
-    "pronunciationIrregular": "응급씰"
+    "pronunciationIrregular": "응급씰",
+    "relatedPhrases": [
+      "응급실에 실려 가다 (được đưa vào phòng cấp cứu)",
+      "응급실에 가다 (đến phòng cấp cứu)"
+    ]
   },
   {
     "id": "t2-d18-16",
@@ -409,10 +436,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d18-16-native.mp3",
     "relatedPhrases": [
-      "응원단",
-      "응원가",
-      "응원(을) 하다",
-      "응원을 받다"
+      "응원(을) 하다 (cổ vũ, ủng hộ)",
+      "응원을 받다 (nhận được sự cổ vũ)"
     ]
   },
   {
@@ -437,10 +462,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d18-17-native.mp3",
     "relatedPhrases": [
-      "의견을 말하다",
-      "의견을 나누다",
-      "의견을 모으다",
-      "의견에 따르다"
+      "의견을 말하다 (nêu ý kiến)",
+      "의견을 나누다 (trao đổi ý kiến)"
     ],
     "synonyms": [
       "소견"
@@ -468,7 +491,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d18-18-native.mp3",
     "relatedPhrases": [
-      "의논(을) 하다"
+      "의논(을) 하다 (bàn bạc, thảo luận)",
+      "의논 끝에 (sau khi bàn bạc)"
     ],
     "synonyms": [
       "논의"
@@ -495,7 +519,11 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d18-19-native.mp3",
-    "pronunciationIrregular": "이국쩍"
+    "pronunciationIrregular": "이국쩍",
+    "relatedPhrases": [
+      "이국적인 분위기 (bầu không khí mang nét xứ lạ)",
+      "이국적인 매력 (sức hút mang nét ngoại lai)"
+    ]
   },
   {
     "id": "t2-d18-20",
@@ -518,6 +546,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d18-20-native.mp3",
+    "relatedPhrases": [
+      "회사를 이끌다 (dẫn dắt công ty)",
+      "팀을 이끌다 (dẫn dắt đội nhóm)"
+    ],
     "antonyms": [
       "따르다 (đi theo)"
     ]
@@ -544,9 +576,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d18-21-native.mp3",
     "relatedPhrases": [
-      "이동(을) 하다",
-      "이동(이) 되다",
-      "이동(을) 시키다"
+      "이동(을) 하다 (di chuyển)",
+      "이동(을) 시키다 (di chuyển, dời chỗ cái gì đó)"
     ]
   },
   {
@@ -570,6 +601,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d18-22-native.mp3",
+    "relatedPhrases": [
+      "이따 보다 (lát nữa gặp)",
+      "이따 전화하다 (lát nữa gọi điện)"
+    ],
     "synonyms": [
       "이따가"
     ],
@@ -600,9 +635,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d18-23-native.mp3",
     "pronunciationIrregular": "이력써",
     "relatedPhrases": [
-      "이력서를 쓰다",
-      "이력서를 내다",
-      "이력서를 보내다"
+      "이력서를 쓰다 (viết sơ yếu lý lịch)",
+      "이력서를 내다 (nộp sơ yếu lý lịch)"
     ]
   },
   {
@@ -627,9 +661,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d18-24-native.mp3",
     "relatedPhrases": [
-      "꿈을 이루다",
-      "소원을 이루다",
-      "목표를 이루다"
+      "꿈을 이루다 (thực hiện ước mơ)",
+      "목표를 이루다 (đạt được mục tiêu)"
     ]
   },
   {
@@ -654,8 +687,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d18-25-native.mp3",
     "relatedPhrases": [
-      "이만 끝내다",
-      "이만 줄이다"
+      "이만 끝내다 (dừng lại, kết thúc ở đây)",
+      "이만 줄이다 (dừng bút, kết thúc ở đây)"
     ]
   },
   {
@@ -679,6 +712,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d18-26-native.mp3",
+    "relatedPhrases": [
+      "이성 친구 (bạn khác giới)",
+      "이성 교제 (hẹn hò khác giới)"
+    ],
     "antonyms": [
       "동성 (cùng giới)"
     ]
@@ -705,9 +742,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d18-27-native.mp3",
     "relatedPhrases": [
-      "이자를 내다",
-      "이자를 물다",
-      "이자를 받다"
+      "이자를 내다 (trả lãi)",
+      "이자를 받다 (nhận lãi)"
     ]
   },
   {
@@ -731,6 +767,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "day": 18,
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d18-28-native.mp3",
+    "relatedPhrases": [
+      "19세 이하 (từ 19 tuổi trở xuống)",
+      "평균 이하 (dưới mức trung bình)"
+    ],
     "antonyms": [
       "이상 (trở lên)"
     ],
@@ -764,10 +804,8 @@ export const vocabTopik2Day18: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d18-29-native.mp3",
     "pronunciationIrregular": "이키다",
     "relatedPhrases": [
-      "악기를 익히다",
-      "기술을 익히다",
-      "외국어를 익히다",
-      "얼굴을 익히다"
+      "기술을 익히다 (luyện thành thạo kỹ thuật)",
+      "외국어를 익히다 (luyện thành thạo ngoại ngữ)"
     ]
   },
   {
@@ -790,6 +828,10 @@ export const vocabTopik2Day18: VocabCard[] = [
     "tags": [],
     "day": 18,
     "dayOrder": 30,
-    "audioUrl": "/audio/word-t2-d18-30-native.mp3"
+    "audioUrl": "/audio/word-t2-d18-30-native.mp3",
+    "relatedPhrases": [
+      "인구가 늘다 (dân số tăng)",
+      "인구가 줄다 (dân số giảm)"
+    ]
   }
 ]

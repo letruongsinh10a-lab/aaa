@@ -29,10 +29,8 @@ export const vocabTopik2Day54: VocabCard[] = [
       "줄어듭니다"
     ],
     "relatedPhrases": [
-      "인구가 줄어들다",
-      "수량이 줄어들다",
-      "시간이 줄어들다",
-      "수입이 줄어들다"
+      "인구가 줄어들다 (dân số giảm)",
+      "수입이 줄어들다 (thu nhập giảm)"
     ],
     "synonyms": [
       "줄다",
@@ -66,12 +64,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d54-02-native.mp3",
     "relatedPhrases": [
-      "중독(이) 되다",
-      "중독에 빠지다",
-      "게임 중독",
-      "알코올 중독",
-      "도박 중독",
-      "마약 중독"
+      "중독(이) 되다 (bị nghiện)",
+      "중독에 빠지다 (rơi vào tình trạng nghiện ngập)"
     ]
   },
   {
@@ -100,6 +94,10 @@ export const vocabTopik2Day54: VocabCard[] = [
       "중얼거려서",
       "중얼거리면",
       "중얼거립니다"
+    ],
+    "relatedPhrases": [
+      "혼자 중얼거리다 (tự lẩm bẩm một mình)",
+      "입속으로 중얼거리다 (lẩm bẩm trong miệng)"
     ],
     "synonyms": [
       "중얼대다",
@@ -136,10 +134,8 @@ export const vocabTopik2Day54: VocabCard[] = [
       "쥡니다"
     ],
     "relatedPhrases": [
-      "주먹을 쥐다",
-      "멱살을 쥐다",
-      "돈을 쥐다",
-      "권력을 쥐다"
+      "주먹을 쥐다 (nắm chặt tay, nắm đấm)",
+      "권력을 쥐다 (nắm quyền lực)"
     ],
     "synonyms": [
       "움켜쥐다"
@@ -173,10 +169,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d54-05-native.mp3",
     "relatedPhrases": [
-      "증거가 있다",
-      "증거를 대다",
-      "증거를 찾다",
-      "증거를 제시하다"
+      "증거가 있다 (có chứng cứ)",
+      "증거를 찾다 (tìm chứng cứ)"
     ]
   },
   {
@@ -201,9 +195,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d54-06-native.mp3",
     "relatedPhrases": [
-      "증명(을) 하다",
-      "증명(이) 되다",
-      "증명을 받다"
+      "증명(을) 하다 (chứng minh)",
+      "증명(이) 되다 (được chứng minh)"
     ],
     "relatedWords": [
       "증명서",
@@ -238,6 +231,10 @@ export const vocabTopik2Day54: VocabCard[] = [
       "지겨우면",
       "지겹습니다"
     ],
+    "relatedPhrases": [
+      "지겨워 죽겠다 (chán muốn chết, chán ơi là chán)",
+      "잔소리가 지겹다 (chán ngán vì bị cằn nhằn)"
+    ],
     "synonyms": [
       "지긋지긋하다"
     ]
@@ -264,6 +261,10 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d54-08-native.mp3",
     "pronunciationIrregular": "지금껃",
+    "relatedPhrases": [
+      "지금껏 살아오다 (sống cho đến tận bây giờ)",
+      "지금껏 노력하다 (nỗ lực cho đến tận bây giờ)"
+    ],
     "synonyms": [
       "이제껏",
       "여태껏",
@@ -292,8 +293,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d54-09-native.mp3",
     "relatedPhrases": [
-      "지급(을) 하다",
-      "지급(이) 되다"
+      "지급(을) 하다 (chi trả, thanh toán)",
+      "지급(이) 되다 (được chi trả, được thanh toán)"
     ]
   },
   {
@@ -318,11 +319,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d54-10-native.mp3",
     "relatedPhrases": [
-      "지능이 높다",
-      "지능이 낮다",
-      "지능이 발달하다",
-      "지능을 지니다",
-      "지능을 계발하다"
+      "지능이 높다 (trí tuệ cao)",
+      "지능을 계발하다 (phát triển trí tuệ)"
     ],
     "relatedWords": [
       "인공 지능",
@@ -358,9 +356,8 @@ export const vocabTopik2Day54: VocabCard[] = [
       "집니다"
     ],
     "relatedPhrases": [
-      "배낭을 지다",
-      "책임을 지다",
-      "빚을 지다"
+      "책임을 지다 (chịu trách nhiệm)",
+      "빚을 지다 (mang nợ, gánh nợ)"
     ]
   },
   {
@@ -386,8 +383,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d54-12-native.mp3",
     "pronunciationIrregular": "지름낄",
     "relatedPhrases": [
-      "지름길로 가다",
-      "지름길을 이용하다"
+      "지름길로 가다 (đi đường tắt)",
+      "지름길을 이용하다 (dùng đường tắt)"
     ]
   },
   {
@@ -412,12 +409,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d54-13-native.mp3",
     "relatedPhrases": [
-      "지불(을) 하다",
-      "지불(이) 되다",
-      "요금을 지불하다",
-      "금액을 지불하다",
-      "대금을 지불하다",
-      "결제액을 지불하다"
+      "요금을 지불하다 (trả phí, thanh toán tiền)",
+      "지불(을) 하다 (chi trả, thanh toán)"
     ]
   },
   {
@@ -442,11 +435,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d54-14-native.mp3",
     "relatedPhrases": [
-      "지시(를) 하다",
-      "지시(가) 되다",
-      "지시를 내리다",
-      "지시에 따르다",
-      "지시를 받다"
+      "지시를 내리다 (ra chỉ thị, ra lệnh)",
+      "지시에 따르다 (tuân theo chỉ thị)"
     ]
   },
   {
@@ -471,10 +461,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d54-15-native.mp3",
     "relatedPhrases": [
-      "지식이 있다",
-      "지식을 얻다",
-      "지식을 쌓다",
-      "지식을 갖추다"
+      "지식을 쌓다 (tích lũy kiến thức)",
+      "지식을 얻다 (có được kiến thức)"
     ],
     "relatedWords": [
       "지식인"
@@ -502,9 +490,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d54-16-native.mp3",
     "relatedPhrases": [
-      "지원(을) 하다",
-      "지원이 되다",
-      "지원이 끊기다"
+      "지원(을) 하다 (hỗ trợ, viện trợ)",
+      "지원이 끊기다 (bị cắt viện trợ/hỗ trợ)"
     ]
   },
   {
@@ -529,11 +516,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d54-17-native.mp3",
     "relatedPhrases": [
-      "지위가 있다",
-      "지위가 높다",
-      "지위를 가지다",
-      "지위에 오르다",
-      "지위를 차지하다"
+      "지위가 높다 (địa vị cao)",
+      "지위에 오르다 (leo lên địa vị cao, thăng tiến)"
     ]
   },
   {
@@ -558,13 +542,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d54-18-native.mp3",
     "relatedPhrases": [
-      "지적(을) 하다",
-      "지적(이) 되다",
-      "지적을 받다",
-      "지적을 당하다",
-      "잘못을 지적하다",
-      "문제점을 지적하다",
-      "실수를 지적하다"
+      "지적을 받다 (bị chỉ trích, bị nhắc nhở)",
+      "문제점을 지적하다 (chỉ ra vấn đề)"
     ],
     "synonyms": [
       "지목"
@@ -592,10 +571,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d54-19-native.mp3",
     "relatedPhrases": [
-      "지출(을) 하다",
-      "지출(이) 되다",
-      "지출이 늘다",
-      "지출을 늘리다"
+      "지출(을) 하다 (chi tiêu)",
+      "지출이 늘다 (chi tiêu tăng lên)"
     ],
     "antonyms": [
       "수입"
@@ -628,6 +605,10 @@ export const vocabTopik2Day54: VocabCard[] = [
       "지치면",
       "지칩니다"
     ],
+    "relatedPhrases": [
+      "일상에 지치다 (chán chường/kiệt sức với cuộc sống thường nhật)",
+      "몸이 지치다 (kiệt sức về thể chất)"
+    ],
     "structure": [
       "N이/가 지치다"
     ]
@@ -658,6 +639,10 @@ export const vocabTopik2Day54: VocabCard[] = [
       "지켜봐서",
       "지켜보면",
       "지켜봅니다"
+    ],
+    "relatedPhrases": [
+      "상황을 지켜보다 (theo dõi tình hình)",
+      "지켜보는 가운데 (trong sự theo dõi của, trước sự chứng kiến của)"
     ]
   },
   {
@@ -682,10 +667,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d54-22-native.mp3",
     "relatedPhrases": [
-      "지혜롭다",
-      "지혜가 있다",
-      "지혜를 가지다",
-      "지혜를 모으다"
+      "지혜가 있다 (có sự khôn ngoan)",
+      "지혜를 모으다 (góp trí tuệ, chung sức trí tuệ)"
     ]
   },
   {
@@ -710,10 +693,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d54-23-native.mp3",
     "relatedPhrases": [
-      "진단(을) 하다",
-      "진단(이) 되다",
-      "진단을 받다",
-      "진단을 내리다"
+      "진단을 받다 (được chẩn đoán)",
+      "진단을 내리다 (đưa ra chẩn đoán)"
     ],
     "relatedWords": [
       "진단서"
@@ -741,9 +722,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d54-24-native.mp3",
     "relatedPhrases": [
-      "진동(을) 하다",
-      "진동이 되다",
-      "진동이 울리다"
+      "진동(을) 하다 (rung, rung động)",
+      "진동이 울리다 (rung lên)"
     ]
   },
   {
@@ -769,10 +749,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d54-25-native.mp3",
     "pronunciationIrregular": "질로",
     "relatedPhrases": [
-      "진로를 선택하다",
-      "진로를 결정하다",
-      "진로를 변경하다",
-      "진로를 고민하다"
+      "진로를 고민하다 (trăn trở về định hướng tương lai)",
+      "진로를 결정하다 (quyết định hướng đi tương lai)"
     ]
   },
   {
@@ -798,10 +776,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d54-26-native.mp3",
     "pronunciationIrregular": "질리",
     "relatedPhrases": [
-      "진리가 있다",
-      "진리를 찾다",
-      "진리를 깨닫다",
-      "진리를 추구하다"
+      "진리를 깨닫다 (ngộ ra, nhận ra chân lý)",
+      "진리를 추구하다 (theo đuổi chân lý)"
     ]
   },
   {
@@ -826,10 +802,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d54-27-native.mp3",
     "relatedPhrases": [
-      "진술(을) 하다",
-      "진술(이) 되다",
-      "진술을 받다",
-      "진술을 듣다"
+      "진술을 받다 (lấy lời khai)",
+      "진술을 듣다 (nghe lời khai)"
     ],
     "relatedWords": [
       "진술서"
@@ -857,11 +831,8 @@ export const vocabTopik2Day54: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d54-28-native.mp3",
     "relatedPhrases": [
-      "진실하다",
-      "진실을 말하다",
-      "진실을 감추다",
-      "진실을 밝히다",
-      "진실이 드러나다"
+      "진실을 밝히다 (làm rõ, phơi bày sự thật)",
+      "진실이 드러나다 (sự thật được phơi bày)"
     ],
     "antonyms": [
       "거짓"
@@ -893,6 +864,10 @@ export const vocabTopik2Day54: VocabCard[] = [
       "진정해서",
       "진정하면",
       "진정합니다"
+    ],
+    "relatedPhrases": [
+      "진정한 사랑 (tình yêu đích thực)",
+      "진정한 친구 (người bạn thật sự)"
     ],
     "synonyms": [
       "참되다",
@@ -927,9 +902,8 @@ export const vocabTopik2Day54: VocabCard[] = [
       "진지합니다"
     ],
     "relatedPhrases": [
-      "태도가 진지하다",
-      "성격이 진지하다",
-      "분위기가 진지하다"
+      "태도가 진지하다 (thái độ nghiêm túc)",
+      "분위기가 진지하다 (bầu không khí nghiêm túc)"
     ]
   }
 ]

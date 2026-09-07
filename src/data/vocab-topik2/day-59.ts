@@ -30,9 +30,8 @@ export const vocabTopik2Day59: VocabCard[] = [
       "합합니다"
     ],
     "relatedPhrases": [
-      "힘을 합하다",
-      "의견을 합하다",
-      "용돈을 합하다"
+      "힘을 합하다 (hợp sức, đồng lòng góp sức)",
+      "용돈을 합하다 (gộp tiền tiêu vặt)"
     ],
     "synonyms": [
       "합치다"
@@ -64,10 +63,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d59-02-native.mp3",
     "pronunciationIrregular": "항이",
     "relatedPhrases": [
-      "항의(를) 하다",
-      "항의를 듣다",
-      "항의를 받다",
-      "항의가 빗발치다"
+      "항의(를) 하다 (phản đối)",
+      "항의가 빗발치다 (phản đối dồn dập)"
     ]
   },
   {
@@ -92,9 +89,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d59-03-native.mp3",
     "relatedPhrases": [
-      "해결책을 마련하다",
-      "해결책을 제시하다",
-      "해결책을 모색하다"
+      "해결책을 마련하다 (chuẩn bị/đưa ra giải pháp)",
+      "해결책을 모색하다 (tìm kiếm giải pháp)"
     ]
   },
   {
@@ -119,8 +115,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d59-04-native.mp3",
     "relatedPhrases": [
-      "해당하다",
-      "해당(이) 되다"
+      "해당하다 (tương ứng, thuộc về)",
+      "해당(이) 되다 (được coi là phù hợp/tương ứng)"
     ],
     "relatedWords": [
       "해당자",
@@ -159,8 +155,8 @@ export const vocabTopik2Day59: VocabCard[] = [
       "해롭습니다"
     ],
     "relatedPhrases": [
-      "담배가 몸에 해롭다",
-      "담배가 아이에게 해롭다"
+      "담배가 몸에 해롭다 (thuốc lá có hại cho cơ thể)",
+      "담배가 아이에게 해롭다 (thuốc lá có hại cho trẻ em)"
     ],
     "structure": [
       "N1이/가 N2에/에게 해롭다"
@@ -194,10 +190,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d59-06-native.mp3",
     "relatedPhrases": [
-      "해방(을) 하다",
-      "해방(이) 되다",
-      "해방을 맞다",
-      "해방을 꿈꾸다"
+      "해방(이) 되다 (được giải phóng)",
+      "해방을 맞다 (đón nhận sự giải phóng)"
     ]
   },
   {
@@ -222,8 +216,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d59-07-native.mp3",
     "relatedPhrases": [
-      "해석(을) 하다",
-      "해석(이) 되다"
+      "해석(을) 하다 (giải nghĩa, phân tích)",
+      "해석(이) 되다 (được giải thích/diễn giải)"
     ]
   },
   {
@@ -248,9 +242,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d59-08-native.mp3",
     "relatedPhrases": [
-      "해설(을) 하다",
-      "해설(이) 되다",
-      "해설을 듣다"
+      "해설을 듣다 (nghe phần diễn giải)",
+      "해설(을) 하다 (diễn giải, thuyết minh)"
     ],
     "relatedWords": [
       "해설가",
@@ -280,11 +273,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d59-09-native.mp3",
     "relatedPhrases": [
-      "해소(를) 하다",
-      "해소(가) 되다",
-      "스트레스를 해소하다",
-      "피로를 해소하다",
-      "갈등을 해소하다"
+      "스트레스를 해소하다 (giải tỏa căng thẳng)",
+      "갈등을 해소하다 (giải quyết mâu thuẫn)"
     ]
   },
   {
@@ -310,10 +300,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d59-10-native.mp3",
     "pronunciationIrregular": "핵씸",
     "relatedPhrases": [
-      "핵심이 되다",
-      "핵심을 찌르다",
-      "핵심을 집어내다",
-      "핵심에서 벗어나다"
+      "핵심을 찌르다 (chạm đúng trọng tâm)",
+      "핵심이 되다 (trở thành trọng tâm)"
     ]
   },
   {
@@ -344,10 +332,8 @@ export const vocabTopik2Day59: VocabCard[] = [
       "행합니다"
     ],
     "relatedPhrases": [
-      "업무를 행하다",
-      "의식을 행하다",
-      "권리를 행하다",
-      "폭력을 행하다"
+      "의식을 행하다 (thực hiện nghi lễ)",
+      "권리를 행하다 (thực hiện quyền)"
     ],
     "synonyms": [
       "실행하다"
@@ -375,11 +361,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d59-12-native.mp3",
     "relatedPhrases": [
-      "향기롭다",
-      "향기가 나다",
-      "향기가 짙다",
-      "향기가 풍기다",
-      "향기를 맡다"
+      "향기를 맡다 (ngửi hương thơm)",
+      "향기가 나다 (tỏa hương thơm)"
     ],
     "synonyms": [
       "향"
@@ -410,12 +393,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d59-13-native.mp3",
     "relatedPhrases": [
-      "향상(을) 하다",
-      "향상(이) 되다",
-      "향상을 시키다",
-      "실력이 향상되다",
-      "수준이 향상되다",
-      "품질이 향상되다"
+      "실력이 향상되다 (trình độ được nâng cao)",
+      "품질이 향상되다 (chất lượng được nâng cao)"
     ]
   },
   {
@@ -440,14 +419,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d59-14-native.mp3",
     "relatedPhrases": [
-      "허가(를) 하다",
-      "허가(가) 되다",
-      "허가가 나다",
-      "허가를 받다",
-      "허가를 얻다",
-      "입학을 허가하다",
-      "운영을 허가하다",
-      "시위를 허가하다"
+      "허가를 받다 (nhận được giấy phép)",
+      "허가가 나다 (được cấp phép)"
     ],
     "synonyms": [
       "허락"
@@ -475,10 +448,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d59-15-native.mp3",
     "relatedPhrases": [
-      "허용(을) 하다",
-      "허용(이) 되다",
-      "통행을 허용하다",
-      "복직을 허용하다"
+      "허용(이) 되다 (được cho phép)",
+      "통행을 허용하다 (cho phép đi lại)"
     ]
   },
   {
@@ -509,10 +480,8 @@ export const vocabTopik2Day59: VocabCard[] = [
       "험합니다"
     ],
     "relatedPhrases": [
-      "길이 험하다",
-      "인상이 험하다",
-      "분위기가 험하다",
-      "일이 험하다"
+      "길이 험하다 (đường hiểm trở)",
+      "일이 험하다 (công việc gian nan, vất vả)"
     ],
     "extraNotes": [
       {
@@ -549,9 +518,8 @@ export const vocabTopik2Day59: VocabCard[] = [
       "헤맵니다"
     ],
     "relatedPhrases": [
-      "길을 헤매다",
-      "꿈속을 헤매다",
-      "미로를 헤매다"
+      "길을 헤매다 (lạc đường, đi lòng vòng)",
+      "미로를 헤매다 (lạc trong mê cung)"
     ]
   },
   {
@@ -582,9 +550,8 @@ export const vocabTopik2Day59: VocabCard[] = [
       "헤아립니다"
     ],
     "relatedPhrases": [
-      "개수를 헤아리다",
-      "날짜를 헤아리다",
-      "심정을 헤아리다"
+      "날짜를 헤아리다 (đếm ngày)",
+      "심정을 헤아리다 (thấu hiểu tâm tư)"
     ],
     "synonyms": [
       "세다"
@@ -617,6 +584,10 @@ export const vocabTopik2Day59: VocabCard[] = [
       "헤엄치면",
       "헤엄칩니다"
     ],
+    "relatedPhrases": [
+      "강에서 헤엄치다 (bơi ở sông)",
+      "바다에서 헤엄치다 (bơi ở biển)"
+    ],
     "synonyms": [
       "수영하다"
     ]
@@ -643,9 +614,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d59-20-native.mp3",
     "relatedPhrases": [
-      "현상이 나타나다",
-      "현상이 일어나다",
-      "현상을 보이다"
+      "현상이 나타나다 (hiện tượng xuất hiện)",
+      "현상이 일어나다 (hiện tượng xảy ra)"
     ]
   },
   {
@@ -670,9 +640,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d59-21-native.mp3",
     "relatedPhrases": [
-      "현실이 되다",
-      "현실을 바라보다",
-      "현실을 부정하다"
+      "현실이 되다 (trở thành hiện thực)",
+      "현실을 바라보다 (nhìn nhận thực tế)"
     ],
     "antonyms": [
       "꿈",
@@ -705,11 +674,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d59-22-native.mp3",
     "relatedPhrases": [
-      "현장감",
-      "사고 현장",
-      "건설 현장",
-      "현장 실습",
-      "현장 경험"
+      "사고 현장 (hiện trường vụ tai nạn)",
+      "현장 경험 (kinh nghiệm thực tế)"
     ]
   },
   {
@@ -735,9 +701,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d59-23-native.mp3",
     "pronunciationIrregular": "혐녁",
     "relatedPhrases": [
-      "협력(을) 하다",
-      "협력이 되다",
-      "협력을 요청하다"
+      "협력(을) 하다 (hợp tác)",
+      "협력을 요청하다 (yêu cầu hợp tác)"
     ],
     "synonyms": [
       "협조"
@@ -766,10 +731,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d59-24-native.mp3",
     "pronunciationIrregular": "협쪼",
     "relatedPhrases": [
-      "협조(를) 하다",
-      "협조(가) 되다",
-      "협조를 구하다",
-      "협조를 요청하다"
+      "협조를 요청하다 (yêu cầu hợp tác/hỗ trợ)",
+      "협조를 구하다 (tìm kiếm sự hợp tác)"
     ],
     "relatedWords": [
       "협조적"
@@ -797,11 +760,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d59-25-native.mp3",
     "relatedPhrases": [
-      "형성(을) 하다",
-      "형성(이) 되다",
-      "국가를 형성하다",
-      "가치관을 형성하다",
-      "여론을 형성하다"
+      "형성(이) 되다 (được hình thành)",
+      "가치관을 형성하다 (hình thành giá trị quan, nhân cách)"
     ]
   },
   {
@@ -826,9 +786,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d59-26-native.mp3",
     "relatedPhrases": [
-      "형식이 있다",
-      "형식이 맞다",
-      "형식을 갖추다"
+      "형식을 갖추다 (có đầy đủ hình thức)",
+      "형식이 맞다 (đúng hình thức, phù hợp khuôn mẫu)"
     ],
     "relatedWords": [
       "형식적"
@@ -856,9 +815,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d59-27-native.mp3",
     "relatedPhrases": [
-      "형편이 좋다",
-      "형편이 어렵다",
-      "형편을 살피다"
+      "형편이 어렵다 (hoàn cảnh khó khăn)",
+      "형편을 살피다 (xem xét tình hình)"
     ],
     "synonyms": [
       "상황 (nghĩa 1)"
@@ -886,10 +844,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d59-28-native.mp3",
     "relatedPhrases": [
-      "혜택을 주다",
-      "혜택을 받다",
-      "혜택을 보다",
-      "혜택을 누리다"
+      "혜택을 받다 (nhận được ưu đãi)",
+      "혜택을 누리다 (hưởng thụ ưu đãi)"
     ]
   },
   {
@@ -914,11 +870,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d59-29-native.mp3",
     "relatedPhrases": [
-      "호감이 가다",
-      "호감을 갖다",
-      "호감을 느끼다",
-      "호감을 사다",
-      "호감을 주다"
+      "호감이 가다 (cảm thấy có thiện cảm)",
+      "호감을 주다 (tạo thiện cảm)"
     ],
     "antonyms": [
       "악감"
@@ -946,9 +899,8 @@ export const vocabTopik2Day59: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d59-30-native.mp3",
     "relatedPhrases": [
-      "호기심이 있다",
-      "호기심이 생기다",
-      "호기심을 유발하다"
+      "호기심이 생기다 (nảy sinh sự tò mò)",
+      "호기심을 유발하다 (khơi gợi sự tò mò)"
     ]
   }
 ]

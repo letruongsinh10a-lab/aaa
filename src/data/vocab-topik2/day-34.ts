@@ -21,7 +21,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 1,
-    "audioUrl": "/audio/word-t2-d34-01-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-01-native.mp3",
+    "relatedPhrases": [
+      "도대체 왜 (rốt cuộc là tại sao)",
+      "도대체 이해가 안 가다 (hoàn toàn không thể hiểu được)"
+    ]
   },
   {
     "id": "t2-d34-02",
@@ -43,7 +47,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 2,
-    "audioUrl": "/audio/word-t2-d34-02-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-02-native.mp3",
+    "relatedPhrases": [
+      "도리어 화를 내다 (ngược lại còn nổi giận)",
+      "도리어 손해를 보다 (ngược lại lại chịu thiệt)"
+    ]
   },
   {
     "id": "t2-d34-03",
@@ -65,7 +73,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 3,
-    "audioUrl": "/audio/word-t2-d34-03-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-03-native.mp3",
+    "relatedPhrases": [
+      "해외로 도망치다 (bỏ trốn ra nước ngoài)",
+      "경찰을 피해 도망치다 (chạy trốn tránh cảnh sát)"
+    ]
   },
   {
     "id": "t2-d34-04",
@@ -87,7 +99,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 4,
-    "audioUrl": "/audio/word-t2-d34-04-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-04-native.mp3",
+    "relatedPhrases": [
+      "제도를 도입하다 (áp dụng chế độ)",
+      "기술을 도입하다 (đưa công nghệ vào áp dụng)"
+    ]
   },
   {
     "id": "t2-d34-05",
@@ -109,7 +125,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 5,
-    "audioUrl": "/audio/word-t2-d34-05-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-05-native.mp3",
+    "relatedPhrases": [
+      "도저히 이해할 수 없다 (không tài nào hiểu được)",
+      "도저히 믿을 수 없다 (không thể nào tin được)"
+    ]
   },
   {
     "id": "t2-d34-06",
@@ -131,7 +151,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 6,
-    "audioUrl": "/audio/word-t2-d34-06-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-06-native.mp3",
+    "relatedPhrases": [
+      "도전을 하다 (thử sức, thách thức)",
+      "새로운 도전 (thử thách mới)"
+    ]
   },
   {
     "id": "t2-d34-07",
@@ -154,7 +178,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "day": 34,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d34-07-native.mp3",
-    "pronunciationIrregular": "동닙"
+    "pronunciationIrregular": "동닙",
+    "relatedPhrases": [
+      "독립을 하다 (tự lập, độc lập)",
+      "경제적 독립 (độc lập về kinh tế)"
+    ]
   },
   {
     "id": "t2-d34-08",
@@ -176,7 +204,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 8,
-    "audioUrl": "/audio/word-t2-d34-08-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-08-native.mp3",
+    "relatedPhrases": [
+      "디자인이 독특하다 (thiết kế độc đáo)",
+      "독특한 매력 (sức hút độc đáo)"
+    ]
   },
   {
     "id": "t2-d34-09",
@@ -198,7 +230,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 9,
-    "audioUrl": "/audio/word-t2-d34-09-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-09-native.mp3",
+    "relatedPhrases": [
+      "술이 독하다 (rượu nặng)",
+      "냄새가 독하다 (mùi nồng nặc, hắc)"
+    ]
   },
   {
     "id": "t2-d34-10",
@@ -220,7 +256,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 10,
-    "audioUrl": "/audio/word-t2-d34-10-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-10-native.mp3",
+    "relatedPhrases": [
+      "뒤를 돌아보다 (quay lại nhìn phía sau)",
+      "과거를 돌아보다 (nhìn lại quá khứ)"
+    ]
   },
   {
     "id": "t2-d34-11",
@@ -242,7 +282,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d34-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-11-native.mp3",
+    "relatedPhrases": [
+      "뒤로 돌아서다 (quay người lại phía sau)",
+      "마음이 돌아서다 (thay lòng đổi dạ)"
+    ]
   },
   {
     "id": "t2-d34-12",
@@ -264,7 +308,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 12,
-    "audioUrl": "/audio/word-t2-d34-12-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-12-native.mp3",
+    "relatedPhrases": [
+      "범행 동기 (động cơ gây án)",
+      "동기를 부여하다 (tạo động lực)"
+    ]
   },
   {
     "id": "t2-d34-13",
@@ -286,7 +334,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 13,
-    "audioUrl": "/audio/word-t2-d34-13-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-13-native.mp3",
+    "relatedPhrases": [
+      "동의를 구하다 (xin sự đồng ý)",
+      "동의를 얻다 (nhận được sự đồng ý)"
+    ]
   },
   {
     "id": "t2-d34-14",
@@ -308,7 +360,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 14,
-    "audioUrl": "/audio/word-t2-d34-14-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-14-native.mp3",
+    "relatedPhrases": [
+      "기준이 동일하다 (tiêu chuẩn như nhau)",
+      "생각이 동일하다 (suy nghĩ giống nhau)"
+    ]
   },
   {
     "id": "t2-d34-15",
@@ -330,7 +386,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 15,
-    "audioUrl": "/audio/word-t2-d34-15-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-15-native.mp3",
+    "relatedPhrases": [
+      "되도록 빨리 (càng nhanh càng tốt)",
+      "되도록 피하다 (nếu có thể thì tránh)"
+    ]
   },
   {
     "id": "t2-d34-16",
@@ -352,7 +412,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 16,
-    "audioUrl": "/audio/word-t2-d34-16-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-16-native.mp3",
+    "relatedPhrases": [
+      "시간을 되돌리다 (quay ngược thời gian)",
+      "상황을 되돌리다 (vãn hồi tình huống)"
+    ]
   },
   {
     "id": "t2-d34-17",
@@ -374,7 +438,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 17,
-    "audioUrl": "/audio/word-t2-d34-17-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-17-native.mp3",
+    "relatedPhrases": [
+      "집으로 되돌아가다 (quay trở lại nhà)",
+      "원점으로 되돌아가다 (quay trở lại điểm xuất phát)"
+    ]
   },
   {
     "id": "t2-d34-18",
@@ -396,7 +464,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 18,
-    "audioUrl": "/audio/word-t2-d34-18-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-18-native.mp3",
+    "relatedPhrases": [
+      "전통을 되살리다 (khôi phục truyền thống)",
+      "기억을 되살리다 (khơi lại ký ức)"
+    ]
   },
   {
     "id": "t2-d34-19",
@@ -418,7 +490,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 19,
-    "audioUrl": "/audio/word-t2-d34-19-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-19-native.mp3",
+    "relatedPhrases": [
+      "되풀이를 하다 (lặp đi lặp lại)",
+      "실수를 되풀이하다 (lặp lại sai lầm)"
+    ]
   },
   {
     "id": "t2-d34-20",
@@ -440,7 +516,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 20,
-    "audioUrl": "/audio/word-t2-d34-20-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-20-native.mp3",
+    "relatedPhrases": [
+      "두뇌가 뛰어나다 (đầu óc xuất sắc)",
+      "두뇌를 개발하다 (phát triển trí não)"
+    ]
   },
   {
     "id": "t2-d34-21",
@@ -462,7 +542,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 21,
-    "audioUrl": "/audio/word-t2-d34-21-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-21-native.mp3",
+    "relatedPhrases": [
+      "단점이 두드러지다 (khuyết điểm lộ rõ)",
+      "성과가 두드러지다 (thành quả nổi bật)"
+    ]
   },
   {
     "id": "t2-d34-22",
@@ -484,7 +568,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 22,
-    "audioUrl": "/audio/word-t2-d34-22-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-22-native.mp3",
+    "relatedPhrases": [
+      "문을 두드리다 (gõ cửa)",
+      "어깨를 두드리다 (vỗ vai)"
+    ]
   },
   {
     "id": "t2-d34-23",
@@ -506,7 +594,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 23,
-    "audioUrl": "/audio/word-t2-d34-23-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-23-native.mp3",
+    "relatedPhrases": [
+      "실패가 두렵다 (sợ thất bại)",
+      "죽음이 두렵다 (sợ cái chết)"
+    ]
   },
   {
     "id": "t2-d34-24",
@@ -528,7 +620,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 24,
-    "audioUrl": "/audio/word-t2-d34-24-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-24-native.mp3",
+    "relatedPhrases": [
+      "사방을 두리번거리다 (nhìn dáo dác khắp bốn phương)",
+      "주위를 두리번거리다 (nhìn quanh quất xung quanh)"
+    ]
   },
   {
     "id": "t2-d34-25",
@@ -550,7 +646,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 25,
-    "audioUrl": "/audio/word-t2-d34-25-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-25-native.mp3",
+    "relatedPhrases": [
+      "집 안을 둘러보다 (nhìn quanh một lượt trong nhà)",
+      "교실을 둘러보다 (nhìn quanh lớp học)"
+    ]
   },
   {
     "id": "t2-d34-26",
@@ -572,7 +672,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 26,
-    "audioUrl": "/audio/word-t2-d34-26-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-26-native.mp3",
+    "relatedPhrases": [
+      "산으로 둘러싸이다 (được bao quanh bởi núi)",
+      "팬들에게 둘러싸이다 (được vây quanh bởi người hâm mộ)"
+    ]
   },
   {
     "id": "t2-d34-27",
@@ -594,7 +698,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 27,
-    "audioUrl": "/audio/word-t2-d34-27-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-27-native.mp3",
+    "relatedPhrases": [
+      "지구 둘레 (chu vi trái đất)",
+      "허리 둘레 (vòng eo)"
+    ]
   },
   {
     "id": "t2-d34-28",
@@ -616,7 +724,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 28,
-    "audioUrl": "/audio/word-t2-d34-28-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-28-native.mp3",
+    "relatedPhrases": [
+      "차를 뒤따르다 (bám theo sau xe)",
+      "위험이 뒤따르다 (rủi ro đi kèm theo)"
+    ]
   },
   {
     "id": "t2-d34-29",
@@ -638,7 +750,11 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 29,
-    "audioUrl": "/audio/word-t2-d34-29-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-29-native.mp3",
+    "relatedPhrases": [
+      "시대에 뒤떨어지다 (lỗi thời, tụt hậu so với thời đại)",
+      "실력이 뒤떨어지다 (năng lực thua kém, tụt hậu)"
+    ]
   },
   {
     "id": "t2-d34-30",
@@ -660,6 +776,10 @@ export const vocabTopik2Day34: VocabCard[] = [
     "tags": [],
     "day": 34,
     "dayOrder": 30,
-    "audioUrl": "/audio/word-t2-d34-30-native.mp3"
+    "audioUrl": "/audio/word-t2-d34-30-native.mp3",
+    "relatedPhrases": [
+      "옷을 뒤집다 (lộn ngược áo quần)",
+      "판을 뒤집다 (đảo ngược tình thế, lật ngược thế cờ)"
+    ]
   }
 ]

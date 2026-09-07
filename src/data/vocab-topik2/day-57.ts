@@ -29,9 +29,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "타고납니다"
     ],
     "relatedPhrases": [
-      "재능을 타고나다",
-      "운명을 타고나다",
-      "복을 타고나다"
+      "재능을 타고나다 (có tài năng thiên bẩm)",
+      "복을 타고나다 (có phúc bẩm sinh)"
     ]
   },
   {
@@ -62,10 +61,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "탑니다"
     ],
     "relatedPhrases": [
-      "월급을 타다",
-      "상금을 타다",
-      "용돈을 타다",
-      "복을 타고 태어나다"
+      "월급을 타다 (nhận lương)",
+      "상금을 타다 (nhận tiền thưởng)"
     ],
     "synonyms": [
       "받다"
@@ -96,12 +93,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d57-03-native.mp3",
     "relatedPhrases": [
-      "탄생(을) 하다",
-      "탄생(이) 되다",
-      "생명이 탄생하다",
-      "인물이 탄생하다",
-      "정권이 탄생하다",
-      "작품이 탄생하다"
+      "생명이 탄생하다 (sự sống ra đời)",
+      "탄생(을) 하다 (ra đời, chào đời)"
     ],
     "synonyms": [
       "출생"
@@ -132,9 +125,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d57-04-native.mp3",
     "relatedPhrases": [
-      "탈출(을) 하다",
-      "탈출을 시도하다",
-      "탈출에 성공하다"
+      "탈출을 시도하다 (cố gắng trốn thoát)",
+      "탈출에 성공하다 (trốn thoát thành công)"
     ],
     "synonyms": [
       "도망",
@@ -169,10 +161,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "태웁니다"
     ],
     "relatedPhrases": [
-      "고기를 태우다",
-      "쓰레기를 태우다",
-      "애를 태우다",
-      "마음을 태우다"
+      "쓰레기를 태우다 (đốt rác)",
+      "고기를 태우다 (làm cháy khét thịt khi nấu)"
     ],
     "structure": [
       "sự động từ của '타다'"
@@ -207,9 +197,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "택합니다"
     ],
     "relatedPhrases": [
-      "방법을 택하다",
-      "날짜를 택하다",
-      "교사를 직업으로 택하다"
+      "방법을 택하다 (chọn phương pháp)",
+      "교사를 직업으로 택하다 (chọn nghề giáo viên)"
     ],
     "synonyms": [
       "선택하다",
@@ -244,11 +233,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "터집니다"
     ],
     "relatedPhrases": [
-      "폭탄이 터지다",
-      "속이 터지다",
-      "배가 터지다",
-      "불만이 터지다",
-      "울음이 터지다"
+      "폭탄이 터지다 (bom nổ)",
+      "울음이 터지다 (bật khóc)"
     ]
   },
   {
@@ -273,7 +259,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d57-08-native.mp3",
     "relatedPhrases": [
-      "텅 비다"
+      "텅 비다 (trống rỗng, trống trơn)",
+      "텅 빈 거리 (con phố vắng tanh)"
     ]
   },
   {
@@ -299,9 +286,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d57-09-native.mp3",
     "pronunciationIrregular": "토이",
     "relatedPhrases": [
-      "토의(를) 하다",
-      "토의(가) 되다",
-      "토의가 진행되다"
+      "토의(를) 하다 (thảo luận)",
+      "토의가 진행되다 (cuộc thảo luận diễn ra)"
     ],
     "synonyms": [
       "토론"
@@ -329,10 +315,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d57-10-native.mp3",
     "relatedPhrases": [
-      "통계를 내다",
-      "통계가 나오다",
-      "통계를 발표하다",
-      "통계에 따르다"
+      "통계에 따르다 (theo thống kê)",
+      "통계를 발표하다 (công bố số liệu thống kê)"
     ],
     "relatedWords": [
       "통계적"
@@ -360,9 +344,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d57-11-native.mp3",
     "relatedPhrases": [
-      "통과(를) 하다",
-      "통과(가) 되다",
-      "통과(를) 시키다"
+      "통과(를) 하다 (vượt qua, thông qua)",
+      "통과(가) 되다 (được thông qua)"
     ],
     "antonyms": [
       "탈락"
@@ -391,11 +374,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d57-12-native.mp3",
     "pronunciationIrregular": "통쯩",
     "relatedPhrases": [
-      "통증이 있다",
-      "통증이 없다",
-      "통증이 심하다",
-      "통증을 느끼다",
-      "통증을 없애다"
+      "통증이 심하다 (đau dữ dội)",
+      "통증을 없애다 (làm hết đau)"
     ],
     "synonyms": [
       "아픔"
@@ -423,10 +403,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d57-13-native.mp3",
     "relatedPhrases": [
-      "통행(을) 하다",
-      "통행이 되다",
-      "통행을 금지하다",
-      "통행을 개방하다"
+      "통행을 금지하다 (cấm đi lại)",
+      "통행을 개방하다 (mở cửa cho đi lại)"
     ],
     "relatedWords": [
       "통행금지",
@@ -455,10 +433,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d57-14-native.mp3",
     "relatedPhrases": [
-      "퇴직(을) 하다",
-      "퇴직(이) 되다",
-      "퇴직을 당하다",
-      "퇴직을 강요받다"
+      "퇴직(을) 하다 (nghỉ hưu)",
+      "퇴직을 당하다 (bị buộc thôi việc)"
     ],
     "synonyms": [
       "퇴사",
@@ -497,9 +473,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d57-15-native.mp3",
     "relatedPhrases": [
-      "투자(를) 하다",
-      "투자(가) 되다",
-      "투자를 받다"
+      "투자(를) 하다 (đầu tư)",
+      "투자를 받다 (nhận được đầu tư)"
     ],
     "relatedWords": [
       "투자자",
@@ -529,10 +504,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d57-16-native.mp3",
     "relatedPhrases": [
-      "투표(를) 하다",
-      "투표(가) 되다",
-      "투표를 실시하다",
-      "투표로 결정하다"
+      "투표를 실시하다 (tiến hành bỏ phiếu)",
+      "투표(를) 하다 (bỏ phiếu)"
     ],
     "synonyms": [
       "선거"
@@ -573,6 +546,10 @@ export const vocabTopik2Day57: VocabCard[] = [
       "틀림없으면",
       "틀림없습니다"
     ],
+    "relatedPhrases": [
+      "범인임에 틀림없다 (chắc chắn là thủ phạm)",
+      "사실임에 틀림없다 (chắc chắn là sự thật)"
+    ],
     "synonyms": [
       "정확하다"
     ],
@@ -605,11 +582,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d57-18-native.mp3",
     "relatedPhrases": [
-      "틈이 나다",
-      "틈이 있다",
-      "틈이 없다",
-      "틈이 생기다",
-      "틈이 벌어지다"
+      "틈이 나다 (có thời gian rảnh)",
+      "틈이 없다 (không có thời gian rảnh, bận rộn)"
     ],
     "structure": [
       "V-ㄹ 틈이 없다"
@@ -641,12 +615,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d57-19-native.mp3",
     "relatedPhrases": [
-      "파괴(를) 하다",
-      "파괴(가) 되다",
-      "파괴(를) 시키다",
-      "건물을 파괴하다",
-      "자연을 파괴하다",
-      "가정을 파괴하다"
+      "자연을 파괴하다 (phá hủy tự nhiên)",
+      "파괴(가) 되다 (bị phá hủy)"
     ],
     "relatedWords": [
       "파괴적",
@@ -676,10 +646,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d57-20-native.mp3",
     "relatedPhrases": [
-      "판단(을) 하다",
-      "판단(이) 되다",
-      "판단이 서다",
-      "판단을 내리다"
+      "판단(을) 하다 (phán xét, phán đoán)",
+      "판단이 서다 (có được nhận định rõ ràng)"
     ],
     "relatedWords": [
       "판단력"
@@ -707,10 +675,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d57-21-native.mp3",
     "relatedPhrases": [
-      "판매(를) 하다",
-      "판매(가) 되다",
-      "판매가 늘다",
-      "판매가 줄다"
+      "판매가 늘다 (doanh số bán hàng tăng)",
+      "판매(를) 하다 (bán hàng)"
     ],
     "antonyms": [
       "구매",
@@ -751,10 +717,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "퍼집니다"
     ],
     "relatedPhrases": [
-      "소문이 퍼지다",
-      "향기가 퍼지다",
-      "마을에 퍼지다",
-      "사방으로 퍼지다"
+      "소문이 퍼지다 (tin đồn lan truyền)",
+      "사방으로 퍼지다 (lan ra khắp nơi)"
     ],
     "structure": [
       "N이/가 퍼지다",
@@ -787,12 +751,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d57-23-native.mp3",
     "relatedPhrases": [
-      "편견이 있다",
-      "편견을 가지다",
-      "편견을 버리다",
-      "편견에 빠지다",
-      "편견에 사로잡히다",
-      "편견에서 벗어나다"
+      "편견에 사로잡히다 (bị thành kiến chi phối)",
+      "편견을 버리다 (bỏ thành kiến)"
     ]
   },
   {
@@ -818,10 +778,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d57-24-native.mp3",
     "pronunciationIrregular": "펴니",
     "relatedPhrases": [
-      "편의를 봐 주다",
-      "편의를 생각하다",
-      "편의를 고려하다",
-      "편의를 도모하다"
+      "편의를 봐 주다 (tạo điều kiện thuận lợi)",
+      "편의를 도모하다 (mưu cầu sự tiện lợi)"
     ],
     "relatedWords": [
       "편의점",
@@ -851,10 +809,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d57-25-native.mp3",
     "relatedPhrases": [
-      "편히 쉬다",
-      "편히 살다",
-      "편히 자다",
-      "편히 모시다"
+      "편히 쉬다 (nghỉ ngơi thoải mái)",
+      "편히 자다 (ngủ thoải mái, ngon giấc)"
     ],
     "relatedWords": [
       "편하다 (tính từ)"
@@ -888,11 +844,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "펼칩니다"
     ],
     "relatedPhrases": [
-      "책을 펼치다",
-      "우산을 펼치다",
-      "경기를 펼치다",
-      "꿈을 펼치다",
-      "주장을 펼치다"
+      "책을 펼치다 (mở sách ra)",
+      "꿈을 펼치다 (theo đuổi ước mơ)"
     ]
   },
   {
@@ -917,14 +870,8 @@ export const vocabTopik2Day57: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d57-27-native.mp3",
     "relatedPhrases": [
-      "평균 수명",
-      "평균 연령",
-      "평균 성적",
-      "평균 기온",
-      "평균이 되다",
-      "평균이 나오다",
-      "평균을 내다",
-      "평균을 계산하다"
+      "평균 수명 (tuổi thọ trung bình)",
+      "평균을 내다 (tính giá trị trung bình)"
     ]
   },
   {
@@ -955,9 +902,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "평등합니다"
     ],
     "relatedPhrases": [
-      "대우가 평등하다",
-      "기회가 평등하다",
-      "평등하게 대하다"
+      "기회가 평등하다 (cơ hội bình đẳng)",
+      "평등하게 대하다 (đối xử bình đẳng)"
     ],
     "antonyms": [
       "불평등하다"
@@ -991,8 +937,8 @@ export const vocabTopik2Day57: VocabCard[] = [
       "평범합니다"
     ],
     "relatedPhrases": [
-      "외모가 평범하다",
-      "행동이 평범하다"
+      "외모가 평범하다 (ngoại hình bình thường)",
+      "행동이 평범하다 (hành động bình thường)"
     ],
     "antonyms": [
       "유별나다",
@@ -1022,6 +968,10 @@ export const vocabTopik2Day57: VocabCard[] = [
     "day": 57,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d57-30-native.mp3",
+    "relatedPhrases": [
+      "평상시와 다르다 (khác với ngày thường)",
+      "평상시처럼 지내다 (sống như ngày thường)"
+    ],
     "synonyms": [
       "평소"
     ]

@@ -23,8 +23,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d11-01-native.mp3",
     "relatedPhrases": [
-      "보고서를 작성하다",
-      "보고서를 제출하다"
+      "보고서를 작성하다 (soạn báo cáo)",
+      "보고서를 제출하다 (nộp báo cáo)"
     ]
   },
   {
@@ -49,8 +49,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d11-02-native.mp3",
     "relatedPhrases": [
-      "보관(을) 하다",
-      "보관(이) 되다"
+      "보관(을) 하다 (giữ, bảo quản)",
+      "보관(이) 되다 (được bảo quản)"
     ],
     "relatedWords": [
       "보관함"
@@ -78,10 +78,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d11-03-native.mp3",
     "relatedPhrases": [
-      "보람(이) 되다",
-      "보람이 있다",
-      "보람이 없다",
-      "보람을 느끼다"
+      "보람이 있다 (có ý nghĩa, bõ công)",
+      "보람을 느끼다 (cảm thấy có ý nghĩa)"
     ]
   },
   {
@@ -106,13 +104,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d11-04-native.mp3",
     "relatedPhrases": [
-      "보험금",
-      "보험료",
-      "건강 보험",
-      "고용 보험",
-      "보험에 가입하다",
-      "보험에 들다",
-      "보험을 해약하다"
+      "보험에 가입하다 (tham gia bảo hiểm)",
+      "보험료 (phí bảo hiểm)"
     ]
   },
   {
@@ -137,13 +130,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d11-05-native.mp3",
     "relatedPhrases": [
-      "보호자",
-      "환경 보호",
-      "자연 보호",
-      "문화재 보호",
-      "보호(를) 하다",
-      "보호(가) 되다",
-      "보호를 받다"
+      "보호를 받다 (được bảo vệ)",
+      "자연 보호 (bảo vệ thiên nhiên)"
     ]
   },
   {
@@ -167,7 +155,11 @@ export const vocabTopik2Day11: VocabCard[] = [
     "day": 11,
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d11-06-native.mp3",
-    "pronunciationIrregular": "복또"
+    "pronunciationIrregular": "복또",
+    "relatedPhrases": [
+      "복도를 지나다 (đi qua hành lang)",
+      "복도에서 기다리다 (đợi ở hành lang)"
+    ]
   },
   {
     "id": "t2-d11-07",
@@ -192,8 +184,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d11-07-native.mp3",
     "pronunciationIrregular": "보굥",
     "relatedPhrases": [
-      "복용(을) 하다",
-      "복용에 주의하다"
+      "복용(을) 하다 (uống thuốc)",
+      "복용에 주의하다 (chú ý khi uống thuốc)"
     ]
   },
   {
@@ -216,7 +208,11 @@ export const vocabTopik2Day11: VocabCard[] = [
     "tags": [],
     "day": 11,
     "dayOrder": 8,
-    "audioUrl": "/audio/word-t2-d11-08-native.mp3"
+    "audioUrl": "/audio/word-t2-d11-08-native.mp3",
+    "relatedPhrases": [
+      "본인이 직접 하다 (tự bản thân trực tiếp làm)",
+      "본인 확인 (xác minh danh tính)"
+    ]
   },
   {
     "id": "t2-d11-09",
@@ -240,6 +236,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d11-09-native.mp3",
     "pronunciationIrregular": "볼꺼리",
+    "relatedPhrases": [
+      "볼거리를 제공하다 (cung cấp điều thú vị để xem)",
+      "볼거리가 많다 (có nhiều thứ để xem)"
+    ],
     "synonyms": [
       "구경거리"
     ]
@@ -267,9 +267,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d11-10-native.mp3",
     "pronunciationIrregular": "볼릴",
     "relatedPhrases": [
-      "볼일을 보다",
-      "볼일이 있다",
-      "볼일이 남다"
+      "볼일을 보다 (giải quyết việc riêng)",
+      "볼일이 있다 (có việc riêng)"
     ]
   },
   {
@@ -294,8 +293,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d11-11-native.mp3",
     "relatedPhrases": [
-      "봉사(를) 하다",
-      "봉사 활동을 하다"
+      "봉사(를) 하다 (làm việc tình nguyện)",
+      "봉사 활동을 하다 (tham gia hoạt động tình nguyện)"
     ]
   },
   {
@@ -320,9 +319,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d11-12-native.mp3",
     "relatedPhrases": [
-      "부담(이) 되다",
-      "부담을 갖다",
-      "부담을 주다"
+      "부담(이) 되다 (trở thành gánh nặng)",
+      "부담을 갖다 (cảm thấy áp lực)"
     ]
   },
   {
@@ -345,7 +343,11 @@ export const vocabTopik2Day11: VocabCard[] = [
     "tags": [],
     "day": 11,
     "dayOrder": 13,
-    "audioUrl": "/audio/word-t2-d11-13-native.mp3"
+    "audioUrl": "/audio/word-t2-d11-13-native.mp3",
+    "relatedPhrases": [
+      "재능을 부러워하다 (ghen tị với tài năng)",
+      "친구를 부러워하다 (ghen tị với bạn bè)"
+    ]
   },
   {
     "id": "t2-d11-14",
@@ -370,6 +372,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d11-14-native.mp3",
     "structure": [
       "N이/가 부러지다"
+    ],
+    "relatedPhrases": [
+      "다리가 부러지다 (gãy chân)",
+      "젓가락이 부러지다 (đũa bị gãy)"
     ]
   },
   {
@@ -394,10 +400,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d11-15-native.mp3",
     "relatedPhrases": [
-      "애교를 부리다",
-      "고집을 부리다",
-      "심술을 부리다",
-      "욕심을 부리다"
+      "애교를 부리다 (làm nũng, điệu đà)",
+      "고집을 부리다 (cố chấp, khăng khăng)"
     ]
   },
   {
@@ -422,6 +426,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d11-16-native.mp3",
     "pronunciationIrregular": "불리하다",
+    "relatedPhrases": [
+      "쓰레기를 분리하다 (phân loại rác)",
+      "구역을 분리하다 (phân chia khu vực)"
+    ],
     "synonyms": [
       "나누다"
     ]
@@ -447,6 +455,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "day": 11,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d11-17-native.mp3",
+    "relatedPhrases": [
+      "분명히 기억하다 (nhớ rõ ràng)",
+      "분명히 보다 (thấy chắc chắn)"
+    ],
     "synonyms": [
       "확실히"
     ]
@@ -472,6 +484,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "day": 11,
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d11-18-native.mp3",
+    "relatedPhrases": [
+      "지갑을 분실하다 (làm mất ví)",
+      "물건을 분실하다 (làm mất đồ)"
+    ],
     "synonyms": [
       "잃어버리다"
     ],
@@ -502,8 +518,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d11-19-native.mp3",
     "pronunciationIrregular": "불규치카다",
     "relatedPhrases": [
-      "생활이 불규칙하다",
-      "식사가 불규칙하다"
+      "생활이 불규칙하다 (sinh hoạt thất thường)",
+      "식사가 불규칙하다 (ăn uống thất thường)"
     ]
   },
   {
@@ -528,9 +544,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d11-20-native.mp3",
     "relatedPhrases": [
-      "불균형하다",
-      "불균형이 되다",
-      "불균형을 이루다"
+      "불균형이 되다 (trở nên mất cân bằng)",
+      "불균형을 이루다 (tạo ra sự mất cân bằng)"
     ],
     "antonyms": [
       "균형 (cân bằng)"
@@ -558,10 +573,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d11-21-native.mp3",
     "relatedPhrases": [
-      "불만이 있다",
-      "불만이 없다",
-      "불만이 쌓이다",
-      "불만을 가지다"
+      "불만이 있다 (có điều không hài lòng)",
+      "불만을 가지다 (mang trong lòng sự bất mãn)"
     ]
   },
   {
@@ -586,6 +599,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d11-22-native.mp3",
     "pronunciationIrregular": "불만족쓰럽따",
+    "relatedPhrases": [
+      "표정이 불만족스럽다 (vẻ mặt không hài lòng)",
+      "제품이 불만족스럽다 (sản phẩm không hài lòng)"
+    ],
     "synonyms": [
       "불만족하다"
     ],
@@ -615,6 +632,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "day": 11,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d11-23-native.mp3",
+    "relatedPhrases": [
+      "불완전한 제품 (sản phẩm chưa hoàn thiện)",
+      "불완전한 사람 (con người không hoàn hảo)"
+    ],
     "antonyms": [
       "완전하다"
     ]
@@ -641,10 +662,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d11-24-native.mp3",
     "relatedPhrases": [
-      "불평(을) 하다",
-      "불평이 있다",
-      "불평을 듣다",
-      "불평을 늘어놓다"
+      "불평(을) 하다 (phàn nàn)",
+      "불평을 늘어놓다 (than phiền dài dòng)"
     ]
   },
   {
@@ -669,7 +688,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d11-25-native.mp3",
     "relatedPhrases": [
-      "공원이 사람들로 붐비다"
+      "공원이 사람들로 붐비다 (công viên đông đúc người)",
+      "거리가 붐비다 (đường phố đông đúc)"
     ],
     "structure": [
       "N1이/가 N2(으)로 붐비다"
@@ -699,6 +719,10 @@ export const vocabTopik2Day11: VocabCard[] = [
     "pronunciationIrregular": "붇따",
     "structure": [
       "N이/가 붓다"
+    ],
+    "relatedPhrases": [
+      "눈이 붓다 (mắt sưng)",
+      "다친 곳이 붓다 (chỗ bị thương sưng lên)"
     ]
   },
   {
@@ -722,7 +746,11 @@ export const vocabTopik2Day11: VocabCard[] = [
     "day": 11,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d11-27-native.mp3",
-    "pronunciationIrregular": "붇따"
+    "pronunciationIrregular": "붇따",
+    "relatedPhrases": [
+      "물을 붓다 (đổ nước)",
+      "술을 붓다 (rót rượu)"
+    ]
   },
   {
     "id": "t2-d11-28",
@@ -744,7 +772,11 @@ export const vocabTopik2Day11: VocabCard[] = [
     "tags": [],
     "day": 11,
     "dayOrder": 28,
-    "audioUrl": "/audio/word-t2-d11-28-native.mp3"
+    "audioUrl": "/audio/word-t2-d11-28-native.mp3",
+    "relatedPhrases": [
+      "눈을 비비다 (dụi mắt)",
+      "밥을 비비다 (trộn cơm)"
+    ]
   },
   {
     "id": "t2-d11-29",
@@ -766,7 +798,11 @@ export const vocabTopik2Day11: VocabCard[] = [
     "tags": [],
     "day": 11,
     "dayOrder": 29,
-    "audioUrl": "/audio/word-t2-d11-29-native.mp3"
+    "audioUrl": "/audio/word-t2-d11-29-native.mp3",
+    "relatedPhrases": [
+      "비상구로 나가다 (thoát ra qua cửa thoát hiểm)",
+      "비상구를 확인하다 (kiểm tra cửa thoát hiểm)"
+    ]
   },
   {
     "id": "t2-d11-30",
@@ -790,8 +826,8 @@ export const vocabTopik2Day11: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d11-30-native.mp3",
     "relatedPhrases": [
-      "비용이 들다",
-      "비용을 지불하다"
+      "비용이 들다 (tốn chi phí)",
+      "비용을 지불하다 (thanh toán chi phí)"
     ],
     "synonyms": [
       "경비"

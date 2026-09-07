@@ -23,10 +23,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d48-01-native.mp3",
     "relatedPhrases": [
-      "열기가 뜨겁다",
-      "열기가 식다",
-      "열기로 가득 차다",
-      "열기를 더하다"
+      "열기가 뜨겁다 (không khí/nhiệt độ nóng bỏng)",
+      "열기가 식다 (sự sôi nổi nguội dần)"
     ]
   },
   {
@@ -51,6 +49,10 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d48-02-native.mp3",
     "pronunciationIrregular": "열쩡적",
+    "relatedPhrases": [
+      "열정적인 응원 (sự cổ vũ nhiệt huyết)",
+      "열정적으로 일하다 (làm việc một cách nhiệt huyết)"
+    ],
     "synonyms": [
       "열성적"
     ]
@@ -85,6 +87,10 @@ export const vocabTopik2Day48: VocabCard[] = [
     ],
     "structure": [
       "N1이/가 N2에 열중하다"
+    ],
+    "relatedPhrases": [
+      "일에 열중하다 (say mê với công việc)",
+      "공부에 열중하다 (chăm chú học tập)"
     ],
     "synonyms": [
       "몰두하다",
@@ -121,9 +127,8 @@ export const vocabTopik2Day48: VocabCard[] = [
       "엿봅니다"
     ],
     "relatedPhrases": [
-      "생각을 엿보다",
-      "기회를 엿보다",
-      "생활을 엿보다"
+      "기회를 엿보다 (rình cơ hội)",
+      "생각을 엿보다 (đoán được suy nghĩ)"
     ]
   },
   {
@@ -148,10 +153,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d48-05-native.mp3",
     "relatedPhrases": [
-      "영업(을) 하다",
-      "영업이 되다",
-      "영업을 시작하다",
-      "영업이 정지되다"
+      "영업을 시작하다 (bắt đầu kinh doanh)",
+      "영업이 정지되다 (bị đình chỉ kinh doanh)"
     ]
   },
   {
@@ -180,6 +183,10 @@ export const vocabTopik2Day48: VocabCard[] = [
       "영원해서",
       "영원하면",
       "영원합니다"
+    ],
+    "relatedPhrases": [
+      "영원한 사랑 (tình yêu vĩnh cửu)",
+      "영원한 우정 (tình bạn vĩnh cửu)"
     ],
     "synonyms": [
       "무한하다",
@@ -212,10 +219,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d48-07-native.mp3",
     "pronunciationIrregular": "영향녁",
     "relatedPhrases": [
-      "영향력이 있다",
-      "영향력이 크다",
-      "영향력을 지니다",
-      "영향력을 발휘하다"
+      "영향력을 발휘하다 (phát huy sức ảnh hưởng)",
+      "영향력이 크다 (sức ảnh hưởng lớn)"
     ]
   },
   {
@@ -240,10 +245,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d48-08-native.mp3",
     "relatedPhrases": [
-      "예감(을) 하다",
-      "예감이 좋다",
-      "예감이 들다",
-      "예감을 받다"
+      "예감이 좋다 (có dự cảm tốt)",
+      "예감이 들다 (nảy sinh dự cảm)"
     ]
   },
   {
@@ -268,11 +271,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d48-09-native.mp3",
     "relatedPhrases": [
-      "예산을 짜다",
-      "예산을 마련하다",
-      "예산에 맞추다",
-      "예산을 절감하다",
-      "예산을 확충하다"
+      "예산을 짜다 (lập ngân sách)",
+      "예산을 절감하다 (cắt giảm ngân sách)"
     ],
     "antonyms": [
       "결산"
@@ -300,10 +300,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d48-10-native.mp3",
     "relatedPhrases": [
-      "예외가 있다",
-      "예외가 되다",
-      "예외를 시키다",
-      "예외로 처리하다"
+      "예외가 있다 (có ngoại lệ)",
+      "예외로 처리하다 (xử lý như ngoại lệ)"
     ],
     "relatedWords": [
       "예외적"
@@ -331,10 +329,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d48-11-native.mp3",
     "relatedPhrases": [
-      "오염(이) 되다",
-      "오염(을) 시키다",
-      "오염이 심하다",
-      "오염을 방지하다"
+      "오염이 심하다 (ô nhiễm nghiêm trọng)",
+      "오염을 방지하다 (ngăn ngừa ô nhiễm)"
     ],
     "relatedWords": [
       "대기 오염",
@@ -368,6 +364,10 @@ export const vocabTopik2Day48: VocabCard[] = [
       "오직 N만 + V/A",
       "오직 N뿐이다"
     ],
+    "relatedPhrases": [
+      "오직 너뿐이다 (chỉ mỗi cậu thôi)",
+      "오직 하나만 (chỉ duy nhất một)"
+    ],
     "synonyms": [
       "오로지"
     ]
@@ -393,6 +393,10 @@ export const vocabTopik2Day48: VocabCard[] = [
     "day": 48,
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d48-13-native.mp3",
+    "relatedPhrases": [
+      "오히려 화를 내다 (ngược lại còn nổi giận)",
+      "오히려 더 좋다 (ngược lại còn tốt hơn)"
+    ],
     "synonyms": [
       "도리어",
       "반대로"
@@ -420,6 +424,10 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d48-14-native.mp3",
     "pronunciationIrregular": "온갇",
+    "relatedPhrases": [
+      "온갖 노력을 기울이다 (dốc hết mọi nỗ lực)",
+      "온갖 고생을 하다 (chịu đủ mọi vất vả)"
+    ],
     "synonyms": [
       "모든"
     ]
@@ -453,10 +461,8 @@ export const vocabTopik2Day48: VocabCard[] = [
       "완벽합니다"
     ],
     "relatedPhrases": [
-      "성격이 완벽하다",
-      "준비가 완벽하다",
-      "계획이 완벽하다",
-      "논리가 완벽하다"
+      "준비가 완벽하다 (sự chuẩn bị hoàn hảo)",
+      "계획이 완벽하다 (kế hoạch hoàn hảo)"
     ],
     "synonyms": [
       "완전무결하다",
@@ -487,6 +493,10 @@ export const vocabTopik2Day48: VocabCard[] = [
     "day": 48,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d48-16-native.mp3",
+    "relatedPhrases": [
+      "완전 개방 (mở cửa hoàn toàn)",
+      "완전 국산화 (nội địa hóa hoàn toàn)"
+    ],
     "antonyms": [
       "불완전"
     ],
@@ -516,6 +526,10 @@ export const vocabTopik2Day48: VocabCard[] = [
     "day": 48,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d48-17-native.mp3",
+    "relatedPhrases": [
+      "왠지 모르게 (không hiểu vì sao)",
+      "왠지 불안하다 (không hiểu sao thấy bất an)"
+    ],
     "synonyms": [
       "어쩐지"
     ]
@@ -548,10 +562,8 @@ export const vocabTopik2Day48: VocabCard[] = [
       "외칩니다"
     ],
     "relatedPhrases": [
-      "만세를 외치다",
-      "구호를 외치다",
-      "민주주의를 외치다",
-      "개혁을 외치다"
+      "만세를 외치다 (hô vạn tuế)",
+      "구호를 외치다 (hô khẩu hiệu)"
     ],
     "structure": [
       "V-ㄴ/는다고 외치다",
@@ -583,10 +595,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d48-19-native.mp3",
     "relatedPhrases": [
-      "요구(를) 하다",
-      "요구(가) 되다",
-      "요구를 들어주다",
-      "요구를 거절하다"
+      "요구를 들어주다 (đáp ứng yêu cầu)",
+      "요구를 거절하다 (từ chối yêu cầu)"
     ],
     "synonyms": [
       "요청"
@@ -614,11 +624,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d48-20-native.mp3",
     "relatedPhrases": [
-      "요약(을) 하다",
-      "요약(이) 되다",
-      "내용을 요약하다",
-      "줄거리를 요약하다",
-      "간단하게 요약하다"
+      "내용을 요약하다 (tóm tắt nội dung)",
+      "간단하게 요약하다 (tóm tắt ngắn gọn)"
     ]
   },
   {
@@ -643,9 +650,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d48-21-native.mp3",
     "relatedPhrases": [
-      "요인이 되다",
-      "요인을 분석하다",
-      "요인을 파악하다"
+      "요인이 되다 (trở thành yếu tố)",
+      "요인을 분석하다 (phân tích yếu tố)"
     ]
   },
   {
@@ -670,13 +676,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d48-22-native.mp3",
     "relatedPhrases": [
-      "요청(을) 하다",
-      "요청(이) 되다",
-      "요청을 받다",
-      "요청을 들어주다",
-      "협력을 요청하다",
-      "지원을 요청하다",
-      "구조를 요청하다"
+      "구조를 요청하다 (yêu cầu cứu hộ)",
+      "지원을 요청하다 (yêu cầu hỗ trợ)"
     ],
     "synonyms": [
       "요구"
@@ -708,6 +709,10 @@ export const vocabTopik2Day48: VocabCard[] = [
       "용감해서",
       "용감하면",
       "용감합니다"
+    ],
+    "relatedPhrases": [
+      "용감한 행동 (hành động dũng cảm)",
+      "용감하게 맞서다 (dũng cảm đối mặt)"
     ],
     "synonyms": [
       "씩씩하다",
@@ -741,10 +746,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d48-24-native.mp3",
     "pronunciationIrregular": "용껀",
     "relatedPhrases": [
-      "용건이 있다",
-      "용건이 급하다",
-      "용건을 말하다",
-      "용건을 밝히다"
+      "용건을 말하다 (nói rõ việc cần nói)",
+      "용건이 있다 (có việc cần nói)"
     ],
     "synonyms": [
       "볼일",
@@ -773,10 +776,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d48-25-native.mp3",
     "relatedPhrases": [
-      "용도가 있다",
-      "용도가 다양하다",
-      "용도로 사용하다",
-      "용도에 맞다"
+      "용도가 다양하다 (công dụng đa dạng)",
+      "용도에 맞다 (phù hợp với mục đích sử dụng)"
     ],
     "synonyms": [
       "쓰임새"
@@ -804,11 +805,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d48-26-native.mp3",
     "relatedPhrases": [
-      "용서(를) 하다",
-      "용서(가) 되다",
-      "용서를 빌다",
-      "용서를 구하다",
-      "용서를 받다"
+      "용서를 빌다 (xin tha thứ)",
+      "용서를 받다 (được tha thứ)"
     ]
   },
   {
@@ -839,8 +837,8 @@ export const vocabTopik2Day48: VocabCard[] = [
       "우깁니다"
     ],
     "relatedPhrases": [
-      "의견을 우기다",
-      "맞다고 우기다"
+      "의견을 우기다 (khăng khăng giữ ý kiến)",
+      "맞다고 우기다 (khăng khăng cho là đúng)"
     ],
     "structure": [
       "N을/를 우기다",
@@ -873,11 +871,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d48-28-native.mp3",
     "relatedPhrases": [
-      "우려(를) 하다",
-      "우려(가) 되다",
-      "우려가 있다",
-      "우려가 크다",
-      "우려를 낳다"
+      "우려가 크다 (mối lo ngại lớn)",
+      "우려를 낳다 (gây ra lo ngại)"
     ],
     "synonyms": [
       "걱정",
@@ -906,9 +901,8 @@ export const vocabTopik2Day48: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d48-29-native.mp3",
     "relatedPhrases": [
-      "우승(을) 하다",
-      "우승을 거두다",
-      "우승을 차지하다"
+      "우승을 차지하다 (giành chức vô địch)",
+      "우승을 거두다 (đạt được chức vô địch)"
     ]
   },
   {
@@ -939,9 +933,8 @@ export const vocabTopik2Day48: VocabCard[] = [
       "우아합니다"
     ],
     "relatedPhrases": [
-      "모습이 우아하다",
-      "말투가 우아하다",
-      "분위기가 우아하다"
+      "모습이 우아하다 (dáng vẻ thanh lịch)",
+      "분위기가 우아하다 (bầu không khí tao nhã)"
     ],
     "synonyms": [
       "고상하다"

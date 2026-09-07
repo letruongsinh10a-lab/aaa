@@ -22,7 +22,11 @@ export const vocabTopik2Day44: VocabCard[] = [
     "day": 44,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d44-01-native.mp3",
-    "pronunciationIrregular": "수도꿘"
+    "pronunciationIrregular": "수도꿘",
+    "relatedPhrases": [
+      "수도권 인구 (dân số khu vực thủ đô)",
+      "수도권 집값 (giá nhà khu vực thủ đô)"
+    ]
   },
   {
     "id": "t2-d44-02",
@@ -45,6 +49,10 @@ export const vocabTopik2Day44: VocabCard[] = [
     "day": 44,
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d44-02-native.mp3",
+    "relatedPhrases": [
+      "수동적인 태도 (thái độ thụ động)",
+      "수동적으로 수업을 듣다 (thụ động nghe giảng)"
+    ],
     "antonyms": [
       "능동적"
     ]
@@ -71,8 +79,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d44-03-native.mp3",
     "relatedPhrases": [
-      "수명이 길다",
-      "수명이 늘어나다"
+      "수명이 길다 (tuổi thọ dài)",
+      "수명이 늘어나다 (tuổi thọ kéo dài)"
     ]
   },
   {
@@ -97,8 +105,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d44-04-native.mp3",
     "relatedPhrases": [
-      "수속을 밟다",
-      "수속을 마치다"
+      "수속을 밟다 (làm thủ tục)",
+      "수속을 마치다 (hoàn tất thủ tục)"
     ]
   },
   {
@@ -122,6 +130,10 @@ export const vocabTopik2Day44: VocabCard[] = [
     "day": 44,
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d44-05-native.mp3",
+    "relatedPhrases": [
+      "수시로 전화하다 (gọi điện thường xuyên)",
+      "수시로 물을 마시다 (uống nước thường xuyên)"
+    ],
     "synonyms": [
       "때때로",
       "자주"
@@ -152,8 +164,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d44-06-native.mp3",
     "relatedPhrases": [
-      "수요가 늘다",
-      "수요가 줄다"
+      "수요가 늘다 (nhu cầu tăng)",
+      "수요가 줄다 (nhu cầu giảm)"
     ],
     "antonyms": [
       "공급"
@@ -181,8 +193,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d44-07-native.mp3",
     "relatedPhrases": [
-      "수용을 하다",
-      "수용이 되다"
+      "수용을 하다 (tiếp nhận)",
+      "수용이 되다 (được tiếp nhận)"
     ]
   },
   {
@@ -207,8 +219,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d44-08-native.mp3",
     "relatedPhrases": [
-      "수준이 높다",
-      "수준에 맞다"
+      "수준이 높다 (trình độ cao)",
+      "수준에 맞다 (phù hợp với trình độ)"
     ]
   },
   {
@@ -239,8 +251,8 @@ export const vocabTopik2Day44: VocabCard[] = [
       "숙입니다"
     ],
     "relatedPhrases": [
-      "고개를 숙이다",
-      "허리를 숙이다"
+      "고개를 숙이다 (cúi đầu)",
+      "허리를 숙이다 (khom lưng)"
     ],
     "synonyms": [
       "굽히다",
@@ -268,6 +280,10 @@ export const vocabTopik2Day44: VocabCard[] = [
     "day": 44,
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d44-10-native.mp3",
+    "relatedPhrases": [
+      "순간적인 부주의 (sự bất cẩn tức thời)",
+      "순간적인 판단 (phán đoán tức thời)"
+    ],
     "synonyms": [
       "일시적"
     ],
@@ -302,6 +318,10 @@ export const vocabTopik2Day44: VocabCard[] = [
       "순수하면",
       "순수합니다"
     ],
+    "relatedPhrases": [
+      "순수한 웃음 (nụ cười trong sáng)",
+      "순수한 마음 (tấm lòng trong sáng)"
+    ],
     "synonyms": [
       "깨끗하다"
     ]
@@ -328,6 +348,10 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d44-12-native.mp3",
     "pronunciationIrregular": "순식깐",
+    "relatedPhrases": [
+      "순식간에 번지다 (lan ra trong chớp mắt)",
+      "순식간에 먹어치우다 (ăn hết sạch trong chớp mắt)"
+    ],
     "synonyms": [
       "삽시간"
     ]
@@ -358,6 +382,10 @@ export const vocabTopik2Day44: VocabCard[] = [
       "순진해서",
       "순진하면",
       "순진합니다"
+    ],
+    "relatedPhrases": [
+      "순진한 표정 (vẻ mặt ngây thơ)",
+      "순진하게 믿다 (tin một cách ngây thơ)"
     ],
     "synonyms": [
       "순박하다"
@@ -391,8 +419,8 @@ export const vocabTopik2Day44: VocabCard[] = [
       "순합니다"
     ],
     "relatedPhrases": [
-      "성격이 순하다",
-      "술이 순하다"
+      "성격이 순하다 (tính cách hiền lành)",
+      "술이 순하다 (rượu nhẹ, êm)"
     ]
   },
   {
@@ -423,8 +451,8 @@ export const vocabTopik2Day44: VocabCard[] = [
       "숨깁니다"
     ],
     "relatedPhrases": [
-      "사실을 숨기다",
-      "마음을 숨기다"
+      "사실을 숨기다 (che giấu sự thật)",
+      "마음을 숨기다 (giấu kín lòng mình)"
     ],
     "synonyms": [
       "감추다"
@@ -458,8 +486,8 @@ export const vocabTopik2Day44: VocabCard[] = [
       "스칩니다"
     ],
     "relatedPhrases": [
-      "옷깃을 스치다",
-      "바람이 스치다"
+      "옷깃을 스치다 (chạm khẽ vạt áo, duyên gặp gỡ thoáng qua)",
+      "바람이 스치다 (gió lướt qua)"
     ]
   },
   {
@@ -483,6 +511,10 @@ export const vocabTopik2Day44: VocabCard[] = [
     "day": 44,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d44-17-native.mp3",
+    "relatedPhrases": [
+      "슬쩍 집어 먹다 (lén lấy ăn)",
+      "슬쩍 보다 (liếc nhìn khẽ)"
+    ],
     "synonyms": [
       "슬그머니",
       "몰래"
@@ -510,8 +542,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d44-18-native.mp3",
     "relatedPhrases": [
-      "승낙을 받다",
-      "승낙을 하다"
+      "승낙을 받다 (nhận được sự đồng ý)",
+      "승낙을 하다 (đồng ý, ưng thuận)"
     ],
     "synonyms": [
       "허락"
@@ -543,8 +575,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d44-19-native.mp3",
     "pronunciationIrregular": "승니",
     "relatedPhrases": [
-      "승리를 거두다",
-      "승리를 얻다"
+      "승리를 거두다 (giành chiến thắng)",
+      "승리를 얻다 (đạt được chiến thắng)"
     ],
     "synonyms": [
       "우승"
@@ -575,8 +607,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d44-20-native.mp3",
     "relatedPhrases": [
-      "승패를 가르다",
-      "승패를 결정하다"
+      "승패를 가르다 (phân định thắng thua)",
+      "승패를 결정하다 (quyết định thắng thua)"
     ],
     "synonyms": [
       "승부"
@@ -603,6 +635,10 @@ export const vocabTopik2Day44: VocabCard[] = [
     "day": 44,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d44-21-native.mp3",
+    "relatedPhrases": [
+      "시각이 다르다 (góc nhìn khác nhau)",
+      "다양한 시각 (nhiều góc nhìn khác nhau)"
+    ],
     "synonyms": [
       "관점"
     ]
@@ -634,6 +670,10 @@ export const vocabTopik2Day44: VocabCard[] = [
       "시달리면",
       "시달립니다"
     ],
+    "relatedPhrases": [
+      "불면증에 시달리다 (bị chứng mất ngủ hành hạ)",
+      "업무에 시달리다 (bị công việc hành hạ)"
+    ],
     "structure": [
       "N에/에게 시달리다"
     ]
@@ -660,8 +700,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d44-23-native.mp3",
     "relatedPhrases": [
-      "시도를 하다",
-      "시도가 되다"
+      "시도를 하다 (thử, cố gắng)",
+      "시도가 되다 (được thử nghiệm)"
     ]
   },
   {
@@ -692,8 +732,8 @@ export const vocabTopik2Day44: VocabCard[] = [
       "시듭니다"
     ],
     "relatedPhrases": [
-      "꽃이 시들다",
-      "잎이 시들다"
+      "꽃이 시들다 (hoa héo)",
+      "잎이 시들다 (lá héo)"
     ]
   },
   {
@@ -718,8 +758,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d44-25-native.mp3",
     "relatedPhrases": [
-      "시력이 좋다",
-      "시력이 나쁘다"
+      "시력이 좋다 (thị lực tốt)",
+      "시력이 나쁘다 (thị lực kém)"
     ]
   },
   {
@@ -744,8 +784,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d44-26-native.mp3",
     "relatedPhrases": [
-      "시선을 끌다",
-      "시선을 피하다"
+      "시선을 끌다 (thu hút ánh nhìn)",
+      "시선을 피하다 (tránh ánh nhìn)"
     ],
     "synonyms": [
       "눈길"
@@ -773,8 +813,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d44-27-native.mp3",
     "relatedPhrases": [
-      "학창 시절",
-      "힘든 시절"
+      "학창 시절 (thời đi học)",
+      "힘든 시절 (thời kỳ khó khăn)"
     ],
     "synonyms": [
       "때"
@@ -802,8 +842,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d44-28-native.mp3",
     "relatedPhrases": [
-      "시합에 나가다",
-      "시합에서 이기다"
+      "시합에 나가다 (tham gia thi đấu)",
+      "시합에서 이기다 (thắng trong trận đấu)"
     ],
     "synonyms": [
       "경기"
@@ -831,8 +871,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d44-29-native.mp3",
     "relatedPhrases": [
-      "법을 시행하다",
-      "제도를 시행하다"
+      "법을 시행하다 (thi hành luật)",
+      "제도를 시행하다 (thực thi chế độ)"
     ],
     "synonyms": [
       "실시"
@@ -860,8 +900,8 @@ export const vocabTopik2Day44: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d44-30-native.mp3",
     "relatedPhrases": [
-      "신념이 강하다",
-      "신념을 지키다"
+      "신념이 강하다 (niềm tin mạnh mẽ)",
+      "신념을 지키다 (giữ vững niềm tin)"
     ]
   }
 ]

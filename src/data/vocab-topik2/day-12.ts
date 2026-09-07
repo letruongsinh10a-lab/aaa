@@ -25,6 +25,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "structure": [
       "N(으)로 비키다"
     ],
+    "relatedPhrases": [
+      "옆으로 비키다 (tránh sang bên)",
+      "길을 비키다 (tránh đường, nhường đường)"
+    ],
     "synonyms": [
       "피하다"
     ]
@@ -51,8 +55,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d12-02-native.mp3",
     "relatedPhrases": [
-      "소원을 빌다",
-      "용서를 빌다"
+      "소원을 빌다 (cầu ước)",
+      "용서를 빌다 (xin tha thứ)"
     ]
   },
   {
@@ -78,7 +82,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-03-native.mp3",
     "pronunciationIrregular": "빋따",
     "relatedPhrases": [
-      "빗으로 머리를 빗다"
+      "빗으로 머리를 빗다 (chải tóc bằng lược)",
+      "머리를 곱게 빗다 (chải tóc gọn gàng, mượt mà)"
     ]
   },
   {
@@ -103,10 +108,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d12-04-native.mp3",
     "relatedPhrases": [
-      "이가 빠지다",
-      "살이 빠지다",
-      "힘이 빠지다",
-      "모임에 빠지다"
+      "이가 빠지다 (rụng răng)",
+      "살이 빠지다 (sụt cân)"
     ]
   },
   {
@@ -131,8 +134,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d12-05-native.mp3",
     "relatedPhrases": [
-      "사탕을 빨다",
-      "손가락을 빨다"
+      "사탕을 빨다 (mút kẹo)",
+      "손가락을 빨다 (mút ngón tay)"
     ]
   },
   {
@@ -158,7 +161,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-06-native.mp3",
     "pronunciationIrregular": "뺃따",
     "relatedPhrases": [
-      "아이에게서 장난감을 뺏다"
+      "아이에게서 장난감을 뺏다 (giành đồ chơi từ tay đứa trẻ)",
+      "휴대폰을 뺏다 (tịch thu điện thoại)"
     ],
     "structure": [
       "N1에게서 N2을/를 뺏다"
@@ -184,7 +188,11 @@ export const vocabTopik2Day12: VocabCard[] = [
     "tags": [],
     "day": 12,
     "dayOrder": 7,
-    "audioUrl": "/audio/word-t2-d12-07-native.mp3"
+    "audioUrl": "/audio/word-t2-d12-07-native.mp3",
+    "relatedPhrases": [
+      "뿌리를 내리다 (bén rễ)",
+      "뿌리를 뽑다 (nhổ tận gốc)"
+    ]
   },
   {
     "id": "t2-d12-08",
@@ -208,10 +216,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d12-08-native.mp3",
     "relatedPhrases": [
-      "향수를 뿌리다",
-      "씨를 뿌리다",
-      "물을 뿌리다",
-      "돈을 뿌리다"
+      "물을 뿌리다 (phun/rưới nước)",
+      "향수를 뿌리다 (xịt nước hoa)"
     ]
   },
   {
@@ -234,7 +240,11 @@ export const vocabTopik2Day12: VocabCard[] = [
     "tags": [],
     "day": 12,
     "dayOrder": 9,
-    "audioUrl": "/audio/word-t2-d12-09-native.mp3"
+    "audioUrl": "/audio/word-t2-d12-09-native.mp3",
+    "relatedPhrases": [
+      "발목을 삐다 (trẹo mắt cá chân)",
+      "손목을 삐다 (trật cổ tay)"
+    ]
   },
   {
     "id": "t2-d12-10",
@@ -259,10 +269,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-10-native.mp3",
     "pronunciationIrregular": "사껀",
     "relatedPhrases": [
-      "사건이 나다",
-      "사건이 생기다",
-      "사건이 발생하다",
-      "사건을 해결하다"
+      "사건이 발생하다 (vụ việc xảy ra)",
+      "사건이 생기다 (xảy ra sự việc)"
     ]
   },
   {
@@ -285,7 +293,11 @@ export const vocabTopik2Day12: VocabCard[] = [
     "tags": [],
     "day": 12,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d12-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d12-11-native.mp3",
+    "relatedPhrases": [
+      "사교적인 성격 (tính cách hòa đồng)",
+      "사교적인 사람 (người hòa đồng)"
+    ]
   },
   {
     "id": "t2-d12-12",
@@ -310,6 +322,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-12-native.mp3",
     "structure": [
       "N이/가 사라지다"
+    ],
+    "relatedPhrases": [
+      "지갑이 사라지다 (ví biến mất)",
+      "눈앞에서 사라지다 (biến mất trước mắt)"
     ],
     "synonyms": [
       "없어지다"
@@ -338,7 +354,11 @@ export const vocabTopik2Day12: VocabCard[] = [
     "tags": [],
     "day": 12,
     "dayOrder": 13,
-    "audioUrl": "/audio/word-t2-d12-13-native.mp3"
+    "audioUrl": "/audio/word-t2-d12-13-native.mp3",
+    "relatedPhrases": [
+      "사물을 보다 (nhìn sự vật)",
+      "사물이 보이다 (nhìn thấy sự vật)"
+    ]
   },
   {
     "id": "t2-d12-14",
@@ -361,7 +381,11 @@ export const vocabTopik2Day12: VocabCard[] = [
     "day": 12,
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d12-14-native.mp3",
-    "pronunciationIrregular": "사용뻡"
+    "pronunciationIrregular": "사용뻡",
+    "relatedPhrases": [
+      "사용법을 가르치다 (chỉ cách sử dụng)",
+      "사용법을 설명하다 (giải thích cách sử dụng)"
+    ]
   },
   {
     "id": "t2-d12-15",
@@ -383,7 +407,11 @@ export const vocabTopik2Day12: VocabCard[] = [
     "tags": [],
     "day": 12,
     "dayOrder": 15,
-    "audioUrl": "/audio/word-t2-d12-15-native.mp3"
+    "audioUrl": "/audio/word-t2-d12-15-native.mp3",
+    "relatedPhrases": [
+      "사회적 동물 (động vật xã hội)",
+      "사회적 문제 (vấn đề xã hội)"
+    ]
   },
   {
     "id": "t2-d12-16",
@@ -408,9 +436,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-16-native.mp3",
     "pronunciationIrregular": "삭쩨",
     "relatedPhrases": [
-      "삭제(를) 하다",
-      "삭제(가) 되다",
-      "삭제(를) 시키다"
+      "삭제(를) 하다 (xóa bỏ)",
+      "삭제(가) 되다 (được xóa bỏ)"
     ],
     "antonyms": [
       "추가 (thêm)"
@@ -439,8 +466,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-17-native.mp3",
     "pronunciationIrregular": "사넙",
     "relatedPhrases": [
-      "기술을 개발하다",
-      "산업이 발달하다"
+      "기술을 개발하다 (phát triển công nghệ)",
+      "산업이 발달하다 (ngành công nghiệp phát triển)"
     ]
   },
   {
@@ -466,6 +493,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-18-native.mp3",
     "structure": [
       "N이/가 살아나다"
+    ],
+    "relatedPhrases": [
+      "기적처럼 살아나다 (sống sót một cách kỳ diệu)",
+      "식물이 살아나다 (cây hồi sinh)"
     ],
     "antonyms": [
       "죽다"
@@ -493,11 +524,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d12-19-native.mp3",
     "relatedPhrases": [
-      "살인자",
-      "살인범",
-      "살인 사건",
-      "살인(을) 하다",
-      "살인을 저지르다"
+      "살인 사건 (vụ án giết người)",
+      "살인을 저지르다 (gây ra tội giết người)"
     ]
   },
   {
@@ -521,6 +549,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "day": 12,
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d12-20-native.mp3",
+    "relatedPhrases": [
+      "살짝 잡아당기다 (khẽ kéo)",
+      "살짝 돌리다 (hơi xoay)"
+    ],
     "synonyms": [
       "약간"
     ]
@@ -546,6 +578,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "day": 12,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d12-21-native.mp3",
+    "relatedPhrases": [
+      "빨리 살찌다 (béo lên nhanh)",
+      "쉽게 살찌다 (dễ béo lên)"
+    ],
     "antonyms": [
       "살이 빠지다"
     ]
@@ -572,8 +608,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d12-22-native.mp3",
     "relatedPhrases": [
-      "자세히 살펴보다",
-      "꼼꼼히 살펴보다"
+      "자세히 살펴보다 (xem xét kỹ càng)",
+      "꼼꼼히 살펴보다 (xem xét tỉ mỉ)"
     ]
   },
   {
@@ -598,6 +634,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d12-23-native.mp3",
     "pronunciationIrregular": "삼",
+    "relatedPhrases": [
+      "행복한 삶 (cuộc sống hạnh phúc)",
+      "삶과 죽음 (sự sống và cái chết)"
+    ],
     "antonyms": [
       "죽음 (cái chết)"
     ]
@@ -625,9 +665,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d12-24-native.mp3",
     "pronunciationIrregular": "삼따",
     "relatedPhrases": [
-      "국수를 삶다",
-      "달걀을 삶다",
-      "고기를 삶다"
+      "국수를 삶다 (luộc mì)",
+      "달걀을 삶다 (luộc trứng)"
     ]
   },
   {
@@ -656,6 +695,10 @@ export const vocabTopik2Day12: VocabCard[] = [
       "N와/과 상관없다",
       "N에 상관없다"
     ],
+    "relatedPhrases": [
+      "나와 상관없다 (không liên quan đến tôi)",
+      "날씨에 상관없이 (bất kể thời tiết)"
+    ],
     "synonyms": [
       "관계없다"
     ]
@@ -682,11 +725,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d12-26-native.mp3",
     "relatedPhrases": [
-      "상담사",
-      "상담실",
-      "상담료",
-      "상담(을) 하다",
-      "상담을 받다"
+      "상담(을) 하다 (tư vấn)",
+      "상담을 받다 (nhận được tư vấn)"
     ]
   },
   {
@@ -710,6 +750,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "day": 12,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d12-27-native.mp3",
+    "relatedPhrases": [
+      "상대방의 입장 (lập trường của đối phương)",
+      "상대방의 의견 (ý kiến của đối phương)"
+    ],
     "synonyms": [
       "상대편"
     ],
@@ -739,10 +783,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d12-28-native.mp3",
     "relatedPhrases": [
-      "상식이 풍부하다",
-      "상식이 부족하다",
-      "상식에 어긋나다",
-      "상식을 벗어나다"
+      "상식이 풍부하다 (giàu kiến thức thường thức)",
+      "상식을 벗어나다 (vượt ra ngoài lẽ thường)"
     ]
   },
   {
@@ -767,8 +809,8 @@ export const vocabTopik2Day12: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d12-29-native.mp3",
     "relatedPhrases": [
-      "상영(을) 하다",
-      "상영(이) 되다"
+      "상영(을) 하다 (trình chiếu)",
+      "상영(이) 되다 (được trình chiếu)"
     ]
   },
   {
@@ -792,6 +834,10 @@ export const vocabTopik2Day12: VocabCard[] = [
     "day": 12,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d12-30-native.mp3",
+    "relatedPhrases": [
+      "상점을 열다 (mở cửa hàng)",
+      "상점에서 사다 (mua ở cửa hàng)"
+    ],
     "synonyms": [
       "가게",
       "점포"

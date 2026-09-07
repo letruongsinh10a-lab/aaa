@@ -23,7 +23,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d14-01-native.mp3",
     "relatedPhrases": [
-      "수면을 취하다"
+      "수면을 취하다 (ngủ, nghỉ ngơi)",
+      "수면이 부족하다 (thiếu ngủ)"
     ],
     "synonyms": [
       "잠"
@@ -51,9 +52,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d14-02-native.mp3",
     "relatedPhrases": [
-      "수선(을) 하다",
-      "수선(이) 되다",
-      "수선을 맡기다"
+      "수선(을) 하다 (sửa, may vá)",
+      "수선을 맡기다 (mang đi sửa)"
     ]
   },
   {
@@ -78,9 +78,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d14-03-native.mp3",
     "relatedPhrases": [
-      "수수료가 붙다",
-      "수수료를 내다",
-      "수수료를 받다"
+      "수수료를 내다 (đóng phí)",
+      "수수료가 붙다 (phát sinh thêm phí)"
     ]
   },
   {
@@ -105,9 +104,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d14-04-native.mp3",
     "relatedPhrases": [
-      "수입이 많다",
-      "수입이 늘다",
-      "수입이 줄다"
+      "수입이 늘다 (thu nhập tăng)",
+      "수입이 줄다 (thu nhập giảm)"
     ],
     "synonyms": [
       "소득"
@@ -138,10 +136,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d14-05-native.mp3",
     "relatedPhrases": [
-      "수입(을) 하다",
-      "수입(이) 되다",
-      "수입이 증가하다",
-      "수입이 감소하다"
+      "수입(을) 하다 (nhập khẩu)",
+      "수입이 증가하다 (nhập khẩu tăng)"
     ],
     "antonyms": [
       "수출 (xuất khẩu)"
@@ -169,8 +165,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d14-06-native.mp3",
     "relatedPhrases": [
-      "수정(을) 하다",
-      "수정(이) 되다"
+      "수정(을) 하다 (sửa, điều chỉnh)",
+      "수정(이) 되다 (được sửa, điều chỉnh)"
     ]
   },
   {
@@ -195,6 +191,10 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d14-07-native.mp3",
     "pronunciationIrregular": "수지파다",
+    "relatedPhrases": [
+      "우표를 수집하다 (sưu tầm tem)",
+      "자료를 수집하다 (thu thập tài liệu)"
+    ],
     "synonyms": [
       "모으다"
     ]
@@ -221,10 +221,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d14-08-native.mp3",
     "relatedPhrases": [
-      "수출(을) 하다",
-      "수출(이) 되다",
-      "수출이 증가하다",
-      "수출이 감소하다"
+      "수출(을) 하다 (xuất khẩu)",
+      "수출이 증가하다 (xuất khẩu tăng)"
     ],
     "antonyms": [
       "수입 (nhập khẩu)"
@@ -253,8 +251,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-09-native.mp3",
     "pronunciationIrregular": "숙빡",
     "relatedPhrases": [
-      "숙박(을) 하다",
-      "숙박이 되다"
+      "숙박(을) 하다 (lưu trú, ở trọ)",
+      "숙박이 되다 (được lưu trú)"
     ],
     "relatedWords": [
       "숙박비",
@@ -285,9 +283,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-10-native.mp3",
     "pronunciationIrregular": "숙쏘",
     "relatedPhrases": [
-      "숙소를 정하다",
-      "숙소를 예약하다",
-      "숙소에 도착하다"
+      "숙소를 예약하다 (đặt chỗ ở)",
+      "숙소를 정하다 (chọn chỗ ở)"
     ]
   },
   {
@@ -310,7 +307,11 @@ export const vocabTopik2Day14: VocabCard[] = [
     "tags": [],
     "day": 14,
     "dayOrder": 11,
-    "audioUrl": "/audio/word-t2-d14-11-native.mp3"
+    "audioUrl": "/audio/word-t2-d14-11-native.mp3",
+    "relatedPhrases": [
+      "순간을 놓치다 (bỏ lỡ khoảnh khắc, cơ hội)",
+      "결정적인 순간 (khoảnh khắc quyết định, mấu chốt)"
+    ]
   },
   {
     "id": "t2-d14-12",
@@ -335,8 +336,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-12-native.mp3",
     "pronunciationIrregular": "숨따",
     "relatedPhrases": [
-      "아이가 침대 뒤에 숨다",
-      "사슴이 산 속으로 숨다"
+      "아이가 침대 뒤에 숨다 (đứa trẻ trốn sau giường)",
+      "사슴이 산 속으로 숨다 (con hươu trốn vào trong núi)"
     ],
     "structure": [
       "N1이/가 N2에(으)로 숨다"
@@ -364,8 +365,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d14-13-native.mp3",
     "relatedPhrases": [
-      "목(이) 쉬다",
-      "목소리가 쉬다"
+      "목(이) 쉬다 (khàn giọng)",
+      "목소리가 쉬다 (giọng nói bị khàn)"
     ]
   },
   {
@@ -391,8 +392,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-14-native.mp3",
     "pronunciationIrregular": "습끼",
     "relatedPhrases": [
-      "습기가 차다",
-      "습기를 제거하다"
+      "습기가 차다 (đọng/bị hơi ẩm)",
+      "습기를 제거하다 (khử ẩm)"
     ]
   },
   {
@@ -418,9 +419,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-15-native.mp3",
     "pronunciationIrregular": "습또",
     "relatedPhrases": [
-      "습도가 높다",
-      "습도가 낮다",
-      "습도를 유지하다"
+      "습도가 높다 (độ ẩm cao)",
+      "습도를 유지하다 (duy trì độ ẩm)"
     ]
   },
   {
@@ -445,6 +445,10 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d14-16-native.mp3",
     "pronunciationIrregular": "스파다",
+    "relatedPhrases": [
+      "날씨가 습하다 (thời tiết ẩm ướt)",
+      "공기가 습하다 (không khí ẩm ướt)"
+    ],
     "antonyms": [
       "건조하다 (khô)"
     ]
@@ -471,9 +475,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d14-17-native.mp3",
     "relatedPhrases": [
-      "승진(을) 하다",
-      "승진(이) 되다",
-      "승진(을) 시키다"
+      "승진(을) 하다 (được thăng chức)",
+      "승진(을) 시키다 (cho thăng chức, đề bạt)"
     ]
   },
   {
@@ -498,8 +501,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d14-18-native.mp3",
     "relatedPhrases": [
-      "승차(를) 하다",
-      "승차를 거부하다"
+      "승차(를) 하다 (lên xe)",
+      "승차를 거부하다 (từ chối chở khách)"
     ],
     "antonyms": [
       "하차 (xuống xe)"
@@ -527,8 +530,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d14-19-native.mp3",
     "relatedPhrases": [
-      "시기가 좋다",
-      "시기를 놓치다"
+      "시기가 좋다 (đúng thời điểm, thời cơ tốt)",
+      "시기를 놓치다 (bỏ lỡ thời cơ)"
     ]
   },
   {
@@ -553,8 +556,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d14-20-native.mp3",
     "relatedPhrases": [
-      "시대에 뒤떨어지다",
-      "시대를 앞서가다"
+      "시대에 뒤떨어지다 (lạc hậu so với thời đại)",
+      "시대를 앞서가다 (đi trước thời đại)"
     ]
   },
   {
@@ -579,12 +582,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d14-21-native.mp3",
     "relatedPhrases": [
-      "교육 시설",
-      "편의 시설",
-      "오락 시설",
-      "시설이 깨끗하다",
-      "시설이 좋다",
-      "시설을 갖추다"
+      "시설이 좋다 (cơ sở vật chất tốt)",
+      "편의 시설 (cơ sở tiện ích, tiện nghi)"
     ]
   },
   {
@@ -608,7 +607,11 @@ export const vocabTopik2Day14: VocabCard[] = [
     "day": 14,
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d14-22-native.mp3",
-    "pronunciationIrregular": "싱뇨품"
+    "pronunciationIrregular": "싱뇨품",
+    "relatedPhrases": [
+      "식료품을 사다 (mua thực phẩm)",
+      "식료품을 판매하다 (bán thực phẩm)"
+    ]
   },
   {
     "id": "t2-d14-23",
@@ -633,10 +636,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-23-native.mp3",
     "pronunciationIrregular": "식삐",
     "relatedPhrases": [
-      "식비가 들다",
-      "식비가 늘다",
-      "식비가 줄다",
-      "식비를 지출하다"
+      "식비가 들다 (tốn chi phí ăn uống)",
+      "식비를 지출하다 (chi tiêu cho ăn uống)"
     ]
   },
   {
@@ -662,7 +663,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d14-24-native.mp3",
     "pronunciationIrregular": "식쭝독",
     "relatedPhrases": [
-      "식중독에 걸리다"
+      "식중독에 걸리다 (bị ngộ độc thực phẩm)",
+      "식중독을 조심하다 (đề phòng ngộ độc thực phẩm)"
     ]
   },
   {
@@ -685,7 +687,11 @@ export const vocabTopik2Day14: VocabCard[] = [
     "tags": [],
     "day": 14,
     "dayOrder": 25,
-    "audioUrl": "/audio/word-t2-d14-25-native.mp3"
+    "audioUrl": "/audio/word-t2-d14-25-native.mp3",
+    "relatedPhrases": [
+      "식품점에서 장을 보다 (đi mua sắm ở cửa hàng thực phẩm)",
+      "동네 식품점 (cửa hàng thực phẩm trong khu phố)"
+    ]
   },
   {
     "id": "t2-d14-26",
@@ -709,6 +715,10 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d14-26-native.mp3",
     "pronunciationIrregular": "시쿠",
+    "relatedPhrases": [
+      "식후에 복용하다 (uống thuốc sau bữa ăn)",
+      "식후 30분 (30 phút sau bữa ăn)"
+    ],
     "antonyms": [
       "식전 (trước bữa ăn)"
     ]
@@ -735,6 +745,10 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d14-27-native.mp3",
     "pronunciationIrregular": "시키다",
+    "relatedPhrases": [
+      "죽을 식히다 (làm nguội cháo)",
+      "음식을 식히다 (làm nguội thức ăn)"
+    ],
     "antonyms": [
       "데우다 (hâm nóng)"
     ]
@@ -761,9 +775,8 @@ export const vocabTopik2Day14: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d14-28-native.mp3",
     "relatedPhrases": [
-      "신고(를) 하다",
-      "신고(가) 되다",
-      "신고를 받다"
+      "신고(를) 하다 (trình báo, tố cáo)",
+      "신고를 받다 (nhận tin báo)"
     ]
   },
   {
@@ -786,7 +799,11 @@ export const vocabTopik2Day14: VocabCard[] = [
     "tags": [],
     "day": 14,
     "dayOrder": 29,
-    "audioUrl": "/audio/word-t2-d14-29-native.mp3"
+    "audioUrl": "/audio/word-t2-d14-29-native.mp3",
+    "relatedPhrases": [
+      "정말 신기하다 (thật sự kỳ diệu, lạ lùng)",
+      "신기한 경험 (trải nghiệm kỳ lạ, thú vị)"
+    ]
   },
   {
     "id": "t2-d14-30",
@@ -808,6 +825,10 @@ export const vocabTopik2Day14: VocabCard[] = [
     "tags": [],
     "day": 14,
     "dayOrder": 30,
-    "audioUrl": "/audio/word-t2-d14-30-native.mp3"
+    "audioUrl": "/audio/word-t2-d14-30-native.mp3",
+    "relatedPhrases": [
+      "신나는 음악 (nhạc sôi động, phấn khích)",
+      "신나게 놀다 (chơi đùa một cách hào hứng)"
+    ]
   }
 ]

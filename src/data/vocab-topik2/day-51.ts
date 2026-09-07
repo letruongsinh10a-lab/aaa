@@ -23,6 +23,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d51-01-native.mp3",
     "pronunciationIrregular": "일쌩",
+    "relatedPhrases": [
+      "일생 동안 (suốt cả cuộc đời)",
+      "일생을 바치다 (cống hiến cả đời)"
+    ],
     "synonyms": [
       "인생",
       "한평생",
@@ -53,9 +57,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d51-02-native.mp3",
     "pronunciationIrregular": "일씨불",
     "relatedPhrases": [
-      "일시불로 하다",
-      "일시불로 지불하다",
-      "일시불로 결제하다"
+      "일시불로 결제하다 (thanh toán một lần)",
+      "일시불로 지불하다 (trả một lần)"
     ]
   },
   {
@@ -81,6 +84,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d51-03-native.mp3",
     "structure": [
       "V-기(가) 일쑤이다"
+    ],
+    "relatedPhrases": [
+      "늦잠을 자기 일쑤이다 (thường hay ngủ dậy muộn)",
+      "물건을 잃어버리기 일쑤이다 (thường hay làm mất đồ)"
     ]
   },
   {
@@ -112,11 +119,8 @@ export const vocabTopik2Day51: VocabCard[] = [
       "일으킵니다"
     ],
     "relatedPhrases": [
-      "전쟁을 일으키다",
-      "변화를 일으키다",
-      "집안을 일으키다",
-      "사업을 일으키다",
-      "오해를 일으키다"
+      "변화를 일으키다 (gây ra thay đổi)",
+      "오해를 일으키다 (gây ra hiểu lầm)"
     ],
     "antonyms": [
       "넘어뜨리다"
@@ -144,6 +148,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d51-05-native.mp3",
     "pronunciationIrregular": "일리리",
+    "relatedPhrases": [
+      "일일이 확인하다 (kiểm tra từng cái một)",
+      "일일이 손으로 하다 (làm bằng tay từng cái một)"
+    ],
     "synonyms": [
       "하나하나",
       "낱낱이"
@@ -171,9 +179,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d51-06-native.mp3",
     "relatedPhrases": [
-      "일치(를) 하다",
-      "일치(가) 되다",
-      "일치를 보다"
+      "의견 일치를 보다 (đạt được sự đồng thuận ý kiến)",
+      "말과 행동이 일치하다 (lời nói và hành động nhất quán)"
     ],
     "antonyms": [
       "불일치"
@@ -200,6 +207,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     "day": 51,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d51-07-native.mp3",
+    "relatedPhrases": [
+      "일회용 용기 (hộp dùng một lần)",
+      "일회용 렌즈 (kính áp tròng dùng một lần)"
+    ],
     "relatedWords": [
       "일회용품"
     ]
@@ -234,6 +245,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     ],
     "structure": [
       "bị động từ của '읽다'; N1이/가 N2에게 읽히다"
+    ],
+    "relatedPhrases": [
+      "책이 잘 읽히다 (sách đọc trôi chảy, dễ đọc)",
+      "많이 읽히다 (được đọc nhiều)"
     ]
   },
   {
@@ -265,7 +280,8 @@ export const vocabTopik2Day51: VocabCard[] = [
       "읽힙니다"
     ],
     "relatedPhrases": [
-      "선생님이 학생들에게 책을 읽히다"
+      "선생님이 학생들에게 책을 읽히다 (giáo viên cho học sinh đọc sách)",
+      "아이에게 책을 읽히다 (cho con đọc sách)"
     ],
     "structure": [
       "sự động từ của '읽다'; N1이/가 N2에게 N3을/를 읽히다"
@@ -295,6 +311,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     "structure": [
       "임시로 + V"
     ],
+    "relatedPhrases": [
+      "임시 공휴일 (ngày nghỉ lễ tạm thời)",
+      "임시로 맡기다 (gửi tạm)"
+    ],
     "antonyms": [
       "정기"
     ]
@@ -322,9 +342,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d51-11-native.mp3",
     "pronunciationIrregular": "입짱",
     "relatedPhrases": [
-      "입장을 밝히다",
-      "입장을 표명하다",
-      "입장을 고집하다"
+      "입장을 밝히다 (bày tỏ lập trường)",
+      "입장을 표명하다 (tuyên bố lập trường)"
     ],
     "synonyms": [
       "생각",
@@ -360,6 +379,10 @@ export const vocabTopik2Day51: VocabCard[] = [
       "입히면",
       "입힙니다"
     ],
+    "relatedPhrases": [
+      "옷을 입히다 (mặc quần áo cho)",
+      "따뜻하게 입히다 (mặc ấm cho)"
+    ],
     "structure": [
       "sự động từ của '입다'; N1이/가 N2에게 N3을/를 입히다"
     ]
@@ -393,9 +416,8 @@ export const vocabTopik2Day51: VocabCard[] = [
       "잇따릅니다"
     ],
     "relatedPhrases": [
-      "차량이 잇따르다",
-      "사고가 잇따르다",
-      "비난이 잇따르다"
+      "사고가 잇따르다 (tai nạn xảy ra liên tiếp)",
+      "비난이 잇따르다 (lời chỉ trích liên tiếp xảy đến)"
     ],
     "synonyms": [
       "잇달다",
@@ -425,10 +447,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d51-14-native.mp3",
     "relatedPhrases": [
-      "자극(을) 하다",
-      "자극(이) 되다",
-      "자극을 받다",
-      "자극을 주다"
+      "자극을 받다 (được kích thích, được thúc đẩy)",
+      "자극을 주다 (tạo động lực, kích thích)"
     ],
     "relatedWords": [
       "자극적"
@@ -464,6 +484,10 @@ export const vocabTopik2Day51: VocabCard[] = [
     "structure": [
       "N이/가 자라나다"
     ],
+    "relatedPhrases": [
+      "무럭무럭 자라나다 (lớn nhanh như thổi)",
+      "건강하게 자라나다 (lớn lên khỏe mạnh)"
+    ],
     "synonyms": [
       "자라다",
       "성장하다"
@@ -497,6 +521,10 @@ export const vocabTopik2Day51: VocabCard[] = [
       "자랑스러우면",
       "자랑스럽습니다"
     ],
+    "relatedPhrases": [
+      "자랑스러운 아들 (đứa con trai đáng tự hào)",
+      "자랑스럽게 생각하다 (lấy làm tự hào)"
+    ],
     "relatedWords": [
       "자랑하다 (động từ)"
     ]
@@ -523,9 +551,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d51-17-native.mp3",
     "relatedPhrases": [
-      "자막이 있다",
-      "자막을 보다",
-      "자막을 읽다"
+      "자막이 있다 (có phụ đề)",
+      "자막을 보다 (xem phụ đề)"
     ]
   },
   {
@@ -550,9 +577,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d51-18-native.mp3",
     "relatedPhrases": [
-      "자본이 있다",
-      "자본을 마련하다",
-      "자본이 부족하다"
+      "자본을 마련하다 (chuẩn bị vốn)",
+      "자본이 부족하다 (thiếu vốn)"
     ],
     "synonyms": [
       "자금",
@@ -581,10 +607,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d51-19-native.mp3",
     "relatedPhrases": [
-      "자부심이 강하다",
-      "자부심이 넘치다",
-      "자부심을 가지다",
-      "자부심을 느끼다"
+      "자부심을 가지다 (có lòng tự hào)",
+      "자부심을 느끼다 (cảm thấy tự hào)"
     ]
   },
   {
@@ -609,9 +633,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d51-20-native.mp3",
     "relatedPhrases": [
-      "자세가 바르다",
-      "자세를 가다듬다",
-      "자세를 취하다"
+      "자세가 바르다 (tư thế đúng)",
+      "자세를 취하다 (giữ một tư thế/thái độ)"
     ],
     "synonyms": [
       "태도"
@@ -639,11 +662,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d51-21-native.mp3",
     "relatedPhrases": [
-      "자신감이 있다",
-      "자신감이 없다",
-      "자신감이 넘치다",
-      "자신감을 가지다",
-      "자신감을 잃다"
+      "자신감이 넘치다 (tràn đầy tự tin)",
+      "자신감을 가지다 (có sự tự tin)"
     ]
   },
   {
@@ -675,9 +695,8 @@ export const vocabTopik2Day51: VocabCard[] = [
       "자연스럽습니다"
     ],
     "relatedPhrases": [
-      "행동이 자연스럽다",
-      "말투가 자연스럽다",
-      "분위기가 자연스럽다"
+      "행동이 자연스럽다 (hành động tự nhiên)",
+      "분위기가 자연스럽다 (bầu không khí tự nhiên)"
     ],
     "antonyms": [
       "부자연스럽다",
@@ -706,9 +725,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d51-23-native.mp3",
     "relatedPhrases": [
-      "자연환경을 보호하다",
-      "자연환경을 보존하다",
-      "자연환경을 훼손하다"
+      "자연환경을 보호하다 (bảo vệ môi trường tự nhiên)",
+      "자연환경을 훼손하다 (phá hủy môi trường tự nhiên)"
     ]
   },
   {
@@ -733,11 +751,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d51-24-native.mp3",
     "relatedPhrases": [
-      "자원이 있다",
-      "자원이 부족하다",
-      "자원이 풍부하다",
-      "자원을 개발하다",
-      "자원을 활용하다"
+      "자원이 풍부하다 (tài nguyên phong phú)",
+      "자원을 개발하다 (khai thác tài nguyên)"
     ],
     "relatedWords": [
       "천연자원",
@@ -768,11 +783,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d51-25-native.mp3",
     "relatedPhrases": [
-      "자존심이 강하다",
-      "자존심이 세다",
-      "자존심이 상하다",
-      "자존심을 지키다",
-      "자존심을 버리다"
+      "자존심이 강하다 (lòng tự trọng cao)",
+      "자존심이 상하다 (bị tổn thương lòng tự trọng)"
     ]
   },
   {
@@ -798,10 +810,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d51-26-native.mp3",
     "pronunciationIrregular": "작똥",
     "relatedPhrases": [
-      "작동(을) 하다",
-      "작동(이) 되다",
-      "기계를 작동하다",
-      "전자 제품을 작동하다"
+      "기계를 작동하다 (vận hành máy móc)",
+      "작동을 멈추다 (ngừng hoạt động)"
     ]
   },
   {
@@ -826,9 +836,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d51-27-native.mp3",
     "relatedPhrases": [
-      "작용(을) 하다",
-      "작용(이) 되다",
-      "작용을 받다"
+      "작용을 하다 (có tác dụng)",
+      "항균 작용 (tác dụng kháng khuẩn)"
     ]
   },
   {
@@ -854,9 +863,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d51-28-native.mp3",
     "pronunciationIrregular": "작쩐",
     "relatedPhrases": [
-      "작전을 세우다",
-      "작전을 짜다",
-      "작전을 수행하다"
+      "작전을 세우다 (lập chiến thuật)",
+      "작전을 짜다 (vạch ra chiến thuật)"
     ]
   },
   {
@@ -881,9 +889,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d51-29-native.mp3",
     "relatedPhrases": [
-      "화가 잔뜩 나다",
-      "겁을 잔뜩 먹다",
-      "하늘이 잔뜩 흐리다"
+      "화가 잔뜩 나다 (nổi giận đùng đùng)",
+      "겁을 잔뜩 먹다 (sợ hãi tột độ)"
     ],
     "synonyms": [
       "많이",
@@ -912,9 +919,8 @@ export const vocabTopik2Day51: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d51-30-native.mp3",
     "relatedPhrases": [
-      "잔소리(를) 하다",
-      "잔소리를 늘어놓다",
-      "잔소리를 듣다"
+      "잔소리를 늘어놓다 (cằn nhằn liên hồi)",
+      "잔소리를 듣다 (nghe lời cằn nhằn)"
     ]
   }
 ]

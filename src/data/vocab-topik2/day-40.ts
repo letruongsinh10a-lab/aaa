@@ -29,8 +29,8 @@ export const vocabTopik2Day40: VocabCard[] = [
       "부서집니다"
     ],
     "relatedPhrases": [
-      "유리가 부서지다",
-      "다리가 부서지다"
+      "유리가 부서지다 (kính bị vỡ)",
+      "다리가 부서지다 (cầu bị gãy sập)"
     ],
     "synonyms": [
       "깨지다",
@@ -65,8 +65,8 @@ export const vocabTopik2Day40: VocabCard[] = [
       "부숩니다"
     ],
     "relatedPhrases": [
-      "벽을 부수다",
-      "접시를 부수다"
+      "벽을 부수다 (phá bức tường)",
+      "접시를 부수다 (đập vỡ cái đĩa)"
     ],
     "synonyms": [
       "깨다",
@@ -95,8 +95,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d40-03-native.mp3",
     "relatedPhrases": [
-      "부작용이 나타나다",
-      "부작용을 겪다"
+      "부작용이 나타나다 (xuất hiện tác dụng phụ)",
+      "부작용을 겪다 (gặp phải tác dụng phụ)"
     ]
   },
   {
@@ -120,6 +120,10 @@ export const vocabTopik2Day40: VocabCard[] = [
     "day": 40,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d40-04-native.mp3",
+    "relatedPhrases": [
+      "부정적으로 생각하다 (nghĩ tiêu cực)",
+      "부정적인 영향을 미치다 (gây ảnh hưởng tiêu cực)"
+    ],
     "antonyms": [
       "긍정적"
     ]
@@ -146,8 +150,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d40-05-native.mp3",
     "relatedPhrases": [
-      "부주의로 인해",
-      "부주의를 저지르다"
+      "부주의로 인해 (do sự bất cẩn)",
+      "부주의를 저지르다 (phạm phải sự bất cẩn)"
     ],
     "antonyms": [
       "주의"
@@ -175,8 +179,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d40-06-native.mp3",
     "relatedPhrases": [
-      "부품을 교체하다",
-      "부품이 부족하다"
+      "부품을 교체하다 (thay linh kiện)",
+      "부품이 부족하다 (thiếu linh kiện)"
     ]
   },
   {
@@ -201,8 +205,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d40-07-native.mp3",
     "relatedPhrases": [
-      "분노를 느끼다",
-      "분노가 치밀다"
+      "분노를 느끼다 (cảm thấy phẫn nộ)",
+      "분노가 치밀다 (cơn giận trào lên)"
     ],
     "synonyms": [
       "격분",
@@ -232,8 +236,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d40-08-native.mp3",
     "pronunciationIrregular": "불량",
     "relatedPhrases": [
-      "분량을 조절하다",
-      "분량이 적당하다"
+      "분량을 조절하다 (điều chỉnh khối lượng)",
+      "분량이 적당하다 (khối lượng vừa phải)"
     ]
   },
   {
@@ -259,8 +263,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d40-09-native.mp3",
     "pronunciationIrregular": "불류",
     "relatedPhrases": [
-      "분류를 하다",
-      "분류 기준"
+      "분류를 하다 (tiến hành phân loại)",
+      "분류 기준 (tiêu chuẩn phân loại)"
     ]
   },
   {
@@ -285,8 +289,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d40-10-native.mp3",
     "relatedPhrases": [
-      "분석을 하다",
-      "분석 결과"
+      "분석을 하다 (tiến hành phân tích)",
+      "분석 결과 (kết quả phân tích)"
     ],
     "synonyms": [
       "해석"
@@ -314,8 +318,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d40-11-native.mp3",
     "relatedPhrases": [
-      "분수에 맞다",
-      "분수를 지키다"
+      "분수에 맞다 (phù hợp với khả năng bản thân)",
+      "분수를 지키다 (biết giữ đúng bổn phận của mình)"
     ]
   },
   {
@@ -339,6 +343,10 @@ export const vocabTopik2Day40: VocabCard[] = [
     "day": 40,
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d40-12-native.mp3",
+    "relatedPhrases": [
+      "의학 분야 (lĩnh vực y học)",
+      "관심 분야 (lĩnh vực quan tâm)"
+    ],
     "synonyms": [
       "영역",
       "방면"
@@ -366,8 +374,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d40-13-native.mp3",
     "relatedPhrases": [
-      "분포가 넓다",
-      "분포를 이루다"
+      "분포가 넓다 (phân bố rộng)",
+      "분포를 이루다 (hình thành sự phân bố)"
     ]
   },
   {
@@ -398,8 +406,8 @@ export const vocabTopik2Day40: VocabCard[] = [
       "불가피합니다"
     ],
     "relatedPhrases": [
-      "불가피한 상황",
-      "불가피하게"
+      "불가피한 상황 (tình huống không thể tránh khỏi)",
+      "불가피하게 (một cách bất khả kháng)"
     ]
   },
   {
@@ -428,6 +436,10 @@ export const vocabTopik2Day40: VocabCard[] = [
       "불구해서",
       "불구하면",
       "불구합니다"
+    ],
+    "relatedPhrases": [
+      "날씨에도 불구하고 (mặc dù thời tiết)",
+      "몸이 아픈데도 불구하고 (dù cơ thể đau ốm)"
     ],
     "structure": [
       "N에도 불구하고",
@@ -462,8 +474,8 @@ export const vocabTopik2Day40: VocabCard[] = [
       "불러일으킵니다"
     ],
     "relatedPhrases": [
-      "관심을 불러일으키다",
-      "논란을 불러일으키다"
+      "관심을 불러일으키다 (khơi dậy sự quan tâm)",
+      "논란을 불러일으키다 (gây ra tranh cãi)"
     ]
   },
   {
@@ -492,6 +504,10 @@ export const vocabTopik2Day40: VocabCard[] = [
       "불리해서",
       "불리하면",
       "불리합니다"
+    ],
+    "relatedPhrases": [
+      "불리한 조건 (điều kiện bất lợi)",
+      "불리하게 작용하다 (tác động bất lợi)"
     ],
     "structure": [
       "N1이/가 N2에게 불리하다"
@@ -523,8 +539,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d40-18-native.mp3",
     "pronunciationIrregular": "불뻡",
     "relatedPhrases": [
-      "불법 주차",
-      "불법을 저지르다"
+      "불법 주차 (đỗ xe trái phép)",
+      "불법을 저지르다 (phạm pháp)"
     ],
     "antonyms": [
       "합법"
@@ -558,7 +574,8 @@ export const vocabTopik2Day40: VocabCard[] = [
       "불쾌합니다"
     ],
     "relatedPhrases": [
-      "기분이 불쾌하다"
+      "기분이 불쾌하다 (tâm trạng khó chịu)",
+      "불쾌한 냄새 (mùi khó chịu)"
     ],
     "antonyms": [
       "유쾌하다"
@@ -591,6 +608,10 @@ export const vocabTopik2Day40: VocabCard[] = [
       "불평등하면",
       "불평등합니다"
     ],
+    "relatedPhrases": [
+      "불평등한 현실 (thực trạng bất bình đẳng)",
+      "불평등하게 주어지다 (được trao một cách bất bình đẳng)"
+    ],
     "antonyms": [
       "평등하다"
     ]
@@ -617,8 +638,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d40-21-native.mp3",
     "relatedPhrases": [
-      "불행을 겪다",
-      "불행이 닥치다"
+      "불행을 겪다 (trải qua bất hạnh)",
+      "불행이 닥치다 (bất hạnh ập đến)"
     ],
     "antonyms": [
       "행복",
@@ -653,6 +674,10 @@ export const vocabTopik2Day40: VocabCard[] = [
       "붙잡히면",
       "붙잡힙니다"
     ],
+    "relatedPhrases": [
+      "경찰에게 붙잡히다 (bị cảnh sát bắt)",
+      "손목을 붙잡히다 (bị tóm cổ tay)"
+    ],
     "structure": [
       "N1이/가 N2에게 붙잡히다"
     ]
@@ -679,8 +704,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d40-23-native.mp3",
     "relatedPhrases": [
-      "비결을 알아내다",
-      "성공의 비결"
+      "비결을 알아내다 (tìm ra bí quyết)",
+      "성공의 비결 (bí quyết thành công)"
     ],
     "synonyms": [
       "비법"
@@ -707,6 +732,10 @@ export const vocabTopik2Day40: VocabCard[] = [
     "day": 40,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d40-24-native.mp3",
+    "relatedPhrases": [
+      "비교적 따뜻하다 (tương đối ấm áp)",
+      "비교적 저렴하다 (tương đối rẻ)"
+    ],
     "synonyms": [
       "상대적으로"
     ]
@@ -738,6 +767,10 @@ export const vocabTopik2Day40: VocabCard[] = [
       "비기면",
       "비깁니다"
     ],
+    "relatedPhrases": [
+      "1대 1로 비기다 (hòa 1-1)",
+      "상대 팀과 비기다 (hòa với đội đối phương)"
+    ],
     "structure": [
       "N1이/가 N2와/과 비기다"
     ]
@@ -764,8 +797,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d40-26-native.mp3",
     "relatedPhrases": [
-      "비난을 받다",
-      "비난이 쏟아지다"
+      "비난을 받다 (bị chỉ trích)",
+      "비난이 쏟아지다 (bị chỉ trích dồn dập)"
     ]
   },
   {
@@ -789,6 +822,10 @@ export const vocabTopik2Day40: VocabCard[] = [
     "day": 40,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d40-27-native.mp3",
+    "relatedPhrases": [
+      "비로소 깨닫다 (mới nhận ra được)",
+      "비로소 이해하다 (mới hiểu được)"
+    ],
     "synonyms": [
       "그제야"
     ]
@@ -814,6 +851,10 @@ export const vocabTopik2Day40: VocabCard[] = [
     "day": 40,
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d40-28-native.mp3",
+    "relatedPhrases": [
+      "비록 가난하지만 (dù nghèo nhưng)",
+      "비록 작지만 (dù nhỏ nhưng)"
+    ],
     "structure": [
       "비록 V/A-ㄹ지라도",
       "비록 V/A-더라도"
@@ -847,6 +888,10 @@ export const vocabTopik2Day40: VocabCard[] = [
       "비롯하면",
       "비롯합니다"
     ],
+    "relatedPhrases": [
+      "오해에서 비롯되다 (bắt nguồn từ hiểu lầm)",
+      "한국을 비롯한 여러 나라 (nhiều nước, dẫn đầu là Hàn Quốc)"
+    ],
     "structure": [
       "N에서 비롯되다",
       "N1을/를 비롯해서 N2"
@@ -874,8 +919,8 @@ export const vocabTopik2Day40: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d40-30-native.mp3",
     "relatedPhrases": [
-      "비만을 예방하다",
-      "소아 비만"
+      "비만을 예방하다 (phòng ngừa béo phì)",
+      "소아 비만 (béo phì ở trẻ em)"
     ]
   }
 ]

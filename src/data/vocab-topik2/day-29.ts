@@ -23,10 +23,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d29-01-native.mp3",
     "relatedPhrases": [
-      "구속(을) 하다",
-      "구속(이) 되다",
-      "구속을 받다",
-      "구속을 당하다"
+      "구속(을) 하다 (hạn chế, gò ép)",
+      "구속을 받다 (bị gò ép, bị hạn chế)"
     ],
     "antonyms": [
       "자유"
@@ -54,9 +52,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d29-02-native.mp3",
     "relatedPhrases": [
-      "구조(를) 하다",
-      "구조(가) 되다",
-      "구조를 받다"
+      "구조(를) 하다 (cứu hộ)",
+      "구조를 받다 (được cứu hộ)"
     ]
   },
   {
@@ -81,10 +78,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d29-03-native.mp3",
     "relatedPhrases": [
-      "사람을 구하다",
-      "나라를 구하다",
-      "생명을 구하다",
-      "목숨을 구하다"
+      "사람을 구하다 (cứu người)",
+      "나라를 구하다 (cứu đất nước)"
     ]
   },
   {
@@ -109,6 +104,10 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d29-04-native.mp3",
     "pronunciationIrregular": "구지",
+    "relatedPhrases": [
+      "굳이 그럴 필요 없다 (không cần thiết phải làm vậy)",
+      "굳이 말하자면 (nếu nhất thiết phải nói thì)"
+    ],
     "synonyms": [
       "구태여"
     ]
@@ -136,10 +135,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-05-native.mp3",
     "pronunciationIrregular": "구피다",
     "relatedPhrases": [
-      "허리를 굽히다",
-      "팔을 굽히다",
-      "뜻을 굽히다",
-      "주장을 굽히다"
+      "허리를 굽히다 (cúi lưng, khom lưng)",
+      "팔을 굽히다 (gập tay, cong tay)"
     ],
     "synonyms": [
       "구부리다"
@@ -171,10 +168,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-06-native.mp3",
     "pronunciationIrregular": "궐력",
     "relatedPhrases": [
-      "권력이 있다",
-      "권력을 가지다",
-      "권력을 잡다",
-      "권력을 누리다"
+      "권력을 잡다 (nắm quyền lực)",
+      "권력을 누리다 (hưởng quyền lực)"
     ]
   },
   {
@@ -200,10 +195,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-07-native.mp3",
     "pronunciationIrregular": "궐리",
     "relatedPhrases": [
-      "권리를 가지다",
-      "권리를 주장하다",
-      "권리를 보장하다",
-      "권리를 침해하다"
+      "권리를 가지다 (có quyền lợi)",
+      "권리를 보장하다 (đảm bảo quyền lợi)"
     ],
     "antonyms": [
       "의무"
@@ -232,13 +225,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-08-native.mp3",
     "pronunciationIrregular": "궈뉘",
     "relatedPhrases": [
-      "권위적",
-      "권위주의",
-      "권위의식",
-      "권위가 있다",
-      "권위가 없다",
-      "권위를 가지다",
-      "권위를 세우다"
+      "권위가 있다 (có quyền uy)",
+      "권위를 세우다 (khẳng định quyền uy)"
     ]
   },
   {
@@ -264,9 +252,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-09-native.mp3",
     "pronunciationIrregular": "궈뉴",
     "relatedPhrases": [
-      "권유(를) 하다",
-      "권유를 받아들이다",
-      "권유를 뿌리치다"
+      "권유(를) 하다 (khuyên bảo)",
+      "권유를 받아들이다 (chấp nhận lời khuyên)"
     ],
     "synonyms": [
       "권고",
@@ -294,6 +281,10 @@ export const vocabTopik2Day29: VocabCard[] = [
     "day": 29,
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d29-10-native.mp3",
+    "relatedPhrases": [
+      "귀중한 시간 (thời gian quý giá)",
+      "귀중한 경험 (kinh nghiệm quý giá)"
+    ],
     "synonyms": [
       "소중하다",
       "귀하다"
@@ -325,9 +316,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d29-11-native.mp3",
     "relatedPhrases": [
-      "신분이 귀하다",
-      "집안이 귀하다",
-      "생명이 귀하다"
+      "신분이 귀하다 (thân phận cao quý)",
+      "생명이 귀하다 (mạng sống quý giá)"
     ],
     "synonyms": [
       "값지다"
@@ -358,9 +348,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d29-12-native.mp3",
     "relatedPhrases": [
-      "규모가 크다",
-      "규모가 작다",
-      "규모가 있다"
+      "규모가 크다 (quy mô lớn)",
+      "규모가 작다 (quy mô nhỏ)"
     ]
   },
   {
@@ -385,10 +374,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d29-13-native.mp3",
     "relatedPhrases": [
-      "규정(을) 하다",
-      "규정(이) 되다",
-      "규정이 있다",
-      "규정을 내리다"
+      "규정(이) 되다 (được quy định)",
+      "규정이 있다 (có quy định)"
     ]
   },
   {
@@ -413,11 +400,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d29-14-native.mp3",
     "relatedPhrases": [
-      "균형이 맞다",
-      "균형을 잡다",
-      "균형을 깨다",
-      "균형을 잃다",
-      "균형을 이루다"
+      "균형을 잡다 (giữ thăng bằng)",
+      "균형을 잃다 (mất thăng bằng)"
     ],
     "antonyms": [
       "불균형"
@@ -450,6 +434,10 @@ export const vocabTopik2Day29: VocabCard[] = [
       "않다",
       "못하다...)"
     ],
+    "relatedPhrases": [
+      "그다지 좋아하지 않다 (không thích lắm)",
+      "그다지 어렵지 않다 (không khó lắm)"
+    ],
     "synonyms": [
       "별로"
     ],
@@ -480,8 +468,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-16-native.mp3",
     "pronunciationIrregular": "극뽁",
     "relatedPhrases": [
-      "극복(을) 하다",
-      "극복(이) 되다"
+      "극복(을) 하다 (vượt qua, khắc phục)",
+      "극복(이) 되다 (được khắc phục)"
     ]
   },
   {
@@ -506,6 +494,10 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d29-17-native.mp3",
     "pronunciationIrregular": "그키",
+    "relatedPhrases": [
+      "극히 드물다 (cực kỳ hiếm)",
+      "극히 일부 (một phần cực nhỏ)"
+    ],
     "synonyms": [
       "지극히"
     ],
@@ -533,7 +525,11 @@ export const vocabTopik2Day29: VocabCard[] = [
     "tags": [],
     "day": 29,
     "dayOrder": 18,
-    "audioUrl": "/audio/word-t2-d29-18-native.mp3"
+    "audioUrl": "/audio/word-t2-d29-18-native.mp3",
+    "relatedPhrases": [
+      "근거를 대다 (đưa ra căn cứ)",
+      "근거가 없다 (không có căn cứ)"
+    ]
   },
   {
     "id": "t2-d29-19",
@@ -555,7 +551,11 @@ export const vocabTopik2Day29: VocabCard[] = [
     "tags": [],
     "day": 29,
     "dayOrder": 19,
-    "audioUrl": "/audio/word-t2-d29-19-native.mp3"
+    "audioUrl": "/audio/word-t2-d29-19-native.mp3",
+    "relatedPhrases": [
+      "근본적인 해결책 (giải pháp căn bản)",
+      "근본적인 원인 (nguyên nhân căn bản)"
+    ]
   },
   {
     "id": "t2-d29-20",
@@ -579,10 +579,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d29-20-native.mp3",
     "relatedPhrases": [
-      "근심(을) 하다",
-      "근심(이) 되다",
-      "근심이 있다",
-      "근심이 생기다"
+      "근심이 있다 (có điều lo lắng)",
+      "근심이 생기다 (nảy sinh lo lắng)"
     ],
     "synonyms": [
       "걱정"
@@ -611,9 +609,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-21-native.mp3",
     "pronunciationIrregular": "극따",
     "relatedPhrases": [
-      "등을 긁다",
-      "머리를 긁다",
-      "카드를 긁다"
+      "머리를 긁다 (gãi đầu)",
+      "카드를 긁다 (quẹt thẻ)"
     ],
     "extraNotes": [
       {
@@ -648,10 +645,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d29-22-native.mp3",
     "relatedPhrases": [
-      "출입을 금하다",
-      "외출을 금하다",
-      "영업을 금하다",
-      "사용을 금하다"
+      "출입을 금하다 (cấm ra vào)",
+      "사용을 금하다 (cấm sử dụng)"
     ],
     "synonyms": [
       "금지하다",
@@ -680,6 +675,10 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d29-23-native.mp3",
     "pronunciationIrregular": "급껴키",
+    "relatedPhrases": [
+      "급격히 증가하다 (tăng đột ngột)",
+      "급격히 악화되다 (xấu đi đột ngột)"
+    ],
     "relatedWords": [
       "급격하다 (tính từ)"
     ]
@@ -706,6 +705,10 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d29-24-native.mp3",
     "pronunciationIrregular": "급쏘키",
+    "relatedPhrases": [
+      "급속히 증가하다 (tăng nhanh chóng)",
+      "급속히 확산되다 (lan rộng nhanh chóng)"
+    ],
     "antonyms": [
       "서서히"
     ],
@@ -736,8 +739,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d29-25-native.mp3",
     "pronunciationIrregular": "급쯩",
     "relatedPhrases": [
-      "급증(을) 하다",
-      "급증(이) 되다"
+      "급증(을) 하다 (tăng nhanh)",
+      "급증(이) 되다 (tăng vọt lên)"
     ],
     "antonyms": [
       "급감"
@@ -765,9 +768,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d29-26-native.mp3",
     "relatedPhrases": [
-      "기부금",
-      "기부(를) 하다",
-      "기부를 받다"
+      "기부(를) 하다 (quyên góp)",
+      "기부를 받다 (nhận quyên góp)"
     ]
   },
   {
@@ -792,13 +794,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d29-27-native.mp3",
     "relatedPhrases": [
-      "기술력",
-      "기술자",
-      "기술적",
-      "기술이 좋다",
-      "기술이 있다",
-      "기술을 가지다",
-      "기술을 배우다"
+      "기술이 있다 (có kỹ thuật)",
+      "기술을 배우다 (học kỹ thuật)"
     ]
   },
   {
@@ -823,8 +820,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d29-28-native.mp3",
     "relatedPhrases": [
-      "기여(를) 하다",
-      "기여(가) 되다"
+      "기여(를) 하다 (đóng góp)",
+      "기여(가) 되다 (có ý nghĩa đóng góp)"
     ],
     "synonyms": [
       "공헌",
@@ -853,9 +850,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d29-29-native.mp3",
     "relatedPhrases": [
-      "액자가 기울다",
-      "건물이 기울다",
-      "집안이 기울다"
+      "건물이 기울다 (tòa nhà nghiêng)",
+      "집안이 기울다 (gia đình sa sút)"
     ],
     "synonyms": [
       "쏠리다"
@@ -883,8 +879,8 @@ export const vocabTopik2Day29: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d29-30-native.mp3",
     "relatedPhrases": [
-      "술잔을 기울이다",
-      "몸을 기울이다"
+      "술잔을 기울이다 (nghiêng chén rượu, uống rượu)",
+      "몸을 기울이다 (nghiêng người về phía trước)"
     ],
     "relatedWords": [
       "là sai khiến từ (사동사) của '기울다'"

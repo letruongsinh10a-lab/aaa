@@ -22,6 +22,10 @@ export const vocabTopik2Day46: VocabCard[] = [
     "day": 46,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d46-01-native.mp3",
+    "relatedPhrases": [
+      "아예 포기하다 (từ bỏ hoàn toàn ngay từ đầu)",
+      "아예 모르다 (hoàn toàn không biết)"
+    ],
     "synonyms": [
       "완전히"
     ]
@@ -50,6 +54,10 @@ export const vocabTopik2Day46: VocabCard[] = [
     "structure": [
       "N1과/와 아울러 N2도",
       "N1을/를 N2와/과 아울러 하다"
+    ],
+    "relatedPhrases": [
+      "이와 아울러 (cùng với việc đó, đồng thời)",
+      "그것과 아울러 (đi kèm với điều đó)"
     ]
   },
   {
@@ -75,8 +83,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d46-03-native.mp3",
     "pronunciationIrregular": "앙몽",
     "relatedPhrases": [
-      "악몽을 꾸다",
-      "악몽에서 깨어나다"
+      "악몽을 꾸다 (gặp ác mộng)",
+      "악몽에서 깨어나다 (tỉnh dậy khỏi ác mộng)"
     ],
     "antonyms": [
       "길몽"
@@ -104,8 +112,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d46-04-native.mp3",
     "relatedPhrases": [
-      "악취가 나다",
-      "악취를 풍기다"
+      "악취가 나다 (bốc mùi hôi thối)",
+      "악취를 풍기다 (tỏa ra mùi hôi thối)"
     ],
     "antonyms": [
       "향기"
@@ -140,8 +148,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "악화됩니다"
     ],
     "relatedPhrases": [
-      "상황이 악화되다",
-      "관계가 악화되다"
+      "상황이 악화되다 (tình hình xấu đi)",
+      "관계가 악화되다 (mối quan hệ xấu đi)"
     ],
     "synonyms": [
       "나빠지다"
@@ -176,6 +184,10 @@ export const vocabTopik2Day46: VocabCard[] = [
       "안겨서",
       "안기면",
       "안깁니다"
+    ],
+    "relatedPhrases": [
+      "품에 안기다 (được ôm vào lòng)",
+      "엄마에게 안기다 (được mẹ ôm)"
     ]
   },
   {
@@ -206,8 +218,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "안깁니다"
     ],
     "relatedPhrases": [
-      "감동을 안기다",
-      "충격을 안기다"
+      "감동을 안기다 (mang lại sự cảm động)",
+      "충격을 안기다 (gây sốc)"
     ]
   },
   {
@@ -237,6 +249,10 @@ export const vocabTopik2Day46: VocabCard[] = [
       "안타까워서",
       "안타까우면",
       "안타깝습니다"
+    ],
+    "relatedPhrases": [
+      "마음이 안타깝다 (lòng cảm thấy xót xa)",
+      "안타까운 소식 (tin tức đáng tiếc)"
     ]
   },
   {
@@ -269,6 +285,10 @@ export const vocabTopik2Day46: VocabCard[] = [
     ],
     "structure": [
       "N1이/가 N2을/를 N3에 앉히다"
+    ],
+    "relatedPhrases": [
+      "자리에 앉히다 (đặt/bổ nhiệm vào vị trí)",
+      "의자에 앉히다 (cho ngồi vào ghế)"
     ]
   },
   {
@@ -300,8 +320,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "알아맞힙니다"
     ],
     "relatedPhrases": [
-      "답을 알아맞히다",
-      "문제를 알아맞히다"
+      "답을 알아맞히다 (đoán trúng đáp án)",
+      "문제를 알아맞히다 (đoán trúng câu hỏi)"
     ]
   },
   {
@@ -332,8 +352,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "알아줍니다"
     ],
     "relatedPhrases": [
-      "마음을 알아주다",
-      "사정을 알아주다"
+      "마음을 알아주다 (thấu hiểu tấm lòng)",
+      "사정을 알아주다 (thông cảm cho hoàn cảnh)"
     ],
     "antonyms": [
       "몰라주다"
@@ -367,8 +387,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "알찹니다"
     ],
     "relatedPhrases": [
-      "내용이 알차다",
-      "계획이 알차다"
+      "내용이 알차다 (nội dung phong phú, chất lượng)",
+      "계획이 알차다 (kế hoạch chi tiết, đầy đủ)"
     ]
   },
   {
@@ -400,8 +420,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "앓습니다"
     ],
     "relatedPhrases": [
-      "병을 앓다",
-      "몸살을 앓다"
+      "병을 앓다 (mắc bệnh)",
+      "몸살을 앓다 (bị cảm mệt, đau nhức toàn thân)"
     ]
   },
   {
@@ -426,8 +446,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d46-14-native.mp3",
     "relatedPhrases": [
-      "암기를 하다",
-      "암기를 잘하다"
+      "암기를 하다 (học thuộc lòng)",
+      "암기를 잘하다 (học thuộc lòng giỏi)"
     ]
   },
   {
@@ -453,8 +473,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d46-15-native.mp3",
     "pronunciationIrregular": "암녁",
     "relatedPhrases": [
-      "압력을 받다",
-      "압력이 높다"
+      "압력을 받다 (chịu áp lực)",
+      "압력이 높다 (áp lực cao)"
     ]
   },
   {
@@ -486,8 +506,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "앞둡니다"
     ],
     "relatedPhrases": [
-      "시험을 앞두다",
-      "선거를 앞두다"
+      "시험을 앞두다 (sắp tới kỳ thi)",
+      "선거를 앞두다 (sắp tới cuộc bầu cử)"
     ]
   },
   {
@@ -519,8 +539,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "앞섭니다"
     ],
     "relatedPhrases": [
-      "기술이 앞서다",
-      "마음이 앞서다"
+      "기술이 앞서다 (công nghệ vượt trội, đi trước)",
+      "마음이 앞서다 (tâm trí bị chi phối trước, nôn nóng)"
     ],
     "antonyms": [
       "뒤떨어지다",
@@ -556,8 +576,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "앞세웁니다"
     ],
     "relatedPhrases": [
-      "아이를 앞세우다",
-      "이익을 앞세우다"
+      "아이를 앞세우다 (cho con đi trước, mất con trước mình)",
+      "이익을 앞세우다 (đặt lợi ích lên hàng đầu)"
     ]
   },
   {
@@ -587,6 +607,10 @@ export const vocabTopik2Day46: VocabCard[] = [
       "앞장서서",
       "앞장서면",
       "앞장섭니다"
+    ],
+    "relatedPhrases": [
+      "운동에 앞장서다 (đi tiên phong trong phong trào)",
+      "앞장서서 이끌다 (dẫn đầu, dẫn dắt)"
     ],
     "synonyms": [
       "나서다",
@@ -620,6 +644,10 @@ export const vocabTopik2Day46: VocabCard[] = [
       "애쓰면",
       "애씁니다"
     ],
+    "relatedPhrases": [
+      "애써 주다 (cố gắng giúp đỡ)",
+      "밤낮으로 애쓰다 (ngày đêm nỗ lực)"
+    ],
     "synonyms": [
       "노력하다",
       "힘쓰다"
@@ -647,8 +675,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d46-21-native.mp3",
     "relatedPhrases": [
-      "야단을 치다",
-      "야단을 맞다"
+      "야단을 치다 (la mắng)",
+      "야단을 맞다 (bị la mắng)"
     ],
     "synonyms": [
       "꾸중"
@@ -677,8 +705,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d46-22-native.mp3",
     "pronunciationIrregular": "약쩜",
     "relatedPhrases": [
-      "약점을 잡다",
-      "약점을 보완하다"
+      "약점을 잡다 (nắm thóp, nắm được điểm yếu)",
+      "약점을 보완하다 (khắc phục điểm yếu)"
     ],
     "synonyms": [
       "결점",
@@ -711,8 +739,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d46-23-native.mp3",
     "relatedPhrases": [
-      "얌전을 떨다",
-      "얌전을 피우다"
+      "얌전을 떨다 (làm ra vẻ nghiêm trang, ngoan ngoãn)",
+      "얌전을 피우다 (làm bộ điềm đạm)"
     ]
   },
   {
@@ -737,8 +765,8 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d46-24-native.mp3",
     "relatedPhrases": [
-      "양심에 찔리다",
-      "양심의 가책을 받다"
+      "양심에 찔리다 (cắn rứt lương tâm)",
+      "양심의 가책을 받다 (bị lương tâm cắn rứt)"
     ]
   },
   {
@@ -770,8 +798,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "어긋납니다"
     ],
     "relatedPhrases": [
-      "기대에 어긋나다",
-      "원칙에 어긋나다"
+      "기대에 어긋나다 (trái với kỳ vọng)",
+      "원칙에 어긋나다 (trái với nguyên tắc)"
     ],
     "antonyms": [
       "일치하다"
@@ -799,6 +827,10 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d46-26-native.mp3",
     "pronunciationIrregular": "어느덛",
+    "relatedPhrases": [
+      "어느덧 시간이 흐르다 (thời gian trôi qua lúc nào không hay)",
+      "어느덧 계절이 바뀌다 (mùa đã đổi thay lúc nào không hay)"
+    ],
     "synonyms": [
       "어느새"
     ]
@@ -832,8 +864,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "어리석습니다"
     ],
     "relatedPhrases": [
-      "생각이 어리석다",
-      "행동이 어리석다"
+      "생각이 어리석다 (suy nghĩ ngu ngốc)",
+      "행동이 어리석다 (hành động dại dột)"
     ],
     "antonyms": [
       "영리하다"
@@ -868,8 +900,8 @@ export const vocabTopik2Day46: VocabCard[] = [
       "어색합니다"
     ],
     "relatedPhrases": [
-      "분위기가 어색하다",
-      "표정이 어색하다"
+      "분위기가 어색하다 (không khí gượng gạo)",
+      "표정이 어색하다 (biểu cảm gượng gạo)"
     ],
     "antonyms": [
       "자연스럽다"
@@ -897,6 +929,10 @@ export const vocabTopik2Day46: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d46-29-native.mp3",
     "pronunciationIrregular": "어짿뜬",
+    "relatedPhrases": [
+      "어쨌든 간에 (dù thế nào đi nữa)",
+      "어쨌든 상관없다 (dù sao cũng không sao)"
+    ],
     "synonyms": [
       "하여튼",
       "아무튼"
@@ -923,6 +959,10 @@ export const vocabTopik2Day46: VocabCard[] = [
     "day": 46,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d46-30-native.mp3",
+    "relatedPhrases": [
+      "어쩌다 한 번 (thỉnh thoảng một lần)",
+      "어쩌다 보니 (tình cờ mà, không hay biết)"
+    ],
     "synonyms": [
       "우연히",
       "간혹"

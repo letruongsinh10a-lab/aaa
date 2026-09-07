@@ -22,6 +22,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d37-01-native.mp3",
+    "relatedPhrases": [
+      "모처럼 만나다 (hiếm khi mới gặp nhau)",
+      "모처럼의 기회 (cơ hội hiếm có)"
+    ],
     "synonyms": [
       "오래간만에",
       "오랜만에"
@@ -49,12 +53,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d37-02-native.mp3",
     "relatedPhrases": [
-      "모험심",
-      "모험가",
-      "모험적",
-      "모험(을) 하다",
-      "모험을 떠나다",
-      "모험을 즐기다"
+      "모험을 즐기다 (thích phiêu lưu, mạo hiểm)",
+      "모험을 떠나다 (lên đường phiêu lưu)"
     ]
   },
   {
@@ -79,6 +79,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d37-03-native.mp3",
     "pronunciationIrregular": "몽마르다",
+    "relatedPhrases": [
+      "목말라 죽겠다 (khát muốn chết, khát khô cả cổ)",
+      "몹시 목마르다 (rất khát)"
+    ],
     "extraNotes": [
       {
         "label": "Tục ngữ",
@@ -109,10 +113,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d37-04-native.mp3",
     "pronunciationIrregular": "목쑴",
     "relatedPhrases": [
-      "목숨을 걸다",
-      "목숨을 구하다",
-      "목숨을 끊다",
-      "목숨을 버리다"
+      "목숨을 걸다 (đặt cược cả tính mạng, liều mạng)",
+      "목숨을 구하다 (cứu mạng sống)"
     ],
     "synonyms": [
       "생명"
@@ -141,11 +143,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d37-05-native.mp3",
     "pronunciationIrregular": "목",
     "relatedPhrases": [
-      "몫을 하다",
-      "몫을 다하다",
-      "몫을 받다",
-      "몫을 나누다",
-      "몫을 챙기다"
+      "몫을 나누다 (chia phần)",
+      "몫을 다하다 (làm tròn bổn phận, hoàn thành phần việc)"
     ],
     "synonyms": [
       "책임",
@@ -174,10 +173,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d37-06-native.mp3",
     "relatedPhrases": [
-      "차를 몰다",
-      "소를 몰다",
-      "공을 몰다",
-      "도둑으로 몰다"
+      "차를 몰다 (lái xe)",
+      "도둑으로 몰다 (quy kết là kẻ trộm)"
     ],
     "synonyms": [
       "운전하다"
@@ -204,6 +201,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d37-07-native.mp3",
+    "relatedPhrases": [
+      "몰라보게 변하다 (thay đổi đến mức không nhận ra)",
+      "몰라보게 예뻐지다 (đẹp lên đến mức không nhận ra)"
+    ],
     "antonyms": [
       "알아보다"
     ]
@@ -229,6 +230,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d37-08-native.mp3",
+    "relatedPhrases": [
+      "사람들이 몰려들다 (mọi người đổ xô kéo đến)",
+      "먹구름이 몰려들다 (mây đen kéo đến)"
+    ],
     "structure": [
       "N1이/가 N2(으)로 몰려들다"
     ],
@@ -258,12 +263,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d37-09-native.mp3",
     "relatedPhrases": [
-      "몰려들다",
-      "몰려다니다",
-      "몰려오다",
-      "몰려가다",
-      "남자가 위기에 몰리다",
-      "남자가 범인으로 몰리다"
+      "위기에 몰리다 (bị dồn vào tình thế nguy cấp)",
+      "범인으로 몰리다 (bị quy kết là thủ phạm)"
     ],
     "structure": [
       "N1이/가 N2에/(으)로 몰리다"
@@ -294,6 +295,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d37-10-native.mp3",
     "pronunciationIrregular": "몹씨",
+    "relatedPhrases": [
+      "몹시 화가 나다 (rất tức giận)",
+      "몹시 걱정하다 (rất lo lắng)"
+    ],
     "synonyms": [
       "무척",
       "상당히",
@@ -322,10 +327,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d37-11-native.mp3",
     "relatedPhrases": [
-      "마음이 못되다",
-      "성격이 못되다",
-      "사람이 못되다",
-      "일이 못되다"
+      "성격이 못되다 (tính cách xấu xa, ngỗ ngược)",
+      "일이 못되다 (việc không suôn sẻ, thất bại)"
     ],
     "antonyms": [
       "착하다",
@@ -361,8 +364,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d37-12-native.mp3",
     "pronunciationIrregular": "몯찌안타",
     "relatedPhrases": [
-      "그림이 화가에 못지않다",
-      "노래 실력이 가수 못지않다"
+      "그림이 화가에 못지않다 (tranh vẽ không thua kém họa sĩ)",
+      "노래 실력이 가수 못지않다 (thực lực hát không thua kém ca sĩ)"
     ],
     "structure": [
       "N1이/가 N2(에) 못지않다"
@@ -389,6 +392,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d37-13-native.mp3",
+    "relatedPhrases": [
+      "돈을 몽땅 쓰다 (tiêu hết sạch tiền)",
+      "몽땅 잃어버리다 (mất sạch toàn bộ)"
+    ],
     "synonyms": [
       "죄다",
       "모두",
@@ -416,6 +423,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d37-14-native.mp3",
+    "relatedPhrases": [
+      "이번 일과 무관하다 (không liên quan đến việc này)",
+      "나이와 무관하다 (không liên quan đến tuổi tác)"
+    ],
     "structure": [
       "N와/과 무관하다"
     ],
@@ -446,10 +457,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d37-15-native.mp3",
     "relatedPhrases": [
-      "댐이 무너지다",
-      "제도가 무너지다",
-      "질서가 무너지다",
-      "가슴이 무너지다"
+      "댐이 무너지다 (đập nước bị vỡ, sập)",
+      "가슴이 무너지다 (lòng như sụp đổ)"
     ]
   },
   {
@@ -474,6 +483,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d37-16-native.mp3",
     "pronunciationIrregular": "무덥따",
+    "relatedPhrases": [
+      "무더운 여름 (mùa hè oi bức)",
+      "날씨가 무덥다 (thời tiết oi bức)"
+    ],
     "synonyms": [
       "후텁지근하다"
     ]
@@ -499,6 +512,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d37-17-native.mp3",
+    "relatedPhrases": [
+      "무려 세 시간이나 기다리다 (chờ đến tận ba tiếng đồng hồ)",
+      "무려 2만 명이 모이다 (có đến tận hai vạn người tụ tập)"
+    ],
     "structure": [
       "무려 N(이)나 + V"
     ]
@@ -524,6 +541,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d37-18-native.mp3",
+    "relatedPhrases": [
+      "저녁 무렵 (vào lúc chiều tối)",
+      "해질 무렵 (lúc hoàng hôn, mặt trời lặn)"
+    ],
     "synonyms": [
       "즈음"
     ]
@@ -550,11 +571,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d37-19-native.mp3",
     "relatedPhrases": [
-      "무리(를) 하다",
-      "무리가 되다",
-      "무리가 가다",
-      "무리가 있다",
-      "무리가 없다"
+      "무리(를) 하다 (làm quá sức)",
+      "몸에 무리가 가다 (cơ thể bị quá sức, ảnh hưởng xấu)"
     ]
   },
   {
@@ -578,6 +596,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d37-20-native.mp3",
+    "relatedPhrases": [
+      "무사히 마치다 (hoàn thành, kết thúc an toàn suôn sẻ)",
+      "무사히 다녀오다 (đi và về an toàn)"
+    ],
     "relatedWords": [
       "무사하다 (tính từ)"
     ]
@@ -604,10 +626,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d37-21-native.mp3",
     "relatedPhrases": [
-      "무시(를) 하다",
-      "무시(가) 되다",
-      "무시(를) 당하다",
-      "무시를 받다"
+      "무시(를) 하다 (coi thường, phớt lờ)",
+      "무시(를) 당하다 (bị coi thường)"
     ],
     "synonyms": [
       "경시"
@@ -638,6 +658,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d37-22-native.mp3",
     "pronunciationIrregular": "뭉무키",
+    "relatedPhrases": [
+      "묵묵히 일하다 (âm thầm làm việc)",
+      "묵묵히 지켜보다 (lặng lẽ dõi theo)"
+    ],
     "relatedWords": [
       "묵묵하다 (tính từ)"
     ]
@@ -663,6 +687,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d37-23-native.mp3",
+    "relatedPhrases": [
+      "끈이 묶이다 (dây bị buộc, thắt)",
+      "손발이 묶이다 (tay chân bị trói)"
+    ],
     "structure": [
       "N이/가 묶이다"
     ],
@@ -691,6 +719,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "day": 37,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d37-24-native.mp3",
+    "relatedPhrases": [
+      "문득 떠오르다 (chợt hiện ra trong đầu)",
+      "문득 생각나다 (chợt nhớ ra)"
+    ],
     "synonyms": [
       "갑자기"
     ]
@@ -717,9 +749,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d37-25-native.mp3",
     "relatedPhrases": [
-      "문명이 발달하다",
-      "문명이 뒤떨어지다",
-      "문명을 꽃피우다"
+      "문명이 발달하다 (văn minh phát triển)",
+      "문명을 꽃피우다 (làm nền văn minh nở rộ, phát triển rực rỡ)"
     ]
   },
   {
@@ -745,8 +776,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d37-26-native.mp3",
     "pronunciationIrregular": "묻따",
     "relatedPhrases": [
-      "마당에 장독을 묻다",
-      "가슴에 비밀을 묻다"
+      "마당에 장독을 묻다 (chôn vại tương trong sân)",
+      "가슴에 비밀을 묻다 (chôn giấu bí mật trong lòng)"
     ],
     "antonyms": [
       "파다",
@@ -775,8 +806,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d37-27-native.mp3",
     "relatedPhrases": [
-      "산이 단풍으로 물들다",
-      "친구가 범죄에 물들다"
+      "산이 단풍으로 물들다 (núi nhuộm màu lá phong)",
+      "친구가 범죄에 물들다 (bạn bè nhiễm thói hư, sa vào tội lỗi)"
     ],
     "structure": [
       "N1이/가 N2(으)로/에 물들다"
@@ -804,6 +835,10 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d37-28-native.mp3",
     "pronunciationIrregular": "물찔",
+    "relatedPhrases": [
+      "오염 물질 (chất ô nhiễm)",
+      "물질만능주의 (chủ nghĩa sùng bái vật chất)"
+    ],
     "antonyms": [
       "정신 (tinh thần)"
     ],
@@ -833,11 +868,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d37-29-native.mp3",
     "relatedPhrases": [
-      "미련이 있다",
-      "미련이 없다",
-      "미련이 남다",
-      "미련을 갖다",
-      "미련을 버리다"
+      "미련이 남다 (còn lưu luyến, còn tiếc nuối)",
+      "미련을 버리다 (từ bỏ sự luyến tiếc)"
     ]
   },
   {
@@ -862,9 +894,8 @@ export const vocabTopik2Day37: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d37-30-native.mp3",
     "relatedPhrases": [
-      "국물이 미지근하다",
-      "커피가 미지근하다",
-      "태도가 미지근하다"
+      "국물이 미지근하다 (canh âm ấm)",
+      "태도가 미지근하다 (thái độ thờ ơ, lãnh đạm)"
     ],
     "synonyms": [
       "불명확하다"

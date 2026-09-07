@@ -23,8 +23,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d42-01-native.mp3",
     "relatedPhrases": [
-      "사표를 내다",
-      "사표를 수리하다"
+      "사표를 내다 (nộp đơn xin thôi việc)",
+      "사표를 수리하다 (chấp thuận đơn xin nghỉ việc)"
     ],
     "synonyms": [
       "사직서"
@@ -58,8 +58,8 @@ export const vocabTopik2Day42: VocabCard[] = [
       "살립니다"
     ],
     "relatedPhrases": [
-      "목숨을 살리다",
-      "전공을 살리다"
+      "목숨을 살리다 (cứu sống mạng người)",
+      "전공을 살리다 (phát huy chuyên ngành)"
     ],
     "antonyms": [
       "죽이다"
@@ -87,8 +87,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d42-03-native.mp3",
     "relatedPhrases": [
-      "살림을 맡다",
-      "살림을 꾸리다"
+      "살림을 맡다 (đảm nhận việc nội trợ)",
+      "살림을 꾸리다 (quán xuyến việc nhà)"
     ],
     "synonyms": [
       "살림살이"
@@ -121,6 +121,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "살아남아서",
       "살아남으면",
       "살아남습니다"
+    ],
+    "relatedPhrases": [
+      "가뭄 속에서 살아남다 (sống sót qua hạn hán)",
+      "시장에서 살아남다 (tồn tại trong thị trường)"
     ],
     "structure": [
       "N1이/가 N2에서 살아남다"
@@ -156,6 +160,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "삼키면",
       "삼킵니다"
     ],
+    "relatedPhrases": [
+      "가시를 삼키다 (nuốt phải xương)",
+      "눈물을 삼키다 (nuốt nước mắt, cố kìm nén)"
+    ],
     "synonyms": [
       "넘기다"
     ],
@@ -185,6 +193,10 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d42-06-native.mp3",
     "pronunciationIrregular": "상과넙씨",
+    "relatedPhrases": [
+      "날씨에 상관없이 (bất kể thời tiết)",
+      "경력에 상관없이 (bất kể kinh nghiệm)"
+    ],
     "structure": [
       "N와/과 상관없이"
     ]
@@ -211,8 +223,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d42-07-native.mp3",
     "relatedPhrases": [
-      "상금을 타다",
-      "상금을 받다"
+      "상금을 타다 (giành được tiền thưởng)",
+      "상금을 받다 (nhận tiền thưởng)"
     ],
     "antonyms": [
       "벌금"
@@ -245,6 +257,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "상당하면",
       "상당합니다"
     ],
+    "relatedPhrases": [
+      "상당한 비용 (chi phí đáng kể)",
+      "상당한 재능 (tài năng đáng kể)"
+    ],
     "synonyms": [
       "대단하다",
       "굉장하다"
@@ -271,6 +287,10 @@ export const vocabTopik2Day42: VocabCard[] = [
     "day": 42,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d42-09-native.mp3",
+    "relatedPhrases": [
+      "상대적인 개념 (khái niệm mang tính tương đối)",
+      "상대적으로 낮다 (tương đối thấp)"
+    ],
     "antonyms": [
       "절대적"
     ]
@@ -297,8 +317,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d42-10-native.mp3",
     "relatedPhrases": [
-      "상상을 초월하다",
-      "상상이 되다"
+      "상상을 초월하다 (vượt quá sức tưởng tượng)",
+      "상상이 되다 (có thể tưởng tượng được)"
     ]
   },
   {
@@ -323,8 +343,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d42-11-native.mp3",
     "relatedPhrases": [
-      "가격이 상승하다",
-      "기온이 상승하다"
+      "가격이 상승하다 (giá cả tăng lên)",
+      "기온이 상승하다 (nhiệt độ tăng lên)"
     ],
     "antonyms": [
       "하락"
@@ -352,8 +372,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d42-12-native.mp3",
     "relatedPhrases": [
-      "상징으로 삼다",
-      "상징으로 여기다"
+      "상징으로 삼다 (lấy làm biểu tượng)",
+      "상징으로 여기다 (coi là biểu tượng)"
     ]
   },
   {
@@ -384,8 +404,8 @@ export const vocabTopik2Day42: VocabCard[] = [
       "상쾌합니다"
     ],
     "relatedPhrases": [
-      "기분이 상쾌하다",
-      "공기가 상쾌하다"
+      "기분이 상쾌하다 (tâm trạng sảng khoái)",
+      "공기가 상쾌하다 (không khí trong lành sảng khoái)"
     ]
   },
   {
@@ -414,6 +434,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "새겨서",
       "새기면",
       "새깁니다"
+    ],
+    "relatedPhrases": [
+      "글씨를 새기다 (khắc chữ)",
+      "마음속에 새기다 (khắc ghi trong lòng)"
     ],
     "structure": [
       "N1에 N2을/를 새기다"
@@ -447,8 +471,8 @@ export const vocabTopik2Day42: VocabCard[] = [
       "샙니다"
     ],
     "relatedPhrases": [
-      "물이 새다",
-      "정보가 새다"
+      "물이 새다 (nước bị rò rỉ)",
+      "정보가 새다 (thông tin bị lộ)"
     ]
   },
   {
@@ -472,6 +496,10 @@ export const vocabTopik2Day42: VocabCard[] = [
     "day": 42,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d42-16-native.mp3",
+    "relatedPhrases": [
+      "새삼 느끼다 (bỗng cảm nhận lại)",
+      "새삼 깨닫다 (bỗng nhận ra lại)"
+    ],
     "synonyms": [
       "새삼스레"
     ]
@@ -503,6 +531,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "색달라서",
       "색다르면",
       "색다릅니다"
+    ],
+    "relatedPhrases": [
+      "인테리어가 색다르다 (nội thất khác lạ)",
+      "색다른 경험 (trải nghiệm mới mẻ)"
     ],
     "synonyms": [
       "남다르다",
@@ -536,6 +568,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "생겨나면",
       "생겨납니다"
     ],
+    "relatedPhrases": [
+      "상권이 생겨나다 (khu thương mại xuất hiện)",
+      "갈등이 생겨나다 (xung đột nảy sinh)"
+    ],
     "synonyms": [
       "나타나다",
       "생기다"
@@ -562,6 +598,10 @@ export const vocabTopik2Day42: VocabCard[] = [
     "day": 42,
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d42-19-native.mp3",
+    "relatedPhrases": [
+      "생김새가 비슷하다 (diện mạo giống nhau)",
+      "생김새가 다르다 (hình dáng khác nhau)"
+    ],
     "synonyms": [
       "모습"
     ]
@@ -589,8 +629,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d42-20-native.mp3",
     "pronunciationIrregular": "생냑",
     "relatedPhrases": [
-      "생략을 하다",
-      "생략이 되다"
+      "생략을 하다 (lược bỏ)",
+      "생략이 되다 (được lược bỏ)"
     ]
   },
   {
@@ -615,8 +655,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d42-21-native.mp3",
     "relatedPhrases": [
-      "생명을 구하다",
-      "생명을 잃다"
+      "생명을 구하다 (cứu mạng sống)",
+      "생명을 잃다 (mất mạng)"
     ],
     "synonyms": [
       "목숨"
@@ -644,8 +684,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d42-22-native.mp3",
     "relatedPhrases": [
-      "생산이 늘다",
-      "생산을 늘리다"
+      "생산이 늘다 (sản xuất tăng lên)",
+      "생산을 늘리다 (tăng sản xuất)"
     ],
     "antonyms": [
       "소비"
@@ -679,8 +719,8 @@ export const vocabTopik2Day42: VocabCard[] = [
       "생생합니다"
     ],
     "relatedPhrases": [
-      "기억이 생생하다",
-      "장면이 생생하다"
+      "기억이 생생하다 (ký ức còn rõ nét)",
+      "장면이 생생하다 (cảnh tượng sống động)"
     ]
   },
   {
@@ -709,6 +749,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "서늘해서",
       "서늘하면",
       "서늘합니다"
+    ],
+    "relatedPhrases": [
+      "날씨가 서늘하다 (thời tiết mát mẻ)",
+      "바람이 서늘하다 (gió mát mẻ)"
     ],
     "synonyms": [
       "쌀쌀하다"
@@ -742,6 +786,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "서러우면",
       "서럽습니다"
     ],
+    "relatedPhrases": [
+      "서러운 마음이 들다 (cảm thấy tủi thân)",
+      "서럽게 울다 (khóc tức tưởi)"
+    ],
     "synonyms": [
       "서글프다"
     ]
@@ -767,6 +815,10 @@ export const vocabTopik2Day42: VocabCard[] = [
     "day": 42,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d42-26-native.mp3",
+    "relatedPhrases": [
+      "서서히 풀리다 (dần dần tan/nới lỏng)",
+      "서서히 걷히다 (dần dần tan đi)"
+    ],
     "synonyms": [
       "천천히",
       "조금씩"
@@ -799,6 +851,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "서운하면",
       "서운합니다"
     ],
+    "relatedPhrases": [
+      "친구에게 서운하다 (cảm thấy buồn với bạn bè)",
+      "서운한 마음이 들다 (cảm thấy buồn tủi)"
+    ],
     "synonyms": [
       "섭섭하다"
     ]
@@ -824,6 +880,10 @@ export const vocabTopik2Day42: VocabCard[] = [
     "day": 42,
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d42-28-native.mp3",
+    "relatedPhrases": [
+      "전공 서적 (sách chuyên ngành)",
+      "서적을 갖추다 (trang bị đầy đủ sách)"
+    ],
     "synonyms": [
       "도서"
     ]
@@ -855,6 +915,10 @@ export const vocabTopik2Day42: VocabCard[] = [
       "섞이면",
       "섞입니다"
     ],
+    "relatedPhrases": [
+      "색이 섞이다 (màu bị trộn lẫn)",
+      "학생들이 섞이다 (học sinh lẫn với nhau)"
+    ],
     "structure": [
       "N1이/가 N2와/과 섞이다"
     ]
@@ -881,8 +945,8 @@ export const vocabTopik2Day42: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d42-30-native.mp3",
     "relatedPhrases": [
-      "선진국",
-      "선진 기술"
+      "선진국 (nước phát triển)",
+      "선진 기술 (công nghệ tiên tiến)"
     ],
     "antonyms": [
       "후진"

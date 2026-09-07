@@ -23,6 +23,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d27-01-native.mp3",
     "pronunciationIrregular": "간접쩍",
+    "relatedPhrases": [
+      "간접적 영향 (ảnh hưởng gián tiếp)",
+      "간접적으로 듣다 (nghe gián tiếp)"
+    ],
     "antonyms": [
       "직접적 (trực tiếp)"
     ]
@@ -49,13 +53,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d27-02-native.mp3",
     "relatedPhrases": [
-      "교육 개혁",
-      "제도 개혁",
-      "의식 개혁",
-      "종교 개혁",
-      "개혁(을) 하다",
-      "개혁(이) 되다",
-      "개혁(을) 시키다"
+      "의식 개혁 (cải cách nhận thức)",
+      "개혁(을) 하다 (cải cách, thực hiện cải cách)"
     ],
     "synonyms": [
       "혁신"
@@ -86,6 +85,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d27-03-native.mp3",
     "pronunciationIrregular": "객꽌적",
+    "relatedPhrases": [
+      "객관적 보도 (đưa tin khách quan)",
+      "객관적으로 판단하다 (phán đoán khách quan)"
+    ],
     "antonyms": [
       "주관적ᅠ(chủ quan)"
     ]
@@ -112,10 +115,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d27-04-native.mp3",
     "relatedPhrases": [
-      "거래(를) 하다",
-      "거래(가) 되다",
-      "거래가 이루어지다",
-      "거래가 활발하다"
+      "거래(를) 하다 (giao dịch)",
+      "거래가 활발하다 (giao dịch sôi động)"
     ]
   },
   {
@@ -140,10 +141,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d27-05-native.mp3",
     "relatedPhrases": [
-      "피부가 거칠다",
-      "운전이 거칠다",
-      "성격이 거칠다",
-      "파도가 거칠다"
+      "피부가 거칠다 (da thô ráp)",
+      "성격이 거칠다 (tính cách thô lỗ, cộc cằn)"
     ],
     "antonyms": [
       "곱다",
@@ -172,9 +171,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d27-06-native.mp3",
     "relatedPhrases": [
-      "물건을 건네다",
-      "인사를 건네다",
-      "말을 건네다"
+      "말을 건네다 (bắt chuyện, gợi chuyện)",
+      "물건을 건네다 (trao đồ vật)"
     ]
   },
   {
@@ -198,6 +196,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "day": 27,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d27-07-native.mp3",
+    "relatedPhrases": [
+      "꽃을 건드리다 (chạm vào hoa)",
+      "물건을 건드리다 (đụng vào đồ vật)"
+    ],
     "synonyms": [
       "만지다"
     ]
@@ -225,10 +227,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d27-08-native.mp3",
     "pronunciationIrregular": "걷따",
     "relatedPhrases": [
-      "소매를 걷다",
-      "커튼을 걷다",
-      "빨래를 걷다",
-      "돗자리를 걷다"
+      "커튼을 걷다 (vén rèm)",
+      "소매를 걷다 (xắn tay áo)"
     ],
     "antonyms": [
       "치다 (kéo/buông rèm)"
@@ -255,6 +255,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "day": 27,
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d27-09-native.mp3",
+    "relatedPhrases": [
+      "게다가 -까지 (hơn nữa còn cả...)",
+      "게다가 -도 (hơn nữa cũng...)"
+    ],
     "synonyms": [
       "더구나",
       "더욱이",
@@ -284,12 +288,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d27-10-native.mp3",
     "pronunciationIrregular": "경녀",
     "relatedPhrases": [
-      "격려금",
-      "격려사",
-      "격려(를) 하다",
-      "격려(가) 되다",
-      "격려를 받다",
-      "격려를 보내다"
+      "격려(를) 하다 (khích lệ, động viên)",
+      "격려를 받다 (nhận được sự khích lệ)"
     ]
   },
   {
@@ -315,10 +315,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d27-11-native.mp3",
     "pronunciationIrregular": "격따",
     "relatedPhrases": [
-      "고통을 겪다",
-      "시련을 겪다",
-      "불편을 겪다",
-      "어려움을 겪다"
+      "고통을 겪다 (trải qua đau khổ)",
+      "어려움을 겪다 (trải qua khó khăn)"
     ]
   },
   {
@@ -343,10 +341,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d27-12-native.mp3",
     "relatedPhrases": [
-      "고통을 견디다",
-      "시련을 견디다",
-      "아픔을 견디다",
-      "추위를 견디다"
+      "추위를 견디다 (chịu đựng cái lạnh)",
+      "고통을 견디다 (chịu đựng đau khổ)"
     ],
     "synonyms": [
       "참다",
@@ -375,9 +371,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d27-13-native.mp3",
     "relatedPhrases": [
-      "견해를 밝히다",
-      "견해를 내놓다",
-      "견해가 엇갈리다"
+      "견해를 밝히다 (bày tỏ quan điểm)",
+      "견해가 엇갈리다 (quan điểm trái ngược nhau)"
     ],
     "synonyms": [
       "의견",
@@ -407,10 +402,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d27-14-native.mp3",
     "pronunciationIrregular": "결씅",
     "relatedPhrases": [
-      "결승전",
-      "결승에 나가다",
-      "결승에 오르다",
-      "결승에 진출하다"
+      "결승전 (trận chung kết)",
+      "결승에 진출하다 (tiến vào chung kết)"
     ],
     "antonyms": [
       "예선"
@@ -437,6 +430,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "day": 27,
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d27-15-native.mp3",
+    "relatedPhrases": [
+      "결코 잊을 수 없다 (không bao giờ có thể quên)",
+      "결코 아니다 (tuyệt đối không phải)"
+    ],
     "structure": [
       "결코 + biểu hiện phủ định (아니다",
       "없다",
@@ -469,6 +466,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "day": 27,
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d27-16-native.mp3",
+    "relatedPhrases": [
+      "겸손을 배우다 (học được sự khiêm tốn)",
+      "겸손한 태도 (thái độ khiêm tốn)"
+    ],
     "antonyms": [
       "거만",
       "오만",
@@ -500,10 +501,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d27-17-native.mp3",
     "relatedPhrases": [
-      "일이 겹치다",
-      "내용이 겹치다",
-      "날짜가 겹치다",
-      "약속이 겹치다"
+      "날짜가 겹치다 (ngày bị trùng)",
+      "일이 겹치다 (công việc dồn dập cùng lúc)"
     ]
   },
   {
@@ -528,10 +527,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d27-18-native.mp3",
     "relatedPhrases": [
-      "경계선",
-      "경계가 되다",
-      "경계를 짓다",
-      "경계를 긋다"
+      "경계선 (đường ranh giới)",
+      "경계가 되다 (trở thành ranh giới)"
     ]
   },
   {
@@ -556,10 +553,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d27-19-native.mp3",
     "relatedPhrases": [
-      "경고장",
-      "경고(를) 하다",
-      "경고를 주다",
-      "경고를 받다"
+      "경고(를) 하다 (đưa ra cảnh báo)",
+      "경고를 받다 (nhận cảnh báo)"
     ],
     "synonyms": [
       "주의"
@@ -587,12 +582,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d27-20-native.mp3",
     "relatedPhrases": [
-      "불경기",
-      "호경기",
-      "경기가 좋다",
-      "경기가 나쁘다",
-      "경기가 회복되다",
-      "경기가 침체되다"
+      "경기가 회복되다 (kinh tế phục hồi)",
+      "경기가 나쁘다 (tình hình kinh tế không tốt)"
     ]
   },
   {
@@ -618,10 +609,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d27-21-native.mp3",
     "pronunciationIrregular": "경녁",
     "relatedPhrases": [
-      "경력이 있다",
-      "경력이 없다",
-      "경력을 쌓다",
-      "경력을 가지다"
+      "경력을 쌓다 (tích lũy kinh nghiệm)",
+      "경력이 있다 (có kinh nghiệm)"
     ]
   },
   {
@@ -646,9 +635,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 22,
     "audioUrl": "/audio/word-t2-d27-22-native.mp3",
     "relatedPhrases": [
-      "경영(을) 하다",
-      "경영(이) 되다",
-      "경영을 맡다"
+      "경영(을) 하다 (kinh doanh, quản lý)",
+      "경영을 맡다 (đảm nhận việc quản lý)"
     ],
     "synonyms": [
       "운영"
@@ -676,13 +664,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d27-23-native.mp3",
     "relatedPhrases": [
-      "경쟁력",
-      "경쟁률",
-      "경쟁심",
-      "경쟁(을) 하다",
-      "경쟁이 되다",
-      "경쟁을 벌이다",
-      "경쟁이 치열하다"
+      "경쟁이 치열하다 (cạnh tranh gay gắt, khốc liệt)",
+      "경쟁력 (năng lực cạnh tranh)"
     ]
   },
   {
@@ -707,9 +690,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d27-24-native.mp3",
     "relatedPhrases": [
-      "경향이 있다",
-      "경향을 보이다",
-      "경향을 띠다"
+      "경향이 있다 (có khuynh hướng)",
+      "경향을 보이다 (thể hiện xu hướng)"
     ],
     "synonyms": [
       "추세"
@@ -738,9 +720,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d27-25-native.mp3",
     "pronunciationIrregular": "게기",
     "relatedPhrases": [
-      "계기가 되다",
-      "계기를 마련하다",
-      "계기로 삼다"
+      "계기가 되다 (trở thành lý do, cơ hội)",
+      "계기로 삼다 (lấy làm cơ hội, động lực)"
     ]
   },
   {
@@ -765,8 +746,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d27-26-native.mp3",
     "relatedPhrases": [
-      "고려(를) 하다",
-      "고려(가) 되다"
+      "고려(를) 하다 (cân nhắc)",
+      "고려(가) 되다 (được cân nhắc, đang xem xét)"
     ],
     "synonyms": [
       "심사숙고"
@@ -794,8 +775,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d27-27-native.mp3",
     "relatedPhrases": [
-      "맛이 고소하다",
-      "냄새가 고소하다"
+      "맛이 고소하다 (vị béo ngậy, thơm bùi)",
+      "냄새가 고소하다 (mùi thơm bùi)"
     ]
   },
   {
@@ -820,9 +801,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d27-28-native.mp3",
     "relatedPhrases": [
-      "밤이 고요하다",
-      "마을이 고요하다",
-      "바다가 고요하다"
+      "밤이 고요하다 (đêm yên tĩnh)",
+      "바다가 고요하다 (biển lặng, yên tĩnh)"
     ],
     "synonyms": [
       "조용하다",
@@ -858,6 +838,10 @@ export const vocabTopik2Day27: VocabCard[] = [
     "day": 27,
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d27-29-native.mp3",
+    "relatedPhrases": [
+      "고유 문자 (chữ viết riêng, đặc trưng)",
+      "고유의 전통 (truyền thống cố hữu, vốn có)"
+    ],
     "relatedWords": [
       "고유하다 (tính từ)"
     ]
@@ -884,13 +868,8 @@ export const vocabTopik2Day27: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d27-30-native.mp3",
     "relatedPhrases": [
-      "고정적",
-      "고정 관념",
-      "고정 자산",
-      "고정 비용",
-      "고정 수입",
-      "고정(을) 하다",
-      "고정(이) 되다"
+      "고정 관념 (định kiến, quan niệm cố định)",
+      "고정(을) 하다 (cố định, gắn cố định)"
     ],
     "antonyms": [
       "임시"

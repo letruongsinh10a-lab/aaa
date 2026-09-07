@@ -23,11 +23,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d02-01-native.mp3",
     "relatedPhrases": [
-      "겁(이) 나다 (sợ)",
-      "겁(을) 내다 (tỏ ra sợ)",
-      "겁(을) 먹다 (sợ hãi)",
       "겁이 많다 (nhát gan)",
-      "겁이 없다 (gan dạ)"
+      "겁이 없다 (gan dạ, không biết sợ)"
     ]
   },
   {
@@ -51,6 +48,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "day": 2,
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d02-02-native.mp3",
+    "relatedPhrases": [
+      "게시판에 올리다 (đăng lên bảng tin)",
+      "게시판에 붙이다 (dán lên bảng thông báo)"
+    ],
     "synonyms": [
       "알림판",
       "안내판"
@@ -77,6 +78,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "day": 2,
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d02-03-native.mp3",
+    "relatedPhrases": [
+      "겨우 합격하다 (chỉ vừa đủ đậu)",
+      "겨우 도착하다 (chỉ vừa kịp đến nơi)"
+    ],
     "synonyms": [
       "간신히",
       "어렵게"
@@ -103,6 +108,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "day": 2,
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d02-04-native.mp3",
+    "relatedPhrases": [
+      "결국 실패하다 (cuối cùng thất bại)",
+      "결국 헤어지다 (cuối cùng chia tay)"
+    ],
     "synonyms": [
       "마침내"
     ]
@@ -130,8 +139,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d02-05-native.mp3",
     "pronunciationIrregular": "결쩨",
     "relatedPhrases": [
-      "결제(를) 하다",
-      "결제(가) 되다"
+      "결제(를) 하다 (thanh toán)",
+      "결제(가) 되다 (được thanh toán)"
     ]
   },
   {
@@ -156,8 +165,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 6,
     "audioUrl": "/audio/word-t2-d02-06-native.mp3",
     "relatedPhrases": [
-      "경비가 들다",
-      "경비를 마련하다"
+      "경비가 들다 (tốn kinh phí)",
+      "경비를 마련하다 (chuẩn bị kinh phí)"
     ],
     "synonyms": [
       "비용"
@@ -184,6 +193,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "day": 2,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d02-07-native.mp3",
+    "relatedPhrases": [
+      "경우가 있다 (có trường hợp là...)",
+      "경우에 따라 다르다 (tùy trường hợp mà khác nhau)"
+    ],
     "synonyms": [
       "상황"
     ]
@@ -210,8 +223,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d02-08-native.mp3",
     "relatedPhrases": [
-      "경제가 발전하다",
-      "경제가 안정되다"
+      "경제가 발전하다 (kinh tế phát triển)",
+      "경제가 안정되다 (kinh tế ổn định)"
     ]
   },
   {
@@ -236,6 +249,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d02-09-native.mp3",
     "pronunciationIrregular": "겯",
+    "relatedPhrases": [
+      "곁에 있다 (ở bên cạnh)",
+      "곁을 떠나다 (rời xa, rời khỏi bên cạnh)"
+    ],
     "synonyms": [
       "옆"
     ]
@@ -262,9 +279,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d02-10-native.mp3",
     "relatedPhrases": [
-      "계약(을) 하다",
-      "계약을 맺다",
-      "계약을 취소하다"
+      "계약(을) 하다 (ký hợp đồng)",
+      "계약을 취소하다 (hủy hợp đồng)"
     ],
     "relatedWords": [
       "계약서 (văn bản hợp đồng)",
@@ -294,9 +310,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 11,
     "audioUrl": "/audio/word-t2-d02-11-native.mp3",
     "relatedPhrases": [
-      "고백(을) 하다",
-      "고백을 받다",
-      "고백을 거절하다"
+      "고백(을) 하다 (thổ lộ, tỏ tình)",
+      "고백을 받다 (nhận được lời tỏ tình)"
     ]
   },
   {
@@ -321,8 +336,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d02-12-native.mp3",
     "relatedPhrases": [
-      "고생(을) 하다",
-      "고생을 겪다"
+      "고생(을) 하다 (chịu khổ, vất vả)",
+      "고생을 겪다 (trải qua khó khăn)"
     ]
   },
   {
@@ -355,6 +370,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     ],
     "structure": [
       "V-기가 곤란하다"
+    ],
+    "relatedPhrases": [
+      "곤란한 질문 (câu hỏi khó trả lời)",
+      "곤란한 상황 (tình huống khó xử)"
     ]
   },
   {
@@ -377,7 +396,11 @@ export const vocabTopik2Day02: VocabCard[] = [
     "tags": [],
     "day": 2,
     "dayOrder": 14,
-    "audioUrl": "/audio/word-t2-d02-14-native.mp3"
+    "audioUrl": "/audio/word-t2-d02-14-native.mp3",
+    "relatedPhrases": [
+      "곧이어 시작되다 (bắt đầu ngay sau đó)",
+      "곧이어 이어지다 (tiếp nối ngay sau đó)"
+    ]
   },
   {
     "id": "t2-d02-15",
@@ -401,6 +424,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d02-15-native.mp3",
     "pronunciationIrregular": "곧짱",
+    "relatedPhrases": [
+      "곧장 가다 (đi thẳng, đi ngay)",
+      "곧장 오다 (đến thẳng, đến ngay)"
+    ],
     "synonyms": [
       "똑바로",
       "곧바로"
@@ -426,7 +453,11 @@ export const vocabTopik2Day02: VocabCard[] = [
     "tags": [],
     "day": 2,
     "dayOrder": 16,
-    "audioUrl": "/audio/word-t2-d02-16-native.mp3"
+    "audioUrl": "/audio/word-t2-d02-16-native.mp3",
+    "relatedPhrases": [
+      "골고루 먹다 (ăn đầy đủ các loại)",
+      "골고루 나누다 (chia đều)"
+    ]
   },
   {
     "id": "t2-d02-17",
@@ -449,6 +480,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "day": 2,
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d02-17-native.mp3",
+    "relatedPhrases": [
+      "골목에서 놀다 (chơi đùa trong ngõ hẻm)",
+      "좁은 골목 (con hẻm nhỏ hẹp)"
+    ],
     "synonyms": [
       "골목길"
     ]
@@ -481,6 +516,10 @@ export const vocabTopik2Day02: VocabCard[] = [
       "고우면",
       "곱습니다"
     ],
+    "relatedPhrases": [
+      "얼굴이 곱다 (gương mặt xinh đẹp)",
+      "마음씨가 곱다 (tấm lòng hiền dịu)"
+    ],
     "extraNotes": [
       {
         "label": "Tục ngữ",
@@ -510,6 +549,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d02-19-native.mp3",
     "pronunciationIrregular": "곧꼳",
+    "relatedPhrases": [
+      "전국 곳곳 (khắp nơi trên cả nước)",
+      "곳곳을 다니다 (đi khắp nơi)"
+    ],
     "synonyms": [
       "여기저기",
       "이곳저곳"
@@ -535,7 +578,11 @@ export const vocabTopik2Day02: VocabCard[] = [
     "tags": [],
     "day": 2,
     "dayOrder": 20,
-    "audioUrl": "/audio/word-t2-d02-20-native.mp3"
+    "audioUrl": "/audio/word-t2-d02-20-native.mp3",
+    "relatedPhrases": [
+      "휴식 공간 (không gian nghỉ ngơi)",
+      "공간을 꾸미다 (trang trí không gian)"
+    ]
   },
   {
     "id": "t2-d02-21",
@@ -560,8 +607,7 @@ export const vocabTopik2Day02: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d02-21-native.mp3",
     "relatedPhrases": [
       "공공시설 (cơ sở công cộng)",
-      "공공요금 (phí công ích)",
-      "공공사업 (dự án công cộng)"
+      "공공요금 (phí công ích)"
     ]
   },
   {
@@ -584,7 +630,11 @@ export const vocabTopik2Day02: VocabCard[] = [
     "tags": [],
     "day": 2,
     "dayOrder": 22,
-    "audioUrl": "/audio/word-t2-d02-22-native.mp3"
+    "audioUrl": "/audio/word-t2-d02-22-native.mp3",
+    "relatedPhrases": [
+      "공과금을 내다 (đóng tiền điện nước, gas)",
+      "공과금 고지서 (hóa đơn tiền điện nước)"
+    ]
   },
   {
     "id": "t2-d02-23",
@@ -634,9 +684,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d02-24-native.mp3",
     "relatedPhrases": [
-      "공사(를) 하다",
-      "공사를 시작하다",
-      "공사 중이다"
+      "공사(를) 하다 (thi công)",
+      "공사 중이다 (đang thi công)"
     ]
   },
   {
@@ -663,6 +712,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "antonyms": [
       "비공식 (không chính thức)"
     ],
+    "relatedPhrases": [
+      "공식 발표 (thông báo chính thức)",
+      "공식 방문 (chuyến thăm chính thức)"
+    ],
     "relatedWords": [
       "공식적"
     ]
@@ -688,6 +741,10 @@ export const vocabTopik2Day02: VocabCard[] = [
     "day": 2,
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d02-26-native.mp3",
+    "relatedPhrases": [
+      "공통 과제 (bài tập chung)",
+      "공통으로 가지다 (cùng có chung)"
+    ],
     "relatedWords": [
       "공통적",
       "공통점 (điểm chung)",
@@ -716,7 +773,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d02-27-native.mp3",
     "relatedPhrases": [
-      "과로(를) 하다"
+      "과로(를) 하다 (làm việc quá sức)",
+      "과로로 병에 걸리다 (mắc bệnh vì làm việc quá sức)"
     ]
   },
   {
@@ -739,7 +797,11 @@ export const vocabTopik2Day02: VocabCard[] = [
     "tags": [],
     "day": 2,
     "dayOrder": 28,
-    "audioUrl": "/audio/word-t2-d02-28-native.mp3"
+    "audioUrl": "/audio/word-t2-d02-28-native.mp3",
+    "relatedPhrases": [
+      "과목을 듣다 (học một môn học)",
+      "좋아하는 과목 (môn học yêu thích)"
+    ]
   },
   {
     "id": "t2-d02-29",
@@ -763,7 +825,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d02-29-native.mp3",
     "relatedPhrases": [
-      "과식(을) 하다"
+      "과식(을) 하다 (ăn quá no)",
+      "과식으로 배탈이 나다 (bị đau bụng vì ăn quá no)"
     ]
   },
   {
@@ -788,8 +851,8 @@ export const vocabTopik2Day02: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d02-30-native.mp3",
     "relatedPhrases": [
-      "과장(을) 하다",
-      "과장(이) 되다"
+      "과장(을) 하다 (phóng đại, khoa trương)",
+      "과장(이) 되다 (bị phóng đại)"
     ]
   }
 ]

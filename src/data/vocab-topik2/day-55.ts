@@ -23,9 +23,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d55-01-native.mp3",
     "relatedPhrases": [
-      "사회에 진출하다",
-      "해외로 진출하다",
-      "연예계로 진출하다"
+      "사회에 진출하다 (tiến ra xã hội)",
+      "해외로 진출하다 (tiến ra nước ngoài)"
     ],
     "structure": [
       "N에/(으)로 진출(을) 하다"
@@ -53,9 +52,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 2,
     "audioUrl": "/audio/word-t2-d55-02-native.mp3",
     "relatedPhrases": [
-      "질병에 걸리다",
-      "질병을 앓다",
-      "질병을 예방하다"
+      "질병에 걸리다 (mắc bệnh)",
+      "질병을 예방하다 (phòng ngừa bệnh tật)"
     ]
   },
   {
@@ -81,9 +79,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d55-03-native.mp3",
     "pronunciationIrregular": "질써",
     "relatedPhrases": [
-      "질서가 있다",
-      "질서를 지키다",
-      "질서가 무너지다"
+      "질서를 지키다 (tuân thủ trật tự)",
+      "질서가 무너지다 (trật tự bị phá vỡ)"
     ],
     "antonyms": [
       "무질서"
@@ -111,10 +108,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d55-04-native.mp3",
     "relatedPhrases": [
-      "질투(를) 하다",
-      "질투를 부리다",
-      "질투가 나다",
-      "질투가 심하다"
+      "질투를 부리다 (tỏ ra ghen tuông)",
+      "질투가 나다 (cảm thấy ghen tị)"
     ],
     "relatedWords": [
       "질투심"
@@ -142,10 +137,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d55-05-native.mp3",
     "relatedPhrases": [
-      "짐작(을) 하다",
-      "짐작(이) 되다",
-      "짐작이 가다",
-      "짐작이 들다"
+      "짐작이 가다 (đoán được, cảm nhận được)",
+      "짐작(을) 하다 (phỏng đoán)"
     ],
     "synonyms": [
       "예측",
@@ -175,8 +168,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d55-06-native.mp3",
     "pronunciationIrregular": "집딴",
     "relatedPhrases": [
-      "집단을 이루다",
-      "집단을 구성하다"
+      "집단을 이루다 (tạo thành nhóm/tập thể)",
+      "집단을 구성하다 (hình thành đoàn thể)"
     ],
     "synonyms": [
       "단체"
@@ -210,6 +203,10 @@ export const vocabTopik2Day55: VocabCard[] = [
     "day": 55,
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d55-07-native.mp3",
+    "relatedPhrases": [
+      "가방에 집어넣다 (nhét vào cặp)",
+      "주머니에 집어넣다 (nhét vào túi)"
+    ],
     "pronunciationIrregular": "지버너타",
     "conjugation": [
       "집어넣고",
@@ -257,7 +254,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "짖습니다"
     ],
     "relatedPhrases": [
-      "개가 짖다"
+      "개가 짖다 (chó sủa)",
+      "멍멍 짖다 (sủa \"gâu gâu\")"
     ]
   },
   {
@@ -289,10 +287,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "짙습니다"
     ],
     "relatedPhrases": [
-      "화장이 짙다",
-      "색깔이 짙다",
-      "연기가 짙다",
-      "안개가 짙다"
+      "화장이 짙다 (trang điểm đậm)",
+      "안개가 짙다 (sương mù dày đặc)"
     ],
     "synonyms": [
       "진하다"
@@ -330,9 +326,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "짚습니다"
     ],
     "relatedPhrases": [
-      "지팡이를 짚다",
-      "땅을 짚다",
-      "이마를 짚다"
+      "지팡이를 짚다 (chống gậy)",
+      "땅을 짚다 (chống tay xuống đất)"
     ]
   },
   {
@@ -364,9 +359,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "쫓겨납니다"
     ],
     "relatedPhrases": [
-      "집에서 쫓겨나다",
-      "학교에서 쫓겨나다",
-      "회사에서 쫓겨나다"
+      "집에서 쫓겨나다 (bị đuổi khỏi nhà)",
+      "회사에서 쫓겨나다 (bị sa thải khỏi công ty)"
     ],
     "structure": [
       "N에서 쫓겨나다"
@@ -401,9 +395,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "쫓깁니다"
     ],
     "relatedPhrases": [
-      "시간에 쫓기다",
-      "일에 쫓기다",
-      "경찰에게 쫓기다"
+      "시간에 쫓기다 (bị thời gian thúc ép)",
+      "경찰에게 쫓기다 (bị cảnh sát truy đuổi)"
     ],
     "structure": [
       "bị động từ của '쫓다'; N에/에게 쫓기다"
@@ -438,10 +431,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "쫓습니다"
     ],
     "relatedPhrases": [
-      "쫓아가다",
-      "쫓아오다",
-      "쫓아내다",
-      "쫓아다니다"
+      "범인을 쫓다 (truy đuổi tội phạm)",
+      "유행을 쫓다 (chạy theo xu hướng)"
     ],
     "synonyms": [
       "뒤쫓다"
@@ -475,10 +466,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "찌푸립니다"
     ],
     "relatedPhrases": [
-      "하늘이 찌푸리다",
-      "날씨가 찌푸리다",
-      "얼굴을 찌푸리다",
-      "인상을 찌푸리다"
+      "하늘이 찌푸리다 (bầu trời âm u)",
+      "인상을 찌푸리다 (nhăn mặt, cau có)"
     ],
     "synonyms": [
       "찡그리다"
@@ -521,6 +510,10 @@ export const vocabTopik2Day55: VocabCard[] = [
     "structure": [
       "bị động từ của '찍다'; N1이/가 N2에 찍히다"
     ],
+    "relatedPhrases": [
+      "도끼에 찍히다 (bị rìu chặt)",
+      "포크에 찍히다 (bị xiên bằng nĩa)"
+    ],
     "extraNotes": [
       {
         "label": "Tục ngữ",
@@ -556,9 +549,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "찡그립니다"
     ],
     "relatedPhrases": [
-      "얼굴을 찡그리다",
-      "눈을 찡그리다",
-      "눈썹을 찡그리다"
+      "얼굴을 찡그리다 (nhăn mặt)",
+      "눈을 찡그리다 (nheo/nhăn mắt)"
     ],
     "synonyms": [
       "찌푸리다",
@@ -590,6 +582,10 @@ export const vocabTopik2Day55: VocabCard[] = [
       "V-느니 차라리",
       "V-ㄹ 바에야 차라리"
     ],
+    "relatedPhrases": [
+      "차라리 혼자 하다 (thà làm một mình còn hơn)",
+      "차라리 포기하다 (thà từ bỏ còn hơn)"
+    ],
     "synonyms": [
       "오히려",
       "도리어"
@@ -620,6 +616,10 @@ export const vocabTopik2Day55: VocabCard[] = [
       "차마 + biểu hiện phủ định (없다",
       "않다",
       "못하다...)"
+    ],
+    "relatedPhrases": [
+      "차마 말하지 못하다 (không nỡ nói ra)",
+      "차마 볼 수 없다 (không nỡ/không thể nhìn được)"
     ]
   },
   {
@@ -644,11 +644,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d55-19-native.mp3",
     "relatedPhrases": [
-      "차별(을) 하다",
-      "차별(이) 되다",
-      "차별을 받다",
-      "차별을 두다",
-      "차별이 심하다"
+      "차별을 받다 (bị phân biệt đối xử)",
+      "차별을 두다 (đối xử phân biệt)"
     ],
     "antonyms": [
       "평등"
@@ -680,9 +677,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d55-20-native.mp3",
     "relatedPhrases": [
-      "차원이 높다",
-      "차원이 다르다",
-      "차원을 높이다"
+      "차원이 다르다 (khác biệt về đẳng cấp)",
+      "차원을 높이다 (nâng cao tầm mức)"
     ],
     "synonyms": [
       "수준"
@@ -709,6 +705,10 @@ export const vocabTopik2Day55: VocabCard[] = [
     "day": 55,
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d55-21-native.mp3",
+    "relatedPhrases": [
+      "차츰 익숙해지다 (dần trở nên quen thuộc)",
+      "차츰 나아지다 (dần trở nên tốt hơn)"
+    ],
     "synonyms": [
       "점점",
       "점차",
@@ -740,11 +740,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d55-22-native.mp3",
     "pronunciationIrregular": "착깍",
     "relatedPhrases": [
-      "착각(을) 하다",
-      "착각(이) 되다",
-      "착각이 들다",
-      "착각에 빠지다",
-      "착각을 일으키다"
+      "착각(을) 하다 (nhầm lẫn)",
+      "착각에 빠지다 (rơi vào sự nhầm lẫn)"
     ]
   },
   {
@@ -769,8 +766,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 23,
     "audioUrl": "/audio/word-t2-d55-23-native.mp3",
     "relatedPhrases": [
-      "참여(를) 하다",
-      "참여를 유도하다"
+      "참여(를) 하다 (tham gia)",
+      "참여를 유도하다 (khuyến khích sự tham gia)"
     ]
   },
   {
@@ -801,8 +798,8 @@ export const vocabTopik2Day55: VocabCard[] = [
       "참조합니다"
     ],
     "relatedPhrases": [
-      "참고 문헌을 참조하다",
-      "자료를 참조하다"
+      "참고 문헌을 참조하다 (tham khảo tài liệu tham khảo)",
+      "자료를 참조하다 (tham khảo tài liệu)"
     ]
   },
   {
@@ -827,11 +824,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d55-25-native.mp3",
     "relatedPhrases": [
-      "창작(을) 하다",
-      "창작(이) 되다",
-      "작품을 창작하다",
-      "시를 창작하다",
-      "노래를 창작하다"
+      "창작(을) 하다 (sáng tác)",
+      "작품을 창작하다 (sáng tác tác phẩm)"
     ]
   },
   {
@@ -856,11 +850,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d55-26-native.mp3",
     "relatedPhrases": [
-      "창조(를) 하다",
-      "창조(가) 되다",
-      "인류를 창조하다",
-      "생명을 창조하다",
-      "천지를 창조하다"
+      "창조(를) 하다 (sáng tạo, tạo ra)",
+      "생명을 창조하다 (tạo ra sự sống)"
     ],
     "relatedWords": [
       "창조적",
@@ -889,6 +880,10 @@ export const vocabTopik2Day55: VocabCard[] = [
     "day": 55,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d55-27-native.mp3",
+    "relatedPhrases": [
+      "어르신을 찾아뵙다 (đến thăm bậc trưởng bối)",
+      "교수님을 찾아뵙다 (đến thăm giáo sư)"
+    ],
     "pronunciationIrregular": "차자뵙따",
     "conjugation": [
       "찾아뵙고",
@@ -922,11 +917,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d55-28-native.mp3",
     "relatedPhrases": [
-      "책임(을) 지다",
-      "책임이 있다",
-      "책임을 맡다",
-      "책임을 지우다",
-      "책임이 따르다"
+      "책임(을) 지다 (chịu trách nhiệm)",
+      "책임을 맡다 (đảm nhận trách nhiệm)"
     ],
     "relatedWords": [
       "책임감",
@@ -955,11 +947,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d55-29-native.mp3",
     "relatedPhrases": [
-      "처리(를) 하다",
-      "처리(가) 되다",
-      "업무를 처리하다",
-      "사고를 처리하다",
-      "쓰레기를 처리하다"
+      "업무를 처리하다 (xử lý công việc)",
+      "쓰레기를 처리하다 (xử lý rác thải)"
     ]
   },
   {
@@ -984,10 +973,8 @@ export const vocabTopik2Day55: VocabCard[] = [
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d55-30-native.mp3",
     "relatedPhrases": [
-      "처벌(을) 하다",
-      "처벌(이) 되다",
-      "처벌을 받다",
-      "처벌을 내리다"
+      "처벌을 받다 (bị trừng phạt)",
+      "처벌을 내리다 (áp dụng hình phạt)"
     ],
     "synonyms": [
       "벌"

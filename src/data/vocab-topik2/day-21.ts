@@ -23,9 +23,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 1,
     "audioUrl": "/audio/word-t2-d21-01-native.mp3",
     "relatedPhrases": [
-      "정신이 들다",
-      "정신을 차리다",
-      "정신이 나가다"
+      "정신이 들다 (tỉnh lại, hồi tỉnh)",
+      "정신을 차리다 (tỉnh táo lại, lấy lại tinh thần)"
     ],
     "antonyms": [
       "신체",
@@ -56,8 +55,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d21-02-native.mp3",
     "pronunciationIrregular": "정시넙따",
     "relatedPhrases": [
-      "정신없이 바쁘다",
-      "정신없이 생활하다"
+      "정신없이 바쁘다 (bận rộn đến mức không còn tâm trí)",
+      "정신없이 생활하다 (sống một cách rối bời, tất bật)"
     ],
     "synonyms": [
       "바쁘다"
@@ -85,11 +84,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 3,
     "audioUrl": "/audio/word-t2-d21-03-native.mp3",
     "relatedPhrases": [
-      "정치적",
-      "정치인",
-      "정치가",
-      "정치(를) 하다",
-      "정치를 배우다"
+      "정치인 (chính trị gia)",
+      "정치(를) 하다 (làm chính trị)"
     ]
   },
   {
@@ -114,6 +110,10 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 4,
     "audioUrl": "/audio/word-t2-d21-04-native.mp3",
     "pronunciationIrregular": "정화키",
+    "relatedPhrases": [
+      "정확히 이해하다 (hiểu chính xác)",
+      "정확히 계산하다 (tính toán chính xác)"
+    ],
     "synonyms": [
       "똑바로",
       "확실하게",
@@ -142,8 +142,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 5,
     "audioUrl": "/audio/word-t2-d21-05-native.mp3",
     "relatedPhrases": [
-      "제공(을) 하다",
-      "제공(이) 되다"
+      "제공(을) 하다 (cung cấp)",
+      "제공(이) 되다 (được cung cấp)"
     ]
   },
   {
@@ -166,7 +166,11 @@ export const vocabTopik2Day21: VocabCard[] = [
     "tags": [],
     "day": 21,
     "dayOrder": 6,
-    "audioUrl": "/audio/word-t2-d21-06-native.mp3"
+    "audioUrl": "/audio/word-t2-d21-06-native.mp3",
+    "relatedPhrases": [
+      "잠을 제대로 못 자다 (ngủ không ngon giấc)",
+      "제대로 받다 (nhận được đầy đủ, đàng hoàng)"
+    ]
   },
   {
     "id": "t2-d21-07",
@@ -190,8 +194,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 7,
     "audioUrl": "/audio/word-t2-d21-07-native.mp3",
     "relatedPhrases": [
-      "제시간에 오다",
-      "제시간에 시작하다"
+      "제시간에 오다 (đến đúng giờ)",
+      "제시간에 시작하다 (bắt đầu đúng giờ)"
     ]
   },
   {
@@ -216,10 +220,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 8,
     "audioUrl": "/audio/word-t2-d21-08-native.mp3",
     "relatedPhrases": [
-      "제안(을) 하다",
-      "제안(이) 되다",
-      "제안을 내다",
-      "제안을 받아들이다"
+      "제안(을) 하다 (đề xuất)",
+      "제안을 받아들이다 (chấp nhận đề xuất)"
     ],
     "synonyms": [
       "제의"
@@ -247,8 +249,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 9,
     "audioUrl": "/audio/word-t2-d21-09-native.mp3",
     "relatedPhrases": [
-      "제출(을) 하다",
-      "제출(이) 되다"
+      "제출(을) 하다 (nộp)",
+      "제출(이) 되다 (được nộp)"
     ]
   },
   {
@@ -273,9 +275,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 10,
     "audioUrl": "/audio/word-t2-d21-10-native.mp3",
     "relatedPhrases": [
-      "신제품",
-      "가전제품",
-      "전자 제품"
+      "신제품 (sản phẩm mới)",
+      "전자 제품 (sản phẩm điện tử)"
     ],
     "synonyms": [
       "물건",
@@ -305,10 +306,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d21-11-native.mp3",
     "pronunciationIrregular": "조껀",
     "relatedPhrases": [
-      "조건에 맞다",
-      "조건이 까다롭다",
-      "조건을 제시하다",
-      "조건을 붙이다"
+      "조건에 맞다 (phù hợp điều kiện)",
+      "조건이 까다롭다 (điều kiện khắt khe)"
     ]
   },
   {
@@ -333,8 +332,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 12,
     "audioUrl": "/audio/word-t2-d21-12-native.mp3",
     "relatedPhrases": [
-      "조리(를) 하다",
-      "조리(가) 되다"
+      "조리(를) 하다 (nấu, chế biến)",
+      "조리(가) 되다 (được chế biến, được nấu)"
     ]
   },
   {
@@ -359,8 +358,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 13,
     "audioUrl": "/audio/word-t2-d21-13-native.mp3",
     "relatedPhrases": [
-      "조미료를 넣다",
-      "조미료를 치다"
+      "조미료를 넣다 (cho gia vị vào)",
+      "조미료를 치다 (rắc, nêm gia vị)"
     ]
   },
   {
@@ -385,9 +384,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 14,
     "audioUrl": "/audio/word-t2-d21-14-native.mp3",
     "relatedPhrases": [
-      "조사(를) 하다",
-      "조사(가) 되다",
-      "조사를 받다"
+      "조사(를) 하다 (điều tra)",
+      "조사를 받다 (bị/được điều tra)"
     ]
   },
   {
@@ -412,8 +410,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 15,
     "audioUrl": "/audio/word-t2-d21-15-native.mp3",
     "relatedPhrases": [
-      "조상을 모시다",
-      "조상을 섬기다"
+      "조상을 모시다 (thờ cúng tổ tiên)",
+      "조상을 섬기다 (phụng thờ tổ tiên)"
     ]
   },
   {
@@ -438,9 +436,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 16,
     "audioUrl": "/audio/word-t2-d21-16-native.mp3",
     "relatedPhrases": [
-      "조언(을) 하다",
-      "조언을 구하다",
-      "조언을 듣다"
+      "조언(을) 하다 (đưa ra lời khuyên)",
+      "조언을 듣다 (nghe lời khuyên)"
     ],
     "synonyms": [
       "충고",
@@ -469,9 +466,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 17,
     "audioUrl": "/audio/word-t2-d21-17-native.mp3",
     "relatedPhrases": [
-      "존경스럽다",
-      "존경(을) 하다",
-      "존경을 받다"
+      "존경(을) 하다 (tôn kính, kính trọng)",
+      "존경을 받다 (được kính trọng)"
     ]
   },
   {
@@ -496,7 +492,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 18,
     "audioUrl": "/audio/word-t2-d21-18-native.mp3",
     "relatedPhrases": [
-      "표정이 졸리다"
+      "표정이 졸리다 (vẻ mặt buồn ngủ)",
+      "너무 졸리다 (buồn ngủ quá)"
     ]
   },
   {
@@ -521,10 +518,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 19,
     "audioUrl": "/audio/word-t2-d21-19-native.mp3",
     "relatedPhrases": [
-      "종교가 있다",
-      "종교가 없다",
-      "종교를 믿다",
-      "종교를 가지다"
+      "종교가 있다 (có tôn giáo)",
+      "종교를 믿다 (theo, tin một tôn giáo)"
     ]
   },
   {
@@ -549,8 +544,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 20,
     "audioUrl": "/audio/word-t2-d21-20-native.mp3",
     "relatedPhrases": [
-      "온종일",
-      "하루 종일"
+      "온종일 (suốt cả ngày)",
+      "하루 종일 (cả ngày trời)"
     ],
     "synonyms": [
       "내내"
@@ -578,11 +573,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 21,
     "audioUrl": "/audio/word-t2-d21-21-native.mp3",
     "relatedPhrases": [
-      "종합적",
-      "종합시험",
-      "종합 병원",
-      "종합(을) 하다",
-      "종합(이) 되다"
+      "종합 병원 (bệnh viện đa khoa)",
+      "종합(을) 하다 (tổng hợp lại)"
     ]
   },
   {
@@ -608,9 +600,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "audioUrl": "/audio/word-t2-d21-22-native.mp3",
     "pronunciationIrregular": "주고받따",
     "relatedPhrases": [
-      "선물을 주고받다",
-      "이야기를 주고받다",
-      "인사를 주고받다"
+      "선물을 주고받다 (tặng quà qua lại)",
+      "이야기를 주고받다 (trò chuyện, trao đổi câu chuyện)"
     ]
   },
   {
@@ -633,7 +624,11 @@ export const vocabTopik2Day21: VocabCard[] = [
     "tags": [],
     "day": 21,
     "dayOrder": 23,
-    "audioUrl": "/audio/word-t2-d21-23-native.mp3"
+    "audioUrl": "/audio/word-t2-d21-23-native.mp3",
+    "relatedPhrases": [
+      "지역 주민 (cư dân địa phương)",
+      "마을 주민 (người dân trong làng)"
+    ]
   },
   {
     "id": "t2-d21-24",
@@ -656,6 +651,10 @@ export const vocabTopik2Day21: VocabCard[] = [
     "day": 21,
     "dayOrder": 24,
     "audioUrl": "/audio/word-t2-d21-24-native.mp3",
+    "relatedPhrases": [
+      "주요 산업 (ngành công nghiệp chủ yếu)",
+      "주요 내용 (nội dung chính)"
+    ],
     "relatedWords": [
       "주요하다"
     ]
@@ -682,9 +681,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 25,
     "audioUrl": "/audio/word-t2-d21-25-native.mp3",
     "relatedPhrases": [
-      "주인공이 되다",
-      "주인공을 하다",
-      "주인공을 맡다"
+      "주인공이 되다 (trở thành nhân vật chính)",
+      "주인공을 맡다 (đảm nhận vai chính)"
     ],
     "synonyms": [
       "주연"
@@ -712,8 +710,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 26,
     "audioUrl": "/audio/word-t2-d21-26-native.mp3",
     "relatedPhrases": [
-      "주제를 다루다",
-      "주제를 정하다"
+      "주제를 다루다 (đề cập, xử lý chủ đề)",
+      "주제를 정하다 (chọn, xác định chủ đề)"
     ]
   },
   {
@@ -737,6 +735,10 @@ export const vocabTopik2Day21: VocabCard[] = [
     "day": 21,
     "dayOrder": 27,
     "audioUrl": "/audio/word-t2-d21-27-native.mp3",
+    "relatedPhrases": [
+      "벌레를 죽이다 (giết côn trùng)",
+      "시간을 죽이다 (giết thời gian)"
+    ],
     "antonyms": [
       "살리다 (cứu sống)"
     ]
@@ -763,9 +765,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 28,
     "audioUrl": "/audio/word-t2-d21-28-native.mp3",
     "relatedPhrases": [
-      "중고차",
-      "중고 서적",
-      "중고 거래"
+      "중고차 (xe cũ)",
+      "중고 거래 (giao dịch đồ cũ)"
     ]
   },
   {
@@ -790,9 +791,8 @@ export const vocabTopik2Day21: VocabCard[] = [
     "dayOrder": 29,
     "audioUrl": "/audio/word-t2-d21-29-native.mp3",
     "relatedPhrases": [
-      "중단(을) 하다",
-      "중단(이) 되다",
-      "중단(을) 시키다"
+      "중단(을) 하다 (dừng lại, ngưng)",
+      "중단(이) 되다 (bị dừng, bị ngưng)"
     ],
     "synonyms": [
       "중지"
@@ -823,6 +823,10 @@ export const vocabTopik2Day21: VocabCard[] = [
     "day": 21,
     "dayOrder": 30,
     "audioUrl": "/audio/word-t2-d21-30-native.mp3",
+    "relatedPhrases": [
+      "이번 달 중순 (trung tuần tháng này)",
+      "다음 달 중순 (trung tuần tháng sau)"
+    ],
     "extraNotes": [
       {
         "label": "So sánh",
