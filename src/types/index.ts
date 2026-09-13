@@ -37,6 +37,9 @@ export interface VocabCard {
   // Ngày học (bộ "Từ mới TOPIK II", chia theo 60 ngày)
   day?: number
   dayOrder?: number
+  // Chủ đề (bộ "Từ vựng TOPIK theo chủ đề")
+  topic?: string
+  topicOrder?: number
   pronunciationIrregular?: string
   conjugation?: string[]
   relatedPhrases?: string[]

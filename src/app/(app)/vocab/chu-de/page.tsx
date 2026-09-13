@@ -3,8 +3,8 @@
 import { useState, useMemo, useCallback } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, BookOpen, Zap, ChevronDown, Layers } from 'lucide-react'
-import { vocabTopik2All, vocabTopik2Days } from '@/data/vocab-topik2'
+import { Search, X, BookOpen, Zap, ChevronDown, Layers, ArrowLeft } from 'lucide-react'
+import { vocabByTopicAll, vocabByTopicList, type VocabTopicGroup } from '@/data/vocab-by-topic'
 import { Badge } from '@/components/ui/Badge'
 import { buttonVariants } from '@/components/ui/Button'
 import { fadeUp, stagger } from '@/lib/motion'
@@ -12,21 +12,23 @@ import { cn } from '@/lib/utils'
 import { VocabDetailPanel, POS_LABELS, POS_BADGE } from '@/components/vocab/VocabDetailPanel'
 import type { VocabCard, PartOfSpeech } from '@/types'
 
-const DAYS = vocabTopik2Days.map(d => d.day)
-const DAY_MAP: Record<number, VocabCard[]> = Object.fromEntries(
-  vocabTopik2Days.map(d => [d.day, d.words])
-)
+const GROUP_LABELS: Record<VocabTopicGroup, string> = {
+  place: 'Theo địa điểm',
+  theme: 'Theo chủ đề',
+  idiom: 'Thành ngữ',
+}
 
-export default function VocabPage() {
-  const [activeDay, setActiveDay] = useState<number>(DAYS[0])
+export default function VocabByTopicPage() {
+  const [activeSlug, setActiveSlug] = useState<string>(vocabByTopicList[0].slug)
   const [search, setSearch] = useState('')
   const [posFilter, setPosFilter] = useState<PartOfSpeech | 'all'>('all')
   const [selectedCard, setSelectedCard] = useState<VocabCard | null>(null)
   const [page, setPage] = useState(1)
   const PAGE_SIZE = 60
 
+  const activeTopic = vocabByTopicList.find(t => t.slug === activeSlug) ?? vocabByTopicList[0]
   const isSearching = search.trim().length > 0
-  const cards = isSearching ? vocabTopik2All : (DAY_MAP[activeDay] ?? [])
+  const cards = isSearching ? vocabByTopicAll : activeTopic.words
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
@@ -43,8 +45,8 @@ export default function VocabPage() {
   const paged = filtered.slice(0, page * PAGE_SIZE)
   const hasMore = paged.length < filtered.length
 
-  const handleDayChange = useCallback((day: number) => {
-    setActiveDay(day)
+  const handleTopicChange = useCallback((slug: string) => {
+    setActiveSlug(slug)
     setPosFilter('all')
     setPage(1)
   }, [])
@@ -55,58 +57,70 @@ export default function VocabPage() {
     return map
   }, [cards])
 
+  const groups = useMemo(() => {
+    const byGroup: Record<VocabTopicGroup, typeof vocabByTopicList> = { place: [], theme: [], idiom: [] }
+    vocabByTopicList.forEach(t => byGroup[t.group].push(t))
+    return byGroup
+  }, [])
+
   return (
     <div className="p-6 lg:p-10 max-w-[1100px]">
       {/* Header */}
       <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-8">
         <div className="flex items-center justify-between gap-4 mb-2">
-          <p className="text-[11px] font-medium tracking-[0.16em] uppercase text-text-tertiary">
-            Từ vựng
-          </p>
-          <Link href="/vocab/chu-de" className="text-xs text-text-tertiary hover:text-accent-coral transition-colors underline underline-offset-4">
-            Xem theo chủ đề →
+          <Link href="/vocab" className="flex items-center gap-1.5 text-xs text-text-tertiary hover:text-accent-coral transition-colors">
+            <ArrowLeft className="w-3.5 h-3.5" />
+            Từ vựng theo ngày
           </Link>
         </div>
         <h1 className="font-serif text-[44px] font-normal tracking-tight text-text-primary leading-tight">
-          Từ mới TOPIK II
+          Từ vựng theo chủ đề
         </h1>
         <p className="text-text-secondary mt-2">
-          {vocabTopik2All.length.toLocaleString('vi-VN')} từ · chia thành {DAYS.length} ngày học.
+          {vocabByTopicAll.length.toLocaleString('vi-VN')} từ · {vocabByTopicList.length} chủ đề.
         </p>
       </motion.div>
 
-      {/* Day picker */}
+      {/* Topic picker */}
       <motion.div variants={fadeUp} initial="hidden" animate="visible" className="mb-6">
         <div className="flex items-center justify-between mb-3">
           <p className="flex items-center gap-2 text-sm text-text-secondary">
             <Layers className="w-4 h-4" />
-            Chọn ngày học
+            Chọn chủ đề
           </p>
           {!isSearching && (
             <Link
-              href={`/learn/flashcards?day=${activeDay}`}
+              href={`/learn/flashcards?topic=${activeTopic.slug}`}
               className={buttonVariants({ variant: 'primary', size: 'sm' })}
             >
-              Học thẻ ngày {activeDay} <Zap className="w-3.5 h-3.5" />
+              Học thẻ chủ đề này <Zap className="w-3.5 h-3.5" />
             </Link>
           )}
         </div>
-        <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 lg:grid-cols-[repeat(15,minmax(0,1fr))] gap-1.5">
-          {DAYS.map(day => (
-            <button
-              key={day}
-              onClick={() => handleDayChange(day)}
-              className={cn(
-                'h-9 rounded-lg text-xs font-medium transition-all duration-150',
-                !isSearching && activeDay === day
-                  ? 'bg-accent-coral text-white'
-                  : 'bg-bg-elevated border border-[rgba(255,255,255,0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(255,255,255,0.16)]'
-              )}
-            >
-              {day}
-            </button>
-          ))}
-        </div>
+        {(['place', 'theme', 'idiom'] as VocabTopicGroup[]).filter(g => groups[g].length > 0).map(g => (
+          <div key={g} className="mb-3 last:mb-0">
+            <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-1.5">
+              {GROUP_LABELS[g]}
+            </p>
+            <div className="flex flex-wrap gap-1.5">
+              {groups[g].map(t => (
+                <button
+                  key={t.slug}
+                  onClick={() => handleTopicChange(t.slug)}
+                  lang="ko"
+                  className={cn(
+                    'font-korean px-3 py-2 rounded-lg text-sm font-medium transition-all duration-150',
+                    !isSearching && activeSlug === t.slug
+                      ? 'bg-accent-coral text-white'
+                      : 'bg-bg-elevated border border-[rgba(255,255,255,0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(255,255,255,0.16)]'
+                  )}
+                >
+                  {t.nameKo} <span className="font-sans not-italic">({t.nameVi})</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
       </motion.div>
 
       {/* Search + filter bar */}
@@ -116,7 +130,7 @@ export default function VocabPage() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-tertiary" />
           <input
             type="text"
-            placeholder="Tìm từ, nghĩa trên toàn bộ 1.710 từ..."
+            placeholder={`Tìm từ, nghĩa trên toàn bộ ${vocabByTopicAll.length} từ...`}
             value={search}
             onChange={e => { setSearch(e.target.value); setPage(1) }}
             className="w-full bg-bg-elevated border border-[rgba(255,255,255,0.08)] rounded-lg pl-9 pr-4 py-2.5 text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-[rgba(255,255,255,0.20)] transition-colors"
@@ -166,10 +180,10 @@ export default function VocabPage() {
         <BookOpen className="w-4 h-4" />
         <span>
           {isSearching
-            ? `${filtered.length} kết quả trong toàn bộ ${vocabTopik2All.length} từ`
+            ? `${filtered.length} kết quả trong toàn bộ ${vocabByTopicAll.length} từ`
             : filtered.length === cards.length
-              ? `Ngày ${activeDay} · ${cards.length} từ`
-              : `${filtered.length} / ${cards.length} từ · Ngày ${activeDay}`}
+              ? `${activeTopic.nameVi} · ${cards.length} từ`
+              : `${filtered.length} / ${cards.length} từ · ${activeTopic.nameVi}`}
         </span>
         {posFilter !== 'all' && (
           <button
@@ -196,12 +210,9 @@ export default function VocabPage() {
             className="group text-left p-4 rounded-xl border border-[rgba(255,255,255,0.06)] bg-bg-surface hover:border-[rgba(255,255,255,0.14)] hover:bg-bg-elevated transition-all duration-200"
           >
             <div className="flex items-center justify-between mb-2">
-              <p lang="ko" className="font-korean text-2xl font-bold text-text-primary leading-none group-hover:text-accent-coral transition-colors">
+              <p lang="ko" className="font-korean text-lg font-bold text-text-primary leading-tight group-hover:text-accent-coral transition-colors">
                 {card.word}
               </p>
-              {isSearching && card.day && (
-                <span className="text-[10px] text-text-tertiary shrink-0">N.{card.day}</span>
-              )}
             </div>
             <p className="text-xs text-text-tertiary mb-2 truncate">{card.meaningVi}</p>
             <Badge variant={POS_BADGE[card.pos]} className="text-[10px] px-1.5 py-0">

@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import {
   LayoutDashboard, BookOpen, FileText, Headphones,
-  Mic, Trophy, GraduationCap, Settings, Flame, Library,
+  Mic, Trophy, GraduationCap, Settings, Flame, Library, Tags,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useDashboard } from '@/hooks/useDashboard'
@@ -13,7 +13,8 @@ import { useDashboard } from '@/hooks/useDashboard'
 const NAV = [
   { href: '/learn',           icon: LayoutDashboard, label: 'Dashboard',  exact: true },
   { href: '/learn/flashcards',icon: BookOpen,         label: 'Flashcard' },
-  { href: '/vocab',           icon: Library,          label: 'Từ vựng'   },
+  { href: '/vocab',           icon: Library,          label: 'Từ vựng',   exact: true },
+  { href: '/vocab/chu-de',    icon: Tags,             label: 'Theo chủ đề' },
   { href: '/learn/grammar',   icon: FileText,         label: 'Ngữ pháp'  },
   { href: '/learn/listening', icon: Headphones,       label: 'Nghe'      },
   { href: '/learn/speaking',  icon: Mic,              label: 'Nói'       },

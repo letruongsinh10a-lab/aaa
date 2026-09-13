@@ -5,14 +5,16 @@ import { useSearchParams } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Zap } from 'lucide-react'
 import { vocabTopik2All, vocabTopik2Days } from '@/data/vocab-topik2'
+import { vocabByTopicAll, vocabByTopicList } from '@/data/vocab-by-topic'
 import { getDueCards, getLocalUser } from '@/lib/srs/store'
 import { useFlashcardSession } from '@/hooks/useFlashcardSession'
 import { FlashCard } from '@/components/learning/FlashCard'
 import { CardRating } from '@/components/learning/CardRating'
 import { SessionEnd } from '@/components/learning/SessionEnd'
 
-const ALL_IDS = vocabTopik2All.map(c => c.id)
-const BY_ID = Object.fromEntries(vocabTopik2All.map(c => [c.id, c]))
+const ALL_CARDS = [...vocabTopik2All, ...vocabByTopicAll]
+const ALL_IDS = ALL_CARDS.map(c => c.id)
+const BY_ID = Object.fromEntries(ALL_CARDS.map(c => [c.id, c]))
 
 export default function FlashcardsPage() {
   return (
@@ -30,6 +32,8 @@ function FlashcardsSession() {
   const searchParams = useSearchParams()
   const dayParam = Number(searchParams.get('day'))
   const day = vocabTopik2Days.some(d => d.day === dayParam) ? dayParam : null
+  const topicParam = searchParams.get('topic')
+  const topic = vocabByTopicList.find(t => t.slug === topicParam) ?? null
 
   const [sessionIds, setSessionIds] = useState<string[]>([])
   const { phase, currentCardId, progress, isFlipped, stats, flip, rate, restart, exit } =
@@ -47,6 +51,9 @@ function FlashcardsSession() {
     if (day !== null) {
       // Học theo ngày: toàn bộ từ của ngày đó, không lọc theo hạn ôn
       ids = vocabTopik2Days.find(d => d.day === day)!.words.map(c => c.id)
+    } else if (topic !== null) {
+      // Học theo chủ đề: toàn bộ từ của chủ đề đó, không lọc theo hạn ôn
+      ids = topic.words.map(c => c.id)
     } else {
       const due = getDueCards(ALL_IDS)
       ids = due.length > 0 ? due : ALL_IDS.slice(0, 20)
@@ -54,7 +61,7 @@ function FlashcardsSession() {
     setSessionIds(ids)
     restart(ids)
     prevXpRef.current = getLocalUser().xpToday
-  }, [restart, day])
+  }, [restart, day, topic])
 
   // Show XP pop whenever a card is rated
   useEffect(() => {
@@ -110,6 +117,9 @@ function FlashcardsSession() {
         </button>
         {day !== null && (
           <span className="text-xs font-medium text-accent-coral shrink-0">Ngày {day}</span>
+        )}
+        {topic !== null && (
+          <span lang="ko" className="font-korean text-xs font-medium text-accent-coral shrink-0">{topic.nameKo}</span>
         )}
         <div className="flex-1 h-1.5 bg-bg-elevated rounded-full overflow-hidden">
           <motion.div
