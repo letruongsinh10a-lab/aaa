@@ -6,7 +6,7 @@ import Link from 'next/link'
 import type { SessionStats } from '@/lib/srs/session'
 
 interface SessionEndProps {
-  stats: SessionStats
+  stats: Pick<SessionStats, 'totalCards' | 'correct' | 'xpEarned' | 'accuracy'>
   onRetry: () => void
 }
 

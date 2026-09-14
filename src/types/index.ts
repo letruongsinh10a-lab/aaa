@@ -61,6 +61,58 @@ export interface GrammarPattern {
   relatedPatterns: string[]
 }
 
+// Ngữ pháp theo cấp độ Sơ/Trung/Cao cấp (bộ "Ngữ pháp tiếng Hàn Sơ-Trung-Cao cấp")
+// — hệ phân loại song song, tách biệt với TOPIKLevel/grammarTopikN hiện có.
+export type GrammarLevelGroup = 'so-cap' | 'trung-cap' | 'cao-cap'
+
+export interface GrammarEntry {
+  id: string
+  pattern: string
+  meaningVi: string
+  usageNotes: string
+  examples: { ko: string; vi: string }[]
+  commonMistakes: string[]
+  level: GrammarLevelGroup
+  section: string
+  sectionOrder: number
+  sectionTitleVi: string
+}
+
+// Bài tập luyện tập cho mỗi mẫu ngữ pháp Sơ/Trung/Cao cấp — tầng dữ liệu riêng,
+// tham chiếu GrammarEntry qua patternId, tách biệt hoàn toàn khỏi SRS review.
+export type GrammarExerciseType = 'fill-blank' | 'discriminate' | 'produce'
+
+interface GrammarExerciseBase {
+  id: string
+  patternId: string
+}
+
+export interface FillBlankExercise extends GrammarExerciseBase {
+  type: 'fill-blank'
+  promptVi: string
+  sentenceKo: string
+  answer: string
+  hintVi?: string
+}
+
+export interface DiscriminateExercise extends GrammarExerciseBase {
+  type: 'discriminate'
+  promptVi: string
+  sentenceKo: string
+  options: string[]
+  correctIndex: number
+  explanation: string
+}
+
+export interface ProduceExercise extends GrammarExerciseBase {
+  type: 'produce'
+  promptVi: string
+  modelAnswerKo: string
+  modelAnswerVi: string
+}
+
+export type GrammarExercise = FillBlankExercise | DiscriminateExercise | ProduceExercise
+
 export interface Course {
   id: string
   slug: string
