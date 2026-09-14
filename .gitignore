@@ -15,6 +15,9 @@ build/
 .env.test.local
 .env.production.local
 
+# secrets (generated passwords/keys — never commit)
+secrets/
+
 # misc
 .DS_Store
 *.pem
@@ -35,3 +38,5 @@ make_report.py
 make_report2.py
 Tổng hợp từ vựng dịch (Ngày 1-60)/
 public/audio/quizlet-*.mp3
+.vercel
+.env*

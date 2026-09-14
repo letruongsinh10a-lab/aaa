@@ -4,15 +4,17 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import {
-  LayoutDashboard, BookOpen, FileText, Headphones,
+  LayoutDashboard, FileText, Headphones,
   Mic, Trophy, GraduationCap, Settings, Flame, Library, Tags,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useDashboard } from '@/hooks/useDashboard'
+import { useAuthStore } from '@/stores/authStore'
+import { UserMenu } from '@/components/layout/UserMenu'
+import { buttonVariants } from '@/components/ui/Button'
 
 const NAV = [
   { href: '/learn',           icon: LayoutDashboard, label: 'Dashboard',  exact: true },
-  { href: '/learn/flashcards',icon: BookOpen,         label: 'Flashcard' },
   { href: '/vocab',           icon: Library,          label: 'Từ vựng',   exact: true },
   { href: '/vocab/chu-de',    icon: Tags,             label: 'Theo chủ đề' },
   { href: '/learn/grammar',   icon: FileText,         label: 'Ngữ pháp'  },
@@ -27,6 +29,7 @@ const DAILY_GOAL_XP = 100
 export function Sidebar() {
   const pathname = usePathname()
   const d = useDashboard()
+  const { status, user } = useAuthStore()
 
   const isActive = (href: string, exact = false) =>
     exact ? pathname === href : pathname.startsWith(href)
@@ -95,17 +98,12 @@ export function Sidebar() {
             >
               <Icon className="w-4 h-4 shrink-0" />
               {label}
-              {href === '/learn/flashcards' && d.dueCount > 0 && (
-                <span className="ml-auto text-[10px] bg-accent-coral text-white px-1.5 py-0.5 rounded-full font-medium min-w-[18px] text-center">
-                  {d.dueCount}
-                </span>
-              )}
             </Link>
           )
         })}
       </nav>
 
-      {/* Bottom: level + settings */}
+      {/* Bottom: level + account + settings */}
       <div className="px-3 py-4 border-t border-[rgba(255,255,255,0.06)] space-y-0.5">
         <div className="px-3 py-2 flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-accent-coral/20 flex items-center justify-center shrink-0">
@@ -115,7 +113,16 @@ export function Sidebar() {
             <p className="text-xs font-medium text-text-primary truncate">Lv.{d.level}</p>
             <p className="text-[10px] text-text-tertiary">{d.xp} XP tổng</p>
           </div>
+          {status === 'authenticated' && user && <UserMenu user={user} />}
         </div>
+        {status === 'guest' && (
+          <Link
+            href="/login"
+            className={cn(buttonVariants({ variant: 'secondary', size: 'sm' }), 'w-full justify-center mb-1')}
+          >
+            Đăng nhập
+          </Link>
+        )}
         <Link
           href="/settings"
           className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all duration-150"

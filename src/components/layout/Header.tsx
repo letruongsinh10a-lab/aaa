@@ -2,10 +2,14 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { useScrolled } from '@/hooks/useScrolled'
 import { buttonVariants } from '@/components/ui/Button'
+import { UserMenu } from '@/components/layout/UserMenu'
+import { useAuthStore } from '@/stores/authStore'
+import { createClient } from '@/lib/supabase/client'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
@@ -18,6 +22,16 @@ const navLinks = [
 export function Header() {
   const scrolled = useScrolled(20)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const router = useRouter()
+  const { status, user } = useAuthStore()
+
+  async function handleMobileSignOut() {
+    const supabase = createClient()
+    await supabase.auth.signOut()
+    setMobileOpen(false)
+    router.push('/')
+    router.refresh()
+  }
 
   return (
     <header
@@ -52,12 +66,18 @@ export function Header() {
 
         {/* Desktop actions */}
         <div className="hidden md:flex items-center gap-2">
-          <Link href="/login" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>
-            Đăng nhập
-          </Link>
-          <Link href="/signup" className={buttonVariants({ variant: 'primary', size: 'sm' })}>
-            Bắt đầu miễn phí
-          </Link>
+          {status === 'authenticated' && user ? (
+            <UserMenu user={user} />
+          ) : status === 'guest' ? (
+            <>
+              <Link href="/login" className={buttonVariants({ variant: 'ghost', size: 'sm' })}>
+                Đăng nhập
+              </Link>
+              <Link href="/signup" className={buttonVariants({ variant: 'primary', size: 'sm' })}>
+                Bắt đầu miễn phí
+              </Link>
+            </>
+          ) : null}
         </div>
 
         {/* Mobile toggle */}
@@ -92,20 +112,40 @@ export function Header() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 pt-3 mt-2 border-t border-[rgba(255,255,255,0.06)]">
-              <Link
-                href="/login"
-                className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'w-full justify-center' })}
-                onClick={() => setMobileOpen(false)}
-              >
-                Đăng nhập
-              </Link>
-              <Link
-                href="/signup"
-                className={buttonVariants({ variant: 'primary', size: 'sm', className: 'w-full justify-center' })}
-                onClick={() => setMobileOpen(false)}
-              >
-                Bắt đầu miễn phí
-              </Link>
+              {status === 'authenticated' && user ? (
+                <>
+                  <Link
+                    href="/settings"
+                    className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'w-full justify-center' })}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    Cài đặt
+                  </Link>
+                  <button
+                    onClick={handleMobileSignOut}
+                    className={buttonVariants({ variant: 'ghost', size: 'sm', className: 'w-full justify-center' })}
+                  >
+                    Đăng xuất
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Link
+                    href="/login"
+                    className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'w-full justify-center' })}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    Đăng nhập
+                  </Link>
+                  <Link
+                    href="/signup"
+                    className={buttonVariants({ variant: 'primary', size: 'sm', className: 'w-full justify-center' })}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    Bắt đầu miễn phí
+                  </Link>
+                </>
+              )}
             </div>
           </motion.div>
         )}

@@ -8,6 +8,7 @@ import { vocabTopik2All, vocabTopik2Days } from '@/data/vocab-topik2'
 import { vocabByTopicAll, vocabByTopicList } from '@/data/vocab-by-topic'
 import { getDueCards, getLocalUser } from '@/lib/srs/store'
 import { useFlashcardSession } from '@/hooks/useFlashcardSession'
+import { useAuthStore } from '@/stores/authStore'
 import { FlashCard } from '@/components/learning/FlashCard'
 import { CardRating } from '@/components/learning/CardRating'
 import { SessionEnd } from '@/components/learning/SessionEnd'
@@ -41,10 +42,16 @@ function FlashcardsSession() {
   const initializedRef = useRef(false)
   const prevXpRef = useRef(0)
   const [lastXp, setLastXp] = useState<number | null>(null)
+  const { status: authStatus, isSyncing } = useAuthStore()
 
-  // Initialize with real due cards once on the client (avoids SSR/hydration mismatch)
+  // Initialize with real due cards once on the client (avoids SSR/hydration mismatch).
+  // Waits out auth resolution + the post-login reconcile: otherwise a signed-in
+  // user on a fresh device could have their queue built from an empty
+  // localStorage before their server progress is hydrated, and re-grind
+  // cards they already mastered elsewhere.
   useEffect(() => {
     if (initializedRef.current) return
+    if (authStatus === 'loading' || (authStatus === 'authenticated' && isSyncing)) return
     initializedRef.current = true
 
     let ids: string[]
@@ -61,7 +68,7 @@ function FlashcardsSession() {
     setSessionIds(ids)
     restart(ids)
     prevXpRef.current = getLocalUser().xpToday
-  }, [restart, day, topic])
+  }, [restart, day, topic, authStatus, isSyncing])
 
   // Show XP pop whenever a card is rated
   useEffect(() => {

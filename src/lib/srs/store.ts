@@ -52,6 +52,11 @@ export function getDueCards(allCardIds: string[], userId = 'local'): string[] {
   })
 }
 
+/** Bulk-replace all entries — used by the sync layer to hydrate from a merge/pull, never by the review flow itself. */
+export function replaceAllEntries(entries: Record<string, SRSEntry>) {
+  saveEntries(entries)
+}
+
 export function reviewCard(cardId: string, rating: SRSRating, userId = 'local'): number {
   const entries = getAllEntries()
   const existing = entries[cardId] ?? createNewEntry(userId, cardId)
@@ -71,6 +76,16 @@ export function reviewCard(cardId: string, rating: SRSRating, userId = 'local'):
   }
 
   return xpEarned
+}
+
+/**
+ * Award XP without touching any SRSEntry — used by non-SRS practice modes
+ * (e.g. grammar exercise drills) that must never affect a card's review schedule.
+ */
+export function awardXP(amount: number) {
+  const user = getLocalUser()
+  updateUser({ xp: user.xp + amount, xpToday: user.xpToday + amount })
+  recordHeatmapXP(amount)
 }
 
 // ─── User / streak ──────────────────────────────────────────────
@@ -136,4 +151,20 @@ export function recordHeatmapXP(xp: number) {
   const map = getHeatmapData()
   map[today] = (map[today] ?? 0) + xp
   localStorage.setItem(HEATMAP_KEY, JSON.stringify(map))
+}
+
+/** Bulk-replace the heatmap — used by the sync layer to hydrate from a merge/pull. */
+export function replaceHeatmap(map: Record<string, number>) {
+  if (typeof window === 'undefined') return
+  localStorage.setItem(HEATMAP_KEY, JSON.stringify(map))
+}
+
+// ─── Sync (account switch) ────────────────────────────────────────────────
+
+/** Wipes all local progress. Used only when a different account signs in on this device — never on plain sign-out, so guest study after logout still works. */
+export function resetLocalProgress() {
+  if (typeof window === 'undefined') return
+  localStorage.removeItem(STORAGE_KEY)
+  localStorage.removeItem(USER_KEY)
+  localStorage.removeItem(HEATMAP_KEY)
 }

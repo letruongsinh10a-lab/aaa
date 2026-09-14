@@ -21,6 +21,14 @@ import {
   touchStreak,
   getLocalUser,
 } from '@/lib/srs/store'
+import { pushDirtyEntries } from '@/lib/srs/sync'
+import { useAuthStore } from '@/stores/authStore'
+
+/** Fire-and-forget background push, only when a Supabase session is active. */
+function syncIfSignedIn(): void {
+  const { status, user } = useAuthStore.getState()
+  if (status === 'authenticated' && user) void pushDirtyEntries(user.id)
+}
 
 // ─── Hook return type ─────────────────────────────────────────────────────────
 
@@ -79,6 +87,7 @@ export function useFlashcardSession(
   useEffect(() => {
     const user = touchStreak()
     streakDaysRef.current = user.streakDays
+    syncIfSignedIn()
   }, [])
 
   // ── Live duration timer (1-second tick) ───────────────────────────────────
@@ -130,6 +139,7 @@ export function useFlashcardSession(
 
       // Write to localStorage via store (handles XP + heatmap)
       reviewCard(currentCardId, rating)
+      syncIfSignedIn()
 
       // Check if the card just became mature after this review
       const entriesAfter = getAllEntries()
@@ -178,6 +188,7 @@ export function useFlashcardSession(
     (cardIds: string[]) => {
       const user = touchStreak()
       streakDaysRef.current = user.streakDays
+      syncIfSignedIn()
       setStats(null)
       setIsFlipped(false)
       setSessionDurationMs(0)
