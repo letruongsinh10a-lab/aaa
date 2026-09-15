@@ -113,6 +113,24 @@ export interface ProduceExercise extends GrammarExerciseBase {
 
 export type GrammarExercise = FillBlankExercise | DiscriminateExercise | ProduceExercise
 
+// Luyện nghe (shadowing) — hệ phân loại riêng, tách biệt với GrammarLevelGroup/
+// TOPIKLevel dù cùng dùng tên Sơ/Trung/Cao cấp, vì đây là nội dung độc lập.
+export type ListeningLevel = 'so-cap' | 'trung-cap' | 'cao-cap'
+
+export interface DialogueLine {
+  speaker: 'A' | 'B'
+  ko: string
+  vi: string
+}
+
+export interface ListeningDialogue {
+  id: string
+  level: ListeningLevel
+  titleVi: string
+  descVi: string
+  lines: DialogueLine[]
+}
+
 export interface Course {
   id: string
   slug: string
