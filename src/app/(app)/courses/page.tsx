@@ -14,7 +14,7 @@ export default function CoursesPage() {
         <h1 className="font-serif text-[42px] font-normal tracking-tight text-text-primary mb-2">
           Lộ trình học tiếng Hàn.
         </h1>
-        <p className="text-text-secondary">Từ 한글 cơ bản đến TOPIK 6 cao cấp.</p>
+        <p className="text-text-secondary">Từ <span lang="ko" className="font-korean">한글</span> cơ bản đến TOPIK 6 cao cấp.</p>
       </div>
 
       {/* Free badge */}

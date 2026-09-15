@@ -27,7 +27,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <span className="font-serif text-xl text-text-primary">한</span>
+              <span lang="ko" className="font-korean font-bold text-xl text-text-primary">한</span>
               <span className="text-sm font-semibold text-text-primary">Hàn Ngữ</span>
             </div>
             <p className="text-sm text-text-tertiary leading-relaxed max-w-[200px]">

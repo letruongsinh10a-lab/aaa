@@ -45,7 +45,7 @@ export function Header() {
       <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <span className="font-serif text-xl text-text-primary group-hover:text-accent-coral transition-colors">
+          <span lang="ko" className="font-korean font-bold text-xl text-text-primary group-hover:text-accent-coral transition-colors">
             한
           </span>
           <span className="text-sm font-semibold text-text-primary tracking-tight">Hàn Ngữ</span>
