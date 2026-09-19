@@ -52,7 +52,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '전쟁으로 말미암아 문화유산들이 소실되었다.', vi: 'Do chiến tranh, nhiều di sản văn hóa đã bị mất đi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc rất trang trọng, gần nghĩa với -(으)로 인해서 nhưng gần như chỉ xuất hiện trong văn viết học thuật, báo chí, hầu như không dùng trong văn nói.',
     ],
     level: 'cao-cap',
@@ -71,7 +70,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '네가 거짓말을 함으로 해서 얼마나 많은 일들이 벌어졌는가를 봐라.', vi: 'Con hãy nhìn xem, vì con nói dối mà đã có bao nhiêu chuyện xảy ra.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dễ nhầm với -로써 (chỉ phương tiện, cách thức) — -로 해서 luôn mang nghĩa nguyên nhân/lý do, không phải công cụ hay phương thức thực hiện.',
     ],
     level: 'cao-cap',
@@ -90,7 +88,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '날씨가 추우니만큼 밖에 나가지 말고 집에서 쉬자.', vi: 'Vì trời lạnh nên chúng ta đừng ra ngoài, ở nhà nghỉ ngơi thôi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Khác với -는 만큼 thông thường (chỉ mức độ tương xứng) — -느니만큼 nhấn mạnh việc lấy sự thật đó làm căn cứ để đưa ra đề nghị/nhận định, mang sắc thái văn viết trang trọng hơn.',
     ],
     level: 'cao-cap',
@@ -109,7 +106,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아직 학생이니만큼 열심히 공부하세요.', vi: 'Vì vẫn còn là học sinh nên hãy học tập chăm chỉ.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là biến thể ít phổ biến hơn -느니만큼, thường gặp trong văn viết/văn phong hơi cổ hơn là trong văn nói hiện đại — nên ưu tiên dùng -느니만큼 khi không chắc.',
     ],
     level: 'cao-cap',
@@ -128,7 +124,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '수강 신청자가 이렇게 적은 이상 폐강을 할 수밖에 없어요.', vi: 'Một khi số người đăng ký học ít như vậy thì chỉ còn cách hủy lớp học.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế trước phải là điều đã được xác định chắc chắn (thực tế hoặc quyết định đã đưa ra), không dùng cho một giả định chưa rõ ràng — khác với -다면 vốn dùng cho giả định thuần túy.',
     ],
     level: 'cao-cap',
@@ -147,7 +142,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아무리 시중 약국에서 마스크 품귀현상이 벌어지기로서니 그 현상을 이용해서 마스크를 비싸게 파는 게 정말 너무하네요.', vi: 'Dù các nhà thuốc có khan hiếm khẩu trang đến đâu thì việc lợi dụng tình trạng đó để bán khẩu trang với giá cao thật là quá đáng.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Thường phải đi cùng 아무리 ở vế trước để làm rõ sắc thái nhượng bộ, nếu thiếu 아무리 câu dễ bị hiểu sai nghĩa hoặc nghe cụt.',
     ],
     level: 'cao-cap',
@@ -166,7 +160,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '일찍 출발했기에 망정이지 기차를 놓칠 뻔했어요.', vi: 'May mà xuất phát sớm chứ không thì đã lỡ mất chuyến tàu rồi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau phải diễn tả một kết quả xấu mang tính giả định "suýt thì đã xảy ra" (thường có -았/었을 것이다, -(으)ㄹ 뻔하다), không dùng để mô tả kết quả xấu đã thực sự xảy ra.',
     ],
     level: 'cao-cap',
@@ -205,7 +198,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '모든 국민이 힘을 모음으로써 경제위기를 극복할 수 있었어요.', vi: 'Nhờ toàn thể người dân đồng lòng góp sức mà đất nước đã vượt qua được khủng hoảng kinh tế.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dễ nhầm -(으)ㅁ으로써 (bằng việc, nhờ việc — chỉ phương tiện/nguyên nhân) với -(으)로서 (với tư cách là) — hai cấu trúc khác nghĩa hoàn toàn dù phát âm gần giống nhau.',
     ],
     level: 'cao-cap',
@@ -264,7 +256,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '저는 너무 급한 나머지 문을 잠그는 걸 잊어버렸어요.', vi: 'Vì quá vội vàng nên tôi đã quên khóa cửa.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau luôn phải là một kết quả tiêu cực, ngoài ý muốn — không dùng cho kết quả tích cực dù mức độ ở vế trước có cao đến đâu.',
     ],
     level: 'cao-cap',
@@ -283,7 +274,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '북쪽에 추울세라 두꺼운 옷도 많이 챙겼어요.', vi: 'Vì lo miền Bắc lạnh nên tôi đã chuẩn bị nhiều quần áo dày.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc mang tính văn viết/trang trọng hơn -(으)ㄹ까 봐, ít dùng trong khẩu ngữ hàng ngày.',
     ],
     level: 'cao-cap',
@@ -302,7 +292,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '복도에서 다른 학생들이 떠들어대는 바람에 시험을 망쳤어요.', vi: 'Vì các bạn khác cứ ồn ào ngoài hành lang nên tôi đã làm hỏng bài thi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Mang sắc thái than phiền, khó chịu rõ rệt — khác với -다가 보니 vốn thiên về đúc kết kinh nghiệm mang tính trung lập hoặc khuyên nhủ.',
     ],
     level: 'cao-cap',
@@ -321,7 +310,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '가뭄이라 채소가 원체 비싸 놓으니 사다 먹을 수가 있어야지.', vi: 'Vì hạn hán nên rau vốn đã đắt sẵn rồi, làm sao mà mua ăn cho được.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chủ yếu kết hợp với tính từ và các phó từ nhấn mạnh mức độ (워낙, 원체, 너무) — nếu bỏ các phó từ này câu dễ mất đi sắc thái nhấn mạnh đặc trưng của cấu trúc.',
     ],
     level: 'cao-cap',
@@ -340,7 +328,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '사회가 점점 변하고 있는 까닭에 가족에 대한 생각이 달라지고 있다.', vi: 'Vì xã hội đang dần thay đổi nên quan niệm về gia đình cũng đang khác đi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc thiên về văn viết, gần nghĩa -기 때문에 nhưng trang trọng hơn, ít khi được dùng trong khẩu ngữ hàng ngày.',
     ],
     level: 'cao-cap',
@@ -359,7 +346,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '다이어트를 열심히 해서인지 살이 많이 빠졌어요.', vi: 'Có lẽ vì ăn kiêng chăm chỉ nên tôi đã giảm được nhiều cân.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Khác với -아/어서 vốn khẳng định chắc chắn nguyên nhân, -아/어서인지 luôn mang sắc thái phỏng đoán, không chắc chắn tuyệt đối về nguyên nhân thực sự.',
     ],
     level: 'cao-cap',
@@ -377,7 +363,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '자네가 먹을진대 나도 먹어야겠네.', vi: 'Vì cậu ăn nên tôi cũng phải ăn thôi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 1 ví dụ duy nhất — đây là cấu trúc cổ văn, gần như không xuất hiện trong tiếng Hàn giao tiếp hiện đại.',
       'Dễ nhầm với -(으)ㄹ 텐데 (dự đoán, suy đoán) — -(으)ㄹ진대 mang sắc thái nhận định chắc chắn kèm kết luận logic, không phải dự đoán về tương lai.',
     ],
     level: 'cao-cap',
@@ -396,7 +381,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '새도 제 집을 찾거늘 하물며 사람이 제 고향을 모른다 하겠는가.', vi: 'Chim còn biết tìm về tổ của mình, huống chi con người lại không biết đến quê hương mình.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc cổ văn/thành ngữ, gần như chỉ xuất hiện trong tục ngữ, văn học hoặc lời nói triết lý — không dùng trong giao tiếp hiện đại.',
     ],
     level: 'cao-cap',
@@ -415,7 +399,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '고향에 가 본즉 모든 것이 몰라보게 달라졌었다.', vi: 'Khi về quê thì mới thấy mọi thứ đã thay đổi đến mức không nhận ra nổi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc cổ, trang trọng, gần nghĩa -(으)므로 nhưng hầu như chỉ gặp trong văn viết cổ điển, hiếm dùng trong tiếng Hàn hiện đại.',
     ],
     level: 'cao-cap',
@@ -434,7 +417,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '어려울 때마다 그 분이 도와주시는지라 그저 고마울 수밖에요.', vi: 'Vì mỗi khi khó khăn ông ấy đều giúp đỡ nên tôi chỉ biết cảm kích mà thôi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc mang tính văn viết/trang trọng, gần nghĩa -기 때문에 nhưng ít dùng trong văn nói hiện đại, thường gặp trong văn chương hoặc lời kể mang tính trần thuật.',
     ],
     level: 'cao-cap',
@@ -453,7 +435,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '민호 씨한테 부탁하느니 시간이 걸려도 나 혼자 할래.', vi: 'Thay vì nhờ Minho, thà tôi tự làm một mình dù có mất thời gian còn hơn.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Cả hai vế đều phải là điều người nói không mong muốn — không dùng khi vế trước là một điều tích cực, vì bản chất cấu trúc luôn hàm ý "chọn cái đỡ tệ hơn trong hai điều không mong muốn".',
     ],
     level: 'cao-cap',
@@ -512,7 +493,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '가: 지민 씨가 한국어 말하기 대회에서 우승을 했다니 머리가 좋은가 봐요. 나: 머리가 좋다기보다는 이번 대회에 노력을 기울이는 거예요.', vi: 'A: Nghe nói Jimin đã đoạt giải nhất cuộc thi nói tiếng Hàn, chắc là thông minh lắm. B: Thay vì nói là thông minh thì đúng hơn là cô ấy đã rất nỗ lực cho cuộc thi lần này.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Không nhầm với các cấu trúc trích dẫn thuần túy như -다면서 — -다기보다는 luôn mang chức năng so sánh, điều chỉnh lại nhận định vừa nêu chứ không đơn thuần trích dẫn lời nói.',
     ],
     level: 'cao-cap',
@@ -551,7 +531,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '선생님께서는 왜 이번 시험에서 떨어졌냐며 열심히 공부하라고 하셨어요.', vi: 'Thầy vừa hỏi tại sao lần này thi trượt, vừa bảo tôi phải học hành chăm chỉ.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Hai vế bắt buộc phải cùng chủ ngữ và chủ ngữ chỉ nêu một lần ở đầu câu — nếu hai vế khác chủ ngữ phải tách thành hai câu riêng, không dùng được -다면서 để nối.',
     ],
     level: 'cao-cap',
@@ -570,7 +549,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '잘못했다거나 잘했다거나 그냥 내버려 둬.', vi: 'Dù đúng hay sai thì cứ để mặc kệ đi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là dạng trích dẫn gián tiếp nên động từ/tính từ phải chia ở dạng câu trần thuật (-다) trước khi thêm -거나, không gắn trực tiếp vào thân từ như -거나 thông thường.',
     ],
     level: 'cao-cap',
@@ -589,7 +567,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '다른 사람들은 모두 더웠다거늘 넌 왜 그런 소리도 안 하니?', vi: 'Những người khác đều nói là nóng, sao cậu lại chẳng kêu ca gì vậy?' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc rất hiếm gặp, kết hợp giữa trích dẫn gián tiếp và sắc thái tương phản của -거늘, chủ yếu xuất hiện trong văn viết/văn học, gần như không dùng trong khẩu ngữ hiện đại.',
     ],
     level: 'cao-cap',
@@ -608,7 +585,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '그는 부유한 집 아들이었다건만 지금 집 한 채도 없어요.', vi: 'Nghe nói anh ta từng là con nhà giàu, vậy mà giờ không có nổi một căn nhà.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc trích dẫn hiếm gặp, mang sắc thái văn viết/văn học; dễ nhầm với -다면서 (trích dẫn trung lập) — -다건만 luôn hàm ý tương phản, bất ngờ giữa điều đã nghe và thực tế.',
     ],
     level: 'cao-cap',
@@ -627,7 +603,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '제 성격은 좀 내성적이라고나 할까요?', vi: 'Có lẽ nói tính cách của tôi hơi hướng nội thì đúng hơn?' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cách nói tránh, dè dặt — không dùng khi muốn khẳng định dứt khoát một điều gì đó, vì bản chất cấu trúc luôn mang sắc thái phỏng đoán, ngập ngừng.',
     ],
     level: 'cao-cap',
@@ -645,7 +620,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '제가 싫다는데야 부모인들 강요할 수 있나?', vi: 'Một khi tôi đã nói là không thích thì dù có là bố mẹ cũng đâu thể ép buộc được?' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 1 ví dụ duy nhất — là cấu trúc hiếm gặp, mang sắc thái tu từ, chủ yếu xuất hiện trong văn nói mang tính biện luận, tranh cãi.',
       'Thường đi kèm câu hỏi tu từ ở vế sau để nhấn mạnh "không ai có thể làm gì khác" — nếu tách khỏi ngữ cảnh này, ý nghĩa dễ bị hiểu sai.',
     ],
     level: 'cao-cap',
@@ -704,7 +678,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아무리 빨리 간다손 치더라도 약속 시간에 맞춰 갈 수는 없다.', vi: 'Dù có đi nhanh đến đâu thì cũng không thể đến kịp giờ hẹn.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Thường đi kèm 아무리 ở vế trước để nhấn mạnh sắc thái nhượng bộ cực đoan; vì là cấu trúc trích dẫn (có -다) nên không gắn trực tiếp vào thân từ như -더라도 thông thường.',
     ],
     level: 'cao-cap',
@@ -723,7 +696,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '좋은 집을 소개해 주었더니 벌써 하숙집을 찾았다지 뭐예요?', vi: 'Tôi giới thiệu cho nhà tốt vậy mà bảo là đã tìm được nhà trọ khác rồi cơ đấy.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn mang sắc thái ngạc nhiên pha chút không hài lòng hoặc buồn cười về điều vừa nghe được — không dùng để trích dẫn thông tin một cách trung lập, khách quan.',
     ],
     level: 'cao-cap',
@@ -742,7 +714,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '비가 오겠음.', vi: 'Trời sẽ có mưa.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dễ nhầm với -기 (cũng dùng để danh từ hóa) — -(으)ㅁ thiên về một sự việc đã/đang diễn ra hoặc một thực tế khách quan, còn -기 thiên về hành động nói chung, mang tính trừu tượng hoặc chưa xảy ra.',
     ],
     level: 'cao-cap',
@@ -761,7 +732,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '그 작가가 이 작품을 완성하는 데(에) 10 년이나 걸린다고 한다.', vi: 'Nghe nói tác giả đó đã phải mất tới 10 năm để hoàn thành tác phẩm này.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dễ nhầm với đuôi câu nối -는데 (nghĩa "nhưng, trong khi") — -는 데(에) ở đây là danh từ hóa mang nghĩa "việc, chuyện", cần viết cách với 데 và thường đi cùng các cụm từ đánh giá hiệu quả như đã nêu.',
     ],
     level: 'cao-cap',
@@ -780,7 +750,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '정부는 집값 상승에 대해 아직까지 확정된 바가 없다고 전하고 있다.', vi: 'Chính phủ cho biết vẫn chưa có điều gì được xác định về việc giá nhà tăng.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc trang trọng của văn viết/tin tức, thường xuất hiện trong các cụm cố định như -는 바에 따르면/의하면 (theo như...) — không tự do kết hợp như 것 hay 일 trong văn nói hàng ngày.',
     ],
     level: 'cao-cap',
@@ -819,7 +788,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아무리 빨리 간다손 치더라도 약속 시간에 맞춰 갈 수는 없다.', vi: 'Dù có đi nhanh đến đâu thì cũng không thể đến kịp giờ hẹn.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa, trùng với ví dụ minh họa ở mục -(느)ㄴ다손 치더라도 (phần Trích dẫn) do tài liệu gốc xếp cùng một cấu trúc vào hai nhóm ngữ pháp khác nhau.',
       'Luôn cần đi kèm 아무리 ở vế trước để nhấn mạnh sắc thái nhượng bộ cực đoan.',
     ],
     level: 'cao-cap',
@@ -858,7 +826,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '병원에서 치료를 받은들 약을 제때 안 먹으면 빨리 낫기 힘들어요.', vi: 'Dù có được điều trị ở bệnh viện, nếu không uống thuốc đúng giờ thì cũng khó mà khỏi nhanh được.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau luôn mang kết quả trái với mong đợi hoặc phủ định hiệu quả của vế trước — không dùng khi vế sau là một kết quả tích cực, thuận theo vế trước.',
     ],
     level: 'cao-cap',
@@ -877,7 +844,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아무리 자신의 실수로 다쳤다고 해도 아픈 사람한테 화를 내면 안 되잖아요.', vi: 'Dù có là do lỗi của chính mình mà bị thương đi nữa thì cũng không được nổi giận với người đang đau chứ.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế trước thường nêu một tình huống cực đoan, ít khi xảy ra, vế sau là một quyết tâm hoặc khẳng định mạnh mẽ trái ngược — không dùng cho các tình huống thông thường, nhẹ nhàng.',
     ],
     level: 'cao-cap',
@@ -896,7 +862,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '가: 내일 말하기 시험이 있는데 연습하는 것 좀 도와줄 수 있나요? 나: 좋아요. 그럼 내가 선생님이라고 치고 말해 보세요. 듣고 평가해 줄게요.', vi: 'A: Mai tôi có bài thi nói, bạn có thể giúp tôi luyện tập không? B: Được thôi. Vậy thì cứ coi như tôi là giáo viên, bạn nói thử đi. Tôi sẽ nghe và nhận xét cho.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn mang tính giả định tạm thời để phục vụ mục đích nói tiếp (thường là lời khuyên hoặc đề xuất) — không dùng để khẳng định một sự thật chắc chắn.',
     ],
     level: 'cao-cap',
@@ -915,7 +880,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '가: 도와주신 것에 감사해서 영화권을 준비했어요. 이 걸 받으세요. 나: 마음은 고맙지만 받은 셈칠 테니까 그냥 넣어 두세요.', vi: 'A: Để cảm ơn bạn đã giúp đỡ, tôi đã chuẩn bị vé xem phim, bạn nhận đi. B: Cảm ơn tấm lòng, nhưng cứ coi như tôi đã nhận rồi, bạn cất đi nhé.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dễ nhầm với -(느)ㄴ다고 치다 — -는 셈 치다 thiên về việc "coi một hành động/kết quả tương đương với việc khác" để tự thuyết phục bản thân, còn -는다고 치다 thiên về giả định một hoàn cảnh để tiếp tục bàn luận.',
     ],
     level: 'cao-cap',
@@ -934,7 +898,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '비록 실업자로 지낼지언정 희망은 버릴 수 없어요.', vi: 'Dù có phải sống thất nghiệp thì tôi cũng không thể từ bỏ hy vọng.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau bắt buộc thiên về phủ định hoặc thể hiện một quyết tâm/nguyên tắc bất di bất dịch — khác với -(으)ㄹ지라도 vốn trung tính hơn và không bắt buộc phủ định ở vế sau.',
     ],
     level: 'cao-cap',
@@ -953,7 +916,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '노력해봤자 그 사람은 따라갈 수 없을 거야.', vi: 'Có cố gắng đến mấy thì cũng không thể theo kịp người đó đâu.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn mang sắc thái bi quan, cho rằng hành động ở vế trước là vô ích — không nên dùng khi muốn động viên ai đó cố gắng, dễ gây hiểu lầm là đang chê bai nỗ lực của người nghe.',
     ],
     level: 'cao-cap',
@@ -972,7 +934,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '새 영화가 개봉하기가 무섭게 친구들과 같이 극장에 보러 가요.', vi: 'Phim mới vừa công chiếu là tôi cùng bạn bè đi xem ngay ở rạp.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc khẩu ngữ, nhấn mạnh sự nhanh chóng, gấp gáp giữa hai hành động hơn -자마자 — không phù hợp dùng trong văn viết trang trọng.',
     ],
     level: 'cao-cap',
@@ -991,7 +952,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '비행기 바퀴가 땅에 닿자 승객들이 자리에서 일어났어요.', vi: 'Ngay khi bánh máy bay vừa chạm đất, hành khách đã đứng dậy khỏi chỗ ngồi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau không được chia mệnh lệnh, cầu khiến và thường ở thì quá khứ — khác với -는 대로 vốn thường dùng cho kế hoạch, mệnh lệnh trong tương lai.',
     ],
     level: 'cao-cap',
@@ -1010,7 +970,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '이 책을 다 읽는 대로 반납해 주시기를 바랍니다.', vi: 'Mong bạn trả lại cuốn sách này ngay sau khi đọc xong.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau không được chia quá khứ, chỉ dùng cho hành động tương lai/mệnh lệnh/lời hứa — khác với V-자 vốn chỉ mô tả sự việc đã xảy ra trong quá khứ theo trình tự tự nhiên.',
     ],
     level: 'cao-cap',
@@ -1029,7 +988,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '단 것을 먹지 않고 계속 운동을 하는 한 다이어트에 성공할 수 있다.', vi: 'Chỉ cần không ăn đồ ngọt và tiếp tục tập luyện thì có thể thành công trong việc ăn kiêng.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Nhấn mạnh tính điều kiện bắt buộc, giới hạn phạm vi ("chỉ trong trường hợp này") — khác với -(으)면 thông thường vốn chỉ nêu điều kiện chung chung, không nhấn mạnh tính duy nhất, giới hạn.',
     ],
     level: 'cao-cap',
@@ -1048,7 +1006,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '낮잠 좀 잘라치면 그때 옆집 아이가 피아노를 쳐 대니 잘 수가 없어요.', vi: 'Cứ hễ tôi định ngủ trưa một chút thì lúc đó đứa trẻ nhà bên lại đàn piano ầm ĩ nên không tài nào ngủ được.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn mang sắc thái than phiền về một tình huống trớ trêu lặp đi lặp lại — không dùng cho một sự việc chỉ xảy ra một lần duy nhất.',
     ],
     level: 'cao-cap',
@@ -1067,7 +1024,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '한국어를 열심히 연습하노라면 점점 실력이 좋아질 거예요.', vi: 'Nếu cứ chăm chỉ luyện tập tiếng Hàn thì trình độ sẽ dần được cải thiện.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc mang tính văn viết/trang trọng hơn -다가 보면, thường dùng cho lời khuyên hoặc động viên kiên trì — ít dùng trong khẩu ngữ thường ngày.',
     ],
     level: 'cao-cap',
@@ -1086,7 +1042,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아이들이 밥을 안 먹거들랑 도시락을 싸서 먹여 보세요.', vi: 'Nếu bọn trẻ không chịu ăn cơm thì hãy thử gói cơm hộp cho chúng ăn xem.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc khẩu ngữ hơi cổ, gần như đồng nghĩa hoàn toàn với -거든 khi dùng làm điều kiện — nên ưu tiên dùng -거든 trong giao tiếp hiện đại nếu không chắc chắn.',
     ],
     level: 'cao-cap',
@@ -1145,7 +1100,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '자녀는 부모가 교육하기 나름이다. 강요보다는 스스로 할 수 있도록 도와줘야 한다.', vi: 'Con cái ra sao là tùy thuộc vào cách cha mẹ giáo dục. Nên giúp con tự làm được thay vì ép buộc.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Thường đi kèm danh từ chỉ chủ thể/đối tượng cộng với động từ mang nghĩa "làm, thực hiện" trước 기 나름이다 — dễ dùng sai nếu ghép với động từ không diễn tả cách thức thực hiện.',
     ],
     level: 'cao-cap',
@@ -1164,7 +1118,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '가: 한국 영화만 좋아하는 줄 알았더니 미국 영화도 보네요. 나: 한국 영화는 한국 영화대로 미국 영화는 미국 영화대로 각기 다른 멋이 있거든요.', vi: 'A: Tưởng bạn chỉ thích phim Hàn thôi, hóa ra cũng xem phim Mỹ nữa à. B: Phim Hàn có cái hay riêng của phim Hàn, phim Mỹ có cái hay riêng của phim Mỹ mà.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn phải lặp lại cùng một danh từ ở cả hai vị trí (N은/는 N대로) — không thể thay danh từ thứ hai bằng một từ khác, vì cấu trúc nhấn mạnh chính đặc điểm riêng của N đó.',
     ],
     level: 'cao-cap',
@@ -1183,7 +1136,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '매번 일찍 와서 친구를 기다리건만 그 친구는 오늘도 늦게 와서 미안하단 말도 없어요.', vi: 'Lần nào tôi cũng đến sớm chờ bạn, vậy mà hôm nay bạn ấy lại đến muộn mà cũng chẳng nói một lời xin lỗi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc mang tính văn viết, gần nghĩa -는데도 nhưng nhấn mạnh rõ hơn cảm xúc bất mãn, tiếc nuối của người nói — ít dùng trong khẩu ngữ suồng sã hàng ngày.',
     ],
     level: 'cao-cap',
@@ -1202,7 +1154,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '‘고학력 청년 백수’란 대학까지 졸업하고도 취직이 되지 않아 집에서 놀고 있는 청년들을 말한다.', vi: '"Thanh niên thất nghiệp có học vấn cao" là để chỉ những thanh niên dù đã tốt nghiệp đại học mà vẫn không xin được việc, đang ở nhà không làm gì.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Hai vế bắt buộc phải cùng chủ ngữ — khác với -건만 hay -는데도 vốn không đòi hỏi điều kiện này.',
     ],
     level: 'cao-cap',
@@ -1221,7 +1172,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '유나 씨가 거짓말 밥 먹듯이 해서 이젠 어떤 말도 믿지 못해요.', vi: 'Yuna nói dối như cơm bữa nên giờ tôi chẳng còn tin được lời nào của cô ấy nữa.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Nhiều cụm cố định dùng dạng rút gọn -듯 kết hợp với thành ngữ (như 밥 먹듯 하다 — làm như cơm bữa), cần học thuộc theo cụm chứ không tự do ghép với bất kỳ động từ nào.',
     ],
     level: 'cao-cap',
@@ -1260,7 +1210,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '이 책은 독자에게 새로운 시각을 열어 주거니와 다른 세계, 다른 시각으로 인간 사회를 풍자하기도 한다.', vi: 'Cuốn sách này mở ra cho độc giả một góc nhìn mới, thêm vào đó còn châm biếm xã hội loài người bằng một thế giới, một góc nhìn khác.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc cổ, gần như chỉ xuất hiện trong văn viết học thuật/văn chương — không dùng trong hội thoại hàng ngày.',
     ],
     level: 'cao-cap',
@@ -1279,7 +1228,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '산책을 하기에는 햇볕이 너무 따가우려니와 습도도 너무 높다.', vi: 'Để đi dạo thì nắng quá gắt, thêm vào đó độ ẩm cũng quá cao.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc mang tính phỏng đoán kết hợp bổ sung, dễ nhầm với -거니와 (chỉ công nhận thực tế, không mang nghĩa phỏng đoán) — cần chọn đúng theo việc nội dung là thực tế hay dự đoán.',
     ],
     level: 'cao-cap',
@@ -1298,7 +1246,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '한국어를 배운 지 한 달이 넘었지만 한국어로 자기 소개는커녕 한글도 못 읽어요.', vi: 'Học tiếng Hàn hơn một tháng rồi nhưng đừng nói đến việc tự giới thiệu bằng tiếng Hàn, ngay cả bảng chữ cái Hangeul tôi cũng chưa đọc được.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Thường phải kết hợp với 조차, 도 hoặc dạng phủ định ở vế sau để nhấn mạnh mức độ "ngay cả điều đơn giản hơn cũng không làm được" — nếu thiếu các từ nhấn mạnh này, ý nghĩa "huống chi" sẽ kém rõ ràng.',
     ],
     level: 'cao-cap',
@@ -1317,7 +1264,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '베트남에서 축구가 대중적인 스포츠일 뿐더러 큰 관심을 받아요.', vi: 'Ở Việt Nam, bóng đá không những là môn thể thao đại chúng mà còn nhận được sự quan tâm rất lớn.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chủ ngữ hai vế phải giống nhau — khác với -거니와 vốn không đòi hỏi điều kiện chủ ngữ đồng nhất.',
     ],
     level: 'cao-cap',
@@ -1336,7 +1282,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '다이어트를 하되 자신에게 맞는 다이어트 방법을 선택하는 것이 필요하다.', vi: 'Có thể ăn kiêng, nhưng cần chọn phương pháp ăn kiêng phù hợp với bản thân.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc trang trọng của văn viết, thường theo mô hình "cho phép/thừa nhận A, nhưng kèm điều kiện B" — không dùng để diễn tả sự tương phản hoàn toàn phủ định như -지만.',
     ],
     level: 'cao-cap',
@@ -1355,7 +1300,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아시아를 비롯해서 유럽 각 지역에서도 K-pop 의 인기가 많아지고 있다고 봐요.', vi: 'Tôi thấy K-pop đang ngày càng phổ biến, bắt đầu từ châu Á cho đến các khu vực khác nhau ở châu Âu.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Danh từ đứng trước -을/를 비롯해서 phải là đối tượng tiêu biểu, đại diện hoặc quan trọng nhất trong nhóm được liệt kê — không dùng cho một phép liệt kê ngẫu nhiên, không có thứ tự ưu tiên.',
     ],
     level: 'cao-cap',
@@ -1374,7 +1318,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '그렇게 패스트푸드를 많이 먹어 대면 건강에 해롭다.', vi: 'Nếu cứ ăn đồ ăn nhanh nhiều như thế thì sẽ có hại cho sức khỏe.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn mang sắc thái tiêu cực, chỉ trích về một hành động lặp lại quá mức — không dùng cho các hành động lặp lại mang tính tích cực hoặc trung lập.',
     ],
     level: 'cao-cap',
@@ -1393,7 +1336,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '대학에 다닐 때 리포트 제출일이 코앞에 닥치면 밤을 새우기 일쑤예요.', vi: 'Hồi học đại học, cứ đến gần hạn nộp báo cáo là tôi lại thường xuyên thức trắng đêm.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chỉ dùng cho hành vi/thói quen mang tính tiêu cực hoặc không mong muốn — không dùng để mô tả một thói quen tốt lặp lại thường xuyên.',
     ],
     level: 'cao-cap',
@@ -1412,7 +1354,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '요즘 입맛이 없어서 밥을 먹는 둥 마는 둥 했더니 살이 빠졌다.', vi: 'Dạo này không có khẩu vị nên tôi ăn uống qua loa, thành ra bị sụt cân.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Cấu trúc luôn hàm ý sự thiếu chăm chút, làm cho có — không dùng để mô tả việc hoàn toàn không làm gì hoặc làm rất kỹ lưỡng.',
     ],
     level: 'cao-cap',
@@ -1431,7 +1372,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '앞이 잘 보이지 않으리만치 비가 많이 와요.', vi: 'Trời mưa to đến mức không nhìn rõ phía trước.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc mang tính văn viết, ẩn dụ, gần nghĩa hoàn toàn với -(으)ㄹ 정도로 nhưng trang trọng hơn — ít dùng trong khẩu ngữ hàng ngày.',
     ],
     level: 'cao-cap',
@@ -1450,7 +1390,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '민지 씨가 힘든 일정을 견디다 못해 쓰러지고 말았다.', vi: 'Minji chịu đựng lịch trình vất vả đến mức không chịu nổi nữa và cuối cùng đã ngã quỵ.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Cần phân biệt nghĩa theo từ loại đứng trước: với động từ nhấn mạnh "không thể tiếp tục hành động đó nữa nên chuyển sang hành động khác", với tính từ nhấn mạnh "mức độ đã đạt đến cực điểm dẫn đến kết quả ở vế sau".',
     ],
     level: 'cao-cap',
@@ -1469,7 +1408,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '친구에게 문자 메시지를 보낸다는 것이 선생님에게 잘못 보냈어요.', vi: 'Định nhắn tin cho bạn mà lại gửi nhầm cho thầy giáo.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Hai vế bắt buộc phải cùng chủ ngữ, và vế sau luôn là một kết quả ngoài ý muốn, khác với dự định ban đầu — không dùng khi kết quả đúng như dự định.',
     ],
     level: 'cao-cap',
@@ -1488,7 +1426,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '온 국민이 힘을 합쳐 함께 어려운 상황을 극복하려고 들면 못 할 일이 없어요.', vi: 'Nếu toàn thể người dân đồng lòng quyết tâm vượt qua tình huống khó khăn thì không có việc gì là không làm được.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Có thể mang sắc thái tiêu cực nhẹ (cố chấp, khăng khăng làm bằng được) tùy ngữ cảnh — cần lưu ý sắc thái này khi mô tả người khác để tránh gây hiểu lầm là đang chê trách.',
     ],
     level: 'cao-cap',
@@ -1507,7 +1444,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '회사로 옮기려다가 생각이 바뀌어서 그냥 있기로 했어요.', vi: 'Định chuyển sang công ty khác nhưng rồi đổi ý nên quyết định ở lại.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chủ ngữ hai vế phải đồng nhất — khác với -(느)ㄴ다는 것이 (kết quả ngoài ý muốn xảy ra ngay lập tức), -(으)려다가 nhấn mạnh việc chủ thể chủ động đổi ý giữa chừng trước khi hành động ban đầu diễn ra.',
     ],
     level: 'cao-cap',
@@ -1526,7 +1462,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '제주도 경치가 숨이 막힐 듯이 아름다워요.', vi: 'Cảnh Jeju đẹp đến nghẹt thở.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dễ nhầm với -듯이 ở mục Tương đồng (chỉ sự tương tự khách quan giữa hai sự việc) — -는 듯이 ở đây thiên về ví von, phóng đại mức độ bằng hình ảnh so sánh, không phải so sánh trung tính.',
     ],
     level: 'cao-cap',
@@ -1545,7 +1480,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '저와 같이 영화를 보고 있는데 남자 친구가 지루하다는 듯이 계속 하품을 해 댔어요.', vi: 'Đang xem phim cùng tôi mà bạn trai cứ ngáp liên tục như thể đang bảo là chán lắm.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vì mang hình thức trích dẫn gián tiếp (-ㄴ다는) nên phải chia đúng theo từ loại/thì của mệnh đề được trích dẫn trước khi thêm 듯이 — không gắn thẳng 듯이 vào thân từ như -는 듯이 thông thường.',
     ],
     level: 'cao-cap',
@@ -1564,7 +1498,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '코로나 확진자가 줄어들지 않으면 경제에 큰 영향을 미칠 듯하다.', vi: 'Nếu số ca nhiễm COVID-19 không giảm thì có vẻ như sẽ ảnh hưởng lớn đến nền kinh tế.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chọn đúng dạng theo thì: quá khứ dùng -(으)ㄴ (받은 듯하다), hiện tại dùng -는 (động từ) hoặc -(으)ㄴ (tính từ), tương lai/suy đoán dùng -(으)ㄹ; và 듯하다 luôn chia như tính từ (듯하다, 듯했다...), không chia thành "듯한다".',
     ],
     level: 'cao-cap',
@@ -1583,7 +1516,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '민수 씨가 바람을 쐬러 가는 것을 좋아하니까 지금 어디 여행 갔을 게 뻔해요.', vi: 'Vì Minsu thích đi hóng gió nên chắc chắn giờ đang đi du lịch đâu đó rồi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Hầu như chỉ dùng để dự đoán kết quả tiêu cực, không hay — nếu dự đoán một kết quả tích cực nên cân nhắc dùng -(으)ㄹ 것이 확실하다 hoặc -(으)ㄹ 것이 분명하다 thay thế.',
     ],
     level: 'cao-cap',
@@ -1602,7 +1534,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '배우 김선호와의 인터뷰에서 기자는 여성 팬이라면 궁금해할 법한 질문들을 했다.', vi: 'Trong buổi phỏng vấn với diễn viên Kim Seon-ho, phóng viên đã đặt những câu hỏi mà fan nữ hẳn sẽ tò mò muốn biết.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Gần nghĩa với -(으)ㄹ 만하다 nhưng -(으)ㄹ 법하다 thiên về suy đoán "có khả năng/có cơ sở xảy ra", còn -(으)ㄹ 만하다 thiên về đánh giá "đáng để làm, xứng đáng".',
     ],
     level: 'cao-cap',
@@ -1621,7 +1552,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '그 정직한 사람이 거짓말을 했을 리가 없다.', vi: 'Người trung thực như thế không đời nào lại nói dối.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dạng khẳng định -(으)ㄹ 리가 있다 thường chỉ xuất hiện trong câu hỏi tu từ (…이/가 있겠어요?) để phủ định mạnh hơn, không dùng như một câu khẳng định thông thường.',
     ],
     level: 'cao-cap',
@@ -1640,7 +1570,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '다이어트를 한다고 그렇게 굶기만 하면 건강이 나빠지기 십상입니다.', vi: 'Nếu cứ nhịn ăn mãi để giảm cân như vậy thì rất dễ hại sức khỏe.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chỉ dùng cho những kết quả không mong muốn, tiêu cực — không dùng -기 십상이다 để nói về khả năng xảy ra một điều tốt đẹp.',
     ],
     level: 'cao-cap',
@@ -1659,7 +1588,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '마음이 편해야 몸도 편해져서 스트레스가 줄게 마련이다.', vi: 'Tâm có thoải mái thì thân mới thoải mái, nên đương nhiên căng thẳng sẽ giảm đi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Gần như đồng nghĩa hoàn toàn với -는 법이다 (mục kế tiếp) và có thể thay thế lẫn nhau trong hầu hết ngữ cảnh diễn đạt sự đương nhiên.',
     ],
     level: 'cao-cap',
@@ -1678,7 +1606,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '아무리 좋은 말도 여러 번 들으면 듣기 싫은 법이다.', vi: 'Dù là lời hay đến đâu mà nghe nhiều lần thì đương nhiên cũng sẽ thấy chán nghe.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Cấu trúc dùng -는 (động từ) hoặc -(으)ㄴ (tính từ) trước 법이다 — không nhầm với quy tắc của -기 마련이다 vốn luôn dùng -기 bất kể từ loại.',
     ],
     level: 'cao-cap',
@@ -1697,7 +1624,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '베트남 사람이라도 쌀국수를 좋아하는 사람이 있는가 하면 싫어하는 사람도 있다.', vi: 'Dù là người Việt Nam thì cũng có người thích phở, mà cũng có người không thích.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế sau gần như luôn có trợ từ 도 đi kèm để làm rõ tính đối lập song song — nếu bỏ 도, câu dễ mất đi sắc thái "cũng có... cùng tồn tại".',
     ],
     level: 'cao-cap',
@@ -1716,7 +1642,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '유리 씨는 시장은 복잡하니 환불이 안 되느니 하면서 백화점만 가요.', vi: 'Yuri cứ bảo là chợ thì đông đúc, lại không cho đổi trả, nên chỉ đi mỗi trung tâm thương mại.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Thường mang sắc thái than phiền, kể lể nhiều ý kiến lặt vặt trái chiều — không dùng để liệt kê trung lập, khách quan như -고 hay -으며.',
     ],
     level: 'cao-cap',
@@ -1735,7 +1660,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '학교에 다니랴 아르바이트를 하랴 고생이 많아요.', vi: 'Vừa đi học vừa đi làm thêm nên vất vả lắm.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Luôn cần ít nhất hai động từ khác nhau lặp lại cấu trúc -(으)랴 -(으)랴 — không dùng với một hành động duy nhất.',
     ],
     level: 'cao-cap',
@@ -1754,7 +1678,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '사기를 당하는 바람에 집이며 자동차며 모두 잃었다.', vi: 'Vì bị lừa mà mất sạch cả nhà lẫn xe.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chỉ dùng trong khẩu ngữ, sắc thái thân mật — không dùng trong văn viết trang trọng, báo cáo.',
     ],
     level: 'cao-cap',
@@ -1773,7 +1696,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '고민한 끝에 한국으로 유학을 가기로 결정했다.', vi: 'Sau một thời gian dài trăn trở, tôi đã quyết định đi du học Hàn Quốc.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chỉ dùng khi vế trước là một quá trình kéo dài, tốn công sức — không dùng cho hành động diễn ra nhanh chóng, đơn giản.',
     ],
     level: 'cao-cap',
@@ -1792,7 +1714,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '그 사람이 시각 장애를 가지지만 역경을 이겨 냈어요.', vi: 'Người đó tuy bị khiếm thị nhưng đã vượt qua được nghịch cảnh.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Không chia ở thể bị động, và chỉ kết hợp với động từ mang nghĩa khắc phục khó khăn/ý chí (알아내다, 이겨내다, 해내다...) — không gắn tùy tiện vào mọi động từ.',
     ],
     level: 'cao-cap',
@@ -1811,7 +1732,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '제주도 날씨가 생각보다 덥지 않데요.', vi: 'Thời tiết Jeju không nóng như tôi tưởng đâu.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chỉ dùng cho điều người nói đã tự mình trực tiếp trải nghiệm/chứng kiến trong quá khứ — không dùng để truyền đạt thông tin nghe được từ người khác (trường hợp đó dùng -다고 하더라고요).',
     ],
     level: 'cao-cap',
@@ -1830,7 +1750,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '민지 씨는 바쁜 가운데 저를 도와줬어요.', vi: 'Giữa lúc đang bận rộn, Minji vẫn giúp đỡ tôi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Vế trước phải là một tình huống/trạng thái đang tiếp diễn (dùng -는 với động từ, -(으)ㄴ với tính từ) làm bối cảnh nền — không dùng để nêu nguyên nhân trực tiếp như -아/어서.',
     ],
     level: 'cao-cap',
@@ -1849,7 +1768,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '학기가 끝나는 마당에 열심히 공부하지 않은 걸 후회해도 소용이 없죠.', vi: 'Đến lúc học kỳ đã kết thúc rồi thì có hối hận vì không chăm học cũng chẳng ích gì.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Tình huống nêu ở vế trước gần như luôn mang sắc thái bất lợi, khó khăn hoặc muộn màng — không dùng cho hoàn cảnh thuận lợi, tích cực.',
     ],
     level: 'cao-cap',
@@ -1888,7 +1806,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '환경 보호에 대한 관심이 높아짐에 따라 친환경 사업에 대한 관심도 높아지고 있다.', vi: 'Cùng với việc mối quan tâm đến bảo vệ môi trường tăng lên, sự quan tâm đến các ngành kinh doanh thân thiện với môi trường cũng đang tăng theo.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Là cấu trúc trang trọng của văn viết, gần nghĩa -(으)ㄹ수록 nhưng nhấn mạnh quan hệ tỉ lệ thuận giữa hai vế theo thời gian/tiến trình hơn là mức độ — không dùng tùy tiện thay cho -(으)ㄹ수록 trong mọi ngữ cảnh.',
     ],
     level: 'cao-cap',
@@ -1907,7 +1824,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '요즘 아르바이트하며 토픽 시험 준비까지 하니까 여간 힘들지 않다.', vi: 'Dạo này vừa làm thêm vừa ôn thi TOPIK nên vất vả vô cùng.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Dù có hình thức phủ định (-지 않다) nhưng ý nghĩa lại là khẳng định mạnh mẽ — dễ hiểu nhầm thành phủ định nếu dịch sát nghĩa từng chữ; luôn cần có 여간 đứng trước để tạo ra sắc thái nhấn mạnh này.',
     ],
     level: 'cao-cap',
@@ -1926,7 +1842,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '한국에 처음에 왔을 때는 언어와 문화가 많이 달라서 답답하기가 이를 데 없었다.', vi: 'Khi mới đến Hàn Quốc, vì ngôn ngữ và văn hóa khác biệt quá nhiều nên tôi thấy ngột ngạt vô cùng.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Chỉ kết hợp với tính từ (A), không dùng với động từ; là cấu trúc văn viết trang trọng nên hạn chế dùng trong khẩu ngữ suồng sã.',
     ],
     level: 'cao-cap',
@@ -1945,7 +1860,6 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '그 드라마가 정말 지루하기 짝이 없었다.', vi: 'Bộ phim đó thật sự nhàm chán không gì tả nổi.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Có thể dùng thay thế lẫn nhau với -기가 이를 데 없다 trong hầu hết ngữ cảnh; chỉ kết hợp với tính từ (A), không dùng với động từ.',
     ],
     level: 'cao-cap',
@@ -1964,12 +1878,202 @@ export const grammarCaoCap: GrammarEntry[] = [
       { ko: '도서관에서 학생증을 잃어버렸는데 아무리 살펴봐도 찾을래야 찾을 수가 없어요.', vi: 'Tôi làm mất thẻ sinh viên ở thư viện, dù tìm kỹ đến đâu cũng không thể nào tìm ra được.' },
     ],
     commonMistakes: [
-      'Nguồn chỉ có 2 ví dụ minh họa.',
       'Cùng một động từ phải được lặp lại ở cả hai vế (V-(으)ㄹ래야 V-(으)ㄹ 수가 없다) — không thay đổi động từ giữa hai vế; đây là dạng khẩu ngữ của -(으)려고 해야 -(으)ㄹ 수가 없다.',
     ],
     level: 'cao-cap',
     section: 'nhan-manh',
     sectionOrder: 20,
     sectionTitleVi: 'Nhấn mạnh',
+  },
+  {
+    id: 'gr-cao-cap-104',
+    pattern: '비록 A/V - 지만/더라도/(으)ㄹ지라도',
+    meaningVi: 'Dù, mặc dù — nhượng bộ trang trọng, luôn cần đuôi câu nhượng bộ đi kèm ở cuối vế',
+    usageNotes:
+      'Đứng đầu vế trước để nhấn mạnh TÍNH NHƯỢNG BỘ ngay từ đầu câu, và bắt buộc phải có một đuôi câu nhượng bộ tương ứng ở cuối vế đó (-지만, -더라도, hoặc -(으)ㄹ지라도 — cấp độ trang trọng tăng dần theo thứ tự này). Trang trọng hơn hẳn 아무리 ~아/어도, hay gặp trong văn viết/diễn văn.',
+    examples: [
+      { ko: '비록 실패했지만 좋은 경험이 되었어요.', vi: 'Dù đã thất bại nhưng đó là một trải nghiệm tốt.' },
+      { ko: '비록 가난하더라도 마음만은 풍요롭게 살고 싶어요.', vi: 'Dù có nghèo thì tôi vẫn muốn sống thanh thản, đủ đầy trong tâm hồn.' },
+      { ko: '비록 시간이 오래 걸릴지라도 끝까지 해내겠습니다.', vi: 'Dù có mất nhiều thời gian đi chăng nữa, tôi cũng sẽ làm đến cùng.' },
+      { ko: '비록 몸은 멀리 떨어져 있지만 마음은 항상 함께예요.', vi: 'Dù thân xa cách nhưng trái tim luôn ở bên nhau.' },
+    ],
+    commonMistakes: [
+      '비록 KHÔNG tự đứng một mình — luôn cần đuôi nhượng bộ (-지만/-더라도/-(으)ㄹ지라도) ở cuối vế trước, thiếu đuôi đó câu sai ngữ pháp dù có 비록 ở đầu.',
+      'Đây chính là từ hay xuất hiện trong dạng câu điền-từ-nối TOPIK 19-20 — khi thấy chỗ trống đứng trước một đuôi câu nhượng bộ (-지만/-더라도), 비록 gần như luôn là đáp án đúng.',
+      '반면(에)/오히려 diễn tả ĐỐI LẬP giữa hai vế; 비록 diễn tả NHƯỢNG BỘ (thừa nhận vế trước rồi phủ nhận tác động của nó) — không thay thế lẫn nhau dù đều mang sắc thái "trái chiều".',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-cao-cap-42', 'gr-cao-cap-44', 'gr-trung-cap-10', 'gr-trung-cap-95'],
+  },
+  {
+    id: 'gr-cao-cap-105',
+    pattern: '설마',
+    meaningVi: 'Chẳng lẽ, lẽ nào — nghi ngờ, không tin điều gì đó là sự thật (thường đi với ~겠어요?/~은 아니겠지?)',
+    usageNotes:
+      'Diễn tả thái độ hoài nghi, không muốn tin một khả năng nào đó là sự thật dù có dấu hiệu cho thấy nó có thể xảy ra — thường đi kèm câu hỏi tu từ (~겠어요?, ~은/는 아니겠지요?) ở cuối câu.',
+    examples: [
+      { ko: '설마 그 사람이 거짓말을 했겠어요?', vi: 'Chẳng lẽ người đó lại nói dối sao?' },
+      { ko: '설마 우리를 잊은 건 아니겠지요?', vi: 'Lẽ nào anh ấy lại quên chúng ta chứ?' },
+      { ko: '설마 시험에 또 떨어지지는 않겠지.', vi: 'Chẳng lẽ lại trượt kỳ thi lần nữa.' },
+    ],
+    commonMistakes: [
+      '설마 luôn mang sắc thái NGHI NGỜ/không tin — không dùng để hỏi thông tin trung tính như 혹시.',
+      'Thường xuất hiện cùng đuôi câu phỏng đoán mang tính phủ định nhẹ (아니겠지요?) — không dùng với câu khẳng định dứt khoát.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-cao-cap-110'],
+  },
+  {
+    id: 'gr-cao-cap-106',
+    pattern: '다만',
+    meaningVi: 'Nhưng, chỉ có điều — nêu một ngoại lệ/điều kiện nhỏ bổ sung cho ý chính, trang trọng',
+    usageNotes:
+      'Thừa nhận ý chính ở câu trước là đúng, nhưng nêu thêm MỘT NGOẠI LỆ hoặc điều kiện nhỏ cần lưu ý — sắc thái nhẹ nhàng hơn 하지만, hay dùng trong văn bản quy định, thông báo, hợp đồng.',
+    examples: [
+      { ko: '이 약은 효과가 좋다. 다만 임산부는 복용을 피해야 한다.', vi: 'Loại thuốc này hiệu quả tốt. Chỉ có điều phụ nữ mang thai nên tránh dùng.' },
+      { ko: '누구나 신청할 수 있습니다. 다만 만 18세 이상이어야 합니다.', vi: 'Ai cũng có thể đăng ký. Nhưng phải từ đủ 18 tuổi trở lên.' },
+      { ko: '가격은 합리적이다. 다만 배송이 조금 느리다.', vi: 'Giá cả hợp lý. Chỉ có điều giao hàng hơi chậm.' },
+    ],
+    commonMistakes: [
+      '다만 nêu một ngoại lệ/điều kiện BỔ SUNG cho ý chính vẫn đang được thừa nhận là đúng — khác 하지만 phủ định mạnh ý trước, 다만 chỉ "khoanh vùng" thêm một trường hợp riêng.',
+      'Hay xuất hiện trong văn bản quy định/hướng dẫn — nếu gặp trong bài đọc TOPIK dạng thông báo/quy chế, 다만 thường báo hiệu một điều kiện quan trọng cần chú ý cho câu hỏi chi tiết.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: [],
+  },
+  {
+    id: 'gr-cao-cap-107',
+    pattern: '오로지',
+    meaningVi: 'Chỉ, duy nhất, chỉ mỗi — nhấn mạnh tính duy nhất, không có gì khác',
+    usageNotes:
+      'Nhấn mạnh rằng chỉ có DUY NHẤT một đối tượng/lý do/mục đích được nhắc đến, loại trừ mọi khả năng khác — sắc thái mạnh và trang trọng hơn 오직.',
+    examples: [
+      { ko: '그는 오로지 가족만을 위해 일했다.', vi: 'Anh ấy chỉ làm việc vì mỗi gia đình mà thôi.' },
+      { ko: '오로지 실력으로만 평가받고 싶어요.', vi: 'Tôi muốn được đánh giá chỉ dựa trên năng lực mà thôi.' },
+      { ko: '오로지 한 가지 목표만 보고 달려왔습니다.', vi: 'Tôi đã chỉ nhìn vào một mục tiêu duy nhất mà tiến bước.' },
+    ],
+    commonMistakes: [
+      '오로지 gần nghĩa với 오직 nhưng trang trọng và nhấn mạnh hơn — trong văn nói thân mật, 오직 phổ biến hơn.',
+      'Thường đi cùng trợ từ nhấn mạnh -만 ngay sau danh từ được nhấn mạnh (오로지 N만) để tăng sắc thái loại trừ.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: [],
+  },
+  {
+    id: 'gr-cao-cap-108',
+    pattern: '결코 ... 지 않다/없다',
+    meaningVi: 'Quyết không, tuyệt đối không — phủ định mạnh mẽ, luôn đi cùng câu phủ định',
+    usageNotes:
+      'Nhấn mạnh sự phủ định ở mức độ tuyệt đối — 결코 BẮT BUỘC phải đi cùng một hình thức phủ định ở vị ngữ (-지 않다, -지 못하다, 없다...), không dùng được trong câu khẳng định.',
+    examples: [
+      { ko: '저는 그 말을 결코 잊지 않을 거예요.', vi: 'Tôi sẽ quyết không bao giờ quên câu nói đó.' },
+      { ko: '이번 결정은 결코 쉬운 것이 아니었다.', vi: 'Quyết định lần này tuyệt đối không phải là điều dễ dàng.' },
+      { ko: '거짓말은 결코 좋은 습관이 될 수 없다.', vi: 'Nói dối tuyệt đối không thể trở thành một thói quen tốt.' },
+    ],
+    commonMistakes: [
+      '결코 chỉ dùng được trong câu PHỦ ĐỊNH — không dùng trong câu khẳng định, khác 과연/오히려 dùng được cả câu khẳng định lẫn phủ định.',
+      'Người Việt hay quên phần phủ định ở cuối vì trong đầu đã dịch "quyết không" mang sẵn nghĩa phủ định — nhưng trong tiếng Hàn 결코 tự nó KHÔNG mang nghĩa phủ định, chỉ là trạng từ nhấn mạnh đi kèm phủ định.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: [],
+  },
+  {
+    id: 'gr-cao-cap-109',
+    pattern: '과연',
+    meaningVi: 'Quả nhiên, quả thực — xác nhận điều đã dự đoán là đúng, hoặc dùng trong câu hỏi tu từ hoài nghi',
+    usageNotes:
+      'Có hai cách dùng: (1) trong câu khẳng định, xác nhận một điều đúng như những gì đã nghe/dự đoán trước đó ("quả nhiên đúng như vậy"); (2) trong câu hỏi (thường kèm ~을까?), thể hiện sự băn khoăn/hoài nghi thật sự về khả năng xảy ra của điều gì đó.',
+    examples: [
+      { ko: '그 식당은 소문대로 과연 맛있었다.', vi: 'Quán đó quả nhiên ngon đúng như lời đồn.' },
+      { ko: '과연 이 계획이 성공할 수 있을까요?', vi: 'Liệu kế hoạch này quả thực có thể thành công không nhỉ?' },
+      { ko: '역시 전문가는 과연 다르구나.', vi: 'Quả nhiên chuyên gia thì khác thật.' },
+    ],
+    commonMistakes: [
+      '설마 luôn mang hàm ý KHÔNG TIN/phủ định; 과연 trung tính hơn, có thể dùng để XÁC NHẬN điều đúng — dễ nhầm vì cả hai đều hay xuất hiện trong câu hỏi tu từ.',
+      'Ở nghĩa (1) thường đi cùng 역시 hoặc 소문대로/예상대로 để nhấn "đúng như dự đoán" — thiếu ngữ cảnh dự đoán trước đó, câu dùng 과연 sẽ khó hiểu.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-cao-cap-105'],
+  },
+  {
+    id: 'gr-cao-cap-110',
+    pattern: '혹시',
+    meaningVi: 'Có lẽ, nhỡ đâu, lỡ như — hỏi thăm dò lịch sự hoặc giả định một khả năng nhỏ',
+    usageNotes:
+      'Dùng khi hỏi thăm dò một cách lịch sự, nhẹ nhàng về điều gì đó chưa chắc chắn (khác 설마 luôn hàm ý hoài nghi/không tin), hoặc để giả định một khả năng nhỏ có thể xảy ra rồi đề phòng trước.',
+    examples: [
+      { ko: '혹시 시간 있으세요?', vi: 'Không biết bạn có rảnh không ạ?' },
+      { ko: '혹시 몰라서 우산을 가져왔어요.', vi: 'Tôi mang theo ô phòng khi lỡ trời mưa.' },
+      { ko: '혹시 김민수 씨 아니세요?', vi: 'Xin lỗi, có phải anh là Kim Min-su không ạ?' },
+    ],
+    commonMistakes: [
+      '혹시 mang sắc thái LỊCH SỰ, THĂM DÒ nhẹ nhàng — hoàn toàn khác 설마 (hoài nghi, không tin) dù cả hai đều dịch gần giống "chẳng lẽ/nhỡ đâu" sang tiếng Việt.',
+      'Rất hay dùng để mở đầu câu hỏi lịch sự khi nhờ vả người lạ — gần giống chức năng "xin lỗi, không biết..." trong tiếng Việt.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-cao-cap-105'],
+  },
+  {
+    id: 'gr-cao-cap-111',
+    pattern: '그럼에도 불구하고',
+    meaningVi: 'Dù vậy, mặc dù thế — nhượng bộ trang trọng, nối với TOÀN BỘ nội dung câu/đoạn trước',
+    usageNotes:
+      'Khác 비록 (đặt ngay đầu vế nhượng bộ trong CÙNG một câu), 그럼에도 불구하고 đứng ĐẦU MỘT CÂU MỚI để nhượng bộ lại TOÀN BỘ nội dung đã nêu ở câu/đoạn trước đó — rất trang trọng, phổ biến trong văn viết học thuật, báo cáo, bài luận.',
+    examples: [
+      { ko: '경기가 어렵다. 그럼에도 불구하고 회사는 성장을 이어가고 있다.', vi: 'Kinh tế khó khăn. Dù vậy công ty vẫn tiếp tục tăng trưởng.' },
+      { ko: '실패할 위험이 크다. 그럼에도 불구하고 도전해 볼 가치가 있다.', vi: 'Rủi ro thất bại lớn. Nhưng dù vậy vẫn đáng để thử thách.' },
+      { ko: '몸이 아팠다. 그럼에도 불구하고 그는 끝까지 경기를 마쳤다.', vi: 'Anh ấy bị ốm. Dù vậy anh vẫn hoàn thành trận đấu đến cùng.' },
+    ],
+    commonMistakes: [
+      '그럼에도 불구하고 đứng đầu CÂU MỚI (sau dấu chấm), nhượng bộ cho cả câu/đoạn trước; 비록 đứng đầu VẾ trong CÙNG một câu — không thể dùng thay thế lẫn nhau về vị trí cú pháp dù nghĩa gần giống.',
+      'Đây là cụm nối trang trọng bắt buộc thuộc lòng cho phần Viết luận TOPIK 51-54 khi cần nhượng bộ một luận điểm trước khi đưa ra luận điểm chính.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-cao-cap-104'],
+  },
+  {
+    id: 'gr-cao-cap-112',
+    pattern: '그러므로',
+    meaningVi: 'Do đó, cho nên — nêu kết luận logic, trang trọng, dùng trong văn viết học thuật/diễn văn',
+    usageNotes:
+      'Gần nghĩa với 따라서, nối kết luận với lý do/luận cứ đã trình bày trước đó — trang trọng hơn 그래서, thường dùng trong văn nghị luận, diễn văn, kết luận báo cáo. Hay đứng ở câu kết luận cuối cùng của một đoạn lập luận.',
+    examples: [
+      { ko: '모든 인간은 존엄하다. 그러므로 차별받아서는 안 된다.', vi: 'Mọi con người đều có phẩm giá. Do đó không được phân biệt đối xử.' },
+      { ko: '자원은 한정되어 있다. 그러므로 우리는 이를 아껴 써야 한다.', vi: 'Tài nguyên là có hạn. Cho nên chúng ta cần sử dụng tiết kiệm.' },
+      { ko: '규칙적인 운동은 건강에 좋다. 그러므로 매일 운동하는 것이 바람직하다.', vi: 'Tập thể dục đều đặn tốt cho sức khỏe. Do đó nên tập thể dục mỗi ngày.' },
+    ],
+    commonMistakes: [
+      '그러므로 và 따라서 gần như thay thế được cho nhau trong hầu hết ngữ cảnh trang trọng — điểm chung quan trọng hơn khác biệt sắc thái là CẢ HAI đều KHÔNG dùng được trong văn nói thân mật.',
+      'Thường xuất hiện ở CÂU KẾT trong đoạn văn nghị luận — nếu gặp trong bài đọc TOPIK, câu chứa 그러므로 thường chính là câu tóm tắt luận điểm/kết luận của cả đoạn.',
+    ],
+    level: 'cao-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 21,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-trung-cap-97'],
   },
 ]

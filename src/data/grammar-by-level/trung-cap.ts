@@ -1841,4 +1841,113 @@ export const grammarTrungCap: GrammarEntry[] = [
     sectionOrder: 23,
     sectionTitleVi: 'Dạng bị động và gây khiến',
   },
+  {
+    id: 'gr-trung-cap-93',
+    pattern: '오히려',
+    meaningVi: 'Ngược lại, thậm chí còn — kết quả trái với dự đoán thông thường',
+    usageNotes:
+      'Nhấn mạnh rằng kết quả thực tế đi ngược lại với điều người nói (hoặc thông thường) mong đợi/dự đoán — không chỉ khác mà còn theo chiều hướng NGƯỢC HẲN. Thường đứng đầu vế thứ hai, sau một câu nêu bối cảnh hoặc kỳ vọng.',
+    examples: [
+      { ko: '약을 먹었는데 오히려 더 아파요.', vi: 'Tôi đã uống thuốc rồi nhưng ngược lại còn đau hơn.' },
+      { ko: '도와주려고 했는데 오히려 폐를 끼쳤어요.', vi: 'Tôi định giúp nhưng ngược lại lại gây phiền cho người ta.' },
+      { ko: '비싼 것보다 오히려 싼 것이 더 잘 팔려요.', vi: 'Ngược lại với hàng đắt, hàng rẻ lại bán chạy hơn.' },
+      { ko: '혼내려고 했는데 오히려 제가 혼났어요.', vi: 'Tôi định mắng nó nhưng ngược lại chính tôi lại bị mắng.' },
+    ],
+    commonMistakes: [
+      'Phải có một kỳ vọng/bối cảnh THÔNG THƯỜNG được nêu trước đó để 오히려 phủ định lại — không dùng 오히려 mở đầu câu đầu tiên khi chưa có gì để "ngược lại" với nó.',
+      'Khác 반면(에) (nêu 2 vế đối lập BÌNH ĐẲNG, trung tính) — 오히려 luôn hàm ý bất ngờ/trái dự đoán, sắc thái mạnh hơn.',
+    ],
+    level: 'trung-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 24,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-trung-cap-10'],
+  },
+  {
+    id: 'gr-trung-cap-94',
+    pattern: '게다가',
+    meaningVi: 'Hơn nữa, thêm vào đó — bổ sung thêm một điều cùng chiều, thường làm tăng mức độ',
+    usageNotes:
+      'Thêm một thông tin/lý do MỚI vào điều đã nói ở câu trước, cùng chiều hướng (cùng tích cực hoặc cùng tiêu cực) và thường làm cho mức độ nặng/mạnh hơn. Trang trọng hơn 그리고, hay dùng khi liệt kê thêm lý do cho một nhận định.',
+    examples: [
+      { ko: '이 식당은 음식이 맛있어요. 게다가 가격도 싸요.', vi: 'Quán này đồ ăn ngon. Hơn nữa giá còn rẻ.' },
+      { ko: '오늘 비가 와요. 게다가 바람도 세게 불어요.', vi: 'Hôm nay trời mưa. Thêm vào đó gió còn thổi mạnh.' },
+      { ko: '길이 막혔어요. 게다가 사고까지 났어요.', vi: 'Đường bị tắc. Hơn nữa còn xảy ra tai nạn nữa.' },
+      { ko: '그 사람은 똑똑해요. 게다가 성실하기까지 해요.', vi: 'Người đó thông minh. Hơn nữa còn chăm chỉ nữa.' },
+    ],
+    commonMistakes: [
+      'Hai ý được nối bằng 게다가 phải CÙNG CHIỀU (cùng khen hoặc cùng chê) — nếu ý sau trái chiều với ý trước, phải dùng 그런데/반면(에), không dùng 게다가.',
+      'Hay đi cùng trợ từ nhấn mạnh ở cuối vế sau như -까지, -도 để tăng sắc thái "còn thêm cả...".',
+    ],
+    level: 'trung-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 24,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: [],
+  },
+  {
+    id: 'gr-trung-cap-95',
+    pattern: '아무리 A/V - 아/어도',
+    meaningVi: 'Dù có... đến mấy, cho dù... thế nào — nhượng bộ, nhấn mạnh mức độ',
+    usageNotes:
+      '아무리 luôn xuất hiện thành cặp với đuôi câu -아/어도 (hoặc -더라도, -(으)ㄹ지라도 ở trình độ cao hơn) để nhấn mạnh rằng dù mức độ của vế trước có LỚN ĐẾN ĐÂU, kết quả ở vế sau vẫn không đổi.',
+    examples: [
+      { ko: '아무리 바빠도 밥은 먹어야 해요.', vi: 'Dù bận đến mấy cũng phải ăn cơm.' },
+      { ko: '아무리 어려워도 포기하지 마세요.', vi: 'Dù khó đến đâu cũng đừng bỏ cuộc.' },
+      { ko: '아무리 생각해도 답이 안 나와요.', vi: 'Dù nghĩ thế nào cũng không ra được đáp án.' },
+      { ko: '아무리 돈이 많아도 시간을 살 수는 없어요.', vi: 'Dù có nhiều tiền đến mấy cũng không mua được thời gian.' },
+    ],
+    commonMistakes: [
+      '아무리 luôn đi cùng -아/어도 ở cuối vế trước — không dùng 아무리 một mình với -지만 hay -는데, hai cấu trúc không ghép được với nhau.',
+      'Người Việt hay quên đuôi -아/어도 ở cuối vì trong tiếng Việt "dù...đến mấy" không bắt buộc cấu trúc hô ứng chặt như vậy — thiếu -아/어도 khiến câu sai ngữ pháp dù vẫn còn 아무리 ở đầu.',
+    ],
+    level: 'trung-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 24,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-cao-cap-42', 'gr-cao-cap-44'],
+  },
+  {
+    id: 'gr-trung-cap-96',
+    pattern: '만약 (에) A/V - (으)면/다면',
+    meaningVi: 'Nếu, giả sử — nhấn mạnh tính giả định của điều kiện phía sau',
+    usageNotes:
+      '만약(에) đứng đầu vế điều kiện để nhấn mạnh đây CHỈ LÀ giả định, không chắc xảy ra — luôn đi cùng một đuôi câu điều kiện ở cuối vế đó (thường là -(으)면 hoặc -다면). Không bắt buộc phải có 만약, nhưng thêm vào giúp câu rõ ràng là giả thuyết ngay từ đầu, hữu ích khi câu điều kiện dài.',
+    examples: [
+      { ko: '만약 내일 비가 오면 소풍은 취소예요.', vi: 'Nếu ngày mai trời mưa thì buổi dã ngoại sẽ bị hủy.' },
+      { ko: '만약 복권에 당첨된다면 뭘 하고 싶어요?', vi: 'Nếu trúng số thì bạn muốn làm gì?' },
+      { ko: '만약 시간이 있으면 같이 갑시다.', vi: 'Nếu có thời gian thì mình cùng đi nhé.' },
+      { ko: '만약 그때 다른 선택을 했다면 지금과 달랐을 거예요.', vi: 'Nếu lúc đó tôi chọn khác thì bây giờ đã khác rồi.' },
+    ],
+    commonMistakes: [
+      '만약 không tự đứng một mình làm vị ngữ điều kiện — luôn cần đuôi câu điều kiện (-(으)면/-다면) ở cuối vế trước, thiếu đuôi đó câu sẽ sai ngữ pháp dù có 만약 ở đầu.',
+      'Không nhầm với -다면 dùng ĐỘC LẬP không cần 만약 phía trước — 만약 chỉ là phần NHẤN MẠNH thêm, tự thân -(으)면/-다면 đã đủ diễn đạt điều kiện.',
+    ],
+    level: 'trung-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 24,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: [],
+  },
+  {
+    id: 'gr-trung-cap-97',
+    pattern: '따라서',
+    meaningVi: 'Do đó, vì vậy — nêu kết luận/hệ quả, trang trọng, dùng nhiều trong văn viết',
+    usageNotes:
+      'Nối kết luận với lý do đã trình bày ở câu/đoạn trước, mang sắc thái TRANG TRỌNG và LOGIC hơn hẳn 그래서 — thường xuất hiện trong văn bản báo cáo, bài luận, tin tức, hầu như không dùng trong hội thoại đời thường.',
+    examples: [
+      { ko: '최근 연구에 따르면 수면 부족은 건강에 해롭다. 따라서 충분한 수면이 필요하다.', vi: 'Theo nghiên cứu gần đây, thiếu ngủ có hại cho sức khỏe. Do đó cần ngủ đủ giấc.' },
+      { ko: '물가가 계속 오르고 있다. 따라서 소비를 줄이는 사람들이 늘고 있다.', vi: 'Giá cả đang liên tục tăng. Do đó số người giảm chi tiêu ngày càng nhiều.' },
+      { ko: '이 제품은 안전성이 검증되지 않았다. 따라서 판매를 중단해야 한다.', vi: 'Sản phẩm này chưa được kiểm chứng độ an toàn. Vì vậy cần ngừng bán.' },
+    ],
+    commonMistakes: [
+      'Chỉ dùng trong văn viết trang trọng/học thuật — dùng 따라서 trong hội thoại thân mật nghe rất cứng nhắc, khi đó nên dùng 그래서.',
+      'Đây chính là từ nối cần thuộc lòng cho phần Viết luận TOPIK (câu 51-54) thay vì 그래서.',
+    ],
+    level: 'trung-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 24,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-so-cap-60'],
+  },
 ]

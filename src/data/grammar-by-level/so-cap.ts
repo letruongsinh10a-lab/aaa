@@ -1171,4 +1171,92 @@ export const grammarSoCap: GrammarEntry[] = [
     sectionOrder: 13,
     sectionTitleVi: 'Phát hiện và ngạc nhiên',
   },
+  {
+    id: 'gr-so-cap-59',
+    pattern: '그런데',
+    meaningVi: 'Nhưng, mà, à mà — chuyển ý hoặc nêu tương phản nhẹ trong văn nói',
+    usageNotes:
+      'Phó từ đứng riêng ở đầu câu mới (không gắn vào thân động/tính từ như -지만), dùng để chuyển sang một ý có phần tương phản hoặc bất ngờ so với câu trước, hoặc để chuyển chủ đề trong hội thoại. Thân mật và dùng trong văn nói nhiều hơn -지만.',
+    examples: [
+      { ko: '오늘 날씨가 좋아요. 그런데 내일은 비가 온대요.', vi: 'Hôm nay trời đẹp. Nhưng nghe nói mai sẽ mưa.' },
+      { ko: '저는 매운 음식을 잘 못 먹어요. 그런데 김치는 좋아해요.', vi: 'Tôi không ăn cay giỏi lắm. Nhưng tôi lại thích kim chi.' },
+      { ko: '그런데 오늘 왜 이렇게 조용해요?', vi: 'À mà, sao hôm nay yên tĩnh thế nhỉ?' },
+      { ko: '이 식당 음식이 맛있어요. 그런데 좀 비싸요.', vi: 'Quán này đồ ăn ngon. Nhưng hơi mắc.' },
+    ],
+    commonMistakes: [
+      '그런데 luôn đứng riêng ở ĐẦU câu sau, không gắn dính vào động từ/tính từ như -지만 — không viết liền "좋아요그런데".',
+      'Người Việt hay hình dung "nhưng mà" như một cụm có thể chêm vào giữa câu — trong tiếng Hàn 그런데 không bao giờ đứng giữa câu, luôn mở đầu câu/mệnh đề mới.',
+    ],
+    level: 'so-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 14,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-so-cap-08'],
+  },
+  {
+    id: 'gr-so-cap-60',
+    pattern: '그래서',
+    meaningVi: 'Vì vậy, vì thế, nên — nêu kết quả của câu trước, dùng nhiều trong văn nói',
+    usageNotes:
+      'Phó từ đứng đầu câu mới, nối kết quả/hệ quả với nguyên nhân đã nêu ở câu trước. Không chia được thì và không gắn vào thân từ như -아/어서 hay -(으)니까 — chỉ dùng để nối HAI CÂU riêng biệt, không nối hai vế trong cùng một câu.',
+    examples: [
+      { ko: '어제 늦게 잤어요. 그래서 오늘 너무 피곤해요.', vi: 'Hôm qua tôi ngủ muộn. Vì vậy hôm nay rất mệt.' },
+      { ko: '비가 많이 와요. 그래서 우산을 가져가세요.', vi: 'Trời đang mưa to. Vì vậy hãy mang theo ô nhé.' },
+      { ko: '그 영화가 재미있대요. 그래서 저도 보고 싶어요.', vi: 'Nghe nói phim đó hay lắm. Vì vậy tôi cũng muốn xem.' },
+      { ko: '길이 막혔어요. 그래서 늦게 도착했어요.', vi: 'Đường bị tắc. Vì vậy tôi đến trễ.' },
+    ],
+    commonMistakes: [
+      '그래서 nối HAI CÂU tách biệt (có dấu chấm ở giữa); -아/어서 và -(으)니까 nối HAI VẾ trong CÙNG một câu — không thể thay thế lẫn nhau về mặt cấu trúc dù nghĩa gần giống.',
+      'Không dùng 그래서 để giải thích lý do cho một lời mời/đề nghị/mệnh lệnh ở câu sau nếu muốn nhấn mạnh sắc thái lịch sự — khi đó nên ưu tiên -(으)니까.',
+    ],
+    level: 'so-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 14,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-so-cap-01', 'gr-so-cap-02'],
+  },
+  {
+    id: 'gr-so-cap-61',
+    pattern: '하지만',
+    meaningVi: 'Nhưng, tuy nhiên — tương phản, trang trọng hơn 그런데 một chút',
+    usageNotes:
+      'Cũng nêu ý tương phản với câu trước như 그런데, nhưng trung tính và có thể dùng được cả trong văn viết lẫn văn nói trang trọng, trong khi 그런데 thiên về khẩu ngữ thân mật hơn.',
+    examples: [
+      { ko: '한국어는 어려워요. 하지만 재미있어요.', vi: 'Tiếng Hàn khó. Nhưng thú vị.' },
+      { ko: '열심히 준비했어요. 하지만 시험에 떨어졌어요.', vi: 'Tôi đã chuẩn bị chăm chỉ. Nhưng vẫn trượt kỳ thi.' },
+      { ko: '가격이 비싸요. 하지만 품질이 좋아요.', vi: 'Giá đắt. Nhưng chất lượng tốt.' },
+      { ko: '피곤해요. 하지만 오늘 안에 끝내야 해요.', vi: 'Tôi mệt. Nhưng phải hoàn thành trong hôm nay.' },
+    ],
+    commonMistakes: [
+      '하지만 và 그런데 nghĩa gần giống nhau, khác biệt chỉ ở SẮC THÁI trang trọng — không có quy tắc ngữ pháp nào bắt buộc chọn cái này thay cái kia.',
+      'Không nhầm với -지만 (đuôi câu gắn liền vào động/tính từ) — 하지만 luôn đứng riêng đầu câu mới.',
+    ],
+    level: 'so-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 14,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: ['gr-so-cap-59', 'gr-so-cap-08'],
+  },
+  {
+    id: 'gr-so-cap-62',
+    pattern: '그리고',
+    meaningVi: 'Và, rồi, thêm nữa — liệt kê hoặc nối tiếp hành động/sự việc',
+    usageNotes:
+      'Phó từ đứng đầu câu, dùng để liệt kê thêm một ý/sự việc cùng loại với câu trước, hoặc nối tiếp một hành động xảy ra sau đó theo trình tự thời gian.',
+    examples: [
+      { ko: '저는 사과를 좋아해요. 그리고 딸기도 좋아해요.', vi: 'Tôi thích táo. Và tôi cũng thích dâu tây.' },
+      { ko: '숙제를 다 했어요. 그리고 텔레비전을 봤어요.', vi: 'Tôi làm xong bài tập. Rồi tôi xem ti vi.' },
+      { ko: '이 옷은 예뻐요. 그리고 편해요.', vi: 'Bộ đồ này đẹp. Và cũng thoải mái nữa.' },
+      { ko: '숙제를 하세요. 그리고 일찍 주무세요.', vi: 'Hãy làm bài tập đi. Rồi ngủ sớm nhé.' },
+    ],
+    commonMistakes: [
+      'Chỉ nối HAI CÂU riêng biệt (có dấu chấm ở giữa) — muốn nối hai vế trong cùng một câu phải dùng đuôi câu -고 gắn vào thân từ, không dùng 그리고.',
+      '그리고 KHÔNG mang nghĩa tương phản — không dùng thay cho 그런데/하지만 dù trong tiếng Việt đôi khi "và" cũng bị dùng lỏng lẻo để nối ý trái chiều.',
+    ],
+    level: 'so-cap',
+    section: 'phu-tu-lien-ket-cau',
+    sectionOrder: 14,
+    sectionTitleVi: 'Phó từ liên kết câu',
+    relatedPatterns: [],
+  },
 ]

@@ -76,6 +76,11 @@ export interface GrammarEntry {
   section: string
   sectionOrder: number
   sectionTitleVi: string
+  // Optional — only populated where a genuine confusable/paired pattern is
+  // known (see grammar-by-level's "Phó từ liên kết câu" sections). Not yet
+  // backfilled across all 253 legacy entries; existing code must treat
+  // absence as "no known related patterns", not as an error.
+  relatedPatterns?: string[]
 }
 
 // Bài tập luyện tập cho mỗi mẫu ngữ pháp Sơ/Trung/Cao cấp — tầng dữ liệu riêng,
