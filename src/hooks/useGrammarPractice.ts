@@ -92,6 +92,8 @@ export interface UseGrammarPracticeResult {
   currentExercise: GrammarExercise | undefined
   progress: { done: number; total: number; percent: number }
   stats: PracticeStats | null
+  /** Per-exercise-id first-attempt correctness — exposed so callers (e.g. SRS review) can derive a rating per pattern without re-deriving this bookkeeping themselves. */
+  firstAttempt: Record<string, boolean>
   submitFillBlank: (exercise: FillBlankExercise, userAnswer: string) => boolean
   submitDiscriminate: (exercise: DiscriminateExercise, selectedIndex: number) => boolean
   submitProduce: (exercise: ProduceExercise, selfCorrect: boolean) => void
@@ -154,6 +156,7 @@ export function useGrammarPractice(exercises: GrammarExercise[]): UseGrammarPrac
     currentExercise: state.queue[0],
     progress,
     stats,
+    firstAttempt: state.firstAttempt,
     submitFillBlank,
     submitDiscriminate,
     submitProduce,

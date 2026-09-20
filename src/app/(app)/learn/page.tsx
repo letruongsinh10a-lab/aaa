@@ -20,7 +20,7 @@ function getLevelTitle(level: number) {
 
 const QUICK_ACTIONS = [
   { href: '/courses',         emoji: '📚', title: 'Khóa học',     desc: 'TOPIK 1 → 6 · Miễn phí cấp cơ bản', color: 'text-accent-blue',    bg: 'bg-[rgba(108,142,239,0.08)]' },
-  { href: '/learn/grammar',   emoji: '📝', title: 'Ngữ pháp',     desc: '30 mẫu câu TOPIK 1',                 color: 'text-accent-success',  bg: 'bg-[rgba(74,222,128,0.08)]' },
+  { href: '/learn/grammar',   emoji: '📝', title: 'Ngữ pháp',     desc: '271 mẫu · Sơ – Trung – Cao cấp',     color: 'text-accent-success',  bg: 'bg-[rgba(74,222,128,0.08)]' },
   { href: '/topik',           emoji: '🏆', title: 'Luyện TOPIK',  desc: 'Đề thi thử TOPIK 1 & 2',            color: 'text-accent-amber',    bg: 'bg-[rgba(255,179,71,0.08)]' },
   { href: '/learn/listening', emoji: '🎧', title: 'Shadowing',    desc: 'Luyện phát âm chuẩn bản ngữ',       color: 'text-accent-coral',    bg: 'bg-[rgba(255,107,74,0.08)]' },
 ]
@@ -113,6 +113,19 @@ export default function DashboardPage() {
               {d.dueCount > 0 ? 'Ôn tập ngay' : 'Học từ mới'}
             </Link>
           </div>
+
+          {d.grammarDueCount > 0 && (
+            <div className="flex items-center justify-between gap-4 flex-wrap mt-5 pt-5 border-t border-[rgba(255,255,255,0.06)]">
+              <div>
+                <Badge variant="coral" dot className="mb-2">Ngữ pháp cần ôn</Badge>
+                <h2 className="text-lg font-semibold text-text-primary">{d.grammarDueCount} mẫu ngữ pháp đến hạn</h2>
+                <p className="text-sm text-text-secondary mt-0.5">Ôn bằng bài tập để giữ phản xạ, không chỉ nhận diện</p>
+              </div>
+              <Link href="/learn/grammar/review" className={buttonVariants({ variant: 'secondary', size: 'md' })}>
+                Ôn ngữ pháp
+              </Link>
+            </div>
+          )}
         </Card>
       </motion.div>
 
