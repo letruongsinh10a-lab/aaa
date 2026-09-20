@@ -1861,7 +1861,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 24,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-trung-cap-10'],
+    relatedPatterns: [
+      { id: 'gr-trung-cap-10', distinction: '반면(에) nêu 2 vế đối lập bình đẳng, trung tính; 오히려 hàm ý kết quả bất ngờ/trái dự đoán, sắc thái mạnh hơn.' },
+    ],
   },
   {
     id: 'gr-trung-cap-94',
@@ -1905,7 +1907,10 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 24,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-cao-cap-42', 'gr-cao-cap-44'],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-42', distinction: '-더라도 trang trọng hơn -아/어도, thường đi cùng 비록 ở trình độ cao hơn thay vì 아무리.' },
+      { id: 'gr-cao-cap-44', distinction: '(으)ㄹ지라도 là mức trang trọng cao nhất trong các đuôi nhượng bộ, thường đi với 비록 hơn là 아무리.' },
+    ],
   },
   {
     id: 'gr-trung-cap-96',
@@ -1948,6 +1953,8 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 24,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-so-cap-60'],
+    relatedPatterns: [
+      { id: 'gr-so-cap-60', distinction: '그래서 dùng được cả văn nói lẫn viết thân mật; 따라서 chỉ dùng văn viết/học thuật trang trọng.' },
+    ],
   },
 ]

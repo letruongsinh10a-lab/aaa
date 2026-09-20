@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { AlertCircle } from 'lucide-react'
 import type { GrammarEntry } from '@/types'
+import { GrammarExamplesBlock, GrammarConjugationBlock, GrammarRelatedBlock } from './GrammarPatternDetail'
 
 interface GrammarFlashCardProps {
   card: GrammarEntry
@@ -50,17 +51,13 @@ export function GrammarFlashCard({ card, flipped, onFlip }: GrammarFlashCardProp
 
           {card.examples.length > 0 && (
             <div className="border-t border-[rgba(255,255,255,0.06)] pt-5 w-full text-left max-w-lg mx-auto">
-              <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-3">
-                Ví dụ
-              </p>
-              <div className="space-y-3">
-                {card.examples.map((ex, i) => (
-                  <div key={i} className="bg-bg-elevated rounded-lg px-4 py-3 space-y-1">
-                    <p lang="ko" className="font-korean text-base text-text-primary">{ex.ko}</p>
-                    <p className="text-sm text-text-secondary">{ex.vi}</p>
-                  </div>
-                ))}
-              </div>
+              <GrammarExamplesBlock examples={card.examples} />
+            </div>
+          )}
+
+          {card.conjugationTable && card.conjugationTable.length > 0 && (
+            <div className="border-t border-[rgba(255,255,255,0.06)] mt-5 pt-5 w-full text-left max-w-lg mx-auto">
+              <GrammarConjugationBlock table={card.conjugationTable} />
             </div>
           )}
 
@@ -79,6 +76,12 @@ export function GrammarFlashCard({ card, flipped, onFlip }: GrammarFlashCardProp
                   </p>
                 ))}
               </div>
+            </div>
+          )}
+
+          {card.relatedPatterns && card.relatedPatterns.length > 0 && (
+            <div className="border-t border-[rgba(255,255,255,0.06)] mt-5 pt-5 w-full text-left max-w-lg mx-auto">
+              <GrammarRelatedBlock related={card.relatedPatterns} />
             </div>
           )}
         </div>

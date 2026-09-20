@@ -9,17 +9,8 @@ import { grammarExercisesByPatternId } from '@/data/grammar-exercises'
 import { fadeUp, stagger } from '@/lib/motion'
 import { buttonVariants } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
-import type { GrammarLevelGroup } from '@/types'
-
-type GrammarEntry = {
-  id: string
-  pattern: string
-  meaningVi: string
-  usageNotes: string
-  examples: { ko: string; vi: string }[]
-  commonMistakes: string[]
-  level?: string
-}
+import type { GrammarEntry, GrammarLevelGroup } from '@/types'
+import { GrammarExamplesBlock, GrammarConjugationBlock, GrammarRelatedBlock } from '@/components/learning/GrammarPatternDetail'
 
 function GrammarAccordionList({
   patterns,
@@ -82,19 +73,10 @@ function GrammarAccordionList({
                       </div>
 
                       {/* Examples */}
-                      <div>
-                        <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-3">
-                          Ví dụ
-                        </p>
-                        <div className="space-y-3">
-                          {g.examples.map((ex, j) => (
-                            <div key={j} className="bg-bg-elevated rounded-lg px-4 py-3 space-y-1">
-                              <p lang="ko" className="font-korean text-base text-text-primary">{ex.ko}</p>
-                              <p className="text-sm text-text-secondary">{ex.vi}</p>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
+                      <GrammarExamplesBlock examples={g.examples} />
+
+                      {/* Conjugation table — only for patterns affected by irregular stems */}
+                      <GrammarConjugationBlock table={g.conjugationTable} />
 
                       {/* Common mistakes */}
                       {g.commonMistakes.length > 0 && (
@@ -114,6 +96,9 @@ function GrammarAccordionList({
                           </div>
                         </div>
                       )}
+
+                      {/* So sánh với mẫu dễ nhầm */}
+                      <GrammarRelatedBlock related={g.relatedPatterns} />
 
                       {/* Luyện tập — chỉ hiện với mẫu đã có bài tập (pilot) */}
                       {grammarExercisesByPatternId[g.id]?.length > 0 && (

@@ -65,22 +65,48 @@ export interface GrammarPattern {
 // — hệ phân loại song song, tách biệt với TOPIKLevel/grammarTopikN hiện có.
 export type GrammarLevelGroup = 'so-cap' | 'trung-cap' | 'cao-cap'
 
+// formal = 합니다/합쇼체 · polite = 해요체 · casual = 반말 · written = văn viết/평서형 (câu kết thúc bằng -다)
+export type GrammarRegister = 'formal' | 'polite' | 'casual' | 'written'
+
+export interface GrammarExample {
+  ko: string
+  vi: string
+  // Cả hai optional — chỉ populate đầy đủ cho Sơ cấp tính đến nay (xem
+  // grammar-content-audit-2026-09-20 trong memory); UI phải tự ẩn dòng
+  // phiên âm/badge văn phong khi thiếu, không coi là lỗi dữ liệu.
+  romanization?: string
+  register?: GrammarRegister
+}
+
+export interface GrammarConjugationRow {
+  stemType: string    // 'Quy tắc', 'ㅂ bất quy tắc', 'ㄷ bất quy tắc', '르 bất quy tắc', '으 bất quy tắc', 'ㅎ bất quy tắc'
+  baseForm: string    // '춥다'
+  conjugated: string  // '추워서'
+}
+
+export interface GrammarRelatedRef {
+  id: string
+  distinction: string // 1 câu ngắn: khác mẫu đang xem ở điểm nào
+}
+
 export interface GrammarEntry {
   id: string
   pattern: string
   meaningVi: string
   usageNotes: string
-  examples: { ko: string; vi: string }[]
+  examples: GrammarExample[]
   commonMistakes: string[]
   level: GrammarLevelGroup
   section: string
   sectionOrder: number
   sectionTitleVi: string
   // Optional — only populated where a genuine confusable/paired pattern is
-  // known (see grammar-by-level's "Phó từ liên kết câu" sections). Not yet
-  // backfilled across all 253 legacy entries; existing code must treat
-  // absence as "no known related patterns", not as an error.
-  relatedPatterns?: string[]
+  // known. Not yet backfilled across all 271 legacy entries; existing code
+  // must treat absence as "no known related patterns", not as an error.
+  relatedPatterns?: GrammarRelatedRef[]
+  // Optional — only meaningful for patterns whose ending starts with a vowel
+  // (아/어, (으)) where irregular stems (ㅂ/ㄷ/르/ㅅ/ㅎ/으-drop) change form.
+  conjugationTable?: GrammarConjugationRow[]
 }
 
 // Bài tập luyện tập cho mỗi mẫu ngữ pháp Sơ/Trung/Cao cấp — tầng dữ liệu riêng,

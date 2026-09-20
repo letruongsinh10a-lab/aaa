@@ -1906,7 +1906,12 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 21,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-cao-cap-42', 'gr-cao-cap-44', 'gr-trung-cap-10', 'gr-trung-cap-95'],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-42', distinction: 'Là 1 trong 3 đuôi bắt buộc đi sau 비록, không phải mẫu độc lập cạnh tranh.' },
+      { id: 'gr-cao-cap-44', distinction: 'Cũng là đuôi bắt buộc đi sau 비록, mức trang trọng cao nhất trong 3 lựa chọn.' },
+      { id: 'gr-trung-cap-10', distinction: '반면(에) diễn tả ĐỐI LẬP giữa 2 vế; 비록 diễn tả NHƯỢNG BỘ (thừa nhận rồi phủ nhận tác động), không thay thế lẫn nhau.' },
+      { id: 'gr-trung-cap-95', distinction: 'Cùng là nhượng bộ nhưng 아무리 kém trang trọng hơn, dùng khẩu ngữ; 비록 trang trọng, hay gặp trong văn viết/thi cử.' },
+    ],
   },
   {
     id: 'gr-cao-cap-105',
@@ -1927,7 +1932,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 21,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-cao-cap-110'],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-110', distinction: '혹시 mang sắc thái lịch sự/thăm dò nhẹ nhàng; 설마 luôn hàm ý hoài nghi, không tin.' },
+    ],
   },
   {
     id: 'gr-cao-cap-106',
@@ -2011,7 +2018,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 21,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-cao-cap-105'],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-105', distinction: '설마 luôn mang hàm ý KHÔNG TIN/phủ định; 과연 trung tính hơn, có thể dùng để XÁC NHẬN điều đúng.' },
+    ],
   },
   {
     id: 'gr-cao-cap-110',
@@ -2032,7 +2041,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 21,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-cao-cap-105'],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-105', distinction: '설마 luôn mang sắc thái nghi ngờ/không tin; 혹시 trung tính, lịch sự, dùng để thăm dò nhẹ nhàng.' },
+    ],
   },
   {
     id: 'gr-cao-cap-111',
@@ -2053,7 +2064,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 21,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-cao-cap-104'],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-104', distinction: '그럼에도 불구하고 đứng đầu CÂU MỚI, nhượng bộ cho cả câu/đoạn trước; 비록 đứng đầu VẾ trong CÙNG một câu.' },
+    ],
   },
   {
     id: 'gr-cao-cap-112',
@@ -2074,6 +2087,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'phu-tu-lien-ket-cau',
     sectionOrder: 21,
     sectionTitleVi: 'Phó từ liên kết câu',
-    relatedPatterns: ['gr-trung-cap-97'],
+    relatedPatterns: [
+      { id: 'gr-trung-cap-97', distinction: 'Gần như thay thế được cho nhau trong ngữ cảnh trang trọng; cả hai đều không dùng trong văn nói thân mật.' },
+    ],
   },
 ]
