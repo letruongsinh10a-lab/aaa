@@ -8,9 +8,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Dùng để đáp lại câu hỏi của người nghe hoặc chủ động đưa ra lý do, ý kiến mà người nghe chưa biết, đồng thời cũng dùng để thông báo một thông tin mới rồi tiếp tục nói thêm nội dung liên quan. Đây là cấu trúc chỉ dùng trong văn nói suồng sã, khi trò chuyện với người thân thiết, không dùng trong hoàn cảnh trang trọng. Ở trình độ cao hơn có thể gặp biến thể 거들랑요.',
     examples: [
-      { ko: '가: 뭘 그렇게 많이 샀어요? 나: 내일 친구들이 집에 놀러 오거든요.', vi: 'A: Sao bạn mua nhiều đồ thế? B: Vì mai bạn bè tôi đến nhà chơi đấy.' },
-      { ko: '가: 오늘은 학교에 안 가요? 나: 네, 수업이 없거든요.', vi: 'A: Hôm nay bạn không đi học à? B: Vâng, vì hôm nay không có tiết học đấy.' },
-      { ko: '제가 좀 바쁘거든요. 다음에 연락 주세요.', vi: 'Tôi hơi bận một chút đấy. Lần sau hãy liên lạc lại nhé.' },
+      { ko: '가: 뭘 그렇게 많이 샀어요? 나: 내일 친구들이 집에 놀러 오거든요.', vi: 'A: Sao bạn mua nhiều đồ thế? B: Vì mai bạn bè tôi đến nhà chơi đấy.', romanization: 'ga: mwol geu-reo-ke ma-ni sa-sseo-yo? na: nae-il chin-gu-deu-ri ji-be nol-leo o-geo-deu-nyo', register: 'polite' },
+      { ko: '가: 오늘은 학교에 안 가요? 나: 네, 수업이 없거든요.', vi: 'A: Hôm nay bạn không đi học à? B: Vâng, vì hôm nay không có tiết học đấy.', romanization: 'ga: o-neu-reun hak-kkyo-e an ga-yo? na: ne, su-eo-bi eop-kkeo-deu-nyo', register: 'polite' },
+      { ko: '제가 좀 바쁘거든요. 다음에 연락 주세요.', vi: 'Tôi hơi bận một chút đấy. Lần sau hãy liên lạc lại nhé.', romanization: 'je-ga jom ba-ppeu-geo-deu-nyo. da-eu-me yeol-lak ju-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng -거든요 trong hoàn cảnh trang trọng hoặc văn viết, chỉ dùng khi nói chuyện thân mật.',
@@ -20,6 +20,10 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ket-qua',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân, kết quả',
+    relatedPatterns: [
+      { id: 'gr-so-cap-04', distinction: 'Đây là mẫu câu ôn lại từ Sơ cấp (cùng công thức), được nhấn thêm sắc thái thông báo tin mới rõ hơn ở Trung cấp.' },
+      { id: 'gr-trung-cap-02', distinction: '-거든요 dùng khi người nghe CHƯA biết lý do, còn -잖아요 dùng khi người nghe ĐÃ biết hoặc từng biết.' },
+    ],
   },
   {
     id: 'gr-trung-cap-02',
@@ -28,9 +32,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Dùng khi người nói đưa ra một lý do mà người nghe cũng đã biết, hoặc gợi lại cho người nghe điều mà họ có vẻ đã quên. Ngoài ra còn dùng để trách móc, khiển trách nhẹ nhàng khi người nghe không nghe theo lời khuyên trước đó của người nói và dẫn đến kết quả không hay — trường hợp này thường đi kèm câu trích dẫn gián tiếp nhắc lại lời khuyên đã đưa ra. Cấu trúc chỉ dùng trong văn nói suồng sã, giữa những người thân thiết, không dùng trong hoàn cảnh trang trọng.',
     examples: [
-      { ko: '오늘 춥잖아. 옷 많이 챙겨 입어.', vi: 'Trời lạnh mà (bạn biết rồi đấy). Hãy mặc thêm áo vào.' },
-      { ko: '가: 왜 그 드라마를 봐요? 나: 재미있잖아요.', vi: 'A: Sao bạn xem bộ phim đó vậy? B: Vì nó hay mà.' },
-      { ko: '가: 배가 아파요. 나: 제가 아까 그렇게 매운 음식을 먹지 말라고 했잖아요.', vi: 'A: Tôi bị đau bụng. B: Lúc nãy tôi đã bảo đừng ăn đồ cay mà.' },
+      { ko: '오늘 춥잖아. 옷 많이 챙겨 입어.', vi: 'Trời lạnh mà (bạn biết rồi đấy). Hãy mặc thêm áo vào.', romanization: 'o-neul chup-jja-na. ot ma-ni chaeng-gyeo i-beo', register: 'casual' },
+      { ko: '가: 왜 그 드라마를 봐요? 나: 재미있잖아요.', vi: 'A: Sao bạn xem bộ phim đó vậy? B: Vì nó hay mà.', romanization: 'ga: wae geu deu-ra-ma-reul bwa-yo? na: jae-mi-it-jja-na-yo', register: 'polite' },
+      { ko: '가: 배가 아파요. 나: 제가 아까 그렇게 매운 음식을 먹지 말라고 했잖아요.', vi: 'A: Tôi bị đau bụng. B: Lúc nãy tôi đã bảo đừng ăn đồ cay mà.', romanization: 'ga: bae-ga a-pa-yo. na: je-ga a-kka geu-reo-ke mae-un eum-si-geul meok-jji mal-la-go haet-jja-na-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không nên dùng với người lớn tuổi hoặc trong hoàn cảnh trang trọng vì dễ nghe như đang vặc lại, khó chịu.',
@@ -40,6 +44,10 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ket-qua',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân, kết quả',
+    relatedPatterns: [
+      { id: 'gr-so-cap-05', distinction: 'Ôn lại mẫu câu Sơ cấp (cùng công thức), bổ sung thêm sắc thái trách móc khi người nghe không nghe lời khuyên trước đó.' },
+      { id: 'gr-trung-cap-01', distinction: '-잖아요 dùng khi người nghe cũng đã biết lý do, còn -거든요 dùng khi người nghe chưa biết.' },
+    ],
   },
   {
     id: 'gr-trung-cap-03',
@@ -48,9 +56,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Mệnh đề trước nêu nguyên nhân, thường là do mải mê làm việc gì đó tốn thời gian, sức lực hoặc ý chí, dẫn đến kết quả tiêu cực ở mệnh đề sau — nếu mệnh đề sau là kết quả tích cực thì câu sẽ nghe thiếu tự nhiên. Hành động ở mệnh đề trước diễn ra liên tục và trùng một phần hoặc toàn bộ thời gian với mệnh đề sau, nên chỉ những động từ đòi hỏi thời gian, sức lực, ý chí của chủ thể mới đứng trước -느라고. Cấu trúc này thường đi kèm với 고생하다, 수고하다.',
     examples: [
-      { ko: '열심히 공부하느라고 고생했어요.', vi: 'Vì mải học hành chăm chỉ nên tôi đã vất vả.' },
-      { ko: '가: 계속 전화했는데 왜 안 받았어요? 나: 미안해요. 피곤해서 자느라고 전화 소리도 못 들었어요.', vi: 'A: Tôi gọi điện liên tục mà sao bạn không nghe máy? B: Xin lỗi, vì mệt quá nên tôi ngủ say, không nghe thấy tiếng điện thoại luôn.' },
-      { ko: '숙제하느라고 밤을 새웠어요.', vi: 'Vì mải làm bài tập nên tôi đã thức trắng đêm.' },
+      { ko: '열심히 공부하느라고 고생했어요.', vi: 'Vì mải học hành chăm chỉ nên tôi đã vất vả.', romanization: 'yeol-sim-hi gong-bu-ha-neu-ra-go go-saeng-hae-sseo-yo', register: 'polite' },
+      { ko: '가: 계속 전화했는데 왜 안 받았어요? 나: 미안해요. 피곤해서 자느라고 전화 소리도 못 들었어요.', vi: 'A: Tôi gọi điện liên tục mà sao bạn không nghe máy? B: Xin lỗi, vì mệt quá nên tôi ngủ say, không nghe thấy tiếng điện thoại luôn.', romanization: 'ga: gye-sok jeon-hwa-haen-neun-de wae an ba-da-sseo-yo? na: mi-an-hae-yo. pi-gon-hae-seo ja-neu-ra-go jeon-hwa so-ri-do mot deu-reo-sseo-yo', register: 'polite' },
+      { ko: '숙제하느라고 밤을 새웠어요.', vi: 'Vì mải làm bài tập nên tôi đã thức trắng đêm.', romanization: 'suk-jje-ha-neu-ra-go ba-meul sae-wo-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng -느라고 khi vế sau là kết quả tích cực hoặc câu mệnh lệnh, cầu khiến — chỉ hợp với kết quả tiêu cực, đáng tiếc.',
@@ -68,9 +76,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Mệnh đề trước diễn tả một tình huống hay sự việc bất ngờ, gây ảnh hưởng tiêu cực đến mệnh đề sau hoặc dẫn đến một kết quả không mong muốn, mang tính biện minh — nếu dùng cho lý do tích cực thì câu sẽ thiếu tự nhiên, dù đôi khi vẫn có thể dùng trong tình huống kết quả xảy ra tích cực nhưng ngoài dự đoán. Mệnh đề sau luôn chia ở thì quá khứ và không thể là câu mệnh lệnh hay câu cầu khiến.',
     examples: [
-      { ko: '노트북이 갑자기 고장 나는 바람에 이메일을 확인하지 못했어요.', vi: 'Vì máy tính bỗng nhiên bị hỏng nên tôi không kiểm tra được email.' },
-      { ko: '가: 왜 이렇게 늦었어요? 나: 미안해요. 버스를 잘못 타는 바람에 늦었어요.', vi: 'A: Sao bạn đến muộn thế? B: Xin lỗi, vì tôi đi nhầm xe buýt nên mới muộn.' },
-      { ko: '갑자기 비가 오는 바람에 우산도 없이 다 젖었어요.', vi: 'Vì trời bỗng đổ mưa nên tôi bị ướt hết mà không có ô.' },
+      { ko: '노트북이 갑자기 고장 나는 바람에 이메일을 확인하지 못했어요.', vi: 'Vì máy tính bỗng nhiên bị hỏng nên tôi không kiểm tra được email.', romanization: 'no-teu-bu-gi gap-jja-gi go-jang na-neun ba-ra-me i-me-i-reul hwa-gin-ha-ji mo-tae-sseo-yo', register: 'polite' },
+      { ko: '가: 왜 이렇게 늦었어요? 나: 미안해요. 버스를 잘못 타는 바람에 늦었어요.', vi: 'A: Sao bạn đến muộn thế? B: Xin lỗi, vì tôi đi nhầm xe buýt nên mới muộn.', romanization: 'ga: wae i-reo-ke neu-jeo-sseo-yo? na: mi-an-hae-yo. beo-seu-reul jal-mot ta-neun ba-ra-me neu-jeo-sseo-yo', register: 'polite' },
+      { ko: '갑자기 비가 오는 바람에 우산도 없이 다 젖었어요.', vi: 'Vì trời bỗng đổ mưa nên tôi bị ướt hết mà không có ô.', romanization: 'gap-jja-gi bi-ga o-neun ba-ra-me u-san-do eop-ssi da jeo-jeo-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau luôn ở thì quá khứ và không được là câu mệnh lệnh/cầu khiến, khác nhiều cấu trúc nguyên nhân khác.',
@@ -80,6 +88,11 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ket-qua',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân, kết quả',
+    relatedPatterns: [
+      { id: 'gr-so-cap-03', distinction: 'Nếu nguyên nhân là điều đã biết trước (không mang tính bất ngờ), nên dùng -기 때문에 thay cho -는 바람에.' },
+      { id: 'gr-so-cap-01', distinction: 'Nếu nguyên nhân là điều đã biết trước, có thể dùng -아/어서 thay thế vì -는 바람에 chỉ hợp với nguyên nhân bất ngờ.' },
+      { id: 'gr-trung-cap-05', distinction: '-는 바람에 chỉ hợp với nguyên nhân mang tính bất ngờ, còn -는 탓에 dùng được với mọi loại nguyên nhân miễn mang sắc thái đổ lỗi.' },
+    ],
   },
   {
     id: 'gr-trung-cap-05',
@@ -88,9 +101,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Dùng để đổ lỗi hay quy trách nhiệm cho một nguyên nhân dẫn đến tình huống không tốt ở mệnh đề sau, mang tính biện hộ. So với -기 때문에 hay -는 바람에, -는 탓에 chỉ dùng được khi nguyên nhân và kết quả đều mang sắc thái tiêu cực, khác với -는 덕분에 chỉ dùng cho kết quả tích cực.',
     examples: [
-      { ko: '밤새도록 드라마를 보는 탓에 아침에 자주 늦게 일어나요.', vi: 'Vì xem phim truyền hình thâu đêm nên buổi sáng tôi hay dậy muộn.' },
-      { ko: '요즘 스트레스를 자주 받는 탓에 건강이 나빠져요.', vi: 'Vì dạo này hay bị căng thẳng nên sức khỏe của tôi kém đi.' },
-      { ko: '길이 막히는 탓에 회의에 늦고 말았어요.', vi: 'Vì đường bị tắc nên tôi đã đến muộn cuộc họp.' },
+      { ko: '밤새도록 드라마를 보는 탓에 아침에 자주 늦게 일어나요.', vi: 'Vì xem phim truyền hình thâu đêm nên buổi sáng tôi hay dậy muộn.', romanization: 'bam-sae-do-rok deu-ra-ma-reul bo-neun ta-se a-chi-me ja-ju neut-kke i-reo-na-yo', register: 'polite' },
+      { ko: '요즘 스트레스를 자주 받는 탓에 건강이 나빠져요.', vi: 'Vì dạo này hay bị căng thẳng nên sức khỏe của tôi kém đi.', romanization: 'yo-jeum seu-teu-re-seu-reul ja-ju ban-neun ta-se geon-gang-i na-ppa-jyeo-yo', register: 'polite' },
+      { ko: '길이 막히는 탓에 회의에 늦고 말았어요.', vi: 'Vì đường bị tắc nên tôi đã đến muộn cuộc họp.', romanization: 'gi-ri ma-ki-neun ta-se hoe-ui-e neut-kko ma-ra-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ dùng -는 탓에 cho nguyên nhân và kết quả đều xấu; muốn diễn tả nguyên nhân tốt dẫn đến kết quả tốt phải dùng -는 덕분에, không được thay bằng -는 탓에.',
@@ -100,6 +113,15 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ket-qua',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân, kết quả',
+    conjugationTable: [
+      { stemType: 'Quy tắc (tính từ)', baseForm: '많다', conjugated: '많은 탓에' },
+      { stemType: 'Quy tắc (động từ)', baseForm: '마시다', conjugated: '마시는 탓에' },
+      { stemType: 'ㅂ bất quy tắc (tính từ)', baseForm: '덥다', conjugated: '더운 탓에' },
+      { stemType: 'ㄹ 받침 (động từ, lược ㄹ)', baseForm: '놀다', conjugated: '노는 탓에' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-trung-cap-04', distinction: '-는 바람에 chỉ dùng cho nguyên nhân mang tính bất ngờ, còn -는 탓에 dùng được với mọi loại nguyên nhân miễn là mang sắc thái đổ lỗi.' },
+    ],
   },
   {
     id: 'gr-trung-cap-06',
@@ -108,9 +130,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả người nói lo sợ một hành động hay sự việc nào đó sẽ xảy ra nên thực hiện hành động ở mệnh đề sau để phòng tránh; thường kết hợp với các từ như 걱정이다, 고민이다 ở vế sau. Ở trình độ cao cấp có thể kết hợp thêm các phó từ nhấn mạnh như 행여, 혹, 자칫.',
     examples: [
-      { ko: '비가 올까 봐서 우산을 챙겼어요.', vi: 'Vì sợ trời mưa nên tôi đã mang theo ô.' },
-      { ko: '내일 학교에 늦게 갈까 봐 일찍 쉬었어요.', vi: 'Vì sợ ngày mai đi học muộn nên tôi đã đi nghỉ sớm.' },
-      { ko: '발표할 때 한국어를 틀릴까 봐 걱정이에요.', vi: 'Tôi lo lắng vì sợ khi thuyết trình sẽ nói sai tiếng Hàn.' },
+      { ko: '비가 올까 봐서 우산을 챙겼어요.', vi: 'Vì sợ trời mưa nên tôi đã mang theo ô.', romanization: 'bi-ga ol-kka bwa-seo u-sa-neul chaeng-gyeo-sseo-yo', register: 'polite' },
+      { ko: '내일 학교에 늦게 갈까 봐 일찍 쉬었어요.', vi: 'Vì sợ ngày mai đi học muộn nên tôi đã đi nghỉ sớm.', romanization: 'nae-il hak-kkyo-e neut-kke gal-kka bwa il-jjik swi-eo-sseo-yo', register: 'polite' },
+      { ko: '발표할 때 한국어를 틀릴까 봐 걱정이에요.', vi: 'Tôi lo lắng vì sợ khi thuyết trình sẽ nói sai tiếng Hàn.', romanization: 'bal-pyo-hal ttae han-gu-geo-reul teul-lil-kka bwa geok-jjeong-i-e-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế trước diễn tả điều lo sợ có thể xảy ra (chưa chắc chắn), không nhầm với -아/어서 vốn nêu nguyên nhân đã xảy ra chắc chắn.',
@@ -120,6 +142,16 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ket-qua',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân, kết quả',
+    conjugationTable: [
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '먹다', conjugated: '먹을까 봐' },
+      { stemType: 'Quy tắc (nguyên âm cuối)', baseForm: '가다', conjugated: '갈까 봐' },
+      { stemType: 'ㅂ bất quy tắc', baseForm: '춥다', conjugated: '추울까 봐' },
+      { stemType: 'ㄷ bất quy tắc', baseForm: '듣다', conjugated: '들을까 봐' },
+      { stemType: 'ㄹ 받침 (lược ㄹ)', baseForm: '놀다', conjugated: '놀까 봐' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-so-cap-01', distinction: 'Vế trước của -(으)ㄹ까 봐(서) diễn tả điều lo sợ CHƯA CHẮC CHẮN sẽ xảy ra, khác với -아/어서 vốn nêu nguyên nhân đã xảy ra chắc chắn.' },
+    ],
   },
   {
     id: 'gr-trung-cap-07',

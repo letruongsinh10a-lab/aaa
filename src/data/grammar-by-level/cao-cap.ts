@@ -8,9 +8,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả nguyên nhân hay lý do của một tình trạng nào đó. Cấu trúc chủ yếu dùng trong văn viết hoặc văn phong trang trọng như báo cáo, phát biểu, tin tức. Có thể danh từ hóa mệnh đề thành -(으)ㅁ으로 인해서 để đứng sau động từ/tính từ, và có thể lược bỏ 인해서 thành -(으)로 인한 khi bổ nghĩa trực tiếp cho danh từ đứng sau.',
     examples: [
-      { ko: '환경오염으로 인해서 자연생태계가 위협을 받고 있습니다.', vi: 'Do ô nhiễm môi trường, hệ sinh thái tự nhiên đang bị đe dọa.' },
-      { ko: '폭우로 인해서 등산객 한 명이 실종되었다고 들었어요.', vi: 'Tôi nghe nói do mưa lớn mà có một người leo núi bị mất tích.' },
-      { ko: '처음에는 고혈압으로 인한 두통이 아닌가 했어요.', vi: 'Ban đầu tôi cứ tưởng đó là đau đầu do cao huyết áp.' },
+      { ko: '환경오염으로 인해서 자연생태계가 위협을 받고 있습니다.', vi: 'Do ô nhiễm môi trường, hệ sinh thái tự nhiên đang bị đe dọa.', romanization: 'hwan-gyeong-o-yeom-eu-ro in-hae-seo ja-yeon-saeng-tae-gye-ga wi-hyeo-beul bat-kko it-sseum-ni-da', register: 'formal' },
+      { ko: '폭우로 인해서 등산객 한 명이 실종되었다고 들었어요.', vi: 'Tôi nghe nói do mưa lớn mà có một người leo núi bị mất tích.', romanization: 'po-gu-ro in-hae-seo deung-san-gaek han myeong-i sil-jong-doe-eot-tta-go deu-reo-sseo-yo', register: 'polite' },
+      { ko: '처음에는 고혈압으로 인한 두통이 아닌가 했어요.', vi: 'Ban đầu tôi cứ tưởng đó là đau đầu do cao huyết áp.', romanization: 'cheo-eu-me-neun go-hyeo-ra-beu-ro in-han du-tong-i a-nin-ga hae-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ đứng sau danh từ; muốn dùng sau động từ/tính từ phải danh từ hóa mệnh đề bằng -(으)ㅁ으로 인해서, không gắn trực tiếp vào thân từ.',
@@ -20,6 +20,10 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ly-do',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân và lý do',
+    relatedPatterns: [
+      { id: 'gr-so-cap-01', distinction: '-(으)로 인해서 trang trọng, thiên về văn viết; nếu nêu lý do trong hội thoại thân mật hàng ngày nên dùng -아/어서.' },
+      { id: 'gr-so-cap-03', distinction: 'Gần nghĩa -기 때문에 nhưng -(으)로 인해서 chỉ gắn trực tiếp sau danh từ, muốn dùng sau động từ/tính từ phải danh từ hóa bằng -(으)ㅁ으로 인해서.' },
+    ],
   },
   {
     id: 'gr-cao-cap-02',
@@ -28,9 +32,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả căn cứ hay nguyên nhân trong một hoàn cảnh lộn xộn hoặc phức tạp dẫn tới một kết quả không tốt, tiêu cực ở vế sau. Vế sau không dùng câu mệnh lệnh hay cầu khiến. Ngoài ra cấu trúc còn được dùng đứng sau một số danh từ như 전쟁 통에 (giữa cảnh chiến tranh), 난리 통에 (giữa cảnh loạn lạc).',
     examples: [
-      { ko: '이 책은 전쟁 통에 아들을 잃어버린 어머니에 대한 이야기예요.', vi: 'Cuốn sách này kể về người mẹ đã lạc mất con trai giữa cảnh loạn lạc chiến tranh.' },
-      { ko: '아이가 자꾸 조르는 통에 장난감을 안 사 줄 수가 없었어요.', vi: 'Vì đứa trẻ cứ nằng nặc đòi hoài nên tôi không thể không mua đồ chơi cho nó.' },
-      { ko: '지하철을 잘못 타는 통에 반대 방향으로 한참을 갔어요.', vi: 'Vì lên nhầm chuyến tàu điện ngầm nên tôi đã đi khá xa theo hướng ngược lại.' },
+      { ko: '이 책은 전쟁 통에 아들을 잃어버린 어머니에 대한 이야기예요.', vi: 'Cuốn sách này kể về người mẹ đã lạc mất con trai giữa cảnh loạn lạc chiến tranh.', romanization: 'i chae-geun jeon-jaeng tong-e a-deu-reul i-reo-beo-rin eo-meo-ni-e dae-han i-ya-gi-ye-yo', register: 'polite' },
+      { ko: '아이가 자꾸 조르는 통에 장난감을 안 사 줄 수가 없었어요.', vi: 'Vì đứa trẻ cứ nằng nặc đòi hoài nên tôi không thể không mua đồ chơi cho nó.', romanization: 'a-i-ga ja-kku jo-reu-neun tong-e jang-nan-ga-meul an sa jul su-ga eop-sseo-sseo-yo', register: 'polite' },
+      { ko: '지하철을 잘못 타는 통에 반대 방향으로 한참을 갔어요.', vi: 'Vì lên nhầm chuyến tàu điện ngầm nên tôi đã đi khá xa theo hướng ngược lại.', romanization: 'ji-ha-cheo-reul jal-mot ta-neun tong-e ban-dae bang-hyang-eu-ro han-cha-meul ga-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau không được chia mệnh lệnh, cầu khiến; vế trước luôn giữ dạng hiện tại -는, không chia quá khứ.',
@@ -40,6 +44,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ly-do',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân và lý do',
+    relatedPatterns: [
+      { id: 'gr-trung-cap-04', distinction: '-는 통에 chỉ hợp khi hoàn cảnh lộn xộn, ồn ào, phức tạp; nếu nguyên nhân bất ngờ nhưng đơn giản, rõ ràng thì nên dùng -는 바람에.' },
+    ],
   },
   {
     id: 'gr-cao-cap-03',
@@ -48,8 +55,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện nguyên nhân hay lý do của một sự vật hay hiện tượng nào đó ở vế trước làm xuất hiện một kết quả có phần tiêu cực ở vế sau. Có thể dùng ở dạng -(으)로부터 말미암다/-에서 말미암다, và có thể danh từ hóa mệnh đề thành -(으)ㅁ으로 말미암아 khi đứng sau động từ/tính từ.',
     examples: [
-      { ko: '환경 파괴로 말미암아 수세기 이내에 세계가 멸망할지도 모른다.', vi: 'Do sự phá hủy môi trường, có thể chỉ trong vài thế kỷ nữa thế giới sẽ diệt vong.' },
-      { ko: '전쟁으로 말미암아 문화유산들이 소실되었다.', vi: 'Do chiến tranh, nhiều di sản văn hóa đã bị mất đi.' },
+      { ko: '환경 파괴로 말미암아 수세기 이내에 세계가 멸망할지도 모른다.', vi: 'Do sự phá hủy môi trường, có thể chỉ trong vài thế kỷ nữa thế giới sẽ diệt vong.', romanization: 'hwan-gyeong pa-goe-ro mal-mi-a-ma su-se-gi i-nae-e se-gye-ga myeol-mang-hal-jji-do mo-reun-da', register: 'written' },
+      { ko: '전쟁으로 말미암아 문화유산들이 소실되었다.', vi: 'Do chiến tranh, nhiều di sản văn hóa đã bị mất đi.', romanization: 'jeon-jaeng-eu-ro mal-mi-a-ma mun-hwa-yu-san-deu-ri so-sil-doe-eot-tta', register: 'written' },
     ],
     commonMistakes: [
       'Là cấu trúc rất trang trọng, gần nghĩa với -(으)로 인해서 nhưng gần như chỉ xuất hiện trong văn viết học thuật, báo chí, hầu như không dùng trong văn nói.',
@@ -58,6 +65,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ly-do',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân và lý do',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-01', distinction: 'Gần nghĩa với -(으)로 인해서 nhưng -(으)로 말미암아 trang trọng hơn nữa, gần như chỉ dùng trong văn viết học thuật, báo chí.' },
+    ],
   },
   {
     id: 'gr-cao-cap-04',
@@ -66,8 +76,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện nguyên nhân hay lý do mà danh từ ở vế trước dẫn đến một kết quả mang tính tiêu cực ở vế sau. Có thể danh từ hóa mệnh đề thành -(으)ㅁ으로 해서 để đứng sau động từ/tính từ.',
     examples: [
-      { ko: '그 일로 해서 그도 정신 차렸을 거예요.', vi: 'Chắc là vì việc đó mà anh ấy cũng đã tỉnh ngộ ra rồi.' },
-      { ko: '네가 거짓말을 함으로 해서 얼마나 많은 일들이 벌어졌는가를 봐라.', vi: 'Con hãy nhìn xem, vì con nói dối mà đã có bao nhiêu chuyện xảy ra.' },
+      { ko: '그 일로 해서 그도 정신 차렸을 거예요.', vi: 'Chắc là vì việc đó mà anh ấy cũng đã tỉnh ngộ ra rồi.', romanization: 'geu il-lo hae-seo geu-do jeong-sin cha-ryeo-sseul geo-ye-yo', register: 'polite' },
+      { ko: '네가 거짓말을 함으로 해서 얼마나 많은 일들이 벌어졌는가를 봐라.', vi: 'Con hãy nhìn xem, vì con nói dối mà đã có bao nhiêu chuyện xảy ra.', romanization: 'ne-ga geo-jin-ma-reul ha-meu-ro hae-seo eol-ma-na ma-neun il-deu-ri beo-reo-jyeon-neun-ga-reul bwa-ra', register: 'casual' },
     ],
     commonMistakes: [
       'Dễ nhầm với -로써 (chỉ phương tiện, cách thức) — -로 해서 luôn mang nghĩa nguyên nhân/lý do, không phải công cụ hay phương thức thực hiện.',
@@ -84,8 +94,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Công nhận sự thật ở vế trước và căn cứ vào mức độ của sự thật đó để đưa ra một đề nghị, phán đoán, mệnh lệnh hoặc yêu cầu ở vế sau. Biểu hiện tương tự: -는 만큼.',
     examples: [
-      { ko: '창덕궁이 세계 문화유산으로 등재되었느니만큼 관광객들이 많아질 것이다.', vi: 'Bởi vì Cung Changdeok đã được công nhận là di sản văn hóa thế giới nên du khách sẽ ngày càng đông hơn.' },
-      { ko: '날씨가 추우니만큼 밖에 나가지 말고 집에서 쉬자.', vi: 'Vì trời lạnh nên chúng ta đừng ra ngoài, ở nhà nghỉ ngơi thôi.' },
+      { ko: '창덕궁이 세계 문화유산으로 등재되었느니만큼 관광객들이 많아질 것이다.', vi: 'Bởi vì Cung Changdeok đã được công nhận là di sản văn hóa thế giới nên du khách sẽ ngày càng đông hơn.', romanization: 'chang-deok-kkung-i se-gye mun-hwa-yu-sa-neu-ro deung-jae-doe-eon-neu-ni-man-keum gwan-gwang-gaek-tteu-ri ma-na-jil geo-si-da', register: 'written' },
+      { ko: '날씨가 추우니만큼 밖에 나가지 말고 집에서 쉬자.', vi: 'Vì trời lạnh nên chúng ta đừng ra ngoài, ở nhà nghỉ ngơi thôi.', romanization: 'nal-ssi-ga chu-u-ni-man-keum ba-kke na-ga-ji mal-go ji-be-seo swi-ja', register: 'casual' },
     ],
     commonMistakes: [
       'Khác với -는 만큼 thông thường (chỉ mức độ tương xứng) — -느니만큼 nhấn mạnh việc lấy sự thật đó làm căn cứ để đưa ra đề nghị/nhận định, mang sắc thái văn viết trang trọng hơn.',
@@ -94,6 +104,15 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ly-do',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân và lý do',
+    conjugationTable: [
+      { stemType: 'Tính từ, Quy tắc (phụ âm cuối)', baseForm: '좋다', conjugated: '좋으니만큼' },
+      { stemType: 'Tính từ, ㅂ bất quy tắc', baseForm: '춥다', conjugated: '추우니만큼' },
+      { stemType: 'Tính từ, ㅎ bất quy tắc', baseForm: '그렇다', conjugated: '그러니만큼' },
+      { stemType: 'Động từ (mọi loại)', baseForm: '가다', conjugated: '가느니만큼' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-06', distinction: 'Có thể thay thế cho nhau hoàn toàn — -느니만치 chỉ là biến thể ít dùng hơn của -느니만큼 trong tiếng Hàn hiện đại.' },
+    ],
   },
   {
     id: 'gr-cao-cap-06',
@@ -102,8 +121,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Công nhận sự thật ở vế trước và căn cứ vào mức độ của sự thật đó để đưa ra một đề nghị, phán đoán ở vế sau. Có thể thay thế hoàn toàn bằng -느니만큼. Biểu hiện tương tự: -는 만치.',
     examples: [
-      { ko: '그는 한국학과를 졸업했으니만치 은행이 그의 기질에 맞지 않을는지도 모른다.', vi: 'Vì anh ấy đã tốt nghiệp khoa Hàn Quốc học nên có lẽ công việc ngân hàng không hợp với tính cách của anh ấy.' },
-      { ko: '아직 학생이니만큼 열심히 공부하세요.', vi: 'Vì vẫn còn là học sinh nên hãy học tập chăm chỉ.' },
+      { ko: '그는 한국학과를 졸업했으니만치 은행이 그의 기질에 맞지 않을는지도 모른다.', vi: 'Vì anh ấy đã tốt nghiệp khoa Hàn Quốc học nên có lẽ công việc ngân hàng không hợp với tính cách của anh ấy.', romanization: 'geu-neun han-guk-hak-kkwa-reul jo-reo-pae-sseu-ni-man-chi eun-haeng-i geu-ui gi-ji-re mat-jji a-neul-leun-ji-do mo-reun-da', register: 'written' },
+      { ko: '아직 학생이니만큼 열심히 공부하세요.', vi: 'Vì vẫn còn là học sinh nên hãy học tập chăm chỉ.', romanization: 'a-jik hak-ssaeng-i-ni-man-keum yeol-sim-hi gong-bu-ha-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Là biến thể ít phổ biến hơn -느니만큼, thường gặp trong văn viết/văn phong hơi cổ hơn là trong văn nói hiện đại — nên ưu tiên dùng -느니만큼 khi không chắc.',
@@ -112,6 +131,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ly-do',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân và lý do',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-05', distinction: 'Có thể thay thế hoàn toàn bằng -느니만큼 — đây chỉ là biến thể cổ hơn, ít dùng hơn trong tiếng Hàn hiện đại.' },
+    ],
   },
   {
     id: 'gr-cao-cap-07',
@@ -120,8 +142,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Nội dung của mệnh đề trước đã được quyết định hoặc đã chắc chắn xảy ra (một thực tế hay một quyết định), nên nội dung của mệnh đề sau là điều rõ ràng, hiển nhiên phải xảy ra theo.',
     examples: [
-      { ko: '코로나 19 가 사라지지 않는 이상 밖에 나갈 때 마스크를 착용해야 해요.', vi: 'Một khi COVID-19 chưa biến mất thì khi ra ngoài vẫn phải đeo khẩu trang.' },
-      { ko: '수강 신청자가 이렇게 적은 이상 폐강을 할 수밖에 없어요.', vi: 'Một khi số người đăng ký học ít như vậy thì chỉ còn cách hủy lớp học.' },
+      { ko: '코로나 19 가 사라지지 않는 이상 밖에 나갈 때 마스크를 착용해야 해요.', vi: 'Một khi COVID-19 chưa biến mất thì khi ra ngoài vẫn phải đeo khẩu trang.', romanization: 'ko-ro-na sip-gu-ga sa-ra-ji-ji an-neun i-sang ba-kke na-gal ttae ma-seu-keu-reul cha-gyong-hae-ya hae-yo', register: 'polite' },
+      { ko: '수강 신청자가 이렇게 적은 이상 폐강을 할 수밖에 없어요.', vi: 'Một khi số người đăng ký học ít như vậy thì chỉ còn cách hủy lớp học.', romanization: 'su-gang sin-cheong-ja-ga i-reo-ke jeo-geun i-sang pye-gang-eul hal su-ba-kke eop-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế trước phải là điều đã được xác định chắc chắn (thực tế hoặc quyết định đã đưa ra), không dùng cho một giả định chưa rõ ràng — khác với -다면 vốn dùng cho giả định thuần túy.',
@@ -130,6 +152,15 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ly-do',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân và lý do',
+    conjugationTable: [
+      { stemType: 'Động từ, hiện tại', baseForm: '가다', conjugated: '가는 이상' },
+      { stemType: 'Tính từ, Quy tắc', baseForm: '적다', conjugated: '적은 이상' },
+      { stemType: 'Tính từ, ㅂ bất quy tắc', baseForm: '어렵다', conjugated: '어려운 이상' },
+      { stemType: 'ㄹ 받침 (động từ, lược ㄹ)', baseForm: '살다', conjugated: '사는 이상' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-trung-cap-14', distinction: 'Vế trước của -(으)ㄴ/는 이상 phải là điều đã xác định chắc chắn, khác với -다면 vốn dùng cho giả định thuần túy, thậm chí khó xảy ra.' },
+    ],
   },
   {
     id: 'gr-cao-cap-08',
@@ -138,8 +169,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Người nói công nhận nội dung của vế trước, nhưng nhấn mạnh rằng vế trước không đủ để làm lý do hay điều kiện cho hành động/trạng thái được nêu ra ở mệnh đề sau xảy ra. Vế trước ở thì quá khứ chia thành -았/었기로서니. Thường đi kèm với 아무리. Biểu hiện cao cấp thay thế: -기로서, -기로선들.',
     examples: [
-      { ko: '아무리 주차할 데가 없기로서니 장애인 주차 공간에 주차하면 안 돼요.', vi: 'Dù có tìm mãi không ra chỗ đỗ xe thì cũng không được đỗ vào chỗ dành cho người khuyết tật.' },
-      { ko: '아무리 시중 약국에서 마스크 품귀현상이 벌어지기로서니 그 현상을 이용해서 마스크를 비싸게 파는 게 정말 너무하네요.', vi: 'Dù các nhà thuốc có khan hiếm khẩu trang đến đâu thì việc lợi dụng tình trạng đó để bán khẩu trang với giá cao thật là quá đáng.' },
+      { ko: '아무리 주차할 데가 없기로서니 장애인 주차 공간에 주차하면 안 돼요.', vi: 'Dù có tìm mãi không ra chỗ đỗ xe thì cũng không được đỗ vào chỗ dành cho người khuyết tật.', romanization: 'a-mu-ri ju-cha-hal de-ga eop-kki-ro-seo-ni jang-ae-in ju-cha gong-ga-ne ju-cha-ha-myeon an dwae-yo', register: 'polite' },
+      { ko: '아무리 시중 약국에서 마스크 품귀현상이 벌어지기로서니 그 현상을 이용해서 마스크를 비싸게 파는 게 정말 너무하네요.', vi: 'Dù các nhà thuốc có khan hiếm khẩu trang đến đâu thì việc lợi dụng tình trạng đó để bán khẩu trang với giá cao thật là quá đáng.', romanization: 'a-mu-ri si-jung yak-kku-ge-seo ma-seu-keu pum-gwi-hyeon-sang-i beo-reo-ji-gi-ro-seo-ni geu hyeon-sang-eul i-yong-hae-seo ma-seu-keu-reul bi-ssa-ge pa-neun ge jeong-mal neo-mu-ha-ne-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Thường phải đi cùng 아무리 ở vế trước để làm rõ sắc thái nhượng bộ, nếu thiếu 아무리 câu dễ bị hiểu sai nghĩa hoặc nghe cụt.',
@@ -156,8 +187,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện dù một tình huống xấu hổ hoặc khó xử đã xảy ra, nhưng nhờ vào nội dung được nêu ở mệnh đề trước mà tình huống đã không kết thúc bằng một kết quả tiêu cực. Vế sau chủ yếu dùng với cấu trúc "았/었을 것이다", "았/었겠다", "(으)ㄹ 뻔하다". Có thể thay thế bằng -(으)니 망정이지, -아/어서 망정이지, -(으)니까 망정이지.',
     examples: [
-      { ko: '오늘 길을 걸어가다 넘어졌어요. 다행히 이른 아침이라 길에 사람이 없었기에 망정이지 창피했을 거예요.', vi: 'Hôm nay tôi đi bộ trên đường và bị ngã. May mà là sáng sớm nên ngoài đường không có người, chứ không thì đã ngại chết đi được.' },
-      { ko: '일찍 출발했기에 망정이지 기차를 놓칠 뻔했어요.', vi: 'May mà xuất phát sớm chứ không thì đã lỡ mất chuyến tàu rồi.' },
+      { ko: '오늘 길을 걸어가다 넘어졌어요. 다행히 이른 아침이라 길에 사람이 없었기에 망정이지 창피했을 거예요.', vi: 'Hôm nay tôi đi bộ trên đường và bị ngã. May mà là sáng sớm nên ngoài đường không có người, chứ không thì đã ngại chết đi được.', romanization: 'o-neul gi-reul geo-reo-ga-da neo-meo-jyeo-sseo-yo. da-haeng-hi i-reun a-chi-mi-ra gi-re sa-ra-mi eop-sseot-kki-e mang-jeong-i-ji chang-pi-hae-sseul geo-ye-yo', register: 'polite' },
+      { ko: '일찍 출발했기에 망정이지 기차를 놓칠 뻔했어요.', vi: 'May mà xuất phát sớm chứ không thì đã lỡ mất chuyến tàu rồi.', romanization: 'il-jjik chul-bal-haet-kki-e mang-jeong-i-ji gi-cha-reul no-chil ppeon-hae-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau phải diễn tả một kết quả xấu mang tính giả định "suýt thì đã xảy ra" (thường có -았/었을 것이다, -(으)ㄹ 뻔하다), không dùng để mô tả kết quả xấu đã thực sự xảy ra.',
@@ -174,9 +205,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Vế trước trở thành lý do, căn cứ cho hành động ở vế sau, nhưng vế sau còn thêm sắc thái người nói cho rằng lý do đó không thỏa đáng — tức người nói đánh giá thấp hoặc không chấp nhận lý do mà chủ thể khác đưa ra để biện minh cho hành động của mình. Cùng ý nghĩa với các biểu hiện -(느)ㄴ다고 해서 và -(느)ㄴ다는 이유로.',
     examples: [
-      { ko: '민호 씨는 온라인 강의를 듣는답시고 컴퓨터를 사 놓고 게임만 해요.', vi: 'Minho bảo là mua máy tính để nghe giảng online, vậy mà chỉ suốt ngày chơi game.' },
-      { ko: '제 친구는 다이어트한답시고 일주일도 안 돼서 폭식했어요.', vi: 'Bạn tôi bảo là đang ăn kiêng, vậy mà chưa đầy một tuần đã ăn uống vô độ.' },
-      { ko: '친구가 선물이랍시고 자기가 입던 바지를 주더라고요.', vi: 'Bạn tôi bảo đó là quà, thế mà lại đưa cho tôi cái quần nó từng mặc.' },
+      { ko: '민호 씨는 온라인 강의를 듣는답시고 컴퓨터를 사 놓고 게임만 해요.', vi: 'Minho bảo là mua máy tính để nghe giảng online, vậy mà chỉ suốt ngày chơi game.', romanization: 'min-ho ssi-neun ol-la-in gang-ui-reul deun-neun-dap-ssi-go keom-pyu-teo-reul sa no-ko ge-im-man hae-yo', register: 'polite' },
+      { ko: '제 친구는 다이어트한답시고 일주일도 안 돼서 폭식했어요.', vi: 'Bạn tôi bảo là đang ăn kiêng, vậy mà chưa đầy một tuần đã ăn uống vô độ.', romanization: 'je chin-gu-neun da-i-eo-teu-han-dap-ssi-go il-jju-il-do an dwae-seo pok-ssi-kae-sseo-yo', register: 'polite' },
+      { ko: '친구가 선물이랍시고 자기가 입던 바지를 주더라고요.', vi: 'Bạn tôi bảo đó là quà, thế mà lại đưa cho tôi cái quần nó từng mặc.', romanization: 'chin-gu-ga seon-mu-ri-rap-ssi-go ja-gi-ga ip-tteon ba-ji-reul ju-deo-ra-go-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Luôn mang sắc thái mỉa mai, chê trách lý do hoặc hành động của người khác — không dùng để trình bày lý do một cách trung lập.',
