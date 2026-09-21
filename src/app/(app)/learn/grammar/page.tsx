@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronDown, ChevronRight, BookOpen, AlertCircle, Zap, Dumbbell } from 'lucide-react'
+import { ChevronDown, ChevronRight, BookOpen, AlertCircle, Zap, Dumbbell, Mic } from 'lucide-react'
 import { grammarByLevelList } from '@/data/grammar-by-level'
 import { grammarExercisesByPatternId } from '@/data/grammar-exercises'
 import { fadeUp, stagger } from '@/lib/motion'
@@ -100,15 +100,25 @@ function GrammarAccordionList({
                       {/* So sánh với mẫu dễ nhầm */}
                       <GrammarRelatedBlock related={g.relatedPatterns} />
 
-                      {/* Luyện tập — chỉ hiện với mẫu đã có bài tập (pilot) */}
-                      {grammarExercisesByPatternId[g.id]?.length > 0 && (
-                        <Link
-                          href={`/learn/grammar/practice?patternId=${g.id}`}
-                          className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'w-full justify-center' })}
-                        >
-                          <Dumbbell className="w-3.5 h-3.5" /> Luyện tập
-                        </Link>
-                      )}
+                      {/* Luyện tập / Luyện nói — chỉ hiện với mẫu đã có bài tập tương ứng */}
+                      <div className="flex gap-2">
+                        {grammarExercisesByPatternId[g.id]?.length > 0 && (
+                          <Link
+                            href={`/learn/grammar/practice?patternId=${g.id}`}
+                            className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'flex-1 justify-center' })}
+                          >
+                            <Dumbbell className="w-3.5 h-3.5" /> Luyện tập
+                          </Link>
+                        )}
+                        {grammarExercisesByPatternId[g.id]?.some(e => e.type === 'produce') && (
+                          <Link
+                            href={`/learn/speaking/practice?patternId=${g.id}`}
+                            className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'flex-1 justify-center' })}
+                          >
+                            <Mic className="w-3.5 h-3.5" /> Nói
+                          </Link>
+                        )}
+                      </div>
                     </div>
                   </motion.div>
                 )}
