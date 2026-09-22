@@ -648,8 +648,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện việc người khác nói lời nào đó và đồng thời thực hiện một hành động khác, hoặc liên kết một lời nói với một lời nói đã đề cập trước đó. Hai vế bắt buộc phải có cùng chủ ngữ và chủ ngữ chỉ xuất hiện một lần ở đầu câu. Có thể dùng dạng rút gọn -(느)ㄴ다며.',
     examples: [
-      { ko: '수진 씨가 오늘 회의가 있다면서 회의에 관한 자료를 준비했어요.', vi: 'Sujin vừa nói hôm nay có cuộc họp vừa chuẩn bị tài liệu liên quan đến cuộc họp.' },
-      { ko: '선생님께서는 왜 이번 시험에서 떨어졌냐며 열심히 공부하라고 하셨어요.', vi: 'Thầy vừa hỏi tại sao lần này thi trượt, vừa bảo tôi phải học hành chăm chỉ.' },
+      { ko: '수진 씨가 오늘 회의가 있다면서 회의에 관한 자료를 준비했어요.', vi: 'Sujin vừa nói hôm nay có cuộc họp vừa chuẩn bị tài liệu liên quan đến cuộc họp.', romanization: 'su-jin ssi-ga o-neul hoe-ui-ga it-tta-myeon-seo hoe-ui-e gwan-han ja-ryo-reul jun-bi-hae-sseo-yo', register: 'polite' },
+      { ko: '선생님께서는 왜 이번 시험에서 떨어졌냐며 열심히 공부하라고 하셨어요.', vi: 'Thầy vừa hỏi tại sao lần này thi trượt, vừa bảo tôi phải học hành chăm chỉ.', romanization: 'seon-saeng-nim-kke-seo-neun wae i-beon si-heo-me-seo tteo-reo-jyeon-nya-myeo yeol-sim-hi gong-bu-ha-ra-go ha-syeo-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Hai vế bắt buộc phải cùng chủ ngữ và chủ ngữ chỉ nêu một lần ở đầu câu — nếu hai vế khác chủ ngữ phải tách thành hai câu riêng, không dùng được -다면서 để nối.',
@@ -658,6 +658,11 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'trich-dan',
     sectionOrder: 3,
     sectionTitleVi: 'Trích dẫn',
+    conjugationTable: [
+      { stemType: 'Tính từ', baseForm: '좋다', conjugated: '좋다면서' },
+      { stemType: 'Động từ (phụ âm cuối)', baseForm: '먹다', conjugated: '먹는다면서' },
+      { stemType: 'Động từ (nguyên âm cuối)', baseForm: '가다', conjugated: '간다면서' },
+    ],
   },
   {
     id: 'gr-cao-cap-30',
@@ -666,8 +671,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Là dạng trích dẫn gián tiếp của cấu trúc lựa chọn -거나, dùng để liệt kê các khả năng, tính chất khác nhau một cách trung lập, không thiên vị bên nào.',
     examples: [
-      { ko: '그 여자는 예쁘다거나 귀엽다거나 하는 것과는 거리가 멀었다.', vi: 'Cô gái đó chẳng liên quan gì đến chuyện xinh đẹp hay dễ thương cả.' },
-      { ko: '잘못했다거나 잘했다거나 그냥 내버려 둬.', vi: 'Dù đúng hay sai thì cứ để mặc kệ đi.' },
+      { ko: '그 여자는 예쁘다거나 귀엽다거나 하는 것과는 거리가 멀었다.', vi: 'Cô gái đó chẳng liên quan gì đến chuyện xinh đẹp hay dễ thương cả.', romanization: 'geu yeo-ja-neun ye-ppeu-da-geo-na gwi-yeop-tta-geo-na ha-neun geot-kkwa-neun geo-ri-ga meo-reot-tta', register: 'written' },
+      { ko: '잘못했다거나 잘했다거나 그냥 내버려 둬.', vi: 'Dù đúng hay sai thì cứ để mặc kệ đi.', romanization: 'jal-mo-taet-tta-geo-na jal-haet-tta-geo-na geu-nyang nae-beo-ryeo dwo', register: 'casual' },
     ],
     commonMistakes: [
       'Là dạng trích dẫn gián tiếp nên động từ/tính từ phải chia ở dạng câu trần thuật (-다) trước khi thêm -거나, không gắn trực tiếp vào thân từ như -거나 thông thường.',
@@ -676,6 +681,14 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'trich-dan',
     sectionOrder: 3,
     sectionTitleVi: 'Trích dẫn',
+    conjugationTable: [
+      { stemType: 'Tính từ', baseForm: '예쁘다', conjugated: '예쁘다거나' },
+      { stemType: 'Động từ (phụ âm cuối)', baseForm: '먹다', conjugated: '먹는다거나' },
+      { stemType: 'Động từ (nguyên âm cuối)', baseForm: '가다', conjugated: '간다거나' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-so-cap-07', distinction: '-다거나 là dạng trích dẫn gián tiếp của cấu trúc lựa chọn -거나, cần chia động từ/tính từ về dạng trần thuật (-다) trước khi gắn 거나, khác với -거나 thông thường gắn trực tiếp vào thân từ.' },
+    ],
   },
   {
     id: 'gr-cao-cap-31',
@@ -684,8 +697,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Mang ý nghĩa của -거늘: vốn dĩ vế trước vẫn là như vậy (theo điều đã nói/nghe), nhưng vế sau lại có sự khác biệt hoặc trái ngược với điều đó.',
     examples: [
-      { ko: '모두들이 괜찮다거늘 혼자만 싫다고 하네.', vi: 'Mọi người đều bảo là ổn, vậy mà một mình cậu lại nói là không thích.' },
-      { ko: '다른 사람들은 모두 더웠다거늘 넌 왜 그런 소리도 안 하니?', vi: 'Những người khác đều nói là nóng, sao cậu lại chẳng kêu ca gì vậy?' },
+      { ko: '모두들이 괜찮다거늘 혼자만 싫다고 하네.', vi: 'Mọi người đều bảo là ổn, vậy mà một mình cậu lại nói là không thích.', romanization: 'mo-du-deu-ri gwaen-chan-ta-geo-neul hon-ja-man sil-ta-go ha-ne', register: 'written' },
+      { ko: '다른 사람들은 모두 더웠다거늘 넌 왜 그런 소리도 안 하니?', vi: 'Những người khác đều nói là nóng, sao cậu lại chẳng kêu ca gì vậy?', romanization: 'da-reun sa-ram-deu-reun mo-du deo-wot-tta-geo-neul neon wae geu-reon so-ri-do an ha-ni', register: 'written' },
     ],
     commonMistakes: [
       'Là cấu trúc rất hiếm gặp, kết hợp giữa trích dẫn gián tiếp và sắc thái tương phản của -거늘, chủ yếu xuất hiện trong văn viết/văn học, gần như không dùng trong khẩu ngữ hiện đại.',
@@ -702,8 +715,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Là dạng trích dẫn gián tiếp của cấu trúc tương phản -건만/-건마는, dùng khi điều đã được nói ra ở vế trước trái ngược với thực tế hoặc kết quả được nêu ở vế sau.',
     examples: [
-      { ko: '그는 전에 꽤 착한 학생이었다건만 어쩌다가 이렇게 되었나?', vi: 'Trước đây nghe nói anh ta từng là một học sinh khá ngoan, vậy sao giờ lại ra nông nỗi này?' },
-      { ko: '그는 부유한 집 아들이었다건만 지금 집 한 채도 없어요.', vi: 'Nghe nói anh ta từng là con nhà giàu, vậy mà giờ không có nổi một căn nhà.' },
+      { ko: '그는 전에 꽤 착한 학생이었다건만 어쩌다가 이렇게 되었나?', vi: 'Trước đây nghe nói anh ta từng là một học sinh khá ngoan, vậy sao giờ lại ra nông nỗi này?', romanization: 'geu-neun jeo-ne kkwae cha-kan hak-ssaeng-i-eot-tta-geon-man eo-jjeo-da-ga i-reo-ke doe-eon-na', register: 'written' },
+      { ko: '그는 부유한 집 아들이었다건만 지금 집 한 채도 없어요.', vi: 'Nghe nói anh ta từng là con nhà giàu, vậy mà giờ không có nổi một căn nhà.', romanization: 'geu-neun bu-yu-han jip a-deu-ri-eot-tta-geon-man ji-geum jip han chae-do eop-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Là cấu trúc trích dẫn hiếm gặp, mang sắc thái văn viết/văn học; dễ nhầm với -다면서 (trích dẫn trung lập) — -다건만 luôn hàm ý tương phản, bất ngờ giữa điều đã nghe và thực tế.',
@@ -712,6 +725,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'trich-dan',
     sectionOrder: 3,
     sectionTitleVi: 'Trích dẫn',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-29', distinction: '-다건만 luôn hàm ý tương phản, bất ngờ giữa điều đã nghe và thực tế, khác với -다면서 vốn mang tính trích dẫn trung lập, không có sắc thái tương phản.' },
+    ],
   },
   {
     id: 'gr-cao-cap-33',
@@ -720,8 +736,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Ở dạng câu hỏi, người nói không nói thẳng ra mà dùng cách hỏi để nói tránh, nhằm làm giảm nhẹ mức độ khẳng định của nhận định mình đang đưa ra.',
     examples: [
-      { ko: '드라마는 인생과 비슷하다고나 할까?', vi: 'Có lẽ nói phim truyền hình giống với cuộc đời cũng không sai?' },
-      { ko: '제 성격은 좀 내성적이라고나 할까요?', vi: 'Có lẽ nói tính cách của tôi hơi hướng nội thì đúng hơn?' },
+      { ko: '드라마는 인생과 비슷하다고나 할까?', vi: 'Có lẽ nói phim truyền hình giống với cuộc đời cũng không sai?', romanization: 'deu-ra-ma-neun in-saeng-gwa bi-seu-ta-da-go-na hal-kka', register: 'casual' },
+      { ko: '제 성격은 좀 내성적이라고나 할까요?', vi: 'Có lẽ nói tính cách của tôi hơi hướng nội thì đúng hơn?', romanization: 'je seong-gyeo-geun jom nae-seong-jeo-gi-ra-go-na hal-kka-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Là cách nói tránh, dè dặt — không dùng khi muốn khẳng định dứt khoát một điều gì đó, vì bản chất cấu trúc luôn mang sắc thái phỏng đoán, ngập ngừng.',
@@ -738,7 +754,7 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Dùng khi, một khi đã ở trong điều kiện hoặc tình huống được nói ra ở vế trước thì không còn ai có thể làm gì khác được nữa, đành phải chấp nhận. Thường xuất hiện trong câu hỏi tu từ.',
     examples: [
-      { ko: '제가 싫다는데야 부모인들 강요할 수 있나?', vi: 'Một khi tôi đã nói là không thích thì dù có là bố mẹ cũng đâu thể ép buộc được?' },
+      { ko: '제가 싫다는데야 부모인들 강요할 수 있나?', vi: 'Một khi tôi đã nói là không thích thì dù có là bố mẹ cũng đâu thể ép buộc được?', romanization: 'je-ga sil-ta-neun-de-ya bu-mo-in-deul gang-yo-hal su in-na', register: 'casual' },
     ],
     commonMistakes: [
       'Thường đi kèm câu hỏi tu từ ở vế sau để nhấn mạnh "không ai có thể làm gì khác" — nếu tách khỏi ngữ cảnh này, ý nghĩa dễ bị hiểu sai.',
@@ -755,9 +771,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Đều là các dạng hồi tưởng lại điều đã nghe thấy được từ người khác trong quá khứ rồi kể lại cho người nghe ở hiện tại; sắc thái thân mật, chủ yếu dùng trong văn nói.',
     examples: [
-      { ko: '장마 주의보가 내렸다더군요.', vi: 'Nghe nói là đã có cảnh báo mùa mưa rồi đấy.' },
-      { ko: '그 영화 재미있다더라.', vi: 'Nghe nói bộ phim đó hay lắm đấy.' },
-      { ko: '유미네 집은 식구가 많다던데.', vi: 'Nghe nói nhà Yumi đông người lắm.' },
+      { ko: '장마 주의보가 내렸다더군요.', vi: 'Nghe nói là đã có cảnh báo mùa mưa rồi đấy.', romanization: 'jang-ma ju-ui-bo-ga nae-ryeot-tta-deo-gu-nyo', register: 'polite' },
+      { ko: '그 영화 재미있다더라.', vi: 'Nghe nói bộ phim đó hay lắm đấy.', romanization: 'geu yeong-hwa jae-mi-it-tta-deo-ra', register: 'casual' },
+      { ko: '유미네 집은 식구가 많다던데.', vi: 'Nghe nói nhà Yumi đông người lắm.', romanization: 'yu-mi-ne ji-beun sik-kku-ga man-ta-deon-de', register: 'casual' },
     ],
     commonMistakes: [
       'Ba dạng -더군요/-던데요/-더라고요 có sắc thái gần giống nhau nhưng -더라고요 thân mật hơn, -군요 mang thêm sắc thái ngạc nhiên nhẹ, -던데요 thường để ngỏ một ý phía sau — cần chọn đúng theo ngữ cảnh và mức độ trang trọng.',
@@ -775,9 +791,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Liệt kê các lựa chọn, khả năng khác nhau ở dạng trích dẫn gián tiếp, tương tự -거나 -거나 nhưng dùng cho câu trích dẫn. Hai dạng -든가 và -든지 dùng thay thế được cho nhau.',
     examples: [
-      { ko: '집에 가겠다든가 남아 있겠다든가 말을 해야지?', vi: 'Cậu phải nói rõ là sẽ về nhà hay ở lại chứ?' },
-      { ko: '옳다든가 그르다든가 하는 판단을 해야 한다.', vi: 'Phải đưa ra phán đoán xem là đúng hay là sai.' },
-      { ko: '같이 가겠다든지 안 가겠다든지 말을 해야 널 기다리든지 말든지 할 거 아냐?', vi: 'Cậu phải nói là sẽ đi cùng hay không đi chứ, thì tôi mới biết đợi cậu hay không đợi được chứ?' },
+      { ko: '집에 가겠다든가 남아 있겠다든가 말을 해야지?', vi: 'Cậu phải nói rõ là sẽ về nhà hay ở lại chứ?', romanization: 'ji-be ga-get-tta-deun-ga na-ma it-kket-tta-deun-ga ma-reul hae-ya-ji', register: 'casual' },
+      { ko: '옳다든가 그르다든가 하는 판단을 해야 한다.', vi: 'Phải đưa ra phán đoán xem là đúng hay là sai.', romanization: 'ol-ta-deun-ga geu-reu-da-deun-ga ha-neun pan-da-neul hae-ya han-da', register: 'written' },
+      { ko: '같이 가겠다든지 안 가겠다든지 말을 해야 널 기다리든지 말든지 할 거 아냐?', vi: 'Cậu phải nói là sẽ đi cùng hay không đi chứ, thì tôi mới biết đợi cậu hay không đợi được chứ?', romanization: 'ga-chi ga-get-tta-deun-ji an ga-get-tta-deun-ji ma-reul hae-ya neol gi-da-ri-deun-ji mal-deun-ji hal geo a-nya', register: 'casual' },
     ],
     commonMistakes: [
       '-든가 và -든지 dùng gần như tương đương nhau, có thể hoán đổi tự do trong hầu hết trường hợp.',
@@ -787,6 +803,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'trich-dan',
     sectionOrder: 3,
     sectionTitleVi: 'Trích dẫn',
+    relatedPatterns: [
+      { id: 'gr-so-cap-07', distinction: '-다든가/-다든지 là dạng trích dẫn dùng khi liệt kê lời nói/quyết định được nêu ra, còn -거나 -거나 thông thường dùng cho hành động/trạng thái trực tiếp, không qua trích dẫn.' },
+    ],
   },
   {
     id: 'gr-cao-cap-37',
@@ -795,8 +814,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Nhận định lời nói hoặc tình huống ở vế trước và cho rằng dù vậy cũng không gây ảnh hưởng gì đến kết luận ở vế sau. Có thể thay thế bằng -다고 하더라도.',
     examples: [
-      { ko: '아무리 바쁘다손 치더라도 밥은 먹어야 한다.', vi: 'Dù có bận rộn đến đâu thì cũng phải ăn cơm.' },
-      { ko: '아무리 빨리 간다손 치더라도 약속 시간에 맞춰 갈 수는 없다.', vi: 'Dù có đi nhanh đến đâu thì cũng không thể đến kịp giờ hẹn.' },
+      { ko: '아무리 바쁘다손 치더라도 밥은 먹어야 한다.', vi: 'Dù có bận rộn đến đâu thì cũng phải ăn cơm.', romanization: 'a-mu-ri ba-ppeu-da-son chi-deo-ra-do ba-beun meo-geo-ya han-da', register: 'written' },
+      { ko: '아무리 빨리 간다손 치더라도 약속 시간에 맞춰 갈 수는 없다.', vi: 'Dù có đi nhanh đến đâu thì cũng không thể đến kịp giờ hẹn.', romanization: 'a-mu-ri ppal-li gan-da-son chi-deo-ra-do yak-ssok si-ga-ne mat-chwo gal su-neun eop-tta', register: 'written' },
     ],
     commonMistakes: [
       'Thường đi kèm 아무리 ở vế trước để nhấn mạnh sắc thái nhượng bộ cực đoan; vì là cấu trúc trích dẫn (có -다) nên không gắn trực tiếp vào thân từ như -더라도 thông thường.',
@@ -805,6 +824,11 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'trich-dan',
     sectionOrder: 3,
     sectionTitleVi: 'Trích dẫn',
+    conjugationTable: [
+      { stemType: 'Tính từ', baseForm: '바쁘다', conjugated: '바쁘다손 치더라도' },
+      { stemType: 'Động từ (phụ âm cuối)', baseForm: '먹다', conjugated: '먹는다손 치더라도' },
+      { stemType: 'Động từ (nguyên âm cuối)', baseForm: '가다', conjugated: '간다손 치더라도' },
+    ],
   },
   {
     id: 'gr-cao-cap-38',
@@ -813,8 +837,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Sau khi nghe điều gì đó từ người khác, người nói tỏ ra chưa hài lòng hoặc ngạc nhiên về điều đó. Là dạng trích dẫn của cấu trúc -이/가 뭐예요? (cái gì mà...).',
     examples: [
-      { ko: '제 할아버지를 닮았다지 뭐예요?', vi: 'Bảo là giống ông tôi cơ đấy, thế có lạ không?' },
-      { ko: '좋은 집을 소개해 주었더니 벌써 하숙집을 찾았다지 뭐예요?', vi: 'Tôi giới thiệu cho nhà tốt vậy mà bảo là đã tìm được nhà trọ khác rồi cơ đấy.' },
+      { ko: '제 할아버지를 닮았다지 뭐예요?', vi: 'Bảo là giống ông tôi cơ đấy, thế có lạ không?', romanization: 'je ha-ra-beo-ji-reul dal-mat-tta-ji mwo-ye-yo', register: 'polite' },
+      { ko: '좋은 집을 소개해 주었더니 벌써 하숙집을 찾았다지 뭐예요?', vi: 'Tôi giới thiệu cho nhà tốt vậy mà bảo là đã tìm được nhà trọ khác rồi cơ đấy.', romanization: 'jo-eun ji-beul so-gae-hae ju-eot-tteo-ni beol-sseo ha-suk-jji-beul cha-jat-tta-ji mwo-ye-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Luôn mang sắc thái ngạc nhiên pha chút không hài lòng hoặc buồn cười về điều vừa nghe được — không dùng để trích dẫn thông tin một cách trung lập, khách quan.',
@@ -831,8 +855,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Dùng khi chuyển đổi động từ hoặc tính từ sang dạng danh từ, để thông báo ngắn gọn về một sự việc, thực tế nào đó. Chủ yếu dùng trong văn viết như tin tức, tờ hướng dẫn, quảng cáo, ghi chú — mang văn phong trung tính, truyền đạt thông tin cho nhiều đối tượng khác nhau. Ngoài ra còn dùng để danh từ hóa mệnh đề nhằm kết hợp với nhiều cấu trúc ngữ pháp cao cấp khác. Một số từ danh từ hóa đã trở thành từ vựng cố định, ví dụ: 믿음, 죽음, 웃음, 걸음, 얼음, 꿈, 삶, 기쁨, 슬픔, 도움, 모임, 싸움, 느낌.',
     examples: [
-      { ko: '연구 결과에 따르면 된장은 혈압을 낮추는 효능이 있음을 알 수 있다.', vi: 'Theo kết quả nghiên cứu, có thể thấy tương đậu (doenjang) có tác dụng làm hạ huyết áp.' },
-      { ko: '비가 오겠음.', vi: 'Trời sẽ có mưa.' },
+      { ko: '연구 결과에 따르면 된장은 혈압을 낮추는 효능이 있음을 알 수 있다.', vi: 'Theo kết quả nghiên cứu, có thể thấy tương đậu (doenjang) có tác dụng làm hạ huyết áp.', romanization: 'yeon-gu gyeol-gwa-e tta-reu-myeon doen-jang-eun hyeo-ra-beul nat-chu-neun hyo-neung-i i-sseu-meul al su it-tta', register: 'written' },
+      { ko: '비가 오겠음.', vi: 'Trời sẽ có mưa.', romanization: 'bi-ga o-ge-sseum', register: 'written' },
     ],
     commonMistakes: [
       'Dễ nhầm với -기 (cũng dùng để danh từ hóa) — -(으)ㅁ thiên về một sự việc đã/đang diễn ra hoặc một thực tế khách quan, còn -기 thiên về hành động nói chung, mang tính trừu tượng hoặc chưa xảy ra.',
@@ -841,6 +865,12 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'danh-tu-hoa',
     sectionOrder: 4,
     sectionTitleVi: 'Danh từ hoá',
+    conjugationTable: [
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '믿다', conjugated: '믿음' },
+      { stemType: 'Quy tắc (nguyên âm cuối, chỉ thêm ㅁ)', baseForm: '기쁘다', conjugated: '기쁨' },
+      { stemType: 'ㄹ 받침 (thêm ㅁ trực tiếp)', baseForm: '살다', conjugated: '삶' },
+      { stemType: 'ㅂ bất quy tắc', baseForm: '돕다', conjugated: '도움' },
+    ],
   },
   {
     id: 'gr-cao-cap-40',
@@ -849,8 +879,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Mang ý nghĩa tương đương -는 일, -는 것, -는 경우 hay -는 상황. Chủ yếu được dùng cùng các cụm từ như 도움이 되다, 효과가 있다/없다, 좋다/나쁘다, 필요하다, 몰두하다, 최선을 다하다, 사용하다, 걸리다, 들다. Có thể dùng dưới dạng -는 데에, hoặc thêm 는 để nhấn mạnh.',
     examples: [
-      { ko: '김치가 노화를 억제하고 암을 예방하는 데(에) 도움이 된다고 한다.', vi: 'Nghe nói kim chi có ích cho việc ngăn ngừa lão hóa và phòng ngừa ung thư.' },
-      { ko: '그 작가가 이 작품을 완성하는 데(에) 10 년이나 걸린다고 한다.', vi: 'Nghe nói tác giả đó đã phải mất tới 10 năm để hoàn thành tác phẩm này.' },
+      { ko: '김치가 노화를 억제하고 암을 예방하는 데(에) 도움이 된다고 한다.', vi: 'Nghe nói kim chi có ích cho việc ngăn ngừa lão hóa và phòng ngừa ung thư.', romanization: 'gim-chi-ga no-hwa-reul eok-jje-ha-go a-meul ye-bang-ha-neun de(-e) do-u-mi doen-da-go han-da', register: 'written' },
+      { ko: '그 작가가 이 작품을 완성하는 데(에) 10 년이나 걸린다고 한다.', vi: 'Nghe nói tác giả đó đã phải mất tới 10 năm để hoàn thành tác phẩm này.', romanization: 'geu jak-kka-ga i jak-pu-meul wan-seong-ha-neun de(-e) sip nyeo-ni-na geol-lin-da-go han-da', register: 'written' },
     ],
     commonMistakes: [
       'Dễ nhầm với đuôi câu nối -는데 (nghĩa "nhưng, trong khi") — -는 데(에) ở đây là danh từ hóa mang nghĩa "việc, chuyện", cần viết cách với 데 và thường đi cùng các cụm từ đánh giá hiệu quả như đã nêu.',
@@ -867,8 +897,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện việc hoặc nội dung trong lời nói được nhắc đến ở phía trước. Danh từ phụ thuộc 바 có ý nghĩa giống 것, 일. Thường được sử dụng dưới các dạng: -는 바로는, -는 바가, -는 바를, -는 바에 대해, -는 바에 의하면/따르면, -는 바와 같이, -는 바가 있다/없다.',
     examples: [
-      { ko: '한 대학 기관이 조사한 바에 따르면 김치가 다이어트에 좋다고 한다.', vi: 'Theo điều tra của một cơ quan đại học, kim chi được cho là tốt cho việc ăn kiêng.' },
-      { ko: '정부는 집값 상승에 대해 아직까지 확정된 바가 없다고 전하고 있다.', vi: 'Chính phủ cho biết vẫn chưa có điều gì được xác định về việc giá nhà tăng.' },
+      { ko: '한 대학 기관이 조사한 바에 따르면 김치가 다이어트에 좋다고 한다.', vi: 'Theo điều tra của một cơ quan đại học, kim chi được cho là tốt cho việc ăn kiêng.', romanization: 'han dae-hak gi-gwa-ni jo-sa-han ba-e tta-reu-myeon gim-chi-ga da-i-eo-teu-e jo-ta-go han-da', register: 'written' },
+      { ko: '정부는 집값 상승에 대해 아직까지 확정된 바가 없다고 전하고 있다.', vi: 'Chính phủ cho biết vẫn chưa có điều gì được xác định về việc giá nhà tăng.', romanization: 'jeong-bu-neun jip-kkap sang-seung-e dae-hae a-jik-kka-ji hwak-jjeong-doen ba-ga eop-tta-go jeon-ha-go it-tta', register: 'written' },
     ],
     commonMistakes: [
       'Là cấu trúc trang trọng của văn viết/tin tức, thường xuất hiện trong các cụm cố định như -는 바에 따르면/의하면 (theo như...) — không tự do kết hợp như 것 hay 일 trong văn nói hàng ngày.',
@@ -885,9 +915,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện sự nhượng bộ hoặc giả định, dùng khi công nhận sự thật ở vế trước nhưng hành động hay kết quả được yêu cầu ở vế sau hoàn toàn không liên quan hoặc không phụ thuộc vào vế trước. Có thể dùng dạng trích dẫn -다고 하더라도/-다더라도 để nhấn mạnh. Thường đi cùng với 아무리.',
     examples: [
-      { ko: '코로나 19 백신을 접종했더라도 코로나 19 에 감염될 가능성이 있다.', vi: 'Dù đã tiêm vắc-xin COVID-19 thì vẫn có khả năng bị nhiễm COVID-19.' },
-      { ko: '시험에 모르는 것이 나오더라도 당황해 하지 말고 침착하게 풀어 나가세요.', vi: 'Dù trong bài thi xuất hiện phần không biết thì cũng đừng hoảng, hãy bình tĩnh giải quyết.' },
-      { ko: '아무리 못 올 일이 생겼다더라도 알려 줘야 할 게 아니냐?', vi: 'Dù có xảy ra chuyện gì khiến không đến được thì cũng phải báo cho biết chứ?' },
+      { ko: '코로나 19 백신을 접종했더라도 코로나 19 에 감염될 가능성이 있다.', vi: 'Dù đã tiêm vắc-xin COVID-19 thì vẫn có khả năng bị nhiễm COVID-19.', romanization: 'ko-ro-na sip-gu baek-ssi-neul jeop-jjong-haet-tteo-ra-do ko-ro-na sip-gu-e gam-yeom-doel ga-neung-seong-i it-tta', register: 'written' },
+      { ko: '시험에 모르는 것이 나오더라도 당황해 하지 말고 침착하게 풀어 나가세요.', vi: 'Dù trong bài thi xuất hiện phần không biết thì cũng đừng hoảng, hãy bình tĩnh giải quyết.', romanization: 'si-heo-me mo-reu-neun geo-si na-o-deo-ra-do dang-hwang-hae ha-ji mal-go chim-cha-ka-ge pu-reo na-ga-se-yo', register: 'polite' },
+      { ko: '아무리 못 올 일이 생겼다더라도 알려 줘야 할 게 아니냐?', vi: 'Dù có xảy ra chuyện gì khiến không đến được thì cũng phải báo cho biết chứ?', romanization: 'a-mu-ri mot ol i-ri saeng-gyeot-tta-deo-ra-do al-lyeo jwo-ya hal ge a-ni-nya', register: 'casual' },
     ],
     commonMistakes: [
       'Dễ nhầm với -아/어도 — -더라도 mang sắc thái nhượng bộ mạnh hơn, thường dùng cho giả định trong tương lai hoặc tình huống ít chắc chắn hơn.',
@@ -897,6 +927,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-45', distinction: '-더라도 trung tính hơn, chỉ nói kết quả vế sau không phụ thuộc vào vế trước; còn -(으)ㄴ들 nhấn mạnh kết quả vế sau hoàn toàn trái với mong đợi, thường mang sắc thái phủ định mạnh hơn.' },
+    ],
   },
   {
     id: 'gr-cao-cap-43',
@@ -905,8 +938,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Nhận định lời nói hay tình huống ở vế trước và cho rằng dù vậy cũng không gây ảnh hưởng gì đến kết luận ở vế sau. Có thể thay thế bằng -다고 하더라도. Đây là cùng một cấu trúc gốc với -(느)ㄴ다손 치더라도 (mục Trích dẫn) nhưng được nhấn mạnh ở khía cạnh nhượng bộ, giả định tình huống.',
     examples: [
-      { ko: '아무리 바쁘다손 치더라도 밥은 먹어야 한다.', vi: 'Dù có bận rộn đến đâu thì cũng phải ăn cơm.' },
-      { ko: '아무리 빨리 간다손 치더라도 약속 시간에 맞춰 갈 수는 없다.', vi: 'Dù có đi nhanh đến đâu thì cũng không thể đến kịp giờ hẹn.' },
+      { ko: '아무리 바쁘다손 치더라도 밥은 먹어야 한다.', vi: 'Dù có bận rộn đến đâu thì cũng phải ăn cơm.', romanization: 'a-mu-ri ba-ppeu-da-son chi-deo-ra-do ba-beun meo-geo-ya han-da', register: 'written' },
+      { ko: '아무리 빨리 간다손 치더라도 약속 시간에 맞춰 갈 수는 없다.', vi: 'Dù có đi nhanh đến đâu thì cũng không thể đến kịp giờ hẹn.', romanization: 'a-mu-ri ppal-li gan-da-son chi-deo-ra-do yak-ssok si-ga-ne mat-chwo gal su-neun eop-tta', register: 'written' },
     ],
     commonMistakes: [
       'Luôn cần đi kèm 아무리 ở vế trước để nhấn mạnh sắc thái nhượng bộ cực đoan.',
@@ -915,6 +948,14 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Tính từ', baseForm: '바쁘다', conjugated: '바쁘다손 치더라도' },
+      { stemType: 'Động từ (phụ âm cuối)', baseForm: '먹다', conjugated: '먹는다손 치더라도' },
+      { stemType: 'Động từ (nguyên âm cuối)', baseForm: '가다', conjugated: '간다손 치더라도' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-37', distinction: 'Cùng một cấu trúc gốc với -(느)ㄴ다손 치더라도 ở mục Trích dẫn, chỉ khác cách viết rút gọn không ghi rõ 느ㄴ trước 다손.' },
+    ],
   },
   {
     id: 'gr-cao-cap-44',
@@ -923,9 +964,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Nhấn mạnh rằng dù vế trước đưa ra một tình huống nào đó và được công nhận hay giả định là đúng, kết quả ở vế sau vẫn đối lập hoặc khác với mong đợi từ vế trước. Có sắc thái nhấn mạnh hơn -아/어도. Thường đi cùng 아무리, 비록. Biểu hiện tương tự: -(으)ㄹ지언정.',
     examples: [
-      { ko: '개인 능력이 매우 뛰어날지라도 팀워크에 문제가 있다면 제 실력을 발휘하기는 쉽지 않아요.', vi: 'Cho dù năng lực cá nhân có xuất sắc đến đâu, nếu làm việc nhóm có vấn đề thì cũng khó phát huy hết thực lực.' },
-      { ko: '그 사람이 아마추어 선수일지언정 스포츠에 대한 열정은 프로 선수 못지않아요.', vi: 'Dù người đó là vận động viên nghiệp dư nhưng lòng nhiệt huyết với thể thao không thua kém gì vận động viên chuyên nghiệp.' },
-      { ko: '몸은 비록 작을지라도 품은 뜻은 크다.', vi: 'Dù thân hình nhỏ bé nhưng chí hướng lại lớn lao.' },
+      { ko: '개인 능력이 매우 뛰어날지라도 팀워크에 문제가 있다면 제 실력을 발휘하기는 쉽지 않아요.', vi: 'Cho dù năng lực cá nhân có xuất sắc đến đâu, nếu làm việc nhóm có vấn đề thì cũng khó phát huy hết thực lực.', romanization: 'gae-in neung-nyeo-gi mae-u ttwi-eo-nal-jji-ra-do tim-wo-keu-e mun-je-ga it-tta-myeon je sil-lyeo-geul bal-hwi-ha-gi-neun swip-jji a-na-yo', register: 'polite' },
+      { ko: '그 사람이 아마추어 선수일지언정 스포츠에 대한 열정은 프로 선수 못지않아요.', vi: 'Dù người đó là vận động viên nghiệp dư nhưng lòng nhiệt huyết với thể thao không thua kém gì vận động viên chuyên nghiệp.', romanization: 'geu sa-ra-mi a-ma-chu-eo seon-su-il-ji-eon-jeong seu-po-cheu-e dae-han yeol-jeong-eun peu-ro seon-su mot-jji-a-na-yo', register: 'polite' },
+      { ko: '몸은 비록 작을지라도 품은 뜻은 크다.', vi: 'Dù thân hình nhỏ bé nhưng chí hướng lại lớn lao.', romanization: 'mo-meun bi-rok ja-geul-jji-ra-do pu-meun tteu-seun keu-da', register: 'written' },
     ],
     commonMistakes: [
       'Ví dụ thứ hai trong nguồn thực chất dùng đuôi -ㄹ지언정, cho thấy tài liệu gốc coi -ㄹ지라도 và -ㄹ지언정 gần như thay thế được cho nhau dù sắc thái có khác biệt nhỏ (지언정 thiên về vế sau mang tính phủ định).',
@@ -935,6 +976,14 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '작다', conjugated: '작을지라도' },
+      { stemType: 'Quy tắc (nguyên âm cuối)', baseForm: '뛰어나다', conjugated: '뛰어날지라도' },
+      { stemType: 'ㄹ 받침 (lược 으, giữ nguyên ㄹ gốc)', baseForm: '알다', conjugated: '알지라도' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-49', distinction: 'Ví dụ minh họa cho thấy -(으)ㄹ지라도 và -(으)ㄹ지언정 gần như thay thế được cho nhau; -(으)ㄹ지언정 thiên về vế sau mang tính phủ định mạnh hơn.' },
+    ],
   },
   {
     id: 'gr-cao-cap-45',
@@ -943,8 +992,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Cho dù nội dung giả định ở vế trước được công nhận là đúng thì kết quả xảy ra ở vế sau cũng khác với những gì dự kiến, thường theo hướng không đạt được mục đích mong muốn. Có thể thay thế bằng cấu trúc "다 할지라도".',
     examples: [
-      { ko: '밤마다 야식을 먹으면 매일 규칙적으로 운동을 한들 다이어트에 실패할 거예요.', vi: 'Nếu đêm nào cũng ăn khuya thì dù có tập thể dục đều đặn mỗi ngày cũng sẽ thất bại trong việc ăn kiêng.' },
-      { ko: '병원에서 치료를 받은들 약을 제때 안 먹으면 빨리 낫기 힘들어요.', vi: 'Dù có được điều trị ở bệnh viện, nếu không uống thuốc đúng giờ thì cũng khó mà khỏi nhanh được.' },
+      { ko: '밤마다 야식을 먹으면 매일 규칙적으로 운동을 한들 다이어트에 실패할 거예요.', vi: 'Nếu đêm nào cũng ăn khuya thì dù có tập thể dục đều đặn mỗi ngày cũng sẽ thất bại trong việc ăn kiêng.', romanization: 'bam-ma-da ya-si-geul meo-geu-myeon mae-il gyu-chik-jjeo-geu-ro un-dong-eul han-deul da-i-eo-teu-e sil-pae-hal geo-ye-yo', register: 'polite' },
+      { ko: '병원에서 치료를 받은들 약을 제때 안 먹으면 빨리 낫기 힘들어요.', vi: 'Dù có được điều trị ở bệnh viện, nếu không uống thuốc đúng giờ thì cũng khó mà khỏi nhanh được.', romanization: 'byeong-wo-ne-seo chi-ryo-reul ba-deun-deul ya-geul je-ttae an meo-geu-myeon ppal-li nat-kki him-deu-reo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau luôn mang kết quả trái với mong đợi hoặc phủ định hiệu quả của vế trước — không dùng khi vế sau là một kết quả tích cực, thuận theo vế trước.',
@@ -953,6 +1002,14 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '받다', conjugated: '받은들' },
+      { stemType: 'Quy tắc (nguyên âm cuối)', baseForm: '하다', conjugated: '한들' },
+      { stemType: 'ㄹ 받침 (lược ㄹ trước ㄴ)', baseForm: '알다', conjugated: '안들' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-44', distinction: '-(으)ㄴ들 nhấn mạnh kết quả trái với dự kiến mang tính thất bại, gần nghĩa với cách nói "다 할지라도" (biến thể của -(으)ㄹ지라도) nhưng cô đọng và mang tính khẩu ngữ hơn.' },
+    ],
   },
   {
     id: 'gr-cao-cap-46',
@@ -961,16 +1018,22 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Nhấn mạnh rằng sự thật hoặc quyết tâm nào đó nêu ở vế sau hoàn toàn khác với suy nghĩ thông thường, mặc cho tình huống cực đoan hoặc bất lợi được nêu ở vế trước.',
     examples: [
-      { ko: '평생 혼자 살망정 결혼을 하지는 않겠어요.', vi: 'Cho dù có phải sống một mình cả đời thì tôi cũng sẽ không kết hôn.' },
-      { ko: '아무리 자신의 실수로 다쳤다고 해도 아픈 사람한테 화를 내면 안 되잖아요.', vi: 'Dù có là do lỗi của chính mình mà bị thương đi nữa thì cũng không được nổi giận với người đang đau chứ.' },
+      { ko: '평생 혼자 살망정 결혼을 하지는 않겠어요.', vi: 'Cho dù có phải sống một mình cả đời thì tôi cũng sẽ không kết hôn.', romanization: 'pyeong-saeng hon-ja sal-mang-jeong gyeol-ho-neul ha-ji-neun an-ke-sseo-yo', register: 'polite' },
+      { ko: '아무리 자신의 실수로 다쳤다고 해도 아픈 사람한테 화를 내면 안 되잖아요.', vi: 'Dù có là do lỗi của chính mình mà bị thương đi nữa thì cũng không được nổi giận với người đang đau chứ.', romanization: 'a-mu-ri ja-si-nui sil-su-ro da-chyeot-tta-go hae-do a-peun sa-ram-han-te hwa-reul nae-myeon an doe-ja-na-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế trước thường nêu một tình huống cực đoan, ít khi xảy ra, vế sau là một quyết tâm hoặc khẳng định mạnh mẽ trái ngược — không dùng cho các tình huống thông thường, nhẹ nhàng.',
+      'Ví dụ thứ hai trong nguồn thực chất không dùng đuôi -(으)ㄹ 망정 mà dùng 아무리...해도 — cần lưu ý đây là hai cấu trúc nhượng bộ khác nhau dù cùng nhóm ngữ nghĩa, không phải ví dụ minh họa chuẩn cho -(으)ㄹ 망정.',
     ],
     level: 'cao-cap',
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '먹다', conjugated: '먹을망정' },
+      { stemType: 'Quy tắc (nguyên âm cuối)', baseForm: '가다', conjugated: '갈망정' },
+      { stemType: 'ㄹ 받침 (lược 으, giữ nguyên ㄹ gốc)', baseForm: '살다', conjugated: '살망정' },
+    ],
   },
   {
     id: 'gr-cao-cap-47',
@@ -979,8 +1042,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Thể hiện sự thừa nhận, chấp nhận tạm thời, coi là như thế về một hoàn cảnh hay tình huống nào đó. Mệnh đề sau thường bác bỏ lại mệnh đề trước hoặc nêu ra vấn đề nảy sinh nếu người ta thừa nhận điều đó.',
     examples: [
-      { ko: '가: 영어 책이 어디에 있는지 모르겠어요. 내일 영어 수업이 있는데요. 나: 그냥 잊어버렸다고 치고 새로 사는 게 어때요?', vi: 'A: Tôi không biết sách tiếng Anh ở đâu. Mai lại có tiết tiếng Anh nữa. B: Thôi cứ coi như là bị mất rồi, mua quyển mới đi có được không?' },
-      { ko: '가: 내일 말하기 시험이 있는데 연습하는 것 좀 도와줄 수 있나요? 나: 좋아요. 그럼 내가 선생님이라고 치고 말해 보세요. 듣고 평가해 줄게요.', vi: 'A: Mai tôi có bài thi nói, bạn có thể giúp tôi luyện tập không? B: Được thôi. Vậy thì cứ coi như tôi là giáo viên, bạn nói thử đi. Tôi sẽ nghe và nhận xét cho.' },
+      { ko: '가: 영어 책이 어디에 있는지 모르겠어요. 내일 영어 수업이 있는데요. 나: 그냥 잊어버렸다고 치고 새로 사는 게 어때요?', vi: 'A: Tôi không biết sách tiếng Anh ở đâu. Mai lại có tiết tiếng Anh nữa. B: Thôi cứ coi như là bị mất rồi, mua quyển mới đi có được không?', romanization: 'ga: yeong-eo chae-gi eo-di-e in-neun-ji mo-reu-ge-sseo-yo. nae-il yeong-eo su-eo-bi in-neun-de-yo. na: geu-nyang i-jeo-beo-ryeot-tta-go chi-go sae-ro sa-neun ge eo-ttae-yo', register: 'polite' },
+      { ko: '가: 내일 말하기 시험이 있는데 연습하는 것 좀 도와줄 수 있나요? 나: 좋아요. 그럼 내가 선생님이라고 치고 말해 보세요. 듣고 평가해 줄게요.', vi: 'A: Mai tôi có bài thi nói, bạn có thể giúp tôi luyện tập không? B: Được thôi. Vậy thì cứ coi như tôi là giáo viên, bạn nói thử đi. Tôi sẽ nghe và nhận xét cho.', romanization: 'ga: nae-il mal-ha-gi si-heo-mi in-neun-de yeon-seu-pa-neun geot jom do-wa-jul su in-na-yo? na: jo-a-yo. geu-reom nae-ga seon-saeng-ni-mi-ra-go chi-go mal-hae bo-se-yo. deut-kko pyeong-ga-hae jul-kke-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Luôn mang tính giả định tạm thời để phục vụ mục đích nói tiếp (thường là lời khuyên hoặc đề xuất) — không dùng để khẳng định một sự thật chắc chắn.',
@@ -989,6 +1052,14 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Tính từ / Danh từ + 이다', baseForm: '좋다', conjugated: '좋다고 치다' },
+      { stemType: 'Động từ (phụ âm cuối)', baseForm: '먹다', conjugated: '먹는다고 치다' },
+      { stemType: 'Động từ (nguyên âm cuối)', baseForm: '가다', conjugated: '간다고 치다' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-48', distinction: '-는다고 치다 thiên về giả định một hoàn cảnh để tiếp tục bàn luận, còn -는 셈 치다 thiên về coi một hành động/kết quả tương đương với việc khác để tự thuyết phục bản thân.' },
+    ],
   },
   {
     id: 'gr-cao-cap-48',
@@ -997,8 +1068,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Giả định nội dung ở vế trước, qua đó làm tiền đề để thực hiện hoặc chấp nhận việc nào đó ở vế sau — thường dùng khi người nói tự thuyết phục bản thân chấp nhận một việc bằng cách coi nó tương đương với một việc khác dễ chấp nhận hơn.',
     examples: [
-      { ko: '가: 얼마 전에는 한국어를 배우더니 또 중국어를 배워서 뭐 하려고요? 나: 지금 배워 두면 나중에 쓸 일이 있겠죠. 미래를 위해 투자하는 셈치고 배워 보려고요.', vi: 'A: Mới học tiếng Hàn xong giờ lại học thêm tiếng Trung để làm gì vậy? B: Học từ bây giờ thì sau này chắc sẽ có lúc dùng đến. Tôi định coi như đầu tư cho tương lai mà học thử.' },
-      { ko: '가: 도와주신 것에 감사해서 영화권을 준비했어요. 이 걸 받으세요. 나: 마음은 고맙지만 받은 셈칠 테니까 그냥 넣어 두세요.', vi: 'A: Để cảm ơn bạn đã giúp đỡ, tôi đã chuẩn bị vé xem phim, bạn nhận đi. B: Cảm ơn tấm lòng, nhưng cứ coi như tôi đã nhận rồi, bạn cất đi nhé.' },
+      { ko: '가: 얼마 전에는 한국어를 배우더니 또 중국어를 배워서 뭐 하려고요? 나: 지금 배워 두면 나중에 쓸 일이 있겠죠. 미래를 위해 투자하는 셈치고 배워 보려고요.', vi: 'A: Mới học tiếng Hàn xong giờ lại học thêm tiếng Trung để làm gì vậy? B: Học từ bây giờ thì sau này chắc sẽ có lúc dùng đến. Tôi định coi như đầu tư cho tương lai mà học thử.', romanization: 'ga: eol-ma jeo-ne-neun han-gu-geo-reul bae-u-deo-ni tto jung-gu-geo-reul bae-wo-seo mwo ha-ryeo-go-yo? na: ji-geum bae-wo du-myeon na-jung-e sseul i-ri it-kket-jjyo. mi-rae-reul wi-hae tu-ja-ha-neun sem-chi-go bae-wo bo-ryeo-go-yo', register: 'polite' },
+      { ko: '가: 도와주신 것에 감사해서 영화권을 준비했어요. 이 걸 받으세요. 나: 마음은 고맙지만 받은 셈칠 테니까 그냥 넣어 두세요.', vi: 'A: Để cảm ơn bạn đã giúp đỡ, tôi đã chuẩn bị vé xem phim, bạn nhận đi. B: Cảm ơn tấm lòng, nhưng cứ coi như tôi đã nhận rồi, bạn cất đi nhé.', romanization: 'ga: do-wa-ju-sin geo-se gam-sa-hae-seo yeong-hwa-gwo-neul jun-bi-hae-sseo-yo. i geol ba-deu-se-yo. na: ma-eu-meun go-map-jji-man ba-deun sem-chil te-ni-kka geu-nyang neo-eo du-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Dễ nhầm với -(느)ㄴ다고 치다 — -는 셈 치다 thiên về việc "coi một hành động/kết quả tương đương với việc khác" để tự thuyết phục bản thân, còn -는다고 치다 thiên về giả định một hoàn cảnh để tiếp tục bàn luận.',
@@ -1007,6 +1078,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-47', distinction: '-는 셈 치다 thiên về "coi một hành động/kết quả tương đương với việc khác" để tự thuyết phục bản thân, khác với -(느)ㄴ다고 치다 vốn thiên về giả định một hoàn cảnh để tiếp tục bàn luận.' },
+    ],
   },
   {
     id: 'gr-cao-cap-49',
@@ -1015,8 +1089,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Cho dù nội dung giả định ở vế trước được công nhận thì kết quả xảy ra ở vế sau vẫn khó được chấp nhận hoặc trái ngược hoàn toàn. Vế sau thường dùng ở dạng phủ định để phủ nhận mạnh mẽ.',
     examples: [
-      { ko: '가난할지언정 거짓말은 안 한다.', vi: 'Dù có nghèo thì tôi cũng không nói dối.' },
-      { ko: '비록 실업자로 지낼지언정 희망은 버릴 수 없어요.', vi: 'Dù có phải sống thất nghiệp thì tôi cũng không thể từ bỏ hy vọng.' },
+      { ko: '가난할지언정 거짓말은 안 한다.', vi: 'Dù có nghèo thì tôi cũng không nói dối.', romanization: 'ga-nan-hal-jji-eon-jeong geo-jin-ma-reun an han-da', register: 'written' },
+      { ko: '비록 실업자로 지낼지언정 희망은 버릴 수 없어요.', vi: 'Dù có phải sống thất nghiệp thì tôi cũng không thể từ bỏ hy vọng.', romanization: 'bi-rok si-reop-jja-ro ji-nael-jji-eon-jeong hui-mang-eun beo-ril su eop-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau bắt buộc thiên về phủ định hoặc thể hiện một quyết tâm/nguyên tắc bất di bất dịch — khác với -(으)ㄹ지라도 vốn trung tính hơn và không bắt buộc phủ định ở vế sau.',
@@ -1025,6 +1099,14 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '작다', conjugated: '작을지언정' },
+      { stemType: 'Quy tắc (nguyên âm cuối)', baseForm: '가난하다', conjugated: '가난할지언정' },
+      { stemType: 'ㄹ 받침 (lược 으, giữ nguyên ㄹ gốc)', baseForm: '알다', conjugated: '알지언정' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-cao-cap-44', distinction: '-(으)ㄹ지언정 thiên về vế sau mang tính phủ định/quyết tâm mạnh mẽ, còn -(으)ㄹ지라도 trung tính hơn, không bắt buộc vế sau phải phủ định.' },
+    ],
   },
   {
     id: 'gr-cao-cap-50',
@@ -1033,8 +1115,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Cho dù nội dung giả định ở vế trước có xảy ra thì cũng không mang lại tác dụng hay kết quả đáng kể nào. Ngữ pháp có thể thay thế: -아/어 봐야.',
     examples: [
-      { ko: '그에게 충고해 봤자 소용없어요.', vi: 'Có khuyên anh ta thì cũng vô ích thôi.' },
-      { ko: '노력해봤자 그 사람은 따라갈 수 없을 거야.', vi: 'Có cố gắng đến mấy thì cũng không thể theo kịp người đó đâu.' },
+      { ko: '그에게 충고해 봤자 소용없어요.', vi: 'Có khuyên anh ta thì cũng vô ích thôi.', romanization: 'geu-e-ge chung-go-hae bwat-jja so-yong-eop-sseo-yo', register: 'polite' },
+      { ko: '노력해봤자 그 사람은 따라갈 수 없을 거야.', vi: 'Có cố gắng đến mấy thì cũng không thể theo kịp người đó đâu.', romanization: 'no-ryeo-kae-bwat-jja geu sa-ra-meun tta-ra-gal su eop-sseul geo-ya', register: 'casual' },
     ],
     commonMistakes: [
       'Luôn mang sắc thái bi quan, cho rằng hành động ở vế trước là vô ích — không nên dùng khi muốn động viên ai đó cố gắng, dễ gây hiểu lầm là đang chê bai nỗ lực của người nghe.',
@@ -1043,6 +1125,11 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'gia-dinh-nhuong-bo',
     sectionOrder: 5,
     sectionTitleVi: 'Tình huống giả định, nhượng bộ',
+    conjugationTable: [
+      { stemType: 'Quy tắc (âm dương, ㅏ/ㅗ)', baseForm: '가다', conjugated: '가 봤자' },
+      { stemType: 'Quy tắc (âm âm, khác ㅏ/ㅗ)', baseForm: '먹다', conjugated: '먹어 봤자' },
+      { stemType: '하다 bất quy tắc', baseForm: '노력하다', conjugated: '노력해 봤자' },
+    ],
   },
   {
     id: 'gr-cao-cap-51',
@@ -1051,8 +1138,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả một hành động nào đó diễn ra ngay lập tức sau khi hành động ở vế trước vừa kết thúc, thường dùng ở dạng khẩu ngữ. Có thể thay thế bằng -자마자.',
     examples: [
-      { ko: '수업이 끝나면 선생님이 나가시기가 무섭게 학생들이 학교 식당에 달려가요.', vi: 'Hễ thầy giáo vừa ra khỏi lớp sau khi hết tiết là học sinh đã chạy ngay đến căng tin trường.' },
-      { ko: '새 영화가 개봉하기가 무섭게 친구들과 같이 극장에 보러 가요.', vi: 'Phim mới vừa công chiếu là tôi cùng bạn bè đi xem ngay ở rạp.' },
+      { ko: '수업이 끝나면 선생님이 나가시기가 무섭게 학생들이 학교 식당에 달려가요.', vi: 'Hễ thầy giáo vừa ra khỏi lớp sau khi hết tiết là học sinh đã chạy ngay đến căng tin trường.', romanization: 'su-eo-bi kkeun-na-myeon seon-saeng-ni-mi na-ga-si-gi-ga mu-seop-kke hak-ssaeng-deu-ri hak-kkyo sik-ttang-e dal-lyeo-ga-yo', register: 'polite' },
+      { ko: '새 영화가 개봉하기가 무섭게 친구들과 같이 극장에 보러 가요.', vi: 'Phim mới vừa công chiếu là tôi cùng bạn bè đi xem ngay ở rạp.', romanization: 'sae yeong-hwa-ga gae-bong-ha-gi-ga mu-seop-kke chin-gu-deul-gwa ga-chi geuk-jjang-e bo-reo ga-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Là cấu trúc khẩu ngữ, nhấn mạnh sự nhanh chóng, gấp gáp giữa hai hành động hơn -자마자 — không phù hợp dùng trong văn viết trang trọng.',
@@ -1069,8 +1156,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Sau khi hành động ở vế trước kết thúc, hành động ở vế sau diễn ra ngay lập tức; hai vế mang tính nhân quả với nhau, thường mô tả điều diễn ra một cách tự nhiên, hễ A vừa xảy ra thì dễ dàng kéo theo B. Vế sau không chia mệnh lệnh, cầu khiến và thường ở thì quá khứ. Có thể thay thế bằng -자마자 trong mọi trường hợp (dù chiều ngược lại không phải lúc nào cũng đúng). Chủ yếu dùng trong văn viết.',
     examples: [
-      { ko: '버스가 출발하자 사람들은 움직였어요.', vi: 'Ngay khi xe buýt vừa chuyển bánh, mọi người đã lay động theo.' },
-      { ko: '비행기 바퀴가 땅에 닿자 승객들이 자리에서 일어났어요.', vi: 'Ngay khi bánh máy bay vừa chạm đất, hành khách đã đứng dậy khỏi chỗ ngồi.' },
+      { ko: '버스가 출발하자 사람들은 움직였어요.', vi: 'Ngay khi xe buýt vừa chuyển bánh, mọi người đã lay động theo.', romanization: 'beo-seu-ga chul-bal-ha-ja sa-ram-deu-reun um-ji-gyeo-sseo-yo', register: 'polite' },
+      { ko: '비행기 바퀴가 땅에 닿자 승객들이 자리에서 일어났어요.', vi: 'Ngay khi bánh máy bay vừa chạm đất, hành khách đã đứng dậy khỏi chỗ ngồi.', romanization: 'bi-haeng-gi ba-kwi-ga ttang-e da-cha seung-gaek-tteu-ri ja-ri-e-seo i-reo-na-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau không được chia mệnh lệnh, cầu khiến và thường ở thì quá khứ — khác với -는 대로 vốn thường dùng cho kế hoạch, mệnh lệnh trong tương lai.',
@@ -1079,6 +1166,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'hanh-dong-tuan-tu',
     sectionOrder: 6,
     sectionTitleVi: 'Hành động tuần tự',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-53', distinction: '-자 mô tả sự việc mang tính nhân quả tự nhiên đã xảy ra trong quá khứ, vế sau không chia mệnh lệnh/cầu khiến; khác với -는 대로 vốn dùng cho kế hoạch, mệnh lệnh trong hiện tại/tương lai.' },
+    ],
   },
   {
     id: 'gr-cao-cap-53',
@@ -1087,8 +1177,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Sau khi hành động ở vế trước kết thúc, hành động ở vế sau diễn ra ngay lập tức; vế sau thường thể hiện ý chí của chủ thể, hoặc ở dạng mệnh lệnh, cầu khiến, lời hứa hẹn, kế hoạch trong hiện tại và tương lai. Vế sau không được chia quá khứ. Có thể thay thế bằng -자마자 trong mọi trường hợp.',
     examples: [
-      { ko: '서울에 도착하는 대로 전화할게요.', vi: 'Ngay khi đến Seoul, tôi sẽ gọi điện cho bạn.' },
-      { ko: '이 책을 다 읽는 대로 반납해 주시기를 바랍니다.', vi: 'Mong bạn trả lại cuốn sách này ngay sau khi đọc xong.' },
+      { ko: '서울에 도착하는 대로 전화할게요.', vi: 'Ngay khi đến Seoul, tôi sẽ gọi điện cho bạn.', romanization: 'seo-u-re do-cha-ka-neun dae-ro jeon-hwa-hal-kke-yo', register: 'polite' },
+      { ko: '이 책을 다 읽는 대로 반납해 주시기를 바랍니다.', vi: 'Mong bạn trả lại cuốn sách này ngay sau khi đọc xong.', romanization: 'i chae-geul da ing-neun dae-ro ban-na-pae ju-si-gi-reul ba-ram-ni-da', register: 'formal' },
     ],
     commonMistakes: [
       'Vế sau không được chia quá khứ, chỉ dùng cho hành động tương lai/mệnh lệnh/lời hứa — khác với V-자 vốn chỉ mô tả sự việc đã xảy ra trong quá khứ theo trình tự tự nhiên.',
@@ -1097,6 +1187,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     section: 'hanh-dong-tuan-tu',
     sectionOrder: 6,
     sectionTitleVi: 'Hành động tuần tự',
+    relatedPatterns: [
+      { id: 'gr-cao-cap-52', distinction: '-는 대로 dùng cho kế hoạch, mệnh lệnh, lời hứa trong hiện tại/tương lai (vế sau không chia quá khứ); khác với V-자 vốn chỉ mô tả sự việc đã xảy ra trong quá khứ theo trình tự tự nhiên.' },
+    ],
   },
   {
     id: 'gr-cao-cap-54',
@@ -1105,8 +1198,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả điều kiện, tiền đề hay yêu cầu về một hành động hoặc trạng thái nào đó; chỉ khi thỏa mãn điều kiện ở vế trước thì nội dung ở vế sau mới được thực hiện hoặc đủ tiêu chuẩn xảy ra.',
     examples: [
-      { ko: '구매한 영수증을 가지고 있는 한 어제 산 제품을 환불할 수 있다.', vi: 'Chỉ cần còn giữ hóa đơn mua hàng thì có thể trả lại sản phẩm đã mua hôm qua.' },
-      { ko: '단 것을 먹지 않고 계속 운동을 하는 한 다이어트에 성공할 수 있다.', vi: 'Chỉ cần không ăn đồ ngọt và tiếp tục tập luyện thì có thể thành công trong việc ăn kiêng.' },
+      { ko: '구매한 영수증을 가지고 있는 한 어제 산 제품을 환불할 수 있다.', vi: 'Chỉ cần còn giữ hóa đơn mua hàng thì có thể trả lại sản phẩm đã mua hôm qua.', romanization: 'gu-mae-han yeong-su-jeung-eul ga-ji-go in-neun han eo-je san je-pu-meul hwan-bul-hal su it-tta', register: 'written' },
+      { ko: '단 것을 먹지 않고 계속 운동을 하는 한 다이어트에 성공할 수 있다.', vi: 'Chỉ cần không ăn đồ ngọt và tiếp tục tập luyện thì có thể thành công trong việc ăn kiêng.', romanization: 'dan geo-seul meok-jji an-ko gye-sok un-dong-eul ha-neun han da-i-eo-teu-e seong-gong-hal su it-tta', register: 'written' },
     ],
     commonMistakes: [
       'Nhấn mạnh tính điều kiện bắt buộc, giới hạn phạm vi ("chỉ trong trường hợp này") — khác với -(으)면 thông thường vốn chỉ nêu điều kiện chung chung, không nhấn mạnh tính duy nhất, giới hạn.',
@@ -1123,16 +1216,22 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Mô tả một tình huống thường xảy ra, trong đó tình huống ở mệnh đề sau luôn xuất hiện bất cứ khi nào chủ thể cố gắng thực hiện hành động ở mệnh đề trước, khiến chủ thể không thể thực hiện đúng như dự định. Thường dùng trong văn nói. Biểu hiện tương tự: -(으)려고 하면.',
     examples: [
-      { ko: '모처럼 시간이 내서 밖으로 놀러 갈라치면 그날따라 비가 와요.', vi: 'Hễ khi nào tôi cố sắp xếp thời gian ra ngoài chơi thì y như rằng hôm đó lại mưa.' },
-      { ko: '낮잠 좀 잘라치면 그때 옆집 아이가 피아노를 쳐 대니 잘 수가 없어요.', vi: 'Cứ hễ tôi định ngủ trưa một chút thì lúc đó đứa trẻ nhà bên lại đàn piano ầm ĩ nên không tài nào ngủ được.' },
+      { ko: '모처럼 시간을 내서 밖으로 놀러 갈라치면 그날따라 비가 와요.', vi: 'Hễ khi nào tôi cố sắp xếp thời gian ra ngoài chơi thì y như rằng hôm đó lại mưa.', romanization: 'mo-cheo-reom si-ga-neul nae-seo ba-kkeu-ro nol-leo gal-la-chi-myeon geu-nal-tta-ra bi-ga wa-yo', register: 'polite' },
+      { ko: '낮잠 좀 잘라치면 그때 옆집 아이가 피아노를 쳐 대니 잘 수가 없어요.', vi: 'Cứ hễ tôi định ngủ trưa một chút thì lúc đó đứa trẻ nhà bên lại đàn piano ầm ĩ nên không tài nào ngủ được.', romanization: 'nat-jjam jom jal-la-chi-myeon geu-ttae yeop-jjip a-i-ga pi-a-no-reul chyeo dae-ni jal su-ga eop-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Luôn mang sắc thái than phiền về một tình huống trớ trêu lặp đi lặp lại — không dùng cho một sự việc chỉ xảy ra một lần duy nhất.',
+      'Ví dụ đầu trong nguồn gốc ghi nhầm tiểu từ "시간이 내서" — 내다 (bỏ ra, dành ra) là động từ cần tân ngữ nên phải dùng "시간을 내서", không dùng chủ ngữ "시간이" với 내다.',
     ],
     level: 'cao-cap',
     section: 'dieu-kien-quyet-dinh',
     sectionOrder: 7,
     sectionTitleVi: 'Điều kiện và quyết định',
+    conjugationTable: [
+      { stemType: 'Quy tắc (nguyên âm cuối)', baseForm: '가다', conjugated: '갈라치면' },
+      { stemType: 'Quy tắc (phụ âm cuối)', baseForm: '먹다', conjugated: '먹을라치면' },
+      { stemType: 'ㄹ 받침 (lược 으, giữ nguyên ㄹ gốc)', baseForm: '살다', conjugated: '살라치면' },
+    ],
   },
   {
     id: 'gr-cao-cap-56',
@@ -1141,8 +1240,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Nếu liên tục, thường xuyên thực hiện một việc gì đó ở vế trước thì sẽ đạt được một kết quả tương ứng, thường mang tính tích cực, ở vế sau. Biểu hiện tương tự: -다가 보면.',
     examples: [
-      { ko: '꾸준히 취업 준비를 하노라면 곧 좋은 일자리를 찾을 테니 걱정하지 마세요.', vi: 'Nếu cứ kiên trì chuẩn bị xin việc thì bạn sẽ sớm tìm được công việc tốt, đừng lo lắng.' },
-      { ko: '한국어를 열심히 연습하노라면 점점 실력이 좋아질 거예요.', vi: 'Nếu cứ chăm chỉ luyện tập tiếng Hàn thì trình độ sẽ dần được cải thiện.' },
+      { ko: '꾸준히 취업 준비를 하노라면 곧 좋은 일자리를 찾을 테니 걱정하지 마세요.', vi: 'Nếu cứ kiên trì chuẩn bị xin việc thì bạn sẽ sớm tìm được công việc tốt, đừng lo lắng.', romanization: 'kku-jun-hi chwi-eop jun-bi-reul ha-no-ra-myeon got jo-eun il-ja-ri-reul cha-jeul te-ni geok-jjeong-ha-ji ma-se-yo', register: 'polite' },
+      { ko: '한국어를 열심히 연습하노라면 점점 실력이 좋아질 거예요.', vi: 'Nếu cứ chăm chỉ luyện tập tiếng Hàn thì trình độ sẽ dần được cải thiện.', romanization: 'han-gu-geo-reul yeol-sim-hi yeon-seu-pa-no-ra-myeon jeom-jeom sil-lyeo-gi jo-a-jil geo-ye-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Là cấu trúc mang tính văn viết/trang trọng hơn -다가 보면, thường dùng cho lời khuyên hoặc động viên kiên trì — ít dùng trong khẩu ngữ thường ngày.',
@@ -1159,8 +1258,8 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả điều kiện nếu nội dung ở vế trước trở thành hiện thực. Vế sau thường dùng ở dạng mệnh lệnh hoặc cầu khiến, có thể diễn tả ý chí của chủ thể. Có thể thay thế bằng cấu trúc -거든.',
     examples: [
-      { ko: '오빠를 만나거들랑 제 말을 꼭 전해 주세요.', vi: 'Nếu gặp anh ấy thì nhớ nhắn lại lời tôi giúp với nhé.' },
-      { ko: '아이들이 밥을 안 먹거들랑 도시락을 싸서 먹여 보세요.', vi: 'Nếu bọn trẻ không chịu ăn cơm thì hãy thử gói cơm hộp cho chúng ăn xem.' },
+      { ko: '오빠를 만나거들랑 제 말을 꼭 전해 주세요.', vi: 'Nếu gặp anh ấy thì nhớ nhắn lại lời tôi giúp với nhé.', romanization: 'o-ppa-reul man-na-geo-deul-lang je ma-reul kkok jeon-hae ju-se-yo', register: 'polite' },
+      { ko: '아이들이 밥을 안 먹거들랑 도시락을 싸서 먹여 보세요.', vi: 'Nếu bọn trẻ không chịu ăn cơm thì hãy thử gói cơm hộp cho chúng ăn xem.', romanization: 'a-i-deu-ri ba-beul an meok-kkeo-deul-lang do-si-ra-geul ssa-seo meo-gyeo bo-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Là cấu trúc khẩu ngữ hơi cổ, gần như đồng nghĩa hoàn toàn với -거든 khi dùng làm điều kiện — nên ưu tiên dùng -거든 trong giao tiếp hiện đại nếu không chắc chắn.',
@@ -1177,9 +1276,9 @@ export const grammarCaoCap: GrammarEntry[] = [
     usageNotes:
       'Giả định rằng nếu tình huống ở vế trước xảy ra (khác với thực tế hiện tại) thì còn có thể chấp nhận được, còn trường hợp đang thực sự xảy ra thì không được hoặc không thể. Vế sau thường là câu phủ định hoặc câu hỏi mang tính nghi ngờ, khẳng định ngược.',
     examples: [
-      { ko: '민재 씨는 풀면 몰라도 수빈 씨는 그 문제 못 풀걸?', vi: 'Nếu là Minjae thì còn có thể giải được, chứ Subin thì chắc không giải được bài đó đâu.' },
-      { ko: '엄마가 도와주면 몰라도 혼자서는 비빔밥 못 만들어요.', vi: 'Nếu có mẹ giúp thì còn được, chứ một mình thì không thể làm được món cơm trộn.' },
-      { ko: '친척들이면 몰라도 친구는 면회할 수 없어요.', vi: 'Nếu là người thân thì còn được, chứ bạn bè thì không thể vào thăm được.' },
+      { ko: '민재 씨는 풀면 몰라도 수빈 씨는 그 문제 못 풀걸?', vi: 'Nếu là Minjae thì còn có thể giải được, chứ Subin thì chắc không giải được bài đó đâu.', romanization: 'min-jae ssi-neun pul-myeon mol-la-do su-bin ssi-neun geu mun-je mot pul-kkeol', register: 'casual' },
+      { ko: '엄마가 도와주면 몰라도 혼자서는 비빔밥 못 만들어요.', vi: 'Nếu có mẹ giúp thì còn được, chứ một mình thì không thể làm được món cơm trộn.', romanization: 'eom-ma-ga do-wa-ju-myeon mol-la-do hon-ja-seo-neun bi-bim-ppap mot man-deu-reo-yo', register: 'polite' },
+      { ko: '친척들이면 몰라도 친구는 면회할 수 없어요.', vi: 'Nếu là người thân thì còn được, chứ bạn bè thì không thể vào thăm được.', romanization: 'chin-cheok-tteu-ri-myeon mol-la-do chin-gu-neun myeon-hoe-hal su eop-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Cấu trúc luôn mang nghĩa "trường hợp A thì còn tạm chấp nhận được, trường hợp B đang nói đến thì không được" — nếu dịch tách rời từng vế mà không giữ đúng quan hệ so sánh này sẽ sai nghĩa.',
