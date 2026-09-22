@@ -160,9 +160,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Vế trước nêu lên một lý do tiêu biểu, điển hình trong số nhiều lý do khác nhau dẫn đến việc thực hiện tình huống ở vế sau; người nói dùng cấu trúc này để đưa ra nguyên nhân chính nhưng đồng thời ngầm ý còn có các nguyên nhân khác nữa chưa được nói ra hết.',
     examples: [
-      { ko: '손님들이 오고 해서 장을 보러 가요.', vi: 'Vì (đại khái) có khách đến nên tôi đi chợ mua đồ.' },
-      { ko: '요즘 살이 찌고 해서 다이어트를 하고 있어요.', vi: 'Dạo này vì (nhiều lý do, trong đó có việc) tăng cân nên tôi đang ăn kiêng.' },
-      { ko: '날씨도 좋고 해서 오랜만에 산책을 나갔어요.', vi: 'Vì thời tiết cũng đẹp (và vài lý do khác) nên lâu lắm rồi tôi mới ra ngoài đi dạo.' },
+      { ko: '손님들이 오고 해서 장을 보러 가요.', vi: 'Vì (đại khái) có khách đến nên tôi đi chợ mua đồ.', romanization: 'son-nim-deu-ri o-go hae-seo jang-eul bo-reo ga-yo', register: 'polite' },
+      { ko: '요즘 살이 찌고 해서 다이어트를 하고 있어요.', vi: 'Dạo này vì (nhiều lý do, trong đó có việc) tăng cân nên tôi đang ăn kiêng.', romanization: 'yo-jeum sa-ri jji-go hae-seo da-i-eo-teu-reul ha-go i-sseo-yo', register: 'polite' },
+      { ko: '날씨도 좋고 해서 오랜만에 산책을 나갔어요.', vi: 'Vì thời tiết cũng đẹp (và vài lý do khác) nên lâu lắm rồi tôi mới ra ngoài đi dạo.', romanization: 'nal-ssi-do jo-ko hae-seo o-raen-ma-ne san-chae-geul na-ga-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng khi chỉ có duy nhất một lý do rõ ràng — cấu trúc này ngụ ý còn nhiều lý do khác chưa nói hết, khác với -아/어서 hay -기 때문에 nêu lý do duy nhất, dứt khoát.',
@@ -172,6 +172,10 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'nguyen-nhan-ket-qua',
     sectionOrder: 1,
     sectionTitleVi: 'Nguyên nhân, kết quả',
+    relatedPatterns: [
+      { id: 'gr-so-cap-01', distinction: '-고 해서 ngụ ý còn nhiều lý do khác chưa nói hết, khác với -아/어서 nêu lý do duy nhất, dứt khoát.' },
+      { id: 'gr-so-cap-03', distinction: '-고 해서 ngụ ý còn nhiều lý do khác chưa nói hết, khác với -기 때문에 nêu lý do duy nhất, dứt khoát.' },
+    ],
   },
   {
     id: 'gr-trung-cap-08',
@@ -180,9 +184,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Diễn tả người nói công nhận hay thừa nhận nội dung ở mệnh đề trước, nhưng muốn nhấn mạnh, bày tỏ rõ một quan điểm hay ý kiến khác ở mệnh đề sau; ở dạng A/V-기는 A/V-지만, động từ hoặc tính từ được lặp lại hai lần. Trong văn nói, -기는 하지만 thường được rút gọn thành -긴 하지만 và -기는 -지만 rút gọn thành -긴 -지만; dạng quá khứ là -기는 했지만 chứ không phải -았/었기는 했지만. Ngoài ra còn có các biến thể A/V+기는 하나, A/V+기는 하는데, A/V+기는 한데. Chủ ngữ ở hai vế bắt buộc phải đồng nhất, khác với -지만 thông thường không yêu cầu điều này.',
     examples: [
-      { ko: '그 원피스가 좋기는 좋지만 너무 비싸서 못 사겠어요.', vi: 'Chiếc váy đó đúng là đẹp thật nhưng đắt quá nên tôi không mua nổi.' },
-      { ko: '아파트에 살기가 편하기는 하지만 애완동물을 못 키워요.', vi: 'Sống ở chung cư đúng là tiện thật nhưng lại không nuôi được thú cưng.' },
-      { ko: '그 사람이 똑똑하기는 하지만 성격이 좀 급해요.', vi: 'Người đó đúng là thông minh thật nhưng tính cách hơi nóng vội.' },
+      { ko: '그 원피스가 좋기는 좋지만 너무 비싸서 못 사겠어요.', vi: 'Chiếc váy đó đúng là đẹp thật nhưng đắt quá nên tôi không mua nổi.', romanization: 'geu won-pi-seu-ga jo-ki-neun jo-chi-man neo-mu bi-ssa-seo mot sa-ge-sseo-yo', register: 'polite' },
+      { ko: '아파트에 살기가 편하기는 하지만 애완동물을 못 키워요.', vi: 'Sống ở chung cư đúng là tiện thật nhưng lại không nuôi được thú cưng.', romanization: 'a-pa-teu-e sal-gi-ga pyeon-ha-gi-neun ha-ji-man ae-wan-dong-mu-reul mot ki-wo-yo', register: 'polite' },
+      { ko: '그 사람이 똑똑하기는 하지만 성격이 좀 급해요.', vi: 'Người đó đúng là thông minh thật nhưng tính cách hơi nóng vội.', romanization: 'geu sa-ra-mi ttok-tto-ka-gi-neun ha-ji-man seong-gyeo-gi jom geu-pae-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Khác với -지만 (không yêu cầu chủ ngữ đồng nhất, chỉ đơn thuần diễn tả tương phản), -기는 하지만 bắt buộc chủ ngữ hai vế phải giống nhau và mang ý thừa nhận trước khi phản bác.',
@@ -200,9 +204,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Là sự kết hợp giữa -(으)ㄴ/는데 và -아/어도, dùng khi kết quả ở vế sau trái ngược với mong đợi hay mục đích của hành động ở vế trước. Có thể thêm 불구하고 sau -(으)ㄴ/는데도 để nhấn mạnh hơn. Ngoài ra còn có cấu trúc tương đương dùng cho danh từ là N+에도 불구하고, và ở trình độ cao hơn có thể danh từ hóa mệnh đề thành A/V+(으)ㅁ에도 불구하고.',
     examples: [
-      { ko: '선생님이 내일 시험이 있다고 하셨는데도 학생들은 공부를 안 했어요.', vi: 'Mặc dù thầy giáo đã nói mai có bài kiểm tra nhưng học sinh vẫn không học bài.' },
-      { ko: '유리 씨는 많이 먹는데도 (불구하고) 살이 안 쪄요.', vi: 'Yuri dù ăn rất nhiều nhưng vẫn không tăng cân.' },
-      { ko: '영희는 부모님의 반대에도 불구하고 일본 남자와 결혼했다.', vi: 'Mặc cho bố mẹ phản đối, Young-hee vẫn kết hôn với một người đàn ông Nhật Bản.' },
+      { ko: '선생님이 내일 시험이 있다고 하셨는데도 학생들은 공부를 안 했어요.', vi: 'Mặc dù thầy giáo đã nói mai có bài kiểm tra nhưng học sinh vẫn không học bài.', romanization: 'seon-saeng-ni-mi nae-il si-heo-mi it-tta-go ha-syeon-neun-de-do hak-ssaeng-deu-reun gong-bu-reul an hae-sseo-yo', register: 'polite' },
+      { ko: '유리 씨는 많이 먹는데도 (불구하고) 살이 안 쪄요.', vi: 'Yuri dù ăn rất nhiều nhưng vẫn không tăng cân.', romanization: 'yu-ri ssi-neun ma-ni meong-neun-de-do (bul-gu-ha-go) sa-ri an jjyeo-yo', register: 'polite' },
+      { ko: '영희는 부모님의 반대에도 불구하고 일본 남자와 결혼했다.', vi: 'Mặc cho bố mẹ phản đối, Young-hee vẫn kết hôn với một người đàn ông Nhật Bản.', romanization: 'yeong-hi-neun bu-mo-ni-mui ban-dae-e-do bul-gu-ha-go il-bon nam-ja-wa gyeol-hon-haet-tta', register: 'written' },
     ],
     commonMistakes: [
       'Không nhầm N+에도 불구하고 (dùng sau danh từ) với A/V-(으)ㄴ/는데도 (불구하고) (dùng sau động từ/tính từ) — hai dạng có cấu trúc ngữ pháp khác nhau dù nghĩa tương tự.',
@@ -212,6 +216,15 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'dien-ta-su-tuong-phan',
     sectionOrder: 2,
     sectionTitleVi: 'Diễn tả sự tương phản',
+    conjugationTable: [
+      { stemType: 'Quy tắc (tính từ)', baseForm: '많다', conjugated: '많은데도' },
+      { stemType: 'Quy tắc (động từ)', baseForm: '먹다', conjugated: '먹는데도' },
+      { stemType: 'ㅂ bất quy tắc (tính từ)', baseForm: '춥다', conjugated: '추운데도' },
+      { stemType: 'ㅎ bất quy tắc (tính từ)', baseForm: '어떻다', conjugated: '어떤데도' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-so-cap-08', distinction: '-는데도 nhấn mạnh sắc thái ngạc nhiên vì kết quả trái ngược hẳn với điều đáng lẽ phải xảy ra, mang tính nhấn mạnh hơn -지만 thông thường.' },
+    ],
   },
   {
     id: 'gr-trung-cap-10',
@@ -220,9 +233,9 @@ export const grammarTrungCap: GrammarEntry[] = [
     usageNotes:
       'Dùng khi mệnh đề trước và mệnh đề sau có nội dung trái ngược nhau; ngoài ra còn có thể dùng để diễn đạt cả hai mặt tích cực và tiêu cực của cùng một sự việc trong một câu. Cấu trúc này được dùng nhiều trong văn viết hơn văn nói.',
     examples: [
-      { ko: '저는 읽기는 잘하는 반면에 말하기는 잘 못해요.', vi: 'Tôi đọc thì giỏi, ngược lại nói thì lại không giỏi.' },
-      { ko: '그 가방은 비싼 반면에 질이 좋아요.', vi: 'Chiếc túi đó đắt, nhưng bù lại chất lượng tốt.' },
-      { ko: '그 일은 힘든 반면에 보람이 있어요.', vi: 'Công việc đó vất vả, nhưng bù lại rất ý nghĩa.' },
+      { ko: '저는 읽기는 잘하는 반면에 말하기는 잘 못해요.', vi: 'Tôi đọc thì giỏi, ngược lại nói thì lại không giỏi.', romanization: 'jeo-neun il-kki-neun jal-ha-neun ban-myeo-ne mal-ha-gi-neun jal mo-tae-yo', register: 'polite' },
+      { ko: '그 가방은 비싼 반면에 질이 좋아요.', vi: 'Chiếc túi đó đắt, nhưng bù lại chất lượng tốt.', romanization: 'geu ga-bang-eun bi-ssan ban-myeo-ne ji-ri jo-a-yo', register: 'polite' },
+      { ko: '그 일은 힘든 반면에 보람이 있어요.', vi: 'Công việc đó vất vả, nhưng bù lại rất ý nghĩa.', romanization: 'geu i-reun him-deun ban-myeo-ne bo-ra-mi i-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Thường dùng trong văn viết, trang trọng hơn -지만 nên tránh lạm dụng trong văn nói suồng sã.',
@@ -232,6 +245,15 @@ export const grammarTrungCap: GrammarEntry[] = [
     section: 'dien-ta-su-tuong-phan',
     sectionOrder: 2,
     sectionTitleVi: 'Diễn tả sự tương phản',
+    conjugationTable: [
+      { stemType: 'Tính từ (quy tắc)', baseForm: '비싸다', conjugated: '비싼 반면에' },
+      { stemType: 'Động từ (quy tắc)', baseForm: '잘하다', conjugated: '잘하는 반면에' },
+      { stemType: 'ㄹ 받침 (lược ㄹ, tính từ)', baseForm: '힘들다', conjugated: '힘든 반면에' },
+      { stemType: 'ㅂ bất quy tắc (tính từ)', baseForm: '덥다', conjugated: '더운 반면에' },
+    ],
+    relatedPatterns: [
+      { id: 'gr-so-cap-08', distinction: '-는 반면(에) thường dùng trong văn viết, trang trọng hơn -지만 nên tránh lạm dụng trong văn nói suồng sã.' },
+    ],
   },
   {
     id: 'gr-trung-cap-11',
