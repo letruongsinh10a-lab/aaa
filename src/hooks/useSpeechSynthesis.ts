@@ -4,12 +4,33 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 
 const DEFAULT_RATE = 1
 
+// macOS/iOS ship a set of "novelty" character voices (Grandma, Grandpa, Eddy,
+// Flo, Reed, Rocko, Sandy, Shelley) localized into every language, including
+// Korean. They sort before the real per-language voice (e.g. "Yuna") in most
+// browsers' voice list, so a naive "first Korean voice" pick reliably grabs
+// a cartoonish novelty voice instead of a natural-sounding one.
+const NOVELTY_VOICE_NAMES = ['grandma', 'grandpa', 'eddy', 'flo', 'reed', 'rocko', 'sandy', 'shelley']
+
+function isNoveltyVoice(voice: SpeechSynthesisVoice): boolean {
+  const name = voice.name.toLowerCase()
+  return NOVELTY_VOICE_NAMES.some(n => name.startsWith(n))
+}
+
 function findKoreanVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
-  return (
-    voices.find(v => v.lang === 'ko-KR') ??
-    voices.find(v => v.lang.toLowerCase().startsWith('ko')) ??
-    null
-  )
+  const korean = voices.filter(v => v.lang === 'ko-KR' || v.lang.toLowerCase().startsWith('ko'))
+  if (korean.length === 0) return null
+
+  // Prefer non-local (network/neural, e.g. Chrome's "Google 한국어") voices —
+  // they're generally higher quality than any on-device voice.
+  const networkVoice = korean.find(v => !v.localService)
+  if (networkVoice) return networkVoice
+
+  // Otherwise prefer a real per-language voice over a novelty one.
+  const naturalVoice = korean.find(v => !isNoveltyVoice(v))
+  if (naturalVoice) return naturalVoice
+
+  // Last resort: even a novelty voice is better than no audio at all.
+  return korean[0]
 }
 
 export interface UseSpeechSynthesisResult {
