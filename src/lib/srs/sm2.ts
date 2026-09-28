@@ -211,3 +211,26 @@ export function estimateNextDueDate(
   const next = calculateNextReview(entry, rating, config)
   return new Date(next.dueDate)
 }
+
+/** Format a (possibly fractional) day interval for short display, e.g. "10 phút", "6 ngày", "3 tháng". */
+export function formatIntervalDays(days: number): string {
+  const minutes = days * 1440
+  if (minutes < 1) return '<1 phút'
+  if (minutes < 60) return `${Math.round(minutes)} phút`
+  const hours = minutes / 60
+  if (hours < 24) return `${Math.round(hours)} giờ`
+  const wholeDays = Math.round(days)
+  if (wholeDays < 30) return `${wholeDays} ngày`
+  const months = wholeDays / 30
+  if (months < 12) return `${Math.round(months)} tháng`
+  return `${Math.round((wholeDays / 365) * 10) / 10} năm`
+}
+
+/** Preview the display-formatted interval a rating would produce, without mutating anything. */
+export function previewInterval(
+  entry: SRSEntry,
+  rating: SRSRating,
+  config: SRSConfig = DEFAULT_SRS_CONFIG,
+): string {
+  return formatIntervalDays(calculateNextReview(entry, rating, config).intervalDays)
+}

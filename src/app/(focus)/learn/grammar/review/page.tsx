@@ -275,7 +275,12 @@ function GrammarReviewSession() {
             </AnimatePresence>
           </div>
           <div className="px-6 pb-8 shrink-0">
-            <CardRating visible={grammarSession.isFlipped} onRate={grammarSession.rate} onFlip={grammarSession.flip} />
+            <CardRating
+              visible={grammarSession.isFlipped}
+              onRate={grammarSession.rate}
+              onFlip={grammarSession.flip}
+              currentEntry={grammarSession.currentEntry}
+            />
           </div>
         </>
       )}

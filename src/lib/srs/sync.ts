@@ -10,6 +10,7 @@ import {
   replaceAllEntries,
   replaceHeatmap,
   resetLocalProgress,
+  computeLevel,
   type LocalUser,
 } from './store'
 
@@ -83,11 +84,6 @@ function userFromProfileRow(row: ProfileRow): LocalUser {
   }
 }
 
-/** Mirrors store.ts's touchStreak() level formula — level is always derived, never trusted from either side of a merge. */
-function levelFromXp(xp: number): number {
-  return Math.floor(Math.sqrt(xp / 100)) + 1
-}
-
 // ─── local sync markers ─────────────────────────────────────────────────────
 
 function getLastSyncedUid(): string | null {
@@ -135,7 +131,7 @@ export async function pushDirtyEntries(userId: string): Promise<void> {
       xp_today: user.xpToday,
       streak_days: user.streakDays,
       last_study_date: user.lastStudyDate,
-      level: levelFromXp(user.xp),
+      level: computeLevel(user.xp),
       cards_reviewed_today: user.cardsReviewedToday,
       minutes_today: user.minutesToday,
       updated_at: new Date().toISOString(),
@@ -235,7 +231,7 @@ export async function reconcileOnSignIn(userId: string): Promise<void> {
     xpToday: Math.max(localUser.xpToday, serverUser.xpToday),
     streakDays: streakWinner.streakDays,
     lastStudyDate: streakWinner.lastStudyDate,
-    level: levelFromXp(mergedXp),
+    level: computeLevel(mergedXp),
     cardsReviewedToday: Math.max(localUser.cardsReviewedToday, serverUser.cardsReviewedToday),
     minutesToday: Math.max(localUser.minutesToday, serverUser.minutesToday),
   }

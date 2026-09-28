@@ -1,7 +1,8 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
-import type { SRSRating } from '@/types'
+import type { SRSEntry, SRSRating } from '@/types'
+import { previewInterval } from '@/lib/srs/sm2'
 
 const BUTTONS: { label: string; key: SRSRating; color: string; kbd: string }[] = [
   { label: 'Quên rồi', key: 'again', color: 'border-accent-error/40 text-accent-error hover:bg-accent-error/10',   kbd: '1' },
@@ -14,9 +15,11 @@ interface CardRatingProps {
   visible: boolean
   onRate: (rating: SRSRating) => void
   onFlip: () => void
+  /** When provided, each button previews the resulting review interval (Anki-style). */
+  currentEntry?: SRSEntry | null
 }
 
-export function CardRating({ visible, onRate, onFlip }: CardRatingProps) {
+export function CardRating({ visible, onRate, onFlip, currentEntry }: CardRatingProps) {
   return (
     <AnimatePresence>
       {visible ? (
@@ -34,7 +37,10 @@ export function CardRating({ visible, onRate, onFlip }: CardRatingProps) {
                 className={`flex-1 py-3 rounded-xl border text-sm font-medium transition-all duration-150 ${btn.color}`}
               >
                 <span className="block">{btn.label}</span>
-                <span className="block text-[10px] opacity-40 mt-0.5">({btn.kbd})</span>
+                <span className="block text-[10px] opacity-60 mt-0.5">
+                  {currentEntry ? previewInterval(currentEntry, btn.key) : null}
+                  {currentEntry ? ' · ' : null}({btn.kbd})
+                </span>
               </button>
             ))}
           </div>

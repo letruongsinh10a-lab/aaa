@@ -28,6 +28,11 @@ const DEFAULT_USER: LocalUser = {
   minutesToday: 0,
 }
 
+/** The one place the XP→level formula lives — sync.ts imports this rather than re-deriving it. */
+export function computeLevel(xp: number): number {
+  return Math.floor(Math.sqrt(xp / 100)) + 1
+}
+
 // ─── SRS entries ────────────────────────────────────────────────
 
 export function getAllEntries(): Record<string, SRSEntry> {
@@ -60,7 +65,10 @@ export function replaceAllEntries(entries: Record<string, SRSEntry>) {
 export function reviewCard(cardId: string, rating: SRSRating, userId = 'local'): number {
   const entries = getAllEntries()
   const existing = entries[cardId] ?? createNewEntry(userId, cardId)
-  const user = getLocalUser()
+  // touchStreak() first: any SRS review — vocab flashcards or grammar review —
+  // counts as "studied today", so the streak/level reflect the day correctly
+  // before the XP multiplier below reads streakDays.
+  const user = touchStreak()
   const xpEarned = getXP(rating, user.streakDays)
 
   entries[cardId] = calculateNextReview(existing, rating)
@@ -71,6 +79,7 @@ export function reviewCard(cardId: string, rating: SRSRating, userId = 'local'):
       xp: user.xp + xpEarned,
       xpToday: user.xpToday + xpEarned,
       cardsReviewedToday: user.cardsReviewedToday + 1,
+      level: computeLevel(user.xp + xpEarned),
     })
     recordHeatmapXP(xpEarned)
   }
@@ -80,11 +89,14 @@ export function reviewCard(cardId: string, rating: SRSRating, userId = 'local'):
 
 /**
  * Award XP without touching any SRSEntry — used by non-SRS practice modes
- * (e.g. grammar exercise drills) that must never affect a card's review schedule.
+ * (grammar exercise drills, listening, speaking) that must never affect a
+ * card's review schedule, but must still count as "studied today" for the
+ * streak — this is the only XP path those features have, so touchStreak()
+ * has to live here too, not just in reviewCard().
  */
 export function awardXP(amount: number) {
-  const user = getLocalUser()
-  updateUser({ xp: user.xp + amount, xpToday: user.xpToday + amount })
+  const user = touchStreak()
+  updateUser({ xp: user.xp + amount, xpToday: user.xpToday + amount, level: computeLevel(user.xp + amount) })
   recordHeatmapXP(amount)
 }
 
@@ -115,7 +127,7 @@ export function touchStreak(): LocalUser {
   let newStreak = 1
   if (user.lastStudyDate === yesterday) newStreak = user.streakDays + 1
 
-  const newLevel = Math.floor(Math.sqrt(user.xp / 100)) + 1
+  const newLevel = computeLevel(user.xp)
   const updated: LocalUser = {
     ...user,
     streakDays: newStreak,

@@ -37,7 +37,7 @@ function FlashcardsSession() {
   const topic = vocabByTopicList.find(t => t.slug === topicParam) ?? null
 
   const [sessionIds, setSessionIds] = useState<string[]>([])
-  const { phase, currentCardId, progress, isFlipped, stats, flip, rate, restart, exit } =
+  const { phase, currentCardId, progress, isFlipped, stats, flip, rate, restart, exit, currentEntry } =
     useFlashcardSession([])
   const initializedRef = useRef(false)
   const prevXpRef = useRef(0)
@@ -172,7 +172,7 @@ function FlashcardsSession() {
 
       {/* Rating */}
       <div className="px-6 pb-8 shrink-0">
-        <CardRating visible={isFlipped} onRate={rate} onFlip={flip} />
+        <CardRating visible={isFlipped} onRate={rate} onFlip={flip} currentEntry={currentEntry} />
       </div>
     </div>
   )
