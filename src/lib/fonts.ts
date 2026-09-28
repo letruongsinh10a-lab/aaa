@@ -1,8 +1,8 @@
-import { Instrument_Serif, Plus_Jakarta_Sans, Noto_Sans_KR } from 'next/font/google'
+import { Playfair_Display, Plus_Jakarta_Sans, Noto_Sans_KR } from 'next/font/google'
 
-export const instrumentSerif = Instrument_Serif({
-  weight: ['400'],
-  subsets: ['latin'],
+export const displaySerif = Playfair_Display({
+  weight: ['400', '500', '600'],
+  subsets: ['latin', 'vietnamese'],
   style: ['normal', 'italic'],
   variable: '--font-serif',
   display: 'swap',

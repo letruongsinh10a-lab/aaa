@@ -28,7 +28,7 @@ export function HeroSection() {
           </motion.p>
 
           <motion.h1 variants={fadeUp}
-            className="font-serif text-[64px] md:text-[80px] lg:text-[96px] font-normal leading-[1.0] tracking-[-0.03em] [word-spacing:0.15em] text-text-primary mb-6">
+            className="font-serif text-[56px] md:text-[72px] lg:text-[84px] font-normal leading-[1.0] tracking-[-0.03em] text-text-primary mb-6">
             Học tiếng Hàn<br />
             <span className="italic text-accent-coral">như người Hàn.</span>
           </motion.h1>

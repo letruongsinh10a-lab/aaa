@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { instrumentSerif, plusJakartaSans, notoSansKR } from '@/lib/fonts'
+import { displaySerif, plusJakartaSans, notoSansKR } from '@/lib/fonts'
 import { Providers } from '@/components/providers/Providers'
 import './globals.css'
 
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="vi"
-      className={`${instrumentSerif.variable} ${plusJakartaSans.variable} ${notoSansKR.variable}`}
+      className={`${displaySerif.variable} ${plusJakartaSans.variable} ${notoSansKR.variable}`}
       suppressHydrationWarning
     >
       <body>
