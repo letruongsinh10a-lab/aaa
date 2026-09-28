@@ -38,6 +38,7 @@ type ProfileRow = {
   xp: number
   xp_today: number
   streak_days: number
+  streak_freeze_count: number
   last_study_date: string | null
   level: number
   cards_reviewed_today: number
@@ -77,6 +78,7 @@ function userFromProfileRow(row: ProfileRow): LocalUser {
     xp: row.xp,
     xpToday: row.xp_today,
     streakDays: row.streak_days,
+    streakFreezeCount: row.streak_freeze_count,
     lastStudyDate: row.last_study_date,
     level: row.level,
     cardsReviewedToday: row.cards_reviewed_today,
@@ -130,6 +132,7 @@ export async function pushDirtyEntries(userId: string): Promise<void> {
       xp: user.xp,
       xp_today: user.xpToday,
       streak_days: user.streakDays,
+      streak_freeze_count: user.streakFreezeCount,
       last_study_date: user.lastStudyDate,
       level: computeLevel(user.xp),
       cards_reviewed_today: user.cardsReviewedToday,
@@ -232,6 +235,7 @@ export async function reconcileOnSignIn(userId: string): Promise<void> {
     streakDays: streakWinner.streakDays,
     lastStudyDate: streakWinner.lastStudyDate,
     level: computeLevel(mergedXp),
+    streakFreezeCount: Math.max(localUser.streakFreezeCount, serverUser.streakFreezeCount),
     cardsReviewedToday: Math.max(localUser.cardsReviewedToday, serverUser.cardsReviewedToday),
     minutesToday: Math.max(localUser.minutesToday, serverUser.minutesToday),
   }

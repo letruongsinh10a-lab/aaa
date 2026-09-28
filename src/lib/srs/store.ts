@@ -16,6 +16,7 @@ export interface LocalUser {
   level: number
   cardsReviewedToday: number
   minutesToday: number
+  streakFreezeCount: number
 }
 
 const DEFAULT_USER: LocalUser = {
@@ -26,7 +27,11 @@ const DEFAULT_USER: LocalUser = {
   level: 1,
   cardsReviewedToday: 0,
   minutesToday: 0,
+  streakFreezeCount: 0,
 }
+
+/** Max streak freezes a user can bank at once — earned, never bought. */
+const STREAK_FREEZE_CAP = 2
 
 /** The one place the XP→level formula lives — sync.ts imports this rather than re-deriving it. */
 export function computeLevel(xp: number): number {
@@ -121,21 +126,37 @@ export function touchStreak(): LocalUser {
   const user = getLocalUser()
   const today = new Date().toISOString().split('T')[0]
   const yesterday = new Date(Date.now() - 864e5).toISOString().split('T')[0]
+  const twoDaysAgo = new Date(Date.now() - 2 * 864e5).toISOString().split('T')[0]
 
   if (user.lastStudyDate === today) return user
 
-  let newStreak = 1
-  if (user.lastStudyDate === yesterday) newStreak = user.streakDays + 1
+  let newStreak: number
+  let freezeCount = user.streakFreezeCount
 
-  const newLevel = computeLevel(user.xp)
+  if (user.lastStudyDate === yesterday) {
+    newStreak = user.streakDays + 1
+  } else if (user.lastStudyDate === twoDaysAgo && freezeCount > 0) {
+    // Exactly one day was missed and a freeze is banked — spend it to keep the streak alive.
+    newStreak = user.streakDays + 1
+    freezeCount -= 1
+  } else {
+    newStreak = 1
+  }
+
+  // Earn a freeze at every 7-day milestone (same cadence as the ×1.5 XP bonus), capped.
+  if (newStreak % 7 === 0 && freezeCount < STREAK_FREEZE_CAP) {
+    freezeCount += 1
+  }
+
   const updated: LocalUser = {
     ...user,
     streakDays: newStreak,
     lastStudyDate: today,
-    level: newLevel,
-    xpToday: user.lastStudyDate === today ? user.xpToday : 0,
-    cardsReviewedToday: user.lastStudyDate === today ? user.cardsReviewedToday : 0,
-    minutesToday: user.lastStudyDate === today ? user.minutesToday : 0,
+    level: computeLevel(user.xp),
+    streakFreezeCount: freezeCount,
+    xpToday: 0,
+    cardsReviewedToday: 0,
+    minutesToday: 0,
   }
   localStorage.setItem(USER_KEY, JSON.stringify(updated))
   return updated

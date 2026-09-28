@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import {
   LayoutDashboard, FileText, Headphones,
-  Mic, Trophy, GraduationCap, Settings, Flame, Library, Tags,
+  Mic, Trophy, GraduationCap, Settings, Flame, Library, Tags, Snowflake,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useDashboard } from '@/hooks/useDashboard'
@@ -61,6 +61,14 @@ export function Sidebar() {
           </span>
           {d.streakDays >= 7 && (
             <span className="text-[10px] bg-accent-amber/15 text-accent-amber px-1.5 py-0.5 rounded-full font-medium">×1.5</span>
+          )}
+          {d.streakFreezeCount > 0 && (
+            <span
+              className="flex items-center gap-0.5 text-[10px] bg-accent-blue/15 text-accent-blue px-1.5 py-0.5 rounded-full font-medium"
+              title="Số lần đóng băng streak đang có — tự động cứu streak nếu lỡ quên học 1 ngày"
+            >
+              <Snowflake className="w-2.5 h-2.5" /> ×{d.streakFreezeCount}
+            </span>
           )}
         </div>
 

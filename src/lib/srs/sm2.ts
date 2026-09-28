@@ -234,3 +234,30 @@ export function previewInterval(
 ): string {
   return formatIntervalDays(calculateNextReview(entry, rating, config).intervalDays)
 }
+
+/**
+ * Forecast how many already-reviewed cards will come due on each of the next
+ * `days` days — an Anki-style "review load ahead" chart. Cards with no entry
+ * yet (never reviewed) are excluded: they're already counted as "due today"
+ * elsewhere and don't have a meaningful scheduled dueDate to forecast.
+ */
+export function getForecast(
+  entries: Record<string, SRSEntry>,
+  cardIds: string[],
+  days: number = 14,
+): { date: string; count: number }[] {
+  const dueDateCounts = new Map<string, number>()
+  for (const cardId of cardIds) {
+    const entry = entries[cardId]
+    if (!entry || entry.reviewCount === 0) continue
+    dueDateCounts.set(entry.dueDate, (dueDateCounts.get(entry.dueDate) ?? 0) + 1)
+  }
+
+  const today = new Date()
+  const result: { date: string; count: number }[] = []
+  for (let i = 0; i < days; i++) {
+    const date = toISODate(addDays(today, i))
+    result.push({ date, count: dueDateCounts.get(date) ?? 0 })
+  }
+  return result
+}

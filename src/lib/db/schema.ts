@@ -16,6 +16,7 @@ export const profiles = pgTable('profiles', {
   xp: integer('xp').notNull().default(0),
   xpToday: integer('xp_today').notNull().default(0),
   streakDays: integer('streak_days').notNull().default(0),
+  streakFreezeCount: integer('streak_freeze_count').notNull().default(0),
   lastStudyDate: date('last_study_date', { mode: 'string' }),
   cardsReviewedToday: integer('cards_reviewed_today').notNull().default(0),
   minutesToday: integer('minutes_today').notNull().default(0),

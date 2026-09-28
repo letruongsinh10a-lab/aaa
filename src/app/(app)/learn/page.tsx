@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Flame, BookOpen, Target, Clock } from 'lucide-react'
+import { Flame, BookOpen, Target, Clock, Brain } from 'lucide-react'
 import Link from 'next/link'
 import { Card } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -9,6 +9,7 @@ import { buttonVariants } from '@/components/ui/Button'
 import { useDashboard } from '@/hooks/useDashboard'
 import { fadeUp, stagger, viewportOnce } from '@/lib/motion'
 import { ActivityHeatmap } from '@/components/gamification/ActivityHeatmap'
+import { ReviewForecast } from '@/components/gamification/ReviewForecast'
 
 const LEVEL_TITLES: Record<number, string> = {
   1: '초보자', 2: '초보자', 3: '학생', 4: '학생', 5: '학생',
@@ -32,11 +33,12 @@ export default function DashboardPage() {
   const xpThisLevel    = ((d.level - 1) * (d.level - 1)) * 100
   const levelProgress  = Math.min(100, ((d.xp - xpThisLevel) / (xpForNextLevel - xpThisLevel)) * 100)
 
-  const stats = [
+  const stats: { label: string; value: number | string; suffix: string; icon: typeof Target; color: string }[] = [
     { label: 'XP hôm nay',    value: d.xpToday,            suffix: ' xp', icon: Target,   color: 'text-accent-coral' },
     { label: 'Cards đã ôn',   value: d.cardsReviewedToday, suffix: '',    icon: BookOpen,  color: 'text-accent-blue' },
     { label: 'Streak',         value: d.streakDays,          suffix: ' ngày', icon: Flame, color: d.streakDays > 0 ? 'text-accent-amber' : 'text-text-tertiary' },
     { label: 'Thời gian',     value: d.minutesToday,        suffix: ' phút', icon: Clock,  color: 'text-accent-success' },
+    { label: 'Ghi nhớ',       value: d.retentionRate ?? '—', suffix: d.retentionRate !== null ? '%' : '', icon: Brain, color: 'text-accent-korean' },
   ]
 
   return (
@@ -66,7 +68,7 @@ export default function DashboardPage() {
       {/* Stats */}
       <motion.div
         variants={stagger(0.06)} initial="hidden" animate="visible"
-        className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6"
+        className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6"
       >
         {stats.map((s) => (
           <motion.div key={s.label} variants={fadeUp}>
@@ -136,6 +138,16 @@ export default function DashboardPage() {
             Hoạt động học tập — 26 tuần gần nhất
           </p>
           <ActivityHeatmap data={d.heatmap} weeks={26} />
+        </div>
+      </motion.div>
+
+      {/* Review forecast */}
+      <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewportOnce} className="mb-8">
+        <div className="border border-[rgba(255,255,255,0.08)] rounded-xl p-5 bg-bg-surface">
+          <p className="text-[11px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-4">
+            Lịch ôn tập — 14 ngày tới
+          </p>
+          <ReviewForecast data={d.forecast} />
         </div>
       </motion.div>
 
