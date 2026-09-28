@@ -4,11 +4,13 @@ import { Suspense, useState } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { X, Zap, PartyPopper } from 'lucide-react'
+import { X, Zap } from 'lucide-react'
 import { listeningByLevelAll } from '@/data/listening'
 import { AudioPlayer } from '@/components/learning/AudioPlayer'
 import { awardXP } from '@/lib/srs/store'
 import { cn } from '@/lib/utils'
+import { AmbientGlow } from '@/components/decorative/AmbientGlow'
+import { Mascot } from '@/components/mascot/Mascot'
 
 const XP_REWARD = 10
 
@@ -48,14 +50,17 @@ function ListeningPracticeSession() {
 
   if (completed) {
     return (
-      <div className="h-screen bg-bg-base flex items-center justify-center px-6">
+      <div className="relative h-screen bg-bg-base flex items-center justify-center px-6 overflow-hidden">
+        <AmbientGlow />
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ type: 'spring', stiffness: 280, damping: 22 }}
           className="text-center max-w-md w-full"
         >
-          <PartyPopper className="w-14 h-14 text-accent-amber mx-auto mb-6" />
+          <div className="flex justify-center mb-6">
+            <Mascot pose="celebrate" size="lg" />
+          </div>
           <h1 className="font-serif text-[44px] font-normal text-text-primary mb-2">Xong rồi!</h1>
           <p className="text-text-secondary mb-8">
             Bạn vừa luyện nghe "{dialogue.titleVi}" · <span className="text-accent-amber">+{XP_REWARD} XP</span>
@@ -80,7 +85,8 @@ function ListeningPracticeSession() {
   }
 
   return (
-    <div className="h-screen bg-bg-base flex flex-col select-none">
+    <div className="relative h-screen bg-bg-base flex flex-col select-none">
+      <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(255,255,255,0.06)] shrink-0">
         <Link

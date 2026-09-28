@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import { RotateCcw } from 'lucide-react'
 import Link from 'next/link'
 import type { SessionStats } from '@/lib/srs/session'
+import { AmbientGlow } from '@/components/decorative/AmbientGlow'
+import { Mascot, type MascotPose } from '@/components/mascot/Mascot'
 
 interface SessionEndProps {
   stats: Pick<SessionStats, 'totalCards' | 'correct' | 'xpEarned' | 'accuracy'>
@@ -12,17 +14,20 @@ interface SessionEndProps {
 
 export function SessionEnd({ stats, onRetry }: SessionEndProps) {
   const { totalCards, correct, xpEarned, accuracy } = stats
-  const emoji = accuracy >= 80 ? '🎉' : accuracy >= 50 ? '💪' : '📚'
+  const pose: MascotPose = accuracy >= 80 ? 'celebrate' : accuracy >= 50 ? 'idle' : 'thinking'
 
   return (
-    <div className="h-screen bg-bg-base flex items-center justify-center px-6">
+    <div className="relative h-screen bg-bg-base flex items-center justify-center px-6 overflow-hidden">
+      <AmbientGlow />
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ type: 'spring', stiffness: 280, damping: 22 }}
         className="text-center max-w-md w-full"
       >
-        <p className="text-7xl mb-6">{emoji}</p>
+        <div className="flex justify-center mb-6">
+          <Mascot pose={pose} size="lg" />
+        </div>
         <h1 className="font-serif text-[52px] font-normal text-text-primary mb-2">Xong rồi!</h1>
         <p className="text-text-secondary mb-10">{totalCards} cards · {accuracy}% chính xác</p>
 

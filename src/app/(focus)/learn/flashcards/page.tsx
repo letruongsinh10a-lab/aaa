@@ -12,6 +12,7 @@ import { useAuthStore } from '@/stores/authStore'
 import { FlashCard } from '@/components/learning/FlashCard'
 import { CardRating } from '@/components/learning/CardRating'
 import { SessionEnd } from '@/components/learning/SessionEnd'
+import { AmbientGlow } from '@/components/decorative/AmbientGlow'
 
 const ALL_CARDS = [...vocabTopik2All, ...vocabByTopicAll]
 const ALL_IDS = ALL_CARDS.map(c => c.id)
@@ -112,7 +113,8 @@ function FlashcardsSession() {
   }
 
   return (
-    <div className="h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+    <div className="relative h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+      <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(255,255,255,0.06)] shrink-0">
         <button

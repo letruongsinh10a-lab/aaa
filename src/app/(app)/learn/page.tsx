@@ -10,6 +10,7 @@ import { useDashboard } from '@/hooks/useDashboard'
 import { fadeUp, stagger, viewportOnce } from '@/lib/motion'
 import { ActivityHeatmap } from '@/components/gamification/ActivityHeatmap'
 import { ReviewForecast } from '@/components/gamification/ReviewForecast'
+import { Mascot } from '@/components/mascot/Mascot'
 
 const LEVEL_TITLES: Record<number, string> = {
   1: '초보자', 2: '초보자', 3: '학생', 4: '학생', 5: '학생',
@@ -90,23 +91,26 @@ export default function DashboardPage() {
           hoverable={false}
         >
           <div className="flex items-center justify-between gap-4 flex-wrap">
-            <div>
-              {d.dueCount > 0
-                ? <Badge variant="coral" dot className="mb-2">Cần ôn tập</Badge>
-                : <Badge variant="success" className="mb-2">Đã hoàn thành hôm nay</Badge>
-              }
-              <h2 className="text-lg font-semibold text-text-primary">
+            <div className="flex items-center gap-4">
+              {d.dueCount === 0 && <Mascot pose="celebrate" size="sm" />}
+              <div>
                 {d.dueCount > 0
-                  ? <>{d.dueCount} flashcard đang chờ</>
-                  : <>Không còn card nào hôm nay 🎉</>
+                  ? <Badge variant="coral" dot className="mb-2">Cần ôn tập</Badge>
+                  : <Badge variant="success" className="mb-2">Đã hoàn thành hôm nay</Badge>
                 }
-              </h2>
-              <p className="text-sm text-text-secondary mt-0.5">
-                {d.dueCount > 0
-                  ? 'Ôn tập để giữ streak và tăng XP'
-                  : 'Quay lại ngày mai để ôn tập tiếp'
-                }
-              </p>
+                <h2 className="text-lg font-semibold text-text-primary">
+                  {d.dueCount > 0
+                    ? <>{d.dueCount} flashcard đang chờ</>
+                    : <>Không còn card nào hôm nay</>
+                  }
+                </h2>
+                <p className="text-sm text-text-secondary mt-0.5">
+                  {d.dueCount > 0
+                    ? 'Ôn tập để giữ streak và tăng XP'
+                    : 'Quay lại ngày mai để ôn tập tiếp'
+                  }
+                </p>
+              </div>
             </div>
             <Link
               href="/learn/flashcards"

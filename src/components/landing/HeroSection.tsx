@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { ArrowRight, Flame, Zap } from 'lucide-react'
 import { buttonVariants } from '@/components/ui/Button'
 import { fadeUp, stagger } from '@/lib/motion'
+import { AmbientGlow } from '@/components/decorative/AmbientGlow'
+import { Mascot } from '@/components/mascot/Mascot'
 
 const stats = [
   { value: '12,000+', label: 'Học viên' },
@@ -16,11 +18,7 @@ const stats = [
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center pt-32 pb-24 px-6">
-      {/* Ambient glows */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
-        <div className="absolute top-1/4 left-1/4 w-[800px] h-[800px] rounded-full bg-accent-coral opacity-[0.04] blur-[160px]" />
-        <div className="absolute bottom-1/3 right-1/4 w-[600px] h-[600px] rounded-full bg-accent-blue opacity-[0.035] blur-[140px]" />
-      </div>
+      <AmbientGlow />
 
       <div className="relative max-w-[1200px] mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left — copy */}
@@ -107,6 +105,14 @@ export function HeroSection() {
                 <p className="text-xs text-text-tertiary">XP hôm nay</p>
                 <p className="text-sm font-semibold text-text-primary">+250 XP</p>
               </div>
+            </motion.div>
+
+            <motion.div
+              animate={{ y: [0, -6, 0] }}
+              transition={{ duration: 3.2, repeat: Infinity, ease: 'easeInOut', delay: 0.7 }}
+              className="absolute -bottom-2 right-4"
+            >
+              <Mascot pose="idle" size="sm" />
             </motion.div>
           </div>
         </motion.div>

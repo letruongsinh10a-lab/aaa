@@ -9,6 +9,7 @@ import { grammarExercisesByPatternId } from '@/data/grammar-exercises'
 import { useGrammarPractice } from '@/hooks/useGrammarPractice'
 import { GrammarExercisePlayer } from '@/components/learning/GrammarExercisePlayer'
 import { SessionEnd } from '@/components/learning/SessionEnd'
+import { AmbientGlow } from '@/components/decorative/AmbientGlow'
 
 export default function GrammarPracticePage() {
   return (
@@ -55,7 +56,8 @@ function GrammarPracticeSession() {
   }
 
   return (
-    <div className="h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+    <div className="relative h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+      <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(255,255,255,0.06)] shrink-0">
         <a
