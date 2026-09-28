@@ -87,7 +87,7 @@ export default function DashboardPage() {
       {/* Due cards CTA */}
       <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewportOnce} className="mb-5">
         <Card
-          className={`p-6 ${d.dueCount > 0 ? 'border-[rgba(255,107,74,0.20)]' : 'border-[rgba(255,255,255,0.08)]'}`}
+          className={`p-6 ${d.dueCount > 0 ? 'border-[rgba(255,107,74,0.20)]' : 'border-[rgba(var(--overlay-rgb),0.08)]'}`}
           hoverable={false}
         >
           <div className="flex items-center justify-between gap-4 flex-wrap">
@@ -121,7 +121,7 @@ export default function DashboardPage() {
           </div>
 
           {d.grammarDueCount > 0 && (
-            <div className="flex items-center justify-between gap-4 flex-wrap mt-5 pt-5 border-t border-[rgba(255,255,255,0.06)]">
+            <div className="flex items-center justify-between gap-4 flex-wrap mt-5 pt-5 border-t border-[rgba(var(--overlay-rgb),0.06)]">
               <div>
                 <Badge variant="coral" dot className="mb-2">Ngữ pháp cần ôn</Badge>
                 <h2 className="text-lg font-semibold text-text-primary">{d.grammarDueCount} mẫu ngữ pháp đến hạn</h2>
@@ -137,7 +137,7 @@ export default function DashboardPage() {
 
       {/* Activity heatmap */}
       <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewportOnce} className="mb-8">
-        <div className="border border-[rgba(255,255,255,0.08)] rounded-xl p-5 bg-bg-surface">
+        <div className="border border-[rgba(var(--overlay-rgb),0.08)] rounded-xl p-5 bg-bg-surface">
           <p className="text-[11px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-4">
             Hoạt động học tập — 26 tuần gần nhất
           </p>
@@ -147,7 +147,7 @@ export default function DashboardPage() {
 
       {/* Review forecast */}
       <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewportOnce} className="mb-8">
-        <div className="border border-[rgba(255,255,255,0.08)] rounded-xl p-5 bg-bg-surface">
+        <div className="border border-[rgba(var(--overlay-rgb),0.08)] rounded-xl p-5 bg-bg-surface">
           <p className="text-[11px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-4">
             Lịch ôn tập — 14 ngày tới
           </p>

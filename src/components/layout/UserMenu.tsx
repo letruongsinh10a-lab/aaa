@@ -60,9 +60,9 @@ export function UserMenu({ user }: { user: User }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.12 }}
-            className="absolute right-0 mt-2 w-48 bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-lg py-1.5 z-50"
+            className="absolute right-0 mt-2 w-48 bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-lg py-1.5 z-50"
           >
-            <p className="px-3 py-2 text-sm text-text-primary truncate border-b border-[rgba(255,255,255,0.06)]">
+            <p className="px-3 py-2 text-sm text-text-primary truncate border-b border-[rgba(var(--overlay-rgb),0.06)]">
               {displayName}
             </p>
             <Link

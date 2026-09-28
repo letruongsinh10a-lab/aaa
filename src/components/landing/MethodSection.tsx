@@ -16,7 +16,7 @@ const methods = [
           { word: '사랑', due: 'Hôm nay', color: 'bg-accent-coral' },
           { word: '친구', due: '3 ngày',  color: 'bg-accent-blue' },
           { word: '공부', due: '7 ngày',  color: 'bg-accent-success' },
-          { word: '음식', due: '21 ngày', color: 'bg-[rgba(255,255,255,0.2)]' },
+          { word: '음식', due: '21 ngày', color: 'bg-[rgba(var(--overlay-rgb),0.2)]' },
         ].map((item) => (
           <div key={item.word} className="flex items-center justify-between bg-bg-elevated rounded-lg px-4 py-3">
             <span lang="ko" className="font-korean font-bold text-text-primary text-lg">{item.word}</span>
@@ -39,7 +39,7 @@ const methods = [
           <p lang="ko" className="font-korean text-2xl font-bold text-text-primary mb-1">맛있다</p>
           <p className="text-sm text-text-secondary">ma-sit-da · <em>ngon</em></p>
         </div>
-        <div className="border-t border-[rgba(255,255,255,0.06)] pt-4 space-y-3">
+        <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] pt-4 space-y-3">
           {[
             '이 음식은 <b>정말 맛있어요</b>.',
             '한국 음식이 <b>맛있어서</b> 매일 먹어요.',

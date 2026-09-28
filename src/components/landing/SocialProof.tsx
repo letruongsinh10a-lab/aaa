@@ -11,7 +11,7 @@ const activity = [
 
 export function SocialProof() {
   return (
-    <section className="px-6 py-20 border-y border-[rgba(255,255,255,0.06)] bg-bg-surface">
+    <section className="px-6 py-20 border-y border-[rgba(var(--overlay-rgb),0.06)] bg-bg-surface">
       <div className="max-w-[1200px] mx-auto">
         <motion.div
           initial="hidden"

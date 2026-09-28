@@ -38,7 +38,7 @@ export function FlashCard({ card, flipped, onFlip }: FlashCardProps) {
       >
         {/* Front */}
         <div
-          className="[grid-area:1/1] bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-12 min-h-[420px] flex flex-col items-center justify-center text-center"
+          className="[grid-area:1/1] bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-12 min-h-[420px] flex flex-col items-center justify-center text-center"
           style={{ backfaceVisibility: 'hidden' }}
         >
           <p className="text-[10px] font-medium tracking-[0.16em] uppercase text-text-tertiary mb-8">
@@ -58,14 +58,14 @@ export function FlashCard({ card, flipped, onFlip }: FlashCardProps) {
             <Volume2 className="w-5 h-5" />
           </button>
           <p className="text-text-tertiary text-xs mt-8">
-            <kbd className="px-1.5 py-0.5 bg-bg-elevated rounded text-[10px] border border-[rgba(255,255,255,0.1)]">Space</kbd>{' '}
+            <kbd className="px-1.5 py-0.5 bg-bg-elevated rounded text-[10px] border border-[rgba(var(--overlay-rgb),0.1)]">Space</kbd>{' '}
             để lật thẻ
           </p>
         </div>
 
         {/* Back */}
         <div
-          className="[grid-area:1/1] bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-12 min-h-[420px] flex flex-col items-center justify-center text-center"
+          className="[grid-area:1/1] bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-12 min-h-[420px] flex flex-col items-center justify-center text-center"
           style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
         >
           <p lang="ko" className="font-korean text-[52px] font-bold text-text-primary leading-none mb-3">
@@ -74,13 +74,13 @@ export function FlashCard({ card, flipped, onFlip }: FlashCardProps) {
           <p className="text-text-secondary text-base mb-5 font-mono">{card.romanization}</p>
           <p className="text-text-primary text-2xl font-semibold mb-6">{card.meaningVi}</p>
           {card.examples[0] && (
-            <div className="border-t border-[rgba(255,255,255,0.06)] pt-5 w-full text-left space-y-1 max-w-sm mx-auto">
+            <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] pt-5 w-full text-left space-y-1 max-w-sm mx-auto">
               <p lang="ko" className="font-korean text-sm text-text-secondary">{card.examples[0].ko}</p>
               <p className="text-xs text-text-tertiary">{card.examples[0].vi}</p>
             </div>
           )}
           {card.relatedPhrases && card.relatedPhrases.length > 0 && (
-            <div className="border-t border-[rgba(255,255,255,0.06)] mt-5 pt-5 w-full max-w-md mx-auto">
+            <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] mt-5 pt-5 w-full max-w-md mx-auto">
               <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-3 text-left">
                 Cụm từ
               </p>
@@ -88,7 +88,7 @@ export function FlashCard({ card, flipped, onFlip }: FlashCardProps) {
                 {card.relatedPhrases.map((phrase, i) => {
                   const { ko, vi } = splitPhrase(phrase)
                   return (
-                    <div key={i} className="rounded-lg bg-bg-elevated border border-[rgba(255,255,255,0.06)] px-4 py-2.5 text-left">
+                    <div key={i} className="rounded-lg bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)] px-4 py-2.5 text-left">
                       <p lang="ko" className="font-korean text-lg font-semibold text-text-primary">{ko}</p>
                       {vi && <p className="text-sm text-text-secondary mt-0.5">{vi}</p>}
                     </div>

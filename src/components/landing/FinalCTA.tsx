@@ -16,7 +16,7 @@ export function FinalCTA() {
         whileInView="visible"
         viewport={viewportOnce}
         variants={fadeUp}
-        className="relative border border-[rgba(255,255,255,0.08)] rounded-2xl p-12 md:p-20 text-center overflow-hidden bg-bg-surface"
+        className="relative border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-12 md:p-20 text-center overflow-hidden bg-bg-surface"
       >
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-[rgba(255,107,74,0.05)] to-[rgba(108,142,239,0.05)]" />
         <p lang="ko" className="font-korean text-2xl text-text-tertiary mb-5">시작해볼까요?</p>

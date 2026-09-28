@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { useScrolled } from '@/hooks/useScrolled'
 import { buttonVariants } from '@/components/ui/Button'
+import { ThemeToggle } from '@/components/ui/ThemeToggle'
 import { UserMenu } from '@/components/layout/UserMenu'
 import { useAuthStore } from '@/stores/authStore'
 import { createClient } from '@/lib/supabase/client'
@@ -38,7 +39,7 @@ export function Header() {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         scrolled
-          ? 'bg-bg-base/90 backdrop-blur-md border-b border-[rgba(255,255,255,0.06)]'
+          ? 'bg-bg-base/90 backdrop-blur-md border-b border-[rgba(var(--overlay-rgb),0.06)]'
           : 'bg-transparent'
       )}
     >
@@ -66,6 +67,7 @@ export function Header() {
 
         {/* Desktop actions */}
         <div className="hidden md:flex items-center gap-2">
+          <ThemeToggle />
           {status === 'authenticated' && user ? (
             <UserMenu user={user} />
           ) : status === 'guest' ? (
@@ -80,15 +82,18 @@ export function Header() {
           ) : null}
         </div>
 
-        {/* Mobile toggle */}
-        <button
-          className="md:hidden p-2 text-text-secondary hover:text-text-primary transition-colors"
-          onClick={() => setMobileOpen((v) => !v)}
-          aria-label="Toggle menu"
-          aria-expanded={mobileOpen}
-        >
-          {mobileOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
+        {/* Mobile actions */}
+        <div className="md:hidden flex items-center gap-1">
+          <ThemeToggle />
+          <button
+            className="p-2 text-text-secondary hover:text-text-primary transition-colors"
+            onClick={() => setMobileOpen((v) => !v)}
+            aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+          >
+            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
@@ -99,7 +104,7 @@ export function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.15 }}
-            className="md:hidden bg-bg-surface border-b border-[rgba(255,255,255,0.06)] px-6 py-4 flex flex-col gap-1"
+            className="md:hidden bg-bg-surface border-b border-[rgba(var(--overlay-rgb),0.06)] px-6 py-4 flex flex-col gap-1"
           >
             {navLinks.map((link) => (
               <Link
@@ -111,7 +116,7 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <div className="flex flex-col gap-2 pt-3 mt-2 border-t border-[rgba(255,255,255,0.06)]">
+            <div className="flex flex-col gap-2 pt-3 mt-2 border-t border-[rgba(var(--overlay-rgb),0.06)]">
               {status === 'authenticated' && user ? (
                 <>
                   <Link

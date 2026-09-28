@@ -100,7 +100,7 @@ export default function VocabPage() {
                 'h-9 rounded-lg text-xs font-medium transition-all duration-150',
                 !isSearching && activeDay === day
                   ? 'bg-accent-coral text-white'
-                  : 'bg-bg-elevated border border-[rgba(255,255,255,0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(255,255,255,0.16)]'
+                  : 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(var(--overlay-rgb),0.16)]'
               )}
             >
               {day}
@@ -119,7 +119,7 @@ export default function VocabPage() {
             placeholder="Tìm từ, nghĩa trên toàn bộ 1.710 từ..."
             value={search}
             onChange={e => { setSearch(e.target.value); setPage(1) }}
-            className="w-full bg-bg-elevated border border-[rgba(255,255,255,0.08)] rounded-lg pl-9 pr-4 py-2.5 text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-[rgba(255,255,255,0.20)] transition-colors"
+            className="w-full bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.08)] rounded-lg pl-9 pr-4 py-2.5 text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-[rgba(var(--overlay-rgb),0.20)] transition-colors"
           />
           {search && (
             <button
@@ -138,7 +138,7 @@ export default function VocabPage() {
             className={cn(
               'px-3 py-2 rounded-lg text-xs font-medium transition-all',
               posFilter === 'all'
-                ? 'bg-bg-elevated border border-[rgba(255,255,255,0.16)] text-text-primary'
+                ? 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.16)] text-text-primary'
                 : 'text-text-tertiary hover:text-text-secondary'
             )}
           >
@@ -151,7 +151,7 @@ export default function VocabPage() {
               className={cn(
                 'px-3 py-2 rounded-lg text-xs font-medium transition-all',
                 posFilter === pos
-                  ? 'bg-bg-elevated border border-[rgba(255,255,255,0.16)] text-text-primary'
+                  ? 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.16)] text-text-primary'
                   : 'text-text-tertiary hover:text-text-secondary'
               )}
             >
@@ -193,7 +193,7 @@ export default function VocabPage() {
             key={card.id}
             variants={fadeUp}
             onClick={() => setSelectedCard(card)}
-            className="group text-left p-4 rounded-xl border border-[rgba(255,255,255,0.06)] bg-bg-surface hover:border-[rgba(255,255,255,0.14)] hover:bg-bg-elevated transition-all duration-200"
+            className="group text-left p-4 rounded-xl border border-[rgba(var(--overlay-rgb),0.06)] bg-bg-surface hover:border-[rgba(var(--overlay-rgb),0.14)] hover:bg-bg-elevated transition-all duration-200"
           >
             <div className="flex items-center justify-between mb-2">
               <p lang="ko" className="font-korean text-2xl font-bold text-text-primary leading-none group-hover:text-accent-coral transition-colors">
@@ -216,7 +216,7 @@ export default function VocabPage() {
         <div className="mt-8 text-center">
           <button
             onClick={() => setPage(p => p + 1)}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-[rgba(255,255,255,0.10)] text-text-secondary hover:text-text-primary hover:border-[rgba(255,255,255,0.18)] transition-all text-sm"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-[rgba(var(--overlay-rgb),0.10)] text-text-secondary hover:text-text-primary hover:border-[rgba(var(--overlay-rgb),0.18)] transition-all text-sm"
           >
             <ChevronDown className="w-4 h-4" />
             Tải thêm ({filtered.length - paged.length} từ còn lại)

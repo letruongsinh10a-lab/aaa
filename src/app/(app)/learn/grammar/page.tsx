@@ -32,7 +32,7 @@ function GrammarAccordionList({
                 'rounded-xl border transition-all duration-200 overflow-hidden',
                 isOpen
                   ? 'border-[rgba(108,142,239,0.30)] bg-[rgba(108,142,239,0.04)]'
-                  : 'border-[rgba(255,255,255,0.08)] bg-bg-surface hover:border-[rgba(255,255,255,0.14)]'
+                  : 'border-[rgba(var(--overlay-rgb),0.08)] bg-bg-surface hover:border-[rgba(var(--overlay-rgb),0.14)]'
               )}
             >
               {/* Header row */}
@@ -65,7 +65,7 @@ function GrammarAccordionList({
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.22, ease: 'easeInOut' }}
                   >
-                    <div className="px-5 pb-5 space-y-5 border-t border-[rgba(255,255,255,0.06)]">
+                    <div className="px-5 pb-5 space-y-5 border-t border-[rgba(var(--overlay-rgb),0.06)]">
                       {/* Meaning + usage */}
                       <div className="pt-4">
                         <p className="text-sm font-medium text-text-primary mb-1">{g.meaningVi}</p>
@@ -161,8 +161,8 @@ export default function GrammarPage() {
             className={cn(
               'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200',
               activeGroup === l.level
-                ? 'bg-bg-elevated border border-[rgba(255,255,255,0.16)] text-text-primary'
-                : 'border border-transparent text-text-tertiary hover:text-text-secondary hover:border-[rgba(255,255,255,0.08)]'
+                ? 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.16)] text-text-primary'
+                : 'border border-transparent text-text-tertiary hover:text-text-secondary hover:border-[rgba(var(--overlay-rgb),0.08)]'
             )}
           >
             {l.titleVi}
@@ -188,7 +188,7 @@ export default function GrammarPage() {
                   <BookOpen className="w-4 h-4 text-accent-blue" />
                   <span>{activeGrammarLevel.patterns.length} mẫu câu</span>
                 </div>
-                <div className="h-3 w-px bg-[rgba(255,255,255,0.08)]" />
+                <div className="h-3 w-px bg-[rgba(var(--overlay-rgb),0.08)]" />
                 <span className="text-sm text-text-secondary">{activeGrammarLevel.titleVi.toUpperCase()}</span>
               </div>
               <Link

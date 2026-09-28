@@ -84,7 +84,7 @@ function SpeakingPracticeSession() {
           <div className="flex gap-3 justify-center">
             <Link
               href="/learn/speaking"
-              className="px-5 py-2.5 rounded-lg border border-[rgba(255,255,255,0.12)] text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all"
+              className="px-5 py-2.5 rounded-lg border border-[rgba(var(--overlay-rgb),0.12)] text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all"
             >
               Mẫu khác
             </Link>
@@ -104,7 +104,7 @@ function SpeakingPracticeSession() {
     <div className="relative h-screen bg-bg-base flex flex-col select-none overflow-hidden">
       <AmbientGlow intensity="strong" />
       {/* Top bar */}
-      <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(255,255,255,0.06)] shrink-0">
+      <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">
         <Link
           href="/learn/speaking"
           className="p-1.5 text-text-tertiary hover:text-text-primary transition-colors"

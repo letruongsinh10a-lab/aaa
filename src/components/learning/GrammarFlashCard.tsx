@@ -23,7 +23,7 @@ export function GrammarFlashCard({ card, flipped, onFlip }: GrammarFlashCardProp
       >
         {/* Front */}
         <div
-          className="[grid-area:1/1] bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-12 min-h-[420px] flex flex-col items-center justify-center text-center"
+          className="[grid-area:1/1] bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-12 min-h-[420px] flex flex-col items-center justify-center text-center"
           style={{ backfaceVisibility: 'hidden' }}
         >
           <p className="text-[10px] font-medium tracking-[0.16em] uppercase text-text-tertiary mb-8">
@@ -33,14 +33,14 @@ export function GrammarFlashCard({ card, flipped, onFlip }: GrammarFlashCardProp
             {card.pattern}
           </p>
           <p className="text-text-tertiary text-xs mt-8">
-            <kbd className="px-1.5 py-0.5 bg-bg-elevated rounded text-[10px] border border-[rgba(255,255,255,0.1)]">Space</kbd>{' '}
+            <kbd className="px-1.5 py-0.5 bg-bg-elevated rounded text-[10px] border border-[rgba(var(--overlay-rgb),0.1)]">Space</kbd>{' '}
             để lật thẻ
           </p>
         </div>
 
         {/* Back */}
         <div
-          className="[grid-area:1/1] bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-12 min-h-[420px] max-h-[80vh] overflow-y-auto flex flex-col items-center text-center"
+          className="[grid-area:1/1] bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-12 min-h-[420px] max-h-[80vh] overflow-y-auto flex flex-col items-center text-center"
           style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
         >
           <p lang="ko" className="font-korean text-2xl font-bold text-accent-korean mb-3">
@@ -50,19 +50,19 @@ export function GrammarFlashCard({ card, flipped, onFlip }: GrammarFlashCardProp
           <p className="text-text-secondary text-sm leading-relaxed mb-6 max-w-lg">{card.usageNotes}</p>
 
           {card.examples.length > 0 && (
-            <div className="border-t border-[rgba(255,255,255,0.06)] pt-5 w-full text-left max-w-lg mx-auto">
+            <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] pt-5 w-full text-left max-w-lg mx-auto">
               <GrammarExamplesBlock examples={card.examples} />
             </div>
           )}
 
           {card.conjugationTable && card.conjugationTable.length > 0 && (
-            <div className="border-t border-[rgba(255,255,255,0.06)] mt-5 pt-5 w-full text-left max-w-lg mx-auto">
+            <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] mt-5 pt-5 w-full text-left max-w-lg mx-auto">
               <GrammarConjugationBlock table={card.conjugationTable} />
             </div>
           )}
 
           {card.commonMistakes.length > 0 && (
-            <div className="border-t border-[rgba(255,255,255,0.06)] mt-5 pt-5 w-full max-w-lg mx-auto">
+            <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] mt-5 pt-5 w-full max-w-lg mx-auto">
               <div className="flex items-center gap-1.5 mb-3">
                 <AlertCircle className="w-3.5 h-3.5 text-accent-amber" />
                 <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-accent-amber text-left">
@@ -80,7 +80,7 @@ export function GrammarFlashCard({ card, flipped, onFlip }: GrammarFlashCardProp
           )}
 
           {card.relatedPatterns && card.relatedPatterns.length > 0 && (
-            <div className="border-t border-[rgba(255,255,255,0.06)] mt-5 pt-5 w-full text-left max-w-lg mx-auto">
+            <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] mt-5 pt-5 w-full text-left max-w-lg mx-auto">
               <GrammarRelatedBlock related={card.relatedPatterns} />
             </div>
           )}

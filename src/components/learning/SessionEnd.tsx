@@ -37,7 +37,7 @@ export function SessionEnd({ stats, onRetry }: SessionEndProps) {
             { label: 'Cần ôn', value: totalCards - correct, color: 'text-accent-error' },
             { label: 'XP',     value: `+${xpEarned}`,       color: 'text-accent-amber' },
           ].map(s => (
-            <div key={s.label} className="bg-bg-surface rounded-xl p-5 border border-[rgba(255,255,255,0.08)]">
+            <div key={s.label} className="bg-bg-surface rounded-xl p-5 border border-[rgba(var(--overlay-rgb),0.08)]">
               <p className={`text-2xl font-semibold ${s.color}`}>{s.value}</p>
               <p className="text-xs text-text-tertiary mt-1">{s.label}</p>
             </div>
@@ -47,7 +47,7 @@ export function SessionEnd({ stats, onRetry }: SessionEndProps) {
         <div className="flex gap-3 justify-center">
           <Link
             href="/learn"
-            className="px-5 py-2.5 rounded-lg border border-[rgba(255,255,255,0.12)] text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all"
+            className="px-5 py-2.5 rounded-lg border border-[rgba(var(--overlay-rgb),0.12)] text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all"
           >
             Dashboard
           </Link>

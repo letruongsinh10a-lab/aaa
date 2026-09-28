@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils'
 import type { BadgeVariant } from '@/types'
 
 const variantStyles: Record<BadgeVariant, string> = {
-  default: 'bg-[rgba(255,255,255,0.08)] text-text-secondary',
+  default: 'bg-[rgba(var(--overlay-rgb),0.08)] text-text-secondary',
   coral: 'bg-[rgba(255,107,74,0.12)] text-accent-coral',
   success: 'bg-[rgba(74,222,128,0.12)] text-accent-success',
   warning: 'bg-[rgba(255,179,71,0.12)] text-accent-amber',

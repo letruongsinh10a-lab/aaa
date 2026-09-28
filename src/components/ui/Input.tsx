@@ -22,7 +22,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
           id={inputId}
           className={cn(
             'w-full bg-transparent border-b text-sm text-text-primary placeholder:text-text-tertiary py-2',
-            'border-[rgba(255,255,255,0.16)] focus:border-accent-coral transition-colors',
+            'border-[rgba(var(--overlay-rgb),0.16)] focus:border-accent-coral transition-colors',
             'focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-coral',
             error && 'border-accent-error',
             className,

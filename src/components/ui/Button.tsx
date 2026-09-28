@@ -12,7 +12,7 @@ const variantStyles: Record<ButtonVariant, string> = {
   primary:
     'bg-accent-coral text-white hover:bg-[#e55f40] active:bg-[#cc5539]',
   secondary:
-    'border border-[rgba(255,255,255,0.12)] text-text-primary hover:bg-bg-elevated hover:border-[rgba(255,255,255,0.20)]',
+    'border border-[rgba(var(--overlay-rgb),0.12)] text-text-primary hover:bg-bg-elevated hover:border-[rgba(var(--overlay-rgb),0.20)]',
   ghost:
     'text-text-secondary hover:text-text-primary hover:bg-bg-elevated',
   danger:

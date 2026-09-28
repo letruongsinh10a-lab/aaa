@@ -47,7 +47,7 @@ export function CoursesPreview() {
                 <p lang="ko" className={`font-korean text-[48px] font-bold leading-none ${c.color} opacity-20 mb-3`}>{c.ko}</p>
                 <h3 className="text-xl font-semibold text-text-primary mb-2">{c.title}</h3>
 
-                <div className="flex items-center gap-4 text-xs text-text-tertiary mt-4 pt-4 border-t border-[rgba(255,255,255,0.06)]">
+                <div className="flex items-center gap-4 text-xs text-text-tertiary mt-4 pt-4 border-t border-[rgba(var(--overlay-rgb),0.06)]">
                   <span>{c.vocab} từ vựng</span>
                   <span>·</span>
                   <span>{c.grammar} ngữ pháp</span>

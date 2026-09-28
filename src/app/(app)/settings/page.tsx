@@ -2,15 +2,20 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import { Sun, Moon } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 import { useAuthStore } from '@/stores/authStore'
+import { useUIStore } from '@/stores/uiStore'
 import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
+import { cn } from '@/lib/utils'
 
 export default function SettingsPage() {
   const router = useRouter()
   const { status, user } = useAuthStore()
+  const theme = useUIStore((s) => s.theme)
+  const setTheme = useUIStore((s) => s.setTheme)
   const [displayName, setDisplayName] = useState('')
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
@@ -90,6 +95,42 @@ export default function SettingsPage() {
             </Button>
           </CardFooter>
         </form>
+      </Card>
+
+      <Card variant="default" hoverable={false} className="mt-6">
+        <CardHeader>
+          <h2 className="text-sm font-semibold text-text-primary">Giao diện</h2>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-2 gap-3">
+            <button
+              type="button"
+              onClick={() => setTheme('dark')}
+              className={cn(
+                'flex flex-col items-center gap-2 py-5 rounded-lg border transition-all',
+                theme === 'dark'
+                  ? 'border-accent-coral bg-[rgba(255,107,74,0.06)] text-text-primary'
+                  : 'border-[rgba(var(--overlay-rgb),0.12)] text-text-secondary hover:bg-bg-elevated'
+              )}
+            >
+              <Moon className="w-5 h-5" />
+              <span className="text-sm font-medium">Tối</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setTheme('light')}
+              className={cn(
+                'flex flex-col items-center gap-2 py-5 rounded-lg border transition-all',
+                theme === 'light'
+                  ? 'border-accent-coral bg-[rgba(255,107,74,0.06)] text-text-primary'
+                  : 'border-[rgba(var(--overlay-rgb),0.12)] text-text-secondary hover:bg-bg-elevated'
+              )}
+            >
+              <Sun className="w-5 h-5" />
+              <span className="text-sm font-medium">Sáng</span>
+            </button>
+          </div>
+        </CardContent>
       </Card>
 
       <div className="mt-8">

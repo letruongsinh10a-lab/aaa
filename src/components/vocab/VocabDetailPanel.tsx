@@ -52,7 +52,7 @@ export function ChipList({ items, tone }: { items: string[]; tone?: 'success' | 
           key={i}
           lang="ko"
           className={cn(
-            'font-korean px-2.5 py-1 rounded-lg text-xs bg-bg-elevated border border-[rgba(255,255,255,0.06)]',
+            'font-korean px-2.5 py-1 rounded-lg text-xs bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)]',
             tone === 'success' && 'text-accent-success',
             tone === 'error' && 'text-accent-error',
             !tone && 'text-text-secondary'
@@ -82,7 +82,7 @@ export function VocabDetailPanel({ card, onClose }: { card: VocabCard; onClose: 
     >
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
       <motion.div
-        className="relative bg-bg-surface border border-[rgba(255,255,255,0.12)] rounded-2xl p-8 w-full max-w-lg max-h-[85vh] overflow-y-auto"
+        className="relative bg-bg-surface border border-[rgba(var(--overlay-rgb),0.12)] rounded-2xl p-8 w-full max-w-lg max-h-[85vh] overflow-y-auto"
         onClick={e => e.stopPropagation()}
       >
         {/* Close */}
@@ -116,7 +116,7 @@ export function VocabDetailPanel({ card, onClose }: { card: VocabCard; onClose: 
           {card.audioUrl && (
             <button
               onClick={() => playAudio(card.audioUrl)}
-              className="mt-2 p-3 rounded-full bg-bg-elevated border border-[rgba(255,255,255,0.08)] text-text-secondary hover:text-accent-coral hover:border-accent-coral/30 transition-all"
+              className="mt-2 p-3 rounded-full bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.08)] text-text-secondary hover:text-accent-coral hover:border-accent-coral/30 transition-all"
               aria-label="Phát âm"
             >
               <Volume2 className="w-5 h-5" />
@@ -125,7 +125,7 @@ export function VocabDetailPanel({ card, onClose }: { card: VocabCard; onClose: 
         </div>
 
         {/* Meaning */}
-        <div className="p-4 rounded-xl bg-bg-elevated border border-[rgba(255,255,255,0.06)]">
+        <div className="p-4 rounded-xl bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)]">
           <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-1">Nghĩa</p>
           <p className="text-xl font-semibold text-text-primary">{card.meaningVi}</p>
         </div>

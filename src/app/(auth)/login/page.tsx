@@ -90,9 +90,9 @@ function LoginForm() {
       </form>
 
       <div className="flex items-center gap-3 my-6">
-        <div className="flex-1 h-px bg-[rgba(255,255,255,0.08)]" />
+        <div className="flex-1 h-px bg-[rgba(var(--overlay-rgb),0.08)]" />
         <span className="text-[11px] text-text-tertiary uppercase tracking-wider">Hoặc</span>
-        <div className="flex-1 h-px bg-[rgba(255,255,255,0.08)]" />
+        <div className="flex-1 h-px bg-[rgba(var(--overlay-rgb),0.08)]" />
       </div>
 
       <GoogleButton label="Đăng nhập với Google" />

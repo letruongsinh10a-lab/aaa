@@ -72,12 +72,12 @@ export function HeroSection() {
             <motion.div
               animate={{ y: [0, -12, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute top-8 left-8 right-8 bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-8"
+              className="absolute top-8 left-8 right-8 bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-8"
             >
               <p className="text-xs font-medium tracking-widest uppercase text-text-tertiary mb-4">Flashcard · TOPIK 1</p>
               <p lang="ko" className="font-korean text-[72px] font-bold text-text-primary leading-none mb-4">사랑</p>
               <p className="text-text-secondary text-sm mb-6">sa-rang</p>
-              <div className="border-t border-[rgba(255,255,255,0.06)] pt-4">
+              <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] pt-4">
                 <p className="text-text-primary font-medium">tình yêu <span className="text-text-tertiary font-normal">· love</span></p>
                 <p lang="ko" className="font-korean text-sm text-text-secondary mt-2">나는 너를 사랑해요.</p>
               </div>

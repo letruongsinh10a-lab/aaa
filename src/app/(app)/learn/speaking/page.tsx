@@ -35,7 +35,7 @@ export default function SpeakingPage() {
             <motion.div key={pattern.id} variants={fadeUp}>
               <Link
                 href={`/learn/speaking/practice?patternId=${pattern.id}`}
-                className="group flex items-center gap-4 px-5 py-4 rounded-xl border border-[rgba(255,255,255,0.08)] bg-bg-surface hover:border-[rgba(255,255,255,0.16)] hover:bg-bg-elevated transition-all duration-200"
+                className="group flex items-center gap-4 px-5 py-4 rounded-xl border border-[rgba(var(--overlay-rgb),0.08)] bg-bg-surface hover:border-[rgba(var(--overlay-rgb),0.16)] hover:bg-bg-elevated transition-all duration-200"
               >
                 <div className="w-10 h-10 rounded-full bg-[rgba(255,107,74,0.1)] flex items-center justify-center shrink-0">
                   <Mic className="w-4.5 h-4.5 text-accent-coral" />

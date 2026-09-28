@@ -10,10 +10,10 @@ export function Card({ variant = 'default', hoverable = true, className, childre
     <div
       className={cn(
         'rounded-xl border transition-all duration-200',
-        variant === 'default' && 'bg-bg-surface border-[rgba(255,255,255,0.08)]',
-        variant === 'elevated' && 'bg-bg-elevated border-[rgba(255,255,255,0.10)]',
-        variant === 'outlined' && 'bg-transparent border-[rgba(255,255,255,0.12)]',
-        hoverable && 'hover:border-[rgba(255,255,255,0.16)] hover:-translate-y-0.5',
+        variant === 'default' && 'bg-bg-surface border-[rgba(var(--overlay-rgb),0.08)]',
+        variant === 'elevated' && 'bg-bg-elevated border-[rgba(var(--overlay-rgb),0.10)]',
+        variant === 'outlined' && 'bg-transparent border-[rgba(var(--overlay-rgb),0.12)]',
+        hoverable && 'hover:border-[rgba(var(--overlay-rgb),0.16)] hover:-translate-y-0.5',
         className
       )}
       {...props}
@@ -42,7 +42,7 @@ export function CardContent({ className, children, ...props }: React.HTMLAttribu
 export function CardFooter({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
   return (
     <div
-      className={cn('px-6 py-4 border-t border-[rgba(255,255,255,0.06)] flex items-center', className)}
+      className={cn('px-6 py-4 border-t border-[rgba(var(--overlay-rgb),0.06)] flex items-center', className)}
       {...props}
     >
       {children}

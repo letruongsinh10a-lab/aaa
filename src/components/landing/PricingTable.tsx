@@ -61,7 +61,7 @@ export function PricingTable() {
               <div className={`rounded-xl border p-7 relative ${
                 tier.highlight
                   ? 'border-accent-coral bg-[rgba(255,107,74,0.04)]'
-                  : 'border-[rgba(255,255,255,0.08)] bg-bg-surface'
+                  : 'border-[rgba(var(--overlay-rgb),0.08)] bg-bg-surface'
               }`}>
                 {tier.badge && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2">

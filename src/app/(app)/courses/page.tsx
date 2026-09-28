@@ -31,7 +31,7 @@ export default function CoursesPage() {
           const lv = levelColors[course.level]
           return (
             <Link key={course.id} href={`/courses/${course.slug}`}>
-              <div className="group flex items-center gap-6 bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-xl px-6 py-5 hover:border-[rgba(255,255,255,0.16)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer">
+              <div className="group flex items-center gap-6 bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-xl px-6 py-5 hover:border-[rgba(var(--overlay-rgb),0.16)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer">
                 {/* Level number */}
                 <div className={`w-12 h-12 rounded-xl ${lv.bg} flex items-center justify-center shrink-0`}>
                   <span className={`font-serif text-xl font-normal ${lv.text}`}>{i + 1}</span>

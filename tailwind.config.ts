@@ -7,26 +7,26 @@ const config: Config = {
     extend: {
       colors: {
         bg: {
-          base: '#0A0A0F',
-          surface: '#111118',
-          elevated: '#1A1A24',
+          base: 'var(--bg-base)',
+          surface: 'var(--bg-surface)',
+          elevated: 'var(--bg-elevated)',
         },
         text: {
-          primary: '#F0EEF8',
-          secondary: '#9B99AF',
-          tertiary: '#5C5A6E',
+          primary: 'var(--text-primary)',
+          secondary: 'var(--text-secondary)',
+          tertiary: 'var(--text-tertiary)',
         },
         accent: {
-          coral: '#FF6B4A',
-          amber: '#FFB347',
-          success: '#4ADE80',
-          error: '#F87171',
-          blue: '#6C8EEF',
+          coral: 'var(--accent-coral)',
+          amber: 'var(--accent-amber)',
+          success: 'var(--accent-success)',
+          error: 'var(--accent-error)',
+          blue: 'var(--accent-blue)',
         },
         border: {
-          subtle: 'rgba(255,255,255,0.06)',
-          DEFAULT: 'rgba(255,255,255,0.12)',
-          strong: 'rgba(255,255,255,0.20)',
+          subtle: 'var(--border-subtle)',
+          DEFAULT: 'var(--border-default)',
+          strong: 'var(--border-strong)',
         },
       },
       fontFamily: {

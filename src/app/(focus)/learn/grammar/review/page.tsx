@@ -202,7 +202,7 @@ function GrammarReviewSession() {
   return (
     <div className="h-screen bg-bg-base flex flex-col select-none overflow-hidden">
       {/* Top bar */}
-      <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(255,255,255,0.06)] shrink-0">
+      <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">
         <Link
           href="/learn/grammar"
           className="p-1.5 text-text-tertiary hover:text-text-primary transition-colors"

@@ -10,7 +10,7 @@ interface ActivityHeatmapProps {
 }
 
 function getColor(xp: number): string {
-  if (xp === 0) return 'rgba(255,255,255,0.05)'
+  if (xp === 0) return 'rgba(var(--overlay-rgb),0.05)'
   if (xp < 50)  return 'rgba(255,107,74,0.25)'
   if (xp < 100) return 'rgba(255,107,74,0.50)'
   if (xp < 200) return 'rgba(255,107,74,0.75)'
@@ -70,7 +70,7 @@ export function ActivityHeatmap({ data = {}, weeks = 26 }: ActivityHeatmapProps)
               x={4}
               y={i * STEP + CELL * 0.85 + 16}
               fontSize={8}
-              fill="rgba(255,255,255,0.28)"
+              fill="rgba(var(--overlay-rgb),0.28)"
               fontFamily="system-ui"
             >
               {label}

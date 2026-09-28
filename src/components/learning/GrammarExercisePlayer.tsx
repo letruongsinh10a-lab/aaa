@@ -78,7 +78,7 @@ function FillBlankView({
             lang="ko"
             className={cn(
               'font-korean mx-1 px-2 py-0.5 w-28 text-center bg-bg-elevated rounded-md border outline-none',
-              result === null && 'border-[rgba(255,255,255,0.16)] focus:border-accent-coral',
+              result === null && 'border-[rgba(var(--overlay-rgb),0.16)] focus:border-accent-coral',
               result === true && 'border-accent-success text-accent-success',
               result === false && 'border-accent-error text-accent-error'
             )}
@@ -91,7 +91,7 @@ function FillBlankView({
         <button
           onClick={handleCheck}
           disabled={!value.trim()}
-          className="mt-6 px-5 py-2.5 rounded-lg border border-[rgba(255,255,255,0.16)] text-sm font-medium text-text-primary hover:bg-bg-elevated disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          className="mt-6 px-5 py-2.5 rounded-lg border border-[rgba(var(--overlay-rgb),0.16)] text-sm font-medium text-text-primary hover:bg-bg-elevated disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
           Kiểm tra
         </button>
@@ -149,10 +149,10 @@ function DiscriminateView({
               lang="ko"
               className={cn(
                 'font-korean text-left px-4 py-3 rounded-lg border text-base transition-colors',
-                selected === null && 'border-[rgba(255,255,255,0.12)] bg-bg-surface hover:border-[rgba(255,255,255,0.24)]',
+                selected === null && 'border-[rgba(var(--overlay-rgb),0.12)] bg-bg-surface hover:border-[rgba(var(--overlay-rgb),0.24)]',
                 selected !== null && isCorrectOpt && 'border-accent-success/40 bg-accent-success/10 text-accent-success',
                 selected !== null && isPicked && !isCorrectOpt && 'border-accent-error/40 bg-accent-error/10 text-accent-error',
-                selected !== null && !isPicked && !isCorrectOpt && 'border-[rgba(255,255,255,0.06)] opacity-40'
+                selected !== null && !isPicked && !isCorrectOpt && 'border-[rgba(var(--overlay-rgb),0.06)] opacity-40'
               )}
             >
               {opt}
@@ -205,14 +205,14 @@ function ProduceView({
         placeholder="Viết câu tiếng Hàn của bạn ở đây trước khi xem câu mẫu..."
         lang="ko"
         rows={3}
-        className="font-korean w-full bg-bg-elevated rounded-lg border border-[rgba(255,255,255,0.12)] px-4 py-3 text-base outline-none focus:border-accent-coral resize-none disabled:opacity-70"
+        className="font-korean w-full bg-bg-elevated rounded-lg border border-[rgba(var(--overlay-rgb),0.12)] px-4 py-3 text-base outline-none focus:border-accent-coral resize-none disabled:opacity-70"
       />
 
       {!showModel ? (
         <button
           onClick={() => setShowModel(true)}
           disabled={!draft.trim()}
-          className="mt-4 px-5 py-2.5 rounded-lg border border-[rgba(255,255,255,0.16)] text-sm font-medium text-text-primary hover:bg-bg-elevated disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          className="mt-4 px-5 py-2.5 rounded-lg border border-[rgba(var(--overlay-rgb),0.16)] text-sm font-medium text-text-primary hover:bg-bg-elevated disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
           Xem câu mẫu
         </button>
@@ -266,7 +266,7 @@ export function GrammarExercisePlayer({
   onNext,
 }: GrammarExercisePlayerProps) {
   return (
-    <div className="w-full max-w-2xl bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-8">
+    <div className="w-full max-w-2xl bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-8">
       {exercise.type === 'fill-blank' && (
         <FillBlankView exercise={exercise} onSubmit={onSubmitFillBlank} onNext={onNext} />
       )}

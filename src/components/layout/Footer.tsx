@@ -21,7 +21,7 @@ const footerSections = {
 
 export function Footer() {
   return (
-    <footer className="border-t border-[rgba(255,255,255,0.06)] bg-bg-base">
+    <footer className="border-t border-[rgba(var(--overlay-rgb),0.06)] bg-bg-base">
       <div className="max-w-[1200px] mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
@@ -58,7 +58,7 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-[rgba(255,255,255,0.06)] pt-8 flex flex-col sm:flex-row justify-between gap-3">
+        <div className="border-t border-[rgba(var(--overlay-rgb),0.06)] pt-8 flex flex-col sm:flex-row justify-between gap-3">
           <p className="text-xs text-text-tertiary">© 2025 Hàn Ngữ. Tất cả quyền được bảo lưu.</p>
           <p className="text-xs text-text-tertiary">Made with ♥ in Việt Nam</p>
         </div>

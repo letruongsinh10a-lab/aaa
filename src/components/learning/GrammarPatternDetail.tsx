@@ -42,10 +42,10 @@ export function GrammarConjugationBlock({ table }: { table?: GrammarConjugationR
   return (
     <div>
       <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-3">Chia động từ</p>
-      <div className="overflow-x-auto rounded-lg border border-[rgba(255,255,255,0.08)]">
+      <div className="overflow-x-auto rounded-lg border border-[rgba(var(--overlay-rgb),0.08)]">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-[rgba(255,255,255,0.08)] text-left text-text-tertiary">
+            <tr className="border-b border-[rgba(var(--overlay-rgb),0.08)] text-left text-text-tertiary">
               <th className="px-3 py-2 text-[11px] font-medium">Loại thân từ</th>
               <th className="px-3 py-2 text-[11px] font-medium">Dạng gốc</th>
               <th className="px-3 py-2 text-[11px] font-medium">Dạng chia</th>
@@ -78,7 +78,7 @@ export function GrammarRelatedBlock({ related }: { related?: GrammarRelatedRef[]
       <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-3">So sánh với mẫu dễ nhầm</p>
       <div className="space-y-2">
         {resolved.map(({ ref, pattern }) => (
-          <div key={ref.id} className="rounded-lg border border-[rgba(255,255,255,0.08)] px-4 py-3">
+          <div key={ref.id} className="rounded-lg border border-[rgba(var(--overlay-rgb),0.08)] px-4 py-3">
             <p lang="ko" className="font-korean font-semibold text-accent-korean text-sm mb-1">{pattern.pattern}</p>
             <p className="text-sm text-text-secondary leading-relaxed">{ref.distinction}</p>
           </div>

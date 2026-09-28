@@ -49,7 +49,7 @@ export default function TOPIKPage() {
         <div className="space-y-3">
           {mockTests.map((test) => (
             <div key={test.id}
-              className="flex items-center gap-5 bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-xl px-6 py-4 hover:border-[rgba(255,255,255,0.14)] transition-all">
+              className="flex items-center gap-5 bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-xl px-6 py-4 hover:border-[rgba(var(--overlay-rgb),0.14)] transition-all">
               {/* Icon */}
               <div className="w-10 h-10 rounded-lg bg-[rgba(255,107,74,0.08)] flex items-center justify-center shrink-0">
                 <FileText className="w-4 h-4 text-accent-coral" />

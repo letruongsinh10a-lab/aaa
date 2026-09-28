@@ -68,7 +68,7 @@ function ListeningPracticeSession() {
           <div className="flex gap-3 justify-center">
             <Link
               href="/learn/listening"
-              className="px-5 py-2.5 rounded-lg border border-[rgba(255,255,255,0.12)] text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all"
+              className="px-5 py-2.5 rounded-lg border border-[rgba(var(--overlay-rgb),0.12)] text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all"
             >
               Bài khác
             </Link>
@@ -88,7 +88,7 @@ function ListeningPracticeSession() {
     <div className="relative h-screen bg-bg-base flex flex-col select-none">
       <AmbientGlow intensity="strong" />
       {/* Top bar */}
-      <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(255,255,255,0.06)] shrink-0">
+      <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">
         <Link
           href="/learn/listening"
           className="p-1.5 text-text-tertiary hover:text-text-primary transition-colors"
@@ -117,7 +117,7 @@ function ListeningPracticeSession() {
                 className={cn(
                   'max-w-[85%] rounded-2xl px-5 py-4 border',
                   line.speaker === 'A'
-                    ? 'bg-bg-surface border-[rgba(255,255,255,0.08)] rounded-tl-sm'
+                    ? 'bg-bg-surface border-[rgba(var(--overlay-rgb),0.08)] rounded-tl-sm'
                     : 'bg-[rgba(108,142,239,0.06)] border-[rgba(108,142,239,0.16)] rounded-tr-sm'
                 )}
               >
@@ -132,7 +132,7 @@ function ListeningPracticeSession() {
       </div>
 
       {/* Bottom: complete session */}
-      <div className="px-6 py-5 border-t border-[rgba(255,255,255,0.06)] shrink-0">
+      <div className="px-6 py-5 border-t border-[rgba(var(--overlay-rgb),0.06)] shrink-0">
         <div className="max-w-2xl mx-auto">
           <button
             onClick={handleComplete}

@@ -21,7 +21,7 @@ export function MobileNav() {
 
   return (
     <nav
-      className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-bg-base/90 backdrop-blur-md border-t border-[rgba(255,255,255,0.08)] flex items-center"
+      className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-bg-base/90 backdrop-blur-md border-t border-[rgba(var(--overlay-rgb),0.08)] flex items-center"
       aria-label="Mobile navigation"
     >
       {NAV.map(({ href, icon: Icon, label, exact }) => {

@@ -12,6 +12,7 @@ import { useDashboard } from '@/hooks/useDashboard'
 import { useAuthStore } from '@/stores/authStore'
 import { UserMenu } from '@/components/layout/UserMenu'
 import { buttonVariants } from '@/components/ui/Button'
+import { ThemeToggle } from '@/components/ui/ThemeToggle'
 
 const NAV = [
   { href: '/learn',           icon: LayoutDashboard, label: 'Dashboard',  exact: true },
@@ -37,9 +38,9 @@ export function Sidebar() {
   const goalProgress = Math.min(100, (d.xpToday / DAILY_GOAL_XP) * 100)
 
   return (
-    <aside className="hidden md:flex w-[240px] shrink-0 border-r border-[rgba(255,255,255,0.06)] bg-bg-base flex-col h-full">
+    <aside className="hidden md:flex w-[240px] shrink-0 border-r border-[rgba(var(--overlay-rgb),0.06)] bg-bg-base flex-col h-full">
       {/* Logo */}
-      <div className="h-16 px-5 flex items-center border-b border-[rgba(255,255,255,0.06)]">
+      <div className="h-16 px-5 flex items-center border-b border-[rgba(var(--overlay-rgb),0.06)]">
         <Link href="/" className="flex items-center gap-2.5 group">
           <span lang="ko" className="font-korean font-bold text-xl text-text-primary group-hover:text-accent-coral transition-colors">한</span>
           <span className="text-sm font-semibold text-text-primary">Hàn Ngữ</span>
@@ -47,7 +48,7 @@ export function Sidebar() {
       </div>
 
       {/* Streak + level */}
-      <div className="px-5 py-4 border-b border-[rgba(255,255,255,0.06)] space-y-3">
+      <div className="px-5 py-4 border-b border-[rgba(var(--overlay-rgb),0.06)] space-y-3">
         {/* Streak */}
         <div className="flex items-center gap-2">
           <motion.div
@@ -112,7 +113,7 @@ export function Sidebar() {
       </nav>
 
       {/* Bottom: level + account + settings */}
-      <div className="px-3 py-4 border-t border-[rgba(255,255,255,0.06)] space-y-0.5">
+      <div className="px-3 py-4 border-t border-[rgba(var(--overlay-rgb),0.06)] space-y-0.5">
         <div className="px-3 py-2 flex items-center gap-3">
           <div className="w-7 h-7 rounded-full bg-accent-coral/20 flex items-center justify-center shrink-0">
             <span className="text-xs font-bold text-accent-coral">{d.level}</span>
@@ -131,13 +132,16 @@ export function Sidebar() {
             Đăng nhập
           </Link>
         )}
-        <Link
-          href="/settings"
-          className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all duration-150"
-        >
-          <Settings className="w-4 h-4" />
-          Cài đặt
-        </Link>
+        <div className="flex items-center gap-1">
+          <Link
+            href="/settings"
+            className="flex-1 flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-text-primary hover:bg-bg-elevated transition-all duration-150"
+          >
+            <Settings className="w-4 h-4" />
+            Cài đặt
+          </Link>
+          <ThemeToggle />
+        </div>
       </div>
     </aside>
   )

@@ -32,7 +32,7 @@ export function ShadowRecorder({ exercise, onSubmit, onNext }: ShadowRecorderPro
   }
 
   return (
-    <div className="w-full max-w-2xl bg-bg-surface border border-[rgba(255,255,255,0.08)] rounded-2xl p-8">
+    <div className="w-full max-w-2xl bg-bg-surface border border-[rgba(var(--overlay-rgb),0.08)] rounded-2xl p-8">
       <div className="flex items-center gap-1.5 text-[10px] font-medium tracking-[0.14em] uppercase text-text-tertiary mb-6">
         <Mic className="w-3.5 h-3.5" /> Luyện nói
       </div>
@@ -84,7 +84,7 @@ export function ShadowRecorder({ exercise, onSubmit, onNext }: ShadowRecorderPro
       {audioUrl && !showModel && (
         <button
           onClick={() => setShowModel(true)}
-          className="mt-6 w-full px-5 py-2.5 rounded-lg border border-[rgba(255,255,255,0.16)] text-sm font-medium text-text-primary hover:bg-bg-elevated transition-colors"
+          className="mt-6 w-full px-5 py-2.5 rounded-lg border border-[rgba(var(--overlay-rgb),0.16)] text-sm font-medium text-text-primary hover:bg-bg-elevated transition-colors"
         >
           Xem câu mẫu & so sánh
         </button>

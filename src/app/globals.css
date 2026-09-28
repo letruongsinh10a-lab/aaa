@@ -25,6 +25,30 @@
   --border-subtle:  rgba(255, 255, 255, 0.06);
   --border-default: rgba(255, 255, 255, 0.12);
   --border-strong:  rgba(255, 255, 255, 0.20);
+
+  /* Generic overlay base — every ad-hoc rgba(var(--overlay-rgb), X) border/
+     divider in the app flips polarity with this one variable instead of
+     needing per-component dark:/light: variants. */
+  --overlay-rgb: 255, 255, 255;
+}
+
+/* ─── Light theme ────────────────────────────────────────────── */
+:root[data-theme='light'] {
+  --bg-base:     #F8F7FF;
+  --bg-surface:  #FFFFFF;
+  --bg-elevated: #EFEDF5;
+
+  --text-primary:   #0A0A1A;
+  --text-secondary: #5B5868;
+  --text-tertiary:  #6E6982;
+
+  --accent-coral: #E85D3F;
+
+  --border-subtle:  rgba(10, 10, 26, 0.06);
+  --border-default: rgba(10, 10, 26, 0.12);
+  --border-strong:  rgba(10, 10, 26, 0.20);
+
+  --overlay-rgb: 10, 10, 26;
 }
 
 /* ─── Base reset ─────────────────────────────────────────────── */
