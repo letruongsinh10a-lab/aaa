@@ -18,7 +18,7 @@ const XP_PER_EXERCISE = 8
 export default function SpeakingPracticePage() {
   return (
     <Suspense fallback={
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     }>
@@ -41,7 +41,7 @@ function SpeakingPracticeSession() {
 
   if (exercises.length === 0) {
     return (
-      <div className="h-screen bg-bg-base flex flex-col items-center justify-center gap-4 px-6 text-center">
+      <div className="h-dvh bg-bg-base flex flex-col items-center justify-center gap-4 px-6 text-center">
         <p className="text-text-secondary">Mẫu ngữ pháp này chưa có bài luyện nói.</p>
         <Link href="/learn/speaking" className="text-sm text-accent-coral hover:underline">
           ← Quay lại Luyện nói
@@ -65,7 +65,7 @@ function SpeakingPracticeSession() {
 
   if (completed) {
     return (
-      <div className="relative h-screen bg-bg-base flex items-center justify-center px-6 overflow-hidden">
+      <div className="relative h-dvh bg-bg-base flex items-center justify-center px-6 overflow-hidden">
         <AmbientGlow />
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -101,7 +101,7 @@ function SpeakingPracticeSession() {
   }
 
   return (
-    <div className="relative h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+    <div className="relative h-dvh bg-bg-base flex flex-col select-none overflow-hidden">
       <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">

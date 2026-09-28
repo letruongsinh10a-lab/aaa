@@ -4,7 +4,7 @@ import { Mascot } from '@/components/mascot/Mascot'
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="relative min-h-screen bg-bg-base flex items-center justify-center px-6 py-12 overflow-hidden">
+    <div className="relative min-h-dvh bg-bg-base flex items-center justify-center px-6 py-12 overflow-hidden">
       <AmbientGlow />
       <div className="w-full max-w-sm">
         <div className="flex justify-center mb-4">

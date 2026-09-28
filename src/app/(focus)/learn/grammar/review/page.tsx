@@ -32,7 +32,7 @@ interface CombinedStats {
 export default function GrammarReviewPage() {
   return (
     <Suspense fallback={
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     }>
@@ -185,7 +185,7 @@ function GrammarReviewSession() {
 
   if (phase === 'loading') {
     return (
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     )
@@ -200,7 +200,7 @@ function GrammarReviewSession() {
   const flashcard = phase === 'flashcards' && grammarSession.currentCardId ? BY_ID[grammarSession.currentCardId] : undefined
 
   return (
-    <div className="h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+    <div className="h-dvh bg-bg-base flex flex-col select-none overflow-hidden">
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">
         <Link
@@ -261,7 +261,7 @@ function GrammarReviewSession() {
 
       {phase === 'flashcards' && flashcard && (
         <>
-          <div className="flex-1 flex items-center justify-center px-6 py-6">
+          <div className="flex-1 flex items-center justify-center px-6 py-6 overflow-y-auto">
             <AnimatePresence mode="wait">
               <motion.div
                 key={grammarSession.currentCardId}

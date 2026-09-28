@@ -5,7 +5,7 @@ import { Mascot } from '@/components/mascot/Mascot'
 
 export default function NotFound() {
   return (
-    <div className="relative min-h-screen bg-bg-base flex items-center justify-center px-6 overflow-hidden">
+    <div className="relative min-h-dvh bg-bg-base flex items-center justify-center px-6 overflow-hidden">
       <AmbientGlow />
       <div className="relative text-center">
         <div className="flex justify-center mb-4">

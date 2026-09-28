@@ -17,7 +17,7 @@ const XP_REWARD = 10
 export default function ListeningPracticePage() {
   return (
     <Suspense fallback={
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     }>
@@ -34,7 +34,7 @@ function ListeningPracticeSession() {
 
   if (!dialogue) {
     return (
-      <div className="h-screen bg-bg-base flex flex-col items-center justify-center gap-4 px-6 text-center">
+      <div className="h-dvh bg-bg-base flex flex-col items-center justify-center gap-4 px-6 text-center">
         <p className="text-text-secondary">Không tìm thấy hội thoại này.</p>
         <Link href="/learn/listening" className="text-sm text-accent-coral hover:underline">
           ← Quay lại Luyện nghe
@@ -50,7 +50,7 @@ function ListeningPracticeSession() {
 
   if (completed) {
     return (
-      <div className="relative h-screen bg-bg-base flex items-center justify-center px-6 overflow-hidden">
+      <div className="relative h-dvh bg-bg-base flex items-center justify-center px-6 overflow-hidden">
         <AmbientGlow />
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -85,7 +85,7 @@ function ListeningPracticeSession() {
   }
 
   return (
-    <div className="relative h-screen bg-bg-base flex flex-col select-none">
+    <div className="relative h-dvh bg-bg-base flex flex-col select-none">
       <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">

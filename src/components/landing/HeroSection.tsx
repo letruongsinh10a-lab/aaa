@@ -17,7 +17,7 @@ const stats = [
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center pt-32 pb-24 px-6">
+    <section className="relative min-h-dvh flex items-center pt-32 pb-24 px-6">
       <AmbientGlow />
 
       <div className="relative max-w-[1200px] mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

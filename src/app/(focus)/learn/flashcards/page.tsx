@@ -21,7 +21,7 @@ const BY_ID = Object.fromEntries(ALL_CARDS.map(c => [c.id, c]))
 export default function FlashcardsPage() {
   return (
     <Suspense fallback={
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     }>
@@ -106,14 +106,14 @@ function FlashcardsSession() {
 
   if (!card) {
     return (
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     )
   }
 
   return (
-    <div className="relative h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+    <div className="relative h-dvh bg-bg-base flex flex-col select-none overflow-hidden">
       <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">
@@ -158,7 +158,7 @@ function FlashcardsSession() {
       </AnimatePresence>
 
       {/* Card */}
-      <div className="flex-1 flex items-center justify-center px-6 py-6">
+      <div className="flex-1 flex items-center justify-center px-6 py-6 overflow-y-auto">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentCardId}

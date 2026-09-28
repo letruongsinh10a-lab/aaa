@@ -14,7 +14,7 @@ import { AmbientGlow } from '@/components/decorative/AmbientGlow'
 export default function GrammarPracticePage() {
   return (
     <Suspense fallback={
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     }>
@@ -34,7 +34,7 @@ function GrammarPracticeSession() {
 
   if (exercises.length === 0) {
     return (
-      <div className="h-screen bg-bg-base flex flex-col items-center justify-center gap-4 px-6 text-center">
+      <div className="h-dvh bg-bg-base flex flex-col items-center justify-center gap-4 px-6 text-center">
         <p className="text-text-secondary">Mẫu ngữ pháp này chưa có bài tập luyện tập.</p>
         <a href="/learn/grammar" className="text-sm text-accent-coral hover:underline">
           ← Quay lại Ngữ pháp
@@ -49,14 +49,14 @@ function GrammarPracticeSession() {
 
   if (!currentExercise) {
     return (
-      <div className="h-screen bg-bg-base flex items-center justify-center">
+      <div className="h-dvh bg-bg-base flex items-center justify-center">
         <p className="text-text-secondary">Đang tải...</p>
       </div>
     )
   }
 
   return (
-    <div className="relative h-screen bg-bg-base flex flex-col select-none overflow-hidden">
+    <div className="relative h-dvh bg-bg-base flex flex-col select-none overflow-hidden">
       <AmbientGlow intensity="strong" />
       {/* Top bar */}
       <div className="flex items-center gap-4 px-6 h-16 border-b border-[rgba(var(--overlay-rgb),0.06)] shrink-0">

@@ -17,7 +17,7 @@ export function SessionEnd({ stats, onRetry }: SessionEndProps) {
   const pose: MascotPose = accuracy >= 80 ? 'celebrate' : accuracy >= 50 ? 'idle' : 'thinking'
 
   return (
-    <div className="relative h-screen bg-bg-base flex items-center justify-center px-6 overflow-hidden">
+    <div className="relative h-dvh bg-bg-base flex items-center justify-center px-6 overflow-hidden">
       <AmbientGlow />
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
