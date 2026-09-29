@@ -450,6 +450,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '형은 선생님이고 동생은 학생이에요.',
     modelAnswerVi: 'Anh trai tôi là giáo viên, còn em gái tôi là học sinh.',
   },
+  {
+    id: 'ex-gr-so-cap-06-6',
+    patternId: 'gr-so-cap-06',
+    type: 'fill-blank',
+    promptVi: 'Anh ấy là đầu bếp, còn tôi là hướng dẫn viên du lịch (danh từ 요리사 kết thúc bằng nguyên âm — dùng N-고, không cần thêm 이).',
+    sentenceKo: '그는 ___ 저는 가이드예요.',
+    answer: '요리사고',
+  },
+  {
+    id: 'ex-gr-so-cap-06-7',
+    patternId: 'gr-so-cap-06',
+    type: 'discriminate',
+    promptVi: 'Dự báo thời tiết cho hai ngày liên tiếp — chọn cách chia đúng cho động từ 오다 ở thì tương lai/phỏng đoán ngay trước -고.',
+    sentenceKo: '내일은 눈이 ___ 모레는 비가 올 거예요.',
+    options: ['오겠고', '오고', '오니까', '오지만'],
+    correctIndex: 0,
+    explanation:
+      "Khác với -고 mang nghĩa trình tự thời gian (mục 14, không chia thêm thì trước nó), -고 liệt kê ngang hàng ở đây CÓ THỂ chia thêm -겠- ngay trước nó khi nhấn mạnh dự đoán về tương lai → '오겠고'. '오고' bỏ mất sắc thái dự đoán; '오니까' đổi nghĩa nguyên nhân, '오지만' đổi nghĩa tương phản — cả hai đều sai vì đây chỉ đơn thuần liệt kê hai dự báo ngang hàng.",
+  },
+  {
+    id: 'ex-gr-so-cap-06-8',
+    patternId: 'gr-so-cap-06',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Quán cà phê này yên tĩnh và cà phê rất ngon.',
+    modelAnswerKo: '이 카페는 조용하고 커피가 맛있어요.',
+    modelAnswerVi: 'Quán cà phê này yên tĩnh và cà phê rất ngon.',
+  },
+  {
+    id: 'ex-gr-so-cap-06-9',
+    patternId: 'gr-so-cap-06',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Bố tôi là bác sĩ, còn mẹ tôi là giáo viên.',
+    modelAnswerKo: '아버지는 의사고 어머니는 선생님이에요.',
+    modelAnswerVi: 'Bố tôi là bác sĩ, còn mẹ tôi là giáo viên.',
+  },
 
   // ── gr-so-cap-07 · A/V – 거나 (lựa chọn giữa hai hay nhiều sự việc) ──
   {
@@ -496,6 +531,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '이번 주말에 영화를 보거나 쇼핑할 거예요.',
     modelAnswerVi: 'Cuối tuần này tôi sẽ đi xem phim hoặc đi mua sắm.',
   },
+  {
+    id: 'ex-gr-so-cap-07-6',
+    patternId: 'gr-so-cap-07',
+    type: 'fill-blank',
+    promptVi: 'Vào buổi sáng tôi thường đi bộ hoặc chạy bộ (chia động từ 걷다).',
+    sentenceKo: '아침에 보통 ___ 조깅을 해요.',
+    answer: '걷거나',
+  },
+  {
+    id: 'ex-gr-so-cap-07-7',
+    patternId: 'gr-so-cap-07',
+    type: 'discriminate',
+    promptVi: 'Trong câu hỏi về đồ uống, chỗ trống theo sau DANH TỪ (커피) chứ không phải động từ/tính từ — chọn cách nối đúng.',
+    sentenceKo: '가: 뭐 마시고 싶어요? 나: 커피___ 차를 마시고 싶어요.',
+    options: ['나', '거나', '이나', '고'],
+    correctIndex: 0,
+    explanation:
+      "-거나 chỉ gắn được sau động từ/tính từ (V/A-거나), không gắn trực tiếp sau danh từ; khi muốn nối hai danh từ để chọn lựa phải dùng trợ từ -(이)나 — vì 커피 kết thúc bằng nguyên âm nên chỉ cần '나' → '커피나 차'. '이나' thừa vì không cần âm đệm 이 sau nguyên âm; '거나' và '고' đều sai vì đây không phải kết hợp với động từ/tính từ.",
+  },
+  {
+    id: 'ex-gr-so-cap-07-8',
+    patternId: 'gr-so-cap-07',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Khi rảnh tôi thường nấu ăn hoặc dọn dẹp nhà cửa.',
+    modelAnswerKo: '한가할 때 보통 요리하거나 집을 청소해요.',
+    modelAnswerVi: 'Khi rảnh tôi thường nấu ăn hoặc dọn dẹp nhà cửa.',
+  },
+  {
+    id: 'ex-gr-so-cap-07-9',
+    patternId: 'gr-so-cap-07',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tối nay chắc tôi sẽ gọi điện cho bạn hoặc nhắn tin.',
+    modelAnswerKo: '오늘 저녁에 친구한테 전화하거나 문자를 보낼 거예요.',
+    modelAnswerVi: 'Tối nay chắc tôi sẽ gọi điện cho bạn hoặc nhắn tin.',
+  },
 
   // ── gr-so-cap-08 · A/V – 지만 (tương phản, nội dung vế sau trái ngược vế trước) ──
   {
@@ -540,6 +610,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Tiếng Hàn khó nhưng tôi thích học.',
     modelAnswerKo: '한국어는 어렵지만 배우는 것을 좋아해요.',
     modelAnswerVi: 'Tiếng Hàn khó nhưng tôi thích học.',
+  },
+  {
+    id: 'ex-gr-so-cap-08-6',
+    patternId: 'gr-so-cap-08',
+    type: 'fill-blank',
+    promptVi: 'Đây là món ăn Hàn Quốc nhưng không cay lắm (chia danh từ 한국 음식 ở dạng N-이지만).',
+    sentenceKo: '이 요리는 ___ 별로 안 매워요.',
+    answer: '한국 음식이지만',
+  },
+  {
+    id: 'ex-gr-so-cap-08-7',
+    patternId: 'gr-so-cap-08',
+    type: 'discriminate',
+    promptVi: 'Chọn cách chia đúng khi vị ngữ là danh từ "sinh viên" nhưng câu mang nghĩa tương phản.',
+    sentenceKo: '저는 ___ 아르바이트를 많이 해요.',
+    options: ['학생이지만', '학생지만', '학생이니까', '학생인데'],
+    correctIndex: 0,
+    explanation:
+      "Khi vị ngữ là danh từ kết thúc bằng phụ âm (학생) và muốn nối bằng -지만, phải chèn '이' theo công thức N이다 + 지만 → 'học sinh이지만'; nói '학생지만' thiếu '이' là lỗi chính tả phổ biến. '학생이니까' đổi hẳn sang nghĩa nguyên nhân, '학생인데' thiên về dẫn dắt bối cảnh — cả hai không giữ đúng sắc thái tương phản trực tiếp của -지만.",
+  },
+  {
+    id: 'ex-gr-so-cap-08-8',
+    patternId: 'gr-so-cap-08',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Hôm nay trời nắng nhưng khá lạnh.',
+    modelAnswerKo: '오늘 날씨가 맑지만 꽤 추워요.',
+    modelAnswerVi: 'Hôm nay trời nắng nhưng khá lạnh.',
+  },
+  {
+    id: 'ex-gr-so-cap-08-9',
+    patternId: 'gr-so-cap-08',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi đã cố gắng hết sức nhưng vẫn thất bại.',
+    modelAnswerKo: '최선을 다했지만 결국 실패했어요.',
+    modelAnswerVi: 'Tôi đã cố gắng hết sức nhưng vẫn thất bại.',
   },
 
   // ── gr-so-cap-09 · A/V - (으)ㄴ/는데 (nêu bối cảnh/tương phản trước khi hỏi, đề nghị hoặc từ chối khéo) ──
@@ -587,6 +692,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '죄송한데 오늘 좀 바빠요.',
     modelAnswerVi: 'Xin lỗi nhưng hôm nay tôi hơi bận.',
   },
+  {
+    id: 'ex-gr-so-cap-09-6',
+    patternId: 'gr-so-cap-09',
+    type: 'fill-blank',
+    promptVi: 'Đây là món ăn Việt Nam, bạn có muốn thử không? (chia danh từ 베트남 음식 ở dạng N-인데).',
+    sentenceKo: '이거 ___ 한번 먹어 볼래요?',
+    answer: '베트남 음식인데',
+  },
+  {
+    id: 'ex-gr-so-cap-09-7',
+    patternId: 'gr-so-cap-09',
+    type: 'discriminate',
+    promptVi: 'Người nói đang suy đoán về thời tiết ngày mai trước khi đưa ra lời khuyên — chọn cách chia đúng cho động từ 오다 ở thì suy đoán tương lai.',
+    sentenceKo: '내일 비가 ___ 우산을 가져가세요.',
+    options: ['올 건데', '오는데', '왔는데', '오지만'],
+    correctIndex: 0,
+    explanation:
+      "Vì đang suy đoán về một sự việc SẼ XẢY RA (trời sẽ mưa) trước khi đưa ra lời khuyên, phải chia ở thì tương lai/suy đoán: -겠는데 hoặc -(으)ㄹ 건데 → '올 건데'. '오는데' chỉ ở thì hiện tại, sai vì mưa chưa xảy ra; '왔는데' là thì quá khứ, sai hoàn toàn về thời điểm; '오지만' đổi hẳn sang nghĩa tương phản, không phù hợp vai trò dẫn dắt bối cảnh trước lời khuyên.",
+  },
+  {
+    id: 'ex-gr-so-cap-09-8',
+    patternId: 'gr-so-cap-09',
+    type: 'produce',
+    promptVi: 'Diễn đạt (nêu bối cảnh trước khi hỏi mượn): Tôi đang không mang tiền mặt, bạn có thể cho tôi mượn một chút được không?',
+    modelAnswerKo: '제가 지금 현금이 없는데 좀 빌려줄 수 있어요?',
+    modelAnswerVi: 'Tôi đang không mang tiền mặt, bạn có thể cho tôi mượn một chút được không?',
+  },
+  {
+    id: 'ex-gr-so-cap-09-9',
+    patternId: 'gr-so-cap-09',
+    type: 'produce',
+    promptVi: 'Diễn đạt (tương phản nhẹ): Món ăn nhìn có vẻ đơn giản nhưng lại rất ngon.',
+    modelAnswerKo: '음식이 간단해 보이는데 정말 맛있어요.',
+    modelAnswerVi: 'Món ăn nhìn có vẻ đơn giản nhưng lại rất ngon.',
+  },
 
   // ── gr-so-cap-10 · N 전에, V - 기 전에 (trước khi...) ──
   {
@@ -631,6 +771,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Trước khi ra ngoài, hãy tắt đèn.',
     modelAnswerKo: '나가기 전에 불을 끄세요.',
     modelAnswerVi: 'Trước khi ra ngoài, hãy tắt đèn.',
+  },
+  {
+    id: 'ex-gr-so-cap-10-6',
+    patternId: 'gr-so-cap-10',
+    type: 'fill-blank',
+    promptVi: 'Trước khi kết hôn tôi đã sống một mình (chia động từ 결혼하다).',
+    sentenceKo: '___ 혼자 살았어요.',
+    answer: '결혼하기 전에',
+  },
+  {
+    id: 'ex-gr-so-cap-10-7',
+    patternId: 'gr-so-cap-10',
+    type: 'discriminate',
+    promptVi: 'Muốn nói "trước Giáng sinh" bằng danh từ chỉ sự kiện trực tiếp (không cần chia động từ) — chọn cách nói đúng.',
+    sentenceKo: '가: 선물을 언제 살 거예요? 나: ___ 살 거예요.',
+    options: ['크리스마스 전에', '크리스마스하기 전에', '크리스마스인 전에', '크리스마스했기 전에'],
+    correctIndex: 0,
+    explanation:
+      "Với danh từ chỉ thời gian/sự kiện như 크리스마스, chỉ cần gắn trực tiếp N 전에, không cần thêm 기 hay bất kỳ biến đổi động từ nào vì đây không phải động từ — '크리스마스하기 전에', '크리스마스인 전에', '크리스마스했기 전에' đều là những cách chia sai không tồn tại. Chỉ khi diễn tả một HÀNH ĐỘNG (động từ) mới cần chuyển sang V-기 전에.",
+  },
+  {
+    id: 'ex-gr-so-cap-10-8',
+    patternId: 'gr-so-cap-10',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trước khi phỏng vấn, tôi đã luyện tập nói trước gương.',
+    modelAnswerKo: '면접을 보기 전에 거울 앞에서 말하는 연습을 했어요.',
+    modelAnswerVi: 'Trước khi phỏng vấn, tôi đã luyện tập nói trước gương.',
+  },
+  {
+    id: 'ex-gr-so-cap-10-9',
+    patternId: 'gr-so-cap-10',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trước bữa tối, chúng ta hãy dọn dẹp bàn ăn.',
+    modelAnswerKo: '저녁 식사 전에 식탁을 정리합시다.',
+    modelAnswerVi: 'Trước bữa tối, chúng ta hãy dọn dẹp bàn ăn.',
   },
 
   // ── gr-so-cap-11 · N 후에, V - (으)ㄴ 후에 (sau khi...) ──
@@ -678,6 +853,42 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '대학교를 졸업한 후에 취직할 거예요.',
     modelAnswerVi: 'Sau khi tốt nghiệp đại học tôi sẽ đi làm.',
   },
+  {
+    id: 'ex-gr-so-cap-11-6',
+    patternId: 'gr-so-cap-11',
+    type: 'fill-blank',
+    promptVi: 'Sau khi nghe tin đó tôi đã rất vui (chia động từ bất quy tắc ㄷ 듣다).',
+    sentenceKo: '그 소식을 ___ 정말 기뻤어요.',
+    answer: '들은 후에',
+    hintVi: '듣다 là động từ bất quy tắc ㄷ: trước đuôi bắt đầu bằng nguyên âm, ㄷ đổi thành ㄹ → 들은 후에.',
+  },
+  {
+    id: 'ex-gr-so-cap-11-7',
+    patternId: 'gr-so-cap-11',
+    type: 'discriminate',
+    promptVi: 'Chọn từ có thể thay thế cho 후에 trong câu này mà không làm đổi nghĩa: "회의가 끝난 후에 점심을 먹었어요."',
+    sentenceKo: '회의가 끝난 ___ 점심을 먹었어요.',
+    options: ['다음에', '전에', '동안', '때'],
+    correctIndex: 0,
+    explanation:
+      "V-(으)ㄴ 후에 có thể thay thế bằng 다음에 hoặc 뒤에 mà nghĩa không đổi (đều là 'sau khi'). '전에' mang nghĩa hoàn toàn ngược lại ('trước khi'); '동안' nghĩa 'trong suốt khoảng thời gian' còn '때' chỉ đơn thuần 'khi' — cả hai đều không tương đương với 후에 ở đây.",
+  },
+  {
+    id: 'ex-gr-so-cap-11-8',
+    patternId: 'gr-so-cap-11',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Sau bữa tiệc, chúng tôi đã cùng nhau dọn dẹp.',
+    modelAnswerKo: '파티 후에 우리는 같이 청소했어요.',
+    modelAnswerVi: 'Sau bữa tiệc, chúng tôi đã cùng nhau dọn dẹp.',
+  },
+  {
+    id: 'ex-gr-so-cap-11-9',
+    patternId: 'gr-so-cap-11',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Sau khi tan làm, tôi thường tập thể dục ở phòng gym.',
+    modelAnswerKo: '퇴근한 후에 저는 보통 헬스장에서 운동해요.',
+    modelAnswerVi: 'Sau khi tan làm, tôi thường tập thể dục ở phòng gym.',
+  },
 
   // ── gr-so-cap-12 · V - 고 나서 (làm xong rồi thì..., hành động sau chỉ xảy ra khi hành động trước đã hoàn tất) ──
   {
@@ -722,6 +933,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Ăn tối xong rồi tôi đã đi dạo với chú chó của mình.',
     modelAnswerKo: '저녁을 먹고 나서 강아지와 산책했어요.',
     modelAnswerVi: 'Ăn tối xong rồi tôi đã đi dạo với chú chó của mình.',
+  },
+  {
+    id: 'ex-gr-so-cap-12-6',
+    patternId: 'gr-so-cap-12',
+    type: 'fill-blank',
+    promptVi: 'Dọn dẹp xong nhà rồi tôi đã tắm (chia động từ 청소하다).',
+    sentenceKo: '집을 ___ 샤워를 했어요.',
+    answer: '청소하고 나서',
+  },
+  {
+    id: 'ex-gr-so-cap-12-7',
+    patternId: 'gr-so-cap-12',
+    type: 'discriminate',
+    promptVi: 'Dù cả câu nói về việc trong quá khứ, chọn cách chia đúng cho động từ 끝내다 ngay trước -고 나서.',
+    sentenceKo: '숙제를 다 ___ 잠을 잤어요.',
+    options: ['끝내고 나서', '끝냈고 나서', '끝내니까', '끝내면서'],
+    correctIndex: 0,
+    explanation:
+      "-고 나서 không thể kết hợp thêm -았/었- ngay trước nó dù hành động đã xảy ra trong quá khứ — nói '끝냈고 나서' là lỗi phổ biến, đúng phải là '끝내고 나서'; thì được thể hiện ở vế sau ('잤어요'). '끝내니까' đổi nghĩa nguyên nhân, '끝내면서' nghĩa 'vừa...vừa' đồng thời — cả hai đều sai nghĩa hoàn tất trọn vẹn rồi mới chuyển hành động.",
+  },
+  {
+    id: 'ex-gr-so-cap-12-8',
+    patternId: 'gr-so-cap-12',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tắm rửa xong rồi tôi đã đi ngủ ngay.',
+    modelAnswerKo: '샤워하고 나서 바로 잤어요.',
+    modelAnswerVi: 'Tắm rửa xong rồi tôi đã đi ngủ ngay.',
+  },
+  {
+    id: 'ex-gr-so-cap-12-9',
+    patternId: 'gr-so-cap-12',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đọc xong email đó rồi tôi đã trả lời ngay.',
+    modelAnswerKo: '그 이메일을 읽고 나서 바로 답장했어요.',
+    modelAnswerVi: 'Đọc xong email đó rồi tôi đã trả lời ngay.',
   },
 
   // ── gr-so-cap-13 · V - 아/어서 (hai hành động nối tiếp, cùng chủ ngữ, liên quan mật thiết) ──
@@ -769,6 +1015,42 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '창문을 열어서 신선한 공기를 마셨어요.',
     modelAnswerVi: 'Tôi mở cửa sổ ra rồi hít thở không khí trong lành.',
   },
+  {
+    id: 'ex-gr-so-cap-13-6',
+    patternId: 'gr-so-cap-13',
+    type: 'fill-blank',
+    promptVi: 'Tôi gọi taxi rồi đi đến sân bay (chia động từ bất quy tắc 르 부르다).',
+    sentenceKo: '택시를 ___ 공항에 갔어요.',
+    answer: '불러서',
+    hintVi: '부르다 là động từ bất quy tắc 르: trước đuôi bắt đầu bằng 아/어, 르 đổi thành ㄹㄹ어 → 불러서.',
+  },
+  {
+    id: 'ex-gr-so-cap-13-7',
+    patternId: 'gr-so-cap-13',
+    type: 'discriminate',
+    promptVi: 'Dù việc "gặp bạn" đã xảy ra trong quá khứ, chọn cách chia đúng cho động từ 만나다 ngay trước -아/어서 khi diễn tả hai hành động nối tiếp.',
+    sentenceKo: '저는 어제 친구를 ___ 같이 저녁을 먹었어요.',
+    options: ['만나서', '만났어서', '만나고 나서', '만나면서'],
+    correctIndex: 0,
+    explanation:
+      "Vế trước của -아/어서 luôn giữ nguyên thể, không được chia thêm -았/었- ngay trước nó dù hành động đã xảy ra trong quá khứ — đúng phải là '만나서'. '만나고 나서' (mục 12) không dùng được với động từ tức thời như 만나다 (không có điểm bắt đầu/kết thúc rõ ràng); '만나면서' nghĩa 'vừa gặp vừa' đồng thời, sai nghĩa trình tự nối tiếp ở đây.",
+  },
+  {
+    id: 'ex-gr-so-cap-13-8',
+    patternId: 'gr-so-cap-13',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi mua vé rồi vào rạp xem phim.',
+    modelAnswerKo: '표를 사서 영화관에 들어갔어요.',
+    modelAnswerVi: 'Tôi mua vé rồi vào rạp xem phim.',
+  },
+  {
+    id: 'ex-gr-so-cap-13-9',
+    patternId: 'gr-so-cap-13',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi viết thư rồi gửi cho bạn.',
+    modelAnswerKo: '편지를 써서 친구한테 보냈어요.',
+    modelAnswerVi: 'Tôi viết thư rồi gửi cho bạn.',
+  },
 
   // ── gr-so-cap-14 · V – 고 (liệt kê trình tự thời gian, không cần liên quan chặt chẽ) ──
   {
@@ -815,6 +1097,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '저는 샤워하고 아침을 먹었어요.',
     modelAnswerVi: 'Tôi tắm rồi ăn sáng.',
   },
+  {
+    id: 'ex-gr-so-cap-14-6',
+    patternId: 'gr-so-cap-14',
+    type: 'fill-blank',
+    promptVi: 'Tôi giặt đồ rồi phơi khô (chia động từ 빨다).',
+    sentenceKo: '빨래를 ___ 널었어요.',
+    answer: '빨고',
+  },
+  {
+    id: 'ex-gr-so-cap-14-7',
+    patternId: 'gr-so-cap-14',
+    type: 'discriminate',
+    promptVi: 'Câu chỉ đơn thuần liệt kê hai việc theo trình tự thông thường (tan làm, sau đó đi trung tâm thương mại — không nhấn mạnh việc đi ngay lập tức) — chọn cách nối phù hợp cho động từ 퇴근하다.',
+    sentenceKo: '저는 회사에서 ___ 백화점에 갔어요.',
+    options: ['퇴근하고', '퇴근하자마자', '퇴근하는 동안', '퇴근하기 전에'],
+    correctIndex: 0,
+    explanation:
+      "Khi hai hành động chỉ đơn thuần nối tiếp theo trình tự thời gian mà không nhấn mạnh tính tức thời, dùng -고 đơn giản là đủ → '퇴근하고'. '퇴근하자마자' (mục 18) nhấn mạnh 'ngay khi vừa tan làm', mang sắc thái gấp gáp hơn mức cần thiết ở đây; '퇴근하는 동안' nghĩa 'trong khi tan làm' (vô lý vì tan làm là một thời điểm chứ không phải khoảng thời gian kéo dài); '퇴근하기 전에' nghĩa ngược hẳn 'trước khi tan làm'.",
+  },
+  {
+    id: 'ex-gr-so-cap-14-8',
+    patternId: 'gr-so-cap-14',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi pha cà phê rồi ngồi đọc báo.',
+    modelAnswerKo: '커피를 타고 신문을 읽었어요.',
+    modelAnswerVi: 'Tôi pha cà phê rồi ngồi đọc báo.',
+  },
+  {
+    id: 'ex-gr-so-cap-14-9',
+    patternId: 'gr-so-cap-14',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi mua rau ở chợ rồi về nhà nấu ăn.',
+    modelAnswerKo: '시장에서 야채를 사고 집에서 요리했어요.',
+    modelAnswerVi: 'Tôi mua rau ở chợ rồi về nhà nấu ăn.',
+  },
 
   // ── gr-so-cap-15 · N 때, A/V - (으)ㄹ 때 (khi...) ──
   {
@@ -860,6 +1177,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Khi tôi buồn, tôi thường nghe nhạc.',
     modelAnswerKo: '저는 슬플 때 보통 음악을 들어요.',
     modelAnswerVi: 'Khi tôi buồn, tôi thường nghe nhạc.',
+  },
+  {
+    id: 'ex-gr-so-cap-15-6',
+    patternId: 'gr-so-cap-15',
+    type: 'fill-blank',
+    promptVi: 'Khi đi du lịch tôi thường chụp nhiều ảnh (chia động từ 여행하다).',
+    sentenceKo: '___ 사진을 많이 찍어요.',
+    answer: '여행할 때',
+  },
+  {
+    id: 'ex-gr-so-cap-15-7',
+    patternId: 'gr-so-cap-15',
+    type: 'discriminate',
+    promptVi: 'Câu này vị ngữ là một tính từ chỉ trạng thái (아프다) chứ không phải danh từ — chọn cách nói đúng.',
+    sentenceKo: '가: 언제 병원에 가요? 나: 몸이 ___ 가요.',
+    options: ['아플 때', '아픔 때', '아픈 때', '아파서 때'],
+    correctIndex: 0,
+    explanation:
+      "Sau tính từ/động từ phải chia -(으)ㄹ 때 (không dùng trực tiếp 때 như sau danh từ) → '아플 때'. '아픔 때' và '아픈 때' đều là dạng chia sai không tồn tại; '아파서 때' cũng sai vì gắn nhầm 때 sau -아서, không đúng công thức A/V-(으)ㄹ 때.",
+  },
+  {
+    id: 'ex-gr-so-cap-15-8',
+    patternId: 'gr-so-cap-15',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Khi tôi nấu ăn, tôi thường nghe podcast.',
+    modelAnswerKo: '저는 요리할 때 보통 팟캐스트를 들어요.',
+    modelAnswerVi: 'Khi tôi nấu ăn, tôi thường nghe podcast.',
+  },
+  {
+    id: 'ex-gr-so-cap-15-9',
+    patternId: 'gr-so-cap-15',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Khi gặp khó khăn, hãy gọi cho tôi bất cứ lúc nào.',
+    modelAnswerKo: '힘들 때 언제든지 저한테 전화하세요.',
+    modelAnswerVi: 'Khi gặp khó khăn, hãy gọi cho tôi bất cứ lúc nào.',
   },
 
   // ── gr-so-cap-16 · A/V - (으)면서 (vừa... vừa..., hai hành động/trạng thái đồng thời, cùng chủ ngữ) ──
@@ -908,6 +1260,42 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '그는 운전하면서 음악을 들어요.',
     modelAnswerVi: 'Anh ấy vừa lái xe vừa nghe nhạc.',
   },
+  {
+    id: 'ex-gr-so-cap-16-6',
+    patternId: 'gr-so-cap-16',
+    type: 'fill-blank',
+    promptVi: 'Tôi vừa nghe nhạc vừa dọn dẹp phòng (chia động từ bất quy tắc ㄷ 듣다).',
+    sentenceKo: '음악을 ___ 방을 청소했어요.',
+    answer: '들으면서',
+    hintVi: '듣다 là động từ bất quy tắc ㄷ: trước đuôi bắt đầu bằng nguyên âm 면서, ㄷ đổi thành ㄹ → 들으면서.',
+  },
+  {
+    id: 'ex-gr-so-cap-16-7',
+    patternId: 'gr-so-cap-16',
+    type: 'discriminate',
+    promptVi: 'Câu diễn tả tôi vẫn tiếp tục làm việc dù đang bị ốm (trạng thái đồng thời) — dù cả câu ở thì quá khứ, chọn cách chia đúng cho tính từ 아프다 ngay trước -(으)면서.',
+    sentenceKo: '어제 저는 ___ 계속 일했어요.',
+    options: ['아프면서', '아팠으면서', '아프니까', '아픈데'],
+    correctIndex: 0,
+    explanation:
+      "-(으)면서 luôn giữ động từ/tính từ ở dạng nguyên thể, không chia thêm -았/었- ngay trước nó dù cả câu ở thì quá khứ — đúng phải là '아프면서'; thì được thể hiện ở vế sau ('일했어요'). '아프니까' đổi nghĩa nguyên nhân, '아픈데' chỉ dẫn dắt bối cảnh — cả hai không diễn tả đúng ý 'vừa... vừa...' đồng thời của tính từ.",
+  },
+  {
+    id: 'ex-gr-so-cap-16-8',
+    patternId: 'gr-so-cap-16',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cô ấy vừa hát vừa nhảy múa.',
+    modelAnswerKo: '그녀는 노래하면서 춤을 춰요.',
+    modelAnswerVi: 'Cô ấy vừa hát vừa nhảy múa.',
+  },
+  {
+    id: 'ex-gr-so-cap-16-9',
+    patternId: 'gr-so-cap-16',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Món phở này vừa nóng vừa cay.',
+    modelAnswerKo: '이 쌀국수는 뜨거우면서 매워요.',
+    modelAnswerVi: 'Món phở này vừa nóng vừa cay.',
+  },
 
   // ── gr-so-cap-17 · N 중, V - 는 중 (đang..., đang trong quá trình...) ──
   {
@@ -953,6 +1341,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '지금 일자리를 찾는 중이에요.',
     modelAnswerVi: 'Bây giờ tôi đang tìm việc làm.',
   },
+  {
+    id: 'ex-gr-so-cap-17-6',
+    patternId: 'gr-so-cap-17',
+    type: 'fill-blank',
+    promptVi: 'Con đường này đang thi công nên hãy đi đường khác (dùng cụm cố định N 중 với danh từ 공사).',
+    sentenceKo: '이 길은 지금 ___ 이니까 다른 길로 가세요.',
+    answer: '공사 중',
+  },
+  {
+    id: 'ex-gr-so-cap-17-7',
+    patternId: 'gr-so-cap-17',
+    type: 'discriminate',
+    promptVi: 'Câu nói về hiện tượng tự nhiên (mưa đang rơi) — chọn cách nói đúng.',
+    sentenceKo: '지금 밖에 비가 ___.',
+    options: ['오고 있어요', '오는 중이에요', '오는 중', '올 중이에요'],
+    correctIndex: 0,
+    explanation:
+      "-는 중 không dùng để diễn tả các hiện tượng TỰ NHIÊN như mưa, gió, nắng — phải dùng -고 있다 ('오고 있어요'). '오는 중이에요' và biến thể '오는 중' đều sai vì vi phạm giới hạn ngữ nghĩa này; '올 중이에요' còn sai cả về mặt hình thức (phải chia -는 중, không phải -을 중).",
+  },
+  {
+    id: 'ex-gr-so-cap-17-8',
+    patternId: 'gr-so-cap-17',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi đang chuẩn bị hồ sơ xin việc.',
+    modelAnswerKo: '지금 이력서를 준비하는 중이에요.',
+    modelAnswerVi: 'Tôi đang chuẩn bị hồ sơ xin việc.',
+  },
+  {
+    id: 'ex-gr-so-cap-17-9',
+    patternId: 'gr-so-cap-17',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Bây giờ tôi đang trong giờ làm việc nên chưa thể trả lời điện thoại.',
+    modelAnswerKo: '지금 근무 중이라서 전화를 받을 수 없어요.',
+    modelAnswerVi: 'Bây giờ tôi đang trong giờ làm việc nên chưa thể trả lời điện thoại.',
+  },
 
   // ── gr-so-cap-18 · V – 자마자 (ngay sau khi..., gần như không có khoảng cách thời gian) ──
   {
@@ -997,6 +1420,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Vừa đến sân bay là tôi gọi điện cho mẹ ngay.',
     modelAnswerKo: '공항에 도착하자마자 엄마한테 전화했어요.',
     modelAnswerVi: 'Vừa đến sân bay là tôi gọi điện cho mẹ ngay.',
+  },
+  {
+    id: 'ex-gr-so-cap-18-6',
+    patternId: 'gr-so-cap-18',
+    type: 'fill-blank',
+    promptVi: 'Vừa bật tivi lên là tôi thấy ngay tin tức đó (chia động từ 켜다).',
+    sentenceKo: '텔레비전을 ___ 그 뉴스를 봤어요.',
+    answer: '켜자마자',
+  },
+  {
+    id: 'ex-gr-so-cap-18-7',
+    patternId: 'gr-so-cap-18',
+    type: 'discriminate',
+    promptVi: 'Hai vế có chủ ngữ khác nhau (chuông vừa reo, học sinh đứng dậy) — xác nhận -자마자 vẫn dùng được bình thường. Chọn cách nối đúng cho động từ 울리다.',
+    sentenceKo: '종이 ___ 학생들이 일어났어요.',
+    options: ['울리자마자', '울리다가', '울리면서', '울리는 동안'],
+    correctIndex: 0,
+    explanation:
+      "-자마자 cho phép hai vế có chủ ngữ khác nhau (종 và 학생들), phù hợp diễn tả 'chuông vừa reo là học sinh đứng dậy ngay' → '울리자마자'. '울리다가' và '울리면서' đều đòi hỏi CÙNG một chủ ngữ cho cả hai vế nên không phù hợp ở đây; '울리는 동안' tuy cũng cho phép khác chủ ngữ nhưng nghĩa là 'trong suốt lúc chuông reo', không mang sắc thái tức thời 'ngay khi'.",
+  },
+  {
+    id: 'ex-gr-so-cap-18-8',
+    patternId: 'gr-so-cap-18',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vừa nhận được lương là tôi đã trả hết nợ ngay.',
+    modelAnswerKo: '월급을 받자마자 빚을 다 갚았어요.',
+    modelAnswerVi: 'Vừa nhận được lương là tôi đã trả hết nợ ngay.',
+  },
+  {
+    id: 'ex-gr-so-cap-18-9',
+    patternId: 'gr-so-cap-18',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vừa mở cửa hàng ra là khách hàng đã ùa vào ngay.',
+    modelAnswerKo: '가게 문을 열자마자 손님들이 들어왔어요.',
+    modelAnswerVi: 'Vừa mở cửa hàng ra là khách hàng đã ùa vào ngay.',
   },
 
   // ── gr-so-cap-19 · N 동안, V - 는 동안 (trong lúc..., trong khi..., hai vế có thể khác chủ ngữ) ──
@@ -1044,6 +1502,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '제가 샤워하는 동안 전화가 왔어요.',
     modelAnswerVi: 'Trong khi tôi tắm, điện thoại đã reo.',
   },
+  {
+    id: 'ex-gr-so-cap-19-6',
+    patternId: 'gr-so-cap-19',
+    type: 'fill-blank',
+    promptVi: 'Trong suốt 10 năm tôi đã sống ở nước ngoài (dùng N 동안 với cụm 10년).',
+    sentenceKo: '저는 ___ 외국에서 살았어요.',
+    answer: '10년 동안',
+  },
+  {
+    id: 'ex-gr-so-cap-19-7',
+    patternId: 'gr-so-cap-19',
+    type: 'discriminate',
+    promptVi: 'Trong lúc tôi có mặt ở nhà, em tôi đã dọn dẹp phòng của tôi — chọn cách chia đúng cho động từ 있다.',
+    sentenceKo: '제가 집에 ___ 동안 동생이 제 방을 청소했어요.',
+    options: ['있는', '있은', '있으는', '있던'],
+    correctIndex: 0,
+    explanation:
+      "있다/없다 chia theo quy tắc ĐỘNG TỪ khi gắn với -는 동안 → '있는 동안', không tồn tại dạng '있은'/'있으는'. '있던 동안' tuy nghe có vẻ hợp lý nhưng -던 mang sắc thái hồi tưởng về một trạng thái đã kết thúc, không phải cấu trúc chuẩn '-는 동안' đang luyện ở đây.",
+  },
+  {
+    id: 'ex-gr-so-cap-19-8',
+    patternId: 'gr-so-cap-19',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trong lúc bố tôi lái xe, mẹ tôi ngủ ở ghế sau.',
+    modelAnswerKo: '아버지가 운전하는 동안 어머니는 뒷자리에서 주무셨어요.',
+    modelAnswerVi: 'Trong lúc bố tôi lái xe, mẹ tôi ngủ ở ghế sau.',
+  },
+  {
+    id: 'ex-gr-so-cap-19-9',
+    patternId: 'gr-so-cap-19',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trong 2 tuần nghỉ phép, tôi định đi du lịch vòng quanh Đông Nam Á.',
+    modelAnswerKo: '휴가 2주 동안 동남아시아를 여행할 거예요.',
+    modelAnswerVi: 'Trong 2 tuần nghỉ phép, tôi định đi du lịch vòng quanh Đông Nam Á.',
+  },
 
   // ── gr-so-cap-20 · V - (으)ㄴ 지 (đã được bao lâu kể từ khi...) ──
   {
@@ -1089,6 +1582,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Tôi học tiếng Hàn được 2 năm rồi.',
     modelAnswerKo: '한국어를 배운 지 2년 됐어요.',
     modelAnswerVi: 'Tôi học tiếng Hàn được 2 năm rồi.',
+  },
+  {
+    id: 'ex-gr-so-cap-20-6',
+    patternId: 'gr-so-cap-20',
+    type: 'fill-blank',
+    promptVi: 'Chúng tôi kết hôn được 5 năm rồi (chia động từ 결혼하다).',
+    sentenceKo: '저희는 ___ 5년 됐어요.',
+    answer: '결혼한 지',
+  },
+  {
+    id: 'ex-gr-so-cap-20-7',
+    patternId: 'gr-so-cap-20',
+    type: 'discriminate',
+    promptVi: 'Câu này cần nêu rõ một khoảng thời gian đã trôi qua (3 tháng) kể từ một mốc — chọn cấu trúc phù hợp cho động từ 시작하다.',
+    sentenceKo: '한국어 공부를 ___ 3개월 됐어요.',
+    options: ['시작한 지', '시작한 후에', '시작하기 전에', '시작하고 나서'],
+    correctIndex: 0,
+    explanation:
+      "Khi câu cần nêu cụ thể một khoảng thời gian đã trôi qua kể từ một mốc (kết hợp với 되다/지나다), phải dùng V-(으)ㄴ 지 → '시작한 지'. '시작한 후에' chỉ đơn thuần nêu trình tự 'sau khi', không đi kèm khoảng thời gian cụ thể theo cách này; '시작하기 전에' sai nghĩa hoàn toàn ('trước khi'); '시작하고 나서' cũng chỉ nêu trình tự, không phù hợp cấu trúc cần 되다 phía sau.",
+  },
+  {
+    id: 'ex-gr-so-cap-20-8',
+    patternId: 'gr-so-cap-20',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi làm việc ở công ty này được 3 năm rồi.',
+    modelAnswerKo: '이 회사에서 일한 지 3년 됐어요.',
+    modelAnswerVi: 'Tôi làm việc ở công ty này được 3 năm rồi.',
+  },
+  {
+    id: 'ex-gr-so-cap-20-9',
+    patternId: 'gr-so-cap-20',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Bạn làm công việc này được bao lâu rồi?',
+    modelAnswerKo: '이 일을 한 지 얼마나 됐어요?',
+    modelAnswerVi: 'Bạn làm công việc này được bao lâu rồi?',
   },
 
   // ── gr-so-cap-21 · V – 다가 (đang... thì..., hành động bị ngắt quãng hoặc chuyển hướng đột ngột) ──
@@ -1136,6 +1664,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '길을 걷다가 갑자기 비가 왔어요.',
     modelAnswerVi: 'Tôi đang đi bộ trên đường thì trời đột nhiên đổ mưa.',
   },
+  {
+    id: 'ex-gr-so-cap-21-6',
+    patternId: 'gr-so-cap-21',
+    type: 'fill-blank',
+    promptVi: 'Trời đang nắng bỗng nhiên chuyển sang âm u (chia tính từ 맑다, diễn tả trạng thái đột ngột chuyển đổi).',
+    sentenceKo: '날씨가 ___ 갑자기 흐려졌어요.',
+    answer: '맑다가',
+  },
+  {
+    id: 'ex-gr-so-cap-21-7',
+    patternId: 'gr-so-cap-21',
+    type: 'discriminate',
+    promptVi: 'Câu diễn tả tôi đã mặc áo khoác vào xong hẳn rồi mới cởi ra (không phải bị ngắt quãng giữa chừng) — chọn cách chia đúng cho động từ 입다.',
+    sentenceKo: '외투를 ___ 더워서 다시 벗었어요.',
+    options: ['입었다가', '입다가', '입으면서', '입고 나서'],
+    correctIndex: 0,
+    explanation:
+      "Khi hành động vế trước đã HOÀN THÀNH TRỌN VẸN rồi mới chuyển sang hành động khác (mặc xong hẳn rồi mới cởi ra), phải chia thêm thì quá khứ trước -다가 → '입었다가'; nếu chỉ dùng '입다가' (không chia quá khứ) sẽ mang nghĩa 'đang mặc thì' bị ngắt quãng giữa chừng, không đúng ý câu này. '입으면서' nghĩa đồng thời, '입고 나서' nghĩa 'mặc xong rồi' nhưng không mang sắc thái 'rồi lại đổi ý làm ngược lại' đặc trưng của -다가.",
+  },
+  {
+    id: 'ex-gr-so-cap-21-8',
+    patternId: 'gr-so-cap-21',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đang ngồi học bài thì tôi bỗng buồn ngủ.',
+    modelAnswerKo: '공부하다가 갑자기 졸렸어요.',
+    modelAnswerVi: 'Đang ngồi học bài thì tôi bỗng buồn ngủ.',
+  },
+  {
+    id: 'ex-gr-so-cap-21-9',
+    patternId: 'gr-so-cap-21',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi định mua chiếc váy đó rồi lại đổi ý không mua nữa.',
+    modelAnswerKo: '그 치마를 사려다가 마음이 바뀌어서 안 샀어요.',
+    modelAnswerVi: 'Tôi định mua chiếc váy đó rồi lại đổi ý không mua nữa.',
+  },
 
   // ── gr-so-cap-22 · V – 는 길이다/ 는 길에 (đang trên đường..., chỉ dùng với động từ chỉ sự di chuyển) ──
   {
@@ -1180,6 +1743,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Trên đường đi làm về tôi đã mua trái cây.',
     modelAnswerKo: '퇴근하는 길에 과일을 샀어요.',
     modelAnswerVi: 'Trên đường đi làm về tôi đã mua trái cây.',
+  },
+  {
+    id: 'ex-gr-so-cap-22-6',
+    patternId: 'gr-so-cap-22',
+    type: 'fill-blank',
+    promptVi: 'Trên đường ra khỏi công ty tôi đã gặp đồng nghiệp cũ (chia động từ 나오다).',
+    sentenceKo: '회사에서 ___ 예전 동료를 만났어요.',
+    answer: '나오는 길에',
+  },
+  {
+    id: 'ex-gr-so-cap-22-7',
+    patternId: 'gr-so-cap-22',
+    type: 'discriminate',
+    promptVi: 'Động từ 하다 (họp) không phải động từ chỉ sự di chuyển nên không dùng được -는 길에 — chọn cách nói đúng nghĩa "đang trong lúc họp thì có điện thoại gọi đến".',
+    sentenceKo: '회의를 하는 ___ 전화가 왔어요.',
+    options: ['길에', '중에', '전에', '고 나서'],
+    correctIndex: 1,
+    explanation:
+      "-는 길에 chỉ kết hợp được với các động từ chỉ sự DI CHUYỂN (가다, 오다, 나가다...); 하다 (họp) không phải động từ di chuyển nên phải chuyển sang '-는 중에' (biến thể của N 중, V-는 중 ở mục 17) → '회의를 하는 중에'. '길에' sai vì vi phạm giới hạn về loại động từ; '전에' (trước khi) và '고 나서' (làm xong rồi) đều sai nghĩa thời điểm so với ý 'đang trong lúc'.",
+  },
+  {
+    id: 'ex-gr-so-cap-22-8',
+    patternId: 'gr-so-cap-22',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trên đường lên tầng thượng, tôi đã gặp hàng xóm.',
+    modelAnswerKo: '옥상에 올라가는 길에 이웃을 만났어요.',
+    modelAnswerVi: 'Trên đường lên tầng thượng, tôi đã gặp hàng xóm.',
+  },
+  {
+    id: 'ex-gr-so-cap-22-9',
+    patternId: 'gr-so-cap-22',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trên đường đi họp, xe tôi bị hỏng giữa đường.',
+    modelAnswerKo: '회의에 가는 길에 차가 갑자기 고장 났어요.',
+    modelAnswerVi: 'Trên đường đi họp, xe tôi bị hỏng giữa đường.',
   },
 
   // ── gr-so-cap-23 · A/V - (으)ㄹ 수 있다/ 없다. (có thể..., không thể... — năng lực hoặc khả năng xảy ra) ──
@@ -1227,6 +1825,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '저는 한국어를 조금 할 수 있어요.',
     modelAnswerVi: 'Tôi có thể nói được một chút tiếng Hàn.',
   },
+  {
+    id: 'ex-gr-so-cap-23-6',
+    patternId: 'gr-so-cap-23',
+    type: 'fill-blank',
+    promptVi: 'Tôi có thể bơi được 1 km (chia động từ 수영하다).',
+    sentenceKo: '저는 1킬로미터를 ___ 있어요.',
+    answer: '수영할 수',
+  },
+  {
+    id: 'ex-gr-so-cap-23-7',
+    patternId: 'gr-so-cap-23',
+    type: 'discriminate',
+    promptVi: 'B đang nói về việc không đủ khả năng hoàn thành đúng hạn vì khối lượng công việc quá nhiều (không phải vì bị cấm) — chọn cách nói đúng.',
+    sentenceKo: '가: 내일까지 끝낼 수 있어요? 나: 일이 너무 많아서 ___.',
+    options: ['끝낼 수 없어요', '끝내면 안 돼요', '끝내지 마세요', '끝내야 해요'],
+    correctIndex: 0,
+    explanation:
+      "B đang nói về việc KHÔNG ĐỦ KHẢ NĂNG hoàn thành đúng hạn (do khách quan, không phải bị cấm) nên phải dùng -(으)ㄹ 수 없다 → '끝낼 수 없어요'. '끝내면 안 돼요' mang nghĩa 'không được phép làm' (cấm đoán, mục 29), sai hoàn toàn ngữ cảnh; '끝내지 마세요' là câu mệnh lệnh 'đừng làm', càng không phù hợp; '끝내야 해요' đổi nghĩa thành 'phải làm', ngược hẳn với điều B muốn diễn đạt.",
+  },
+  {
+    id: 'ex-gr-so-cap-23-8',
+    patternId: 'gr-so-cap-23',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cuối tuần này có thể tôi sẽ bận, chưa chắc gặp được bạn.',
+    modelAnswerKo: '이번 주말에는 바쁠 수 있어요. 그래서 못 만날 수 있어요.',
+    modelAnswerVi: 'Cuối tuần này có thể tôi sẽ bận. Vì vậy có thể tôi sẽ không gặp được bạn.',
+  },
+  {
+    id: 'ex-gr-so-cap-23-9',
+    patternId: 'gr-so-cap-23',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi không thể ăn được đồ cay.',
+    modelAnswerKo: '저는 매운 음식을 먹을 수 없어요.',
+    modelAnswerVi: 'Tôi không thể ăn được đồ cay.',
+  },
 
   // ── gr-so-cap-24 · V - (으)ㄹ 줄 알다/ 모르다. (biết cách..., không biết cách...) ──
   {
@@ -1272,6 +1905,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Tôi không biết lái xe máy.',
     modelAnswerKo: '저는 오토바이를 탈 줄 몰라요.',
     modelAnswerVi: 'Tôi không biết lái xe máy.',
+  },
+  {
+    id: 'ex-gr-so-cap-24-6',
+    patternId: 'gr-so-cap-24',
+    type: 'fill-blank',
+    promptVi: 'Tôi biết cách vẽ tranh sơn dầu (chia động từ 그리다).',
+    sentenceKo: '저는 유화를 ___ 알아요.',
+    answer: '그릴 줄',
+  },
+  {
+    id: 'ex-gr-so-cap-24-7',
+    patternId: 'gr-so-cap-24',
+    type: 'discriminate',
+    promptVi: 'Câu này nói về việc không được phép hút thuốc ở đây (quy định, không phải về kỹ năng) — chọn cách nói đúng.',
+    sentenceKo: '가: 여기에서 담배를 피워도 돼요? 나: 아니요, 여기에서는 담배를 ___.',
+    options: ['피울 수 없어요', '피울 줄 몰라요', '피우고 싶어요', '피워야 해요'],
+    correctIndex: 0,
+    explanation:
+      "-(으)ㄹ 줄 알다/모르다 CHỈ dùng để nói về việc biết hay không biết CÁCH làm, không dùng để diễn tả việc được phép hay không được phép làm — trường hợp này là quy định cấm hút thuốc nên phải dùng -(으)ㄹ 수 없다 → '피울 수 없어요'. '피울 줄 몰라요' sai vì đây không phải vấn đề kỹ năng (không ai cần 'biết cách' hút thuốc); '피우고 싶어요'/'피워야 해요' đều sai nghĩa hoàn toàn so với ngữ cảnh cấm đoán.",
+  },
+  {
+    id: 'ex-gr-so-cap-24-8',
+    patternId: 'gr-so-cap-24',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Bạn có biết cách sử dụng đũa không?',
+    modelAnswerKo: '젓가락을 사용할 줄 알아요?',
+    modelAnswerVi: 'Bạn có biết cách sử dụng đũa không?',
+  },
+  {
+    id: 'ex-gr-so-cap-24-9',
+    patternId: 'gr-so-cap-24',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi không biết cách sửa máy tính.',
+    modelAnswerKo: '저는 컴퓨터를 고칠 줄 몰라요.',
+    modelAnswerVi: 'Tôi không biết cách sửa máy tính.',
   },
 
   // ── gr-so-cap-25 · V - (으)세요. (hãy..., xin hãy... — câu mệnh lệnh lịch sự) ──
@@ -1319,6 +1987,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '엘리베이터를 이용하십시오.',
     modelAnswerVi: 'Xin mời quý khách sử dụng thang máy.',
   },
+  {
+    id: 'ex-gr-so-cap-25-6',
+    patternId: 'gr-so-cap-25',
+    type: 'fill-blank',
+    promptVi: 'Xin hãy cho tôi xem thực đơn (dùng dạng đặc biệt của động từ 주다 khi yêu cầu ai đó cho mình cái gì).',
+    sentenceKo: '메뉴판 좀 보여 ___.',
+    answer: '주세요',
+  },
+  {
+    id: 'ex-gr-so-cap-25-7',
+    patternId: 'gr-so-cap-25',
+    type: 'discriminate',
+    promptVi: 'Đây là lời chúc mừng năm mới, dùng tính từ 건강하다 ở dạng cố định thường thấy trong lời chúc — chọn cách nói đúng.',
+    sentenceKo: '새해 복 많이 받으시고 늘 ___.',
+    options: ['건강하세요', '건강해요', '건강합니다', '건강하고 있어요'],
+    correctIndex: 0,
+    explanation:
+      "Một số tính từ kết thúc bằng 하다 như 건강하다, 행복하다 có thể dùng cố định với -(으)세요 trong LỜI CHÚC dù về bản chất ngữ pháp tính từ không tạo câu mệnh lệnh được — đây là ngoại lệ quen thuộc → '건강하세요'. '건강해요'/'건강합니다' chỉ là câu trần thuật đơn thuần, thiếu sắc thái chúc; '건강하고 있어요' sai hoàn toàn vì 있다 không kết hợp được với tính từ theo cách này.",
+  },
+  {
+    id: 'ex-gr-so-cap-25-8',
+    patternId: 'gr-so-cap-25',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Xin mời quý khách đợi ở đây một chút ạ.',
+    modelAnswerKo: '여기에서 잠깐 기다리세요.',
+    modelAnswerVi: 'Xin mời quý khách đợi ở đây một chút ạ.',
+  },
+  {
+    id: 'ex-gr-so-cap-25-9',
+    patternId: 'gr-so-cap-25',
+    type: 'produce',
+    promptVi: 'Diễn đạt (trang trọng, dùng -(으)십시오): Xin hãy điền đầy đủ thông tin vào biểu mẫu này.',
+    modelAnswerKo: '이 양식에 정보를 다 기입하십시오.',
+    modelAnswerVi: 'Xin hãy điền đầy đủ thông tin vào biểu mẫu này.',
+  },
 
   // ── gr-so-cap-26 · V - 지 말다: 지 마세요. / 지 맙시다. (đừng... — yêu cầu hoặc rủ rê không làm gì) ──
   {
@@ -1363,6 +2066,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Đừng lo lắng, mọi chuyện sẽ ổn thôi.',
     modelAnswerKo: '걱정하지 마세요. 다 잘될 거예요.',
     modelAnswerVi: 'Đừng lo lắng. Mọi chuyện sẽ ổn thôi.',
+  },
+  {
+    id: 'ex-gr-so-cap-26-6',
+    patternId: 'gr-so-cap-26',
+    type: 'fill-blank',
+    promptVi: 'Thông báo trang trọng nơi công cộng: Xin đừng chạm vào tác phẩm nghệ thuật (dùng dạng tôn kính -지 마십시오 với động từ 만지다).',
+    sentenceKo: '작품을 ___.',
+    answer: '만지지 마십시오',
+  },
+  {
+    id: 'ex-gr-so-cap-26-7',
+    patternId: 'gr-so-cap-26',
+    type: 'discriminate',
+    promptVi: 'Hai người bạn thân đang nói chuyện suồng sã — chọn dạng thân mật (반말) phù hợp để bảo bạn đừng khóc nữa.',
+    sentenceKo: '야, 이제 그만 ___.',
+    options: ['울지 마', '울지 마세요', '울지 맙시다', '울면 안 돼'],
+    correctIndex: 0,
+    explanation:
+      "Giữa bạn bè thân thiết dùng văn nói suồng sã (반말), dạng thân mật của -지 마세요/-지 맙시다 chỉ đơn giản là '-지 마' → '울지 마'. '울지 마세요' quá lịch sự, không hợp văn cảnh suồng sã giữa bạn bè; '울지 맙시다' là dạng trang trọng của rủ rê, càng không phù hợp; '울면 안 돼' đổi sang cấu trúc cấm đoán khác (mục 29 ở dạng thân mật), không phải trọng tâm -지 말다 đang luyện.",
+  },
+  {
+    id: 'ex-gr-so-cap-26-8',
+    patternId: 'gr-so-cap-26',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đừng đi trễ vào ngày mai nhé.',
+    modelAnswerKo: '내일 늦지 마세요.',
+    modelAnswerVi: 'Đừng đi trễ vào ngày mai nhé.',
+  },
+  {
+    id: 'ex-gr-so-cap-26-9',
+    patternId: 'gr-so-cap-26',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chúng ta đừng bàn về chuyện đó nữa nhé.',
+    modelAnswerKo: '우리 그 이야기는 더 이상 하지 맙시다.',
+    modelAnswerVi: 'Chúng ta đừng bàn về chuyện đó nữa nhé.',
   },
 
   // ── gr-so-cap-27 · V - 아/어야 되다 / 하다. (phải... — nghĩa vụ, bổn phận) ──
@@ -1410,6 +2148,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '나가기 전에 일기예보를 확인해야 해요.',
     modelAnswerVi: 'Trước khi ra ngoài phải xem dự báo thời tiết.',
   },
+  {
+    id: 'ex-gr-so-cap-27-6',
+    patternId: 'gr-so-cap-27',
+    type: 'fill-blank',
+    promptVi: 'Tôi phải trả nợ vào cuối tháng này (chia động từ 갚다).',
+    sentenceKo: '이번 달 말까지 빚을 ___ 해요.',
+    answer: '갚아야',
+  },
+  {
+    id: 'ex-gr-so-cap-27-7',
+    patternId: 'gr-so-cap-27',
+    type: 'discriminate',
+    promptVi: 'Đây là câu trong một bài luận trang trọng (văn viết) — chọn cách nói phù hợp hơn cho văn viết khi nói "phải bảo vệ môi trường".',
+    sentenceKo: '우리는 환경을 ___.',
+    options: ['보호해야 합니다', '보호해야 됩니다', '보호해도 됩니다', '보호하면 됩니다'],
+    correctIndex: 0,
+    explanation:
+      "Trong văn viết trang trọng, chỉ dùng -아/어야 하다, tránh dùng -아/어야 되다 vốn thiên về văn nói — đúng và chuẩn mực hơn là '보호해야 합니다'. '보호해야 됩니다' tuy vẫn được hiểu nhưng ít chuẩn mực trong văn viết; '보호해도 됩니다' (được phép) và '보호하면 됩니다' (chỉ cần làm là được, mang tính điều kiện nhẹ hơn) đều sai nghĩa bắt buộc cần diễn đạt.",
+  },
+  {
+    id: 'ex-gr-so-cap-27-8',
+    patternId: 'gr-so-cap-27',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trước khi lên máy bay, phải có mặt ở sân bay trước 2 tiếng.',
+    modelAnswerKo: '비행기를 타기 전에 공항에 2시간 전에 도착해야 해요.',
+    modelAnswerVi: 'Trước khi lên máy bay, phải có mặt ở sân bay trước 2 tiếng.',
+  },
+  {
+    id: 'ex-gr-so-cap-27-9',
+    patternId: 'gr-so-cap-27',
+    type: 'produce',
+    promptVi: 'Diễn đạt (tiếc nuối về việc lẽ ra đã phải làm): Lẽ ra tôi đã phải xin lỗi cô ấy sớm hơn.',
+    modelAnswerKo: '그녀에게 더 일찍 사과했어야 해요.',
+    modelAnswerVi: 'Lẽ ra tôi đã phải xin lỗi cô ấy sớm hơn.',
+  },
 
   // ── gr-so-cap-28 · A V - 아/어도 되다. (được phép... — xin phép và cho phép) ──
   {
@@ -1456,6 +2229,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '교실에서 물을 마셔도 돼요?',
     modelAnswerVi: 'Tôi uống nước trong lớp được không ạ?',
   },
+  {
+    id: 'ex-gr-so-cap-28-6',
+    patternId: 'gr-so-cap-28',
+    type: 'fill-blank',
+    promptVi: 'Tôi chạm vào bức tranh này được không? (chia động từ 만지다).',
+    sentenceKo: '이 그림을 ___?',
+    answer: '만져도 돼요',
+  },
+  {
+    id: 'ex-gr-so-cap-28-7',
+    patternId: 'gr-so-cap-28',
+    type: 'discriminate',
+    promptVi: 'B đang từ chối không cho A hút thuốc trong nhà — chọn cách nói đúng.',
+    sentenceKo: '가: 집 안에서 담배를 피워도 돼요? 나: 아니요, 집 안에서 담배를 ___.',
+    options: ['피워도 안 돼요', '피우면 안 돼요', '피우지 않아도 돼요', '피우고 싶어요'],
+    correctIndex: 1,
+    explanation:
+      "Khi TỪ CHỐI một lời xin phép, không nói '아/어도 안 돼요' mà phải chuyển hẳn sang cấu trúc -(으)면 안 되다 → '피우면 안 돼요'. '피우지 않아도 돼요' (mục 30) sai nghĩa vì đó là 'không cần hút cũng được', không phải bị cấm; '피우고 싶어요' hoàn toàn lạc đề, không liên quan đến việc cho phép/từ chối.",
+  },
+  {
+    id: 'ex-gr-so-cap-28-8',
+    patternId: 'gr-so-cap-28',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Con có thể chơi game một chút được không mẹ?',
+    modelAnswerKo: '엄마, 게임을 좀 해도 돼요?',
+    modelAnswerVi: 'Con có thể chơi game một chút được không mẹ?',
+  },
+  {
+    id: 'ex-gr-so-cap-28-9',
+    patternId: 'gr-so-cap-28',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi có thể thử món ăn này trước khi mua được không?',
+    modelAnswerKo: '이 음식을 사기 전에 먼저 먹어 봐도 돼요?',
+    modelAnswerVi: 'Tôi có thể thử món ăn này trước khi mua được không?',
+  },
 
   // ── gr-so-cap-29 · A/V - (으)면 안 되다. (không được... — cấm đoán) ──
   {
@@ -1500,6 +2308,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Ở thư viện không được nói chuyện to.',
     modelAnswerKo: '도서관에서 큰 소리로 이야기하면 안 돼요.',
     modelAnswerVi: 'Ở thư viện không được nói chuyện to.',
+  },
+  {
+    id: 'ex-gr-so-cap-29-6',
+    patternId: 'gr-so-cap-29',
+    type: 'fill-blank',
+    promptVi: 'Không được đỗ xe ở đây (chia động từ 주차하다).',
+    sentenceKo: '여기에 차를 ___.',
+    answer: '주차하면 안 돼요',
+  },
+  {
+    id: 'ex-gr-so-cap-29-7',
+    patternId: 'gr-so-cap-29',
+    type: 'discriminate',
+    promptVi: 'Câu diễn tả một quy định bắt buộc "phải nộp bài tập đúng hạn" — chọn cách chia đúng cho phủ định kép với động từ 내다 (nộp) để nhấn mạnh nghĩa vụ.',
+    sentenceKo: '기한 안에 과제를 ___.',
+    options: ['내지 않으면 안 돼요', '내면 안 돼요', '내지 마세요', '낼 수 없어요'],
+    correctIndex: 0,
+    explanation:
+      "Phủ định kép -지 않으면 안 되다 mang nghĩa nhấn mạnh 'BẮT BUỘC phải làm', tương đương 'nếu không nộp thì không được' → '내지 않으면 안 돼요'. '내면 안 돼요' lại mang nghĩa hoàn toàn ngược lại (cấm nộp bài); '내지 마세요' cũng là câu cấm đoán trực tiếp, sai nghĩa; '낼 수 없어요' chỉ nói về việc không có khả năng nộp, không mang sắc thái bắt buộc.",
+  },
+  {
+    id: 'ex-gr-so-cap-29-8',
+    patternId: 'gr-so-cap-29',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Không được nói dối bố mẹ.',
+    modelAnswerKo: '부모님께 거짓말을 하면 안 돼요.',
+    modelAnswerVi: 'Không được nói dối bố mẹ.',
+  },
+  {
+    id: 'ex-gr-so-cap-29-9',
+    patternId: 'gr-so-cap-29',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Trong rạp chiếu phim không được dùng đèn flash để chụp ảnh.',
+    modelAnswerKo: '영화관에서 플래시를 켜고 사진을 찍으면 안 돼요.',
+    modelAnswerVi: 'Trong rạp chiếu phim không được dùng đèn flash để chụp ảnh.',
   },
 
   // ── gr-so-cap-30 · A/V – 지 않아도 되다. (안 A/V - 아 /어도 되다) (không cần... cũng được — không bắt buộc) ──
@@ -1546,6 +2389,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '내일은 일요일이니까 일찍 일어나지 않아도 돼요.',
     modelAnswerVi: 'Ngày mai là chủ nhật nên bạn không cần dậy sớm cũng được.',
   },
+  {
+    id: 'ex-gr-so-cap-30-6',
+    patternId: 'gr-so-cap-30',
+    type: 'fill-blank',
+    promptVi: 'Hôm nay không cần nấu cơm cũng được, chúng ta ăn ngoài (chia động từ 하다 với cụm 요리를 하다, dùng dạng 안 V-아/어도 되다).',
+    sentenceKo: '오늘은 요리를 ___. 밖에서 먹어요.',
+    answer: '안 해도 돼요',
+  },
+  {
+    id: 'ex-gr-so-cap-30-7',
+    patternId: 'gr-so-cap-30',
+    type: 'discriminate',
+    promptVi: 'B đang trấn an rằng nộp phí sớm không phải là bắt buộc — chọn cách nói đúng.',
+    sentenceKo: '가: 회비를 오늘까지 내야 해요? 나: 아니요, 오늘까지 ___.',
+    options: ['내지 않아도 돼요', '내면 안 돼요', '내야 해요', '낼 수 없어요'],
+    correctIndex: 0,
+    explanation:
+      "-지 않아도 되다 diễn tả việc KHÔNG BẮT BUỘC phải làm (không cần), đúng với sắc thái B đang trấn an rằng nộp phí hôm nay không phải bắt buộc → '내지 않아도 돼요'. '내면 안 돼요' mang nghĩa cấm đoán hoàn toàn sai; '내야 해요' đổi nghĩa thành bắt buộc, ngược hẳn ý B muốn nói; '낼 수 없어요' lại nói về việc không có khả năng nộp, không đúng trọng tâm câu hỏi.",
+  },
+  {
+    id: 'ex-gr-so-cap-30-8',
+    patternId: 'gr-so-cap-30',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Ngày mai được nghỉ nên bạn không cần đặt báo thức cũng được.',
+    modelAnswerKo: '내일은 쉬니까 알람을 맞추지 않아도 돼요.',
+    modelAnswerVi: 'Ngày mai được nghỉ nên bạn không cần đặt báo thức cũng được.',
+  },
+  {
+    id: 'ex-gr-so-cap-30-9',
+    patternId: 'gr-so-cap-30',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đây là bữa tiệc thân mật nên bạn không cần ăn mặc trang trọng cũng được.',
+    modelAnswerKo: '편한 모임이니까 정장을 입지 않아도 돼요.',
+    modelAnswerVi: 'Đây là bữa tiệc thân mật nên bạn không cần ăn mặc trang trọng cũng được.',
+  },
 
   // ── gr-so-cap-31 · A/V - (으)ㄹ까요? (hỏi ý kiến, rủ rê hoặc suy đoán) ──
   {
@@ -1590,6 +2468,42 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Chúng ta đi xem phim vào cuối tuần này nhé?',
     modelAnswerKo: '이번 주말에 같이 영화 보러 갈까요?',
     modelAnswerVi: 'Chúng ta đi xem phim vào cuối tuần này nhé?',
+  },
+  {
+    id: 'ex-gr-so-cap-31-6',
+    patternId: 'gr-so-cap-31',
+    type: 'fill-blank',
+    promptVi: 'Không biết món đó có cay không nhỉ? (suy đoán — chia tính từ bất quy tắc ㅂ 맵다).',
+    sentenceKo: '그 음식이 ___?',
+    answer: '매울까요',
+    hintVi: '맵다 là tính từ bất quy tắc ㅂ: trước đuôi bắt đầu bằng nguyên âm 을까요, ㅂ đổi thành 우 → 매울까요.',
+  },
+  {
+    id: 'ex-gr-so-cap-31-7',
+    patternId: 'gr-so-cap-31',
+    type: 'discriminate',
+    promptVi: 'Nhân viên phục vụ đang hỏi ý kiến cá nhân của mình (chủ ngữ ngầm "tôi") trước khi rót thêm nước cho khách — chọn câu phù hợp cho động từ 따르다 (rót).',
+    sentenceKo: '(nhân viên nói với khách) 물을 더 ___?',
+    options: ['따를까요', '따릅시다', '따를래요', '따르세요'],
+    correctIndex: 0,
+    explanation:
+      "Khi người nói (nhân viên) hỏi ý kiến người nghe về việc CHÍNH MÌNH định làm (rót nước), dùng -(으)ㄹ까요? với chủ ngữ ngầm 제가 → '따를까요?'. '따릅시다' (mục 32) là câu rủ rê 'chúng ta cùng làm', sai vì đây không phải hành động chung; '따를래요?' hỏi Ý ĐỊNH của người NGHE, không phù hợp khi nhân viên đang hỏi về hành động của chính mình; '따르세요' là câu mệnh lệnh, không phải câu hỏi ý kiến.",
+  },
+  {
+    id: 'ex-gr-so-cap-31-8',
+    patternId: 'gr-so-cap-31',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chúng ta gọi món gì nhỉ?',
+    modelAnswerKo: '우리 뭐 시킬까요?',
+    modelAnswerVi: 'Chúng ta gọi món gì nhỉ?',
+  },
+  {
+    id: 'ex-gr-so-cap-31-9',
+    patternId: 'gr-so-cap-31',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi mở nhạc to hơn một chút nhé?',
+    modelAnswerKo: '음악 소리를 좀 더 크게 할까요?',
+    modelAnswerVi: 'Tôi mở nhạc to hơn một chút nhé?',
   },
 
   // ── gr-so-cap-32 · V - (으) ㅂ시다. (hãy cùng..., chúng ta cùng... — câu cầu khiến) ──
@@ -1636,6 +2550,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Chúng ta cùng dọn dẹp phòng nhé.',
     modelAnswerKo: '우리 같이 방을 청소합시다.',
     modelAnswerVi: 'Chúng ta cùng dọn dẹp phòng nhé.',
+  },
+  {
+    id: 'ex-gr-so-cap-32-6',
+    patternId: 'gr-so-cap-32',
+    type: 'fill-blank',
+    promptVi: 'Chúng ta cùng làm bánh sinh nhật cho bạn ấy nhé (chia động từ có phụ âm cuối ㄹ 만들다).',
+    sentenceKo: '그 친구를 위해 생일 케이크를 ___.',
+    answer: '만듭시다',
+  },
+  {
+    id: 'ex-gr-so-cap-32-7',
+    patternId: 'gr-so-cap-32',
+    type: 'discriminate',
+    promptVi: 'Chúng ta muốn rủ nhau đừng lãng phí thức ăn nữa — chọn cách chia đúng cho động từ 낭비하다 ở dạng phủ định của -(으)ㅂ시다.',
+    sentenceKo: '음식을 ___.',
+    options: ['낭비하지 맙시다', '안 낭비합시다', '낭비하지 않습시다', '낭비하지 마세요'],
+    correctIndex: 0,
+    explanation:
+      "Dạng phủ định của -(으)ㅂ시다 KHÔNG được tạo bằng cách thêm '안' phía trước hay '-지 않-' vào thân động từ (không tồn tại '안 낭비합시다' hay '낭비하지 않습시다'), mà phải chuyển hẳn sang cấu trúc -지 맙시다 → '낭비하지 맙시다'. '낭비하지 마세요' chỉ mang nghĩa yêu cầu người NGHE, thiếu sắc thái rủ rê 'cùng nhau' đặc trưng của -(으)ㅂ시다.",
+  },
+  {
+    id: 'ex-gr-so-cap-32-8',
+    patternId: 'gr-so-cap-32',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chúng ta cùng lên kế hoạch cho chuyến du lịch nhé.',
+    modelAnswerKo: '우리 여행 계획을 세웁시다.',
+    modelAnswerVi: 'Chúng ta cùng lên kế hoạch cho chuyến du lịch nhé.',
+  },
+  {
+    id: 'ex-gr-so-cap-32-9',
+    patternId: 'gr-so-cap-32',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chúng ta hãy giữ trật tự trong thư viện.',
+    modelAnswerKo: '도서관에서 조용히 합시다.',
+    modelAnswerVi: 'Chúng ta hãy giữ trật tự trong thư viện.',
   },
 
   // ── gr-so-cap-33 · V - (으) 시겠어요? (hỏi ý kiến lịch sự, trang trọng) ──
@@ -1684,6 +2633,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '커피 좀 더 드시겠어요?',
     modelAnswerVi: 'Anh/chị dùng thêm chút cà phê nữa được không ạ?',
   },
+  {
+    id: 'ex-gr-so-cap-33-6',
+    patternId: 'gr-so-cap-33',
+    type: 'fill-blank',
+    promptVi: 'Quý khách sẽ đi cùng chuyến xe buýt tiếp theo chứ ạ? (chia động từ 가다, hỏi lịch sự trang trọng).',
+    sentenceKo: '다음 버스로 ___?',
+    answer: '가시겠어요',
+  },
+  {
+    id: 'ex-gr-so-cap-33-7',
+    patternId: 'gr-so-cap-33',
+    type: 'discriminate',
+    promptVi: 'Nhân viên lễ tân khách sạn đang hỏi khách một cách trang trọng nhất có thể — chọn cách hỏi phù hợp nhất cho động từ 묵다 (lưu trú).',
+    sentenceKo: '(lễ tân nói với khách) 며칠 동안 ___?',
+    options: ['묵으시겠어요', '묵을래요', '묵으실래요', '묵어요'],
+    correctIndex: 0,
+    explanation:
+      "-(으)시겠어요? là dạng lịch sự và trang trọng NHẤT trong nhóm hỏi ý kiến, phù hợp nhất khi giao tiếp với khách hàng trong bối cảnh dịch vụ trang trọng như lễ tân khách sạn → '묵으시겠어요?'. '묵을래요?' quá suồng sã, thiếu tôn trọng; '묵으실래요?' tuy có thêm '시' tôn kính nhưng vẫn kém trang trọng hơn -(으)시겠어요?; '묵어요?' là câu hỏi trần thuật thông thường, không mang sắc thái lịch sự cần thiết.",
+  },
+  {
+    id: 'ex-gr-so-cap-33-8',
+    patternId: 'gr-so-cap-33',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Quý khách muốn thanh toán bằng tiền mặt hay thẻ ạ?',
+    modelAnswerKo: '현금으로 계산하시겠어요? 아니면 카드로 하시겠어요?',
+    modelAnswerVi: 'Quý khách muốn thanh toán bằng tiền mặt hay thẻ ạ?',
+  },
+  {
+    id: 'ex-gr-so-cap-33-9',
+    patternId: 'gr-so-cap-33',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Anh/chị có muốn tham gia cuộc họp lúc 3 giờ chiều không ạ?',
+    modelAnswerKo: '오후 3시 회의에 참석하시겠어요?',
+    modelAnswerVi: 'Anh/chị có muốn tham gia cuộc họp lúc 3 giờ chiều không ạ?',
+  },
 
   // ── gr-so-cap-34 · V - (으)ㄹ래요? (hỏi ý định hoặc đề nghị nhẹ nhàng) ──
   {
@@ -1730,6 +2714,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     modelAnswerKo: '나랑 커피 마시러 갈래?',
     modelAnswerVi: 'Cậu có muốn đi uống cà phê với tớ không?',
   },
+  {
+    id: 'ex-gr-so-cap-34-6',
+    patternId: 'gr-so-cap-34',
+    type: 'fill-blank',
+    promptVi: 'Bạn không muốn cùng đi xem triển lãm tranh à? (dùng dạng phủ định -지 않을래요? với động từ 가다, hỏi lịch sự thân mật).',
+    sentenceKo: '전시회에 같이 ___?',
+    answer: '가지 않을래요',
+  },
+  {
+    id: 'ex-gr-so-cap-34-7',
+    patternId: 'gr-so-cap-34',
+    type: 'discriminate',
+    promptVi: 'B đang trả lời khẳng định ý định của chính mình sau khi được hỏi — chọn cách đáp phù hợp và tự nhiên hơn trong hội thoại này.',
+    sentenceKo: '가: 저녁에 라면 먹을래요? 나: 네, 좋아요. ___.',
+    options: ['먹을게요', '먹을까요', '먹으세요', '먹자마자'],
+    correctIndex: 0,
+    explanation:
+      "Khi đáp lại lời hỏi ý định bằng -(으)ㄹ래요?, người nghe thường xác nhận ý định của MÌNH bằng -(으)ㄹ게요 (thể hiện sự đồng ý/cam kết) → '먹을게요'. '먹을까요?' lại là một câu hỏi mới (hỏi ý kiến), không phải câu trả lời khẳng định; '먹으세요' là mệnh lệnh, sai vai trò; '먹자마자' sai hoàn toàn về nghĩa (ngay khi ăn).",
+  },
+  {
+    id: 'ex-gr-so-cap-34-8',
+    patternId: 'gr-so-cap-34',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tối nay cậu có muốn xem phim kinh dị với tớ không?',
+    modelAnswerKo: '오늘 저녁에 나랑 공포 영화 볼래?',
+    modelAnswerVi: 'Tối nay cậu có muốn xem phim kinh dị với tớ không?',
+  },
+  {
+    id: 'ex-gr-so-cap-34-9',
+    patternId: 'gr-so-cap-34',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tớ sẽ đợi cậu ở trước cổng trường nhé.',
+    modelAnswerKo: '학교 정문 앞에서 기다릴래.',
+    modelAnswerVi: 'Tớ sẽ đợi cậu ở trước cổng trường nhé.',
+  },
 
   // ── gr-so-cap-35 · V - 고 싶다. (muốn...) ──
   {
@@ -1774,6 +2793,41 @@ export const grammarExercisesSoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Tôi muốn học thêm nhiều ngôn ngữ khác nữa.',
     modelAnswerKo: '저는 다른 언어를 더 배우고 싶어요.',
     modelAnswerVi: 'Tôi muốn học thêm nhiều ngôn ngữ khác nữa.',
+  },
+  {
+    id: 'ex-gr-so-cap-35-6',
+    patternId: 'gr-so-cap-35',
+    type: 'fill-blank',
+    promptVi: 'Tôi rất nhớ bạn gái của mình (dùng cấu trúc đặc biệt của 보고 싶다 khi mang nghĩa nhớ nhung: danh từ + trợ từ 이/가, không dùng 을/를).',
+    sentenceKo: '저는 ___ 너무 보고 싶어요.',
+    answer: '여자 친구가',
+  },
+  {
+    id: 'ex-gr-so-cap-35-7',
+    patternId: 'gr-so-cap-35',
+    type: 'discriminate',
+    promptVi: 'Câu diễn tả mong muốn "trở nên khỏe mạnh hơn" — tính từ 건강하다 cần chuyển qua dạng nào trước khi thêm -고 싶다?',
+    sentenceKo: '저는 더 ___.',
+    options: ['건강해지고 싶어요', '건강하고 싶어요', '건강해지고 싶어 해요', '건강히고 싶어요'],
+    correctIndex: 0,
+    explanation:
+      "Với TÍNH TỪ, không được gắn trực tiếp -고 싶다 (không nói '건강하고 싶어요') mà phải chuyển tính từ thành động từ bằng -아/어지다 trước, rồi mới thêm -고 싶다 → '건강해지고 싶어요' ('muốn trở nên khỏe mạnh'). '건강해지고 싶어 해요' sai vì thêm nhầm '해요' theo mẫu ngôi thứ ba trong khi chủ ngữ ở đây là 'tôi' (ngôi thứ nhất); '건강히고 싶어요' là lỗi chính tả không tồn tại.",
+  },
+  {
+    id: 'ex-gr-so-cap-35-8',
+    patternId: 'gr-so-cap-35',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi muốn ăn thử món ăn truyền thống Hàn Quốc.',
+    modelAnswerKo: '저는 한국 전통 음식을 먹어 보고 싶어요.',
+    modelAnswerVi: 'Tôi muốn ăn thử món ăn truyền thống Hàn Quốc.',
+  },
+  {
+    id: 'ex-gr-so-cap-35-9',
+    patternId: 'gr-so-cap-35',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Con trai tôi muốn trở thành cầu thủ bóng đá (nói về mong muốn của người thứ ba).',
+    modelAnswerKo: '제 아들은 축구 선수가 되고 싶어 해요.',
+    modelAnswerVi: 'Con trai tôi muốn trở thành cầu thủ bóng đá.',
   },
 
   // ── gr-so-cap-36 · A/V - 았/었으면 좋겠다. (ước gì..., giá mà... thì tốt — mong ước khó thành hiện thực) ──
