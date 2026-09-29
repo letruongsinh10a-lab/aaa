@@ -2701,6 +2701,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '호텔을 못 구하면 게스트하우스라도 묵어요.',
     modelAnswerVi: 'Nếu không đặt được phòng khách sạn thì ở tạm nhà nghỉ cũng được.',
   },
+  {
+    id: 'ex-gr-trung-cap-34-6',
+    patternId: 'gr-trung-cap-34',
+    type: 'fill-blank',
+    promptVi: 'Không có bút bi thì viết tạm bằng bút chì cũng được (danh từ 연필, kết thúc phụ âm).',
+    sentenceKo: '볼펜이 없으면 ___ 써요.',
+    answer: '연필이라도',
+  },
+  {
+    id: 'ex-gr-trung-cap-34-7',
+    patternId: 'gr-trung-cap-34',
+    type: 'discriminate',
+    promptVi: 'Trà và cà phê ở đây là hai lựa chọn NGANG HÀNG, không phân biệt cái nào tốt hơn cái nào (không mang tính miễn cưỡng như phải chọn phương án thứ hai) — chọn từ nối phù hợp hơn cho danh từ 커피.',
+    sentenceKo: '가: 뭘 드시겠어요? 나: 저는 차나 커피___ 다 좋아요.',
+    options: ['라도', '나', '조차', '마저'],
+    correctIndex: 1,
+    explanation:
+      "-(이)나 dùng khi các lựa chọn mang tính ngang hàng, không phân biệt cái nào tốt hơn cái nào; còn -(이)라도 luôn ngụ ý đây là phương án thứ hai, kém hơn lựa chọn lý tưởng, dùng khi không có gì tốt hơn. Ở đây trà và cà phê là hai lựa chọn bình đẳng, không mang tính miễn cưỡng nên '커피나' phù hợp hơn '커피라도'. '조차'/'마저' đều dùng trong ngữ cảnh tiêu cực để nhấn mạnh 'ngay cả... cũng không', không phù hợp câu liệt kê lựa chọn bình thường, tích cực này.",
+  },
+  {
+    id: 'ex-gr-trung-cap-34-8',
+    patternId: 'gr-trung-cap-34',
+    type: 'produce',
+    promptVi: 'Diễn đạt (lựa chọn tạm ổn khi không có lựa chọn tốt nhất): Không có sữa tươi thì cho tạm sữa đặc vào cà phê cũng được.',
+    modelAnswerKo: '우유가 없으면 연유라도 커피에 넣어요.',
+    modelAnswerVi: 'Không có sữa tươi thì cho tạm sữa đặc vào cà phê cũng được.',
+  },
+  {
+    id: 'ex-gr-trung-cap-34-9',
+    patternId: 'gr-trung-cap-34',
+    type: 'produce',
+    promptVi: 'Diễn đạt (lựa chọn tạm ổn khi không có lựa chọn tốt nhất): Nếu không đặt được phòng đơn thì ở tạm phòng đôi chung với bạn cũng được.',
+    modelAnswerKo: '싱글룸을 못 구하면 더블룸이라도 친구랑 같이 써요.',
+    modelAnswerVi: 'Nếu không đặt được phòng đơn thì ở tạm phòng đôi chung với bạn cũng được.',
+  },
 
   // ── gr-trung-cap-35 · A/V-든지 A/V-든지 (chọn cái nào cũng không quan trọng, kết quả như nhau) ──
   {
@@ -2745,6 +2780,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Đi du lịch Hàn Quốc hay Nhật Bản, chọn đâu cũng được, tôi đều thích cả.',
     modelAnswerKo: '한국으로 여행을 가든지 일본으로 가든지 다 좋아요.',
     modelAnswerVi: 'Đi du lịch Hàn Quốc hay Nhật Bản, chọn đâu cũng được, tôi đều thích cả.',
+  },
+  {
+    id: 'ex-gr-trung-cap-35-6',
+    patternId: 'gr-trung-cap-35',
+    type: 'fill-blank',
+    promptVi: 'Dù bạn cười hay khóc, tôi vẫn ở bên cạnh bạn (chia động từ 울다 - khóc, lần thứ hai).',
+    sentenceKo: '웃든지 ___ 저는 당신 곁에 있을게요.',
+    answer: '울든지',
+  },
+  {
+    id: 'ex-gr-trung-cap-35-7',
+    patternId: 'gr-trung-cap-35',
+    type: 'discriminate',
+    promptVi: 'Câu này thể hiện thái độ THỜ Ơ, MẶC KỆ trước một hành động duy nhất (không phải liệt kê nhiều lựa chọn khác nhau) — chọn cách nói phù hợp hơn cho động từ 가다.',
+    sentenceKo: '저는 이제 신경 안 써요. 당신이 ___ 상관없어요.',
+    options: ['가든지 말든지', '가든지 오든지', '가거나', '가는 대로'],
+    correctIndex: 0,
+    explanation:
+      "-든지 말든지 thể hiện thái độ THỜ Ơ, MẶC KỆ trước MỘT hành động cụ thể (làm hay không làm cũng mặc kệ), khác với -든지 -든지 dùng để liệt kê NHIỀU lựa chọn khác nhau mà chọn cái nào cũng không quan trọng. Ở đây câu chỉ nói về một hành động duy nhất ('đi') với thái độ mặc kệ nên '가든지 말든지' phù hợp hơn. '가거나' chỉ đơn thuần liệt kê, '가는 대로' nghĩa 'ngay khi đi' — cả hai đều sai ngữ cảnh.",
+  },
+  {
+    id: 'ex-gr-trung-cap-35-8',
+    patternId: 'gr-trung-cap-35',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Ăn ở nhà hay ăn ở ngoài tiệm, cái nào cũng được, tùy bạn chọn.',
+    modelAnswerKo: '집에서 먹든지 밖에서 먹든지 다 괜찮아요. 당신이 골라요.',
+    modelAnswerVi: 'Ăn ở nhà hay ăn ở ngoài tiệm, cái nào cũng được, tùy bạn chọn.',
+  },
+  {
+    id: 'ex-gr-trung-cap-35-9',
+    patternId: 'gr-trung-cap-35',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cuối tuần này trời mưa hay nắng thì tôi cũng sẽ vẫn đi leo núi.',
+    modelAnswerKo: '이번 주말에 비가 오든지 날씨가 맑든지 저는 등산을 갈 거예요.',
+    modelAnswerVi: 'Cuối tuần này trời mưa hay nắng thì tôi cũng sẽ vẫn đi leo núi.',
   },
 
   // ── gr-trung-cap-36 · A/V-던 N (hồi tưởng hành động lặp lại hoặc còn dang dở trong quá khứ) ──
@@ -2792,6 +2862,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '여기는 제가 옛날에 할머니와 자주 산책하던 공원이에요.',
     modelAnswerVi: 'Đây là công viên mà ngày xưa tôi từng hay đi dạo cùng bà.',
   },
+  {
+    id: 'ex-gr-trung-cap-36-6',
+    patternId: 'gr-trung-cap-36',
+    type: 'fill-blank',
+    promptVi: 'Đây là chiếc ghế tôi từng hay ngồi hồi còn nhỏ (chia động từ 앉다).',
+    sentenceKo: '이건 제가 어릴 때 자주 ___ 의자예요.',
+    answer: '앉던',
+  },
+  {
+    id: 'ex-gr-trung-cap-36-7',
+    patternId: 'gr-trung-cap-36',
+    type: 'discriminate',
+    promptVi: 'Đây là công việc chị ấy ĐANG làm ở HIỆN TẠI (không phải hồi tưởng lại quá khứ) — chọn cách chia đúng cho động từ 하다.',
+    sentenceKo: '이건 언니가 요즘 ___ 일이에요.',
+    options: ['하던', '하는', '했던', '할'],
+    correctIndex: 1,
+    explanation:
+      "-던 chỉ dùng để HỒI TƯỞNG một hành động lặp lại hoặc còn dang dở trong QUÁ KHỨ, không dùng cho hành động đang diễn ra ở hiện tại; ở đây câu nói về công việc chị ấy đang làm 'dạo này' (hiện tại) nên phải dùng '-는' thông thường. '했던' nhấn mạnh hành động đã chấm dứt hoàn toàn trong quá khứ, '할' chia sai thì tương lai — cả hai đều không khớp với thì hiện tại của câu.",
+  },
+  {
+    id: 'ex-gr-trung-cap-36-8',
+    patternId: 'gr-trung-cap-36',
+    type: 'produce',
+    promptVi: 'Diễn đạt (hồi tưởng hành động còn dang dở): Đây là quyển nhật ký tôi đang viết dở thì bị mất.',
+    modelAnswerKo: '이건 제가 쓰던 일기장인데 잃어버렸어요.',
+    modelAnswerVi: 'Đây là quyển nhật ký tôi đang viết dở thì bị mất.',
+  },
+  {
+    id: 'ex-gr-trung-cap-36-9',
+    patternId: 'gr-trung-cap-36',
+    type: 'produce',
+    promptVi: 'Diễn đạt (hồi tưởng hành động lặp lại đã chấm dứt): Đây là con đường mà tôi từng hay đi bộ đến trường hồi cấp ba.',
+    modelAnswerKo: '이건 제가 고등학교 때 자주 걷던 길이에요.',
+    modelAnswerVi: 'Đây là con đường mà tôi từng hay đi bộ đến trường hồi cấp ba.',
+  },
 
   // ── gr-trung-cap-37 · A/V-더라고요 (kể lại sự thật mới biết qua trải nghiệm cá nhân) ──
   {
@@ -2837,6 +2942,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '면접을 보러 가 보니까 그 회사가 꽤 친절하더라고요.',
     modelAnswerVi: 'Tôi đi thử phỏng vấn thì thấy công ty đó khá thân thiện.',
   },
+  {
+    id: 'ex-gr-trung-cap-37-6',
+    patternId: 'gr-trung-cap-37',
+    type: 'fill-blank',
+    promptVi: 'Tôi mở hộp quà ra xem thì thấy trống rỗng chẳng có gì cả (chia tính từ 비다).',
+    sentenceKo: '선물 상자를 열어 보니까 안이 ___.',
+    answer: '비었더라고요',
+  },
+  {
+    id: 'ex-gr-trung-cap-37-7',
+    patternId: 'gr-trung-cap-37',
+    type: 'discriminate',
+    promptVi: 'Đây là thông tin người nói NGHE ĐƯỢC từ người khác, không phải tự mình trải nghiệm trực tiếp — chọn cách nói phù hợp hơn cho tính từ 바쁘다.',
+    sentenceKo: '친구한테 들었는데 요즘 부장님이 아주 ___.',
+    options: ['바쁘더라고요', '바쁘다고 하더라고요', '바쁘잖아요', '바쁜가 봐요'],
+    correctIndex: 1,
+    explanation:
+      "-더라고요 chỉ dùng khi người nói TỰ MÌNH trải nghiệm và mới biết được điều gì đó, không dùng cho thông tin nghe lại từ người khác; ở đây thông tin là do nghe bạn kể lại ('친구한테 들었는데') nên phải thêm phần trích dẫn '-다고 하더라고요'. '바쁘잖아요' nhắc lại điều người nghe đã biết trước, '바쁜가 봐요' mang nghĩa phỏng đoán dựa trên dấu hiệu — cả hai đều không khớp với việc nghe tin từ người khác kể lại.",
+  },
+  {
+    id: 'ex-gr-trung-cap-37-8',
+    patternId: 'gr-trung-cap-37',
+    type: 'produce',
+    promptVi: 'Diễn đạt (kể lại điều mới biết qua trải nghiệm cá nhân): Tôi ghé thử tiệm sách mới mở thì thấy không gian rất ấm cúng.',
+    modelAnswerKo: '새로 생긴 서점에 가 보니까 분위기가 아주 아늑하더라고요.',
+    modelAnswerVi: 'Tôi ghé thử tiệm sách mới mở thì thấy không gian rất ấm cúng.',
+  },
+  {
+    id: 'ex-gr-trung-cap-37-9',
+    patternId: 'gr-trung-cap-37',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi gặp lại bạn cũ sau nhiều năm thì thấy bạn ấy đã trưởng thành hẳn lên.',
+    modelAnswerKo: '오랜만에 옛 친구를 만났는데 많이 성숙해졌더라고요.',
+    modelAnswerVi: 'Tôi gặp lại bạn cũ sau nhiều năm thì thấy bạn ấy đã trưởng thành hẳn lên.',
+  },
 
   // ── gr-trung-cap-38 · A/V-던데요 (nêu điều tương phản với lời người khác, kèm ngạc nhiên nhẹ) ──
   {
@@ -2881,6 +3021,42 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (phản bác nhẹ nhàng ý kiến của người nghe): A: Món đó chắc không cay đâu. B: Không đâu, tôi thấy cay lắm đấy chứ.',
     modelAnswerKo: '가: 그 음식 안 매울 거예요. 나: 아니요, 저는 맵던데요.',
     modelAnswerVi: 'A: Món đó chắc không cay đâu. B: Không đâu, tôi thấy cay lắm đấy chứ.',
+  },
+  {
+    id: 'ex-gr-trung-cap-38-6',
+    patternId: 'gr-trung-cap-38',
+    type: 'fill-blank',
+    promptVi: 'A: Nghe nói khóa học đó khó lắm. B: Không đâu, tôi thấy dễ đấy chứ (chia tính từ bất quy tắc ㅂ 쉽다).',
+    sentenceKo: '가: 그 강의가 어렵대요. 나: 아니요, 저는 ___.',
+    answer: '쉽던데요',
+    hintVi: '쉽다 là tính từ bất quy tắc ㅂ, nhưng vì -던데요 bắt đầu bằng phụ âm (더), không kích hoạt biến âm bất quy tắc → 쉽던데요.',
+  },
+  {
+    id: 'ex-gr-trung-cap-38-7',
+    patternId: 'gr-trung-cap-38',
+    type: 'discriminate',
+    promptVi: 'Người nói đang chứng kiến sự việc NGAY LÚC NÀY (không phải hồi tưởng một trải nghiệm đã qua) — chọn cách nói phù hợp hơn cho động từ 오다.',
+    sentenceKo: '(창밖을 보면서) 어, 비가 ___!',
+    options: ['오던데요', '오는데요', '왔더라고요', '온다면서요'],
+    correctIndex: 1,
+    explanation:
+      "-던데요 chỉ dùng để hồi tưởng lại một điều đã trải nghiệm trong QUÁ KHỨ, không dùng cho việc đang chứng kiến NGAY TẠI THỜI ĐIỂM NÓI; ở đây người nói đang nhìn qua cửa sổ và thấy trời mưa ngay lúc đó nên chỉ cần dùng thì hiện tại thông thường '-는데요'. '왔더라고요' chia sai thì (đã hồi tưởng quá khứ), '온다면서요' mang nghĩa hỏi xác nhận lại thông tin đã biết trước — cả hai đều không khớp ngữ cảnh chứng kiến trực tiếp ngay lúc nói.",
+  },
+  {
+    id: 'ex-gr-trung-cap-38-8',
+    patternId: 'gr-trung-cap-38',
+    type: 'produce',
+    promptVi: 'Diễn đạt (phản bác nhẹ nhàng): A: Chắc quán đó vắng khách lắm. B: Không đâu, tôi thấy đông khách lắm đấy chứ.',
+    modelAnswerKo: '가: 그 식당은 손님이 별로 없을 거예요. 나: 아니요, 저는 손님이 많던데요.',
+    modelAnswerVi: 'A: Chắc quán đó vắng khách lắm. B: Không đâu, tôi thấy đông khách lắm đấy chứ.',
+  },
+  {
+    id: 'ex-gr-trung-cap-38-9',
+    patternId: 'gr-trung-cap-38',
+    type: 'produce',
+    promptVi: 'Diễn đạt (kể lại điều mới biết, kèm phản bác): A: Nghe nói bài kiểm tra đó dễ lắm. B: Không đâu, tôi thấy khó lắm đấy chứ.',
+    modelAnswerKo: '가: 그 시험이 쉽대요. 나: 아니요, 저는 어렵던데요.',
+    modelAnswerVi: 'A: Nghe nói bài kiểm tra đó dễ lắm. B: Không đâu, tôi thấy khó lắm đấy chứ.',
   },
 
   // ── gr-trung-cap-39 · A/V-더군요 (hồi tưởng sự thật mới biết, sắc thái cảm thán mạnh hơn -더라고요) ──
@@ -2928,6 +3104,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '그 동네 집값이 정말 비싸더군요.',
     modelAnswerVi: 'Tôi thấy giá nhà ở khu đó đắt kinh khủng.',
   },
+  {
+    id: 'ex-gr-trung-cap-39-6',
+    patternId: 'gr-trung-cap-39',
+    type: 'fill-blank',
+    promptVi: 'Tôi thấy anh nhân viên mới làm việc rất chăm chỉ, cần cù (chia tính từ 성실하다).',
+    sentenceKo: '그 신입 사원은 정말 ___.',
+    answer: '성실하더군요',
+  },
+  {
+    id: 'ex-gr-trung-cap-39-7',
+    patternId: 'gr-trung-cap-39',
+    type: 'discriminate',
+    promptVi: 'Chủ ngữ là chính người nói và đây là hành động chủ động bình thường (không phải điều mới khám phá qua trải nghiệm) — chọn cách nói phù hợp hơn cho động từ 가다.',
+    sentenceKo: '저는 지난주에 부산에 ___.',
+    options: ['가더군요', '갔어요', '가더라고요', '가던데요'],
+    correctIndex: 1,
+    explanation:
+      "-더군요 (cũng như -더라고요, -던데요) chủ yếu dùng cho ngôi thứ ba hoặc để kể lại điều mới trải nghiệm/khám phá, không dùng cho hành động chủ động bình thường của chính người nói ở ngôi thứ nhất — trường hợp này chỉ cần chia thì quá khứ thông thường '갔어요'. '가더라고요'/'가던데요' đều sai vì cùng nhóm cấu trúc hồi tưởng, không phù hợp cho chủ ngữ ngôi thứ nhất thực hiện hành động chủ động ở đây.",
+  },
+  {
+    id: 'ex-gr-trung-cap-39-8',
+    patternId: 'gr-trung-cap-39',
+    type: 'produce',
+    promptVi: 'Diễn đạt (cảm thán mạnh trước điều mới biết): Tôi thấy đứa cháu tôi đã lớn nhanh kinh khủng.',
+    modelAnswerKo: '제 조카가 정말 빨리 크더군요.',
+    modelAnswerVi: 'Tôi thấy đứa cháu tôi đã lớn nhanh kinh khủng.',
+  },
+  {
+    id: 'ex-gr-trung-cap-39-9',
+    patternId: 'gr-trung-cap-39',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi thấy thành phố đó đã thay đổi nhiều đến mức không nhận ra nổi.',
+    modelAnswerKo: '그 도시가 못 알아볼 정도로 많이 변했더군요.',
+    modelAnswerVi: 'Tôi thấy thành phố đó đã thay đổi nhiều đến mức không nhận ra nổi.',
+  },
 
   // ── gr-trung-cap-40 · V-아/어 버리다 (hoàn tất trọn vẹn, sắc thái nhẹ nhõm hoặc tiếc nuối) ──
   {
@@ -2972,6 +3183,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (kèm cảm giác tiếc nuối): Tôi đã lỡ làm vỡ chiếc cốc kỷ niệm của mẹ mất rồi.',
     modelAnswerKo: '엄마의 기념 컵을 깨 버렸어요.',
     modelAnswerVi: 'Tôi đã lỡ làm vỡ chiếc cốc kỷ niệm của mẹ mất rồi.',
+  },
+  {
+    id: 'ex-gr-trung-cap-40-6',
+    patternId: 'gr-trung-cap-40',
+    type: 'fill-blank',
+    promptVi: 'Vì giận nên tôi đã xóa sạch hết tin nhắn của anh ấy rồi (chia động từ 지우다).',
+    sentenceKo: '화가 나서 그 사람 문자를 다 ___.',
+    answer: '지워 버렸어요',
+  },
+  {
+    id: 'ex-gr-trung-cap-40-7',
+    patternId: 'gr-trung-cap-40',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ đơn thuần kể lại một hành động bình thường đã xảy ra, không nhấn mạnh tính "hoàn tất trọn vẹn" hay cảm xúc nhẹ nhõm/tiếc nuối nào — chọn cách nói tự nhiên hơn cho động từ 보다.',
+    sentenceKo: '저는 어제 그 영화를 ___.',
+    options: ['봐 버렸어요', '봤어요', '보고 말았어요', '볼 뻔했어요'],
+    correctIndex: 1,
+    explanation:
+      "-아/어 버리다 nhấn mạnh sắc thái HOÀN TẤT TRỌN VẸN kèm cảm giác nhẹ nhõm hoặc tiếc nuối; khi chỉ đơn thuần kể lại một hành động bình thường đã xảy ra mà không có sắc thái đặc biệt nào thì dùng thì quá khứ thông thường '봤어요' là đủ, không cần thêm -아/어 버리다. '보고 말았어요' mang nghĩa tiếc nuối ngoài ý muốn, '볼 뻔했어요' nghĩa 'suýt xem' (thực ra chưa xem) — cả hai đều sai nghĩa so với câu kể chuyện đơn giản này.",
+  },
+  {
+    id: 'ex-gr-trung-cap-40-8',
+    patternId: 'gr-trung-cap-40',
+    type: 'produce',
+    promptVi: 'Diễn đạt (nhẹ nhõm sau khi trút bỏ gánh nặng): Cuối cùng tôi cũng đã trả hết nợ rồi, giờ thấy nhẹ cả người.',
+    modelAnswerKo: '드디어 빚을 다 갚아 버렸어요. 이제 속이 후련해요.',
+    modelAnswerVi: 'Cuối cùng tôi cũng đã trả hết nợ rồi, giờ thấy nhẹ cả người.',
+  },
+  {
+    id: 'ex-gr-trung-cap-40-9',
+    patternId: 'gr-trung-cap-40',
+    type: 'produce',
+    promptVi: 'Diễn đạt (tiếc nuối ngoài ý muốn): Vì mải nói chuyện nên tôi đã lỡ đi qua bến xe buýt của mình mất rồi.',
+    modelAnswerKo: '얘기하다가 정신이 팔려서 버스 정류장을 지나쳐 버렸어요.',
+    modelAnswerVi: 'Vì mải nói chuyện nên tôi đã lỡ đi qua bến xe buýt của mình mất rồi.',
   },
 
   // ── gr-trung-cap-41 · V-고 말다 (kết quả tiếc nuối ngoài ý muốn hoặc thành quả sau nỗ lực) ──
@@ -3018,6 +3264,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '부주의해서 결국 그 비밀을 말하고 말았어요.',
     modelAnswerVi: 'Vì bất cẩn nên cuối cùng tôi đã để lộ bí mật đó mất rồi.',
   },
+  {
+    id: 'ex-gr-trung-cap-41-6',
+    patternId: 'gr-trung-cap-41',
+    type: 'fill-blank',
+    promptVi: 'Vì dầm mưa cả ngày nên cuối cùng tôi đã bị cảm mất rồi (chia cụm động từ 감기에 걸리다).',
+    sentenceKo: '하루 종일 비를 맞아서 결국 ___.',
+    answer: '감기에 걸리고 말았어요',
+  },
+  {
+    id: 'ex-gr-trung-cap-41-7',
+    patternId: 'gr-trung-cap-41',
+    type: 'discriminate',
+    promptVi: 'Người nói cảm thấy NHẸ NHÕM sau khi dứt khoát từ chối được lời mời khó xử, không phải tiếc nuối — chọn cách nói phù hợp hơn cho động từ 거절하다.',
+    sentenceKo: '계속 고민하다가 결국 그 제안을 ___. 마음이 편해졌어요.',
+    options: ['거절하고 말았어요', '거절해 버렸어요', '거절하는 척했어요', '거절할 뻔했어요'],
+    correctIndex: 1,
+    explanation:
+      "-고 말다 chỉ mang sắc thái tiếc nuối, không có nghĩa nhẹ nhõm, còn -아/어 버리다 mới có thể mang sắc thái NHẸ NHÕM khi trút bỏ được gánh nặng; ở đây người nói cảm thấy nhẹ nhõm ('마음이 편해졌어요') sau khi quyết định từ chối nên '거절해 버렸어요' phù hợp hơn. '거절하는 척했어요' nghĩa 'giả vờ từ chối', '거절할 뻔했어요' nghĩa 'suýt từ chối' (thực ra chưa từ chối) — cả hai đều sai nghĩa hoàn toàn.",
+  },
+  {
+    id: 'ex-gr-trung-cap-41-8',
+    patternId: 'gr-trung-cap-41',
+    type: 'produce',
+    promptVi: 'Diễn đạt (thành quả sau nỗ lực vất vả): Sau nhiều lần thất bại, cuối cùng anh ấy cũng đã thành công mở được quán riêng của mình.',
+    modelAnswerKo: '여러 번 실패한 끝에 그는 결국 자기 가게를 여는 데 성공하고 말았어요.',
+    modelAnswerVi: 'Sau nhiều lần thất bại, cuối cùng anh ấy cũng đã thành công mở được quán riêng của mình.',
+  },
+  {
+    id: 'ex-gr-trung-cap-41-9',
+    patternId: 'gr-trung-cap-41',
+    type: 'produce',
+    promptVi: 'Diễn đạt (tiếc nuối ngoài ý muốn): Vì mải xem điện thoại nên tôi đã lỡ đi qua trạm xuống của mình mất rồi.',
+    modelAnswerKo: '휴대폰을 보다가 내릴 역을 지나치고 말았어요.',
+    modelAnswerVi: 'Vì mải xem điện thoại nên tôi đã lỡ đi qua trạm xuống của mình mất rồi.',
+  },
 
   // ── gr-trung-cap-42 · V-았/었다(가) (hành động sau xảy ra khi hành động trước đã kết thúc, hai vế thường trái nghĩa) ──
   {
@@ -3062,6 +3343,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Tôi đã bật đèn lên rồi lại tắt đi vì chói quá.',
     modelAnswerKo: '불을 켰다가 너무 눈부셔서 껐어요.',
     modelAnswerVi: 'Tôi đã bật đèn lên rồi lại tắt đi vì chói quá.',
+  },
+  {
+    id: 'ex-gr-trung-cap-42-6',
+    patternId: 'gr-trung-cap-42',
+    type: 'fill-blank',
+    promptVi: 'Tôi đã đứng dậy rồi lại ngồi xuống vì mỏi chân (chia động từ 일어서다).',
+    sentenceKo: '다리가 아파서 ___ 다시 앉았어요.',
+    answer: '일어섰다가',
+  },
+  {
+    id: 'ex-gr-trung-cap-42-7',
+    patternId: 'gr-trung-cap-42',
+    type: 'discriminate',
+    promptVi: 'Hành động "đang nấu ăn" vẫn còn TIẾP DIỄN khi có điện thoại gọi đến (chưa kết thúc hoàn toàn) — chọn cách nối đúng cho động từ 요리하다.',
+    sentenceKo: '저녁을 ___ 전화가 와서 잠깐 멈췄어요.',
+    options: ['요리하다가', '요리했다가', '요리하고 나서', '요리하는 대로'],
+    correctIndex: 0,
+    explanation:
+      "-았/었다가 chỉ dùng khi hành động trước ĐÃ KẾT THÚC hoàn toàn, còn -다가 dùng khi hành động trước VẪN CÒN TIẾP DIỄN thì có việc khác xen vào; ở đây 'đang nấu ăn' vẫn còn tiếp diễn khi điện thoại reo nên phải dùng '요리하다가'. '요리하고 나서' nghĩa 'nấu xong rồi mới', '요리하는 대로' nghĩa 'ngay khi nấu xong' — cả hai đều sai nghĩa so với câu gốc.",
+  },
+  {
+    id: 'ex-gr-trung-cap-42-8',
+    patternId: 'gr-trung-cap-42',
+    type: 'produce',
+    promptVi: 'Diễn đạt (hai hành động đối nghịch, hành động trước đã hoàn tất): Tôi đã thử mang đôi giày đó rồi lại tháo ra vì quá chật.',
+    modelAnswerKo: '그 신발을 신었다가 너무 꽉 껴서 벗었어요.',
+    modelAnswerVi: 'Tôi đã thử mang đôi giày đó rồi lại tháo ra vì quá chật.',
+  },
+  {
+    id: 'ex-gr-trung-cap-42-9',
+    patternId: 'gr-trung-cap-42',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi đã đặt mua chiếc váy đó trên mạng rồi lại hủy đơn vì đổi ý.',
+    modelAnswerKo: '그 원피스를 인터넷으로 주문했다가 마음이 바뀌어서 취소했어요.',
+    modelAnswerVi: 'Tôi đã đặt mua chiếc váy đó trên mạng rồi lại hủy đơn vì đổi ý.',
   },
 
   // ── gr-trung-cap-43 · A/V-았/었던 N (hồi tưởng sự việc bắt đầu và kết thúc trọn vẹn trong quá khứ) ──
@@ -3109,6 +3425,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '이건 할아버지께서 차셨던 시계예요.',
     modelAnswerVi: 'Đây là chiếc đồng hồ mà ông tôi đã từng đeo.',
   },
+  {
+    id: 'ex-gr-trung-cap-43-6',
+    patternId: 'gr-trung-cap-43',
+    type: 'fill-blank',
+    promptVi: 'Đây là công ty mà tôi đã từng làm việc trước khi chuyển sang công ty này (chia động từ 다니다).',
+    sentenceKo: '여기는 제가 이직 전에 ___ 회사예요.',
+    answer: '다녔던',
+  },
+  {
+    id: 'ex-gr-trung-cap-43-7',
+    patternId: 'gr-trung-cap-43',
+    type: 'discriminate',
+    promptVi: 'Thầy giáo này VẪN ĐANG dạy ở trường đó cho đến hiện tại (không phải chuyện đã chấm dứt trong quá khứ) — chọn cách nói phù hợp hơn cho động từ 가르치다.',
+    sentenceKo: '이분은 제가 다니던 학교에서 지금도 ___ 선생님이세요.',
+    options: ['가르쳤던', '가르치는', '가르치던', '가르칠'],
+    correctIndex: 1,
+    explanation:
+      "-았/었던 diễn tả sự việc đã bắt đầu và chấm dứt trọn vẹn trong quá khứ, không kéo dài đến hiện tại; ở đây thầy giáo VẪN ĐANG dạy học cho đến bây giờ ('지금도') nên phải dùng thì hiện tại thông thường '가르치는', không phải '가르쳤던' (đã dạy xong, không còn liên quan hiện tại). '가르치던' thiên về hành động lặp lại/dang dở trong quá khứ, cũng không khớp việc đang tiếp diễn đến hiện tại; '가르칠' chia sai thì tương lai.",
+  },
+  {
+    id: 'ex-gr-trung-cap-43-8',
+    patternId: 'gr-trung-cap-43',
+    type: 'produce',
+    promptVi: 'Diễn đạt (hồi tưởng sự việc chỉ xảy ra một lần, đã kết thúc): Đây là bộ phim mà tôi đã từng xem cùng bạn gái cũ.',
+    modelAnswerKo: '이건 제가 예전 여자 친구와 봤던 영화예요.',
+    modelAnswerVi: 'Đây là bộ phim mà tôi đã từng xem cùng bạn gái cũ.',
+  },
+  {
+    id: 'ex-gr-trung-cap-43-9',
+    patternId: 'gr-trung-cap-43',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đây là con đường mà tôi đã từng đi qua hồi còn là sinh viên.',
+    modelAnswerKo: '여기는 제가 대학생이었을 때 지나다녔던 길이에요.',
+    modelAnswerVi: 'Đây là con đường mà tôi đã từng đi qua hồi còn là sinh viên.',
+  },
 
   // ── gr-trung-cap-44 · A/V-(으)ㄴ/는 편이다 (phân loại vào một xu hướng, mức độ chung chung) ──
   {
@@ -3153,6 +3504,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Người Hàn Quốc thuộc kiểu người thích ăn cay.',
     modelAnswerKo: '한국 사람들은 매운 음식을 좋아하는 편이에요.',
     modelAnswerVi: 'Người Hàn Quốc thuộc kiểu người thích ăn cay.',
+  },
+  {
+    id: 'ex-gr-trung-cap-44-6',
+    patternId: 'gr-trung-cap-44',
+    type: 'fill-blank',
+    promptVi: 'Anh ấy thuộc kiểu người khá nóng tính (chia tính từ 급하다 với cụm 성격이 급하다).',
+    sentenceKo: '그는 성격이 ___ 편이에요.',
+    answer: '급한',
+  },
+  {
+    id: 'ex-gr-trung-cap-44-7',
+    patternId: 'gr-trung-cap-44',
+    type: 'discriminate',
+    promptVi: 'Câu này khẳng định một sự thật HIỂN NHIÊN, chính xác tuyệt đối (nước sôi ở 100 độ), không phải phân loại vào xu hướng chung chung — chọn cách nói phù hợp hơn cho động từ 끓다.',
+    sentenceKo: '물은 섭씨 100도에서 ___.',
+    options: ['끓는 편이에요', '끓어요', '끓곤 해요', '끓을 만해요'],
+    correctIndex: 1,
+    explanation:
+      "-는 편이다 chỉ dùng để phân loại một đối tượng vào một xu hướng, mức độ TƯƠNG ĐỐI, mang tính giảm nhẹ khẳng định; không phù hợp với một sự thật khách quan, hiển nhiên, chính xác tuyệt đối như nhiệt độ sôi của nước — trường hợp này chỉ cần dùng câu khẳng định bình thường '끓어요'. '끓곤 해요' mang nghĩa lặp lại theo thói quen, '끓을 만해요' mang nghĩa 'đáng để sôi' (vô nghĩa) — cả hai đều không phù hợp một sự thật khoa học cố định.",
+  },
+  {
+    id: 'ex-gr-trung-cap-44-8',
+    patternId: 'gr-trung-cap-44',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Quán cà phê đó thuộc diện khá đắt so với mặt bằng chung.',
+    modelAnswerKo: '그 카페는 다른 곳보다 좀 비싼 편이에요.',
+    modelAnswerVi: 'Quán cà phê đó thuộc diện khá đắt so với mặt bằng chung.',
+  },
+  {
+    id: 'ex-gr-trung-cap-44-9',
+    patternId: 'gr-trung-cap-44',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi thuộc kiểu người ít khi nổi giận.',
+    modelAnswerKo: '저는 화를 잘 안 내는 편이에요.',
+    modelAnswerVi: 'Tôi thuộc kiểu người ít khi nổi giận.',
   },
 
   // ── gr-trung-cap-45 · N-스럽다 (có vẻ mang tính chất, cảm giác giống như danh từ) ──
@@ -3199,6 +3585,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '그 아기는 정말 사랑스러워요.',
     modelAnswerVi: 'Em bé đó thật đáng yêu.',
   },
+  {
+    id: 'ex-gr-trung-cap-45-6',
+    patternId: 'gr-trung-cap-45',
+    type: 'fill-blank',
+    promptVi: 'Cuộc trò chuyện giữa hai người diễn ra rất tự nhiên, không hề gượng gạo (dùng 자연스럽다).',
+    sentenceKo: '두 사람의 대화가 아주 ___.',
+    answer: '자연스러워요',
+  },
+  {
+    id: 'ex-gr-trung-cap-45-7',
+    patternId: 'gr-trung-cap-45',
+    type: 'discriminate',
+    promptVi: 'Danh từ 행복 (hạnh phúc) đã có sẵn dạng tính từ cố định riêng, không ghép được với -스럽다 — chọn cách nói đúng cho câu "Gia đình đó trông thật hạnh phúc".',
+    sentenceKo: '그 가족은 정말 ___ 보여요.',
+    options: ['행복스러워', '행복해', '행복다워', '행복로워'],
+    correctIndex: 1,
+    explanation:
+      "-스럽다 không tự do ghép được vào mọi danh từ, chỉ dùng với những từ đã cố định, quen thuộc trong tiếng Hàn (như 자연스럽다, 사랑스럽다); danh từ 행복 đã có dạng tính từ cố định riêng là '행복하다', không tồn tại dạng '행복스럽다'. '행복다워' nhầm sang cấu trúc -답다 (mục 46), '행복로워' không phải dạng ngữ pháp tồn tại trong tiếng Hàn.",
+  },
+  {
+    id: 'ex-gr-trung-cap-45-8',
+    patternId: 'gr-trung-cap-45',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cách anh ấy ăn mặc trông có vẻ hơi lỗi thời, quê mùa.',
+    modelAnswerKo: '그 사람의 옷차림이 좀 촌스러워 보여요.',
+    modelAnswerVi: 'Cách anh ấy ăn mặc trông có vẻ hơi lỗi thời, quê mùa.',
+  },
+  {
+    id: 'ex-gr-trung-cap-45-9',
+    patternId: 'gr-trung-cap-45',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Việc phải quyết định trong thời gian gấp gáp như vậy khiến tôi cảm thấy khá áp lực, gánh nặng.',
+    modelAnswerKo: '이렇게 급하게 결정해야 하는 게 좀 부담스러워요.',
+    modelAnswerVi: 'Việc phải quyết định trong thời gian gấp gáp như vậy khiến tôi cảm thấy khá áp lực, gánh nặng.',
+  },
 
   // ── gr-trung-cap-46 · N-답다 (mang đầy đủ, xứng đáng với tính chất tiêu biểu của danh từ) ──
   {
@@ -3243,6 +3664,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Anh ấy đã xử lý tình huống đó rất đúng chất một người đàn ông.',
     modelAnswerKo: '그는 그 상황을 정말 남자답게 처리했어요.',
     modelAnswerVi: 'Anh ấy đã xử lý tình huống đó rất đúng chất một người đàn ông.',
+  },
+  {
+    id: 'ex-gr-trung-cap-46-6',
+    patternId: 'gr-trung-cap-46',
+    type: 'fill-blank',
+    promptVi: 'Là quân nhân thì phải hành động cho đúng chất quân nhân (dùng 군인답다).',
+    sentenceKo: '군인은 ___ 행동해야 해요.',
+    answer: '군인답게',
+  },
+  {
+    id: 'ex-gr-trung-cap-46-7',
+    patternId: 'gr-trung-cap-46',
+    type: 'discriminate',
+    promptVi: 'Cảnh vật nơi đây mang đúng nét đặc trưng của một ngôi trường (danh từ chỉ nơi chốn 학교) — với danh từ này, -답다 tự nhiên hơn -스럽다 (vốn nghe kỳ quặc khi ghép với danh từ chỉ nơi chốn/cơ quan).',
+    sentenceKo: '이곳은 정말 ___ 분위기가 나요.',
+    options: ['학교스러운', '학교다운', '학교로운', '학교하다운'],
+    correctIndex: 1,
+    explanation:
+      "-답다 có thể ghép được với danh từ chỉ nơi chốn, cơ quan như 학교, còn -스럽다 khi ghép với các danh từ loại này (như '학교스럽다') sẽ nghe rất không tự nhiên, không phải cách dùng chuẩn — đây là điểm khác biệt quan trọng giữa hai cấu trúc. '학교로운'/'학교하다운' không phải là dạng ngữ pháp tồn tại trong tiếng Hàn.",
+  },
+  {
+    id: 'ex-gr-trung-cap-46-8',
+    patternId: 'gr-trung-cap-46',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Bài phát biểu của cô ấy hôm nay rất đúng chất một nhà lãnh đạo.',
+    modelAnswerKo: '오늘 그녀의 발표는 정말 지도자다웠어요.',
+    modelAnswerVi: 'Bài phát biểu của cô ấy hôm nay rất đúng chất một nhà lãnh đạo.',
+  },
+  {
+    id: 'ex-gr-trung-cap-46-9',
+    patternId: 'gr-trung-cap-46',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Là công dân thì nên sống có trách nhiệm, đúng chất một công dân.',
+    modelAnswerKo: '시민은 시민답게 책임감 있게 살아야 해요.',
+    modelAnswerVi: 'Là công dân thì nên sống có trách nhiệm, đúng chất một công dân.',
   },
 
   // ── gr-trung-cap-47 · A/V-다고요? (nhắc lại lời người khác để xác nhận hoặc bày tỏ khó tin) ──
@@ -3289,6 +3745,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '가: 저 로또에 당첨됐어요. 나: 로또에 당첨됐다고요? 정말이에요?',
     modelAnswerVi: 'A: Tôi trúng số rồi. B: Bạn vừa nói là trúng số á? Thật không?',
   },
+  {
+    id: 'ex-gr-trung-cap-47-6',
+    patternId: 'gr-trung-cap-47',
+    type: 'fill-blank',
+    promptVi: 'A: Chúng ta đi xem phim đi. B: Bạn vừa rủ đi xem phim á? (dạng trích dẫn đề nghị -자고요, chia động từ 보다).',
+    sentenceKo: '가: 우리 영화 보러 가요. 나: 영화를 보러 ___?',
+    answer: '가자고요',
+  },
+  {
+    id: 'ex-gr-trung-cap-47-7',
+    patternId: 'gr-trung-cap-47',
+    type: 'discriminate',
+    promptVi: 'Câu gốc là câu TRẦN THUẬT với vị ngữ DANH TỪ (không phải động từ/tính từ) — chọn dạng trích dẫn đúng cho danh từ 생일.',
+    sentenceKo: '가: 오늘이 제 생일이에요. 나: 오늘이 ___? 축하해요!',
+    options: ['생일다고요', '생일이라고요', '생일하냐고요', '생일이라니요'],
+    correctIndex: 1,
+    explanation:
+      "Khi câu gốc có vị ngữ là DANH TỪ (오늘이 생일이에요), dạng trích dẫn trần thuật phải dùng '(이)라고요', không dùng '-다고요' (chỉ dùng sau động từ/tính từ) — đây là lỗi rất phổ biến vì học viên áp dụng máy móc -다고요 cho mọi loại câu. '생일하냐고요' sai vì chia thành dạng nghi vấn trong khi câu gốc là trần thuật; '생일이라니요' mang sắc thái ngạc nhiên mạnh (mục 50), không phù hợp ngữ cảnh chúc mừng nhẹ nhàng này.",
+  },
+  {
+    id: 'ex-gr-trung-cap-47-8',
+    patternId: 'gr-trung-cap-47',
+    type: 'produce',
+    promptVi: 'Diễn đạt (hỏi lại vì chưa nghe rõ): A: Cuộc họp bắt đầu lúc 3 giờ. B: Bạn nói là mấy giờ cơ?',
+    modelAnswerKo: '가: 회의가 3시에 시작해요. 나: 몇 시라고요?',
+    modelAnswerVi: 'A: Cuộc họp bắt đầu lúc 3 giờ. B: Bạn nói là mấy giờ cơ?',
+  },
+  {
+    id: 'ex-gr-trung-cap-47-9',
+    patternId: 'gr-trung-cap-47',
+    type: 'produce',
+    promptVi: 'Diễn đạt (khó tin trước tin vừa nghe): A: Tôi đã được nhận vào công ty đó rồi. B: Bạn vừa nói là được nhận vào á? Thật tuyệt vời!',
+    modelAnswerKo: '가: 저 그 회사에 합격했어요. 나: 합격했다고요? 정말 잘됐네요!',
+    modelAnswerVi: 'A: Tôi đã được nhận vào công ty đó rồi. B: Bạn vừa nói là được nhận vào á? Thật tuyệt vời!',
+  },
 
   // ── gr-trung-cap-48 · A/V-다고 하던데 (hồi tưởng và xác nhận điều người khác đã từng nói) ──
   {
@@ -3333,6 +3824,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Nghe nói phim đó rất cảm động đấy, bạn có muốn đi xem cùng tôi không?',
     modelAnswerKo: '그 영화가 정말 감동적이라고 하던데 저랑 같이 보러 갈래요?',
     modelAnswerVi: 'Nghe nói phim đó rất cảm động đấy, bạn có muốn đi xem cùng tôi không?',
+  },
+  {
+    id: 'ex-gr-trung-cap-48-6',
+    patternId: 'gr-trung-cap-48',
+    type: 'fill-blank',
+    promptVi: 'Nghe nói tiệm đó đóng cửa sớm đấy, chúng ta đi nhanh lên nhé (chia cụm động từ 일찍 닫다).',
+    sentenceKo: '그 가게가 ___ 우리 서둘러 가요.',
+    answer: '일찍 닫는다고 하던데',
+  },
+  {
+    id: 'ex-gr-trung-cap-48-7',
+    patternId: 'gr-trung-cap-48',
+    type: 'discriminate',
+    promptVi: 'Đây là điều người nói TỰ MÌNH trải nghiệm trực tiếp (không phải nghe ai kể lại), và câu không kèm gợi ý/đề nghị nào — chọn cách nói phù hợp hơn cho tính từ 맛있다.',
+    sentenceKo: '어제 그 식당에 직접 가 봤는데 진짜 ___.',
+    options: ['맛있다고 하던데요', '맛있더라고요', '맛있다고 해요', '맛있다니요'],
+    correctIndex: 1,
+    explanation:
+      "-다고 하던데 dùng để hồi tưởng lại điều đã NGHE ĐƯỢC từ người khác, còn -더라고요 (mục 37) dùng để kể lại điều TỰ MÌNH trải nghiệm và mới biết được; ở đây người nói tự mình đến quán ăn thử ('직접 가 봤는데') nên phải dùng '맛있더라고요'. '맛있다고 해요' chỉ đơn thuần trích dẫn thông tin nghe được (sai vì đây là trải nghiệm trực tiếp), '맛있다니요' mang sắc thái ngạc nhiên mạnh, không phù hợp ngữ cảnh kể chuyện bình thường.",
+  },
+  {
+    id: 'ex-gr-trung-cap-48-8',
+    patternId: 'gr-trung-cap-48',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nghe nói cửa hàng đó sắp đóng cửa vĩnh viễn đấy, chúng ta tranh thủ ghé qua trước khi quá muộn nhé.',
+    modelAnswerKo: '그 가게가 곧 문을 닫는다고 하던데 늦기 전에 한번 들러 볼까요?',
+    modelAnswerVi: 'Nghe nói cửa hàng đó sắp đóng cửa vĩnh viễn đấy, chúng ta tranh thủ ghé qua trước khi quá muộn nhé.',
+  },
+  {
+    id: 'ex-gr-trung-cap-48-9',
+    patternId: 'gr-trung-cap-48',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nghe nói khóa học tiếng Hàn đó dạy hay lắm đấy, bạn có muốn đăng ký cùng tôi không?',
+    modelAnswerKo: '그 한국어 강좌가 정말 잘 가르친다고 하던데 저랑 같이 등록할래요?',
+    modelAnswerVi: 'Nghe nói khóa học tiếng Hàn đó dạy hay lắm đấy, bạn có muốn đăng ký cùng tôi không?',
   },
 
   // ── gr-trung-cap-49 · A/V-다면서요? (hỏi xác nhận lại thông tin đã biết nhưng chưa chắc chắn) ──
@@ -3379,6 +3905,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '한국어를 5년 동안 배웠다면서요?',
     modelAnswerVi: 'Nghe nói bạn học tiếng Hàn được 5 năm rồi phải không?',
   },
+  {
+    id: 'ex-gr-trung-cap-49-6',
+    patternId: 'gr-trung-cap-49',
+    type: 'fill-blank',
+    promptVi: 'Nghe nói bạn vừa chuyển đến khu này ở phải không? (chia động từ 이사하다, thì quá khứ).',
+    sentenceKo: '이 동네로 ___?',
+    answer: '이사했다면서요',
+  },
+  {
+    id: 'ex-gr-trung-cap-49-7',
+    patternId: 'gr-trung-cap-49',
+    type: 'discriminate',
+    promptVi: 'Đây là LẦN ĐẦU người nói nghe tin này và cảm thấy RẤT NGẠC NHIÊN, khó tin (không phải xác nhận lại điều đã biết từ trước) — chọn cách nói phù hợp hơn cho động từ 그만두다.',
+    sentenceKo: '가: 저 회사 그만뒀어요. 나: 회사를 ___? 왜 갑자기요?',
+    options: ['그만뒀다면서요', '그만뒀다니요', '그만두는 편이에요', '그만두곤 해요'],
+    correctIndex: 1,
+    explanation:
+      "-다면서요? dùng để XÁC NHẬN LẠI một thông tin người nói ĐÃ BIẾT từ trước; còn -다니요? (mục 50) dùng khi người nói LẦN ĐẦU nghe tin và cảm thấy ngạc nhiên, khó tin. Ở đây B vừa nghe tin này lần đầu ngay trong hội thoại và tỏ ra bất ngờ ('왜 갑자기요?') nên '그만뒀다니요?' phù hợp hơn. '그만두는 편이에요'/'그만두곤 해요' đều sai hoàn toàn về cấu trúc, không mang nghĩa hỏi lại xác nhận hay ngạc nhiên.",
+  },
+  {
+    id: 'ex-gr-trung-cap-49-8',
+    patternId: 'gr-trung-cap-49',
+    type: 'produce',
+    promptVi: 'Diễn đạt (xác nhận lại thông tin đã nghe): Nghe nói quán đó sắp mở thêm chi nhánh mới phải không?',
+    modelAnswerKo: '그 가게가 새 지점을 연다면서요?',
+    modelAnswerVi: 'Nghe nói quán đó sắp mở thêm chi nhánh mới phải không?',
+  },
+  {
+    id: 'ex-gr-trung-cap-49-9',
+    patternId: 'gr-trung-cap-49',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nghe nói bạn đã đỗ kỳ thi TOPIK rồi phải không? Chúc mừng nhé.',
+    modelAnswerKo: '토픽 시험에 합격했다면서요? 축하해요.',
+    modelAnswerVi: 'Nghe nói bạn đã đỗ kỳ thi TOPIK rồi phải không? Chúc mừng nhé.',
+  },
 
   // ── gr-trung-cap-50 · A/V-다니요? (lặp lại lời người khác để bày tỏ ngạc nhiên hoặc không tin) ──
   {
@@ -3423,6 +3984,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (ngạc nhiên mạnh, khó tin): A: Tôi đã quên mất sinh nhật của chính mình. B: Quên sinh nhật của chính mình thật á? Sao có thể như vậy được?',
     modelAnswerKo: '가: 제 생일을 깜빡 잊어버렸어요. 나: 자기 생일을 잊어버렸다니요? 어떻게 그럴 수가 있어요?',
     modelAnswerVi: 'A: Tôi đã quên mất sinh nhật của chính mình. B: Quên sinh nhật của chính mình thật á? Sao có thể như vậy được?',
+  },
+  {
+    id: 'ex-gr-trung-cap-50-6',
+    patternId: 'gr-trung-cap-50',
+    type: 'fill-blank',
+    promptVi: 'A: Tôi bị sa thải rồi. B: Bị sa thải thật á? Sao lại như thế được? (chia động từ 해고되다).',
+    sentenceKo: '가: 저 해고됐어요. 나: ___? 어떻게 이럴 수가 있어요?',
+    answer: '해고됐다니요',
+  },
+  {
+    id: 'ex-gr-trung-cap-50-7',
+    patternId: 'gr-trung-cap-50',
+    type: 'discriminate',
+    promptVi: 'Đây là điều người nói TỰ MÌNH quan sát trực tiếp và cảm thán (không phải lặp lại lời người khác vừa nói để bày tỏ khó tin) — chọn cách nói phù hợp hơn cho tính từ 예쁘다.',
+    sentenceKo: '(그림을 보면서) 와, 정말 ___!',
+    options: ['예쁘다니요', '예쁘군요', '예쁘다면서요', '예쁘다고요'],
+    correctIndex: 1,
+    explanation:
+      "-다니요? chỉ dùng để lặp lại lời NGƯỜI KHÁC vừa nói và bày tỏ sự ngạc nhiên hoặc khó tin trước lời nói đó; khi người nói tự mình quan sát và cảm thán trực tiếp trước một sự việc (không lặp lại lời ai) thì dùng '-군요' (cảm thán khi tự nhận ra điều gì). '예쁘다면서요'/'예쁘다고요' đều đòi hỏi có một lời nói trước đó của người khác để xác nhận/hỏi lại, không phù hợp với việc tự cảm thán trực tiếp trước một bức tranh.",
+  },
+  {
+    id: 'ex-gr-trung-cap-50-8',
+    patternId: 'gr-trung-cap-50',
+    type: 'produce',
+    promptVi: 'Diễn đạt (ngạc nhiên mạnh, khó tin): A: Tôi đã làm vỡ chiếc bình cổ của bảo tàng rồi. B: Làm vỡ bình cổ thật á? Trời ơi, giờ phải làm sao đây?',
+    modelAnswerKo: '가: 제가 박물관의 골동품 항아리를 깨뜨렸어요. 나: 항아리를 깨뜨렸다니요? 아이고, 이제 어떡해요?',
+    modelAnswerVi: 'A: Tôi đã làm vỡ chiếc bình cổ của bảo tàng rồi. B: Làm vỡ bình cổ thật á? Trời ơi, giờ phải làm sao đây?',
+  },
+  {
+    id: 'ex-gr-trung-cap-50-9',
+    patternId: 'gr-trung-cap-50',
+    type: 'produce',
+    promptVi: 'Diễn đạt: A: Tôi đã lỡ làm mất chìa khóa nhà của bố mẹ rồi. B: Làm mất chìa khóa thật á? Sao lại bất cẩn vậy?',
+    modelAnswerKo: '가: 저 부모님 집 열쇠를 잃어버렸어요. 나: 열쇠를 잃어버렸다니요? 어떻게 그렇게 부주의할 수가 있어요?',
+    modelAnswerVi: 'A: Tôi đã lỡ làm mất chìa khóa nhà của bố mẹ rồi. B: Làm mất chìa khóa thật á? Sao lại bất cẩn vậy?',
   },
 
   // ── gr-trung-cap-51 · V-(으)ㄹ까 하다 / (으)ㄹ까 – (으)ㄹ까 하다 / (으)ㄹ까 말까 하다 (dự định chưa chắc chắn, chỉ ngôi 1) ──
@@ -3471,6 +4067,42 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '요즘 이직을 할까 말까 해요.',
     modelAnswerVi: 'Dạo này tôi đang phân vân không biết có nên đổi việc hay không.',
   },
+  {
+    id: 'ex-gr-trung-cap-51-6',
+    patternId: 'gr-trung-cap-51',
+    type: 'fill-blank',
+    promptVi: 'Tôi đang phân vân không biết có nên viết một bài thơ tặng bạn ấy hay không (chia động từ bất quy tắc ㅅ 짓다 với cụm 시를 짓다).',
+    sentenceKo: '친구에게 줄 시를 ___.',
+    answer: '지을까 해요',
+    hintVi: '짓다 là động từ bất quy tắc ㅅ: trước đuôi bắt đầu bằng nguyên âm (으), ㅅ bị lược bỏ → 지을까 해요.',
+  },
+  {
+    id: 'ex-gr-trung-cap-51-7',
+    patternId: 'gr-trung-cap-51',
+    type: 'discriminate',
+    promptVi: 'Đây là lời RỦ RÊ người nghe cùng làm (không phải trần thuật ý định riêng của người nói) — chọn cách nói phù hợp hơn cho động từ 가다.',
+    sentenceKo: '우리 이번 주말에 같이 등산을 ___?',
+    options: ['갈까 해요', '갈까요', '가려고 해요', '가는 셈이에요'],
+    correctIndex: 1,
+    explanation:
+      "-(으)ㄹ까 하다 chỉ dùng ở câu TRẦN THUẬT để diễn tả ý định còn phân vân của CHÍNH người nói (ngôi thứ nhất), không dùng để rủ rê người khác cùng làm; khi muốn rủ rê thì phải dùng câu hỏi '-(으)ㄹ까요?'. '가려고 해요' diễn tả ý định quyết tâm của bản thân (không phải lời rủ), '가는 셈이에요' nghĩa 'xem như đã đi' — cả hai đều sai với ý nghĩa rủ rê ở đây.",
+  },
+  {
+    id: 'ex-gr-trung-cap-51-8',
+    patternId: 'gr-trung-cap-51',
+    type: 'produce',
+    promptVi: 'Diễn đạt (dự định chưa chắc chắn): Tôi đang định học thêm tiếng Nhật vào năm sau, nhưng vẫn chưa chắc.',
+    modelAnswerKo: '내년에 일본어를 배울까 해요.',
+    modelAnswerVi: 'Tôi đang định học thêm tiếng Nhật vào năm sau, nhưng vẫn chưa chắc.',
+  },
+  {
+    id: 'ex-gr-trung-cap-51-9',
+    patternId: 'gr-trung-cap-51',
+    type: 'produce',
+    promptVi: 'Diễn đạt (phân vân giữa hai lựa chọn): Tôi đang phân vân không biết nên mua chiếc áo màu đen hay màu trắng.',
+    modelAnswerKo: '검은색 옷을 살까 흰색 옷을 살까 해요.',
+    modelAnswerVi: 'Tôi đang phân vân không biết nên mua chiếc áo màu đen hay màu trắng.',
+  },
 
   // ── gr-trung-cap-52 · V-고자 (mục đích, trang trọng, dùng nhiều trong văn viết) ──
   {
@@ -3516,6 +4148,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '경쟁력을 높이고자 회사는 새로운 기술에 투자했다.',
     modelAnswerVi: 'Để nâng cao năng lực cạnh tranh, công ty đã đầu tư vào công nghệ mới.',
   },
+  {
+    id: 'ex-gr-trung-cap-52-6',
+    patternId: 'gr-trung-cap-52',
+    type: 'fill-blank',
+    promptVi: 'Để bảo vệ môi trường, thành phố đó đã cấm sử dụng túi ni lông (chia động từ 보호하다, văn phong trang trọng).',
+    sentenceKo: '환경을 ___ 그 도시는 비닐봉지 사용을 금지했다.',
+    answer: '보호하고자',
+  },
+  {
+    id: 'ex-gr-trung-cap-52-7',
+    patternId: 'gr-trung-cap-52',
+    type: 'discriminate',
+    promptVi: '-고자 chỉ gắn trực tiếp vào thân động từ ở dạng hiện tại, không kết hợp được với hình thức thì quá khứ hay tương lai phía trước — chọn cách chia đúng cho động từ 이루다 (đạt được, thực hiện).',
+    sentenceKo: '목표를 ___ 최선을 다해 노력하고 있다.',
+    options: ['이뤘고자', '이루고자', '이루었고자', '이룰고자'],
+    correctIndex: 1,
+    explanation:
+      "-고자 chỉ gắn trực tiếp vào thân động từ ở dạng hiện tại, không kết hợp được với các hình thức thì quá khứ (-았/었-) hay tương lai (-겠-, -(으)ㄹ) phía trước — đây là điểm khác với nhiều vĩ tố khác có thể kết hợp linh hoạt với các thì. Vì vậy chỉ có 'kết hợp trực tiếp' như '이루고자' là đúng; '이뤘고자', '이루었고자', '이룰고자' đều là những kết hợp sai ngữ pháp, không tồn tại trong tiếng Hàn.",
+  },
+  {
+    id: 'ex-gr-trung-cap-52-8',
+    patternId: 'gr-trung-cap-52',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng (như trong bài phát biểu khai mạc hội nghị): Để tìm ra giải pháp cho vấn đề này, chúng tôi đã mời các chuyên gia hàng đầu tham dự.',
+    modelAnswerKo: '이 문제의 해결책을 찾고자 저희는 각 분야 전문가들을 초청했습니다.',
+    modelAnswerVi: 'Để tìm ra giải pháp cho vấn đề này, chúng tôi đã mời các chuyên gia hàng đầu tham dự.',
+  },
+  {
+    id: 'ex-gr-trung-cap-52-9',
+    patternId: 'gr-trung-cap-52',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng (như trong văn bản chính thức): Để phòng chống dịch bệnh lây lan, chính quyền địa phương đã tăng cường kiểm tra y tế.',
+    modelAnswerKo: '전염병 확산을 막고자 지방 정부는 방역 점검을 강화했다.',
+    modelAnswerVi: 'Để phòng chống dịch bệnh lây lan, chính quyền địa phương đã tăng cường kiểm tra y tế.',
+  },
 
   // ── gr-trung-cap-53 · V-(으)려던 참이다 (vừa mới có ý định làm gì đúng thời điểm nói) ──
   {
@@ -3560,6 +4227,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Đúng lúc tôi đang định dọn phòng thì mẹ tôi bảo tôi dọn dẹp.',
     modelAnswerKo: '제가 막 방을 청소하려던 참에 엄마가 청소하라고 했어요.',
     modelAnswerVi: 'Đúng lúc tôi đang định dọn phòng thì mẹ tôi bảo tôi dọn dẹp.',
+  },
+  {
+    id: 'ex-gr-trung-cap-53-6',
+    patternId: 'gr-trung-cap-53',
+    type: 'fill-blank',
+    promptVi: 'Trả lời khi bạn vừa gọi đến: "Đúng lúc tôi cũng đang định gọi cho bạn đây" (chia động từ 전화하다).',
+    sentenceKo: '가: 저예요, 통화 괜찮아요? 나: 네, 마침 저도 ___.',
+    answer: '전화하려던 참이었어요',
+  },
+  {
+    id: 'ex-gr-trung-cap-53-7',
+    patternId: 'gr-trung-cap-53',
+    type: 'discriminate',
+    promptVi: 'Người nói ĐANG THỰC HIỆN hành động này ngay lúc nói (không phải mới có ý định, còn chưa bắt đầu) — chọn cách nói phù hợp hơn cho động từ 먹다.',
+    sentenceKo: '가: 밥 먹었어요? 나: 아니요, 지금 ___.',
+    options: ['먹으려던 참이에요', '먹는 중이에요', '먹을까 해요', '먹을 겸 해요'],
+    correctIndex: 1,
+    explanation:
+      "-(으)려던 참이다 diễn tả ý định VỪA MỚI nảy ra, CHƯA BẮT ĐẦU thực hiện hành động; còn khi hành động ĐANG DIỄN RA ngay lúc nói thì phải dùng '-는 중이다'. Ở đây nếu người nói đang ăn dở ngay lúc trả lời thì '먹는 중이에요' chính xác hơn. '먹을까 해요' mang nghĩa dự định còn phân vân (mục 51), '먹을 겸 해요' đòi hỏi phải có mục đích thứ hai đi kèm — cả hai đều không khớp ngữ cảnh.",
+  },
+  {
+    id: 'ex-gr-trung-cap-53-8',
+    patternId: 'gr-trung-cap-53',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đúng lúc tôi đang định tắm thì mất nước.',
+    modelAnswerKo: '제가 막 샤워하려던 참에 물이 끊겼어요.',
+    modelAnswerVi: 'Đúng lúc tôi đang định tắm thì mất nước.',
+  },
+  {
+    id: 'ex-gr-trung-cap-53-9',
+    patternId: 'gr-trung-cap-53',
+    type: 'produce',
+    promptVi: 'Diễn đạt (đúng lúc có ý định trùng hợp với đề nghị của người khác): A: Chúng ta cùng ra ngoài đi dạo nhé. B: Đúng lúc tôi cũng đang định ra ngoài đi dạo đây.',
+    modelAnswerKo: '가: 우리 같이 산책하러 나가요. 나: 저도 마침 산책하러 나가려던 참이었어요.',
+    modelAnswerVi: 'A: Chúng ta cùng ra ngoài đi dạo nhé. B: Đúng lúc tôi cũng đang định ra ngoài đi dạo đây.',
   },
 
   // ── gr-trung-cap-54 · V-아/어야지요 (tự hứa với bản thân hoặc bày tỏ ý định) ──
@@ -3608,6 +4310,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '내일부터는 일찍 일어나야지.',
     modelAnswerVi: 'Từ mai mình phải dậy sớm thôi.',
   },
+  {
+    id: 'ex-gr-trung-cap-54-6',
+    patternId: 'gr-trung-cap-54',
+    type: 'fill-blank',
+    promptVi: 'Tự nhủ với bản thân: "Từ giờ mình phải tiết kiệm tiền thôi" (chia cụm động từ 돈을 아끼다).',
+    sentenceKo: '이제부터는 ___.',
+    answer: '돈을 아껴야지요',
+  },
+  {
+    id: 'ex-gr-trung-cap-54-7',
+    patternId: 'gr-trung-cap-54',
+    type: 'discriminate',
+    promptVi: 'Đây là lời hứa THÂN MẬT với bạn bè (không phải báo cáo trang trọng) — chọn cách nói tự nhiên hơn cho động từ 연락하다.',
+    sentenceKo: '가: 도착하면 꼭 연락해. 나: 응, 도착하면 바로 ___.',
+    options: ['연락하도록 할게요', '연락할게', '연락하도록 하겠습니다', '연락하는 셈이야'],
+    correctIndex: 1,
+    explanation:
+      "-도록 하다 mang tính trang trọng vừa phải, thường dùng trong báo cáo, hoàn cảnh lịch sự; trong hội thoại thân mật hằng ngày giữa bạn bè, cách nói tự nhiên hơn nhiều là dùng trực tiếp '-(으)ㄹ게' để hứa hẹn. '연락하도록 하겠습니다' quá trang trọng, lệch tông với hội thoại suồng sã (dùng '응' - ừ) ở đây; '연락하는 셈이야' mang nghĩa 'xem như đã liên lạc', sai hoàn toàn về nghĩa.",
+  },
+  {
+    id: 'ex-gr-trung-cap-54-8',
+    patternId: 'gr-trung-cap-54',
+    type: 'produce',
+    promptVi: 'Diễn đạt (tự hứa với bản thân sau khi nhận ra lỗi sai): Từ nay mình phải cẩn thận hơn khi lái xe thôi.',
+    modelAnswerKo: '이제부터는 운전할 때 더 조심해야지요.',
+    modelAnswerVi: 'Từ nay mình phải cẩn thận hơn khi lái xe thôi.',
+  },
+  {
+    id: 'ex-gr-trung-cap-54-9',
+    patternId: 'gr-trung-cap-54',
+    type: 'produce',
+    promptVi: 'Diễn đạt (bày tỏ ý định cho tương lai gần): Đợt nghỉ lễ này mình phải về thăm bố mẹ mới được.',
+    modelAnswerKo: '이번 연휴에는 부모님을 뵈러 가야지요.',
+    modelAnswerVi: 'Đợt nghỉ lễ này mình phải về thăm bố mẹ mới được.',
+  },
 
   // ── gr-trung-cap-55 · V-(으)ㄹ 겸 V-(으)ㄹ 겸 (thực hiện hai mục đích bình đẳng cùng lúc) ──
   {
@@ -3653,6 +4390,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '먹을 것도 살 겸 기분 전환도 할 겸 마트에 갔어요.',
     modelAnswerVi: 'Tôi đi siêu thị vừa để mua đồ ăn vừa để đi dạo giải khuây.',
   },
+  {
+    id: 'ex-gr-trung-cap-55-6',
+    patternId: 'gr-trung-cap-55',
+    type: 'fill-blank',
+    promptVi: 'Tôi đến thư viện vừa để mượn sách vừa để ôn thi (điền vào cụm đầu tiên, chia cụm động từ 책을 빌리다).',
+    sentenceKo: '___ 시험공부도 할 겸 도서관에 갔어요.',
+    answer: '책도 빌릴 겸',
+  },
+  {
+    id: 'ex-gr-trung-cap-55-7',
+    patternId: 'gr-trung-cap-55',
+    type: 'discriminate',
+    promptVi: 'Việc "mua thêm bánh mì" chỉ là ý định nảy sinh SAU KHI đã đang mua sữa ở siêu thị (không phải hai mục đích được lên kế hoạch bình đẳng ngay từ đầu) — chọn cách nối phù hợp hơn cho động từ 사다.',
+    sentenceKo: '우유를 ___ 빵도 같이 샀어요.',
+    options: ['사는 김에', '살 겸', '살 만해서', '산 만큼'],
+    correctIndex: 0,
+    explanation:
+      "-는 김에 (mục 56) dùng khi việc thứ hai chỉ là ý định NẢY SINH SAU, tận dụng cơ hội đang làm việc trước đó; còn -(으)ㄹ 겸 -(으)ㄹ 겸 chỉ dùng khi cả HAI mục đích đều được dự tính TỪ ĐẦU, bình đẳng nhau. Ở đây người nói ban đầu chỉ định mua sữa, rồi nhân tiện mua thêm bánh mì nên '사는 김에' phù hợp hơn '살 겸' (vốn cần lặp lại cấu trúc 겸 hai lần cho hai mục đích ngang hàng). '살 만해서' mang nghĩa 'vì đáng mua', '산 만큼' mang nghĩa so sánh mức độ — cả hai đều sai nghĩa so với câu gốc.",
+  },
+  {
+    id: 'ex-gr-trung-cap-55-8',
+    patternId: 'gr-trung-cap-55',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi đến trung tâm thương mại vừa để xem phim vừa để ăn tối.',
+    modelAnswerKo: '영화도 볼 겸 저녁도 먹을 겸 백화점에 갔어요.',
+    modelAnswerVi: 'Tôi đến trung tâm thương mại vừa để xem phim vừa để ăn tối.',
+  },
+  {
+    id: 'ex-gr-trung-cap-55-9',
+    patternId: 'gr-trung-cap-55',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi tham gia câu lạc bộ đó vừa để kết bạn mới vừa để luyện tập tiếng Hàn.',
+    modelAnswerKo: '새 친구도 사귈 겸 한국어도 연습할 겸 그 동아리에 가입했어요.',
+    modelAnswerVi: 'Tôi tham gia câu lạc bộ đó vừa để kết bạn mới vừa để luyện tập tiếng Hàn.',
+  },
 
   // ── gr-trung-cap-56 · V-는 김에 (nhân tiện, nhân cơ hội đang làm việc trước để làm luôn việc sau) ──
   {
@@ -3697,6 +4469,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Nhân tiện ra ngoài đổ rác, tôi đã đi dạo một vòng luôn.',
     modelAnswerKo: '쓰레기를 버리러 나가는 김에 산책도 좀 했어요.',
     modelAnswerVi: 'Nhân tiện ra ngoài đổ rác, tôi đã đi dạo một vòng luôn.',
+  },
+  {
+    id: 'ex-gr-trung-cap-56-6',
+    patternId: 'gr-trung-cap-56',
+    type: 'fill-blank',
+    promptVi: 'Nhân tiện sửa máy tính, anh giúp tôi cài đặt luôn phần mềm này nhé (chia động từ 고치다).',
+    sentenceKo: '컴퓨터를 ___ 이 프로그램도 좀 설치해 주세요.',
+    answer: '고치는 김에',
+  },
+  {
+    id: 'ex-gr-trung-cap-56-7',
+    patternId: 'gr-trung-cap-56',
+    type: 'discriminate',
+    promptVi: 'Ở đây trời mưa là một sự việc XEN VÀO NGOÀI Ý MUỐN khi đang đi bộ (không phải người nói chủ động tận dụng cơ hội để làm thêm việc gì) — chọn cách nối phù hợp hơn cho động từ 걷다.',
+    sentenceKo: '길을 ___ 갑자기 비가 왔어요.',
+    options: ['걷는 김에', '걷다가', '걷는 대로', '걸을 겸'],
+    correctIndex: 1,
+    explanation:
+      "-는 김에 dùng khi người nói CHỦ ĐỘNG tận dụng cơ hội đang làm việc trước để làm thêm việc khác có lợi; còn -다가 chỉ đơn thuần diễn tả một sự việc xen vào NGOÀI Ý MUỐN khi hành động trước đang diễn ra. Ở đây trời đổ mưa là việc bất ngờ xảy đến, không phải điều người nói chủ động tận dụng, nên '걷다가' phù hợp hơn. '걷는 대로' nghĩa 'ngay khi đi bộ xong', '걸을 겸' đòi hỏi mục đích thứ hai bình đẳng — cả hai đều sai nghĩa so với câu gốc.",
+  },
+  {
+    id: 'ex-gr-trung-cap-56-8',
+    patternId: 'gr-trung-cap-56',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nhân tiện đi công tác Seoul, tôi đã ghé thăm luôn người bạn cũ ở đó.',
+    modelAnswerKo: '서울로 출장을 가는 김에 그곳에 사는 옛 친구도 만났어요.',
+    modelAnswerVi: 'Nhân tiện đi công tác Seoul, tôi đã ghé thăm luôn người bạn cũ ở đó.',
+  },
+  {
+    id: 'ex-gr-trung-cap-56-9',
+    patternId: 'gr-trung-cap-56',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nhân tiện đang sửa lại phòng, chúng ta sơn luôn cả tường đi.',
+    modelAnswerKo: '방을 고치는 김에 벽도 같이 페인트칠합시다.',
+    modelAnswerVi: 'Nhân tiện đang sửa lại phòng, chúng ta sơn luôn cả tường đi.',
   },
 
   // ── gr-trung-cap-57 · V-(으)ㄹ 만하다 (hành động có giá trị, xứng đáng để thực hiện) ──
@@ -3744,6 +4551,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '그 여행지는 한번 가 볼 만해요.',
     modelAnswerVi: 'Nơi du lịch đó đáng để đi một lần đấy.',
   },
+  {
+    id: 'ex-gr-trung-cap-57-6',
+    patternId: 'gr-trung-cap-57',
+    type: 'fill-blank',
+    promptVi: 'Bảo tàng đó đáng để ghé một lần đấy (chia động từ 가다 với cụm 가 보다).',
+    sentenceKo: '그 박물관은 한 번 ___.',
+    answer: '가 볼 만해요',
+  },
+  {
+    id: 'ex-gr-trung-cap-57-7',
+    patternId: 'gr-trung-cap-57',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ nói về KHẢ NĂNG chuyên môn "có thể sửa được" của người thợ (không đánh giá công việc đó có xứng đáng/đáng giá hay không) — chọn cách nói phù hợp hơn cho động từ 고치다.',
+    sentenceKo: '이 기술자는 어떤 고장이라도 다 ___.',
+    options: ['고칠 만해요', '고칠 수 있어요', '고치는 편이에요', '고치는 셈이에요'],
+    correctIndex: 1,
+    explanation:
+      "-(으)ㄹ 만하다 diễn tả mức độ 'xứng đáng, có giá trị để làm', không đơn thuần là khả năng thực hiện được như '-(으)ㄹ 수 있다'; ở đây câu chỉ nói về khả năng chuyên môn của người thợ sửa được mọi hỏng hóc (khả năng thực tế), không đánh giá việc sửa chữa có đáng giá hay không, nên '-(으)ㄹ 수 있다' chính xác hơn. '고치는 편이에요' mang nghĩa phân loại xu hướng chung, '고치는 셈이에요' mang nghĩa 'xem như đã sửa' — cả hai đều sai nghĩa so với câu gốc.",
+  },
+  {
+    id: 'ex-gr-trung-cap-57-8',
+    patternId: 'gr-trung-cap-57',
+    type: 'produce',
+    promptVi: 'Diễn đạt (giới thiệu, gợi ý cho bạn bè): Quán ăn đó đáng để thử một lần, đồ ăn ngon lắm.',
+    modelAnswerKo: '그 식당은 한번 먹어 볼 만해요. 음식이 진짜 맛있어요.',
+    modelAnswerVi: 'Quán ăn đó đáng để thử một lần, đồ ăn ngon lắm.',
+  },
+  {
+    id: 'ex-gr-trung-cap-57-9',
+    patternId: 'gr-trung-cap-57',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Bộ phim tài liệu đó đáng để xem một lần, nó khiến tôi suy nghĩ nhiều.',
+    modelAnswerKo: '그 다큐멘터리는 한번 볼 만해요. 생각을 많이 하게 만들어요.',
+    modelAnswerVi: 'Bộ phim tài liệu đó đáng để xem một lần, nó khiến tôi suy nghĩ nhiều.',
+  },
 
   // ── gr-trung-cap-58 · V-도록 하다 (thể hiện ý chí "sẽ cố gắng" hoặc lời khuyên nhủ "hãy cố gắng") ──
   {
@@ -3789,6 +4631,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '이제부터는 규칙적으로 식사하도록 하세요.',
     modelAnswerVi: 'Từ giờ hãy cố gắng ăn uống điều độ hơn nhé.',
   },
+  {
+    id: 'ex-gr-trung-cap-58-6',
+    patternId: 'gr-trung-cap-58',
+    type: 'fill-blank',
+    promptVi: 'Khuyên nhủ nhẹ nhàng: "Từ giờ hãy cố gắng đến đúng giờ nhé" (chia cụm động từ 시간을 지키다).',
+    sentenceKo: '앞으로는 ___ 하세요.',
+    answer: '시간을 잘 지키도록',
+  },
+  {
+    id: 'ex-gr-trung-cap-58-7',
+    patternId: 'gr-trung-cap-58',
+    type: 'discriminate',
+    promptVi: 'Đây là hành động GÂY KHIẾN bắt buộc con uống thuốc (đi kèm từ ngụ ý ép buộc), không phải lời khuyên nhẹ nhàng — chọn cách nói phù hợp hơn cho cụm động từ 약을 먹다.',
+    sentenceKo: '엄마는 아이에게 억지로 ___ 했어요.',
+    options: ['약을 먹도록', '약을 먹게', '약을 먹을 겸', '약을 먹는 김에'],
+    correctIndex: 1,
+    explanation:
+      "-도록 하다 mang sắc thái nhẹ nhàng, khuyên nhủ hoặc thể hiện ý chí của chính người nói, còn '-게 하다' (mục 92) mới là cấu trúc gây khiến bắt buộc người khác làm theo, thường đi kèm các từ ngụ ý ép buộc như '억지로' (một cách miễn cưỡng, bắt buộc) như trong câu này — nên dùng '먹게'. '먹을 겸' đòi hỏi hai mục đích bình đẳng, '먹는 김에' mang nghĩa nhân tiện — cả hai đều sai nghĩa gây khiến ở đây.",
+  },
+  {
+    id: 'ex-gr-trung-cap-58-8',
+    patternId: 'gr-trung-cap-58',
+    type: 'produce',
+    promptVi: 'Diễn đạt (thể hiện ý chí trang trọng): Từ nay tôi sẽ cố gắng lắng nghe ý kiến của mọi người nhiều hơn.',
+    modelAnswerKo: '앞으로는 여러분의 의견을 더 많이 듣도록 하겠습니다.',
+    modelAnswerVi: 'Từ nay tôi sẽ cố gắng lắng nghe ý kiến của mọi người nhiều hơn.',
+  },
+  {
+    id: 'ex-gr-trung-cap-58-9',
+    patternId: 'gr-trung-cap-58',
+    type: 'produce',
+    promptVi: 'Diễn đạt (khuyên nhủ nhẹ nhàng cho người mới ốm dậy): Từ giờ hãy cố gắng đừng làm việc quá sức nhé.',
+    modelAnswerKo: '이제부터는 무리하지 않도록 하세요.',
+    modelAnswerVi: 'Từ giờ hãy cố gắng đừng làm việc quá sức nhé.',
+  },
 
   // ── gr-trung-cap-59 · V-지 그래요? (gợi ý nhẹ nhàng dưới dạng câu hỏi) ──
   {
@@ -3833,6 +4710,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (gợi ý nhẹ nhàng): Trời nóng thế này, hay là đi ăn kem đi?',
     modelAnswerKo: '날씨가 이렇게 더운데 아이스크림 먹으러 가지 그래요?',
     modelAnswerVi: 'Trời nóng thế này, hay là đi ăn kem đi?',
+  },
+  {
+    id: 'ex-gr-trung-cap-59-6',
+    patternId: 'gr-trung-cap-59',
+    type: 'fill-blank',
+    promptVi: 'Gợi ý bạn nên đi khám vì đau bụng: "Đau bụng vậy thì hay là đi khám bác sĩ đi?" (chia cụm động từ 병원에 가다).',
+    sentenceKo: '배가 그렇게 아프면 ___?',
+    answer: '병원에 가지 그래요',
+  },
+  {
+    id: 'ex-gr-trung-cap-59-7',
+    patternId: 'gr-trung-cap-59',
+    type: 'discriminate',
+    promptVi: 'Đây là gợi ý cho một hoạt động CẢ HAI CÙNG LÀM (không phải lời khuyên riêng dành cho một mình người nghe) — chọn cách nói phù hợp hơn cho động từ 보다.',
+    sentenceKo: '우리 이번 주말에 같이 영화를 ___?',
+    options: ['보지 그래요', '보는 게 어때요', '보지 그랬어요', '볼 만해요'],
+    correctIndex: 1,
+    explanation:
+      "-지 그래요? là lời gợi ý MỘT CHIỀU dành riêng cho người nghe làm điều gì đó, thường không bao gồm chính người nói; khi muốn đề xuất một hoạt động cả hai CÙNG LÀM thì '-는 게 어때요?' tự nhiên hơn nhiều. '보지 그랬어요' là dạng quá khứ mang nghĩa trách nhẹ vì đã không làm, không phù hợp với lời đề xuất cho tương lai; '볼 만해요' mang nghĩa 'đáng để xem', sai hoàn toàn về mục đích câu.",
+  },
+  {
+    id: 'ex-gr-trung-cap-59-8',
+    patternId: 'gr-trung-cap-59',
+    type: 'produce',
+    promptVi: 'Diễn đạt (gợi ý nhẹ nhàng): Nếu không thích công việc đó thì hay là đổi việc khác đi?',
+    modelAnswerKo: '그 일이 마음에 안 들면 다른 일로 바꾸지 그래요?',
+    modelAnswerVi: 'Nếu không thích công việc đó thì hay là đổi việc khác đi?',
+  },
+  {
+    id: 'ex-gr-trung-cap-59-9',
+    patternId: 'gr-trung-cap-59',
+    type: 'produce',
+    promptVi: 'Diễn đạt (trách nhẹ vì đã không làm điều đáng lẽ nên làm): Đau răng như vậy sao hôm đó không đi khám nha sĩ luôn đi?',
+    modelAnswerKo: '이가 그렇게 아팠으면 그때 치과에 가지 그랬어요?',
+    modelAnswerVi: 'Đau răng như vậy sao hôm đó không đi khám nha sĩ luôn đi?',
   },
 
   // ── gr-trung-cap-60 · A/V-(으)ㄹ 뿐만 아니라 = (으)ㄹ뿐더러 (không những... mà còn..., hai vế cùng chiều) ──
@@ -3880,6 +4792,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '그 선생님은 잘 가르칠 뿐만 아니라 학생들에게 아주 친절해요.',
     modelAnswerVi: 'Cô giáo đó không những dạy giỏi mà còn rất thân thiện với học sinh.',
   },
+  {
+    id: 'ex-gr-trung-cap-60-6',
+    patternId: 'gr-trung-cap-60',
+    type: 'fill-blank',
+    promptVi: 'Cô ấy không những hát hay mà còn nhảy đẹp nữa (chia cụm động từ 노래를 잘하다).',
+    sentenceKo: '그녀는 ___ 춤도 잘 춰요.',
+    answer: '노래를 잘할 뿐만 아니라',
+  },
+  {
+    id: 'ex-gr-trung-cap-60-7',
+    patternId: 'gr-trung-cap-60',
+    type: 'discriminate',
+    promptVi: 'Hai vế ở đây mang chiều hướng TRÁI NGƯỢC nhau (công việc vất vả nhưng lương lại cao), không phải cùng chiều bổ sung tiêu cực — chọn cách nối đúng cho tính từ 힘들다.',
+    sentenceKo: '이 일은 ___ 월급은 많아요.',
+    options: ['힘들 뿐만 아니라', '힘들지만', '힘든 데다가', '힘들뿐더러'],
+    correctIndex: 1,
+    explanation:
+      "-(으)ㄹ 뿐만 아니라 (và -(으)ㄹ뿐더러, -는 데다가) chỉ dùng khi hai vế CÙNG chiều hướng ý nghĩa để bổ sung thông tin; ở đây 'vất vả' (tiêu cực) và 'lương cao' (tích cực) trái ngược nhau nên phải dùng '-지만' mang nghĩa tương phản. '힘든 데다가' cũng đòi hỏi hai vế cùng chiều như -(으)ㄹ 뿐만 아니라, không phù hợp ở đây.",
+  },
+  {
+    id: 'ex-gr-trung-cap-60-8',
+    patternId: 'gr-trung-cap-60',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Căn hộ đó không những rộng rãi mà còn có tầm nhìn đẹp nữa.',
+    modelAnswerKo: '그 아파트는 넓을 뿐만 아니라 전망도 좋아요.',
+    modelAnswerVi: 'Căn hộ đó không những rộng rãi mà còn có tầm nhìn đẹp nữa.',
+  },
+  {
+    id: 'ex-gr-trung-cap-60-9',
+    patternId: 'gr-trung-cap-60',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Anh ấy không những thông minh mà còn rất chăm chỉ nữa.',
+    modelAnswerKo: '그는 똑똑할 뿐만 아니라 성실하기도 해요.',
+    modelAnswerVi: 'Anh ấy không những thông minh mà còn rất chăm chỉ nữa.',
+  },
 
   // ── gr-trung-cap-61 · A/V-(으)ㄴ/는 데다가 (thêm vào đó, bổ sung một đặc điểm/nguyên nhân khác cùng chiều) ──
   {
@@ -3924,6 +4871,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Quán đó đồ ăn ngon, thêm vào đó giá còn rẻ nữa nên lúc nào cũng đông khách.',
     modelAnswerKo: '그 식당은 음식이 맛있는 데다가 가격도 싸서 항상 손님이 많아요.',
     modelAnswerVi: 'Quán đó đồ ăn ngon, thêm vào đó giá còn rẻ nữa nên lúc nào cũng đông khách.',
+  },
+  {
+    id: 'ex-gr-trung-cap-61-6',
+    patternId: 'gr-trung-cap-61',
+    type: 'fill-blank',
+    promptVi: 'Phòng trọ đó vừa nhỏ, thêm vào đó ánh sáng cũng tối (chia tính từ 좁다).',
+    sentenceKo: '그 자취방은 ___ 채광도 안 좋아요.',
+    answer: '좁은 데다가',
+  },
+  {
+    id: 'ex-gr-trung-cap-61-7',
+    patternId: 'gr-trung-cap-61',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ nêu MỘT nguyên nhân dẫn đến kết quả (không bổ sung thêm đặc điểm thứ hai) — chọn cách nối phù hợp hơn cho tính từ 피곤하다.',
+    sentenceKo: '어제 너무 ___ 일찍 잤어요.',
+    options: ['피곤한 데다가', '피곤해서', '피곤할 뿐만 아니라', '피곤한 만큼'],
+    correctIndex: 1,
+    explanation:
+      "-는 데다가 dùng để BỔ SUNG thêm một đặc điểm hay nguyên nhân KHÁC cùng chiều vào một đặc điểm đã nêu trước đó (cần ít nhất hai đặc điểm/nguyên nhân); ở đây câu chỉ có MỘT nguyên nhân duy nhất dẫn đến kết quả ('vì mệt nên đi ngủ sớm') nên chỉ cần dùng '-아/어서' đơn giản. '피곤할 뿐만 아니라' cũng đòi hỏi phải có vế bổ sung thứ hai đi kèm, không phù hợp; '피곤한 만큼' mang nghĩa so sánh mức độ tương xứng, sai nghĩa hoàn toàn.",
+  },
+  {
+    id: 'ex-gr-trung-cap-61-8',
+    patternId: 'gr-trung-cap-61',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Anh ấy vừa nói tiếng Anh giỏi, thêm vào đó lại biết cả tiếng Trung nữa.',
+    modelAnswerKo: '그는 영어를 잘하는 데다가 중국어도 할 줄 알아요.',
+    modelAnswerVi: 'Anh ấy vừa nói tiếng Anh giỏi, thêm vào đó lại biết cả tiếng Trung nữa.',
+  },
+  {
+    id: 'ex-gr-trung-cap-61-9',
+    patternId: 'gr-trung-cap-61',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Hôm nay trời vừa nóng, thêm vào đó độ ẩm cũng cao nên rất khó chịu.',
+    modelAnswerKo: '오늘 날씨가 더운 데다가 습도도 높아서 너무 불쾌해요.',
+    modelAnswerVi: 'Hôm nay trời vừa nóng, thêm vào đó độ ẩm cũng cao nên rất khó chịu.',
   },
 
   // ── gr-trung-cap-62 · N-조차 (ngay cả... thậm chí... — nhấn mạnh trường hợp cơ bản nhất cũng không đạt được) ──
@@ -3970,6 +4952,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '너무 피곤해서 일어나는 것조차 힘들어요.',
     modelAnswerVi: 'Vì quá mệt nên ngay cả việc đứng dậy tôi cũng thấy khó khăn.',
   },
+  {
+    id: 'ex-gr-trung-cap-62-6',
+    patternId: 'gr-trung-cap-62',
+    type: 'fill-blank',
+    promptVi: 'Anh ấy sốc đến mức ngay cả tên của chính mình cũng quên mất (dùng danh từ 이름 với -조차).',
+    sentenceKo: '너무 충격을 받아서 자기 ___ 잊어버렸어요.',
+    answer: '이름조차',
+  },
+  {
+    id: 'ex-gr-trung-cap-62-7',
+    patternId: 'gr-trung-cap-62',
+    type: 'discriminate',
+    promptVi: 'Câu này không mang sắc thái "ngay cả... cũng không được/không đạt" mà chỉ đơn thuần liệt kê thêm một đối tượng cùng tham gia — chọn trợ từ phù hợp hơn cho danh từ 선생님.',
+    sentenceKo: '이 모임에는 학생들뿐만 아니라 선생님___ 참석하셨어요.',
+    options: ['조차', '도', '마저', '뿐'],
+    correctIndex: 1,
+    explanation:
+      "-조차 chỉ dùng trong ngữ cảnh TIÊU CỰC để nhấn mạnh mức độ nghiêm trọng của việc không đạt được/không xảy ra điều gì đó; ở đây câu chỉ đơn thuần liệt kê thêm một đối tượng (giáo viên) cùng tham gia một cách bình thường, tích cực nên trợ từ '도' (cũng) tự nhiên hơn nhiều. '마저' cũng chỉ dùng trong ngữ cảnh tiêu cực giống -조차; '뿐' đứng riêng sau danh từ không tạo thành cấu trúc tự nhiên trong câu này.",
+  },
+  {
+    id: 'ex-gr-trung-cap-62-8',
+    patternId: 'gr-trung-cap-62',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi bận đến mức ngay cả việc gọi điện cho gia đình cũng không có thời gian.',
+    modelAnswerKo: '너무 바빠서 가족에게 전화할 시간조차 없어요.',
+    modelAnswerVi: 'Tôi bận đến mức ngay cả việc gọi điện cho gia đình cũng không có thời gian.',
+  },
+  {
+    id: 'ex-gr-trung-cap-62-9',
+    patternId: 'gr-trung-cap-62',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi buồn ngủ đến mức ngay cả cà phê cũng không giúp tôi tỉnh táo nổi.',
+    modelAnswerKo: '너무 졸려서 커피조차 저를 깨우지 못해요.',
+    modelAnswerVi: 'Tôi buồn ngủ đến mức ngay cả cà phê cũng không giúp tôi tỉnh táo nổi.',
+  },
 
   // ── gr-trung-cap-63 · N-마저 (ngay cả... điều cuối cùng còn lại cũng không còn/không đạt được) ──
   {
@@ -4015,6 +5032,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '가족마저 저를 믿지 못하면 저는 누구를 믿어야 할지 모르겠어요.',
     modelAnswerVi: 'Ngay cả gia đình cũng không tin tưởng tôi thì tôi còn biết tin ai nữa.',
   },
+  {
+    id: 'ex-gr-trung-cap-63-6',
+    patternId: 'gr-trung-cap-63',
+    type: 'fill-blank',
+    promptVi: 'Ngay cả người thầy tôi kính trọng nhất cũng đã rời khỏi trường (dùng danh từ 선생님 với -마저).',
+    sentenceKo: '제가 가장 존경하던 ___ 학교를 떠났어요.',
+    answer: '선생님마저',
+  },
+  {
+    id: 'ex-gr-trung-cap-63-7',
+    patternId: 'gr-trung-cap-63',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ đơn thuần thông báo thêm một người NỮA cũng đến dự tiệc (không mang sắc thái thất vọng vì "điều cuối cùng cũng mất") — chọn trợ từ phù hợp hơn cho danh từ 사장님.',
+    sentenceKo: '이번 파티에는 사장님___ 오셨어요. 정말 놀랐어요.',
+    options: ['마저', '도', '조차', '뿐'],
+    correctIndex: 1,
+    explanation:
+      "-마저 mang sắc thái tiêu cực, thất vọng rõ rệt, nhấn mạnh điều CUỐI CÙNG còn sót lại cũng không còn/không đạt được; ở đây câu chỉ đơn thuần bày tỏ sự ngạc nhiên khi có thêm một người quan trọng (giám đốc) cũng đến dự tiệc — một điều bất ngờ nhưng mang tính TÍCH CỰC, không phải mất mát — nên trợ từ '도' tự nhiên hơn. '조차' cũng chỉ dùng trong ngữ cảnh tiêu cực giống -마저, không phù hợp; '뿐' đứng riêng sau danh từ không tạo thành cấu trúc tự nhiên ở đây.",
+  },
+  {
+    id: 'ex-gr-trung-cap-63-8',
+    patternId: 'gr-trung-cap-63',
+    type: 'produce',
+    promptVi: 'Diễn đạt (thất vọng): Bây giờ ngay cả chiếc điện thoại duy nhất của tôi cũng bị hỏng mất rồi.',
+    modelAnswerKo: '이제는 하나밖에 없는 휴대폰마저 고장 나 버렸어요.',
+    modelAnswerVi: 'Bây giờ ngay cả chiếc điện thoại duy nhất của tôi cũng bị hỏng mất rồi.',
+  },
+  {
+    id: 'ex-gr-trung-cap-63-9',
+    patternId: 'gr-trung-cap-63',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Sau khi mọi người lần lượt bỏ về, giờ ngay cả người bạn thân cuối cùng của tôi cũng đã đi mất.',
+    modelAnswerKo: '사람들이 하나둘 떠난 뒤에 이제 마지막 친구마저 가 버렸어요.',
+    modelAnswerVi: 'Sau khi mọi người lần lượt bỏ về, giờ ngay cả người bạn thân cuối cùng của tôi cũng đã đi mất.',
+  },
 
   // ── gr-trung-cap-64 · N-만 해도 (chỉ tính riêng... — đưa ra một ví dụ điển hình minh họa cho xu hướng chung) ──
   {
@@ -4059,6 +5111,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Dạo này giới trẻ bận rộn lắm. Chỉ tính riêng các bạn sinh viên đại học thôi cũng đã phải đi làm thêm rồi.',
     modelAnswerKo: '요즘 젊은 사람들이 많이 바빠요. 대학생만 해도 아르바이트를 해야 해요.',
     modelAnswerVi: 'Dạo này giới trẻ bận rộn lắm. Chỉ tính riêng các bạn sinh viên đại học thôi cũng đã phải đi làm thêm rồi.',
+  },
+  {
+    id: 'ex-gr-trung-cap-64-6',
+    patternId: 'gr-trung-cap-64',
+    type: 'fill-blank',
+    promptVi: 'Ở khu phố tôi, mọi thứ đều đắt đỏ. Chỉ tính riêng tiền thuê nhà thôi cũng đã ngốn hết nửa tháng lương rồi (dùng danh từ 집세 với -만 해도).',
+    sentenceKo: '우리 동네는 뭐든지 비싸요. ___ 월급의 반이나 나가요.',
+    answer: '집세만 해도',
+  },
+  {
+    id: 'ex-gr-trung-cap-64-7',
+    patternId: 'gr-trung-cap-64',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ đơn thuần nói RÀNG BUỘC/GIỚI HẠN số lượng (chỉ có 3 người thôi), không đưa ra một ví dụ điển hình minh họa cho xu hướng chung nào — chọn cách nói phù hợp hơn cho cụm từ 세 명.',
+    sentenceKo: '이번 모임에는 ___ 참석했어요. 생각보다 적었어요.',
+    options: ['세 명만 해도', '세 명만', '세 명만큼', '세 명조차'],
+    correctIndex: 1,
+    explanation:
+      "N-만 해도 dùng để đưa ra MỘT ví dụ cụ thể, điển hình làm bằng chứng minh họa cho một nhận định, xu hướng CHUNG lớn hơn; còn '만' đơn thuần (không kèm 해도) chỉ mang nghĩa giới hạn số lượng 'chỉ có'. Ở đây câu chỉ đơn thuần nói về số lượng người tham dự ít hơn mong đợi, không đưa ra ví dụ minh họa cho điều gì khác, nên '세 명만' phù hợp hơn. '세 명만큼' mang nghĩa so sánh mức độ, '세 명조차' mang nghĩa 'ngay cả 3 người cũng...' — cả hai đều sai nghĩa so với câu gốc.",
+  },
+  {
+    id: 'ex-gr-trung-cap-64-8',
+    patternId: 'gr-trung-cap-64',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Người Hàn Quốc rất coi trọng lễ nghi. Chỉ tính riêng cách chào hỏi thôi cũng đã có rất nhiều quy tắc rồi.',
+    modelAnswerKo: '한국 사람들은 예의를 아주 중요하게 생각해요. 인사만 해도 규칙이 아주 많아요.',
+    modelAnswerVi: 'Người Hàn Quốc rất coi trọng lễ nghi. Chỉ tính riêng cách chào hỏi thôi cũng đã có rất nhiều quy tắc rồi.',
+  },
+  {
+    id: 'ex-gr-trung-cap-64-9',
+    patternId: 'gr-trung-cap-64',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Giao thông ở Seoul rất phức tạp. Chỉ tính riêng số lượng tuyến tàu điện ngầm thôi cũng đã hơn hai mươi tuyến rồi.',
+    modelAnswerKo: '서울의 교통은 아주 복잡해요. 지하철 노선만 해도 스무 개가 넘어요.',
+    modelAnswerVi: 'Giao thông ở Seoul rất phức tạp. Chỉ tính riêng số lượng tuyến tàu điện ngầm thôi cũng đã hơn hai mươi tuyến rồi.',
   },
 
   // ── gr-trung-cap-65 · A/V-(으)ㄹ 정도로 (đến mức, đến nỗi — mức độ của hành động/trạng thái đạt tới đâu) ──
@@ -4106,6 +5193,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     modelAnswerKo: '저는 그 가수를 콘서트를 다섯 번이나 볼 정도로 좋아해요.',
     modelAnswerVi: 'Tôi thích ca sĩ đó đến mức đã xem concert của anh ấy năm lần rồi.',
   },
+  {
+    id: 'ex-gr-trung-cap-65-6',
+    patternId: 'gr-trung-cap-65',
+    type: 'fill-blank',
+    promptVi: 'Tôi mệt đến mức không nói nổi một lời (chia động từ 말하다 ở dạng phủ định trước 정도).',
+    sentenceKo: '너무 지쳐서 한마디도 못 ___.',
+    answer: '말할 정도예요',
+  },
+  {
+    id: 'ex-gr-trung-cap-65-7',
+    patternId: 'gr-trung-cap-65',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ diễn tả cách thức làm việc một cách CHUNG CHUNG (không đưa ra một mức độ cụ thể, có thể hình dung được để so sánh) — chọn cách nói phù hợp hơn cho tính từ 깨끗하다.',
+    sentenceKo: '방을 ___ 청소해 주세요.',
+    options: ['깨끗할 정도로', '깨끗하게', '깨끗한 정도로', '깨끗한 만큼'],
+    correctIndex: 1,
+    explanation:
+      "-(으)ㄹ 정도로 cần đi kèm một mức độ CỤ THỂ, có thể hình dung so sánh được (ví dụ: đến mức không đi nổi, đến mức rơi nước mắt); khi chỉ muốn diễn tả cách thức một cách chung chung, không có mức độ cụ thể nào để so sánh thì dùng dạng trạng từ hóa thông thường '-게' là đủ. '깨끗한 만큼' mang nghĩa so sánh mức độ tương xứng theo một vế khác, không khớp câu chỉ yêu cầu đơn giản này.",
+  },
+  {
+    id: 'ex-gr-trung-cap-65-8',
+    patternId: 'gr-trung-cap-65',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Tôi hồi hộp đến mức tim đập thình thịch.',
+    modelAnswerKo: '심장이 쿵쾅거릴 정도로 긴장됐어요.',
+    modelAnswerVi: 'Tôi hồi hộp đến mức tim đập thình thịch.',
+  },
+  {
+    id: 'ex-gr-trung-cap-65-9',
+    patternId: 'gr-trung-cap-65',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Món đó cay đến mức tôi phải uống liền ba cốc nước.',
+    modelAnswerKo: '물을 세 잔이나 마실 정도로 그 음식이 매웠어요.',
+    modelAnswerVi: 'Món đó cay đến mức tôi phải uống liền ba cốc nước.',
+  },
 
   // ── gr-trung-cap-66 · N-만 하다 (như, bằng với... — so sánh trực tiếp kích thước/mức độ giữa hai danh từ) ──
   {
@@ -4150,6 +5272,41 @@ export const grammarExercisesTrungCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Con chó nhà tôi lớn bằng cả một đứa trẻ con rồi đấy.',
     modelAnswerKo: '우리 집 강아지는 이제 아이만 해요.',
     modelAnswerVi: 'Con chó nhà tôi lớn bằng cả một đứa trẻ con rồi đấy.',
+  },
+  {
+    id: 'ex-gr-trung-cap-66-6',
+    patternId: 'gr-trung-cap-66',
+    type: 'fill-blank',
+    promptVi: 'Cục tẩy đó bé chỉ bằng móng tay thôi (dùng danh từ 손톱 với -만 하다).',
+    sentenceKo: '그 지우개는 ___.',
+    answer: '손톱만 해요',
+  },
+  {
+    id: 'ex-gr-trung-cap-66-7',
+    patternId: 'gr-trung-cap-66',
+    type: 'discriminate',
+    promptVi: 'Câu này so sánh HÌNH DÁNG/DÁNG VẺ giống nhau (không so sánh kích thước tương đương) — chọn cách nói phù hợp hơn cho danh từ 인형.',
+    sentenceKo: '그 아기는 ___ 예뻐요.',
+    options: ['인형만 해요', '인형처럼', '인형만큼', '인형조차'],
+    correctIndex: 1,
+    explanation:
+      "N-만 하다 dùng để so sánh trực tiếp về KÍCH THƯỚC, số lượng hay mức độ tương đương giữa hai danh từ (như 'nhỏ bằng...'); còn khi muốn so sánh về HÌNH DÁNG, DÁNG VẺ, tính chất giống nhau (như 'đẹp như búp bê') thì phải dùng '-처럼'. '인형만큼' (mục 67) mang nghĩa so sánh mức độ nhưng đòi hỏi cấu trúc khác, không tự nhiên trong câu miêu tả vẻ đẹp trực tiếp này; '인형조차' mang nghĩa 'ngay cả búp bê', sai hoàn toàn về nghĩa.",
+  },
+  {
+    id: 'ex-gr-trung-cap-66-8',
+    patternId: 'gr-trung-cap-66',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Túi xách đó to bằng cả một cái vali luôn.',
+    modelAnswerKo: '그 가방은 캐리어만 해요.',
+    modelAnswerVi: 'Túi xách đó to bằng cả một cái vali luôn.',
+  },
+  {
+    id: 'ex-gr-trung-cap-66-9',
+    patternId: 'gr-trung-cap-66',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Phòng khách sạn đó nhỏ chỉ bằng một cái phòng tắm thôi.',
+    modelAnswerKo: '그 호텔 방은 욕실만 해요.',
+    modelAnswerVi: 'Phòng khách sạn đó nhỏ chỉ bằng một cái phòng tắm thôi.',
   },
 
   // ── gr-trung-cap-67 · A/V-(으)ㄴ/는/(으)ㄹ 만큼 (như, bằng với / vì — so sánh mức độ giữa hai mệnh đề) ──
