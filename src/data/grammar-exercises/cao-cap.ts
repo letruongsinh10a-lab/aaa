@@ -46,6 +46,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '기술의 발전으로 인해서 인간의 삶이 많이 변화했습니다.',
     modelAnswerVi: 'Do sự phát triển của công nghệ, đời sống con người đã thay đổi rất nhiều.',
   },
+  {
+    id: 'ex-gr-cao-cap-01-6',
+    patternId: 'gr-cao-cap-01',
+    type: 'fill-blank',
+    promptVi: 'Do tiếng ồn giữa các tầng (danh từ 소음), mâu thuẫn giữa các hộ hàng xóm đã nảy sinh.',
+    sentenceKo: '층간 ___ 이웃 간에 갈등이 생겼다.',
+    answer: '소음으로 인해서',
+  },
+  {
+    id: 'ex-gr-cao-cap-01-7',
+    patternId: 'gr-cao-cap-01',
+    type: 'discriminate',
+    promptVi: "Danh từ '두통' (chứng đau đầu) đứng ngay sau, đóng vai trò bổ nghĩa trực tiếp — chọn dạng định ngữ đúng cho '스트레스로 인하다'.",
+    sentenceKo: '___ 두통이 심해졌어요.',
+    options: ['스트레스로 인해서', '스트레스로 인한', '스트레스로 인하고', '스트레스로 인함'],
+    correctIndex: 1,
+    explanation:
+      "Khi -(으)로 인하다 bổ nghĩa trực tiếp cho một danh từ đứng ngay sau nó (ở đây là 두통), phải dùng dạng định ngữ '-(으)로 인한' (스트레스로 인한 두통), không dùng '-(으)로 인해서' vốn chỉ dùng để nối hai mệnh đề, không phải để bổ nghĩa danh từ. '-(으)로 인하고' không phải dạng ngữ pháp chuẩn của cấu trúc này, '-(으)로 인함' là dạng danh từ hóa, cũng không đứng trước danh từ theo cách này.",
+  },
+  {
+    id: 'ex-gr-cao-cap-01-8',
+    patternId: 'gr-cao-cap-01',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng: Do sự cố kỹ thuật, chuyến bay đã bị hoãn lại.',
+    modelAnswerKo: '기술적인 문제로 인해서 비행기가 지연되었습니다.',
+    modelAnswerVi: 'Do sự cố kỹ thuật, chuyến bay đã bị hoãn lại.',
+  },
+  {
+    id: 'ex-gr-cao-cap-01-9',
+    patternId: 'gr-cao-cap-01',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng: Do thiếu nhân lực, dự án đã không thể hoàn thành đúng hạn.',
+    modelAnswerKo: '인력 부족으로 인해서 프로젝트를 제때 완료하지 못했습니다.',
+    modelAnswerVi: 'Do thiếu nhân lực, dự án đã không thể hoàn thành đúng hạn.',
+  },
 
   // ── gr-cao-cap-02 · V - 는 통에 (nguyên nhân trong hoàn cảnh lộn xộn, dẫn đến kết quả không hay) ──
   {
@@ -91,6 +126,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Vì khách hàng chen lấn ồn ào ở cửa hàng nên nhân viên đã rất vất vả.',
     modelAnswerKo: '손님들이 시끄럽게 몰려드는 통에 직원이 아주 힘들어했어요.',
     modelAnswerVi: 'Vì khách hàng chen lấn ồn ào nên nhân viên đã rất vất vả.',
+  },
+  {
+    id: 'ex-gr-cao-cap-02-6',
+    patternId: 'gr-cao-cap-02',
+    type: 'fill-blank',
+    promptVi: 'Vì mọi người cứ tranh cãi ầm ĩ (chia động từ 다투다) nên cuộc họp đã kéo dài rất lâu.',
+    sentenceKo: '사람들이 시끄럽게 ___ 회의가 길어졌어요.',
+    answer: '다투는 통에',
+  },
+  {
+    id: 'ex-gr-cao-cap-02-7',
+    patternId: 'gr-cao-cap-02',
+    type: 'discriminate',
+    promptVi: 'Trượt chân ngã là nguyên nhân đơn giản, bất ngờ nhưng không mang tính hỗn loạn, ồn ào, phức tạp — chọn cách nối phù hợp hơn cho "길에서 미끄러지는 ___ 넘어졌어요".',
+    sentenceKo: '길에서 미끄러지는 ___ 넘어졌어요.',
+    options: ['통에', '바람에', '탓에', '김에'],
+    correctIndex: 1,
+    explanation:
+      'Trượt chân ngã là một nguyên nhân đơn giản, bất ngờ nhưng không mang tính lộn xộn, ồn ào, phức tạp (không có yếu tố đông người/ồn ào), nên -는 통에 không phù hợp — phải dùng -는 바람에. -는 탓에 thiên về đổ lỗi cho một nguyên nhân tiêu cực nhưng không nhấn mạnh sự bất ngờ, -는 김에 mang nghĩa hoàn toàn khác ("nhân tiện").',
+  },
+  {
+    id: 'ex-gr-cao-cap-02-8',
+    patternId: 'gr-cao-cap-02',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vì mọi người cứ chen nhau lên xe buýt nên tôi đã bị lạc mất bạn.',
+    modelAnswerKo: '사람들이 버스에 우르르 몰리는 통에 친구를 잃어버렸어요.',
+    modelAnswerVi: 'Vì mọi người cứ chen nhau lên xe buýt nên tôi đã bị lạc mất bạn.',
+  },
+  {
+    id: 'ex-gr-cao-cap-02-9',
+    patternId: 'gr-cao-cap-02',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vì đám đông cứ la hét cổ vũ ầm ĩ nên tôi đã không nghe rõ thông báo.',
+    modelAnswerKo: '관중들이 시끄럽게 응원하는 통에 안내 방송을 제대로 못 들었어요.',
+    modelAnswerVi: 'Vì đám đông cứ la hét cổ vũ ầm ĩ nên tôi đã không nghe rõ thông báo.',
   },
 
   // ── gr-cao-cap-03 · N - (으)로 말미암아 (nguyên nhân dẫn tới kết quả tiêu cực, văn viết học thuật/báo chí) ──
@@ -138,6 +208,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '전쟁으로 말미암아 수많은 사람들이 고향을 떠나야 했다.',
     modelAnswerVi: 'Do chiến tranh, vô số người dân đã phải rời bỏ quê hương.',
   },
+  {
+    id: 'ex-gr-cao-cap-03-6',
+    patternId: 'gr-cao-cap-03',
+    type: 'fill-blank',
+    promptVi: 'Do sự bùng nổ dân số (danh từ 인구 폭발), nguồn tài nguyên đang cạn kiệt dần.',
+    sentenceKo: '___ 자원이 점점 고갈되고 있다.',
+    answer: '인구 폭발로 말미암아',
+  },
+  {
+    id: 'ex-gr-cao-cap-03-7',
+    patternId: 'gr-cao-cap-03',
+    type: 'discriminate',
+    promptVi: 'Vế sau là một kết quả TÍCH CỰC, đáng mừng (đoạt giải thưởng) — vì -(으)로 말미암아 thường dẫn tới kết quả tiêu cực, chọn cách nói tự nhiên hơn.',
+    sentenceKo: '그의 끊임없는 노력___ 마침내 상을 받게 되었다.',
+    options: ['으로 인해서', '으로 말미암아', '느니만큼', '기로서니'],
+    correctIndex: 0,
+    explanation:
+      '-(으)로 말미암아 thường gắn với kết quả mang sắc thái tiêu cực hoặc nghiêm trọng; khi vế sau là một kết quả tích cực, đáng mừng như đoạt giải thưởng, dùng -(으)로 인해서 (trung tính hơn) sẽ tự nhiên hơn. "느니만큼" sai vì không phải căn cứ đưa ra đề nghị, "기로서니" sai vì không mang sắc thái nhượng bộ phù hợp với ngữ cảnh này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-03-8',
+    patternId: 'gr-cao-cap-03',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng (báo chí): Do nạn ô nhiễm không khí, tỷ lệ mắc bệnh hô hấp đang gia tăng.',
+    modelAnswerKo: '대기 오염으로 말미암아 호흡기 질환 발생률이 증가하고 있다.',
+    modelAnswerVi: 'Do nạn ô nhiễm không khí, tỷ lệ mắc bệnh hô hấp đang gia tăng.',
+  },
+  {
+    id: 'ex-gr-cao-cap-03-9',
+    patternId: 'gr-cao-cap-03',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng: Do thiên tai, hàng nghìn hộ gia đình đã mất nhà cửa.',
+    modelAnswerKo: '자연재해로 말미암아 수천 가구가 집을 잃었다.',
+    modelAnswerVi: 'Do thiên tai, hàng nghìn hộ gia đình đã mất nhà cửa.',
+  },
 
   // ── gr-cao-cap-04 · N - (으)로 해서 (nguyên nhân dẫn tới kết quả tiêu cực) ──
   {
@@ -182,6 +287,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Vì sự cố đó mà kế hoạch của công ty đã bị hoãn lại.',
     modelAnswerKo: '그 사고로 해서 회사의 계획이 미뤄지게 되었어요.',
     modelAnswerVi: 'Vì sự cố đó mà kế hoạch của công ty đã bị hoãn lại.',
+  },
+  {
+    id: 'ex-gr-cao-cap-04-6',
+    patternId: 'gr-cao-cap-04',
+    type: 'fill-blank',
+    promptVi: 'Vì chuyện hiểu lầm đó (danh từ 오해) mà tình bạn giữa họ đã rạn nứt.',
+    sentenceKo: '___ 그들의 우정에 금이 갔어요.',
+    answer: '그 오해로 해서',
+  },
+  {
+    id: 'ex-gr-cao-cap-04-7',
+    patternId: 'gr-cao-cap-04',
+    type: 'discriminate',
+    promptVi: 'Vế sau là kết quả TÍCH CỰC (được khen thưởng) — vì -(으)로 해서 luôn dẫn tới một kết quả mang tính tiêu cực nên không phù hợp, chọn cách nói đúng.',
+    sentenceKo: '그의 성실함___ 사장님께 칭찬을 받았다.',
+    options: ['으로 해서', '으로써', '느니만큼', '기에 망정이지'],
+    correctIndex: 1,
+    explanation:
+      '-(으)로 해서 luôn dẫn đến một kết quả mang tính TIÊU CỰC; ở đây vế sau là một kết quả tích cực (được khen), nên nếu muốn nhấn mạnh PHƯƠNG TIỆN dẫn tới kết quả đó thì phải dùng -(으)로써. "느니만큼" sai vì không phải căn cứ đưa ra đề nghị, "기에 망정이지" sai vì không có yếu tố "may mà tránh được điều xấu".',
+  },
+  {
+    id: 'ex-gr-cao-cap-04-8',
+    patternId: 'gr-cao-cap-04',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vì trận cãi vã đó mà hai anh em đã không nói chuyện với nhau suốt một năm.',
+    modelAnswerKo: '그 말다툼으로 해서 두 형제는 일 년 동안 서로 말을 안 했어요.',
+    modelAnswerVi: 'Vì trận cãi vã đó mà hai anh em đã không nói chuyện với nhau suốt một năm.',
+  },
+  {
+    id: 'ex-gr-cao-cap-04-9',
+    patternId: 'gr-cao-cap-04',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vì việc anh ấy vắng mặt đột ngột (danh từ hóa) mà cả kế hoạch đã bị đảo lộn.',
+    modelAnswerKo: '그가 갑자기 불참함으로 해서 계획 전체가 틀어졌어요.',
+    modelAnswerVi: 'Vì việc anh ấy vắng mặt đột ngột mà cả kế hoạch đã bị đảo lộn.',
   },
 
   // ── gr-cao-cap-05 · A/V - 느니만큼 (lấy sự thật làm căn cứ để đưa ra đề nghị/nhận định) ──
@@ -228,6 +368,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '이것이 회사의 최종 결정이니만큼 모든 직원이 따라야 합니다.',
     modelAnswerVi: 'Vì đây đã là quyết định cuối cùng của công ty nên mọi nhân viên phải tuân theo.',
   },
+  {
+    id: 'ex-gr-cao-cap-05-6',
+    patternId: 'gr-cao-cap-05',
+    type: 'fill-blank',
+    promptVi: 'Vì đã nhận lời rồi (chia động từ 승낙하다 ở thì quá khứ) nên phải thực hiện cho bằng được.',
+    sentenceKo: '이미 ___ 반드시 실행해야 해요.',
+    answer: '승낙했느니만큼',
+  },
+  {
+    id: 'ex-gr-cao-cap-05-7',
+    patternId: 'gr-cao-cap-05',
+    type: 'discriminate',
+    promptVi: "Đây là danh từ '회장' (chủ tịch, hội trưởng), có 받침, chứ không phải động/tính từ — chọn cách nối đúng.",
+    sentenceKo: '그는 이 모임의 회장___ 모범을 보여야 한다.',
+    options: ['느니만큼', '이니만큼', '니만큼', '는니만큼'],
+    correctIndex: 1,
+    explanation:
+      '-느니만큼 chỉ gắn sau động từ/tính từ; khi đứng sau danh từ có 받침 phải chèn "이" → "-이니만큼" (회장이니만큼), không dùng "-느니만큼" hay "-니만큼" (thiếu 이 dù danh từ có phụ âm cuối). "-는니만큼" không phải dạng ngữ pháp đúng.',
+  },
+  {
+    id: 'ex-gr-cao-cap-05-8',
+    patternId: 'gr-cao-cap-05',
+    type: 'produce',
+    promptVi: 'Diễn đạt trang trọng: Vì đã cam kết trước công chúng rồi nên chính phủ phải thực hiện lời hứa đó.',
+    modelAnswerKo: '국민 앞에서 약속했느니만큼 정부는 그 약속을 지켜야 한다.',
+    modelAnswerVi: 'Vì đã cam kết trước công chúng rồi nên chính phủ phải thực hiện lời hứa đó.',
+  },
+  {
+    id: 'ex-gr-cao-cap-05-9',
+    patternId: 'gr-cao-cap-05',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vì đang trong giai đoạn quan trọng của cuộc đời nên các bạn trẻ cần suy nghĩ thật kỹ trước khi quyết định.',
+    modelAnswerKo: '인생의 중요한 시기이니만큼 청년들은 결정을 내리기 전에 신중히 생각해야 한다.',
+    modelAnswerVi: 'Vì đang trong giai đoạn quan trọng của cuộc đời nên các bạn trẻ cần suy nghĩ thật kỹ trước khi quyết định.',
+  },
 
   // ── gr-cao-cap-06 · A/V - 느니만치 (tương đương -느니만큼, biến thể ít phổ biến hơn) ──
   {
@@ -272,6 +447,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (trang trọng, hơi cổ điển, ưu tiên -느니만큼 nếu không chắc): Vì đã là người trưởng thành nên anh ấy phải tự chịu trách nhiệm về hành động của mình.',
     modelAnswerKo: '이미 성인이니만치 그는 자신의 행동에 스스로 책임을 져야 한다.',
     modelAnswerVi: 'Vì đã là người trưởng thành nên anh ấy phải tự chịu trách nhiệm về hành động của mình.',
+  },
+  {
+    id: 'ex-gr-cao-cap-06-6',
+    patternId: 'gr-cao-cap-06',
+    type: 'fill-blank',
+    promptVi: 'Vì đã hứa với thầy cô rồi (chia cụm 약속드리다 ở thì quá khứ) nên phải cố gắng hết sức.',
+    sentenceKo: '선생님께 ___ 최선을 다해야 해요.',
+    answer: '약속드렸으니만치',
+  },
+  {
+    id: 'ex-gr-cao-cap-06-7',
+    patternId: 'gr-cao-cap-06',
+    type: 'discriminate',
+    promptVi: "Đây là hội thoại thân mật giữa bạn bè — chọn cách nói tự nhiên nhất cho 'vì đã lớn rồi nên tự lo được'.",
+    sentenceKo: '이제 다 ___ 혼자 알아서 할 수 있어.',
+    options: ['컸으니만치', '컸으니까', '컸거늘', '컸다니까'],
+    correctIndex: 1,
+    explanation:
+      '-느니만치 mang sắc thái văn viết, hơi cổ, ít dùng trong hội thoại thân mật hằng ngày — trong ngữ cảnh nói chuyện đời thường giữa bạn bè nên dùng -(으)니까 tự nhiên hơn nhiều. "-거늘" là cổ văn hoàn toàn khác sắc thái, "-다니까" mang nghĩa trích dẫn/nhấn mạnh lại lời đã nói, không phù hợp ở đây.',
+  },
+  {
+    id: 'ex-gr-cao-cap-06-8',
+    patternId: 'gr-cao-cap-06',
+    type: 'produce',
+    promptVi: 'Diễn đạt (trang trọng, hơi cổ điển): Vì đã là thành viên chính thức của tổ chức nên anh ấy phải tuân thủ nội quy.',
+    modelAnswerKo: '정식 회원이니만치 그는 규칙을 준수해야 한다.',
+    modelAnswerVi: 'Vì đã là thành viên chính thức của tổ chức nên anh ấy phải tuân thủ nội quy.',
+  },
+  {
+    id: 'ex-gr-cao-cap-06-9',
+    patternId: 'gr-cao-cap-06',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vì đã nhận trách nhiệm quan trọng rồi nên cô ấy đã chuẩn bị rất kỹ lưỡng.',
+    modelAnswerKo: '중요한 책임을 맡았으니만치 그녀는 아주 철저히 준비했다.',
+    modelAnswerVi: 'Vì đã nhận trách nhiệm quan trọng rồi nên cô ấy đã chuẩn bị rất kỹ lưỡng.',
   },
 
   // ── gr-cao-cap-07 · A/V - (으)ㄴ/는 이상 (một khi đã chắc chắn/quyết định thì vế sau là điều hiển nhiên) ──
@@ -319,6 +529,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '아이와 약속한 이상 부모는 그 약속을 지켜야 한다.',
     modelAnswerVi: 'Một khi đã hứa với con cái rồi thì bố mẹ phải giữ lời.',
   },
+  {
+    id: 'ex-gr-cao-cap-07-6',
+    patternId: 'gr-cao-cap-07',
+    type: 'fill-blank',
+    promptVi: 'Một khi đã bắt đầu công việc rồi (chia động từ 시작하다 ở dạng quá khứ -(으)ㄴ) thì không thể bỏ dở giữa chừng.',
+    sentenceKo: '일을 ___ 중간에 포기할 수 없어요.',
+    answer: '시작한 이상',
+  },
+  {
+    id: 'ex-gr-cao-cap-07-7',
+    patternId: 'gr-cao-cap-07',
+    type: 'discriminate',
+    promptVi: "Động từ 알다 (biết) có 받침 ㄹ — chọn cách chia đúng khi dùng với -는 이상 trong câu 'Một khi đã biết sự thật rồi thì không thể giả vờ không biết được'.",
+    sentenceKo: '일단 진실을 ___ 모른 척할 수 없어요.',
+    options: ['아는 이상', '알는 이상', '안 이상', '알은 이상'],
+    correctIndex: 0,
+    explanation:
+      '알다 có 받침 ㄹ: trước -는, ㄹ bị lược bỏ → 아 + 는 이상 = 아는 이상, đây là cách diễn đạt chuẩn nghĩa "một khi đã biết". "알는 이상" giữ nguyên ㄹ trước ㄴ là sai quy tắc âm vị tiếng Hàn (ㄹ không đứng liền trước ㄴ), "안 이상" là dạng phủ định 안 hoàn toàn sai nghĩa, "알은 이상" sai vì ㄹ 받침 không cần đệm 으.',
+  },
+  {
+    id: 'ex-gr-cao-cap-07-8',
+    patternId: 'gr-cao-cap-07',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Một khi đã sống ở nước ngoài thì phải học cách thích nghi với văn hóa mới.',
+    modelAnswerKo: '외국에서 사는 이상 새로운 문화에 적응하는 법을 배워야 해요.',
+    modelAnswerVi: 'Một khi đã sống ở nước ngoài thì phải học cách thích nghi với văn hóa mới.',
+  },
+  {
+    id: 'ex-gr-cao-cap-07-9',
+    patternId: 'gr-cao-cap-07',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Một khi đã nhận công việc này thì tôi phải làm cho đến cùng, dù có khó khăn thế nào.',
+    modelAnswerKo: '이 일을 맡은 이상 아무리 힘들어도 끝까지 해내야 해요.',
+    modelAnswerVi: 'Một khi đã nhận công việc này thì tôi phải làm cho đến cùng, dù có khó khăn thế nào.',
+  },
 
   // ── gr-cao-cap-08 · A/V - 기로서니 (vế trước không đủ biện minh cho vế sau, thường đi cùng 아무리) ──
   {
@@ -364,6 +609,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '아무리 일이 급하기로서니 손님에게 거짓말을 해서는 안 돼요.',
     modelAnswerVi: 'Dù công việc có gấp đến mấy thì cũng không được nói dối khách hàng.',
   },
+  {
+    id: 'ex-gr-cao-cap-08-6',
+    patternId: 'gr-cao-cap-08',
+    type: 'fill-blank',
+    promptVi: 'Dù có mệt đến mấy đi nữa (chia tính từ 피곤하다, luôn đi cùng 아무리) thì cũng phải giữ lời hứa đã đưa ra.',
+    sentenceKo: '아무리 ___ 약속은 지켜야지요.',
+    answer: '피곤하기로서니',
+  },
+  {
+    id: 'ex-gr-cao-cap-08-7',
+    patternId: 'gr-cao-cap-08',
+    type: 'discriminate',
+    promptVi: "Sự việc 'phạm sai lầm' đã xảy ra trong quá khứ — chọn cách chia đúng ở thì quá khứ cho động từ 실수하다.",
+    sentenceKo: '아무리 ___ 그렇게까지 화를 낼 필요는 없었잖아요.',
+    options: ['실수했기로서니', '실수하기로서니', '실수하니까', '실수해서'],
+    correctIndex: 0,
+    explanation:
+      'Khi sự việc ở vế trước đã xảy ra trong quá khứ, -기로서니 phải chia thành -았/었기로서니 (실수했기로서니), không giữ nguyên thể hiện tại "실수하기로서니". "실수하니까"/"실수해서" đổi hẳn sang nghĩa nguyên nhân thông thường, mất đi sắc thái nhượng bộ "dù có... cũng không đủ lý do" đặc trưng của -기로서니.',
+  },
+  {
+    id: 'ex-gr-cao-cap-08-8',
+    patternId: 'gr-cao-cap-08',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù có nhớ nhà đến mấy thì cũng không được bỏ học giữa chừng.',
+    modelAnswerKo: '아무리 집이 그립기로서니 학업을 중도에 포기해서는 안 돼요.',
+    modelAnswerVi: 'Dù có nhớ nhà đến mấy thì cũng không được bỏ học giữa chừng.',
+  },
+  {
+    id: 'ex-gr-cao-cap-08-9',
+    patternId: 'gr-cao-cap-08',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù có say đến mấy đi nữa thì cũng không được lái xe.',
+    modelAnswerKo: '아무리 술에 취했기로서니 운전을 해서는 안 돼요.',
+    modelAnswerVi: 'Dù có say đến mấy đi nữa thì cũng không được lái xe.',
+  },
 
   // ── gr-cao-cap-09 · A/V - 기에 망정이지 (may mà... chứ..., tránh được kết quả xấu suýt xảy ra) ──
   {
@@ -408,6 +688,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: May mà tôi đã đặt báo thức chứ không thì đã ngủ quên và trễ giờ làm rồi.',
     modelAnswerKo: '알람을 맞춰 놓았기에 망정이지 늦잠을 자서 회사에 지각할 뻔했어요.',
     modelAnswerVi: 'May mà tôi đã đặt báo thức chứ không thì đã ngủ quên và trễ giờ làm rồi.',
+  },
+  {
+    id: 'ex-gr-cao-cap-09-6',
+    patternId: 'gr-cao-cap-09',
+    type: 'fill-blank',
+    promptVi: 'May mà tôi đã kiểm tra kỹ trước khi gửi (chia động từ 확인하다 ở thì quá khứ) chứ không thì đã gửi nhầm tài liệu quan trọng rồi.',
+    sentenceKo: '미리 잘 ___ 중요한 서류를 잘못 보낼 뻔했어요.',
+    answer: '확인했기에 망정이지',
+  },
+  {
+    id: 'ex-gr-cao-cap-09-7',
+    patternId: 'gr-cao-cap-09',
+    type: 'discriminate',
+    promptVi: '-기에 망정이지 có thể thay thế bằng -(으)니 망정이지 hoặc -아/어서 망정이지 — chọn cách thay thế ĐÚNG cho "가져왔기에 망정이지" trong câu "May mà tôi đã mang theo tiền mặt chứ không thì đã không thể thanh toán được".',
+    sentenceKo: '현금을 ___ 망정이지 결제를 못 할 뻔했어요.',
+    options: ['가져왔으니', '가져왔기 때문에', '가져오는 통에', '가져왔지만'],
+    correctIndex: 0,
+    explanation:
+      '-기에 망정이지 có thể thay thế bằng nhiều dạng nối tương đương như -(으)니 망정이지, -아/어서 망정이지, -(으)니까 망정이지 — "가져왔으니 망정이지" là một cách nói đúng và tự nhiên. Nhưng "-기 때문에", "-는 통에", "-지만" đều KHÔNG kết hợp được với 망정이지 vì đây không phải là những biến thể được công nhận của cấu trúc này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-09-8',
+    patternId: 'gr-cao-cap-09',
+    type: 'produce',
+    promptVi: 'Diễn đạt: May mà tôi đã sạc pin điện thoại từ tối qua chứ không thì hôm nay đã không thể liên lạc được với ai.',
+    modelAnswerKo: '어제저녁에 휴대폰을 충전해 놓았기에 망정이지 오늘 아무하고도 연락을 못 할 뻔했어요.',
+    modelAnswerVi: 'May mà tôi đã sạc pin điện thoại từ tối qua chứ không thì hôm nay đã không thể liên lạc được với ai.',
+  },
+  {
+    id: 'ex-gr-cao-cap-09-9',
+    patternId: 'gr-cao-cap-09',
+    type: 'produce',
+    promptVi: 'Diễn đạt: May mà anh ấy đã kịp phanh xe lại chứ không thì đã xảy ra tai nạn nghiêm trọng rồi.',
+    modelAnswerKo: '그가 제때 브레이크를 밟았기에 망정이지 큰 사고가 날 뻔했어요.',
+    modelAnswerVi: 'May mà anh ấy đã kịp phanh xe lại chứ không thì đã xảy ra tai nạn nghiêm trọng rồi.',
   },
 
   // ── gr-cao-cap-10 · V - (느)ㄴ답시고 (nêu lý do người khác kèm ý chê trách, đánh giá thấp) ──
