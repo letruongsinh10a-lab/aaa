@@ -1,143 +1,57 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense } from 'react'
 import Link from 'next/link'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronDown, ChevronRight, BookOpen, AlertCircle, Zap, Dumbbell, Mic } from 'lucide-react'
+import { ChevronRight, BookOpen, Zap } from 'lucide-react'
 import { grammarByLevelList } from '@/data/grammar-by-level'
-import { grammarExercisesByPatternId } from '@/data/grammar-exercises'
 import { fadeUp, stagger } from '@/lib/motion'
 import { buttonVariants } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
 import type { GrammarEntry, GrammarLevelGroup } from '@/types'
-import { GrammarExamplesBlock, GrammarConjugationBlock, GrammarRelatedBlock } from '@/components/learning/GrammarPatternDetail'
 
-function GrammarAccordionList({
-  patterns,
-  openId,
-  setOpenId,
-}: {
-  patterns: GrammarEntry[]
-  openId: string | null
-  setOpenId: (id: string | null) => void
-}) {
+function GrammarPatternList({ patterns }: { patterns: GrammarEntry[] }) {
   return (
     <motion.div variants={stagger(0.04)} initial="hidden" animate="visible" className="space-y-2">
-      {patterns.map((g, i) => {
-        const isOpen = openId === g.id
-        return (
-          <motion.div key={g.id} variants={fadeUp}>
-            <div
-              className={cn(
-                'rounded-xl border transition-all duration-200 overflow-hidden',
-                isOpen
-                  ? 'border-[rgba(108,142,239,0.30)] bg-[rgba(108,142,239,0.04)]'
-                  : 'border-[rgba(var(--overlay-rgb),0.08)] bg-bg-surface hover:border-[rgba(var(--overlay-rgb),0.14)]'
-              )}
-            >
-              {/* Header row */}
-              <button
-                className="w-full flex items-center gap-4 px-5 py-4 text-left"
-                onClick={() => setOpenId(isOpen ? null : g.id)}
-                aria-expanded={isOpen}
-              >
-                <span className="text-[11px] font-medium text-text-tertiary w-6 shrink-0">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <code lang="ko" className="font-korean font-bold text-accent-korean text-lg flex-1">
-                  {g.pattern}
-                </code>
-                <span className="text-sm text-text-secondary flex-1 text-right pr-4 hidden sm:block">
-                  {g.meaningVi}
-                </span>
-                {isOpen
-                  ? <ChevronDown className="w-4 h-4 text-text-tertiary shrink-0" />
-                  : <ChevronRight className="w-4 h-4 text-text-tertiary shrink-0" />
-                }
-              </button>
-
-              {/* Expandable content */}
-              <AnimatePresence initial={false}>
-                {isOpen && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.22, ease: 'easeInOut' }}
-                  >
-                    <div className="px-5 pb-5 space-y-5 border-t border-[rgba(var(--overlay-rgb),0.06)]">
-                      {/* Meaning + usage */}
-                      <div className="pt-4">
-                        <p className="text-sm font-medium text-text-primary mb-1">{g.meaningVi}</p>
-                        <p className="text-sm text-text-secondary leading-relaxed">{g.usageNotes}</p>
-                      </div>
-
-                      {/* Examples */}
-                      <GrammarExamplesBlock examples={g.examples} />
-
-                      {/* Conjugation table — only for patterns affected by irregular stems */}
-                      <GrammarConjugationBlock table={g.conjugationTable} />
-
-                      {/* Common mistakes */}
-                      {g.commonMistakes.length > 0 && (
-                        <div>
-                          <div className="flex items-center gap-1.5 mb-3">
-                            <AlertCircle className="w-3.5 h-3.5 text-accent-amber" />
-                            <p className="text-[10px] font-medium tracking-[0.14em] uppercase text-accent-amber">
-                              Lỗi thường gặp
-                            </p>
-                          </div>
-                          <div className="space-y-2">
-                            {g.commonMistakes.map((m, j) => (
-                              <p key={j} className="text-sm text-text-secondary bg-[rgba(255,179,71,0.06)] border border-[rgba(255,179,71,0.12)] rounded-lg px-4 py-2.5 leading-relaxed">
-                                {m}
-                              </p>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* So sánh với mẫu dễ nhầm */}
-                      <GrammarRelatedBlock related={g.relatedPatterns} />
-
-                      {/* Luyện tập / Luyện nói — chỉ hiện với mẫu đã có bài tập tương ứng */}
-                      <div className="flex gap-2">
-                        {grammarExercisesByPatternId[g.id]?.length > 0 && (
-                          <Link
-                            href={`/learn/grammar/practice?patternId=${g.id}`}
-                            className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'flex-1 justify-center' })}
-                          >
-                            <Dumbbell className="w-3.5 h-3.5" /> Luyện tập
-                          </Link>
-                        )}
-                        {grammarExercisesByPatternId[g.id]?.some(e => e.type === 'produce') && (
-                          <Link
-                            href={`/learn/speaking/practice?patternId=${g.id}`}
-                            className={buttonVariants({ variant: 'secondary', size: 'sm', className: 'flex-1 justify-center' })}
-                          >
-                            <Mic className="w-3.5 h-3.5" /> Nói
-                          </Link>
-                        )}
-                      </div>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          </motion.div>
-        )
-      })}
+      {patterns.map((g, i) => (
+        <motion.div key={g.id} variants={fadeUp}>
+          <Link
+            href={`/learn/grammar/${g.id}`}
+            className="flex items-center gap-4 px-5 py-4 rounded-xl border border-[rgba(var(--overlay-rgb),0.08)] bg-bg-surface hover:border-[rgba(var(--overlay-rgb),0.14)] hover:bg-bg-elevated transition-all duration-150 group"
+          >
+            <span className="text-[11px] font-medium text-text-tertiary w-6 shrink-0">
+              {String(i + 1).padStart(2, '0')}
+            </span>
+            <code lang="ko" className="font-korean font-bold text-accent-korean text-lg flex-1">
+              {g.pattern}
+            </code>
+            <span className="text-sm text-text-secondary flex-1 text-right pr-4 hidden sm:block truncate">
+              {g.meaningVi}
+            </span>
+            <ChevronRight className="w-4 h-4 text-text-tertiary shrink-0 group-hover:text-text-primary group-hover:translate-x-0.5 transition-all duration-150" />
+          </Link>
+        </motion.div>
+      ))}
     </motion.div>
   )
 }
 
 const TOTAL_PATTERNS = grammarByLevelList.reduce((sum, l) => sum + l.patterns.length, 0)
+const DEFAULT_LEVEL: GrammarLevelGroup = grammarByLevelList[0]?.level ?? 'so-cap'
 
-export default function GrammarPage() {
-  const [activeGroup, setActiveGroup] = useState<GrammarLevelGroup>(grammarByLevelList[0]?.level ?? 'so-cap')
-  const [openId, setOpenId] = useState<string | null>(null)
+function GrammarPageContent() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const levelParam = searchParams.get('level') as GrammarLevelGroup | null
+  const activeGroup: GrammarLevelGroup =
+    levelParam && grammarByLevelList.some(l => l.level === levelParam) ? levelParam : DEFAULT_LEVEL
 
   const activeGrammarLevel = grammarByLevelList.find(l => l.level === activeGroup) ?? null
+
+  function selectLevel(level: GrammarLevelGroup) {
+    router.replace(`/learn/grammar?level=${level}`, { scroll: false })
+  }
 
   return (
     <div className="p-6 lg:p-10 max-w-[800px]">
@@ -157,7 +71,7 @@ export default function GrammarPage() {
         {grammarByLevelList.map(l => (
           <button
             key={l.level}
-            onClick={() => { setActiveGroup(l.level); setOpenId(null) }}
+            onClick={() => selectLevel(l.level)}
             className={cn(
               'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200',
               activeGroup === l.level
@@ -201,14 +115,22 @@ export default function GrammarPage() {
 
             <p className="text-text-secondary text-sm mb-8 max-w-xl">{activeGrammarLevel.descVi}</p>
 
-            <GrammarAccordionList
-              patterns={activeGrammarLevel.patterns}
-              openId={openId}
-              setOpenId={setOpenId}
-            />
+            <GrammarPatternList patterns={activeGrammarLevel.patterns} />
           </motion.div>
         </AnimatePresence>
       )}
     </div>
+  )
+}
+
+export default function GrammarPage() {
+  return (
+    <Suspense fallback={
+      <div className="p-6 lg:p-10 max-w-[800px]">
+        <p className="text-text-secondary">Đang tải...</p>
+      </div>
+    }>
+      <GrammarPageContent />
+    </Suspense>
   )
 }
