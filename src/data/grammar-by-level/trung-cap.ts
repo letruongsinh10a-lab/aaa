@@ -11,6 +11,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 뭘 그렇게 많이 샀어요? 나: 내일 친구들이 집에 놀러 오거든요.', vi: 'A: Sao bạn mua nhiều đồ thế? B: Vì mai bạn bè tôi đến nhà chơi đấy.', romanization: 'ga: mwol geu-reo-ke ma-ni sa-sseo-yo? na: nae-il chin-gu-deu-ri ji-be nol-leo o-geo-deu-nyo', register: 'polite' },
       { ko: '가: 오늘은 학교에 안 가요? 나: 네, 수업이 없거든요.', vi: 'A: Hôm nay bạn không đi học à? B: Vâng, vì hôm nay không có tiết học đấy.', romanization: 'ga: o-neu-reun hak-kkyo-e an ga-yo? na: ne, su-eo-bi eop-kkeo-deu-nyo', register: 'polite' },
       { ko: '제가 좀 바쁘거든요. 다음에 연락 주세요.', vi: 'Tôi hơi bận một chút đấy. Lần sau hãy liên lạc lại nhé.', romanization: 'je-ga jom ba-ppeu-geo-deu-nyo. da-eu-me yeol-lak ju-se-yo', register: 'polite' },
+      { ko: '가: 오늘 왜 이렇게 기분이 좋아 보여요? 나: 사실 어제 승진했거든요. 그래서 축하 파티도 했어요.', vi: 'A: Sao hôm nay trông bạn vui thế? B: Thật ra là vì hôm qua tôi được thăng chức đấy. Nên tôi còn tổ chức tiệc mừng nữa.', romanization: 'ga: o-neul wae i-reo-ke gi-bu-ni jo-a bo-yeo-yo? na: sa-sil eo-je seung-jin-haet-kkeo-deu-nyo. geu-rae-seo chu-ka pa-ti-do hae-sseo-yo', register: 'polite' },
+      { ko: '가: 저 사람 누구야? 나: 우리 팀 새 팀장이거든. 다음 주부터 같이 일해.', vi: 'A: Người kia là ai vậy? B: Là trưởng nhóm mới của team mình đấy. Từ tuần sau sẽ làm việc cùng.', romanization: 'ga: jeo sa-ram nu-gu-ya? na: u-ri tim sae tim-jang-i-geo-deun. da-eum ju-bu-teo ga-chi il-hae', register: 'casual' },
+      { ko: '가: 요즘 왜 그렇게 야채를 많이 드세요? 나: 건강 검진 결과가 안 좋게 나왔거든요. 그래서 식단을 바꾸고 있어요.', vi: 'A: Sao dạo này bạn ăn nhiều rau thế? B: Vì kết quả khám sức khỏe của tôi không tốt đấy. Nên tôi đang đổi chế độ ăn.', romanization: 'ga: yo-jeum wae geu-reo-ke ya-chae-reul ma-ni deu-se-yo? na: geon-gang geom-jin gyeol-gwa-ga an jo-ke na-wat-kkeo-deu-nyo. geu-rae-seo sik-tta-neul ba-kku-go i-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng -거든요 trong hoàn cảnh trang trọng hoặc văn viết, chỉ dùng khi nói chuyện thân mật.',
@@ -35,6 +38,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '오늘 춥잖아. 옷 많이 챙겨 입어.', vi: 'Trời lạnh mà (bạn biết rồi đấy). Hãy mặc thêm áo vào.', romanization: 'o-neul chup-jja-na. ot ma-ni chaeng-gyeo i-beo', register: 'casual' },
       { ko: '가: 왜 그 드라마를 봐요? 나: 재미있잖아요.', vi: 'A: Sao bạn xem bộ phim đó vậy? B: Vì nó hay mà.', romanization: 'ga: wae geu deu-ra-ma-reul bwa-yo? na: jae-mi-it-jja-na-yo', register: 'polite' },
       { ko: '가: 배가 아파요. 나: 제가 아까 그렇게 매운 음식을 먹지 말라고 했잖아요.', vi: 'A: Tôi bị đau bụng. B: Lúc nãy tôi đã bảo đừng ăn đồ cay mà.', romanization: 'ga: bae-ga a-pa-yo. na: je-ga a-kka geu-reo-ke mae-un eum-si-geul meok-jji mal-la-go haet-jja-na-yo', register: 'polite' },
+      { ko: '가: 민수 씨는 요즘 왜 그렇게 피곤해 보여요? 나: 요즘 야근이 많잖아요.', vi: 'A: Dạo này sao trông Min-su mệt mỏi thế? B: Vì dạo này tăng ca nhiều mà.', romanization: 'ga: min-su ssi-neun yo-jeum wae geu-reo-ke pi-gon-hae bo-yeo-yo? na: yo-jeum ya-geu-ni man-cha-na-yo', register: 'polite' },
+      { ko: '가: 시험 망쳤어. 나: 그러게 내가 미리 공부하라고 했잖아.', vi: 'A: Tớ thi trượt rồi. B: Đã bảo là học trước đi rồi mà.', romanization: 'ga: si-heom mang-cheo-sseo. na: geu-reo-ge nae-ga mi-ri gong-bu-ha-ra-go haet-jja-na', register: 'casual' },
+      { ko: '가: 이 식당 진짜 맛있네요! 나: 그럼요, 여기 원래 유명한 맛집이잖아요.', vi: 'A: Quán này ngon thật đấy! B: Tất nhiên rồi, quán này vốn nổi tiếng ngon mà.', romanization: 'ga: i sik-ttang jin-jja ma-sin-ne-yo! na: geu-reo-myo, yeo-gi wol-lae yu-myeong-han mat-jji-bi-ja-na-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không nên dùng với người lớn tuổi hoặc trong hoàn cảnh trang trọng vì dễ nghe như đang vặc lại, khó chịu.',
@@ -59,6 +65,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '열심히 공부하느라고 고생했어요.', vi: 'Vì mải học hành chăm chỉ nên tôi đã vất vả.', romanization: 'yeol-sim-hi gong-bu-ha-neu-ra-go go-saeng-hae-sseo-yo', register: 'polite' },
       { ko: '가: 계속 전화했는데 왜 안 받았어요? 나: 미안해요. 피곤해서 자느라고 전화 소리도 못 들었어요.', vi: 'A: Tôi gọi điện liên tục mà sao bạn không nghe máy? B: Xin lỗi, vì mệt quá nên tôi ngủ say, không nghe thấy tiếng điện thoại luôn.', romanization: 'ga: gye-sok jeon-hwa-haen-neun-de wae an ba-da-sseo-yo? na: mi-an-hae-yo. pi-gon-hae-seo ja-neu-ra-go jeon-hwa so-ri-do mot deu-reo-sseo-yo', register: 'polite' },
       { ko: '숙제하느라고 밤을 새웠어요.', vi: 'Vì mải làm bài tập nên tôi đã thức trắng đêm.', romanization: 'suk-jje-ha-neu-ra-go ba-meul sae-wo-sseo-yo', register: 'polite' },
+      { ko: '요즘 프로젝트를 준비하느라고 잠을 잘 못 잤어요.', vi: 'Vì mải chuẩn bị dự án dạo này nên tôi ngủ không ngon giấc.', romanization: 'yo-jeum peu-ro-jek-teu-reul jun-bi-ha-neu-ra-go ja-meul jal mot ja-sseo-yo', register: 'polite' },
+      { ko: '가: 왜 이렇게 연락이 안 됐어요? 나: 죄송해요. 친구 이사를 도와주느라고 휴대폰을 못 봤어요.', vi: 'A: Sao liên lạc không được thế? B: Xin lỗi, vì mải giúp bạn chuyển nhà nên tôi không xem điện thoại.', romanization: 'ga: wae i-reo-ke yeol-la-gi an dwae-sseo-yo? na: joe-song-hae-yo. chin-gu i-sa-reul do-wa-ju-neu-ra-go hyu-dae-po-neul mot bwa-sseo-yo', register: 'polite' },
+      { ko: '아이를 돌보느라고 건강을 제대로 챙기지 못했습니다.', vi: 'Vì mải chăm con nên tôi đã không chăm sóc sức khỏe của mình đàng hoàng.', romanization: 'a-i-reul dol-bo-neu-ra-go geon-gang-eul je-dae-ro chaeng-gi-ji mo-taet-sseum-ni-da', register: 'formal' },
     ],
     commonMistakes: [
       'Không dùng -느라고 khi vế sau là kết quả tích cực hoặc câu mệnh lệnh, cầu khiến — chỉ hợp với kết quả tiêu cực, đáng tiếc.',
@@ -79,6 +88,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '노트북이 갑자기 고장 나는 바람에 이메일을 확인하지 못했어요.', vi: 'Vì máy tính bỗng nhiên bị hỏng nên tôi không kiểm tra được email.', romanization: 'no-teu-bu-gi gap-jja-gi go-jang na-neun ba-ra-me i-me-i-reul hwa-gin-ha-ji mo-tae-sseo-yo', register: 'polite' },
       { ko: '가: 왜 이렇게 늦었어요? 나: 미안해요. 버스를 잘못 타는 바람에 늦었어요.', vi: 'A: Sao bạn đến muộn thế? B: Xin lỗi, vì tôi đi nhầm xe buýt nên mới muộn.', romanization: 'ga: wae i-reo-ke neu-jeo-sseo-yo? na: mi-an-hae-yo. beo-seu-reul jal-mot ta-neun ba-ra-me neu-jeo-sseo-yo', register: 'polite' },
       { ko: '갑자기 비가 오는 바람에 우산도 없이 다 젖었어요.', vi: 'Vì trời bỗng đổ mưa nên tôi bị ướt hết mà không có ô.', romanization: 'gap-jja-gi bi-ga o-neun ba-ra-me u-san-do eop-ssi da jeo-jeo-sseo-yo', register: 'polite' },
+      { ko: '갑자기 정전이 되는 바람에 발표 자료가 다 날아갔어요.', vi: 'Vì đột nhiên mất điện nên tài liệu thuyết trình của tôi bị mất sạch.', romanization: 'gap-jja-gi jeong-jeo-ni doe-neun ba-ra-me bal-pyo ja-ryo-ga da na-ra-ga-sseo-yo', register: 'polite' },
+      { ko: '비행기가 갑자기 연착되는 바람에 공항에서 다섯 시간을 기다려야 했다.', vi: 'Vì máy bay bỗng bị hoãn nên tôi đã phải đợi ở sân bay suốt năm tiếng.', romanization: 'bi-haeng-gi-ga gap-jja-gi yeon-chak-ttoe-neun ba-ra-me gong-hang-e-seo da-seot si-ga-neul gi-da-ryeo-ya haet-tta', register: 'written' },
+      { ko: '아이가 갑자기 열이 나는 바람에 병원에 급히 갔어요.', vi: 'Vì con đột nhiên bị sốt nên tôi phải vội vàng đưa đi bệnh viện.', romanization: 'a-i-ga gap-jja-gi yeo-ri na-neun ba-ra-me byeong-wo-ne geu-pi ga-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau luôn ở thì quá khứ và không được là câu mệnh lệnh/cầu khiến, khác nhiều cấu trúc nguyên nhân khác.',
@@ -104,6 +116,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '밤새도록 드라마를 보는 탓에 아침에 자주 늦게 일어나요.', vi: 'Vì xem phim truyền hình thâu đêm nên buổi sáng tôi hay dậy muộn.', romanization: 'bam-sae-do-rok deu-ra-ma-reul bo-neun ta-se a-chi-me ja-ju neut-kke i-reo-na-yo', register: 'polite' },
       { ko: '요즘 스트레스를 자주 받는 탓에 건강이 나빠져요.', vi: 'Vì dạo này hay bị căng thẳng nên sức khỏe của tôi kém đi.', romanization: 'yo-jeum seu-teu-re-seu-reul ja-ju ban-neun ta-se geon-gang-i na-ppa-jyeo-yo', register: 'polite' },
       { ko: '길이 막히는 탓에 회의에 늦고 말았어요.', vi: 'Vì đường bị tắc nên tôi đã đến muộn cuộc họp.', romanization: 'gi-ri ma-ki-neun ta-se hoe-ui-e neut-kko ma-ra-sseo-yo', register: 'polite' },
+      { ko: '동료와 사이가 안 좋은 탓에 회사 생활이 힘들어요.', vi: 'Vì mối quan hệ với đồng nghiệp không tốt nên cuộc sống công sở của tôi rất vất vả.', romanization: 'dong-nyo-wa sa-i-ga an jo-eun ta-se hoe-sa saeng-hwa-ri him-deu-reo-yo', register: 'polite' },
+      { ko: '미세먼지가 심한 탓에 사람들이 외출을 꺼린다.', vi: 'Vì bụi mịn quá nặng nên người dân ngại ra ngoài.', romanization: 'mi-se-meon-ji-ga sim-han ta-se sa-ram-deu-ri oe-chu-reul kkeo-rin-da', register: 'written' },
+      { ko: '동생이 자꾸 약속을 어기는 탓에 요즘 자주 다퉈요.', vi: 'Vì em tôi cứ hay lỡ hẹn nên gần đây chúng tôi hay cãi nhau.', romanization: 'dong-saeng-i ja-kku yak-sso-geul eo-gi-neun ta-se yo-jeum ja-ju da-two-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ dùng -는 탓에 cho nguyên nhân và kết quả đều xấu; muốn diễn tả nguyên nhân tốt dẫn đến kết quả tốt phải dùng -는 덕분에, không được thay bằng -는 탓에.',
@@ -133,6 +148,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '비가 올까 봐서 우산을 챙겼어요.', vi: 'Vì sợ trời mưa nên tôi đã mang theo ô.', romanization: 'bi-ga ol-kka bwa-seo u-sa-neul chaeng-gyeo-sseo-yo', register: 'polite' },
       { ko: '내일 학교에 늦게 갈까 봐 일찍 쉬었어요.', vi: 'Vì sợ ngày mai đi học muộn nên tôi đã đi nghỉ sớm.', romanization: 'nae-il hak-kkyo-e neut-kke gal-kka bwa il-jjik swi-eo-sseo-yo', register: 'polite' },
       { ko: '발표할 때 한국어를 틀릴까 봐 걱정이에요.', vi: 'Tôi lo lắng vì sợ khi thuyết trình sẽ nói sai tiếng Hàn.', romanization: 'bal-pyo-hal ttae han-gu-geo-reul teul-lil-kka bwa geok-jjeong-i-e-yo', register: 'polite' },
+      { ko: '살이 찔까 봐 저녁마다 야식을 안 먹어요.', vi: 'Vì sợ tăng cân nên tối nào tôi cũng không ăn khuya.', romanization: 'sa-ri jjil-kka bwa jeo-nyeong-ma-da ya-si-geul an meo-geo-yo', register: 'polite' },
+      { ko: '면접에서 실수할까 봐 며칠 동안 연습했어요.', vi: 'Vì sợ phỏng vấn bị sai sót nên tôi đã luyện tập mấy ngày liền.', romanization: 'myeon-jeo-be-seo sil-su-hal-kka bwa myeo-chil dong-an yeon-seu-pae-sseo-yo', register: 'polite' },
+      { ko: '남편이 걱정할까 봐 사고 난 걸 얘기 안 했어요.', vi: 'Vì sợ chồng lo lắng nên tôi đã không kể chuyện bị tai nạn.', romanization: 'nam-pyeo-ni geok-jjeong-hal-kka bwa sa-go nan geol yae-gi an hae-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế trước diễn tả điều lo sợ có thể xảy ra (chưa chắc chắn), không nhầm với -아/어서 vốn nêu nguyên nhân đã xảy ra chắc chắn.',
@@ -163,6 +181,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '손님들이 오고 해서 장을 보러 가요.', vi: 'Vì (đại khái) có khách đến nên tôi đi chợ mua đồ.', romanization: 'son-nim-deu-ri o-go hae-seo jang-eul bo-reo ga-yo', register: 'polite' },
       { ko: '요즘 살이 찌고 해서 다이어트를 하고 있어요.', vi: 'Dạo này vì (nhiều lý do, trong đó có việc) tăng cân nên tôi đang ăn kiêng.', romanization: 'yo-jeum sa-ri jji-go hae-seo da-i-eo-teu-reul ha-go i-sseo-yo', register: 'polite' },
       { ko: '날씨도 좋고 해서 오랜만에 산책을 나갔어요.', vi: 'Vì thời tiết cũng đẹp (và vài lý do khác) nên lâu lắm rồi tôi mới ra ngoài đi dạo.', romanization: 'nal-ssi-do jo-ko hae-seo o-raen-ma-ne san-chae-geul na-ga-sseo-yo', register: 'polite' },
+      { ko: '주말에 할 일도 없고 해서 오랜만에 부모님 댁에 다녀왔어요.', vi: 'Vì cuối tuần cũng không có việc gì làm (và vài lý do khác) nên lâu rồi tôi mới về thăm nhà bố mẹ.', romanization: 'ju-ma-re hal il-do eop-kko hae-seo o-raen-ma-ne bu-mo-nim dae-ge da-nyeo-wa-sseo-yo', register: 'polite' },
+      { ko: '요즘 회사 일도 바쁘고 해서 운동을 통 못 하고 있어요.', vi: 'Dạo này vì công việc công ty cũng bận (và vài lý do khác) nên tôi chẳng tập thể dục được gì cả.', romanization: 'yo-jeum hoe-sa il-do ba-ppeu-go hae-seo un-dong-eul tong mo ta-go i-sseo-yo', register: 'polite' },
+      { ko: '가: 갑자기 웬 꽃이에요? 나: 오늘 좀 기분도 좋고 해서 사 봤어요.', vi: 'A: Sao tự nhiên có hoa vậy? B: Vì hôm nay tâm trạng cũng vui (và vài lý do khác) nên tôi mua thử.', romanization: 'ga: gap-jja-gi wen kko-chi-e-yo? na: o-neul jom gi-bun-do jo-ko hae-seo sa bwa-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng khi chỉ có duy nhất một lý do rõ ràng — cấu trúc này ngụ ý còn nhiều lý do khác chưa nói hết, khác với -아/어서 hay -기 때문에 nêu lý do duy nhất, dứt khoát.',
@@ -187,6 +208,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '그 원피스가 좋기는 좋지만 너무 비싸서 못 사겠어요.', vi: 'Chiếc váy đó đúng là đẹp thật nhưng đắt quá nên tôi không mua nổi.', romanization: 'geu won-pi-seu-ga jo-ki-neun jo-chi-man neo-mu bi-ssa-seo mot sa-ge-sseo-yo', register: 'polite' },
       { ko: '아파트에 살기가 편하기는 하지만 애완동물을 못 키워요.', vi: 'Sống ở chung cư đúng là tiện thật nhưng lại không nuôi được thú cưng.', romanization: 'a-pa-teu-e sal-gi-ga pyeon-ha-gi-neun ha-ji-man ae-wan-dong-mu-reul mot ki-wo-yo', register: 'polite' },
       { ko: '그 사람이 똑똑하기는 하지만 성격이 좀 급해요.', vi: 'Người đó đúng là thông minh thật nhưng tính cách hơi nóng vội.', romanization: 'geu sa-ra-mi ttok-tto-ka-gi-neun ha-ji-man seong-gyeo-gi jom geu-pae-yo', register: 'polite' },
+      { ko: '이 회사가 월급을 많이 주기는 하지만 야근이 너무 잦아요.', vi: 'Công ty này đúng là trả lương cao thật nhưng lại tăng ca quá thường xuyên.', romanization: 'i hoe-sa-ga wol-geu-beul ma-ni ju-gi-neun ha-ji-man ya-geu-ni neo-mu ja-ja-yo', register: 'polite' },
+      { ko: '요가가 몸에 좋기는 좋지만 처음에는 자세 잡기가 어려워요.', vi: 'Yoga đúng là tốt cho sức khỏe thật nhưng lúc đầu giữ tư thế khá khó.', romanization: 'yo-ga-ga mo-me jo-ki-neun jo-chi-man cheo-eu-me-neun ja-se jap-kki-ga eo-ryeo-wo-yo', register: 'polite' },
+      { ko: '남자 친구가 다정하기는 한데 연락이 너무 뜸해요.', vi: 'Bạn trai tôi đúng là dịu dàng thật nhưng lại ít liên lạc quá.', romanization: 'nam-ja chin-gu-ga da-jeong-ha-gi-neun han-de yeol-la-gi neo-mu tteum-hae-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Khác với -지만 (không yêu cầu chủ ngữ đồng nhất, chỉ đơn thuần diễn tả tương phản), -기는 하지만 bắt buộc chủ ngữ hai vế phải giống nhau và mang ý thừa nhận trước khi phản bác.',
@@ -207,6 +231,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '선생님이 내일 시험이 있다고 하셨는데도 학생들은 공부를 안 했어요.', vi: 'Mặc dù thầy giáo đã nói mai có bài kiểm tra nhưng học sinh vẫn không học bài.', romanization: 'seon-saeng-ni-mi nae-il si-heo-mi it-tta-go ha-syeon-neun-de-do hak-ssaeng-deu-reun gong-bu-reul an hae-sseo-yo', register: 'polite' },
       { ko: '유리 씨는 많이 먹는데도 (불구하고) 살이 안 쪄요.', vi: 'Yuri dù ăn rất nhiều nhưng vẫn không tăng cân.', romanization: 'yu-ri ssi-neun ma-ni meong-neun-de-do (bul-gu-ha-go) sa-ri an jjyeo-yo', register: 'polite' },
       { ko: '영희는 부모님의 반대에도 불구하고 일본 남자와 결혼했다.', vi: 'Mặc cho bố mẹ phản đối, Young-hee vẫn kết hôn với một người đàn ông Nhật Bản.', romanization: 'yeong-hi-neun bu-mo-ni-mui ban-dae-e-do bul-gu-ha-go il-bon nam-ja-wa gyeol-hon-haet-tta', register: 'written' },
+      { ko: '열심히 준비했는데도 면접에서 떨어졌어요.', vi: 'Mặc dù đã chuẩn bị chăm chỉ nhưng tôi vẫn trượt phỏng vấn.', romanization: 'yeol-sim-hi jun-bi-haet-neun-de-do myeon-jeo-be-seo tteo-reo-jyeo-sseo-yo', register: 'polite' },
+      { ko: '약을 먹었는데도 두통이 안 나아요.', vi: 'Mặc dù đã uống thuốc nhưng cơn đau đầu vẫn không đỡ.', romanization: 'ya-geul meo-geon-neun-de-do du-tong-i an na-a-yo', register: 'polite' },
+      { ko: '몇 번이나 설명했는데도 학생들이 아직 이해를 못해요.', vi: 'Mặc dù tôi đã giải thích nhiều lần nhưng học sinh vẫn chưa hiểu.', romanization: 'myeot beo-ni-na seol-myeong-haen-neun-de-do hak-ssaeng-deu-ri a-jik i-hae-reul mo-tae-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không nhầm N+에도 불구하고 (dùng sau danh từ) với A/V-(으)ㄴ/는데도 (불구하고) (dùng sau động từ/tính từ) — hai dạng có cấu trúc ngữ pháp khác nhau dù nghĩa tương tự.',
@@ -236,6 +263,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '저는 읽기는 잘하는 반면에 말하기는 잘 못해요.', vi: 'Tôi đọc thì giỏi, ngược lại nói thì lại không giỏi.', romanization: 'jeo-neun il-kki-neun jal-ha-neun ban-myeo-ne mal-ha-gi-neun jal mo-tae-yo', register: 'polite' },
       { ko: '그 가방은 비싼 반면에 질이 좋아요.', vi: 'Chiếc túi đó đắt, nhưng bù lại chất lượng tốt.', romanization: 'geu ga-bang-eun bi-ssan ban-myeo-ne ji-ri jo-a-yo', register: 'polite' },
       { ko: '그 일은 힘든 반면에 보람이 있어요.', vi: 'Công việc đó vất vả, nhưng bù lại rất ý nghĩa.', romanization: 'geu i-reun him-deun ban-myeo-ne bo-ra-mi i-sseo-yo', register: 'polite' },
+      { ko: '이 지역은 교통이 편리한 반면에 집값이 아주 비싸요.', vi: 'Khu vực này giao thông thuận tiện, nhưng ngược lại giá nhà lại rất đắt.', romanization: 'i ji-yeo-geun gyo-tong-i pyeol-li-han ban-myeo-ne jip-kkap-ssi a-ju bi-ssa-yo', register: 'polite' },
+      { ko: '한약은 효과가 좋은 반면에 맛이 너무 써요.', vi: 'Thuốc Đông y tốt về hiệu quả, nhưng ngược lại vị lại quá đắng.', romanization: 'ha-nya-geun hyo-gwa-ga jo-eun ban-myeo-ne ma-si neo-mu sseo-yo', register: 'polite' },
+      { ko: '온라인 수업은 시간을 절약할 수 있는 반면에 집중력이 떨어지기 쉽다.', vi: 'Học trực tuyến tiết kiệm được thời gian, nhưng ngược lại dễ khiến người học mất tập trung.', romanization: 'ol-la-in su-eo-beun si-ga-neul jeo-rya-kal su in-neun ban-myeo-ne jip-jjung-nyeo-gi tteo-reo-ji-gi swip-tta', register: 'written' },
     ],
     commonMistakes: [
       'Thường dùng trong văn viết, trang trọng hơn -지만 nên tránh lạm dụng trong văn nói suồng sã.',
@@ -265,6 +295,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '우리도 모르는 사이에 자연 환경이 많이 파괴되었어요.', vi: 'Trong lúc chúng ta không hề hay biết, môi trường tự nhiên đã bị phá hủy rất nhiều.', romanization: 'u-ri-do mo-reu-neun sa-i-e ja-yeon hwan-gyeong-i ma-ni pa-goe-doe-eo-sseo-yo', register: 'polite' },
       { ko: '잠시 화장실 다녀오는 사이에 전화가 왔네요.', vi: 'Trong lúc tôi đi vệ sinh một lát thì có điện thoại gọi đến.', romanization: 'jam-si hwa-jang-sil da-nyeo-o-neun sa-i-e jeon-hwa-ga wan-ne-yo', register: 'polite' },
       { ko: '아이가 잠깐 자는 사이에 집안일을 좀 했어요.', vi: 'Trong lúc con ngủ một chút, tôi đã tranh thủ làm việc nhà.', romanization: 'a-i-ga jam-kkan ja-neun sa-i-e ji-ba-ni-reul jom hae-sseo-yo', register: 'polite' },
+      { ko: '제가 잠깐 자리를 비운 사이에 손님이 다녀가셨어요.', vi: 'Trong lúc tôi rời chỗ một chút thì khách đã ghé qua rồi đi.', romanization: 'je-ga jam-kkan ja-ri-reul bi-un sa-i-e son-ni-mi da-nyeo-ga-syeo-sseo-yo', register: 'polite' },
+      { ko: '친구와 이야기하는 사이에 기차가 출발해 버렸어요.', vi: 'Trong lúc đang nói chuyện với bạn thì tàu đã chạy mất.', romanization: 'chin-gu-wa i-ya-gi-ha-neun sa-i-e gi-cha-ga chul-bal-hae beo-ryeo-sseo-yo', register: 'polite' },
+      { ko: '설거지하는 사이에 아기가 울기 시작했어요.', vi: 'Trong lúc đang rửa bát thì em bé bắt đầu khóc.', romanization: 'seol-geo-ji-ha-neun sa-i-e a-gi-ga ul-gi si-ja-kae-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Nhấn mạnh khoảng thời gian ngắn và bất ngờ — không dùng cho hành động kéo dài lâu, nên phân biệt với -는 동안 (chỉ khoảng thời gian dài hơn, trung tính hơn).',
@@ -293,6 +326,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '토픽 시험을 통과해야 한국으로 유학할 수 있어요.', vi: 'Chỉ khi đỗ kỳ thi TOPIK thì mới có thể du học Hàn Quốc.', romanization: 'to-pik si-heo-meul tong-gwa-hae-ya han-gu-geu-ro yu-ha-kal su i-sseo-yo', register: 'polite' },
       { ko: '가: 여권을 잃어버렸는데 여행갈 수 있을까요? 나: 여권이 있어야 해외 여행을 갈 수 있지요. 빨리 준비해 놓으세요.', vi: 'A: Tôi bị mất hộ chiếu rồi, liệu có đi du lịch được không? B: Phải có hộ chiếu thì mới đi du lịch nước ngoài được chứ. Bạn chuẩn bị lại nhanh đi.', romanization: 'ga: yeo-gwo-neul i-reo-beo-ryeon-neun-de yeo-haeng-gal su i-sseul-kka-yo? na: yeo-gwo-ni i-sseo-ya hae-oe yeo-haeng-eul gal su it-jji-yo. ppal-li jun-bi-hae no-eu-se-yo', register: 'polite' },
       { ko: '열심히 연습해야 실력이 늘어요.', vi: 'Chỉ khi luyện tập chăm chỉ thì trình độ mới tiến bộ.', romanization: 'yeol-sim-hi yeon-seu-pae-ya sil-lyeo-gi neu-reo-yo', register: 'polite' },
+      { ko: '예약을 해야 그 식당에 들어갈 수 있어요.', vi: 'Chỉ khi đặt bàn trước thì mới có thể vào được nhà hàng đó.', romanization: 'ye-ya-geul hae-ya geu sik-ttang-e deu-reo-gal su i-sseo-yo', register: 'polite' },
+      { ko: '서로 솔직해야 관계가 오래 가요.', vi: 'Chỉ khi thành thật với nhau thì mối quan hệ mới lâu bền.', romanization: 'seo-ro sol-jji-kae-ya gwan-gye-ga o-rae ga-yo', register: 'polite' },
+      { ko: '충분히 쉬어야 감기가 빨리 나아요.', vi: 'Chỉ khi nghỉ ngơi đầy đủ thì cảm cúm mới nhanh khỏi.', romanization: 'chung-bun-hi swi-eo-ya gam-gi-ga ppal-li na-a-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Nhấn mạnh điều kiện BẮT BUỘC, thiết yếu — nếu chỉ là điều kiện thông thường, không nhất thiết, nên dùng -(으)면 thay vì -아/어야.',
@@ -323,6 +359,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '다음에 베트남에 오거든 꼭 연락하세요.', vi: 'Lần sau nếu đến Việt Nam thì nhất định hãy liên lạc với tôi nhé.', romanization: 'da-eu-me be-teu-na-me o-geo-deun kkok yeol-lak-ha-se-yo', register: 'polite' },
       { ko: '바쁘지 않거든 저녁을 같이 먹읍시다.', vi: 'Nếu không bận thì chúng ta cùng ăn tối nhé.', romanization: 'ba-ppeu-ji an-keo-deun jeo-nyeo-geul ga-chi meo-geup-ssi-da', register: 'formal' },
       { ko: '시간이 있거든 저희 집에 놀러 오세요.', vi: 'Nếu có thời gian thì hãy đến nhà tôi chơi nhé.', romanization: 'si-ga-ni it-kkeo-deun jeo-hui ji-be nol-leo o-se-yo', register: 'polite' },
+      { ko: '회의 중에 궁금한 게 있거든 언제든지 질문하세요.', vi: 'Nếu trong cuộc họp có điều gì thắc mắc thì cứ hỏi bất cứ lúc nào nhé.', romanization: 'hoe-ui jung-e gung-geu-man ge it-kkeo-deun eon-je-deun-ji jil-mun-ha-se-yo', register: 'polite' },
+      { ko: '몸이 안 좋거든 오늘은 그냥 집에서 쉬어.', vi: 'Nếu người không khỏe thì hôm nay cứ ở nhà nghỉ ngơi đi.', romanization: 'mo-mi an jo-ko-deun o-neu-reun geu-nyang ji-be-seo swi-eo', register: 'casual' },
+      { ko: '나중에 서울로 이사하거든 저희 집에도 꼭 놀러 오세요.', vi: 'Sau này nếu bạn chuyển đến Seoul thì nhất định hãy ghé nhà tôi chơi nhé.', romanization: 'na-jung-e seo-ul-lo i-sa-ha-geo-deun jeo-hui ji-be-do kkok nol-leo o-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Vế sau bắt buộc phải là câu mệnh lệnh, cầu khiến, hứa hẹn hay ý chí — không dùng cho câu trần thuật đơn thuần, khác với -(으)면 dùng được cho mọi loại câu.',
@@ -347,6 +386,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '다시 태어난다면 남자가 되고 싶어요.', vi: 'Nếu được sinh ra lần nữa, tôi muốn làm con trai.', romanization: 'da-si tae-eo-nan-da-myeon nam-ja-ga doe-go si-peo-yo', register: 'polite' },
       { ko: '해가 서쪽에서 뜬다면 네가 이민호 배우와 결혼할 거야.', vi: 'Nếu mặt trời mọc ở đằng tây thì cậu mới lấy được diễn viên Lee Min-ho đấy.', romanization: 'hae-ga seo-jjo-ge-seo tteun-da-myeon ne-ga i-min-ho bae-u-wa gyeol-hon-hal geo-ya', register: 'casual' },
       { ko: '로또에 당첨된다면 세계 여행을 하고 싶어요.', vi: 'Nếu trúng số thì tôi muốn đi du lịch vòng quanh thế giới.', romanization: 'ro-tto-e dang-cheom-doen-da-myeon se-gye yeo-haeng-eul ha-go si-peo-yo', register: 'polite' },
+      { ko: '갑자기 회사가 문을 닫는다면 어떻게 할 거예요?', vi: 'Nếu đột nhiên công ty đóng cửa thì bạn sẽ làm gì?', romanization: 'gap-jja-gi hoe-sa-ga mu-neul dan-neun-da-myeon eo-tteo-ke hal geo-ye-yo', register: 'polite' },
+      { ko: '만약 지금 하는 일을 그만둔다면 후회할까요?', vi: 'Giả sử bây giờ nghỉ công việc đang làm thì liệu tôi có hối hận không?', romanization: 'ma-nyak ji-geum ha-neun i-reul geu-man-dun-da-myeon hu-hoe-hal-kka-yo', register: 'polite' },
+      { ko: '평생 한 가지 음식만 먹어야 한다면 저는 김치찌개를 고를 거예요.', vi: 'Nếu cả đời chỉ được ăn một món thì tôi sẽ chọn canh kim chi.', romanization: 'pyeong-saeng han ga-ji eum-sik-man meo-geo-ya han-da-myeon jeo-neun gim-chi-jji-gae-reul go-reul geo-ye-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Khác với -(으)면 dùng cho điều kiện có khả năng xảy ra bình thường, -(ㄴ/는)다면 thiên về giả định khó xảy ra hoặc hoàn toàn không có khả năng — dùng nhầm dễ khiến câu nghe kỳ khi giả định là chuyện hiển nhiên.',
@@ -376,6 +418,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '노래를 잘 불렀더라면 가수가 되었을 거예요.', vi: 'Nếu ngày xưa hát hay thì có lẽ tôi đã trở thành ca sĩ rồi.', romanization: 'no-rae-reul jal bul-leot-tteo-ra-myeon ga-su-ga doe-eo-sseul geo-ye-yo', register: 'polite' },
       { ko: '지수 씨가 연습을 많이 했더라면 실수하지 않았을 텐데요.', vi: 'Nếu Ji-su luyện tập nhiều hơn thì đã không mắc lỗi rồi.', romanization: 'ji-su ssi-ga yeon-seu-beul ma-ni haet-tteo-ra-myeon sil-su-ha-ji a-na-sseul ten-de-yo', register: 'polite' },
       { ko: '그때 조금만 더 참았더라면 후회하지 않았을 거예요.', vi: 'Nếu lúc đó tôi ráng nhịn thêm một chút thì đã không phải hối hận.', romanization: 'geu-ttae jo-geum-man deo cha-mat-tteo-ra-myeon hu-hoe-ha-ji a-na-sseul geo-ye-yo', register: 'polite' },
+      { ko: '그때 그 회사 제안을 받아들였더라면 지금 다른 인생을 살고 있을 거예요.', vi: 'Nếu lúc đó tôi nhận lời đề nghị của công ty ấy thì giờ đã sống một cuộc đời khác rồi.', romanization: 'geu-ttae geu hoe-sa je-a-neul ba-da-deu-ryeot-tteo-ra-myeon ji-geum da-reun in-saeng-eul sal-go i-sseul geo-ye-yo', register: 'polite' },
+      { ko: '조금 더 일찍 병원에 갔더라면 이렇게 심해지지 않았을 거예요.', vi: 'Nếu tôi đến bệnh viện sớm hơn một chút thì đã không nặng thế này.', romanization: 'jo-geum deo il-jjik byeong-wo-ne gat-tteo-ra-myeon i-reo-ke sim-hae-ji-ji a-na-sseul geo-ye-yo', register: 'polite' },
+      { ko: '그날 그렇게 화를 내지 않았더라면 친구와 사이가 멀어지지 않았을 텐데요.', vi: 'Nếu hôm đó tôi không nổi nóng như vậy thì đã không xa cách bạn bè đến vậy.', romanization: 'geu-nal geu-reo-ke hwa-reul nae-ji a-nat-tteo-ra-myeon chin-gu-wa sa-i-ga meo-reo-ji-ji a-na-sseul ten-de-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Đây là giả định TRÁI VỚI SỰ THẬT đã xảy ra, khác hẳn -(ㄴ/는)다면 (mục 14) vốn giả định về tương lai hoặc điều chưa xảy ra — dễ nhầm hai loại câu điều kiện này.',
@@ -405,6 +450,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '아침에 늦게 일어나서 지각할 뻔했어요.', vi: 'Sáng nay tôi dậy muộn nên suýt chút nữa bị đi học muộn.', romanization: 'a-chi-me neut-kke i-reo-na-seo ji-ga-kal ppeon-hae-sseo-yo', register: 'polite' },
       { ko: '가: 민지 씨는 왜 그렇게 수영을 싫어해요? 나: 어렸을 때 수영하다가 물에 빠질 뻔했거든요.', vi: 'A: Sao Min-ji lại ghét bơi lội đến vậy? B: Vì hồi nhỏ lúc đang bơi tôi suýt bị chết đuối đấy.', romanization: 'ga: min-ji ssi-neun wae geu-reo-ke su-yeong-eul si-reo-hae-yo? na: eo-ryeo-sseul ttae su-yeong-ha-da-ga mu-re ppa-jil ppeon-haet-kkeo-deu-nyo', register: 'polite' },
       { ko: '길이 미끄러워서 넘어질 뻔했어요.', vi: 'Vì đường trơn nên tôi suýt bị ngã.', romanization: 'gi-ri mi-kkeu-reo-wo-seo neo-meo-jil ppeon-hae-sseo-yo', register: 'polite' },
+      { ko: '운전하다가 신호를 못 보고 사고가 날 뻔했어요.', vi: 'Tôi lái xe mà không thấy đèn tín hiệu nên suýt gây tai nạn.', romanization: 'un-jeon-ha-da-ga sin-ho-reul mot bo-go sa-go-ga nal ppeon-hae-sseo-yo', register: 'polite' },
+      { ko: '비행기 시간을 착각해서 하마터면 못 탈 뻔했어요.', vi: 'Tôi nhầm giờ bay nên suýt chút nữa không kịp lên máy bay.', romanization: 'bi-haeng-gi si-ga-neul chak-kka-kae-seo ha-ma-teo-myeon mot tal ppeon-hae-sseo-yo', register: 'polite' },
+      { ko: '회의 중에 중요한 서류를 깜빡 잊을 뻔했어요.', vi: 'Trong cuộc họp tôi suýt chút nữa quên mất tài liệu quan trọng.', romanization: 'hoe-ui jung-e jung-yo-han seo-ryu-reul kkam-ppak i-jeul ppeon-hae-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Luôn chia ở thì quá khứ (-(으)ㄹ 뻔했다), không dùng ở thì hiện tại hay tương lai vì cấu trúc chỉ diễn tả việc đã suýt xảy ra.',
@@ -432,6 +480,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 많이 힘들어 보이는데 괜찮을까요? 나: 요즘 많이 바빴어요. 좀 쉬면 좋아질 거예요.', vi: 'A: Trông bạn có vẻ mệt lắm, có ổn không? B: Dạo này tôi bận quá. Nghỉ ngơi một chút chắc sẽ ổn thôi.', romanization: 'ga: ma-ni him-deu-reo bo-i-neun-de gwaen-cha-neul-kka-yo? na: yo-jeum ma-ni ba-ppa-sseo-yo. jom swi-myeon jo-a-jil geo-ye-yo', register: 'polite' },
       { ko: '머리를 묶으니까 젊어 보여요.', vi: 'Buộc tóc lên trông bạn trẻ hẳn ra.', romanization: 'meo-ri-reul mu-kkeu-ni-kka jeol-meo bo-yeo-yo', register: 'polite' },
       { ko: '이 옷을 입으니까 날씬해 보여요.', vi: 'Mặc bộ đồ này vào trông tôi có vẻ thon gọn hơn.', romanization: 'i o-seul i-beu-ni-kka nal-ssin-hae bo-yeo-yo', register: 'polite' },
+      { ko: '오늘따라 얼굴이 좀 피곤해 보이는데 무슨 일 있어요?', vi: 'Hôm nay trông mặt bạn có vẻ mệt mỏi, có chuyện gì vậy?', romanization: 'o-neul-tta-ra eol-gu-ri jom pi-gon-hae bo-i-neun-de mu-seun il i-sseo-yo', register: 'polite' },
+      { ko: '새 안경을 쓰니 훨씬 지적으로 보인다.', vi: 'Đeo kính mới vào trông có vẻ trí thức hẳn lên.', romanization: 'sae an-gyeong-eul sseu-ni hwol-ssin ji-jeo-geu-ro bo-in-da', register: 'written' },
+      { ko: '그 강아지는 순해 보였는데 알고 보니 성격이 사나웠어요.', vi: 'Con chó đó trông có vẻ hiền nhưng hóa ra tính cách lại dữ.', romanization: 'geu gang-a-ji-neun sun-hae bo-yeon-neun-de al-go bo-ni seong-gyeo-gi sa-na-wo-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ kết hợp được với tính từ (A), không dùng trực tiếp với động từ — muốn diễn đạt ý tương tự với động từ phải dùng -는 것 같다 hoặc -나 보다.',
@@ -462,6 +513,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '차가 많이 막힐 텐데 좀 일찍 출발하는 게 어때요?', vi: 'Chắc đường sẽ tắc lắm đấy, hay là mình xuất phát sớm hơn một chút?', romanization: 'cha-ga ma-ni ma-kil ten-de jom il-jjik chul-bal-ha-neun ge eo-ttae-yo', register: 'polite' },
       { ko: '한국인 친구를 많이 사귀었으면 한국말을 더 빨리 배웠을 텐데요.', vi: 'Nếu kết bạn với nhiều người Hàn Quốc hơn thì chắc tôi đã học tiếng Hàn nhanh hơn rồi.', romanization: 'han-gu-gin chin-gu-reul ma-ni sa-gwi-eo-sseu-myeon han-gung-ma-reul deo ppal-li bae-wo-sseul ten-de-yo', register: 'polite' },
       { ko: '가: 흐엉 씨, 생일 축하해요. 나: 시험 준비로 바쁠 텐데 이렇게 와 줘서 고마워요.', vi: 'A: Hương ơi, chúc mừng sinh nhật bạn. B: Chắc bạn đang bận ôn thi lắm mà vẫn đến đây, cảm ơn bạn nhiều.', romanization: 'ga: heu-eong ssi, saeng-il chu-ka-hae-yo. na: si-heom jun-bi-ro ba-ppeul ten-de i-reo-ke wa jwo-seo go-ma-wo-yo', register: 'polite' },
+      { ko: '오늘 발표 때문에 정신없을 텐데 저녁이나 같이 먹을까요?', vi: 'Chắc hôm nay bạn bận rộn vì thuyết trình lắm, hay là mình ăn tối cùng nhau nhé?', romanization: 'o-neul bal-pyo ttae-mu-ne jeong-sin-eop-sseul ten-de jeo-nyeo-gi-na ga-chi meo-geul-kka-yo', register: 'polite' },
+      { ko: '몸살이 나서 힘들 텐데 오늘은 그냥 쉬는 게 어때요?', vi: 'Chắc bạn đang mệt vì cảm nên hôm nay cứ nghỉ ngơi thì thế nào?', romanization: 'mom-sa-ri na-seo him-deul ten-de o-neu-reun geu-nyang swi-neun ge eo-ttae-yo', register: 'polite' },
+      { ko: '비행기 오래 타서 피곤했을 텐데 오늘은 일찍 주무세요.', vi: 'Chắc bạn mệt vì ngồi máy bay lâu, hôm nay hãy đi ngủ sớm nhé.', romanization: 'bi-haeng-gi o-rae ta-seo pi-gon-hae-sseul ten-de o-neu-reun il-jjik ju-mu-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chủ yếu dùng để phỏng đoán cho ngôi thứ ba hoặc tình huống khách quan, ít dùng để phỏng đoán về chính người nói.',
@@ -492,6 +546,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 내일 도서관에 몇 시에 갈까요? 나: 시험 기간이라서 사람이 많을 테니까 아침 일찍 갑시다.', vi: 'A: Mai mấy giờ mình đi thư viện nhỉ? B: Vì đang mùa thi nên chắc đông người lắm, mình đi từ sáng sớm đi.', romanization: 'ga: nae-il do-seo-gwa-ne myeot si-e gal-kka-yo? na: si-heom gi-ga-ni-ra-seo sa-ra-mi ma-neul te-ni-kka a-chim il-jjik gap-ssi-da', register: 'formal' },
       { ko: '제가 도와 줄 테니까 너무 걱정하지 마세요.', vi: 'Vì tôi sẽ giúp bạn nên đừng lo lắng quá.', romanization: 'je-ga do-wa jul te-ni-kka neo-mu geok-jjeong-ha-ji ma-se-yo', register: 'polite' },
       { ko: '제가 먼저 가 있을 테니까 천천히 오세요.', vi: 'Vì tôi sẽ đến trước nên bạn cứ từ từ đến sau.', romanization: 'je-ga meon-jeo ga i-sseul te-ni-kka cheon-cheon-hi o-se-yo', register: 'polite' },
+      { ko: '제가 자료를 정리해 둘 테니까 회의 시작 전에 확인해 보세요.', vi: 'Tôi sẽ sắp xếp sẵn tài liệu nên bạn hãy kiểm tra trước khi họp bắt đầu.', romanization: 'je-ga ja-ryo-reul jeong-ni-hae dul te-ni-kka hoe-ui si-jak jeo-ne hwa-gin-hae bo-se-yo', register: 'polite' },
+      { ko: '푹 쉬면 금방 나을 테니까 오늘은 무리하지 마세요.', vi: 'Nghỉ ngơi đầy đủ thì sẽ nhanh khỏi thôi nên hôm nay đừng cố quá sức nhé.', romanization: 'puk swi-myeon geum-bang na-eul te-ni-kka o-neu-reun mu-ri-ha-ji ma-se-yo', register: 'polite' },
+      { ko: '지금 나가면 사람들이 퇴근할 테니까 좀 더 있다가 나가는 게 좋겠어요.', vi: 'Nếu đi bây giờ thì đúng lúc mọi người tan làm nên đông lắm, mình ở lại thêm chút rồi đi thì hơn.', romanization: 'ji-geum na-ga-myeon sa-ram-deu-ri toe-geun-hal te-ni-kka jom deo it-tta-ga na-ga-neun ge jo-ke-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng các từ 걱정이다, 고맙다, 감사하다, 미안하다 ngay sau -(으)ㄹ 테니까 — đây là lỗi phổ biến vì học viên nhầm với cách dùng của -(으)니까.',
@@ -521,6 +578,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '내일 날씨가 추울지도 모르니까 따뜻하게 입으세요.', vi: 'Không biết chừng mai trời sẽ lạnh nên bạn hãy mặc ấm vào.', romanization: 'nae-il nal-ssi-ga chu-ul-jji-do mo-reu-ni-kka tta-tteu-ta-ge i-beu-se-yo', register: 'polite' },
       { ko: '아마 선생님께서는 학교에 안 계실지도 모르는데 여기서 기다릴까요?', vi: 'Có lẽ thầy không có ở trường đâu, hay là mình đợi ở đây nhé?', romanization: 'a-ma seon-saeng-nim-kke-seo-neun hak-kkyo-e an gye-sil-jji-do mo-reu-neun-de yeo-gi-seo gi-da-ril-kka-yo', register: 'polite' },
       { ko: '그 사람이 벌써 집에 갔을지도 몰라요.', vi: 'Không biết chừng người đó đã về nhà rồi.', romanization: 'geu sa-ra-mi beol-sseo ji-be ga-sseul-jji-do mol-la-yo', register: 'polite' },
+      { ko: '아마 이 소식이 벌써 회사에 다 퍼졌을지도 몰라요.', vi: 'Có lẽ tin này đã lan khắp công ty rồi cũng nên.', romanization: 'a-ma i so-si-gi beol-sseo hoe-sa-e da peo-jyeo-sseul-jji-do mol-la-yo', register: 'polite' },
+      { ko: '아마 그 사람은 우리 얘기를 못 들었을지도 몰라요.', vi: 'Có lẽ người đó không nghe được câu chuyện của chúng ta cũng nên.', romanization: 'a-ma geu sa-ra-meun u-ri yae-gi-reul mot deu-reo-sseul-jji-do mol-la-yo', register: 'polite' },
+      { ko: '너무 늦게 자면 다음 날 피곤할지도 모르니까 일찍 주무세요.', vi: 'Nếu ngủ quá muộn thì hôm sau không biết chừng sẽ mệt đấy, hãy đi ngủ sớm nhé.', romanization: 'neo-mu neut-kke ja-myeon da-eum nal pi-gon-hal-jji-do mo-reu-ni-kka il-jjik ju-mu-se-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Mức độ chắc chắn thấp hơn -(으)ㄹ 것이다 hay -겠-, nên không dùng để khẳng định một việc gần như chắc chắn xảy ra.',
@@ -547,6 +607,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 란 씨가 우리 둘이 먼저 밥 먹을래요. 나: 그래요? 지원 씨가 오늘 늦게까지 일하는 모양이에요.', vi: 'A: Lan bảo hai đứa mình ăn cơm trước đi. B: Vậy à? Chắc hôm nay Ji-won phải làm việc muộn.', romanization: 'ga: ran ssi-ga u-ri du-ri meon-jeo bap meo-geul-lae-yo. na: geu-rae-yo? ji-won ssi-ga o-neul neut-kke-kka-ji il-ha-neun mo-yang-i-e-yo', register: 'polite' },
       { ko: '저 사람은 매일 돈을 저렇게 펑펑 써요. 정말 돈이 많은 모양이에요.', vi: 'Người kia ngày nào cũng tiêu tiền như nước. Chắc là người ta lắm tiền thật.', romanization: 'jeo sa-ra-meun mae-il do-neul jeo-reo-ke peong-peong sseo-yo. jeong-mal do-ni ma-neun mo-yang-i-e-yo', register: 'polite' },
       { ko: '그 회사 일이 정말 힘들었던 모양이에요.', vi: 'Chắc công việc ở công ty đó thực sự vất vả.', romanization: 'geu hoe-sa i-ri jeong-mal him-deu-reot-tteon mo-yang-i-e-yo', register: 'polite' },
+      { ko: '가: 팀장님 얼굴이 안 좋아 보여요. 나: 오늘 실적 때문에 스트레스를 많이 받은 모양이에요.', vi: 'A: Trông mặt trưởng nhóm không ổn. B: Chắc hôm nay bị căng thẳng nhiều vì doanh số.', romanization: 'ga: tim-jang-nim eol-gu-ri an jo-a bo-yeo-yo. na: o-neul sil-jjeok ttae-mu-ne seu-teu-re-seu-reul ma-ni ba-deun mo-yang-i-e-yo', register: 'polite' },
+      { ko: '아이가 계속 기침을 하는 걸 보니까 감기에 걸린 모양이에요.', vi: 'Thấy con cứ ho mãi, chắc là bị cảm rồi.', romanization: 'a-i-ga gye-sok gi-chi-meul ha-neun geol bo-ni-kka gam-gi-e geol-lin mo-yang-i-e-yo', register: 'polite' },
+      { ko: '두 사람이 요즘 자주 같이 다니는 걸 보니 사귀는 모양이에요.', vi: 'Thấy hai người dạo này hay đi cùng nhau, chắc là họ đang hẹn hò.', romanization: 'du sa-ra-mi yo-jeum ja-ju ga-chi da-ni-neun geol bo-ni sa-gwi-neun mo-yang-i-e-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Dùng để phỏng đoán dựa trên căn cứ đã trực tiếp chứng kiến hoặc nghe thấy, khác với -(으)ㄹ 것 같다 có thể dùng cho cả phỏng đoán chủ quan không cần căn cứ cụ thể.',
@@ -570,6 +633,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 저 옷이 비쌀까요? 나: 지금 50%나 세일하니까 비싸지 않을걸요.', vi: 'A: Chiếc áo đó có đắt không nhỉ? B: Đang giảm giá đến 50% nên chắc không đắt đâu.', romanization: 'ga: jeo o-si bi-ssal-kka-yo? na: ji-geum o-sip peo-sen-teu-na se-il-ha-ni-kka bi-ssa-ji a-neul-kkeol-yo', register: 'polite' },
       { ko: '가: 우리 내일 백화점에 갈 때 마이 씨도 부를까요? 나: 마이 씨는 시간이 없을 걸요. 내일 아르바이트를 한다고 했거든요.', vi: 'A: Mai mình đi trung tâm thương mại có gọi Mai đi cùng không? B: Chắc Mai không có thời gian đâu. Cô ấy nói mai phải đi làm thêm.', romanization: 'ga: u-ri nae-il bae-kwa-jeo-me gal ttae ma-i ssi-do bu-reul-kka-yo? na: ma-i ssi-neun si-ga-ni eop-sseul-kkeol-yo. nae-il a-reu-ba-i-teu-reul han-da-go haet-kkeo-deu-nyo', register: 'polite' },
       { ko: '오늘 날씨가 추우니까 사람이 별로 없을걸요.', vi: 'Hôm nay trời lạnh nên chắc sẽ không có mấy người đâu.', romanization: 'o-neul nal-ssi-ga chu-u-ni-kka sa-ra-mi byeol-lo eop-sseul-kkeol-yo', register: 'polite' },
+      { ko: '가: 발표 자료 다 됐어요? 나: 수아 씨가 벌써 끝냈을걸요.', vi: 'A: Tài liệu thuyết trình xong chưa? B: Chắc Sua đã làm xong rồi đấy.', romanization: 'ga: bal-pyo ja-ryo da dwae-sseo-yo? na: su-a ssi-ga beol-sseo kkeun-nae-sseul-kkeol-yo', register: 'polite' },
+      { ko: '가: 이 약 먹으면 금방 나을까요? 나: 감기약이니까 며칠은 걸릴걸요.', vi: 'A: Uống thuốc này thì có nhanh khỏi không? B: Vì là thuốc cảm nên chắc phải mất vài ngày đấy.', romanization: 'ga: i yak meo-geu-myeon geum-bang na-eul-kka-yo? na: gam-gi-ya-gi-ni-kka myeo-chi-reun geol-lil-kkeol-yo', register: 'polite' },
+      { ko: '가: 민호 씨한테 연락해 볼까요? 나: 지금 회의 중이라서 전화 못 받을걸요.', vi: 'A: Mình thử liên lạc với Minho nhé? B: Bây giờ đang họp nên chắc không nghe máy đâu.', romanization: 'ga: min-ho ssi-han-te yeol-la-kae bol-kka-yo? na: ji-geum hoe-ui jung-i-ra-seo jeon-hwa mot ba-deul-kkeol-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ dùng trong văn nói thân mật giữa bạn bè, người quen — không dùng trong hoàn cảnh trang trọng.',
@@ -596,6 +662,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '흐엉 씨는 한국어 발음이 좋아서 한국 사람인 줄 알았어요.', vi: 'Vì Hương phát âm tiếng Hàn hay quá nên tôi cứ tưởng cô ấy là người Hàn Quốc.', romanization: 'heu-eong ssi-neun han-gu-geo ba-reu-mi jo-a-seo han-guk sa-ra-min jul a-ra-sseo-yo', register: 'polite' },
       { ko: '그 가방이 싼 줄 알았어요/쌀 줄 알았어요.', vi: 'Tôi cứ tưởng chiếc túi đó rẻ.', romanization: 'geu ga-bang-i ssan jul a-ra-sseo-yo, ssal jul a-ra-sseo-yo', register: 'polite' },
       { ko: '마이 씨가 한국에 돌아간 줄 몰랐어요.', vi: 'Tôi không biết là Mai đã về Hàn Quốc rồi.', romanization: 'ma-i ssi-ga han-gu-ge do-ra-gan jul mol-la-sseo-yo', register: 'polite' },
+      { ko: '이 일이 이렇게 오래 걸릴 줄 몰랐어요.', vi: 'Tôi không nghĩ là việc này lại mất nhiều thời gian đến vậy.', romanization: 'i i-ri i-reo-ke o-rae geol-lil jul mol-la-sseo-yo', register: 'polite' },
+      { ko: '그 사람이 이렇게 일찍 결혼할 줄 몰랐어요.', vi: 'Tôi không nghĩ là người đó lại kết hôn sớm đến thế.', romanization: 'geu sa-ra-mi i-reo-ke il-jjik gyeol-hon-hal jul mol-la-sseo-yo', register: 'polite' },
+      { ko: '저는 그 약이 이렇게 쓴 줄 몰랐어요. 먹기 전에는 그냥 단 줄 알았어요.', vi: 'Tôi không biết là thuốc đó lại đắng đến vậy. Trước khi uống tôi cứ tưởng nó ngọt.', romanization: 'jeo-neun geu ya-gi i-reo-ke sseun jul mol-la-sseo-yo. meok-kki jeo-ne-neun geu-nyang dan jul a-ra-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Cấu trúc chỉ dùng khi điều đã nghĩ trước đó trái ngược hoặc khác với thực tế — nếu điều nghĩ đúng với thực tế thì không dùng cấu trúc này.',
@@ -616,6 +685,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '밖에 비가 오나 봐요.', vi: 'Có vẻ ngoài trời đang mưa.', romanization: 'ba-kke bi-ga o-na bwa-yo', register: 'polite' },
       { ko: '흐엉 씨가 어디 아픈가 봐요.', vi: 'Có vẻ Hương đang bị ốm ở đâu đó.', romanization: 'heu-eong ssi-ga eo-di a-peun-ga bwa-yo', register: 'polite' },
       { ko: '가: 뚜안 씨가 보고서를 다 썼어요? 나: 네, 보고서를 다 썼나 봐요. 아까 제출하러 간다고 했거든요.', vi: 'A: Tuấn viết xong báo cáo chưa? B: Chắc là xong rồi đấy. Lúc nãy cậu ấy nói là đi nộp mà.', romanization: 'ga: ttu-an ssi-ga bo-go-seo-reul da sseo-sseo-yo? na: ne, bo-go-seo-reul da sseon-na bwa-yo. a-kka je-chu-la-reo gan-da-go haet-kkeo-deu-nyo', register: 'polite' },
+      { ko: '사무실이 조용한 걸 보니 다들 퇴근했나 봐요.', vi: 'Thấy văn phòng yên tĩnh thế, chắc mọi người tan làm hết rồi.', romanization: 'sa-mu-si-ri jo-yong-han geol bo-ni da-deul toe-geun-haen-na bwa-yo', register: 'polite' },
+      { ko: '기침을 계속 하는 걸 보니 감기가 심한가 봐요.', vi: 'Thấy cứ ho mãi thế, chắc là bị cảm nặng rồi.', romanization: 'gi-chi-meul gye-sok ha-neun geol bo-ni gam-gi-ga sim-han-ga bwa-yo', register: 'polite' },
+      { ko: '요즘 통 연락이 없는 걸 보니 많이 바쁜가 봐요.', vi: 'Thấy dạo này chẳng thấy liên lạc gì cả, chắc là đang bận lắm.', romanization: 'yo-jeum tong yeol-la-gi eom-neun geol bo-ni ma-ni ba-ppeun-ga bwa-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không dùng cho chủ ngữ ngôi thứ nhất — muốn nói về cảm nhận của bản thân phải dùng cách diễn đạt khác, không phải -나 보다.',
@@ -642,6 +714,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '오늘 오후까지 발표 준비를 해 놓아야 해요.', vi: 'Đến chiều nay tôi phải chuẩn bị sẵn phần thuyết trình.', romanization: 'o-neul o-hu-kka-ji bal-pyo jun-bi-reul hae no-a-ya hae-yo', register: 'polite' },
       { ko: '가: 창문을 왜 열어 놓고 있어요? 나: 교실이 너무 더워서 열었어요.', vi: 'A: Sao cửa sổ lại mở sẵn thế này? B: Vì lớp học nóng quá nên tôi đã mở ra.', romanization: 'ga: chang-mu-neul wae yeo-reo no-ko i-sseo-yo? na: gyo-si-ri neo-mu deo-wo-seo yeo-reo-sseo-yo', register: 'polite' },
       { ko: '비행기 표를 미리 사 놓았어요.', vi: 'Tôi đã mua sẵn vé máy bay từ trước.', romanization: 'bi-haeng-gi pyo-reul mi-ri sa no-a-sseo-yo', register: 'polite' },
+      { ko: '손님이 오시기 전에 방을 깨끗이 치워 놓았어요.', vi: 'Tôi đã dọn phòng sạch sẽ sẵn trước khi khách đến.', romanization: 'son-ni-mi o-si-gi jeo-ne bang-eul kkae-kkeu-si chi-wo no-a-sseo-yo', register: 'polite' },
+      { ko: '회의 자료를 미리 인쇄해 놓았으니까 걱정하지 마세요.', vi: 'Tôi đã in sẵn tài liệu cuộc họp rồi nên đừng lo lắng.', romanization: 'hoe-ui ja-ryo-reul mi-ri in-swae-hae no-a-sseu-ni-kka geok-jjeong-ha-ji ma-se-yo', register: 'polite' },
+      { ko: '냉장고에 반찬을 만들어 놓았어요.', vi: 'Tôi đã làm sẵn thức ăn để trong tủ lạnh rồi.', romanization: 'naeng-jang-go-e ban-cha-neul man-deu-reo no-a-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       '-았/었다 chỉ nhấn mạnh sự kết thúc của hành động chứ không cho biết trạng thái sau đó còn duy trì hay không, trong khi -아/어 놓다 khẳng định trạng thái vẫn còn được duy trì sau khi hành động kết thúc.',
@@ -668,6 +743,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '발표할 때 실수하지 않게 연습을 많이 해 두세요.', vi: 'Hãy luyện tập thật nhiều từ trước để khi thuyết trình không bị sai sót.', romanization: 'bal-pyo-hal ttae sil-su-ha-ji an-ke yeon-seu-beul ma-ni hae du-se-yo', register: 'polite' },
       { ko: '잊어버리지 않게 적어 두었는데요.', vi: 'Tôi đã ghi lại sẵn để khỏi quên.', romanization: 'i-jeo-beo-ri-ji an-ke jeo-geo du-eon-neun-de-yo', register: 'polite' },
       { ko: '여름옷은 겨울 동안 상자에 넣어 두었어요.', vi: 'Tôi đã cất quần áo mùa hè vào hộp suốt cả mùa đông.', romanization: 'yeo-reu-mo-seun gyeo-ul dong-an sang-ja-e neo-eo du-eo-sseo-yo', register: 'polite' },
+      { ko: '나중에 필요할 것 같아서 계약서를 잘 보관해 두었어요.', vi: 'Tôi nghĩ sau này sẽ cần nên đã cất giữ hợp đồng cẩn thận.', romanization: 'na-jung-e pi-ryo-hal geot ga-ta-seo gye-yak-sseo-reul jal bo-gwan-hae du-eo-sseo-yo', register: 'polite' },
+      { ko: '만약을 대비해서 비상약을 집에 사 두었어요.', vi: 'Để phòng bất trắc, tôi đã mua sẵn thuốc dự phòng để ở nhà.', romanization: 'ma-nya-geul dae-bi-hae-seo bi-sang-ya-geul ji-be sa du-eo-sseo-yo', register: 'polite' },
+      { ko: '두 사람의 관계가 나빠지기 전에 미리 오해를 풀어 두는 게 좋겠어요.', vi: 'Trước khi mối quan hệ hai người xấu đi, nên giải tỏa hiểu lầm từ sớm thì hơn.', romanization: 'du sa-ra-mui gwan-gye-ga na-ppa-ji-gi jeo-ne mi-ri o-hae-reul pu-reo du-neun ge jo-ke-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Khó phân biệt với -아/어 놓다 vì nghĩa gần giống nhau — điểm khác là -아/어 두다 nhấn mạnh tính lâu dài, chuẩn bị cho tương lai xa hơn.',
@@ -697,6 +775,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '어젯밤에 창문을 열어 놓은 채로 잤더니 감기에 걸린 것 같아요.', vi: 'Tối qua tôi ngủ mà vẫn để cửa sổ mở nên hình như bị cảm rồi.', romanization: 'eo-jet-ppa-me chang-mu-neul yeo-reo no-eun chae-ro jat-tteo-ni gam-gi-e geol-lin geot ga-ta-yo', register: 'polite' },
       { ko: '한국에서 어른들과 술을 마실 때 고개를 돌린 채로 술을 마셔야 돼요.', vi: 'Ở Hàn Quốc, khi uống rượu với người lớn tuổi phải quay mặt đi rồi mới uống.', romanization: 'han-gu-ge-seo eo-reun-deul-gwa su-reul ma-sil ttae go-gae-reul dol-lin chae-ro su-reul ma-syeo-ya dwae-yo', register: 'polite' },
       { ko: '음악을 틀어 놓은 채로 공부가 되니?', vi: 'Cứ để nhạc bật thế mà học được à?', romanization: 'eu-ma-geul teu-reo no-eun chae-ro gong-bu-ga doe-ni', register: 'casual' },
+      { ko: '구두를 신은 채로 방에 들어오지 마세요.', vi: 'Đừng mang giày mà đi vào phòng.', romanization: 'gu-du-reul si-neun chae-ro bang-e deu-reo-o-ji ma-se-yo', register: 'polite' },
+      { ko: '너무 피곤해서 화장을 지우지 않은 채로 잠들어 버렸어요.', vi: 'Vì quá mệt nên tôi đã ngủ quên mà chưa tẩy trang.', romanization: 'neo-mu pi-gon-hae-seo hwa-jang-eul ji-u-ji a-neun chae-ro jam-deu-reo beo-ryeo-sseo-yo', register: 'polite' },
+      { ko: '문을 잠그지 않은 채로 외출했다가 도둑을 맞았어요.', vi: 'Tôi ra ngoài mà quên khóa cửa nên đã bị trộm.', romanization: 'mu-neul jam-geu-ji a-neun chae-ro oe-chul-haet-tta-ga do-du-geul ma-ja-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Không chia thì hiện tại hay tương lai trước -(으)ㄴ 채로 — chỉ dùng dạng đã hoàn thành của động từ.',
@@ -726,6 +807,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '제가 발음하는 대로 따라하세요.', vi: 'Hãy bắt chước phát âm đúng theo cách tôi phát âm.', romanization: 'je-ga ba-reum-ha-neun dae-ro tta-ra-ha-se-yo', register: 'polite' },
       { ko: '요리책에서 보는 대로 삼계탕을 만들어서 정말 맛있어요.', vi: 'Tôi làm gà hầm sâm đúng theo như trong sách nấu ăn nên rất ngon.', romanization: 'yo-ri-chae-ge-seo bo-neun dae-ro sam-gye-tang-eul man-deu-reo-seo jeong-mal ma-si-sseo-yo', register: 'polite' },
       { ko: '계획대로 여행을 준비하고 있어요.', vi: 'Tôi đang chuẩn bị chuyến du lịch đúng theo kế hoạch.', romanization: 'gye-hoek-ttae-ro yeo-haeng-eul jun-bi-ha-go i-sseo-yo', register: 'polite' },
+      { ko: '제가 말하는 대로 순서대로 적어 보세요.', vi: 'Hãy ghi lại đúng theo thứ tự như tôi nói.', romanization: 'je-ga mal-ha-neun dae-ro sun-seo-dae-ro jeo-geo bo-se-yo', register: 'polite' },
+      { ko: '의사 선생님이 처방한 대로 약을 꼭 챙겨 드세요.', vi: 'Hãy nhớ uống thuốc đúng theo chỉ định của bác sĩ.', romanization: 'ui-sa seon-saeng-ni-mi cheo-bang-han dae-ro ya-geul kkok chaeng-gyeo deu-se-yo', register: 'polite' },
+      { ko: '준비가 끝나는 대로 바로 출발합시다.', vi: 'Hễ chuẩn bị xong là chúng ta xuất phát ngay.', romanization: 'jun-bi-ga kkeun-na-neun dae-ro ba-ro chul-bal-hap-ssi-da', register: 'formal' },
     ],
     commonMistakes: [
       'V-는 대로 (theo cách đang làm) khác với V-자마자 (ngay sau khi) — dễ bị nhầm lẫn về nghĩa dù một số trường hợp trông giống nhau.',
@@ -754,6 +838,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 한국어가 정말 잘하네요. 나: 잘하기는요.', vi: 'A: Bạn nói tiếng Hàn giỏi quá. B: Giỏi gì mà giỏi.', romanization: 'ga: han-gu-geo-ga jeong-mal jal-ha-ne-yo. na: jal-ha-gi-neun-yo', register: 'polite' },
       { ko: '가: 유리 씨는 머리가 참 똑똑해요. 나: 똑똑하기는요.', vi: 'A: Yuri thông minh thật đấy. B: Thông minh gì mà thông minh.', romanization: 'ga: yu-ri ssi-neun meo-ri-ga cham ttok-tto-kae-yo. na: ttok-tto-ka-gi-neun-yo', register: 'polite' },
       { ko: '가: 요리 솜씨가 좋으시네요. 나: 좋기는요. 그냥 인터넷 보고 따라 한 거예요.', vi: 'A: Tay nghề nấu ăn của bạn giỏi thật. B: Giỏi gì mà giỏi, tôi chỉ xem trên mạng rồi làm theo thôi.', romanization: 'ga: yo-ri som-ssi-ga jo-eu-si-ne-yo. na: jo-ki-neun-yo. geu-nyang in-teo-net bo-go tta-ra han geo-ye-yo', register: 'polite' },
+      { ko: '가: 이번 프로젝트 정말 잘 해내셨어요. 나: 잘하기는요. 팀원들이 다 도와준 덕분이에요.', vi: 'A: Lần này bạn hoàn thành dự án giỏi thật đấy. B: Giỏi gì mà giỏi, nhờ các thành viên trong nhóm giúp đỡ hết cả thôi.', romanization: 'ga: i-beon peu-ro-jek-teu jeong-mal jal hae-nae-syeo-sseo-yo. na: jal-ha-gi-neun-yo. tim-won-deu-ri da do-wa-jun deok-ppu-ni-e-yo', register: 'polite' },
+      { ko: '가: 얼굴이 좋아지셨네요. 건강해 보여요. 나: 건강하기는요. 아직 몸이 많이 약해요.', vi: 'A: Trông mặt bạn khỏe ra nhiều đấy. B: Khỏe gì mà khỏe, người tôi vẫn còn yếu lắm.', romanization: 'ga: eol-gu-ri jo-a-ji-syeon-ne-yo. geon-gang-hae bo-yeo-yo. na: geon-gang-ha-gi-neun-yo. a-jik mo-mi ma-ni ya-kae-yo', register: 'polite' },
+      { ko: '가: 아기가 엄마를 쏙 빼닮았네요. 나: 닮기는요. 저는 하나도 안 닮았다고 생각하는데요.', vi: 'A: Em bé giống mẹ như đúc luôn nhỉ. B: Giống gì mà giống, tôi thấy chẳng giống tí nào cả.', romanization: 'ga: a-gi-ga eom-ma-reul ssok ppae-da-man-ne-yo. na: dam-kki-neun-yo. jeo-neun ha-na-do an da-mat-tta-go saeng-gak-ha-neun-de-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ dùng để phản hồi khiêm tốn trước lời khen hoặc nhận xét của người khác, không dùng để mở đầu câu chuyện.',
@@ -774,6 +861,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 주말에는 보통 뭘 해요? 나: 친구들을 만나 영화를 보곤 해요.', vi: 'A: Cuối tuần bạn thường làm gì? B: Tôi thường gặp bạn bè rồi đi xem phim.', romanization: 'ga: ju-ma-re-neun bo-tong mwol hae-yo? na: chin-gu-deu-reul man-na yeong-hwa-reul bo-gon hae-yo', register: 'polite' },
       { ko: '할머니께 어린 시절 이야기를 듣곤 했다.', vi: 'Tôi từng thường xuyên nghe bà kể chuyện thời thơ ấu.', romanization: 'hal-meo-ni-kke eo-rin si-jeol i-ya-gi-reul deut-kkon haet-tta', register: 'written' },
       { ko: '저는 주변이 시끄러울 때 이어폰을 꽂고 조용한 음악을 듣곤 해요.', vi: 'Khi xung quanh ồn ào, tôi thường đeo tai nghe và nghe nhạc nhẹ.', romanization: 'jeo-neun ju-byeo-ni si-kkeu-reo-ul ttae i-eo-po-neul kkot-kko jo-yong-han eu-ma-geul deut-kkon hae-yo', register: 'polite' },
+      { ko: '스트레스가 쌓이면 혼자 노래방에 가곤 해요.', vi: 'Khi căng thẳng chồng chất, tôi thường đi một mình đến quán karaoke.', romanization: 'seu-teu-re-seu-ga ssa-i-myeon hon-ja no-rae-bang-e ga-gon hae-yo', register: 'polite' },
+      { ko: '예전에는 퇴근 후에 동료들과 술을 마시곤 했어요.', vi: 'Trước đây tôi thường hay uống rượu cùng đồng nghiệp sau giờ làm.', romanization: 'ye-jeo-ne-neun toe-geun hu-e dong-nyo-deul-gwa su-reul ma-si-gon hae-sseo-yo', register: 'polite' },
+      { ko: '주말 아침이면 가족과 함께 산책을 하곤 해요.', vi: 'Cứ vào sáng cuối tuần là tôi lại thường đi dạo cùng gia đình.', romanization: 'ju-mal a-chi-mi-myeon ga-jok-kkwa ham-kke san-chae-geul ha-gon hae-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Chỉ dùng cho hành động lặp lại nhiều lần theo thói quen, không dùng cho hành động chỉ xảy ra một lần duy nhất.',
@@ -797,6 +887,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '어떤 곤충은 자신을 보호하기 위해 죽을 척을 한다.', vi: 'Một số loài côn trùng giả vờ chết để tự bảo vệ mình.', romanization: 'eo-tteon gon-chung-eun ja-si-neul bo-ho-ha-gi wi-hae ju-geul cheo-geul han-da', register: 'written' },
       { ko: '친구가 돈을 빌려 달라고 해서 돈이 없는 체해요.', vi: 'Vì bạn tôi hỏi mượn tiền nên tôi giả vờ là không có tiền.', romanization: 'chin-gu-ga do-neul bil-lyeo dal-la-go hae-seo do-ni eom-neun che-hae-yo', register: 'polite' },
       { ko: '제가 한 이야기에 대해 모르는 척해 주세요.', vi: 'Xin hãy giả vờ như không biết chuyện tôi vừa kể nhé.', romanization: 'je-ga han i-ya-gi-e dae-hae mo-reu-neun cheo-kae ju-se-yo', register: 'polite' },
+      { ko: '회의 중에 졸렸지만 안 졸린 척했어요.', vi: 'Trong cuộc họp tôi buồn ngủ nhưng đã giả vờ như không buồn ngủ.', romanization: 'hoe-ui jung-e jol-lyeot-jji-man an jol-lin cheo-kae-sseo-yo', register: 'polite' },
+      { ko: '사실은 그 이야기를 다 알면서도 처음 듣는 척했어요.', vi: 'Thật ra tôi biết hết câu chuyện đó rồi nhưng vẫn giả vờ như lần đầu nghe.', romanization: 'sa-si-reun geu i-ya-gi-reul da al-myeon-seo-do cheo-eum deun-neun cheo-kae-sseo-yo', register: 'polite' },
+      { ko: '몸이 아팠지만 아이들 앞에서는 괜찮은 척했어요.', vi: 'Dù người khó chịu nhưng trước mặt các con tôi vẫn tỏ ra ổn.', romanization: 'mo-mi a-pat-jji-man a-i-deul a-pe-seo-neun gwaen-cha-neun cheo-kae-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       '체하다 và 척하다 có thể dùng thay thế cho nhau với nghĩa gần như tương đương, không phải là hai cấu trúc khác biệt.',
@@ -823,6 +916,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 저녁에 불고기를 같이 먹읍시다. 나: 불고기 대신에 삼겹살을 먹으면 어때요?', vi: 'A: Tối nay chúng ta cùng ăn bulgogi nhé. B: Hay là ăn thịt ba chỉ thay vì bulgogi thì sao?', romanization: 'ga: jeo-nyeo-ge bul-go-gi-reul ga-chi meo-geup-ssi-da. na: bul-go-gi dae-si-ne sam-gyeop-ssa-reul meo-geu-myeon eo-ttae-yo', register: 'polite' },
       { ko: '지하철은 빠른 대신에 출퇴근 시간에 사람이 많아요.', vi: 'Tàu điện ngầm nhanh, nhưng bù lại giờ cao điểm lại rất đông người.', romanization: 'ji-ha-cheo-reun ppa-reun dae-si-ne chul-toe-geun si-ga-ne sa-ra-mi ma-na-yo', register: 'polite' },
       { ko: '낚시하는 대신에 테니스를 칩시다.', vi: 'Thay vì đi câu cá, chúng ta chơi tennis đi.', romanization: 'nak-ssi-ha-neun dae-si-ne te-ni-seu-reul chip-ssi-da', register: 'formal' },
+      { ko: '이번 휴가에는 해외여행 대신에 국내 여행을 가기로 했어요.', vi: 'Kỳ nghỉ lần này tôi quyết định đi du lịch trong nước thay vì đi nước ngoài.', romanization: 'i-beon hyu-ga-e-neun hae-oe-yeo-haeng dae-si-ne gung-nae yeo-haeng-eul ga-gi-ro hae-sseo-yo', register: 'polite' },
+      { ko: '이 일은 월급이 적은 대신에 근무 시간이 자유로워요.', vi: 'Công việc này lương thấp, nhưng bù lại giờ làm việc lại tự do.', romanization: 'i i-reun wol-geu-bi jeo-geun dae-si-ne geun-mu si-ga-ni ja-yu-ro-wo-yo', register: 'polite' },
+      { ko: '회식에 못 가는 대신에 팀장님께 따로 인사를 드렸어요.', vi: 'Thay vì đi tham dự tiệc công ty, tôi đã đến chào trưởng nhóm riêng.', romanization: 'hoe-si-ge mot ga-neun dae-si-ne tim-jang-nim-kke tta-ro in-sa-reul deu-ryeo-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Cần phân biệt hai nghĩa dựa vào ngữ cảnh: thay thế lựa chọn hay bù trừ đặc điểm trái ngược — dịch máy móc một nghĩa duy nhất dễ sai.',
@@ -849,6 +945,9 @@ export const grammarTrungCap: GrammarEntry[] = [
       { ko: '가: 뭐 먹고 싶어요? 나: 저는 아무거나 괜찮아요.', vi: 'A: Bạn muốn ăn gì? B: Tôi ăn gì cũng được.', romanization: 'ga: mwo meok-kko si-peo-yo? na: jeo-neun a-mu-geo-na gwaen-cha-na-yo', register: 'polite' },
       { ko: '아무도 저를 알지 못하는 곳으로 가고 싶어요.', vi: 'Tôi muốn đến một nơi không ai biết mình cả.', romanization: 'a-mu-do jeo-reul al-ji mo-ta-neun go-seu-ro ga-go si-peo-yo', register: 'polite' },
       { ko: '요즘 방학이라서 아무 때나 놀러오세요.', vi: 'Dạo này đang nghỉ nên bạn cứ đến chơi lúc nào cũng được.', romanization: 'yo-jeum bang-ha-gi-ra-seo a-mu ttae-na nol-leo-o-se-yo', register: 'polite' },
+      { ko: '이 일은 아무나 할 수 있는 게 아니에요. 전문 지식이 필요해요.', vi: 'Công việc này không phải ai cũng làm được. Cần có kiến thức chuyên môn.', romanization: 'i i-reun a-mu-na hal su in-neun ge a-ni-e-yo. jeon-mun ji-si-gi pi-ryo-hae-yo', register: 'polite' },
+      { ko: '너무 아파서 아무것도 먹고 싶지 않아요.', vi: 'Tôi mệt quá nên chẳng muốn ăn gì cả.', romanization: 'neo-mu a-pa-seo a-mu-geot-tto meok-kko sip-jji a-na-yo', register: 'polite' },
+      { ko: '이 카페는 와이파이가 잘 터져서 아무 데서나 노트북 작업을 하기 좋아요.', vi: 'Quán cà phê này wifi bắt tốt nên ngồi chỗ nào làm việc trên laptop cũng thoải mái.', romanization: 'i ka-pe-neun wa-i-pa-i-ga jal teo-jyeo-seo a-mu de-seo-na no-teu-buk ja-geo-beul ha-gi jo-a-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Aa무 + (이)나 luôn đi với câu khẳng định, còn 아무 + 도 luôn đi với câu phủ định — dùng lẫn hai dạng là lỗi rất phổ biến.',
