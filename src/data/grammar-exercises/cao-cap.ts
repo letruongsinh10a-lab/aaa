@@ -2452,6 +2452,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '봄이 왔다거늘 이곳엔 아직도 눈이 내리는구나.',
     modelAnswerVi: 'Người ta bảo là mùa xuân đã đến, vậy mà nơi đây tuyết vẫn còn rơi.',
   },
+  {
+    id: 'ex-gr-cao-cap-31-6',
+    patternId: 'gr-cao-cap-31',
+    type: 'fill-blank',
+    promptVi: 'Mọi người đều bảo là kỳ thi khó (chia tính từ 어렵다 ở dạng trích dẫn tương phản -거늘), vậy mà cậu ta lại khoe là mình thấy dễ.',
+    sentenceKo: '모두들 시험이 ___ 그는 쉬웠다고 자랑하네.',
+    answer: '어렵다거늘',
+  },
+  {
+    id: 'ex-gr-cao-cap-31-7',
+    patternId: 'gr-cao-cap-31',
+    type: 'discriminate',
+    promptVi: 'Động từ có phụ âm cuối cần thêm -는다 trước 거늘, không phải -다 trực tiếp như tính từ — chọn cách chia đúng cho động từ 먹다 trong "Nghe nói ngày nào đứa trẻ cũng không chịu ăn rau, vậy mà hôm nay lại ăn hết sạch, thật lạ."',
+    sentenceKo: '아이가 매일 채소를 안 ___ 오늘은 웬일로 다 먹었네.',
+    options: ['먹는다거늘', '먹다거늘', '먹었다거늘', '먹을다거늘'],
+    correctIndex: 0,
+    explanation:
+      "Động từ có phụ âm cuối (먹다) khi gắn với đuôi trần thuật -는다/ㄴ다 trước 거늘 phải thêm -는다 (안 먹는다거늘), không được gắn -다 trực tiếp như tính từ ('먹다거늘' sai); '먹었다거늘' chia nhầm sang thì quá khứ (đổi nghĩa, không hợp ngữ cảnh nói về thói quen hàng ngày), '먹을다거늘' không phải dạng ngữ pháp tồn tại.",
+  },
+  {
+    id: 'ex-gr-cao-cap-31-8',
+    patternId: 'gr-cao-cap-31',
+    type: 'produce',
+    promptVi: 'Diễn đạt (văn phong cổ/văn học): Nghe bảo trận đấu đã kết thúc rồi, vậy mà khán giả vẫn còn đứng nguyên tại chỗ.',
+    modelAnswerKo: '경기가 벌써 끝났다거늘 관중들은 아직도 그 자리에 서 있구나.',
+    modelAnswerVi: 'Nghe bảo trận đấu đã kết thúc rồi, vậy mà khán giả vẫn còn đứng nguyên tại chỗ.',
+  },
+  {
+    id: 'ex-gr-cao-cap-31-9',
+    patternId: 'gr-cao-cap-31',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nghe bảo trời đã tối rồi, vậy mà lũ trẻ vẫn còn mải chơi ngoài đường.',
+    modelAnswerKo: '날이 벌써 어두워졌다거늘 아이들은 아직도 밖에서 놀고 있네.',
+    modelAnswerVi: 'Nghe bảo trời đã tối rồi, vậy mà lũ trẻ vẫn còn mải chơi ngoài đường.',
+  },
 
   // ── gr-cao-cap-32 · A/V - (느)ㄴ다건만 (vốn nói là... vậy mà..., trích dẫn của -건만/-건마는) ──
   {
@@ -2496,6 +2531,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Nghe nói anh ấy từng học giỏi, vậy sao bây giờ lại thi trượt như thế?',
     modelAnswerKo: '그는 공부를 잘했다건만 어쩌다가 이번 시험에서 떨어졌을까?',
     modelAnswerVi: 'Nghe nói anh ấy từng học giỏi, vậy sao bây giờ lại thi trượt như thế?',
+  },
+  {
+    id: 'ex-gr-cao-cap-32-6',
+    patternId: 'gr-cao-cap-32',
+    type: 'fill-blank',
+    promptVi: 'Nghe nói dạo này công việc của anh ấy rất bận rộn (chia tính từ 바쁘다 ở dạng trích dẫn tương phản -건만), vậy mà lại thấy anh ấy đi chơi suốt.',
+    sentenceKo: '요즘 그는 일이 ___ 놀러 다니는 것만 보인다.',
+    answer: '바쁘다건만',
+  },
+  {
+    id: 'ex-gr-cao-cap-32-7',
+    patternId: 'gr-cao-cap-32',
+    type: 'discriminate',
+    promptVi: 'Đây là điều người nói TỰ MÌNH nhận thấy trực tiếp (không phải nghe ai kể lại) — chọn cách nói đúng cho "Trời đã tối rồi, vậy mà nó vẫn còn ở ngoài đường."',
+    sentenceKo: '날이 벌써 어두워졌___ 아이는 아직도 밖에 있다.',
+    options: ['다건만', '건만', '다거늘', '는지라'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다건만 là dạng TRÍCH DẪN (báo lại điều đã nghe từ người khác) của -건만; khi người nói tự mình trực tiếp quan sát sự việc (trời tối) mà không qua nghe ai kể, phải dùng -건만 thông thường (không có 다 trích dẫn) như ở mẫu A/V-건만. "-다거늘" cũng là trích dẫn (gốc khác, mang màu sắc cổ hơn), "-는지라" mang nghĩa nguyên nhân, cả hai đều không phù hợp.',
+  },
+  {
+    id: 'ex-gr-cao-cap-32-8',
+    patternId: 'gr-cao-cap-32',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nghe nói cửa hàng đó đông khách lắm, vậy mà đi vào thì lại chẳng thấy ai.',
+    modelAnswerKo: '그 가게는 손님이 많다건만 막상 가 보니 아무도 없었다.',
+    modelAnswerVi: 'Nghe nói cửa hàng đó đông khách lắm, vậy mà đi vào thì lại chẳng thấy ai.',
+  },
+  {
+    id: 'ex-gr-cao-cap-32-9',
+    patternId: 'gr-cao-cap-32',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nghe nói đội đó mạnh lắm, vậy sao lại thua trận đấu vừa rồi nhỉ?',
+    modelAnswerKo: '그 팀은 강하다건만 왜 이번 경기에서 졌을까?',
+    modelAnswerVi: 'Nghe nói đội đó mạnh lắm, vậy sao lại thua trận đấu vừa rồi nhỉ?',
   },
 
   // ── gr-cao-cap-33 · A/V - (느)ㄴ다고나 할까요? (liệu có phải là... — nói tránh, dè dặt một nhận định) ──
@@ -2542,6 +2612,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '엄마의 음식은 사랑과 비슷하다고나 할까요?',
     modelAnswerVi: 'Có lẽ nói món ăn của mẹ tôi giống với tình yêu thương thì đúng hơn.',
   },
+  {
+    id: 'ex-gr-cao-cap-33-6',
+    patternId: 'gr-cao-cap-33',
+    type: 'fill-blank',
+    promptVi: 'Cuộc sống ở nước ngoài có lẽ nói là vừa thú vị vừa cô đơn thì đúng hơn? (chia tính từ 외롭다 ở dạng nói tránh -다고나 할까요)',
+    sentenceKo: '외국 생활은 재미있으면서도 ___?',
+    answer: '외롭다고나 할까요',
+  },
+  {
+    id: 'ex-gr-cao-cap-33-7',
+    patternId: 'gr-cao-cap-33',
+    type: 'discriminate',
+    promptVi: 'Người nói đang PHỎNG ĐOÁN một sự thật khách quan dựa trên dấu hiệu quan sát được (không phải ngập ngừng khi chọn từ để diễn đạt điều mình đã biết rõ) — chọn cách nói đúng cho "Nhìn trời thế này, hình như sắp mưa."',
+    sentenceKo: '하늘을 보니 비가 ___.',
+    options: ['온다고나 할까요', '오려나 봐요', '온다거늘', '온다건만'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다고나 할까요? dùng khi người nói ngần ngại trong việc CHỌN TỪ để diễn đạt một điều mình đã biết rõ (nói tránh, dè dặt về cách diễn đạt); còn ở đây người nói đang PHỎNG ĐOÁN một sự việc khách quan (trời sắp mưa) dựa trên dấu hiệu quan sát, nên phải dùng -(으)려나 보다. "-다거늘"/"-다건만" đều là cấu trúc trích dẫn tương phản, không liên quan đến ngữ cảnh phỏng đoán này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-33-8',
+    patternId: 'gr-cao-cap-33',
+    type: 'produce',
+    promptVi: 'Diễn đạt (nói tránh, dè dặt): Có lẽ nói tình cảm giữa hai người bọn họ giống tình bạn hơn là tình yêu thì đúng hơn?',
+    modelAnswerKo: '그 둘의 감정은 사랑보다 우정에 가깝다고나 할까요?',
+    modelAnswerVi: 'Có lẽ nói tình cảm giữa hai người bọn họ giống tình bạn hơn là tình yêu thì đúng hơn?',
+  },
+  {
+    id: 'ex-gr-cao-cap-33-9',
+    patternId: 'gr-cao-cap-33',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Có lẽ nói công việc này vừa vất vả vừa đáng để làm thì đúng hơn?',
+    modelAnswerKo: '이 일은 힘들면서도 해 볼 만하다고나 할까요?',
+    modelAnswerVi: 'Có lẽ nói công việc này vừa vất vả vừa đáng để làm thì đúng hơn?',
+  },
 
   // ── gr-cao-cap-34 · A/V - (느)ㄴ다는데야 (một khi đã nói là... thì... — không còn cách nào khác) ──
   {
@@ -2586,6 +2691,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (câu hỏi tu từ): Một khi bố mẹ đã phản đối như vậy thì tôi biết làm sao được đây?',
     modelAnswerKo: '부모님이 그렇게 반대하신다는데야 제가 어쩌겠어요?',
     modelAnswerVi: 'Một khi bố mẹ đã phản đối như vậy thì tôi biết làm sao được đây?',
+  },
+  {
+    id: 'ex-gr-cao-cap-34-6',
+    patternId: 'gr-cao-cap-34',
+    type: 'fill-blank',
+    promptVi: 'Một khi khách hàng đã khăng khăng đòi hoàn tiền (chia động từ 환불하다 ở dạng ý chí -겠다는데야) thì nhân viên cửa hàng biết làm sao được?',
+    sentenceKo: '손님이 굳이 ___ 직원이 어쩌겠어요?',
+    answer: '환불하겠다는데야',
+  },
+  {
+    id: 'ex-gr-cao-cap-34-7',
+    patternId: 'gr-cao-cap-34',
+    type: 'discriminate',
+    promptVi: 'Vế trước không phải một lời TUYÊN BỐ/QUYẾT ĐỊNH được nói ra mà chỉ là một thực tế khách quan (tuổi tác) — chọn cách nói phù hợp hơn cho "Vì anh ấy đã có tuổi rồi nên không ai có thể trách anh ấy được."',
+    sentenceKo: '그는 나이가 ___ 아무도 그를 탓할 수 없다.',
+    options: ['많다는데야', '많으니만큼', '많다거늘', '많다손 치더라도'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다는데야 chỉ dùng khi vế trước là một LỜI TUYÊN BỐ/QUYẾT ĐỊNH đã được nói ra rõ ràng (thường bởi chính đương sự); ở đây "tuổi tác" chỉ là một thực tế khách quan, không phải lời tuyên bố, nên dùng -(으)니만큼 (lấy sự thật làm căn cứ) phù hợp hơn. "-다거늘" là trích dẫn tương phản, "-다손 치더라도" là nhượng bộ giả định, cả hai đều sai ngữ cảnh lấy căn cứ đưa ra kết luận này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-34-8',
+    patternId: 'gr-cao-cap-34',
+    type: 'produce',
+    promptVi: 'Diễn đạt (câu hỏi tu từ): Một khi giám đốc đã đồng ý rồi thì chúng ta còn có thể phản đối được sao?',
+    modelAnswerKo: '사장님이 동의하신다는데야 우리가 반대할 수 있겠어요?',
+    modelAnswerVi: 'Một khi giám đốc đã đồng ý rồi thì chúng ta còn có thể phản đối được sao?',
+  },
+  {
+    id: 'ex-gr-cao-cap-34-9',
+    patternId: 'gr-cao-cap-34',
+    type: 'produce',
+    promptVi: 'Diễn đạt (câu hỏi tu từ): Một khi con cái đã quyết tâm như vậy rồi thì cha mẹ còn có thể ngăn cản được sao?',
+    modelAnswerKo: '자식이 그렇게 결심한다는데야 부모가 말릴 수 있겠어요?',
+    modelAnswerVi: 'Một khi con cái đã quyết tâm như vậy rồi thì cha mẹ còn có thể ngăn cản được sao?',
   },
 
   // ── gr-cao-cap-35 · A/V - (느)ㄴ다더군요 / (느)ㄴ다던데요 / (느)ㄴ다더라고요 (nghe nói là... — hồi tưởng) ──
@@ -2632,6 +2772,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '올해 여름이 아주 덥다더라고요.',
     modelAnswerVi: 'Nghe nói năm nay mùa hè sẽ nóng lắm đấy.',
   },
+  {
+    id: 'ex-gr-cao-cap-35-6',
+    patternId: 'gr-cao-cap-35',
+    type: 'fill-blank',
+    promptVi: 'Nghe nói quán ăn mới mở gần nhà tôi phục vụ rất tốt đấy (chia tính từ 친절하다 ở dạng hồi tưởng thân mật -다더라고요).',
+    sentenceKo: '우리 집 근처에 새로 생긴 식당은 직원들이 정말 ___.',
+    answer: '친절하다더라고요',
+  },
+  {
+    id: 'ex-gr-cao-cap-35-7',
+    patternId: 'gr-cao-cap-35',
+    type: 'discriminate',
+    promptVi: 'Đây là điều người nói TỰ MÌNH chứng kiến trực tiếp trong quá khứ (không phải nghe từ người khác kể lại) — chọn cách nói đúng cho "Hôm qua tôi đến đó thì thấy quán đó đông khách lắm đấy."',
+    sentenceKo: '어제 가 보니까 그 가게는 손님이 정말 많___.',
+    options: ['다더라고요', '더라고요', '다더군요', '다던데요'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다더라고요/다더군요/다던데요 đều là dạng TRÍCH DẪN + hồi tưởng, dùng khi người nói nghe điều đó TỪ NGƯỜI KHÁC rồi kể lại; ở đây người nói tự mình trực tiếp đến quán và chứng kiến (không qua nghe ai kể) nên chỉ cần dùng -더라고요 (hồi tưởng trực tiếp, không có phần trích dẫn -다). Ba đáp án còn lại đều thêm "다" trích dẫn, ngụ ý thông tin đến từ người khác — sai với ngữ cảnh tự mình chứng kiến này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-35-8',
+    patternId: 'gr-cao-cap-35',
+    type: 'produce',
+    promptVi: 'Diễn đạt (thân mật, hồi tưởng): Nghe nói dạo này giá thuê nhà ở khu đó đắt lắm đấy.',
+    modelAnswerKo: '요즘 그 동네 집세가 많이 비싸다더라고요.',
+    modelAnswerVi: 'Nghe nói dạo này giá thuê nhà ở khu đó đắt lắm đấy.',
+  },
+  {
+    id: 'ex-gr-cao-cap-35-9',
+    patternId: 'gr-cao-cap-35',
+    type: 'produce',
+    promptVi: 'Diễn đạt (để ngỏ ý phía sau): Nghe bảo công ty đó đang tuyển thêm nhân viên mới đấy.',
+    modelAnswerKo: '그 회사에서 신입 사원을 새로 뽑는다던데요.',
+    modelAnswerVi: 'Nghe bảo công ty đó đang tuyển thêm nhân viên mới đấy.',
+  },
 
   // ── gr-cao-cap-36 · A/V - (느)ㄴ다든가 – A/V - (느)ㄴ다든지 (nào là... nào là..., liệt kê trích dẫn) ──
   {
@@ -2676,6 +2851,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Nào là sẽ ở lại nào là sẽ về, mọi người phải quyết định nhanh lên.',
     modelAnswerKo: '남아 있겠다든가 돌아가겠다든가 빨리 결정해야 해요.',
     modelAnswerVi: 'Nào là sẽ ở lại nào là sẽ về, mọi người phải quyết định nhanh lên.',
+  },
+  {
+    id: 'ex-gr-cao-cap-36-6',
+    patternId: 'gr-cao-cap-36',
+    type: 'fill-blank',
+    promptVi: 'Nào là sẽ mua cái này nào là sẽ mua cái kia, cậu chọn nhanh lên đi (chia động từ 사다 dạng ý chí -겠다든가).',
+    sentenceKo: '이걸 ___ 저걸 사겠다든가 빨리 골라.',
+    answer: '사겠다든가',
+  },
+  {
+    id: 'ex-gr-cao-cap-36-7',
+    patternId: 'gr-cao-cap-36',
+    type: 'discriminate',
+    promptVi: 'Đây là việc thuật lại một quyết định đã được đưa ra trong QUÁ KHỨ (không phải quyết định sắp tới) — chọn cách chia đúng cho động từ 가다 trong "Nào là đã đi rồi nào là chưa đi, họ cứ nói lung tung khiến tôi rối cả lên."',
+    sentenceKo: '벌써 ___ 안 갔다든가 사람들이 제각각 말해서 헷갈려요.',
+    options: ['갔다든가', '간다든가', '가겠다든가', '가다든가'],
+    correctIndex: 0,
+    explanation:
+      '-든가/-든지 dạng trích dẫn có thể chia theo đúng thì của sự việc được thuật lại; ở đây là một quyết định/sự việc đã xảy ra trong QUÁ KHỨ ("đã đi rồi") nên phải chia quá khứ 갔다든가, không dùng hiện tại "간다든가" hay ý chí "가겠다든가" (nghĩa "sẽ đi", sai thì). "가다든가" thiếu đuôi trần thuật, không phải dạng ngữ pháp đúng.',
+  },
+  {
+    id: 'ex-gr-cao-cap-36-8',
+    patternId: 'gr-cao-cap-36',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nào là sẽ nghỉ việc nào là sẽ tiếp tục làm, anh ấy cứ đổi ý liên tục khiến mọi người mệt mỏi.',
+    modelAnswerKo: '회사를 그만두겠다든가 계속 다니겠다든가 그는 계속 마음을 바꿔서 사람들을 지치게 해요.',
+    modelAnswerVi: 'Nào là sẽ nghỉ việc nào là sẽ tiếp tục làm, anh ấy cứ đổi ý liên tục khiến mọi người mệt mỏi.',
+  },
+  {
+    id: 'ex-gr-cao-cap-36-9',
+    patternId: 'gr-cao-cap-36',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nào là thích nào là ghét, cậu phải nói rõ ràng suy nghĩ của mình chứ.',
+    modelAnswerKo: '좋다든지 싫다든지 네 생각을 분명하게 말해야지.',
+    modelAnswerVi: 'Nào là thích nào là ghét, cậu phải nói rõ ràng suy nghĩ của mình chứ.',
   },
 
   // ── gr-cao-cap-37 · A/V - (느)ㄴ다손 치더라도 (dù có... đi nữa thì cũng..., nhận định trích dẫn) ──
@@ -2722,6 +2932,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '아무리 오래 기다린다손 치더라도 네가 올 때까지 기다릴게.',
     modelAnswerVi: 'Dù có phải đợi lâu đi nữa thì tôi cũng sẽ chờ cho đến khi cậu đến.',
   },
+  {
+    id: 'ex-gr-cao-cap-37-6',
+    patternId: 'gr-cao-cap-37',
+    type: 'fill-blank',
+    promptVi: 'Dù có xin lỗi cả trăm lần đi nữa (chia động từ 사과하다, dạng trích dẫn nhượng bộ, đi cùng 아무리) thì tôi cũng khó mà tha thứ ngay được.',
+    sentenceKo: '아무리 백 번 ___ 저는 바로 용서하기 어려워요.',
+    answer: '사과한다손 치더라도',
+  },
+  {
+    id: 'ex-gr-cao-cap-37-7',
+    patternId: 'gr-cao-cap-37',
+    type: 'discriminate',
+    promptVi: 'Đây là tin nhắn trò chuyện suồng sã giữa bạn bè (không phải văn nói trang trọng/tranh luận) — chọn cách nói tự nhiên hơn cho "Dù cậu có xin lỗi đi nữa thì tớ cũng không nguôi giận đâu."',
+    sentenceKo: '아무리 ___ 나 화 안 풀려.',
+    options: ['사과한다손 치더라도', '사과해도', '사과하다손 치더라도', '사과하느니만치'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다손 치더라도 mang sắc thái trang trọng của lời nhận định/tranh luận, không phù hợp với tin nhắn suồng sã giữa bạn bè — nên dùng -아/어도 tự nhiên hơn nhiều. "사과하다손 치더라도" chia sai vì 사과하다 là động từ nên phải thêm -ㄴ다 (사과한다손), không giữ nguyên -다; "-느니만치" mang nghĩa lấy sự thật làm căn cứ, hoàn toàn khác nghĩa nhượng bộ ở đây.',
+  },
+  {
+    id: 'ex-gr-cao-cap-37-8',
+    patternId: 'gr-cao-cap-37',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù có phải quỳ xuống van xin đi nữa thì tôi cũng sẽ không thay đổi quyết định.',
+    modelAnswerKo: '아무리 무릎을 꿇고 빈다손 치더라도 제 결정은 바뀌지 않을 거예요.',
+    modelAnswerVi: 'Dù có phải quỳ xuống van xin đi nữa thì tôi cũng sẽ không thay đổi quyết định.',
+  },
+  {
+    id: 'ex-gr-cao-cap-37-9',
+    patternId: 'gr-cao-cap-37',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù giá cả có rẻ đến mấy đi nữa thì chất lượng kém cũng chẳng đáng để mua.',
+    modelAnswerKo: '아무리 가격이 싸다손 치더라도 품질이 나쁘면 살 가치가 없어요.',
+    modelAnswerVi: 'Dù giá cả có rẻ đến mấy đi nữa thì chất lượng kém cũng chẳng đáng để mua.',
+  },
 
   // ── gr-cao-cap-38 · A/V - (느)ㄴ다지 뭐예요? (bảo là... cái gì cơ — ngạc nhiên/không hài lòng) ──
   {
@@ -2767,6 +3012,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '제 몫까지 다 먹었다지 뭐예요?',
     modelAnswerVi: 'Bảo là đã ăn hết phần của tôi rồi cơ đấy, thật không thể tin nổi.',
   },
+  {
+    id: 'ex-gr-cao-cap-38-6',
+    patternId: 'gr-cao-cap-38',
+    type: 'fill-blank',
+    promptVi: 'Bảo là đã hủy chuyến bay rồi cơ đấy, thật không thể tin nổi (chia cụm 취소되다 ở thì quá khứ, dạng trích dẫn ngạc nhiên -다지 뭐예요?).',
+    sentenceKo: '비행기가 갑자기 ___?',
+    answer: '취소됐다지 뭐예요',
+  },
+  {
+    id: 'ex-gr-cao-cap-38-7',
+    patternId: 'gr-cao-cap-38',
+    type: 'discriminate',
+    promptVi: 'Đây là câu CẢM THÁN độc thoại (không hỏi lại người nghe bằng "뭐예요?") — chọn cách nói tự nhiên hơn cho "Trời ơi, nghe bảo giá nhà lại tăng nữa rồi!"',
+    sentenceKo: '아이고, 집값이 또 ___!',
+    options: ['오른다지 뭐예요', '오르다니', '오른다거늘', '오른다건만'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다지 뭐예요? luôn có dạng câu hỏi (kết thúc bằng 뭐예요?) hướng đến người nghe, thể hiện ngạc nhiên/không hài lòng khi kể lại điều vừa nghe; ở đây câu chỉ là lời CẢM THÁN độc thoại, không hỏi ai nên dùng -다니 (cảm thán ngạc nhiên, không cần đối tượng nghe) tự nhiên hơn. "-다거늘"/"-다건만" đều là cấu trúc trích dẫn tương phản, không mang sắc thái cảm thán ngạc nhiên này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-38-8',
+    patternId: 'gr-cao-cap-38',
+    type: 'produce',
+    promptVi: 'Diễn đạt (ngạc nhiên, không hài lòng): Bảo là đã ăn trộm đồ của bạn cùng lớp cơ đấy, thật không ngờ được.',
+    modelAnswerKo: '반 친구 물건을 훔쳤다지 뭐예요?',
+    modelAnswerVi: 'Bảo là đã ăn trộm đồ của bạn cùng lớp cơ đấy, thật không ngờ được.',
+  },
+  {
+    id: 'ex-gr-cao-cap-38-9',
+    patternId: 'gr-cao-cap-38',
+    type: 'produce',
+    promptVi: 'Diễn đạt (ngạc nhiên, không hài lòng): Bảo là đã quên mất sinh nhật của chính vợ mình cơ đấy, thật là quá đáng.',
+    modelAnswerKo: '자기 아내 생일을 깜빡 잊어버렸다지 뭐예요?',
+    modelAnswerVi: 'Bảo là đã quên mất sinh nhật của chính vợ mình cơ đấy, thật là quá đáng.',
+  },
 
   // ── gr-cao-cap-39 · A/V - (으)ㅁ (danh từ hóa, văn phong trung tính thông báo) ──
   {
@@ -2811,6 +3091,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (văn phong thông báo, trung tính): Xin thông báo rằng cuộc họp ngày mai đã bị hoãn lại.',
     modelAnswerKo: '내일 회의가 연기되었음을 알려 드립니다.',
     modelAnswerVi: 'Xin thông báo rằng cuộc họp ngày mai đã bị hoãn lại.',
+  },
+  {
+    id: 'ex-gr-cao-cap-39-6',
+    patternId: 'gr-cao-cap-39',
+    type: 'fill-blank',
+    promptVi: 'Xin thông báo rằng buổi hội thảo đã kết thúc thành công tốt đẹp (danh từ hóa cụm 끝나다 ở thì quá khứ bằng -음, kèm trợ từ 을).',
+    sentenceKo: '이번 세미나가 성공적으로 ___ 알려 드립니다.',
+    answer: '끝났음을',
+  },
+  {
+    id: 'ex-gr-cao-cap-39-7',
+    patternId: 'gr-cao-cap-39',
+    type: 'discriminate',
+    promptVi: 'Tính từ 기쁘다 (vui mừng) khi danh từ hóa bằng -(으)ㅁ đã trở thành một từ vựng cố định — chọn dạng đúng cho "Niềm vui khi gặp lại bạn cũ thật khó diễn tả."',
+    sentenceKo: '오랜만에 친구를 만난 ___은 말로 표현하기 어려워요.',
+    options: ['기쁨', '기쁘음', '기쁨음', '기뻐함'],
+    correctIndex: 0,
+    explanation:
+      '기쁘다 (nguyên âm cuối 으) khi danh từ hóa chỉ cần thêm ㅁ trực tiếp vào thân từ đã lược 으 → 기쁨 (từ vựng cố định, không phải "기쁘음"/"기쁨음" vốn thêm âm tiết thừa). "기뻐함" là danh từ hóa từ -아/어하다 (biểu lộ cảm xúc ra ngoài), mang sắc thái khác, không phải danh từ hóa trực tiếp bằng -(으)ㅁ.',
+  },
+  {
+    id: 'ex-gr-cao-cap-39-8',
+    patternId: 'gr-cao-cap-39',
+    type: 'produce',
+    promptVi: 'Diễn đạt (văn phong thông báo, trung tính): Xin lưu ý rằng sản phẩm này có thể gây dị ứng ở một số người.',
+    modelAnswerKo: '이 제품은 일부 사람들에게 알레르기를 일으킬 수 있음을 유의하시기 바랍니다.',
+    modelAnswerVi: 'Xin lưu ý rằng sản phẩm này có thể gây dị ứng ở một số người.',
+  },
+  {
+    id: 'ex-gr-cao-cap-39-9',
+    patternId: 'gr-cao-cap-39',
+    type: 'produce',
+    promptVi: 'Diễn đạt (văn phong thông báo, trung tính): Chúng tôi xin thông báo rằng buổi biểu diễn ngày mai sẽ bắt đầu lúc 7 giờ tối.',
+    modelAnswerKo: '내일 공연이 저녁 7시에 시작됨을 알려 드립니다.',
+    modelAnswerVi: 'Chúng tôi xin thông báo rằng buổi biểu diễn ngày mai sẽ bắt đầu lúc 7 giờ tối.',
   },
 
   // ── gr-cao-cap-40 · V - 는 데(에)(는) (đối với việc, cho việc... — thay cho -는 것/일/경우/상황) ──
@@ -2858,6 +3173,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '살을 빼는 데(에)는 엄격한 다이어트보다 꾸준한 운동이 더 도움이 돼요.',
     modelAnswerVi: 'Đối với việc giảm cân thì tập thể dục đều đặn có ích hơn là ăn kiêng nghiêm ngặt.',
   },
+  {
+    id: 'ex-gr-cao-cap-40-6',
+    patternId: 'gr-cao-cap-40',
+    type: 'fill-blank',
+    promptVi: 'Đối với việc nuôi dạy con cái (chia động từ 키우다) thì tình yêu thương quan trọng hơn tiền bạc.',
+    sentenceKo: '아이를 ___ 돈보다 사랑이 더 중요해요.',
+    answer: '키우는 데(에)',
+  },
+  {
+    id: 'ex-gr-cao-cap-40-7',
+    patternId: 'gr-cao-cap-40',
+    type: 'discriminate',
+    promptVi: 'Đây là câu nêu MỤC ĐÍCH hành động của chính chủ ngữ (không phải đánh giá hiệu quả/mức độ cần thiết của một việc) — chọn cách nói phù hợp hơn cho "Để giảm cân, tôi tập thể dục mỗi ngày."',
+    sentenceKo: '살을 ___ 저는 매일 운동을 해요.',
+    options: ['빼는 데(에)', '빼기 위해서', '빼는데', '뺀 데(에)'],
+    correctIndex: 1,
+    explanation:
+      '-는 데(에) chủ yếu đi cùng các cụm đánh giá hiệu quả/mức độ cần thiết như 도움이 되다, 필요하다...; khi câu nêu rõ MỤC ĐÍCH hành động của chủ ngữ (tôi tập thể dục ĐỂ giảm cân) thì nên dùng -기 위해서 tự nhiên và rõ nghĩa hơn. "-는데" (viết liền) mang nghĩa "nhưng, trong khi", hoàn toàn khác nghĩa; "뺀 데(에)" chia sai thì (quá khứ không phù hợp vì đây là việc đang/sẽ làm liên tục).',
+  },
+  {
+    id: 'ex-gr-cao-cap-40-8',
+    patternId: 'gr-cao-cap-40',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đối với việc học một ngoại ngữ mới thì việc nói chuyện với người bản xứ rất có ích.',
+    modelAnswerKo: '새로운 외국어를 배우는 데(에)는 원어민과 대화하는 것이 많이 도움이 돼요.',
+    modelAnswerVi: 'Đối với việc học một ngoại ngữ mới thì việc nói chuyện với người bản xứ rất có ích.',
+  },
+  {
+    id: 'ex-gr-cao-cap-40-9',
+    patternId: 'gr-cao-cap-40',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Đối với việc thuyết phục khách hàng thì sự chân thành quan trọng hơn kỹ năng nói.',
+    modelAnswerKo: '고객을 설득하는 데(에)는 말솜씨보다 진심이 더 중요해요.',
+    modelAnswerVi: 'Đối với việc thuyết phục khách hàng thì sự chân thành quan trọng hơn kỹ năng nói.',
+  },
 
   // ── gr-cao-cap-41 · - 는 바 (điều mà, việc mà — danh từ hóa mang nghĩa gần giống 것, 일) ──
   {
@@ -2902,6 +3252,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt (trang trọng, như trong báo cáo): Theo như đã điều tra, phần lớn người tiêu dùng đều hài lòng với sản phẩm này.',
     modelAnswerKo: '조사한 바에 따르면 대부분의 소비자들이 이 제품에 만족하고 있다.',
     modelAnswerVi: 'Theo như đã điều tra, phần lớn người tiêu dùng đều hài lòng với sản phẩm này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-41-6',
+    patternId: 'gr-cao-cap-41',
+    type: 'fill-blank',
+    promptVi: 'Đúng như tôi đã nói ở trên (chia động từ 말하다 ở thì quá khứ, kết hợp -는 바와 같이), vấn đề này cần được giải quyết ngay lập tức.',
+    sentenceKo: '제가 위에서 ___와 같이 이 문제는 당장 해결되어야 한다.',
+    answer: '말한 바',
+  },
+  {
+    id: 'ex-gr-cao-cap-41-7',
+    patternId: 'gr-cao-cap-41',
+    type: 'discriminate',
+    promptVi: 'Trước "에 따르면" là một danh từ chỉ NGUỒN TIN cụ thể (기상청 - cơ quan khí tượng), không phải một mệnh đề động từ — chọn cách nói đúng cho "Theo như cơ quan khí tượng cho biết, ngày mai trời sẽ mưa."',
+    sentenceKo: '___ 내일 비가 온다고 한다.',
+    options: ['기상청에 따르면', '기상청인 바에 따르면', '기상청하는 바에 따르면', '기상청는 바에 따르면'],
+    correctIndex: 0,
+    explanation:
+      '-는 바에 따르면 chỉ dùng sau một MỆNH ĐỀ ĐỘNG TỪ/TÍNH TỪ (như 조사한 바에 따르면, 발표한 바에 따르면); khi đứng sau một danh từ chỉ nguồn tin cụ thể (기상청) chỉ cần dùng trực tiếp N + 에 따르면, không cần chèn thêm 바. Các phương án còn lại đều gắn "바" sai ngữ pháp vào sau danh từ.',
+  },
+  {
+    id: 'ex-gr-cao-cap-41-8',
+    patternId: 'gr-cao-cap-41',
+    type: 'produce',
+    promptVi: 'Diễn đạt (trang trọng): Theo như tôi đã trình bày, ngân sách của dự án này cần được tăng thêm.',
+    modelAnswerKo: '제가 말씀드린 바와 같이 이 프로젝트의 예산은 늘어나야 합니다.',
+    modelAnswerVi: 'Theo như tôi đã trình bày, ngân sách của dự án này cần được tăng thêm.',
+  },
+  {
+    id: 'ex-gr-cao-cap-41-9',
+    patternId: 'gr-cao-cap-41',
+    type: 'produce',
+    promptVi: 'Diễn đạt (trang trọng, như trong báo cáo): Theo như đã xác nhận, không có vấn đề gì về an toàn của sản phẩm này.',
+    modelAnswerKo: '확인한 바에 따르면 이 제품의 안전성에는 문제가 없다.',
+    modelAnswerVi: 'Theo như đã xác nhận, không có vấn đề gì về an toàn của sản phẩm này.',
   },
 
   // ── gr-cao-cap-42 · A/V - 더라도 (dù, dù rằng... — vế sau hoàn toàn không phụ thuộc vào vế trước) ──
@@ -2948,6 +3333,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '지금 늦게 시작하더라도 우리는 제시간에 끝낼 수 있을 거라고 믿어요.',
     modelAnswerVi: 'Dù bây giờ có bắt đầu muộn đi nữa thì tôi tin chúng ta vẫn có thể hoàn thành đúng hạn.',
   },
+  {
+    id: 'ex-gr-cao-cap-42-6',
+    patternId: 'gr-cao-cap-42',
+    type: 'fill-blank',
+    promptVi: 'Dù có phải chờ đợi lâu đi nữa (chia động từ 기다리다) thì tôi vẫn muốn gặp cậu ấy.',
+    sentenceKo: '오래 ___ 저는 그를 만나고 싶어요.',
+    answer: '기다리더라도',
+  },
+  {
+    id: 'ex-gr-cao-cap-42-7',
+    patternId: 'gr-cao-cap-42',
+    type: 'discriminate',
+    promptVi: 'Đây là một sự thật đang diễn ra ngay bây giờ (không phải giả định cho tương lai) — chọn cách nói tự nhiên hơn cho "Dù đang mệt thế này, tôi vẫn phải hoàn thành công việc."',
+    sentenceKo: '지금 이렇게 ___ 저는 일을 끝내야 해요.',
+    options: ['피곤하더라도', '피곤해도', '피곤한들', '피곤하다손 치더라도'],
+    correctIndex: 1,
+    explanation:
+      '-더라도 thiên về giả định cho một tình huống trong tương lai hoặc ít chắc chắn hơn; khi nói về một sự thật ĐANG diễn ra ngay lúc nói (đang mệt ngay bây giờ) thì dùng -아/어도 tự nhiên hơn. "-ㄴ들" đòi hỏi kết quả vế sau trái mong đợi/thất bại, "-다손 치더라도" mang tính trích dẫn trang trọng, cả hai đều không hợp câu đơn giản, tức thời này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-42-8',
+    patternId: 'gr-cao-cap-42',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù kết quả có ra sao đi nữa thì tôi cũng không hối hận vì đã cố gắng hết sức.',
+    modelAnswerKo: '결과가 어떻더라도 최선을 다한 것을 후회하지 않아요.',
+    modelAnswerVi: 'Dù kết quả có ra sao đi nữa thì tôi cũng không hối hận vì đã cố gắng hết sức.',
+  },
+  {
+    id: 'ex-gr-cao-cap-42-9',
+    patternId: 'gr-cao-cap-42',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù trời có lạnh đến đâu đi nữa thì buổi lễ khai giảng vẫn sẽ được tổ chức ngoài trời như dự kiến.',
+    modelAnswerKo: '아무리 날씨가 춥더라도 입학식은 예정대로 야외에서 열릴 거예요.',
+    modelAnswerVi: 'Dù trời có lạnh đến đâu đi nữa thì buổi lễ khai giảng vẫn sẽ được tổ chức ngoài trời như dự kiến.',
+  },
 
   // ── gr-cao-cap-43 · A/V - 다손 치더라도 (cho dù... đi nữa thì..., cùng gốc với -(느)ㄴ다손 치더라도) ──
   {
@@ -2992,6 +3412,42 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Dù có phải xin lỗi cả trăm lần đi nữa thì tôi cũng sẽ làm, miễn là cậu tha thứ cho tôi.',
     modelAnswerKo: '아무리 백 번 사과한다손 치더라도 네가 용서해 준다면 다 할게.',
     modelAnswerVi: 'Dù có phải xin lỗi cả trăm lần đi nữa thì tôi cũng sẽ làm, miễn là cậu tha thứ cho tôi.',
+  },
+  {
+    id: 'ex-gr-cao-cap-43-6',
+    patternId: 'gr-cao-cap-43',
+    type: 'fill-blank',
+    promptVi: 'Dù trời có tối đến mấy đi nữa (chia tính từ 어둡다, đi cùng 아무리) thì tôi vẫn nhận ra được khuôn mặt cậu ấy.',
+    sentenceKo: '아무리 ___ 저는 그의 얼굴을 알아볼 수 있어요.',
+    answer: '어둡다손 치더라도',
+    hintVi: '어둡다 là tính từ nên giữ nguyên dạng cơ bản -다 khi gắn với 손 치더라도 (không chia theo quy tắc bất quy tắc ㅂ ở đây vì -다 gắn trực tiếp): 어둡다 + 손 치더라도 = 어둡다손 치더라도.',
+  },
+  {
+    id: 'ex-gr-cao-cap-43-7',
+    patternId: 'gr-cao-cap-43',
+    type: 'discriminate',
+    promptVi: 'Chọn cách chia đúng cho động từ 웃다 (cười) khi dùng trong cấu trúc trích dẫn nhượng bộ với 아무리 trong câu "Dù có cười đi nữa thì nỗi đau trong lòng cũng không biến mất."',
+    sentenceKo: '아무리 겉으로 ___ 마음속 아픔은 사라지지 않아요.',
+    options: ['웃는다손 치더라도', '웃다손 치더라도', '웃은다손 치더라도', '웃겠다손 치더라도'],
+    correctIndex: 0,
+    explanation:
+      '웃다 là ĐỘNG TỪ có phụ âm cuối nên phải thêm -는다 trước 손 치더라도 → 웃는다손 치더라도, không giữ nguyên -다 như tính từ ("웃다손" sai); "웃은다손" chia nhầm sang đuôi không tồn tại ở dạng này, "웃겠다손" thêm ý chí/dự đoán không cần thiết trong ngữ cảnh này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-43-8',
+    patternId: 'gr-cao-cap-43',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù bây giờ có giàu có đến mấy đi nữa thì tôi cũng sẽ không quên những ngày tháng khó khăn đã qua.',
+    modelAnswerKo: '아무리 지금 부유하다손 치더라도 저는 힘들었던 지난날을 잊지 않을 거예요.',
+    modelAnswerVi: 'Dù bây giờ có giàu có đến mấy đi nữa thì tôi cũng sẽ không quên những ngày tháng khó khăn đã qua.',
+  },
+  {
+    id: 'ex-gr-cao-cap-43-9',
+    patternId: 'gr-cao-cap-43',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù có phải làm việc đến khuya đi nữa thì tôi cũng sẽ hoàn thành báo cáo này trước khi về.',
+    modelAnswerKo: '아무리 밤늦게까지 일한다손 치더라도 이 보고서는 끝내고 갈 거예요.',
+    modelAnswerVi: 'Dù có phải làm việc đến khuya đi nữa thì tôi cũng sẽ hoàn thành báo cáo này trước khi về.',
   },
 
   // ── gr-cao-cap-44 · A/V - (으)ㄹ지라도 (cho dù... — nhượng bộ mạnh hơn -아/어도) ──
@@ -3038,6 +3494,42 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '몸은 작을지라도 그의 의지는 매우 강해요.',
     modelAnswerVi: 'Dù thân hình nhỏ bé đi nữa nhưng ý chí của anh ấy vô cùng mạnh mẽ.',
   },
+  {
+    id: 'ex-gr-cao-cap-44-6',
+    patternId: 'gr-cao-cap-44',
+    type: 'fill-blank',
+    promptVi: 'Dù ước mơ đó có xa vời đến mấy đi nữa (chia tính từ 멀다, đi cùng 비록) thì tôi vẫn sẽ không từ bỏ.',
+    sentenceKo: '비록 꿈이 ___ 저는 포기하지 않을 거예요.',
+    answer: '멀지라도',
+    hintVi: '멀다 có 받침 ㄹ: trước đuôi bắt đầu bằng phụ âm ㅈ (지라도), ㄹ vẫn giữ nguyên → 멀 + 지라도 = 멀지라도.',
+  },
+  {
+    id: 'ex-gr-cao-cap-44-7',
+    patternId: 'gr-cao-cap-44',
+    type: 'discriminate',
+    promptVi: 'Vế sau ở đây là một kết quả TÍCH CỰC/TRUNG TÍNH (không phải kết quả thất bại, trái mong đợi) — vì -(으)ㄴ들 luôn đòi hỏi vế sau mang tính phủ định/thất bại nên không phù hợp, chọn cách nói đúng cho "Dù tuổi tác có còn trẻ thì suy nghĩ của cậu ấy vẫn rất chín chắn."',
+    sentenceKo: '나이가 어___ 그의 생각은 아주 성숙해요.',
+    options: ['릴지라도', '린들', '리다손 치더라도', '리느니만치'],
+    correctIndex: 0,
+    explanation:
+      '-(으)ㄴ들 luôn yêu cầu vế sau mang kết quả trái với mong đợi/thất bại; ở đây vế sau "suy nghĩ chín chắn" là một điều TÍCH CỰC, không trái ngược nên -(으)ㄴ들 không phù hợp, phải dùng -(으)ㄹ지라도 (trung tính, chỉ đơn thuần nhượng bộ). "-다손 치더라도" là dạng trích dẫn cho câu chưa được chia đúng thành -ㄴ다, "-느니만치" mang nghĩa lấy sự thật làm căn cứ, hoàn toàn khác nghĩa.',
+  },
+  {
+    id: 'ex-gr-cao-cap-44-8',
+    patternId: 'gr-cao-cap-44',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù ngoại hình có bình thường đi nữa thì tài năng của cô ấy vẫn khiến mọi người phải ngưỡng mộ.',
+    modelAnswerKo: '외모는 평범할지라도 그녀의 재능은 모두를 감탄하게 해요.',
+    modelAnswerVi: 'Dù ngoại hình có bình thường đi nữa thì tài năng của cô ấy vẫn khiến mọi người phải ngưỡng mộ.',
+  },
+  {
+    id: 'ex-gr-cao-cap-44-9',
+    patternId: 'gr-cao-cap-44',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù con đường phía trước có gian nan đi nữa thì chúng tôi vẫn sẽ tiếp tục tiến bước.',
+    modelAnswerKo: '앞길이 험난할지라도 우리는 계속 나아갈 거예요.',
+    modelAnswerVi: 'Dù con đường phía trước có gian nan đi nữa thì chúng tôi vẫn sẽ tiếp tục tiến bước.',
+  },
 
   // ── gr-cao-cap-45 · A/V - (으)ㄴ들 (cứ cho là... thì... — kết quả vế sau vẫn khác dự kiến) ──
   {
@@ -3082,6 +3574,42 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Cứ cho là có được điều trị ở bệnh viện tốt nhất đi nữa thì nếu không giữ gìn sức khỏe cũng khó mà khỏe lại được.',
     modelAnswerKo: '아무리 좋은 병원에서 치료를 받은들 건강을 챙기지 않으면 낫기 힘들어요.',
     modelAnswerVi: 'Cứ cho là có được điều trị ở bệnh viện tốt nhất đi nữa thì nếu không giữ gìn sức khỏe cũng khó mà khỏe lại được.',
+  },
+  {
+    id: 'ex-gr-cao-cap-45-6',
+    patternId: 'gr-cao-cap-45',
+    type: 'fill-blank',
+    promptVi: 'Cứ cho là có xây thêm nhiều nhà đi nữa (chia động từ 짓다, bất quy tắc ㅅ) thì nếu giá đất không giảm cũng chẳng ích gì.',
+    sentenceKo: '집을 아무리 많이 ___ 땅값이 안 내리면 소용없어요.',
+    answer: '지은들',
+    hintVi: '짓다 là động từ bất quy tắc ㅅ: trước đuôi bắt đầu bằng nguyên âm (은들), ㅅ bị lược bỏ → 지 + 은들 = 지은들.',
+  },
+  {
+    id: 'ex-gr-cao-cap-45-7',
+    patternId: 'gr-cao-cap-45',
+    type: 'discriminate',
+    promptVi: 'Đây là hội thoại suồng sã giữa bạn bè (không phải văn viết mang tính tu từ) — chọn cách nói tự nhiên hơn cho "Cứ cho là có giải thích đi nữa thì cậu ấy cũng chẳng nghe đâu."',
+    sentenceKo: '아무리 ___ 걔는 안 들을 거야.',
+    options: ['설명한들', '설명해 봤자', '설명할지라도', '설명하느니만치'],
+    correctIndex: 1,
+    explanation:
+      '-(으)ㄴ들 mang tính văn viết, tu từ, thường xuất hiện trong câu hỏi tu từ trang trọng; trong hội thoại suồng sã đời thường nên dùng -아/어 봤자 (cũng mang nghĩa "vô ích" nhưng khẩu ngữ, trực tiếp hơn). "-ㄹ지라도" trung tính, không nhấn mạnh được sắc thái "vô ích" đặc trưng; "-느니만치" mang nghĩa lấy sự thật làm căn cứ, hoàn toàn khác nghĩa.',
+  },
+  {
+    id: 'ex-gr-cao-cap-45-8',
+    patternId: 'gr-cao-cap-45',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ cho là có xin lỗi hàng trăm lần đi nữa thì vết thương lòng cũng đâu dễ gì lành lại.',
+    modelAnswerKo: '아무리 수백 번 사과한들 마음의 상처가 쉽게 아물까요?',
+    modelAnswerVi: 'Cứ cho là có xin lỗi hàng trăm lần đi nữa thì vết thương lòng cũng đâu dễ gì lành lại.',
+  },
+  {
+    id: 'ex-gr-cao-cap-45-9',
+    patternId: 'gr-cao-cap-45',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ cho là có thông minh đến mấy đi nữa thì nếu không nỗ lực cũng khó mà thành công được.',
+    modelAnswerKo: '아무리 똑똑한들 노력하지 않으면 성공하기 어려워요.',
+    modelAnswerVi: 'Cứ cho là có thông minh đến mấy đi nữa thì nếu không nỗ lực cũng khó mà thành công được.',
   },
 
   // ── gr-cao-cap-46 · A/V - (으)ㄹ 망정 (cho dù... nhưng... — sự thật vế sau khác hẳn suy nghĩ thông thường) ──
@@ -3128,6 +3656,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '밤을 새울망정 이 프로젝트는 기한 안에 끝내겠어요.',
     modelAnswerVi: 'Cho dù có phải làm việc thâu đêm đi nữa thì tôi cũng sẽ hoàn thành dự án này đúng hạn.',
   },
+  {
+    id: 'ex-gr-cao-cap-46-6',
+    patternId: 'gr-cao-cap-46',
+    type: 'fill-blank',
+    promptVi: 'Cho dù có phải sống lang thang đầu đường xó chợ đi nữa (chia cụm 거리에서 떠돌다, tình huống cực đoan) thì tôi cũng sẽ không quay về căn nhà đó.',
+    sentenceKo: '거리에서 ___ 그 집으로는 돌아가지 않겠어요.',
+    answer: '떠돌망정',
+  },
+  {
+    id: 'ex-gr-cao-cap-46-7',
+    patternId: 'gr-cao-cap-46',
+    type: 'discriminate',
+    promptVi: 'Cấu trúc -(으)ㄹ 망정 thường đi kèm phó từ nào ở vế sau để nhấn mạnh "thà rằng chọn kết quả này còn hơn"?',
+    sentenceKo: '굶을망정 ___ 자존심은 지키겠어요.',
+    options: ['차라리', '아무리', '워낙', '어차피'],
+    correctIndex: 0,
+    explanation:
+      '-(으)ㄹ 망정 thường đi kèm phó từ "차라리" (thà rằng) ở vế sau để nhấn mạnh quyết tâm chọn giữ vững điều gì đó dù tình huống vế trước có cực đoan đến đâu; "아무리" đi cùng nhóm cấu trúc nhượng bộ khác như -더라도/-ㄴ들/-ㄹ지언정 (đặt ở vế trước), "워낙"/"어차피" không mang nghĩa liên quan đến sắc thái quyết tâm này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-46-8',
+    patternId: 'gr-cao-cap-46',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cho dù có phải bị người khác cười chê đi nữa thì tôi cũng sẽ mặc bộ trang phục mà mình thích.',
+    modelAnswerKo: '남들에게 비웃음을 살망정 저는 제가 좋아하는 옷을 입겠어요.',
+    modelAnswerVi: 'Cho dù có phải bị người khác cười chê đi nữa thì tôi cũng sẽ mặc bộ trang phục mà mình thích.',
+  },
+  {
+    id: 'ex-gr-cao-cap-46-9',
+    patternId: 'gr-cao-cap-46',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cho dù có phải chịu thiệt thòi đi nữa thì tôi cũng sẽ không lừa dối khách hàng của mình.',
+    modelAnswerKo: '손해를 볼망정 저는 제 고객을 속이지 않겠어요.',
+    modelAnswerVi: 'Cho dù có phải chịu thiệt thòi đi nữa thì tôi cũng sẽ không lừa dối khách hàng của mình.',
+  },
 
   // ── gr-cao-cap-47 · A/V - (느)ㄴ다고 치다 (cứ cho là... — thừa nhận tạm thời một hoàn cảnh giả định) ──
   {
@@ -3172,6 +3735,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Cứ coi như tôi chưa nói gì cả và cậu hãy quyết định theo ý mình đi.',
     modelAnswerKo: '제가 아무 말도 안 했다고 치고 원하는 대로 결정하세요.',
     modelAnswerVi: 'Cứ coi như tôi chưa nói gì cả và cậu hãy quyết định theo ý mình đi.',
+  },
+  {
+    id: 'ex-gr-cao-cap-47-6',
+    patternId: 'gr-cao-cap-47',
+    type: 'fill-blank',
+    promptVi: 'Cứ coi như là chúng ta chưa từng gặp nhau (chia cụm 못 만나다 ở thì quá khứ, dạng giả định tạm thời -다고 치다) và bắt đầu lại từ đầu đi.',
+    sentenceKo: '우리 서로 ___ 처음부터 다시 시작해요.',
+    answer: '못 만났다고 치고',
+  },
+  {
+    id: 'ex-gr-cao-cap-47-7',
+    patternId: 'gr-cao-cap-47',
+    type: 'discriminate',
+    promptVi: 'Đây là một giả định ĐIỀU KIỆN thông thường để suy luận ra kết quả (không phải "tạm coi là đúng" để tiếp tục bàn luận/khuyên nhủ) — chọn cách nói phù hợp hơn cho "Nếu là tôi thì tôi đã từ chối lời đề nghị đó rồi."',
+    sentenceKo: '제가 ___ 그 제안을 거절했을 거예요.',
+    options: ['이라고 치면', '이라면', '인 셈 치고', '인다고 치고'],
+    correctIndex: 1,
+    explanation:
+      '-(느)ㄴ다고 치다 mang tính giả định TẠM THỜI để tiếp tục bàn luận/khuyên nhủ (thường đi cùng đề xuất ở vế sau); ở đây câu chỉ là một giả định ĐIỀU KIỆN thông thường ("nếu là tôi") để suy luận ra hành động giả tưởng, nên dùng -(이)라면 tự nhiên hơn. "인 셈 치고" mang nghĩa coi một kết quả tương đương việc khác, "인다고 치고" chia sai (danh từ + 이다 cần thêm 라 trước 고 치다: 이라고 치고), cả hai đều không phù hợp.',
+  },
+  {
+    id: 'ex-gr-cao-cap-47-8',
+    patternId: 'gr-cao-cap-47',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ coi như hôm nay là ngày cuối cùng của kỳ nghỉ và hãy tận hưởng thật trọn vẹn.',
+    modelAnswerKo: '오늘이 휴가의 마지막 날이라고 치고 마음껏 즐기세요.',
+    modelAnswerVi: 'Cứ coi như hôm nay là ngày cuối cùng của kỳ nghỉ và hãy tận hưởng thật trọn vẹn.',
+  },
+  {
+    id: 'ex-gr-cao-cap-47-9',
+    patternId: 'gr-cao-cap-47',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ coi như tôi chưa từng thấy tin nhắn đó và cậu hãy giải thích lại từ đầu cho tôi nghe.',
+    modelAnswerKo: '제가 그 문자를 못 봤다고 치고 처음부터 다시 설명해 주세요.',
+    modelAnswerVi: 'Cứ coi như tôi chưa từng thấy tin nhắn đó và cậu hãy giải thích lại từ đầu cho tôi nghe.',
   },
 
   // ── gr-cao-cap-48 · V - 는 셈 치다 (cứ coi như là, xem như là... — giả định vế trước làm tiền đề) ──
@@ -3218,6 +3816,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '그 돈은 기부한 셈 치고 더 이상 아까워하지 마세요.',
     modelAnswerVi: 'Cứ coi như số tiền đó đã được quyên góp và đừng tiếc nuối nữa.',
   },
+  {
+    id: 'ex-gr-cao-cap-48-6',
+    patternId: 'gr-cao-cap-48',
+    type: 'fill-blank',
+    promptVi: 'Cứ coi như số tiền đó đã trả học phí (chia cụm 학비를 내다 ở thì quá khứ, dạng -는 셈 치다) và đừng nuối tiếc nữa.',
+    sentenceKo: '그 돈은 ___ 더 이상 아쉬워하지 마세요.',
+    answer: '학비를 낸 셈 치고',
+  },
+  {
+    id: 'ex-gr-cao-cap-48-7',
+    patternId: 'gr-cao-cap-48',
+    type: 'discriminate',
+    promptVi: 'Đây là một ĐÁNH GIÁ khách quan về việc đã gần như hoàn thành (không phải chủ động giả định để tự thuyết phục chấp nhận một điều chưa xảy ra) — chọn cách nói phù hợp hơn cho "Bài báo cáo chỉ còn thiếu phần kết luận nên coi như đã xong rồi."',
+    sentenceKo: '결론 부분만 빼면 보고서는 다 ___.',
+    options: ['끝낸 셈 치고', '끝난 셈이다', '끝나는 셈 치고', '끝냈다고 치고'],
+    correctIndex: 1,
+    explanation:
+      '-는 셈 치다 mang tính CHỦ ĐỘNG giả định một điều để tự thuyết phục bản thân chấp nhận; còn -는 셈이다 dùng để ĐÁNH GIÁ khách quan rằng thực trạng gần như đã đạt tới một kết quả nào đó (ở đây báo cáo thực tế gần như đã xong) — không mang tính chủ động "coi như" mà là nhận định thực tế. "끝나는 셈 치고"/"끝냈다고 치고" đều sai vì dùng nhầm cấu trúc giả định chủ động cho một tình huống chỉ cần đánh giá khách quan.',
+  },
+  {
+    id: 'ex-gr-cao-cap-48-8',
+    patternId: 'gr-cao-cap-48',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ coi như chuyến đi đó là một trải nghiệm học hỏi và đừng tiếc tiền bạc đã bỏ ra.',
+    modelAnswerKo: '그 여행은 배움을 얻은 셈 치고 쓴 돈을 아까워하지 마세요.',
+    modelAnswerVi: 'Cứ coi như chuyến đi đó là một trải nghiệm học hỏi và đừng tiếc tiền bạc đã bỏ ra.',
+  },
+  {
+    id: 'ex-gr-cao-cap-48-9',
+    patternId: 'gr-cao-cap-48',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ coi như đây là bài tập về nhà và hãy cố gắng hoàn thành trước cuối tuần.',
+    modelAnswerKo: '이건 숙제인 셈 치고 주말 전까지 끝내도록 하세요.',
+    modelAnswerVi: 'Cứ coi như đây là bài tập về nhà và hãy cố gắng hoàn thành trước cuối tuần.',
+  },
 
   // ── gr-cao-cap-49 · A/V - (으)ㄹ지언정 (dù... thì... — vế sau thường phủ định để bác bỏ khả năng đó) ──
   {
@@ -3262,6 +3895,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Dù có phải sống nghèo khổ cả đời đi nữa thì tôi cũng sẽ không đánh mất lương tâm của mình.',
     modelAnswerKo: '평생 가난하게 살지언정 제 양심을 저버리지는 않을 거예요.',
     modelAnswerVi: 'Dù có phải sống nghèo khổ cả đời đi nữa thì tôi cũng sẽ không đánh mất lương tâm của mình.',
+  },
+  {
+    id: 'ex-gr-cao-cap-49-6',
+    patternId: 'gr-cao-cap-49',
+    type: 'fill-blank',
+    promptVi: 'Dù có phải một mình gánh vác hết mọi việc đi nữa (chia cụm 혼자 떠맡다) thì tôi cũng sẽ không nhờ vả ai khác.',
+    sentenceKo: '모든 일을 혼자 ___ 다른 사람에게 부탁하지는 않겠어요.',
+    answer: '떠맡을지언정',
+  },
+  {
+    id: 'ex-gr-cao-cap-49-7',
+    patternId: 'gr-cao-cap-49',
+    type: 'discriminate',
+    promptVi: "Đứng sau danh từ '학생' (học sinh) kết hợp 이다 — chọn dạng chia đúng cho câu 'Dù có là học sinh đi nữa thì cũng phải biết tôn trọng người lớn.'",
+    sentenceKo: '___ 어른을 공경할 줄 알아야 해요.',
+    options: ['학생일지언정', '학생이지언정', '학생지언정', '학생라지언정'],
+    correctIndex: 0,
+    explanation:
+      "Danh từ + 이다 khi kết hợp -(으)ㄹ지언정 phải chia thành 'ㄹ지언정' của động từ 이다 → 일지언정 (학생이다 → 학생일지언정), không dùng '이지언정' (thừa 이 trước 지언정), '학생지언정' (thiếu 이다), hay '학생라지언정' (không tồn tại dạng chia này).",
+  },
+  {
+    id: 'ex-gr-cao-cap-49-8',
+    patternId: 'gr-cao-cap-49',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù có phải bị chỉ trích đi nữa thì tôi cũng sẽ nói ra sự thật.',
+    modelAnswerKo: '비난을 받을지언정 저는 사실을 말하겠어요.',
+    modelAnswerVi: 'Dù có phải bị chỉ trích đi nữa thì tôi cũng sẽ nói ra sự thật.',
+  },
+  {
+    id: 'ex-gr-cao-cap-49-9',
+    patternId: 'gr-cao-cap-49',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Dù có phải thất bại nhiều lần đi nữa thì tôi cũng sẽ không bao giờ dối trá để đạt được thành công.',
+    modelAnswerKo: '여러 번 실패할지언정 성공을 위해 거짓말을 하지는 않을 거예요.',
+    modelAnswerVi: 'Dù có phải thất bại nhiều lần đi nữa thì tôi cũng sẽ không bao giờ dối trá để đạt được thành công.',
   },
 
   // ── gr-cao-cap-50 · A/V - 아/어 봤자 (dù... thì cũng chẳng ích gì... — giả định vế trước xảy ra thì cũng vô ích) ──
@@ -3308,6 +3976,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '더 설명해 봤자 소용없어요. 그는 이미 마음을 굳혔거든요.',
     modelAnswerVi: 'Có giải thích thêm thì cũng chẳng ích gì đâu, vì cậu ấy đã quyết tâm rồi.',
   },
+  {
+    id: 'ex-gr-cao-cap-50-6',
+    patternId: 'gr-cao-cap-50',
+    type: 'fill-blank',
+    promptVi: 'Có giữ bí mật đến mấy thì cũng chẳng ích gì (chia động từ 숨기다, dạng -아/어 봤자), vì sớm muộn gì sự thật cũng sẽ bị phát hiện.',
+    sentenceKo: '아무리 ___ 언젠가는 진실이 밝혀질 거예요.',
+    answer: '숨겨 봤자',
+  },
+  {
+    id: 'ex-gr-cao-cap-50-7',
+    patternId: 'gr-cao-cap-50',
+    type: 'discriminate',
+    promptVi: 'Cấu trúc -아/어 봤자 còn có nghĩa "cùng lắm thì cũng chỉ..." để giới hạn mức độ — chọn cách hoàn thiện phù hợp cho "Dù đắt đến mấy thì cùng lắm cái áo này cũng chỉ khoảng 5 vạn won thôi."',
+    sentenceKo: '아무리 비___ 이 옷은 오만 원 정도밖에 안 할 거예요.',
+    options: ['싸 봤자', '싼들', '싸다손 치더라도', '싸더라도'],
+    correctIndex: 0,
+    explanation:
+      '-아/어 봤자 ngoài nghĩa "vô ích" còn mang nghĩa "cùng lắm thì cũng chỉ ở mức độ nào đó" khi đi cùng 아무리 và một mức giới hạn ở vế sau — ở đây phù hợp nhất để diễn tả việc giá cả dù cao đến đâu cũng không vượt quá một mức nhất định. "-ㄴ들"/"-다손 치더라도"/"-더라도" đều là các cấu trúc nhượng bộ khác, không mang được sắc thái GIỚI HẠN MỨC ĐỘ đặc trưng của -아/어 봤자 trong ngữ cảnh này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-50-8',
+    patternId: 'gr-cao-cap-50',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Có chạy theo xu hướng thời trang đến mấy thì cũng chẳng ích gì nếu không hợp với bản thân mình.',
+    modelAnswerKo: '아무리 유행을 따라가 봤자 자신에게 안 어울리면 소용없어요.',
+    modelAnswerVi: 'Có chạy theo xu hướng thời trang đến mấy thì cũng chẳng ích gì nếu không hợp với bản thân mình.',
+  },
+  {
+    id: 'ex-gr-cao-cap-50-9',
+    patternId: 'gr-cao-cap-50',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Có phàn nàn nhiều đến mấy thì tình hình cũng chẳng thay đổi được gì đâu.',
+    modelAnswerKo: '아무리 불평해 봤자 상황이 달라지지는 않을 거예요.',
+    modelAnswerVi: 'Có phàn nàn nhiều đến mấy thì tình hình cũng chẳng thay đổi được gì đâu.',
+  },
 
   // ── gr-cao-cap-51 · V - 기가 무섭게 = V - 기가 바쁘게 (hành động sau diễn ra ngay khi hành động trước vừa dứt, khẩu ngữ) ──
   {
@@ -3352,6 +4055,42 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Ngay khi nhận được lương, anh ấy đã tiêu hết sạch.',
     modelAnswerKo: '월급을 받기가 무섭게 그는 다 써 버렸어요.',
     modelAnswerVi: 'Ngay khi nhận được lương, anh ấy đã tiêu hết sạch.',
+  },
+  {
+    id: 'ex-gr-cao-cap-51-6',
+    patternId: 'gr-cao-cap-51',
+    type: 'fill-blank',
+    promptVi: 'Vừa đặt lưng xuống giường là tôi đã ngủ thiếp đi ngay (chia động từ 눕다, bất quy tắc ㅂ).',
+    sentenceKo: '침대에 ___ 저는 바로 잠이 들었어요.',
+    answer: '눕기가 무섭게',
+    hintVi: '눕다 là động từ bất quy tắc ㅂ nhưng chỉ biến đổi trước đuôi bắt đầu bằng nguyên âm (아/어/으); -기 bắt đầu bằng phụ âm nên giữ nguyên: 눕 + 기가 무섭게 = 눕기가 무섭게.',
+  },
+  {
+    id: 'ex-gr-cao-cap-51-7',
+    patternId: 'gr-cao-cap-51',
+    type: 'discriminate',
+    promptVi: 'Đây là một trình tự công việc thông thường, không nhấn mạnh tốc độ nhanh chóng đầy kịch tính — chọn cách nói phù hợp hơn cho "Sau khi tan sở, tôi thường ghé qua siêu thị mua đồ."',
+    sentenceKo: '퇴근하___ 저는 보통 마트에 들러서 장을 봐요.',
+    options: ['기가 무섭게', '고 나서', '기가 바쁘게', '자마자'],
+    correctIndex: 1,
+    explanation:
+      '-기가 무섭게/바쁘게 luôn nhấn mạnh tính tức thời, gấp gáp, đầy kịch tính giữa hai hành động; đây chỉ là một thói quen thông thường, không có sắc thái vội vã nên dùng -고 나서 (sau khi) tự nhiên hơn. "-자마자" tuy đúng nghĩa "ngay khi" nhưng vẫn nhấn mạnh tính tức thời hơn cần thiết cho một thói quen nhẹ nhàng như thế này; "기가 바쁘게" cùng nhóm với "기가 무섭게" nên cũng không phù hợp.',
+  },
+  {
+    id: 'ex-gr-cao-cap-51-8',
+    patternId: 'gr-cao-cap-51',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vừa mới đặt câu hỏi ra là giáo viên đã trả lời ngay lập tức.',
+    modelAnswerKo: '질문을 하기가 무섭게 선생님이 바로 대답해 주셨어요.',
+    modelAnswerVi: 'Vừa mới đặt câu hỏi ra là giáo viên đã trả lời ngay lập tức.',
+  },
+  {
+    id: 'ex-gr-cao-cap-51-9',
+    patternId: 'gr-cao-cap-51',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Vé bán ra là hết sạch ngay lập tức, nhanh đến mức tôi còn chưa kịp mua.',
+    modelAnswerKo: '표가 나오기가 무섭게 다 팔려서 저는 미처 사지도 못했어요.',
+    modelAnswerVi: 'Vé bán ra là hết sạch ngay lập tức, nhanh đến mức tôi còn chưa kịp mua.',
   },
 
   // ── gr-cao-cap-52 · V - 자 (ngay khi... thì..., nhân quả tự nhiên đã xảy ra, vế sau không mệnh lệnh/cầu khiến, văn viết) ──
@@ -3398,6 +4137,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '그 소식을 듣자 사람들은 깜짝 놀랐다.',
     modelAnswerVi: 'Ngay khi nghe tin đó, mọi người đã vô cùng ngạc nhiên.',
   },
+  {
+    id: 'ex-gr-cao-cap-52-6',
+    patternId: 'gr-cao-cap-52',
+    type: 'fill-blank',
+    promptVi: 'Ngay khi chuông reo, học sinh đã ùa ra khỏi lớp (chia động từ 울리다).',
+    sentenceKo: '종이 ___ 학생들이 교실 밖으로 몰려나갔다.',
+    answer: '울리자',
+  },
+  {
+    id: 'ex-gr-cao-cap-52-7',
+    patternId: 'gr-cao-cap-52',
+    type: 'discriminate',
+    promptVi: 'Vế trước của -자 chỉ gắn trực tiếp vào thân động từ, KHÔNG chia thì quá khứ — chọn cách chia đúng cho động từ 끝나다 trong "Ngay khi buổi hòa nhạc vừa kết thúc, khán giả đã đứng dậy vỗ tay."',
+    sentenceKo: '콘서트가 ___ 관객들이 일어나 박수를 쳤다.',
+    options: ['끝나자', '끝났자', '끝나았자', '끝나는자'],
+    correctIndex: 0,
+    explanation:
+      '-자 chỉ gắn trực tiếp vào thân động từ ở dạng nguyên, không chia thì quá khứ trước nó (bản thân toàn câu mới mang nghĩa "vừa xảy ra xong" một cách tự nhiên) → 끝나다 + 자 = 끝나자; "끝났자"/"끝나았자" đều chia sai vì thêm thì quá khứ vào thân từ trước -자 (không tồn tại dạng này), "끝나는자" cũng không phải dạng ngữ pháp đúng.',
+  },
+  {
+    id: 'ex-gr-cao-cap-52-8',
+    patternId: 'gr-cao-cap-52',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Ngay khi trận đấu bắt đầu, hai đội đã thi đấu quyết liệt.',
+    modelAnswerKo: '경기가 시작되자 두 팀은 치열하게 경기를 펼쳤다.',
+    modelAnswerVi: 'Ngay khi trận đấu bắt đầu, hai đội đã thi đấu quyết liệt.',
+  },
+  {
+    id: 'ex-gr-cao-cap-52-9',
+    patternId: 'gr-cao-cap-52',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Ngay khi nhìn thấy đáp án, tôi mới nhận ra mình đã làm sai.',
+    modelAnswerKo: '답을 보자 저는 제가 틀렸다는 것을 깨달았다.',
+    modelAnswerVi: 'Ngay khi nhìn thấy đáp án, tôi mới nhận ra mình đã làm sai.',
+  },
 
   // ── gr-cao-cap-53 · V - 는 대로 (ngay khi... thì..., dùng cho kế hoạch/ý chí/mệnh lệnh ở hiện tại-tương lai) ──
   {
@@ -3442,6 +4216,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Ngay khi xe buýt đến, hãy lên xe nhé.',
     modelAnswerKo: '버스가 오는 대로 타세요.',
     modelAnswerVi: 'Ngay khi xe buýt đến, hãy lên xe nhé.',
+  },
+  {
+    id: 'ex-gr-cao-cap-53-6',
+    patternId: 'gr-cao-cap-53',
+    type: 'fill-blank',
+    promptVi: 'Ngay khi tôi tìm được nhà trọ mới, tôi sẽ báo cho bạn biết địa chỉ (chia động từ 구하다).',
+    sentenceKo: '새 하숙집을 ___ 주소를 알려 드릴게요.',
+    answer: '구하는 대로',
+  },
+  {
+    id: 'ex-gr-cao-cap-53-7',
+    patternId: 'gr-cao-cap-53',
+    type: 'discriminate',
+    promptVi: '만들다 có 받침 ㄹ — chọn cách chia đúng cho "Ngay khi làm xong món ăn, tôi sẽ mang đến cho bạn."',
+    sentenceKo: '음식을 다 ___ 갖다 드릴게요.',
+    options: ['만드는 대로', '만들는 대로', '만든 대로', '만들은 대로'],
+    correctIndex: 0,
+    explanation:
+      '만들다 có 받침 ㄹ: trước đuôi bắt đầu bằng ㄴ (는 대로), ㄹ bị lược bỏ → 만드 + 는 대로 = 만드는 대로; không giữ nguyên ㄹ như "만들는 대로", và "만든 대로"/"만들은 대로" đều chia sai vì -는 대로 (không phải -(으)ㄴ 대로) mới đúng cho nghĩa "ngay khi" ở thì hiện tại/tương lai đang luyện ở mẫu này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-53-8',
+    patternId: 'gr-cao-cap-53',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Ngay khi có thông tin mới, ban tổ chức sẽ thông báo trên trang web.',
+    modelAnswerKo: '새로운 정보가 나오는 대로 주최 측이 홈페이지에 공지할 거예요.',
+    modelAnswerVi: 'Ngay khi có thông tin mới, ban tổ chức sẽ thông báo trên trang web.',
+  },
+  {
+    id: 'ex-gr-cao-cap-53-9',
+    patternId: 'gr-cao-cap-53',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Ngay khi cuộc họp kết thúc, hãy gửi biên bản cho mọi người nhé.',
+    modelAnswerKo: '회의가 끝나는 대로 회의록을 사람들에게 보내 주세요.',
+    modelAnswerVi: 'Ngay khi cuộc họp kết thúc, hãy gửi biên bản cho mọi người nhé.',
   },
 
   // ── gr-cao-cap-54 · V - 는 한 (chỉ với điều kiện, chỉ khi... — điều kiện tiên quyết để vế sau được thực hiện) ──
@@ -3489,6 +4298,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '포기하지 않는 한 반드시 성공할 거예요.',
     modelAnswerVi: 'Chỉ cần bạn không từ bỏ thì nhất định sẽ thành công.',
   },
+  {
+    id: 'ex-gr-cao-cap-54-6',
+    patternId: 'gr-cao-cap-54',
+    type: 'fill-blank',
+    promptVi: 'Chỉ cần công ty còn duy trì được chất lượng sản phẩm thì khách hàng sẽ không rời bỏ (chia động từ 유지하다).',
+    sentenceKo: '회사가 제품의 품질을 ___ 고객은 떠나지 않을 거예요.',
+    answer: '유지하는 한',
+  },
+  {
+    id: 'ex-gr-cao-cap-54-7',
+    patternId: 'gr-cao-cap-54',
+    type: 'discriminate',
+    promptVi: 'Vế trước là một sự việc đã HOÀN THÀNH một lần (không phải một trạng thái/điều kiện tiếp diễn liên tục) — chọn cách nói phù hợp hơn cho "Nếu bạn đã nộp đơn rồi thì kết quả sẽ được thông báo sau một tuần."',
+    sentenceKo: '신청서를 이미 ___ 일주일 후에 결과가 통보될 거예요.',
+    options: ['제출하는 한', '제출했으면', '제출하는 이상', '제출하고서야'],
+    correctIndex: 1,
+    explanation:
+      '-는 한 nhấn mạnh một ĐIỀU KIỆN/TRẠNG THÁI TIẾP DIỄN liên tục làm tiền đề (chỉ trong phạm vi điều kiện đó thì vế sau mới đúng); ở đây "đã nộp đơn" là một sự việc đã HOÀN THÀNH một lần, không phải trạng thái tiếp diễn, nên dùng điều kiện thông thường -(으)면 phù hợp hơn. "-는 이상" gần nghĩa nhưng thiên về "một khi đã..." với sắc thái hệ quả tất yếu hơn là điều kiện giới hạn phạm vi; "-고서야" mang nghĩa "chỉ sau khi... mới", cần cấu trúc khác, không phù hợp câu này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-54-8',
+    patternId: 'gr-cao-cap-54',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chỉ cần cả hai bên còn tôn trọng lẫn nhau thì cuộc hôn nhân này sẽ hạnh phúc.',
+    modelAnswerKo: '두 사람이 서로 존중하는 한 이 결혼 생활은 행복할 거예요.',
+    modelAnswerVi: 'Chỉ cần cả hai bên còn tôn trọng lẫn nhau thì cuộc hôn nhân này sẽ hạnh phúc.',
+  },
+  {
+    id: 'ex-gr-cao-cap-54-9',
+    patternId: 'gr-cao-cap-54',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chỉ cần chính phủ không thay đổi chính sách này thì tình trạng thất nghiệp sẽ khó mà cải thiện.',
+    modelAnswerKo: '정부가 이 정책을 바꾸지 않는 한 실업 문제는 개선되기 어려울 거예요.',
+    modelAnswerVi: 'Chỉ cần chính phủ không thay đổi chính sách này thì tình trạng thất nghiệp sẽ khó mà cải thiện.',
+  },
 
   // ── gr-cao-cap-55 · V - (으)ㄹ라치면 (hễ... thì..., tình huống bất lợi cứ lặp lại mỗi khi định làm việc gì đó) ──
   {
@@ -3534,6 +4378,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Cứ hễ tôi định học bài thì bạn cùng phòng lại mở nhạc to.',
     modelAnswerKo: '공부를 좀 할라치면 룸메이트가 음악을 크게 틀어요.',
     modelAnswerVi: 'Cứ hễ tôi định học bài thì bạn cùng phòng lại mở nhạc to.',
+  },
+  {
+    id: 'ex-gr-cao-cap-55-6',
+    patternId: 'gr-cao-cap-55',
+    type: 'fill-blank',
+    promptVi: 'Hễ tôi định dọn dẹp phòng một chút thì mèo nhà tôi lại làm bừa bộn thêm (chia động từ 청소하다).',
+    sentenceKo: '방을 좀 ___ 우리 고양이가 더 어지럽혀요.',
+    answer: '청소할라치면',
+  },
+  {
+    id: 'ex-gr-cao-cap-55-7',
+    patternId: 'gr-cao-cap-55',
+    type: 'discriminate',
+    promptVi: 'Câu này chỉ đơn thuần mô tả một quy luật/thói quen TRUNG TÍNH lặp lại (không mang sắc thái trớ trêu, bực bội) — chọn cách nói phù hợp hơn cho "Hễ trời mưa là đường phố lại bị ngập."',
+    sentenceKo: '비가 ___ 거리가 물에 잠겨요.',
+    options: ['올라치면', '오기만 하면', '오노라면', '오거들랑'],
+    correctIndex: 1,
+    explanation:
+      '-(으)ㄹ라치면 luôn mang sắc thái than phiền về một tình huống bất lợi trớ trêu cứ lặp lại MỖI KHI CHỦ THỂ ĐỊNH làm việc gì đó; ở đây câu chỉ đơn thuần mô tả một quy luật khách quan lặp lại (trời mưa thì ngập), không có sắc thái than phiền về việc "định làm gì đó" nên dùng -기만 하면 trung tính hơn. "-노라면" mang nghĩa "nếu cứ liên tục làm gì thì sẽ đạt kết quả", "-거들랑" là điều kiện đơn thuần kèm mệnh lệnh, cả hai đều sai ngữ cảnh này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-55-8',
+    patternId: 'gr-cao-cap-55',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ hễ tôi định ra ngoài chơi thì y như rằng điện thoại công ty lại gọi đến.',
+    modelAnswerKo: '밖에 좀 나갈라치면 회사에서 꼭 전화가 와요.',
+    modelAnswerVi: 'Cứ hễ tôi định ra ngoài chơi thì y như rằng điện thoại công ty lại gọi đến.',
+  },
+  {
+    id: 'ex-gr-cao-cap-55-9',
+    patternId: 'gr-cao-cap-55',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Cứ hễ tôi định tập trung làm bài thì hàng xóm lại bắt đầu khoan tường ầm ĩ.',
+    modelAnswerKo: '숙제에 집중할라치면 이웃집에서 꼭 벽을 뚫기 시작해요.',
+    modelAnswerVi: 'Cứ hễ tôi định tập trung làm bài thì hàng xóm lại bắt đầu khoan tường ầm ĩ.',
   },
 
   // ── gr-cao-cap-56 · V - 노라면 (nếu cứ... thì..., làm liên tục việc gì đó sẽ dẫn đến kết quả tương ứng) ──
@@ -3581,6 +4460,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '매일 꾸준히 한국어 책을 읽노라면 어휘력이 늘 거예요.',
     modelAnswerVi: 'Nếu cứ đọc sách tiếng Hàn đều đặn mỗi ngày thì vốn từ vựng sẽ tăng lên.',
   },
+  {
+    id: 'ex-gr-cao-cap-56-6',
+    patternId: 'gr-cao-cap-56',
+    type: 'fill-blank',
+    promptVi: 'Nếu cứ chăm chỉ tiết kiệm mỗi tháng thì rồi sẽ có ngày mua được nhà riêng (chia động từ 저축하다).',
+    sentenceKo: '매달 성실하게 ___ 언젠가 내 집을 마련하게 될 거예요.',
+    answer: '저축하노라면',
+  },
+  {
+    id: 'ex-gr-cao-cap-56-7',
+    patternId: 'gr-cao-cap-56',
+    type: 'discriminate',
+    promptVi: 'Vế sau là một kết quả xảy ra NGAY LẬP TỨC (không phải kết quả tích lũy dần dần qua một quá trình liên tục) — chọn cách nói phù hợp hơn cho "Ngay khi anh ấy vừa cất lời xin lỗi, cô ấy đã tha thứ ngay."',
+    sentenceKo: '그가 사과___ 그녀는 바로 용서해 주었다.',
+    options: ['하노라면', '하자', '하다가 보면', '하는 한'],
+    correctIndex: 1,
+    explanation:
+      '-노라면 dùng khi làm LIÊN TỤC một việc gì đó sẽ dần dần dẫn đến kết quả tương ứng theo thời gian; ở đây kết quả (tha thứ) xảy ra NGAY LẬP TỨC chỉ sau một hành động đơn lẻ (một lời xin lỗi), không phải một quá trình tích lũy, nên dùng -자 (ngay khi... thì...) phù hợp hơn. "-다가 보면" cũng mang nghĩa tích lũy dần như -노라면 nên cũng không hợp; "-는 한" là điều kiện giới hạn phạm vi, không liên quan đến trình tự thời gian này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-56-8',
+    patternId: 'gr-cao-cap-56',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nếu cứ kiên trì viết nhật ký bằng tiếng Hàn mỗi ngày thì khả năng viết sẽ dần được cải thiện.',
+    modelAnswerKo: '매일 꾸준히 한국어로 일기를 쓰노라면 쓰기 실력이 점점 좋아질 거예요.',
+    modelAnswerVi: 'Nếu cứ kiên trì viết nhật ký bằng tiếng Hàn mỗi ngày thì khả năng viết sẽ dần được cải thiện.',
+  },
+  {
+    id: 'ex-gr-cao-cap-56-9',
+    patternId: 'gr-cao-cap-56',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nếu cứ sống hết mình với đam mê thì rồi sẽ có ngày gặt hái được thành quả xứng đáng.',
+    modelAnswerKo: '열정을 다해 살아가노라면 언젠가 값진 결실을 맺게 될 거예요.',
+    modelAnswerVi: 'Nếu cứ sống hết mình với đam mê thì rồi sẽ có ngày gặt hái được thành quả xứng đáng.',
+  },
 
   // ── gr-cao-cap-57 · V - 거들랑 (nếu... thì..., điều kiện, vế sau thường mệnh lệnh/cầu khiến, ~ -거든) ──
   {
@@ -3625,6 +4539,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Nếu thấy anh ấy thì hãy bảo tôi đang tìm anh ấy nhé.',
     modelAnswerKo: '그를 보거들랑 제가 찾고 있다고 전해 주세요.',
     modelAnswerVi: 'Nếu thấy anh ấy thì hãy bảo tôi đang tìm anh ấy nhé.',
+  },
+  {
+    id: 'ex-gr-cao-cap-57-6',
+    patternId: 'gr-cao-cap-57',
+    type: 'fill-blank',
+    promptVi: 'Nếu con thấy khó khăn quá thì hãy gọi điện cho mẹ ngay nhé (chia tính từ 힘들다).',
+    sentenceKo: '많이 ___ 엄마한테 바로 전화해.',
+    answer: '힘들거들랑',
+  },
+  {
+    id: 'ex-gr-cao-cap-57-7',
+    patternId: 'gr-cao-cap-57',
+    type: 'discriminate',
+    promptVi: 'Đây là việc thuật lại một điều kiện đã XẢY RA VÀ KẾT THÚC trong quá khứ (không phải một điều kiện giả định cho tương lai) — chọn cách nói phù hợp hơn cho "Vì hôm qua trời đã mưa nên tôi đã hủy chuyến dã ngoại."',
+    sentenceKo: '어제 비가 ___ 소풍을 취소했어요.',
+    options: ['오거들랑', '와서', '오거든', '오노라면'],
+    correctIndex: 1,
+    explanation:
+      '-거들랑 (và -거든) chỉ dùng cho điều kiện GIẢ ĐỊNH cho tương lai, không dùng để thuật lại một sự việc đã xảy ra và kết thúc trong quá khứ; ở đây là nguyên nhân của một việc đã xảy ra rồi (hôm qua) nên phải dùng -아/어서 (nguyên nhân thông thường). "오거든" cũng chỉ dùng cho điều kiện tương lai như -거들랑, "오노라면" mang nghĩa "nếu cứ liên tục làm" hoàn toàn khác nghĩa, cả hai đều sai.',
+  },
+  {
+    id: 'ex-gr-cao-cap-57-8',
+    patternId: 'gr-cao-cap-57',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nếu con đói bụng thì cứ tự lấy đồ ăn trong tủ lạnh mà ăn nhé.',
+    modelAnswerKo: '배고프거들랑 냉장고에서 알아서 꺼내 먹어.',
+    modelAnswerVi: 'Nếu con đói bụng thì cứ tự lấy đồ ăn trong tủ lạnh mà ăn nhé.',
+  },
+  {
+    id: 'ex-gr-cao-cap-57-9',
+    patternId: 'gr-cao-cap-57',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nếu có thắc mắc gì thì đừng ngại, cứ hỏi thẳng tôi nhé.',
+    modelAnswerKo: '궁금한 점이 있거들랑 망설이지 말고 저한테 바로 물어보세요.',
+    modelAnswerVi: 'Nếu có thắc mắc gì thì đừng ngại, cứ hỏi thẳng tôi nhé.',
   },
 
   // ── gr-cao-cap-58 · V - (으)면 몰라도 (giả sử như... thì còn được, chứ (thực tế) thì không — so sánh hai trường hợp) ──
@@ -3671,6 +4620,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     modelAnswerKo: '어른이면 몰라도 아이는 그 영화를 보면 안 돼요.',
     modelAnswerVi: 'Nếu là người lớn thì còn được, chứ trẻ con thì không được xem bộ phim đó.',
   },
+  {
+    id: 'ex-gr-cao-cap-58-6',
+    patternId: 'gr-cao-cap-58',
+    type: 'fill-blank',
+    promptVi: 'Nếu là ngày thường thì còn được, chứ cuối tuần thì nhà hàng đó luôn kín chỗ (chia cụm 평일이다).',
+    sentenceKo: '___ 주말에는 그 식당이 항상 자리가 없어요.',
+    answer: '평일이면 몰라도',
+  },
+  {
+    id: 'ex-gr-cao-cap-58-7',
+    patternId: 'gr-cao-cap-58',
+    type: 'discriminate',
+    promptVi: 'Vế sau của -(으)면 몰라도 hầu như luôn ở dạng PHỦ ĐỊNH hoặc nghi vấn mang tính khẳng định ngược — câu này lại dùng khẳng định tích cực ở vế sau nên không hợp, chọn cách nói phù hợp hơn cho "Nếu trời nắng thì đi biển sẽ vui, còn trời mưa thì ở nhà xem phim cũng ổn."',
+    sentenceKo: '날씨가 좋___ 비가 오면 집에서 영화를 봐도 괜찮아요.',
+    options: ['으면 몰라도', '으면', '거들랑', '는 한'],
+    correctIndex: 1,
+    explanation:
+      '-(으)면 몰라도 luôn hàm ý "trường hợp A thì còn tạm chấp nhận được, còn trường hợp B (đang thực sự xảy ra) thì KHÔNG được/KHÔNG THỂ", vế sau hầu như luôn phủ định; ở đây cả hai trường hợp (nắng và mưa) đều được chấp nhận theo hướng tích cực, không có sự đối lập được-không được, nên chỉ cần dùng -(으)면 điều kiện thông thường. "-거들랑" cần vế sau mệnh lệnh/cầu khiến, "-는 한" nhấn mạnh điều kiện giới hạn duy nhất, cả hai đều không hợp câu so sánh nhẹ nhàng này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-58-8',
+    patternId: 'gr-cao-cap-58',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nếu là người có kinh nghiệm thì còn được, chứ người mới vào nghề thì không thể xử lý được tình huống đó.',
+    modelAnswerKo: '경험이 있는 사람이면 몰라도 신입은 그 상황을 처리할 수 없어요.',
+    modelAnswerVi: 'Nếu là người có kinh nghiệm thì còn được, chứ người mới vào nghề thì không thể xử lý được tình huống đó.',
+  },
+  {
+    id: 'ex-gr-cao-cap-58-9',
+    patternId: 'gr-cao-cap-58',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Nếu trời không quá lạnh thì còn được, chứ nhiệt độ xuống dưới không độ thế này thì không thể cắm trại ngoài trời.',
+    modelAnswerKo: '날씨가 그렇게 춥지 않으면 몰라도 영하로 떨어진 지금은 야외에서 캠핑을 할 수 없어요.',
+    modelAnswerVi: 'Nếu trời không quá lạnh thì còn được, chứ nhiệt độ xuống dưới không độ thế này thì không thể cắm trại ngoài trời.',
+  },
 
   // ── gr-cao-cap-59 · A/V - (느)냐에 달려 있다 (phụ thuộc vào... — kết quả tùy thuộc vào điều kiện nêu ở vế sau) ──
   {
@@ -3715,6 +4699,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Việc dự án này có thành công hay không phụ thuộc vào việc các thành viên có hợp tác tốt hay không.',
     modelAnswerKo: '이 프로젝트의 성공은 팀원들이 얼마나 잘 협력하느냐에 달려 있다.',
     modelAnswerVi: 'Việc dự án này có thành công hay không phụ thuộc vào việc các thành viên có hợp tác tốt hay không.',
+  },
+  {
+    id: 'ex-gr-cao-cap-59-6',
+    patternId: 'gr-cao-cap-59',
+    type: 'fill-blank',
+    promptVi: 'Việc đàm phán có thành công hay không phụ thuộc vào việc hai bên có nhượng bộ lẫn nhau hay không (chia động từ 양보하다).',
+    sentenceKo: '협상의 성공 여부는 양측이 서로 얼마나 ___ 달려 있다.',
+    answer: '양보하느냐에',
+  },
+  {
+    id: 'ex-gr-cao-cap-59-7',
+    patternId: 'gr-cao-cap-59',
+    type: 'discriminate',
+    promptVi: "Tính từ 크다 (nguyên âm cuối) khi kết hợp đuôi nghi vấn gián tiếp trước 에 달려 있다 không cần thêm 으 — chọn dạng đúng cho 'Túi xách này có tiện lợi hay không là tùy vào việc nó lớn đến mức nào.'",
+    sentenceKo: '이 가방이 편리한지는 얼마나 ___ 달려 있다.',
+    options: ['크냐에', '크으냐에', '커느냐에', '크는냐에'],
+    correctIndex: 0,
+    explanation:
+      "크다 là tính từ có thân từ kết thúc bằng nguyên âm nên chỉ cần thêm -냐 trực tiếp (không thêm 으) → 크냐에 달려 있다; '크으냐에' thêm 으 thừa (chỉ tính từ có phụ âm cuối như 좋다 mới cần 으 → 좋으냐), '커느냐에'/'크는냐에' đều là các dạng chia sai không tồn tại (느냐 chỉ dùng cho động từ, không dùng cho tính từ).",
+  },
+  {
+    id: 'ex-gr-cao-cap-59-8',
+    patternId: 'gr-cao-cap-59',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Việc bài thuyết trình có thu hút hay không phụ thuộc vào việc người trình bày chuẩn bị kỹ càng đến đâu.',
+    modelAnswerKo: '발표가 흥미로우냐 아니냐는 발표자가 얼마나 꼼꼼히 준비하느냐에 달려 있다.',
+    modelAnswerVi: 'Việc bài thuyết trình có thu hút hay không phụ thuộc vào việc người trình bày chuẩn bị kỹ càng đến đâu.',
+  },
+  {
+    id: 'ex-gr-cao-cap-59-9',
+    patternId: 'gr-cao-cap-59',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Chất lượng cuộc sống phụ thuộc vào môi trường sống xung quanh.',
+    modelAnswerKo: '삶의 질은 주변 환경에 달려 있다.',
+    modelAnswerVi: 'Chất lượng cuộc sống phụ thuộc vào môi trường sống xung quanh.',
   },
 
   // ── gr-cao-cap-60 · V - 기 나름이다 (tùy vào việc, tùy thuộc vào cách... — kết quả thay đổi theo cách thực hiện) ──
@@ -3761,6 +4780,41 @@ export const grammarExercisesCaoCap: GrammarExercise[] = [
     promptVi: 'Diễn đạt: Kết quả công việc là tùy thuộc vào việc bạn chuẩn bị kỹ càng đến đâu.',
     modelAnswerKo: '일의 결과는 얼마나 꼼꼼하게 준비하기 나름이에요.',
     modelAnswerVi: 'Kết quả công việc là tùy thuộc vào việc bạn chuẩn bị kỹ càng đến đâu.',
+  },
+  {
+    id: 'ex-gr-cao-cap-60-6',
+    patternId: 'gr-cao-cap-60',
+    type: 'fill-blank',
+    promptVi: 'Món ăn có ngon hay không là tùy vào cách người ta nêm nếm gia vị (chia cụm 간을 맞추다).',
+    sentenceKo: '음식 맛은 ___.',
+    answer: '간을 맞추기 나름이다',
+  },
+  {
+    id: 'ex-gr-cao-cap-60-7',
+    patternId: 'gr-cao-cap-60',
+    type: 'discriminate',
+    promptVi: '-기 나름이다 chỉ gắn được sau ĐỘNG TỪ diễn tả cách thức thực hiện, không gắn sau TÍNH TỪ — chọn cách nói đúng cho "Việc căn phòng có gọn gàng hay không là tùy vào cách người ta dọn dẹp nó."',
+    sentenceKo: '방이 깨끗한지 아닌지는 어떻게 ___.',
+    options: ['정리하기 나름이다', '깨끗하기 나름이다', '정리하는 법이다', '정리하는 데 있다'],
+    correctIndex: 0,
+    explanation:
+      '-기 나름이다 chỉ gắn được sau ĐỘNG TỪ diễn tả cách thức thực hiện một hành vi (ở đây 정리하다 - dọn dẹp), không gắn được sau tính từ như "깨끗하다" (gọn gàng là trạng thái, không phải cách làm); "정리하는 법이다" đổi nghĩa thành quy luật cố định (trái với ý "tùy vào cách làm, không cố định"), "정리하는 데 있다" không phải cấu trúc ngữ pháp chuẩn diễn tả nghĩa này.',
+  },
+  {
+    id: 'ex-gr-cao-cap-60-8',
+    patternId: 'gr-cao-cap-60',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Việc con cái có ngoan ngoãn hay không phần lớn là tùy vào cách cha mẹ làm gương.',
+    modelAnswerKo: '아이가 착하게 자라는 것은 대체로 부모가 본을 보이기 나름이다.',
+    modelAnswerVi: 'Việc con cái có ngoan ngoãn hay không phần lớn là tùy vào cách cha mẹ làm gương.',
+  },
+  {
+    id: 'ex-gr-cao-cap-60-9',
+    patternId: 'gr-cao-cap-60',
+    type: 'produce',
+    promptVi: 'Diễn đạt: Một mối quan hệ có bền lâu hay không là tùy vào cách hai người vun đắp nó mỗi ngày.',
+    modelAnswerKo: '관계가 오래가는지는 두 사람이 매일 어떻게 가꾸기 나름이다.',
+    modelAnswerVi: 'Một mối quan hệ có bền lâu hay không là tùy vào cách hai người vun đắp nó mỗi ngày.',
   },
 
   // ── gr-cao-cap-61 · N 은/는 N 대로 (N thì N chứ... — mỗi đối tượng có đặc điểm/hoàn cảnh riêng, không thể gộp chung) ──
