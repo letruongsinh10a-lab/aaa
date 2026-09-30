@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
 interface ActivityHeatmapProps {
@@ -23,7 +23,14 @@ const GAP  = 3
 const STEP = CELL + GAP
 
 export function ActivityHeatmap({ data = {}, weeks = 26 }: ActivityHeatmapProps) {
+  // new Date() must not run during SSR/first-paint hydration — the server's
+  // "today" and the client's "today" can legitimately differ (clock tick,
+  // timezone), which would mismatch the rendered grid. Defer to client-only.
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+
   const grid = useMemo(() => {
+    if (!mounted) return []
     const today = new Date()
     today.setHours(0, 0, 0, 0)
 
@@ -49,10 +56,14 @@ export function ActivityHeatmap({ data = {}, weeks = 26 }: ActivityHeatmapProps)
       cols.push(col)
     }
     return cols
-  }, [data, weeks])
+  }, [data, weeks, mounted])
 
   const width  = weeks * STEP + 28
   const height = 7 * STEP + 20
+
+  if (!mounted) {
+    return <div className="overflow-x-auto" style={{ width, height }} aria-hidden="true" />
+  }
 
   return (
     <div className="overflow-x-auto">

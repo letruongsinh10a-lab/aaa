@@ -8,7 +8,7 @@ import { X, Zap } from 'lucide-react'
 import { grammarByLevelAll, grammarByLevelList } from '@/data/grammar-by-level'
 import { grammarExercisesByPatternId } from '@/data/grammar-exercises'
 import type { GrammarExercise } from '@/types'
-import { getDueCards, getLocalUser, reviewCard } from '@/lib/srs/store'
+import { getDueCards, getReviewDueCards, getLocalUser, reviewCard } from '@/lib/srs/store'
 import { deriveSRSRating, pickReviewExercise } from '@/lib/exercises/grade'
 import { useGrammarSession } from '@/hooks/useGrammarSession'
 import { useGrammarPractice } from '@/hooks/useGrammarPractice'
@@ -61,11 +61,15 @@ function GrammarReviewSession() {
   const startSession = useCallback(() => {
     let ids: string[]
     if (sectionParam) {
-      // Ôn theo nhóm ngữ pháp cụ thể: toàn bộ mẫu của nhóm đó
-      ids = grammarByLevelAll.filter(g => g.section === sectionParam).map(g => g.id)
+      // Ôn theo nhóm ngữ pháp cụ thể: ưu tiên mẫu đã học và đến hạn ôn
+      const sectionIds = grammarByLevelAll.filter(g => g.section === sectionParam).map(g => g.id)
+      const reviewDue = getReviewDueCards(sectionIds)
+      ids = reviewDue.length > 0 ? reviewDue : sectionIds
     } else if (levelMeta !== null) {
-      // Ôn theo cấp độ: toàn bộ mẫu của cấp độ đó, không lọc theo hạn ôn
-      ids = levelMeta.patterns.map(g => g.id)
+      // Ôn theo cấp độ: ưu tiên mẫu đã học và đến hạn ôn
+      const levelIds = levelMeta.patterns.map(g => g.id)
+      const reviewDue = getReviewDueCards(levelIds)
+      ids = reviewDue.length > 0 ? reviewDue : levelIds
     } else {
       const due = getDueCards(ALL_IDS)
       ids = due.length > 0 ? due : ALL_IDS.slice(0, 20)

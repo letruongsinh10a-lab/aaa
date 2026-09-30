@@ -64,8 +64,10 @@ function FlashcardsSession() {
       const reviewDue = getReviewDueCards(dayIds)
       ids = reviewDue.length > 0 ? reviewDue : dayIds
     } else if (topic !== null) {
-      // Học theo chủ đề: toàn bộ từ của chủ đề đó, không lọc theo hạn ôn
-      ids = topic.words.map(c => c.id)
+      // Học theo chủ đề: ưu tiên từ đã học và đến hạn ôn, giống hệt logic học theo ngày
+      const topicIds = topic.words.map(c => c.id)
+      const reviewDue = getReviewDueCards(topicIds)
+      ids = reviewDue.length > 0 ? reviewDue : topicIds
     } else {
       const due = getDueCards(ALL_IDS)
       ids = due.length > 0 ? due : ALL_IDS.slice(0, 20)

@@ -3,13 +3,14 @@
 import { useState, useMemo, useCallback } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, BookOpen, Zap, ChevronDown, Layers, ArrowLeft } from 'lucide-react'
+import { Search, X, BookOpen, Zap, ChevronDown, Layers, ArrowLeft, Check } from 'lucide-react'
 import { vocabByTopicAll, vocabByTopicList, type VocabTopicGroup } from '@/data/vocab-by-topic'
 import { Badge } from '@/components/ui/Badge'
 import { buttonVariants } from '@/components/ui/Button'
 import { fadeUp, stagger } from '@/lib/motion'
 import { cn } from '@/lib/utils'
 import { VocabDetailPanel, POS_LABELS, POS_BADGE } from '@/components/vocab/VocabDetailPanel'
+import { useVocabTopicProgress } from '@/hooks/useVocabTopicProgress'
 import type { VocabCard, PartOfSpeech } from '@/types'
 
 const GROUP_LABELS: Record<VocabTopicGroup, string> = {
@@ -27,6 +28,8 @@ export default function VocabByTopicPage() {
   const PAGE_SIZE = 60
 
   const activeTopic = vocabByTopicList.find(t => t.slug === activeSlug) ?? vocabByTopicList[0]
+  const topicProgress = useVocabTopicProgress()
+  const activeTopicProgress = topicProgress[activeTopic.slug]
   const isSearching = search.trim().length > 0
   const cards = isSearching ? vocabByTopicAll : activeTopic.words
 
@@ -93,7 +96,10 @@ export default function VocabByTopicPage() {
               href={`/learn/flashcards?topic=${activeTopic.slug}`}
               className={buttonVariants({ variant: 'primary', size: 'sm' })}
             >
-              Học thẻ chủ đề này <Zap className="w-3.5 h-3.5" />
+              {activeTopicProgress?.status === 'needs-review'
+                ? <>Ôn tập chủ đề này ({activeTopicProgress.reviewDueCount} từ)</>
+                : <>Học thẻ chủ đề này</>
+              } <Zap className="w-3.5 h-3.5" />
             </Link>
           )}
         </div>
@@ -103,21 +109,37 @@ export default function VocabByTopicPage() {
               {GROUP_LABELS[g]}
             </p>
             <div className="flex flex-wrap gap-1.5">
-              {groups[g].map(t => (
-                <button
-                  key={t.slug}
-                  onClick={() => handleTopicChange(t.slug)}
-                  lang="ko"
-                  className={cn(
-                    'font-korean px-3 py-2 rounded-lg text-sm font-medium transition-all duration-150',
-                    !isSearching && activeSlug === t.slug
-                      ? 'bg-accent-coral text-white'
-                      : 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(var(--overlay-rgb),0.16)]'
-                  )}
-                >
-                  {t.nameKo} <span className="font-sans not-italic">({t.nameVi})</span>
-                </button>
-              ))}
+              {groups[g].map(t => {
+                const tp = topicProgress[t.slug]
+                const isActive = !isSearching && activeSlug === t.slug
+                return (
+                  <button
+                    key={t.slug}
+                    onClick={() => handleTopicChange(t.slug)}
+                    lang="ko"
+                    title={
+                      tp?.status === 'needs-review' ? `${tp.reviewDueCount} từ cần ôn` :
+                      tp?.status === 'completed' ? 'Đã học xong' : undefined
+                    }
+                    className={cn(
+                      'relative font-korean px-3 py-2 rounded-lg text-sm font-medium transition-all duration-150',
+                      isActive
+                        ? 'bg-accent-coral text-white'
+                        : 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(var(--overlay-rgb),0.16)]'
+                    )}
+                  >
+                    {t.nameKo} <span className="font-sans not-italic">({t.nameVi})</span>
+                    {!isActive && tp?.status === 'needs-review' && (
+                      <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-accent-coral ring-2 ring-bg-base" />
+                    )}
+                    {!isActive && tp?.status === 'completed' && (
+                      <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-accent-success ring-2 ring-bg-base flex items-center justify-center">
+                        <Check className="w-2 h-2 text-bg-base" strokeWidth={4} />
+                      </span>
+                    )}
+                  </button>
+                )
+              })}
             </div>
           </div>
         ))}

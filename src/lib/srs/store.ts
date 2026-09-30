@@ -81,6 +81,20 @@ export function replaceAllEntries(entries: Record<string, SRSEntry>) {
   saveEntries(entries)
 }
 
+/**
+ * Creates an SRSEntry for a card if it doesn't already have one, without
+ * touching reviewCount/XP/streak — unlike reviewCard(), this doesn't simulate
+ * an actual review. Used by "Thêm vào bộ thẻ ôn tập" so a word found via
+ * search (outside its normal day/topic session) is guaranteed to persist in
+ * the user's SRS deck instead of only existing implicitly.
+ */
+export function ensureCardTracked(cardId: string, userId = 'local'): void {
+  const entries = getAllEntries()
+  if (entries[cardId]) return
+  entries[cardId] = createNewEntry(userId, cardId)
+  saveEntries(entries)
+}
+
 export function reviewCard(cardId: string, rating: SRSRating, userId = 'local'): number {
   const entries = getAllEntries()
   const existing = entries[cardId] ?? createNewEntry(userId, cardId)

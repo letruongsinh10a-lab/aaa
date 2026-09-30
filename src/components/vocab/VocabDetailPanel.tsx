@@ -1,10 +1,11 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Volume2, X, Zap } from 'lucide-react'
+import { Volume2, X, Zap, Check } from 'lucide-react'
 import { Badge } from '@/components/ui/Badge'
 import { cn } from '@/lib/utils'
+import { getAllEntries, ensureCardTracked } from '@/lib/srs/store'
 import type { VocabCard, PartOfSpeech } from '@/types'
 
 export const POS_LABELS: Record<PartOfSpeech, string> = {
@@ -66,10 +67,18 @@ export function ChipList({ items, tone }: { items: string[]; tone?: 'success' | 
 }
 
 export function VocabDetailPanel({ card, onClose }: { card: VocabCard; onClose: () => void }) {
+  const [inDeck, setInDeck] = useState(false)
+
   // Phát âm 1 lần khi mở chi tiết từ
   useEffect(() => {
     playAudio(card.audioUrl)
+    setInDeck(!!getAllEntries()[card.id])
   }, [card.id, card.audioUrl])
+
+  function handleAddToDeck() {
+    ensureCardTracked(card.id)
+    setInDeck(true)
+  }
 
   return (
     <motion.div
@@ -206,9 +215,18 @@ export function VocabDetailPanel({ card, onClose }: { card: VocabCard; onClose: 
         )}
 
         {/* Add to SRS */}
-        <button className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-accent-coral text-white text-sm font-medium hover:bg-accent-coral/90 transition-colors">
-          <Zap className="w-4 h-4" />
-          Thêm vào bộ thẻ ôn tập
+        <button
+          onClick={handleAddToDeck}
+          disabled={inDeck}
+          className={cn(
+            'mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-medium transition-colors',
+            inDeck
+              ? 'bg-accent-success/15 text-accent-success cursor-default'
+              : 'bg-accent-coral text-white hover:bg-accent-coral/90'
+          )}
+        >
+          {inDeck ? <Check className="w-4 h-4" /> : <Zap className="w-4 h-4" />}
+          {inDeck ? 'Đã có trong bộ thẻ ôn tập' : 'Thêm vào bộ thẻ ôn tập'}
         </button>
       </motion.div>
     </motion.div>
