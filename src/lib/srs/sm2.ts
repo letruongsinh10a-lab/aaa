@@ -169,6 +169,21 @@ export function isMature(entry: SRSEntry): boolean {
 }
 
 /**
+ * True when a card has been studied before, is past due, and wasn't already
+ * reviewed today. Distinct from isDue() alone: SM-2 learning steps are
+ * sub-day (1-10 min), so their dueDate collapses to today's date the instant
+ * they're created — without this same-day exclusion, a card (or a whole
+ * study day) you just finished reviewing would immediately look like it
+ * "needs review" again.
+ */
+export function needsReview(entry: SRSEntry): boolean {
+  if (entry.reviewCount === 0) return false
+  if (!isDue(entry)) return false
+  const today = toISODate(new Date())
+  return entry.lastReviewed.split('T')[0] !== today
+}
+
+/**
  * Calculate XP earned for a single card rating.
  * `isMatured` is true when the card just crossed the mature threshold this review.
  */

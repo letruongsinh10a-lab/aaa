@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { X, Zap } from 'lucide-react'
 import { vocabTopik2All, vocabTopik2Days } from '@/data/vocab-topik2'
 import { vocabByTopicAll, vocabByTopicList } from '@/data/vocab-by-topic'
-import { getDueCards, getLocalUser } from '@/lib/srs/store'
+import { getDueCards, getReviewDueCards, getLocalUser } from '@/lib/srs/store'
 import { useFlashcardSession } from '@/hooks/useFlashcardSession'
 import { useAuthStore } from '@/stores/authStore'
 import { FlashCard } from '@/components/learning/FlashCard'
@@ -57,8 +57,12 @@ function FlashcardsSession() {
 
     let ids: string[]
     if (day !== null) {
-      // Học theo ngày: toàn bộ từ của ngày đó, không lọc theo hạn ôn
-      ids = vocabTopik2Days.find(d => d.day === day)!.words.map(c => c.id)
+      // Học theo ngày: ưu tiên từ đã học và đến hạn ôn; nếu ngày này chưa có
+      // từ nào đến hạn (ngày mới, hoặc đã ôn xong mà chưa tới hạn) thì học/ôn
+      // toàn bộ từ của ngày.
+      const dayIds = vocabTopik2Days.find(d => d.day === day)!.words.map(c => c.id)
+      const reviewDue = getReviewDueCards(dayIds)
+      ids = reviewDue.length > 0 ? reviewDue : dayIds
     } else if (topic !== null) {
       // Học theo chủ đề: toàn bộ từ của chủ đề đó, không lọc theo hạn ôn
       ids = topic.words.map(c => c.id)

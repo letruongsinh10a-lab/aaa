@@ -1,7 +1,7 @@
 'use client'
 
 import type { SRSEntry, SRSRating } from '@/types'
-import { calculateNextReview, createNewEntry, isDue, getXP } from './sm2'
+import { calculateNextReview, createNewEntry, isDue, needsReview, getXP } from './sm2'
 
 
 const STORAGE_KEY = 'han-ngu-srs'
@@ -59,6 +59,20 @@ export function getDueCards(allCardIds: string[], userId = 'local'): string[] {
     const entry = entries[id]
     if (!entry) return true // new card, always due
     return isDue(entry)
+  })
+}
+
+/**
+ * Subset of getDueCards() that excludes brand-new (never-studied) cards —
+ * "genuinely at risk of being forgotten", not just "due for a first look".
+ * Used to power review reminders (e.g. per study-day) where counting an
+ * unstudied card as "due" would be misleading.
+ */
+export function getReviewDueCards(cardIds: string[]): string[] {
+  const entries = getAllEntries()
+  return cardIds.filter(id => {
+    const entry = entries[id]
+    return !!entry && needsReview(entry)
   })
 }
 

@@ -3,13 +3,14 @@
 import { useState, useMemo, useCallback } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, BookOpen, Zap, ChevronDown, Layers } from 'lucide-react'
+import { Search, X, BookOpen, Zap, ChevronDown, Layers, Check } from 'lucide-react'
 import { vocabTopik2All, vocabTopik2Days } from '@/data/vocab-topik2'
 import { Badge } from '@/components/ui/Badge'
 import { buttonVariants } from '@/components/ui/Button'
 import { fadeUp, stagger } from '@/lib/motion'
 import { cn } from '@/lib/utils'
 import { VocabDetailPanel, POS_LABELS, POS_BADGE } from '@/components/vocab/VocabDetailPanel'
+import { useVocabDayProgress } from '@/hooks/useVocabDayProgress'
 import type { VocabCard, PartOfSpeech } from '@/types'
 
 const DAYS = vocabTopik2Days.map(d => d.day)
@@ -24,6 +25,9 @@ export default function VocabPage() {
   const [selectedCard, setSelectedCard] = useState<VocabCard | null>(null)
   const [page, setPage] = useState(1)
   const PAGE_SIZE = 60
+
+  const dayProgress = useVocabDayProgress()
+  const activeDayProgress = dayProgress[activeDay]
 
   const isSearching = search.trim().length > 0
   const cards = isSearching ? vocabTopik2All : (DAY_MAP[activeDay] ?? [])
@@ -87,25 +91,44 @@ export default function VocabPage() {
               href={`/learn/flashcards?day=${activeDay}`}
               className={buttonVariants({ variant: 'primary', size: 'sm' })}
             >
-              Học thẻ ngày {activeDay} <Zap className="w-3.5 h-3.5" />
+              {activeDayProgress?.status === 'needs-review'
+                ? <>Ôn tập ngày {activeDay} ({activeDayProgress.reviewDueCount} từ)</>
+                : <>Học thẻ ngày {activeDay}</>
+              } <Zap className="w-3.5 h-3.5" />
             </Link>
           )}
         </div>
         <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 lg:grid-cols-[repeat(15,minmax(0,1fr))] gap-1.5">
-          {DAYS.map(day => (
-            <button
-              key={day}
-              onClick={() => handleDayChange(day)}
-              className={cn(
-                'h-9 rounded-lg text-xs font-medium transition-all duration-150',
-                !isSearching && activeDay === day
-                  ? 'bg-accent-coral text-white'
-                  : 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(var(--overlay-rgb),0.16)]'
-              )}
-            >
-              {day}
-            </button>
-          ))}
+          {DAYS.map(day => {
+            const isActive = !isSearching && activeDay === day
+            const dp = dayProgress[day]
+            return (
+              <button
+                key={day}
+                onClick={() => handleDayChange(day)}
+                title={
+                  dp?.status === 'needs-review' ? `${dp.reviewDueCount} từ cần ôn` :
+                  dp?.status === 'completed' ? 'Đã học xong' : undefined
+                }
+                className={cn(
+                  'relative h-9 rounded-lg text-xs font-medium transition-all duration-150',
+                  isActive
+                    ? 'bg-accent-coral text-white'
+                    : 'bg-bg-elevated border border-[rgba(var(--overlay-rgb),0.06)] text-text-tertiary hover:text-text-primary hover:border-[rgba(var(--overlay-rgb),0.16)]'
+                )}
+              >
+                {day}
+                {!isActive && dp?.status === 'needs-review' && (
+                  <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-accent-coral ring-2 ring-bg-base" />
+                )}
+                {!isActive && dp?.status === 'completed' && (
+                  <span className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-accent-success ring-2 ring-bg-base flex items-center justify-center">
+                    <Check className="w-2 h-2 text-bg-base" strokeWidth={4} />
+                  </span>
+                )}
+              </button>
+            )
+          })}
         </div>
       </motion.div>
 
