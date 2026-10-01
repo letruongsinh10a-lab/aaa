@@ -1941,6 +1941,10 @@ export const grammarCaoCap: GrammarEntry[] = [
     examples: [
       { ko: '지수 씨가 우유부단하다 못해 매일 입을 옷을 고르는 데에도 30 분이나 걸려요.', vi: 'Jisu do dự đến mức mỗi ngày chọn quần áo để mặc cũng mất tới 30 phút.', romanization: 'ji-su ssi-ga u-yu-bu-dan-ha-da mo-tae mae-il i-beul o-seul go-reu-neun de-e-do sam-sip-ppu-ni-na geol-lyeo-yo', register: 'polite' },
       { ko: '민지 씨가 힘든 일정을 견디다 못해 쓰러지고 말았다.', vi: 'Minji chịu đựng lịch trình vất vả đến mức không chịu nổi nữa và cuối cùng đã ngã quỵ.', romanization: 'min-ji ssi-ga him-deun il-jeong-eul gyeon-di-da mo-tae sseu-reo-ji-go ma-rat-tta', register: 'written' },
+      { ko: '화가 나다 못해 눈물이 났어요.', vi: 'Tôi giận đến mức không giận nổi nữa, cuối cùng chỉ còn nước mắt.', romanization: 'hwa-ga na-da mo-tae nun-mu-ri na-sseo-yo', register: 'polite' },
+      { ko: '자취방이 좁다 못해 답답할 지경이었다.', vi: 'Phòng trọ chật đến mức ngột ngạt.', romanization: 'ja-chwi-bang-i jop-tta mo-tae dap-tta-pal ji-gyeong-i-eot-tta', register: 'written' },
+      { ko: '부장님의 잔소리를 참다 못해 그는 결국 사표를 던졌다.', vi: 'Không chịu nổi những lời cằn nhằn của trưởng phòng nữa, cuối cùng anh ấy đã nộp đơn xin nghỉ việc.', romanization: 'bu-jang-ni-mui jan-so-ri-reul cham-da mo-tae geu-neun gyeol-guk sa-pyo-reul deon-jyeot-tta', register: 'written' },
+      { ko: '그녀의 배려가 고맙다 못해 눈물이 날 지경이었어요.', vi: 'Sự quan tâm của cô ấy khiến tôi cảm động đến mức suýt rơi nước mắt.', romanization: 'geu-nyeo-ui bae-ryeo-ga go-map-tta mo-tae nun-mu-ri nal ji-gyeong-i-eo-sseo-yo', register: 'polite' },
     ],
     commonMistakes: [
       'Cần phân biệt nghĩa theo từ loại đứng trước: với động từ nhấn mạnh "không thể tiếp tục hành động đó nữa nên chuyển sang hành động khác", với tính từ nhấn mạnh "mức độ đã đạt đến cực điểm dẫn đến kết quả ở vế sau".',
