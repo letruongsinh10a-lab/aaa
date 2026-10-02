@@ -2,6 +2,7 @@
 
 import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/Button'
+import type { PlanId } from '@/lib/plans'
 
 function GoogleIcon() {
   return (
@@ -14,12 +15,14 @@ function GoogleIcon() {
   )
 }
 
-export function GoogleButton({ label }: { label: string }) {
+export function GoogleButton({ label, plan }: { label: string; plan?: PlanId }) {
   async function handleClick() {
     const supabase = createClient()
+    const redirectTo = new URL('/auth/callback', window.location.origin)
+    if (plan && plan !== 'free') redirectTo.searchParams.set('plan', plan)
     await supabase.auth.signInWithOAuth({
       provider: 'google',
-      options: { redirectTo: `${window.location.origin}/auth/callback` },
+      options: { redirectTo: redirectTo.toString() },
     })
   }
 

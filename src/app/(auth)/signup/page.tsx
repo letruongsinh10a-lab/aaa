@@ -1,16 +1,27 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import { signupSchema } from '@/lib/validation/auth'
 import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
+import { Badge } from '@/components/ui/Badge'
 import { GoogleButton } from '@/components/auth/GoogleButton'
+import { parsePlan, PLAN_LABELS } from '@/lib/plans'
 
 export default function SignupPage() {
+  return (
+    <Suspense fallback={<p className="text-center text-text-secondary">Đang tải...</p>}>
+      <SignupForm />
+    </Suspense>
+  )
+}
+
+function SignupForm() {
   const router = useRouter()
+  const plan = parsePlan(useSearchParams().get('plan'))
   const [displayName, setDisplayName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -33,7 +44,7 @@ export default function SignupPage() {
     const { data, error: signUpError } = await supabase.auth.signUp({
       email: parsed.data.email,
       password: parsed.data.password,
-      options: { data: { full_name: parsed.data.displayName } },
+      options: { data: { full_name: parsed.data.displayName, requested_plan: plan } },
     })
     setLoading(false)
 
@@ -70,7 +81,10 @@ export default function SignupPage() {
 
   return (
     <div>
-      <h1 className="font-serif text-3xl text-text-primary text-center mb-8">Tạo tài khoản</h1>
+      <h1 className="font-serif text-3xl text-text-primary text-center mb-2">Tạo tài khoản</h1>
+      <p className="text-center mb-8">
+        {plan !== 'free' && <Badge variant="coral">Đăng ký gói {PLAN_LABELS[plan]}</Badge>}
+      </p>
 
       <form onSubmit={handleSubmit} className="space-y-5">
         <Input
@@ -112,7 +126,7 @@ export default function SignupPage() {
         <div className="flex-1 h-px bg-[rgba(var(--overlay-rgb),0.08)]" />
       </div>
 
-      <GoogleButton label="Đăng ký với Google" />
+      <GoogleButton label="Đăng ký với Google" plan={plan} />
 
       <p className="text-center text-sm text-text-secondary mt-8">
         Đã có tài khoản?{' '}

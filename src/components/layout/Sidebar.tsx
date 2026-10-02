@@ -10,6 +10,7 @@ import {
 import { cn } from '@/lib/utils'
 import { useDashboard } from '@/hooks/useDashboard'
 import { useAuthStore } from '@/stores/authStore'
+import { useUIStore } from '@/stores/uiStore'
 import { UserMenu } from '@/components/layout/UserMenu'
 import { buttonVariants } from '@/components/ui/Button'
 import { ThemeToggle } from '@/components/ui/ThemeToggle'
@@ -25,17 +26,16 @@ const NAV = [
   { href: '/topik',           icon: Trophy,           label: 'TOPIK'     },
 ]
 
-const DAILY_GOAL_XP = 100
-
 export function Sidebar() {
   const pathname = usePathname()
   const d = useDashboard()
   const { status, user } = useAuthStore()
+  const dailyGoalXp = useUIStore((s) => s.dailyGoalXp)
 
   const isActive = (href: string, exact = false) =>
     exact ? pathname === href : pathname.startsWith(href)
 
-  const goalProgress = Math.min(100, (d.xpToday / DAILY_GOAL_XP) * 100)
+  const goalProgress = Math.min(100, (d.xpToday / dailyGoalXp) * 100)
 
   return (
     <aside className="hidden md:flex w-[240px] shrink-0 border-r border-[rgba(var(--overlay-rgb),0.06)] bg-bg-base flex-col h-full">
@@ -77,7 +77,7 @@ export function Sidebar() {
         <div>
           <div className="flex items-center justify-between mb-1.5">
             <span className="text-[11px] text-text-tertiary">Mục tiêu hôm nay</span>
-            <span className="text-[11px] text-text-tertiary">{d.xpToday}/{DAILY_GOAL_XP} XP</span>
+            <span className="text-[11px] text-text-tertiary">{d.xpToday}/{dailyGoalXp} XP</span>
           </div>
           <div className="h-1 bg-bg-elevated rounded-full overflow-hidden">
             <motion.div

@@ -5,17 +5,21 @@ import { useRouter } from 'next/navigation'
 import { Sun, Moon } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 import { useAuthStore } from '@/stores/authStore'
-import { useUIStore } from '@/stores/uiStore'
+import { useUIStore, DAILY_GOAL_OPTIONS } from '@/stores/uiStore'
 import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/Card'
+import { Badge } from '@/components/ui/Badge'
 import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
+import { parsePlan, PLAN_LABELS } from '@/lib/plans'
 
 export default function SettingsPage() {
   const router = useRouter()
   const { status, user } = useAuthStore()
   const theme = useUIStore((s) => s.theme)
   const setTheme = useUIStore((s) => s.setTheme)
+  const dailyGoalXp = useUIStore((s) => s.dailyGoalXp)
+  const setDailyGoalXp = useUIStore((s) => s.setDailyGoalXp)
   const [displayName, setDisplayName] = useState('')
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
@@ -67,6 +71,8 @@ export default function SettingsPage() {
     )
   }
 
+  const plan = parsePlan(user.user_metadata?.requested_plan as string | undefined)
+
   return (
     <div className="max-w-lg mx-auto px-6 py-16">
       <h1 className="font-serif text-3xl text-text-primary mb-8">Cài đặt tài khoản</h1>
@@ -86,6 +92,10 @@ export default function SettingsPage() {
             <div>
               <p className="block text-xs font-medium text-text-secondary mb-1.5">Email</p>
               <p className="text-sm text-text-tertiary">{user.email}</p>
+            </div>
+            <div>
+              <p className="block text-xs font-medium text-text-secondary mb-1.5">Gói đăng ký</p>
+              <Badge variant={plan === 'free' ? 'default' : 'coral'}>{PLAN_LABELS[plan]}</Badge>
             </div>
           </CardContent>
           <CardFooter className="justify-between">
@@ -129,6 +139,31 @@ export default function SettingsPage() {
               <Sun className="w-5 h-5" />
               <span className="text-sm font-medium">Sáng</span>
             </button>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card variant="default" hoverable={false} className="mt-6">
+        <CardHeader>
+          <h2 className="text-sm font-semibold text-text-primary">Mục tiêu hằng ngày</h2>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-3 gap-3">
+            {DAILY_GOAL_OPTIONS.map((xp) => (
+              <button
+                key={xp}
+                type="button"
+                onClick={() => setDailyGoalXp(xp)}
+                className={cn(
+                  'py-4 rounded-lg border text-sm font-medium transition-all',
+                  dailyGoalXp === xp
+                    ? 'border-accent-coral bg-[rgba(255,107,74,0.06)] text-text-primary'
+                    : 'border-[rgba(var(--overlay-rgb),0.12)] text-text-secondary hover:bg-bg-elevated'
+                )}
+              >
+                {xp} XP
+              </button>
+            ))}
           </div>
         </CardContent>
       </Card>
